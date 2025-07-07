@@ -9,7 +9,13 @@ The goal of the Multiverse Mod is to bring content from multiple franchises into
 - New races and xenotypes
 - Items and equipment
 - Factions
-- Other creative additions
+- Biomes
+- Flora and Fauna
+- Buildings
+- Resources
+- Quests
+- Ranks
+- Traits
 
 Expect to see characters, species, technology, and lore from your favorite universes reimagined for Rimworld gameplay.
 
