@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>The Multiverse Mod</name>
+  <author>ZacharyDM</author>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>
+    The Multiverse Mod brings together races, factions, items, and lore from multiple beloved franchises into RimWorld. Featuring a custom alien race framework, advanced graphics support, and seamless integration, this mod delivers a unique cross-universe experience.
+  </description>
+  <url>https://github.com/ZacharyDM/The-Multiverse-Mod</url>
+  <packageId>ZacharyDM.TheMultiverseMod</packageId>
+  <modDependencies>
+    <li>ludeon.rimworld</li>
+  </modDependencies>
+</ModMetaData>

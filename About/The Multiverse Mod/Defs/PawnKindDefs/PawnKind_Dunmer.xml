@@ -1,0 +1,57 @@
+<PawnKindDefs>
+  <PawnKindDef>
+    <defName>DunmerCivillian</defName>
+    <label>Dunmer</label>
+    <race>Dunmer</race>
+    <defaultFactionType>DunmerFaction</defaultFactionType> <!-- This should match one of your faction defs -->
+    <combatPower>60</combatPower>
+    <backstoryCategories>
+      <li>Dunmer</li>
+      <li>Redoran</li>
+      <li>Hlaalu</li>
+      <li>Telvanni</li>
+      <li>Indoril</li>
+      <li>Dres</li>
+      <li>Ashlander</li>
+      <li>Temple</li>
+      <li>MoragTong</li>
+      <li>CammonaTong</li>
+    </backstoryCategories>
+    <defaultOutfit>Clothes</defaultOutfit>
+    <inventoryOptions>
+      <li>
+        <thingDef>MealSimple</thingDef>
+        <count>3</count>
+      </li>
+    </inventoryOptions>
+    <itemQuality>Normal</itemQuality>
+    <forcedTraits>
+      <li>BloodOfTheChangedOnes</li>
+    </forcedTraits>
+    <lifeStages>
+      <li>
+        <defName>DunmerLifeStage</defName>
+        <label>Dunmer adult</label>
+        <bodySize>1.0</bodySize>
+        <minAge>20</minAge>
+      </li>
+    </lifeStages>
+    <allowedWorkTypes>
+      <li>All</li>
+    </allowedWorkTypes>
+    <skills>
+      <li>
+        <defName>Intellectual</defName>
+        <level>4</level>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <level>2</level>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <level>1</level>
+      </li>
+    </skills>
+  </PawnKindDef>
+</PawnKindDefs>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <ThingDef Name="HalfMerBase">
+    <defName>HalfMerBase</defName>
+    <label>half-mer</label>
+    <description>Template base for all Half Mer (elf-human hybrids). Contains shared hybrid traits and settings.</description>
+    <race>
+      <body>Humanoid</body>
+      <baseBodySize>1.0</baseBodySize>
+      <healthScale>1.0</healthScale>
+      <foodTypeFlags>VegetarianOrMeat</foodTypeFlags>
+      <gestationPeriodDays>30</gestationPeriodDays>
+      <wildness>0.0</wildness>
+      <intelligence>Humanlike</intelligence>
+      <!-- Lore-based hybrid life stages: longer lived than humans, shorter than full Mer -->
+      <lifeStageAges Inherit="False">
+        <li>
+          <def>HumanBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>HumanChild</def>
+          <minAge>5</minAge>
+        </li>
+        <li>
+          <def>HumanAdult</def>
+          <minAge>16</minAge>
+        </li>
+        <li>
+          <def>HumanOld</def>
+          <minAge>90</minAge>
+        </li>
+      </lifeStageAges>
+      <!-- Lore-based max lifespan and spawn curve -->
+      <lifeExpectancy>140</lifeExpectancy>
+      <ageGenerationCurve>
+        <points>
+          <li>
+            <x>18</x>
+            <y>0.5</y>
+          </li>
+          <li>
+            <x>40</x>
+            <y>1.0</y>
+          </li>
+          <li>
+            <x>80</x>
+            <y>0.8</y>
+          </li>
+          <li>
+            <x>110</x>
+            <y>0.5</y>
+          </li>
+          <li>
+            <x>140</x>
+            <y>0.1</y>
+          </li>
+        </points>
+      </ageGenerationCurve>
+    </race>
+    <statBases>
+      <MoveSpeed>4.5</MoveSpeed>
+      <MarketValue>2600</MarketValue>
+      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+      <ComfyTemperatureMax>40</ComfyTemperatureMax>
+      <ShootingAccuracyPawn>0.03</ShootingAccuracyPawn>
+      <MeleeHitChance>0.04</MeleeHitChance>
+    </statBases>
+    <thingCategories>
+      <li>Pawns</li>
+    </thingCategories>
+    <!-- Add shared Half Mer traits here -->
+  </ThingDef>
+</ThingDefs>

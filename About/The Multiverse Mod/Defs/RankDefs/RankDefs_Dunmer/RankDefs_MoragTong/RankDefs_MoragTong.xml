@@ -1,0 +1,62 @@
+<RankDefs>
+  <RankDef>
+    <defName>MoragTong_Associate</defName>
+    <labelMale>Associate</labelMale>
+    <labelFemale>Associate</labelFemale>
+    <description>Entry-level member of the Morag Tong, newly initiated into the organization.</description>
+  </RankDef>
+  <RankDef>
+    <defName>MoragTong_BlindThrall</defName>
+    <labelMale>Blind Thrall</labelMale>
+    <labelFemale>Blind Thrall</labelFemale>
+    <description>A devoted but unquestioning servant of the Morag Tong, acting on orders without hesitation.</description>
+  </RankDef>
+  <RankDef>
+    <defName>MoragTong_Thrall</defName>
+    <labelMale>Thrall</labelMale>
+    <labelFemale>Thrall</labelFemale>
+    <description>A low-ranking member tasked with supporting Morag Tong operations.</description>
+  </RankDef>
+  <RankDef>
+    <defName>MoragTong_WhiteThrall</defName>
+    <labelMale>White Thrall</labelMale>
+    <labelFemale>White Thrall</labelFemale>
+    <description>An experienced Thrall who has earned recognition for their loyalty and skill.</description>
+  </RankDef>
+  <RankDef>
+    <defName>MoragTong_Thinker</defName>
+    <labelMale>Thinker</labelMale>
+    <labelFemale>Thinker</labelFemale>
+    <description>A strategist and planner, contributing insight to the Morag Tong's operations.</description>
+  </RankDef>
+  <RankDef>
+    <defName>MoragTong_Brother</defName>
+    <labelMale>Brother</labelMale>
+    <labelFemale>Sister</labelFemale>
+    <description>A trusted and proven agent of the Morag Tong, regarded as family within the organization.</description>
+  </RankDef>
+  <RankDef>
+    <defName>MoragTong_Knower</defName>
+    <labelMale>Knower</labelMale>
+    <labelFemale>Knower</labelFemale>
+    <description>A member with privileged knowledge of the Morag Tong’s secrets and inner workings.</description>
+  </RankDef>
+  <RankDef>
+    <defName>MoragTong_Master</defName>
+    <labelMale>Master</labelMale>
+    <labelFemale>Master</labelFemale>
+    <description>A senior figure within the Morag Tong, commanding respect and authority.</description>
+  </RankDef>
+  <RankDef>
+    <defName>MoragTong_ExaltedMaster</defName>
+    <labelMale>Exalted Master</labelMale>
+    <labelFemale>Exalted Master</labelFemale>
+    <description>A highly revered Master, honored for exceptional service and leadership.</description>
+  </RankDef>
+  <RankDef>
+    <defName>MoragTong_Grandmaster</defName>
+    <labelMale>Grandmaster</labelMale>
+    <labelFemale>Grandmaster</labelFemale>
+    <description>The supreme leader of the Morag Tong, holding ultimate authority over all members.</description>
+  </RankDef>
+</RankDefs>
