@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <ThingDef ParentName="MerBase">
+    <defName>Dunmer</defName>
+    <label>dunmer</label>
+    <description>Full-blooded dark elf from the Elder Scrolls universe.</description>
+    <race>
+      <!-- Unique Dunmer skin color: Ash-grey -->
+      <colorGenerator Class="ColorGenerator_Single">
+        <color>(0.5, 0.5, 0.6, 1)</color>
+      </colorGenerator>
+      <!-- Trait for lore/flavor; use if defined in TraitDefs and preferred over skillGains -->
+      <forcedTraits>
+        <li>BloodOfTheChangedOnes</li>
+      </forcedTraits>
+      <!-- Remove or comment out skillGains if using trait bonuses -->
+      <!--
+      <skillGains>
+        <li>
+          <skill>Intellectual</skill>
+          <amount>4</amount>
+        </li>
+        <li>
+          <skill>Shooting</skill>
+          <amount>2</amount>
+        </li>
+        <li>
+          <skill>Social</skill>
+          <amount>1</amount>
+        </li>
+      </skillGains>
+      -->
+    </race>
+    <statBases>
+      <MoveSpeed>4.6</MoveSpeed>
+      <MarketValue>3200</MarketValue>
+      <ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+      <MeleeHitChance>0.06</MeleeHitChance>
+      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+      <ComfyTemperatureMax>45</ComfyTemperatureMax>
+    </statBases>
+    <!-- Add Dunmer-specific traits, graphics, etc. -->
+  </ThingDef>
+</ThingDefs>

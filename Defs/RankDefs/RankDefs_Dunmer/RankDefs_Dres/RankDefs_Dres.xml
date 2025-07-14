@@ -1,0 +1,68 @@
+<RankDefs>
+  <RankDef>
+    <defName>Dres_Hireling</defName>
+    <labelMale>Hireling</labelMale>
+    <labelFemale>Hireling</labelFemale>
+    <description>Entry-level member of House Dres, newly admitted and yet to prove themselves.</description>
+  </RankDef>
+  <RankDef>
+    <defName>Dres_Retainer</defName>
+    <labelMale>Retainer</labelMale>
+    <labelFemale>Retainer</labelFemale>
+    <description>A trusted servant who has demonstrated loyalty and skill to House Dres.</description>
+  </RankDef>
+  <RankDef>
+    <defName>Dres_Oathman</defName>
+    <labelMale>Oathman</labelMale>
+    <labelFemale>Oathwoman</labelFemale>
+    <description>A sworn member of House Dres, committed to its ways and traditions.</description>
+  </RankDef>
+  <RankDef>
+    <defName>Dres_Lawman</defName>
+    <labelMale>Lawman</labelMale>
+    <labelFemale>Lawwoman</labelFemale>
+    <description>A member entrusted with upholding the laws and customs of House Dres.</description>
+  </RankDef>
+  <RankDef>
+    <defName>Dres_Kinsman</defName>
+    <labelMale>Kinsman</labelMale>
+    <labelFemale>Kinswoman</labelFemale>
+    <description>A respected member regarded as family by House Dres.</description>
+  </RankDef>
+  <RankDef>
+    <defName>Dres_HouseCousin</defName>
+    <labelMale>House Cousin</labelMale>
+    <labelFemale>House Cousin</labelFemale>
+    <description>A close confidant and family to the House, entrusted with greater responsibilities.</description>
+  </RankDef>
+  <RankDef>
+    <defName>Dres_HouseBrother</defName>
+    <labelMale>House Brother</labelMale>
+    <labelFemale>House Sister</labelFemale>
+    <description>A sibling in House Dres, demonstrating deep trust and loyalty.</description>
+  </RankDef>
+  <RankDef>
+    <defName>Dres_HouseFather</defName>
+    <labelMale>House Father</labelMale>
+    <labelFemale>House Mother</labelFemale>
+    <description>A parental figure in House Dres, guiding less experienced members.</description>
+  </RankDef>
+  <RankDef>
+    <defName>Dres_Councilman</defName>
+    <labelMale>Councilman</labelMale>
+    <labelFemale>Councilwoman</labelFemale>
+    <description>A voting member of the Dres council, involved in decision-making and governance.</description>
+  </RankDef>
+  <RankDef>
+    <defName>Dres_HouseCouncilor</defName>
+    <labelMale>House Councilor</labelMale>
+    <labelFemale>House Councilor</labelFemale>
+    <description>A senior council member of House Dres, guiding the House's future and policy.</description>
+  </RankDef>
+  <RankDef>
+    <defName>Dres_Grandmaster</defName>
+    <labelMale>Grandmaster</labelMale>
+    <labelFemale>Grandmaster</labelFemale>
+    <description>The supreme leader of House Dres, holding ultimate authority and responsibility.</description>
+  </RankDef>
+</RankDefs>
