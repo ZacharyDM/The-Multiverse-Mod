@@ -40,5 +40,9 @@
     <thingCategories>
       <li>Pawns</li>
     </thingCategories>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/HalfDunmer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
   </ThingDef>
 </ThingDefs>

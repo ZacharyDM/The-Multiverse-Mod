@@ -39,6 +39,10 @@
       <ComfyTemperatureMin>-20</ComfyTemperatureMin>
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
     </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/Dunmer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
     <!-- Add Dunmer-specific traits, graphics, etc. -->
   </ThingDef>
 </ThingDefs>
