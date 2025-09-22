@@ -1,7 +1,7 @@
 <TraitDef>
   <defName>BloodOfTheChangedOnes</defName>
   <label>Blood of the Changed Ones</label>
-  <description>This pawn carries the legacy of the Chimer—'the Changed Ones'—whose transformation by Azura shaped the enduring spirit and intellect of the Dunmer.</description>
+  <description>This pawn carries the legacy of the Chimer—'the Changed Ones'—whose transformation by the influence of Boethiah shaped the enduring spirit and intellect of the Dunmer.</description>
   <degreeDatas>
     <li>
       <label>Changed One</label>
@@ -13,4 +13,5 @@
       </skillGains>
     </li>
   </degreeDatas>
+
 </TraitDef>
