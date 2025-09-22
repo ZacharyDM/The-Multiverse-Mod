@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <!-- Star Wars Human Variants -->
+  <ThingDef ParentName="NearHumanBase">
+    <defName>StarWarsHuman</defName>
+    <label>galactic human</label>
+    <description>Humans from a galaxy far, far away. These humans have spread across thousands of star systems and adapted to various environments, making them versatile and resourceful.</description>
+    <race>
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <only>FFFCF0</only>
+          </li>
+          <li>
+            <only>F7E6C2</only>
+          </li>
+          <li>
+            <only>E8B887</only>
+          </li>
+          <li>
+            <only>D4A574</only>
+          </li>
+          <li>
+            <only>C7956B</only>
+          </li>
+          <li>
+            <only>A67C52</only>
+          </li>
+          <li>
+            <only>8B6914</only>
+          </li>
+        </options>
+      </colorGenerator>
+      <forcedTraits>
+        <li>
+          <def>GalacticHeritage</def>
+        </li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MarketValue>1800</MarketValue>
+      <ShootingAccuracyPawn>1.05</ShootingAccuracyPawn>
+      <MeleeHitChance>1.0</MeleeHitChance>
+    </statBases>
+  </ThingDef>
+
+  <!-- Twi'lek -->
+  <ThingDef ParentName="NearHumanBase">
+    <defName>Twilek</defName>
+    <label>twi'lek</label>
+    <description>A humanoid species characterized by their distinctive head-tails called lekku. Twi'leks are known for their grace, intelligence, and cultural sophistication. They come from the planet Ryloth and are skilled negotiators and entertainers.</description>
+    <race>
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <only>7FB3D3</only>
+          </li>
+          <li>
+            <only>98FB98</only>
+          </li>
+          <li>
+            <only>FFB6C1</only>
+          </li>
+          <li>
+            <only>DDA0DD</only>
+          </li>
+          <li>
+            <only>F0E68C</only>
+          </li>
+          <li>
+            <only>FFA07A</only>
+          </li>
+        </options>
+      </colorGenerator>
+      <forcedTraits>
+        <li>
+          <def>Graceful</def>
+        </li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MarketValue>2100</MarketValue>
+      <SocialImpact>1.15</SocialImpact>
+      <NegotiationAbility>1.20</NegotiationAbility>
+      <TradePriceImprovement>1.10</TradePriceImprovement>
+      <MoveSpeed>4.8</MoveSpeed>
+    </statBases>
+  </ThingDef>
+
+  <!-- Rodian -->
+  <ThingDef ParentName="AlienBase">
+    <defName>Rodian</defName>
+    <label>rodian</label>
+    <description>Green-skinned reptilian humanoids from the planet Rodia. Rodians are natural hunters with exceptional eyesight and reflexes. They have a culture that values hunting prowess and are often found working as bounty hunters or scouts.</description>
+    <race>
+      <colorGenerator Class="ColorGenerator_Single">
+        <color>(0.4, 0.7, 0.3, 1)</color>
+      </colorGenerator>
+      <forcedTraits>
+        <li>
+          <def>Hunter</def>
+        </li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MarketValue>2300</MarketValue>
+      <ShootingAccuracyPawn>1.25</ShootingAccuracyPawn>
+      <MeleeHitChance>1.10</MeleeHitChance>
+      <HuntingStealth>1.30</HuntingStealth>
+    </statBases>
+  </ThingDef>
+
+  <!-- Zabrak -->
+  <ThingDef ParentName="NearHumanBase">
+    <defName>Zabrak</defName>
+    <label>zabrak</label>
+    <description>Near-human species known for their distinctive facial tattoos and small horns protruding from their skulls. Zabraks are renowned for their mental discipline, determination, and resistance to pain. They hail from the planet Iridonia.</description>
+    <race>
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <only>FFFCF0</only>
+          </li>
+          <li>
+            <only>F7E6C2</only>
+          </li>
+          <li>
+            <only>FFE4B5</only>
+          </li>
+          <li>
+            <only>FFA07A</only>
+          </li>
+          <li>
+            <only>CD853F</only>
+          </li>
+          <li>
+            <only>8B4513</only>
+          </li>
+        </options>
+      </colorGenerator>
+      <forcedTraits>
+        <li>
+          <def>IronWilled</def>
+        </li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+      <PainShockThreshold>1.25</PainShockThreshold>
+      <MentalBreakThreshold>0.25</MentalBreakThreshold>
+      <PsychicSensitivity>1.10</PsychicSensitivity>
+    </statBases>
+  </ThingDef>
+
+  <!-- Chiss -->
+  <ThingDef ParentName="NearHumanBase">
+    <defName>Chiss</defName>
+    <label>chiss</label>
+    <description>Blue-skinned near-human species known for their analytical minds and tactical brilliance. The Chiss come from the Unknown Regions and are natural strategists and warriors. They are methodical, logical, and value order and discipline.</description>
+    <race>
+      <colorGenerator Class="ColorGenerator_Single">
+        <color>(0.4, 0.6, 0.9, 1)</color>
+      </colorGenerator>
+      <forcedTraits>
+        <li>
+          <def>TacticalMind</def>
+        </li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MarketValue>2200</MarketValue>
+      <ShootingAccuracyPawn>1.15</ShootingAccuracyPawn>
+      <WorkSpeedGlobal>1.05</WorkSpeedGlobal>
+      <ResearchSpeed>1.20</ResearchSpeed>
+    </statBases>
+  </ThingDef>
+
+  <!-- Wookiee -->
+  <ThingDef ParentName="AlienBase">
+    <defName>Wookiee</defName>
+    <label>wookiee</label>
+    <description>Tall, furry humanoids from the forest world of Kashyyyk. Wookiees are incredibly strong and loyal, with a strong sense of honor. They are natural mechanics and warriors, known for their fierce loyalty to their friends and their terrible temper when wronged.</description>
+    <race>
+      <baseBodySize>1.4</baseBodySize>
+      <baseHealthScale>1.3</baseHealthScale>
+      <lifeExpectancy>400</lifeExpectancy>
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <only>8B4513</only>
+          </li>
+          <li>
+            <only>A0522D</only>
+          </li>
+          <li>
+            <only>654321</only>
+          </li>
+          <li>
+            <only>2F1B14</only>
+          </li>
+          <li>
+            <only>FFFACD</only>
+          </li>
+        </options>
+      </colorGenerator>
+      <forcedTraits>
+        <li>
+          <def>Loyal</def>
+        </li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+      <MoveSpeed>5.2</MoveSpeed>
+      <MeleeDamageFactor>1.5</MeleeDamageFactor>
+      <CarryingCapacity>150</CarryingCapacity>
+      <MeleeHitChance>1.25</MeleeHitChance>
+      <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+      <ComfyTemperatureMax>25</ComfyTemperatureMax>
+    </statBases>
+  </ThingDef>
+</ThingDefs>

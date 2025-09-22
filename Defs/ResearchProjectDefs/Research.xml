@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResearchProjectDefs>
+  <!-- Star Wars Research -->
+  <ResearchProjectDef>
+    <defName>BlasterTechnology</defName>
+    <label>blaster technology</label>
+    <description>Learn to create basic energy weapons that fire concentrated plasma bolts. These weapons are standard throughout the galaxy.</description>
+    <baseCost>1200</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>PrecisionRifling</li>
+    </prerequisites>
+    <researchViewX>6.00</researchViewX>
+    <researchViewY>3.50</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>LightsaberCrafting</defName>
+    <label>lightsaber crafting</label>
+    <description>Master the ancient art of lightsaber construction. Requires deep understanding of kyber crystals and the Force to create these elegant weapons.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>BlasterTechnology</li>
+      <li>Fabrication</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>7.50</researchViewX>
+    <researchViewY>3.50</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>HolographicTechnology</defName>
+    <label>holographic technology</label>
+    <description>Develop advanced holographic projection systems for communication, entertainment, and data storage.</description>
+    <baseCost>2200</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>MultiAnalyzer</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>5.50</researchViewX>
+    <researchViewY>4.00</researchViewY>
+  </ResearchProjectDef>
+
+  <!-- Elder Scrolls Research -->
+  <ResearchProjectDef>
+    <defName>DwarvenEngineering</defName>
+    <label>dwarven engineering</label>
+    <description>Study the lost technology of the Dwemer race. Learn to create their intricate mechanical devices and automatons.</description>
+    <baseCost>2800</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>Smithing</li>
+      <li>ComplexClothing</li>
+    </prerequisites>
+    <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>1.50</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DaedricSmithing</defName>
+    <label>daedric smithing</label>
+    <description>Learn the dark art of forging weapons and armor imbued with daedric power. These items are among the finest that can be created.</description>
+    <baseCost>3600</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>Smithing</li>
+      <li>ComplexFurniture</li>
+    </prerequisites>
+    <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
+    <researchViewX>5.00</researchViewX>
+    <researchViewY>1.50</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>TelvanniArchitecture</defName>
+    <label>telvanni architecture</label>
+    <description>Master the unique building techniques of House Telvanni, learning to grow and shape living structures using a combination of magic and nature.</description>
+    <baseCost>2400</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>ComplexFurniture</li>
+      <li>TreeSowing</li>
+    </prerequisites>
+    <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
+    <researchViewX>3.50</researchViewX>
+    <researchViewY>2.00</researchViewY>
+  </ResearchProjectDef>
+
+  <!-- Cross-Universe Advanced Research -->
+  <ResearchProjectDef>
+    <defName>MultiversalStudies</defName>
+    <label>multiversal studies</label>
+    <description>Begin to understand the connections between different universes and realities. This opens up possibilities for advanced cross-dimensional technologies.</description>
+    <baseCost>8000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>LightsaberCrafting</li>
+      <li>DaedricSmithing</li>
+      <li>HolographicTechnology</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>8.00</researchViewX>
+    <researchViewY>2.75</researchViewY>
+  </ResearchProjectDef>
+</ResearchProjectDefs>

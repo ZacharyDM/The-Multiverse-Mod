@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <!-- Base template for all humanoid races across universes -->
+  <ThingDef Name="HumanoidBase" Abstract="True">
+    <defName>HumanoidBase</defName>
+    <label>humanoid</label>
+    <description>Base template for humanoid races from various universes.</description>
+    <thingClass>Pawn</thingClass>
+    <category>Pawn</category>
+    <race>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+      <intelligence>Humanlike</intelligence>
+      <makesFootprints>true</makesFootprints>
+      <lifeExpectancy>80</lifeExpectancy>
+      <leatherDef>Leather_Human</leatherDef>
+      <nameCategory>HumanStandard</nameCategory>
+      <body>Human</body>
+      <baseBodySize>1.0</baseBodySize>
+      <baseHealthScale>1.0</baseHealthScale>
+      <foodType>OmnivoreHuman</foodType>
+      <gestationPeriodDays>45</gestationPeriodDays>
+      <meatMarketValue>0.8</meatMarketValue>
+      <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0.02)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>HumanlikeBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>HumanliteChild</def>
+          <minAge>3</minAge>
+        </li>
+        <li>
+          <def>HumanliteTeenager</def>
+          <minAge>13</minAge>
+        </li>
+        <li>
+          <def>HumanliteAdult</def>
+          <minAge>18</minAge>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <specialShadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialShadowData>
+      <ageGenerationCurve>
+        <points>
+          <li>(14, 0)</li>
+          <li>(16, 100)</li>
+          <li>(50, 100)</li>
+          <li>(60, 30)</li>
+          <li>(70, 18)</li>
+          <li>(80, 10)</li>
+          <li>(90, 3)</li>
+          <li>(100, 0)</li>
+        </points>
+      </ageGenerationCurve>
+      <hediffGiverSets>
+        <li>OrganicStandard</li>
+      </hediffGiverSets>
+    </race>
+    <statBases>
+      <MarketValue>1750</MarketValue>
+      <MoveSpeed>4.6</MoveSpeed>
+      <Flammability>1.0</Flammability>
+      <PsychicSensitivity>1.0</PsychicSensitivity>
+      <ToxicResistance>0</ToxicResistance>
+      <ComfyTemperatureMin>12</ComfyTemperatureMin>
+      <ComfyTemperatureMax>32</ComfyTemperatureMax>
+    </statBases>
+    <tools>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!-- Base template for Near-Human races (Star Wars style) -->
+  <ThingDef Name="NearHumanBase" ParentName="HumanoidBase" Abstract="True">
+    <defName>NearHumanBase</defName>
+    <label>near-human</label>
+    <description>Base template for near-human species from advanced civilizations.</description>
+    <race>
+      <lifeExpectancy>90</lifeExpectancy>
+    </race>
+    <statBases>
+      <MarketValue>1900</MarketValue>
+      <MoveSpeed>4.7</MoveSpeed>
+      <ComfyTemperatureMin>10</ComfyTemperatureMin>
+      <ComfyTemperatureMax>35</ComfyTemperatureMax>
+    </statBases>
+  </ThingDef>
+
+  <!-- Base template for Alien races -->
+  <ThingDef Name="AlienBase" ParentName="HumanoidBase" Abstract="True">
+    <defName>AlienBase</defName>
+    <label>alien</label>
+    <description>Base template for non-human alien races.</description>
+    <race>
+      <lifeExpectancy>100</lifeExpectancy>
+    </race>
+    <statBases>
+      <MarketValue>2200</MarketValue>
+      <MoveSpeed>4.5</MoveSpeed>
+      <PsychicSensitivity>0.8</PsychicSensitivity>
+    </statBases>
+  </ThingDef>
+
+  <!-- Base template for Fantasy Humanoid races -->
+  <ThingDef Name="FantasyHumanoidBase" ParentName="HumanoidBase" Abstract="True">
+    <defName>FantasyHumanoidBase</defName>
+    <label>fantasy humanoid</label>
+    <description>Base template for fantasy humanoid races.</description>
+    <race>
+      <lifeExpectancy>120</lifeExpectancy>
+    </race>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+      <PsychicSensitivity>1.2</PsychicSensitivity>
+    </statBases>
+  </ThingDef>
+</ThingDefs>

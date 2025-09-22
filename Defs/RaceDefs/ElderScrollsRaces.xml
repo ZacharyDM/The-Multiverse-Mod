@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <!-- Nord -->
+  <ThingDef ParentName="FantasyHumanoidBase">
+    <defName>Nord</defName>
+    <label>nord</label>
+    <description>Hardy humans from the northern province of Skyrim. Nords are renowned warriors with natural resistance to frost and a strong martial tradition. They value honor, courage, and strength above all else.</description>
+    <race>
+      <lifeExpectancy>90</lifeExpectancy>
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <only>FFFCF0</only>
+          </li>
+          <li>
+            <only>F7E6C2</only>
+          </li>
+          <li>
+            <only>E8B887</only>
+          </li>
+          <li>
+            <only>D4A574</only>
+          </li>
+        </options>
+      </colorGenerator>
+      <forcedTraits>
+        <li>
+          <def>FrostResistant</def>
+        </li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MarketValue>2100</MarketValue>
+      <MoveSpeed>4.7</MoveSpeed>
+      <MeleeDamageFactor>1.15</MeleeDamageFactor>
+      <ComfyTemperatureMin>-25</ComfyTemperatureMin>
+      <ComfyTemperatureMax>30</ComfyTemperatureMax>
+      <MeleeHitChance>1.10</MeleeHitChance>
+    </statBases>
+  </ThingDef>
+
+  <!-- Imperial -->
+  <ThingDef ParentName="FantasyHumanoidBase">
+    <defName>Imperial</defName>
+    <label>imperial</label>
+    <description>Natives of Cyrodiil, the heart of the Empire. Imperials are natural diplomats and traders, with a talent for leadership and organization. They are well-educated and cosmopolitan, comfortable in both military and civilian roles.</description>
+    <race>
+      <lifeExpectancy>85</lifeExpectancy>
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <only>FFFCF0</only>
+          </li>
+          <li>
+            <only>F7E6C2</only>
+          </li>
+          <li>
+            <only>E8B887</only>
+          </li>
+          <li>
+            <only>D4A574</only>
+          </li>
+          <li>
+            <only>C7956B</only>
+          </li>
+        </options>
+      </colorGenerator>
+      <forcedTraits>
+        <li>
+          <def>ImperialCharm</def>
+        </li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+      <SocialImpact>1.20</SocialImpact>
+      <TradePriceImprovement>1.15</TradePriceImprovement>
+      <NegotiationAbility>1.25</NegotiationAbility>
+      <WorkSpeedGlobal>1.05</WorkSpeedGlobal>
+    </statBases>
+  </ThingDef>
+
+  <!-- Breton -->
+  <ThingDef ParentName="FantasyHumanoidBase">
+    <defName>Breton</defName>
+    <label>breton</label>
+    <description>Part-elven humans from High Rock, known for their intelligence and magical aptitude. Bretons have natural resistance to magic and are often scholars, mages, or craftsmen. Their mixed heritage gives them both human ambition and elven longevity.</description>
+    <race>
+      <lifeExpectancy>110</lifeExpectancy>
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <only>FFFCF0</only>
+          </li>
+          <li>
+            <only>F7E6C2</only>
+          </li>
+          <li>
+            <only>E8B887</only>
+          </li>
+          <li>
+            <only>D4A574</only>
+          </li>
+        </options>
+      </colorGenerator>
+      <forcedTraits>
+        <li>
+          <def>MagicAffinity</def>
+        </li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MarketValue>2300</MarketValue>
+      <PsychicSensitivity>1.30</PsychicSensitivity>
+      <ResearchSpeed>1.25</ResearchSpeed>
+      <MagicResist>1.20</MagicResist>
+      <WorkSpeedGlobal>1.10</WorkSpeedGlobal>
+    </statBases>
+  </ThingDef>
+
+  <!-- Redguard -->
+  <ThingDef ParentName="FantasyHumanoidBase">
+    <defName>Redguard</defName>
+    <label>redguard</label>
+    <description>Dark-skinned humans from the desert province of Hammerfell. Redguards are natural warriors and sailors, with a strong martial tradition focused on swordplay. They are proud, independent, and fiercely protective of their freedom.</description>
+    <race>
+      <lifeExpectancy>85</lifeExpectancy>
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <only>8B4513</only>
+          </li>
+          <li>
+            <only>A0522D</only>
+          </li>
+          <li>
+            <only>654321</only>
+          </li>
+          <li>
+            <only>D2691E</only>
+          </li>
+          <li>
+            <only>CD853F</only>
+          </li>
+        </options>
+      </colorGenerator>
+      <forcedTraits>
+        <li>
+          <def>SwordSinger</def>
+        </li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MarketValue>2200</MarketValue>
+      <MoveSpeed>4.8</MoveSpeed>
+      <MeleeDamageFactor>1.20</MeleeDamageFactor>
+      <MeleeHitChance>1.15</MeleeHitChance>
+      <ComfyTemperatureMin>15</ComfyTemperatureMin>
+      <ComfyTemperatureMax>50</ComfyTemperatureMax>
+    </statBases>
+  </ThingDef>
+
+  <!-- Altmer (High Elf) -->
+  <ThingDef ParentName="MerBase">
+    <defName>Altmer</defName>
+    <label>altmer</label>
+    <description>High elves from the Summerset Isles. Altmer consider themselves the most refined and civilized race, with natural magical abilities and long lifespans. They are proud, intelligent, and often arrogant about their superiority.</description>
+    <race>
+      <baseBodySize>1.1</baseBodySize>
+      <lifeExpectancy>300</lifeExpectancy>
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <only>FFFACD</only>
+          </li>
+          <li>
+            <only>FFF8DC</only>
+          </li>
+          <li>
+            <only>FFEBCD</only>
+          </li>
+          <li>
+            <only>F5DEB3</only>
+          </li>
+        </options>
+      </colorGenerator>
+      <forcedTraits>
+        <li>
+          <def>HighbornPride</def>
+        </li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MarketValue>2800</MarketValue>
+      <PsychicSensitivity>1.40</PsychicSensitivity>
+      <ResearchSpeed>1.35</ResearchSpeed>
+      <WorkSpeedGlobal>1.15</WorkSpeedGlobal>
+      <SocialImpact>1.10</SocialImpact>
+      <MoveSpeed>4.4</MoveSpeed>
+    </statBases>
+  </ThingDef>
+
+  <!-- Bosmer (Wood Elf) -->
+  <ThingDef ParentName="MerBase">
+    <defName>Bosmer</defName>
+    <label>bosmer</label>
+    <description>Wood elves from the forests of Valenwood. Bosmer are natural archers and scouts, with an innate connection to nature. They are bound by the Green Pact, which forbids them from harming plant life in Valenwood.</description>
+    <race>
+      <baseBodySize>0.9</baseBodySize>
+      <lifeExpectancy>250</lifeExpectancy>
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <only>D2B48C</only>
+          </li>
+          <li>
+            <only>DEB887</only>
+          </li>
+          <li>
+            <only>F5DEB3</only>
+          </li>
+          <li>
+            <only>D4A574</only>
+          </li>
+        </options>
+      </colorGenerator>
+      <forcedTraits>
+        <li>
+          <def>NatureBond</def>
+        </li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MarketValue>2600</MarketValue>
+      <ShootingAccuracyPawn>1.30</ShootingAccuracyPawn>
+      <MoveSpeed>5.0</MoveSpeed>
+      <HuntingStealth>1.25</HuntingStealth>
+      <PlantWorkSpeed>1.20</PlantWorkSpeed>
+      <AnimalGatherSpeed>1.15</AnimalGatherSpeed>
+    </statBases>
+  </ThingDef>
+
+  <!-- Orsimer (Orc) -->
+  <ThingDef ParentName="MerBase">
+    <defName>Orsimer</defName>
+    <label>orsimer</label>
+    <description>Orcs, also known as Orsimer, are the strongest of the elven races. They live in strongholds scattered across the northern mountains and are renowned for their skill in heavy armor and weapons. They follow a strict code of honor and strength.</description>
+    <race>
+      <baseBodySize>1.2</baseBodySize>
+      <baseHealthScale>1.2</baseHealthScale>
+      <lifeExpectancy>180</lifeExpectancy>
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <only>6B8E23</only>
+          </li>
+          <li>
+            <only>8FBC8F</only>
+          </li>
+          <li>
+            <only>9ACD32</only>
+          </li>
+          <li>
+            <only>556B2F</only>
+          </li>
+        </options>
+      </colorGenerator>
+      <forcedTraits>
+        <li>
+          <def>OrcishStrength</def>
+        </li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MarketValue>2400</MarketValue>
+      <MeleeDamageFactor>1.30</MeleeDamageFactor>
+      <MeleeHitChance>1.20</MeleeHitChance>
+      <ArmorRating_Blunt>1.10</ArmorRating_Blunt>
+      <CarryingCapacity>120</CarryingCapacity>
+      <MoveSpeed>4.3</MoveSpeed>
+    </statBases>
+  </ThingDef>
+
+  <!-- Khajiit -->
+  <ThingDef ParentName="FantasyHumanoidBase">
+    <defName>Khajiit</defName>
+    <label>khajiit</label>
+    <description>Feline humanoids from the desert province of Elsweyr. Khajiit are natural thieves and traders, with enhanced senses and natural agility. They come in many different forms depending on the phase of the moons when they were born.</description>
+    <race>
+      <lifeExpectancy>100</lifeExpectancy>
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <only>F4A460</only>
+          </li>
+          <li>
+            <only>DEB887</only>
+          </li>
+          <li>
+            <only>D2B48C</only>
+          </li>
+          <li>
+            <only>CD853F</only>
+          </li>
+          <li>
+            <only>2F1B14</only>
+          </li>
+          <li>
+            <only>FFFACD</only>
+          </li>
+        </options>
+      </colorGenerator>
+      <forcedTraits>
+        <li>
+          <def>FelineAgility</def>
+        </li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MarketValue>2300</MarketValue>
+      <MoveSpeed>5.2</MoveSpeed>
+      <MeleeHitChance>1.15</MeleeHitChance>
+      <WorkSpeedGlobal>1.05</WorkSpeedGlobal>
+      <TradePriceImprovement>1.20</TradePriceImprovement>
+      <CarryingCapacity>80</CarryingCapacity>
+    </statBases>
+  </ThingDef>
+
+  <!-- Argonian -->
+  <ThingDef ParentName="FantasyHumanoidBase">
+    <defName>Argonian</defName>
+    <label>argonian</label>
+    <description>Reptilian humanoids from the swamps of Black Marsh. Argonians are naturally resistant to disease and poison, with the ability to breathe underwater. They are mysterious and often misunderstood by other races.</description>
+    <race>
+      <lifeExpectancy>120</lifeExpectancy>
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <only>228B22</only>
+          </li>
+          <li>
+            <only>6B8E23</only>
+          </li>
+          <li>
+            <only>8FBC8F</only>
+          </li>
+          <li>
+            <only>9ACD32</only>
+          </li>
+          <li>
+            <only>32CD32</only>
+          </li>
+          <li>
+            <only>ADFF2F</only>
+          </li>
+        </options>
+      </colorGenerator>
+      <forcedTraits>
+        <li>
+          <def>SwampBorn</def>
+        </li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MarketValue>2500</MarketValue>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ImmunityGainSpeed>1.25</ImmunityGainSpeed>
+      <SwimSpeed>1.50</SwimSpeed>
+      <ComfyTemperatureMin>20</ComfyTemperatureMin>
+      <ComfyTemperatureMax>45</ComfyTemperatureMax>
+    </statBases>
+  </ThingDef>
+</ThingDefs>

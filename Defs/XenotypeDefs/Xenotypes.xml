@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XenotypeDefs>
+  <!-- Star Wars Xenotypes -->
+  <XenotypeDef>
+    <defName>Xenotype_GalacticHuman</defName>
+    <label>galactic human</label>
+    <description>Humans adapted to life across thousands of star systems. They are versatile and resilient, having evolved subtle enhancements for space travel and diverse planetary conditions.</description>
+    <descriptionShort>Spacefaring humans with enhanced adaptability</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    <displayPriority>100</displayPriority>
+    <genes>
+      <li>
+        <def>Archite_Metabolism</def>
+      </li>
+      <li>
+        <def>Immunity_Strong</def>
+      </li>
+      <li>
+        <def>Learning_Fast</def>
+      </li>
+    </genes>
+  </XenotypeDef>
+
+  <XenotypeDef>
+    <defName>Xenotype_Twilek</defName>
+    <label>twi'lek</label>
+    <description>Graceful humanoids with distinctive head-tails called lekku. Twi'leks are naturally charismatic and possess enhanced social abilities, making them excellent diplomats and performers.</description>
+    <descriptionShort>Graceful aliens with natural social talents</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    <displayPriority>95</displayPriority>
+    <genes>
+      <li>
+        <def>Beauty</def>
+      </li>
+      <li>
+        <def>SociallyGifted</def>
+      </li>
+      <li>
+        <def>MoveSpeed_Quick</def>
+      </li>
+      <li>
+        <def>Libido_High</def>
+      </li>
+    </genes>
+  </XenotypeDef>
+
+  <XenotypeDef>
+    <defName>Xenotype_Wookiee</defName>
+    <label>wookiee</label>
+    <description>Tall, furry humanoids known for their incredible strength and loyalty. Wookiees are natural mechanics and fierce warriors with lifespans measured in centuries.</description>
+    <descriptionShort>Strong, loyal beings with mechanical aptitude</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    <displayPriority>90</displayPriority>
+    <genes>
+      <li>
+        <def>Body_Hulk</def>
+      </li>
+      <li>
+        <def>Beard_Always</def>
+      </li>
+      <li>
+        <def>Hair_BaldOnly</def>
+      </li>
+      <li>
+        <def>Longjump</def>
+      </li>
+      <li>
+        <def>Hands</def>
+      </li>
+      <li>
+        <def>Aggressive</def>
+      </li>
+      <li>
+        <def>Lifespan_Long</def>
+      </li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Elder Scrolls Xenotypes -->
+  <XenotypeDef>
+    <defName>Xenotype_Nord</defName>
+    <label>nord</label>
+    <description>Hardy humans from frozen northern lands. Nords possess natural resistance to cold and are born warriors with strong constitutions and fierce temperaments.</description>
+    <descriptionShort>Cold-resistant warrior humans</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    <displayPriority>85</displayPriority>
+    <genes>
+      <li>
+        <def>Temperature_ColdResistant</def>
+      </li>
+      <li>
+        <def>Body_Strong</def>
+      </li>
+      <li>
+        <def>Aggressive</def>
+      </li>
+      <li>
+        <def>Immunity_Strong</def>
+      </li>
+    </genes>
+  </XenotypeDef>
+
+  <XenotypeDef>
+    <defName>Xenotype_Altmer</defName>
+    <label>altmer</label>
+    <description>High elves with superior magical abilities and extended lifespans. They consider themselves the most civilized and refined race, often displaying arrogance alongside their considerable talents.</description>
+    <descriptionShort>Magical elves with superior intellect</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    <displayPriority>80</displayPriority>
+    <genes>
+      <li>
+        <def>Lifespan_Long</def>
+      </li>
+      <li>
+        <def>Learning_Fast</def>
+      </li>
+      <li>
+        <def>Body_Thin</def>
+      </li>
+      <li>
+        <def>PsychicAbility_Enhanced</def>
+      </li>
+      <li>
+        <def>Mood_Pessimist</def>
+      </li>
+    </genes>
+  </XenotypeDef>
+
+  <XenotypeDef>
+    <defName>Xenotype_Orsimer</defName>
+    <label>orsimer</label>
+    <description>Orcs are the strongest and most physically powerful of the elven races. They live by a strict code of honor and strength, excelling in combat and craftsmanship.</description>
+    <descriptionShort>Strong orcish elves with warrior culture</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    <displayPriority>75</displayPriority>
+    <genes>
+      <li>
+        <def>Body_Hulk</def>
+      </li>
+      <li>
+        <def>Skin_Green</def>
+      </li>
+      <li>
+        <def>Aggressive</def>
+      </li>
+      <li>
+        <def>Pain_Reduced</def>
+      </li>
+      <li>
+        <def>WorkSpeed_Fast</def>
+      </li>
+    </genes>
+  </XenotypeDef>
+
+  <XenotypeDef>
+    <defName>Xenotype_Khajiit</defName>
+    <label>khajiit</label>
+    <description>Feline humanoids with enhanced senses and natural agility. Khajiit are skilled traders, thieves, and scouts, with a culture that values cleverness and adaptability.</description>
+    <descriptionShort>Agile cat-people with enhanced senses</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    <displayPriority>70</displayPriority>
+    <genes>
+      <li>
+        <def>Body_Thin</def>
+      </li>
+      <li>
+        <def>MoveSpeed_Quick</def>
+      </li>
+      <li>
+        <def>Tail</def>
+      </li>
+      <li>
+        <def>DarkVision</def>
+      </li>
+      <li>
+        <def>Ears_Cat</def>
+      </li>
+      <li>
+        <def>ToxicResistance</def>
+      </li>
+    </genes>
+  </XenotypeDef>
+
+  <XenotypeDef>
+    <defName>Xenotype_Argonian</defName>
+    <label>argonian</label>
+    <description>Reptilian humanoids adapted to swamp environments. Argonians possess natural resistance to disease and poison, with the ability to breathe underwater for extended periods.</description>
+    <descriptionShort>Swamp-dwelling reptilian humanoids</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    <displayPriority>65</displayPriority>
+    <genes>
+      <li>
+        <def>Skin_LightGreen</def>
+      </li>
+      <li>
+        <def>DiseaseResistance</def>
+      </li>
+      <li>
+        <def>ToxicResistance</def>
+      </li>
+      <li>
+        <def>Temperature_HeatResistant</def>
+      </li>
+      <li>
+        <def>Hands</def>
+      </li>
+      <li>
+        <def>Tail</def>
+      </li>
+    </genes>
+  </XenotypeDef>
+</XenotypeDefs>

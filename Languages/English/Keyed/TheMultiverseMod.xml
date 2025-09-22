@@ -4,5 +4,83 @@
   <TheMultiverseMod_Description>
     The Multiverse Mod brings together races, factions, items, and lore from multiple beloved franchises into RimWorld. Featuring a custom alien race framework, advanced graphics support, and seamless integration, this mod delivers a unique cross-universe experience.
   </TheMultiverseMod_Description>
-  <!-- Add more keys for things like item names, race names, faction names, etc. -->
+  
+  <!-- Star Wars Content -->
+  <StarWarsHuman.label>galactic human</StarWarsHuman.label>
+  <StarWarsHuman.labelPlural>galactic humans</StarWarsHuman.labelPlural>
+  <Twilek.label>twi'lek</Twilek.label>
+  <Twilek.labelPlural>twi'leks</Twilek.labelPlural>
+  <Rodian.label>rodian</Rodian.label>
+  <Rodian.labelPlural>rodians</Rodian.labelPlural>
+  <Zabrak.label>zabrak</Zabrak.label>
+  <Zabrak.labelPlural>zabraks</Zabrak.labelPlural>
+  <Chiss.label>chiss</Chiss.label>
+  <Chiss.labelPlural>chiss</Chiss.labelPlural>
+  <Wookiee.label>wookiee</Wookiee.label>
+  <Wookiee.labelPlural>wookiees</Wookiee.labelPlural>
+  
+  <!-- Elder Scrolls Content -->
+  <Nord.label>nord</Nord.label>
+  <Nord.labelPlural>nords</Nord.labelPlural>
+  <Imperial.label>imperial</Imperial.label>
+  <Imperial.labelPlural>imperials</Imperial.labelPlural>
+  <Breton.label>breton</Breton.label>
+  <Breton.labelPlural>bretons</Breton.labelPlural>
+  <Redguard.label>redguard</Redguard.label>
+  <Redguard.labelPlural>redguards</Redguard.labelPlural>
+  <Altmer.label>altmer</Altmer.label>
+  <Altmer.labelPlural>altmer</Altmer.labelPlural>
+  <Bosmer.label>bosmer</Bosmer.label>
+  <Bosmer.labelPlural>bosmer</Bosmer.labelPlural>
+  <Orsimer.label>orsimer</Orsimer.label>
+  <Orsimer.labelPlural>orsimer</Orsimer.labelPlural>
+  <Khajiit.label>khajiit</Khajiit.label>
+  <Khajiit.labelPlural>khajiit</Khajiit.labelPlural>
+  <Argonian.label>argonian</Argonian.label>
+  <Argonian.labelPlural>argonians</Argonian.labelPlural>
+  
+  <!-- Creatures -->
+  <Bantha.label>bantha</Bantha.label>
+  <Bantha.labelPlural>banthas</Bantha.labelPlural>
+  <Dewback.label>dewback</Dewback.label>
+  <Dewback.labelPlural>dewbacks</Dewback.labelPlural>
+  <Guar.label>guar</Guar.label>
+  <Guar.labelPlural>guars</Guar.labelPlural>
+  <Netch.label>netch</Netch.label>
+  <Netch.labelPlural>netch</Netch.labelPlural>
+  <Siltstrider.label>siltstrider</Siltstrider.label>
+  <Siltstrider.labelPlural>siltstriders</Siltstrider.labelPlural>
+  
+  <!-- Weapons and Items -->
+  <Lightsaber.label>lightsaber</Lightsaber.label>
+  <Blaster.label>blaster</Blaster.label>
+  <DaedricSword.label>daedric sword</DaedricSword.label>
+  <DwarvenCrossbow.label>dwarven crossbow</DwarvenCrossbow.label>
+  <DwarvenMetal.label>dwarven metal</DwarvenMetal.label>
+  <KyberCrystal.label>kyber crystal</KyberCrystal.label>
+  
+  <!-- Buildings -->
+  <LightsaberForge.label>lightsaber forge</LightsaberForge.label>
+  <HoloTable.label>holo table</HoloTable.label>
+  <DaedricAltar.label>daedric altar</DaedricAltar.label>
+  <DwarvenAutomaton.label>dwarven spider</DwarvenAutomaton.label>
+  <TelvanniTower.label>telvanni tower</TelvanniTower.label>
+  
+  <!-- Foods -->
+  <BlueBobaFruit.label>blue boba fruit</BlueBobaFruit.label>
+  <BanthaSteak.label>bantha steak</BanthaSteak.label>
+  <JawaSoup.label>jawa soup</JawaSoup.label>
+  <Saltrice.label>saltrice</Saltrice.label>
+  <GuarMeat.label>guar meat</GuarMeat.label>
+  <DunmerStew.label>dunmer stew</DunmerStew.label>
+  <Sujamma.label>sujamma</Sujamma.label>
+  
+  <!-- Research -->
+  <BlasterTechnology.label>blaster technology</BlasterTechnology.label>
+  <LightsaberCrafting.label>lightsaber crafting</LightsaberCrafting.label>
+  <HolographicTechnology.label>holographic technology</HolographicTechnology.label>
+  <DwarvenEngineering.label>dwarven engineering</DwarvenEngineering.label>
+  <DaedricSmithing.label>daedric smithing</DaedricSmithing.label>
+  <TelvanniArchitecture.label>telvanni architecture</TelvanniArchitecture.label>
+  <MultiversalStudies.label>multiversal studies</MultiversalStudies.label>
 </LanguageData>

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <!-- Star Wars Foods -->
+  <ThingDef ParentName="MealBase">
+    <defName>BlueBobaFruit</defName>
+    <label>blue boba fruit</label>
+    <description>A sweet, blue fruit native to several worlds in the Outer Rim. Often used in desserts and refreshing beverages throughout the galaxy.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantMatter/Berry</texPath>
+      <color>(0.4, 0.6, 1.0)</color>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>6</DeteriorationRate>
+      <MarketValue>1.2</MarketValue>
+      <Mass>0.03</Mass>
+      <Flammability>1.0</Flammability>
+      <Nutrition>0.05</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>14</daysToRotStart>
+        <daysToDessicated>999999</daysToDessicated>
+        <rotDestroys>true</rotDestroys>
+      </li>
+      <li Class="CompProperties_ForbiddableAdjacentSpot">
+        <radius>2.9</radius>
+      </li>
+    </comps>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <preferability>DesperateOnly</preferability>
+      <maxNumToIngestAtOnce>5</maxNumToIngestAtOnce>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawVegetable_Eat</ingestSound>
+      <hungerOffsetBase>0.05</hungerOffsetBase>
+      <joy>0.05</joy>
+      <joyKind>Gluttonous</joyKind>
+    </ingestible>
+    <thingCategories>
+      <li>PlantFoodRaw</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="MealBase">
+    <defName>BanthaSteak</defName>
+    <label>bantha steak</label>
+    <description>A thick cut of meat from a bantha. When properly prepared, it's considered a delicacy on many desert worlds. Rich and flavorful with a unique texture.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/AnimalProduct/Meat</texPath>
+      <color>(0.8, 0.4, 0.4)</color>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>10</DeteriorationRate>
+      <MarketValue>2.8</MarketValue>
+      <Mass>0.08</Mass>
+      <Flammability>1.0</Flammability>
+      <Nutrition>0.05</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>3</daysToRotStart>
+        <daysToDessicated>999999</daysToDessicated>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <ingestible>
+      <foodType>Meat</foodType>
+      <preferability>RawBad</preferability>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>RawMeat_Eat</ingestSound>
+      <hungerOffsetBase>0.05</hungerOffsetBase>
+    </ingestible>
+    <thingCategories>
+      <li>MeatRaw</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="MealCooked">
+    <defName>JawaSoup</defName>
+    <label>jawa soup</label>
+    <description>A hearty soup made from various desert ingredients, traditionally prepared by the Jawa. The exact recipe is a closely guarded secret, but it's surprisingly nutritious and flavorful.</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/SimpleMeal</texPath>
+      <color>(0.8, 0.6, 0.2)</color>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>10</DeteriorationRate>
+      <MarketValue>18</MarketValue>
+      <WorkToMake>450</WorkToMake>
+      <Mass>0.44</Mass>
+      <Flammability>1.0</Flammability>
+      <Nutrition>0.9</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <hungerOffsetBase>0.9</hungerOffsetBase>
+      <joy>0.05</joy>
+      <joyKind>Gluttonous</joyKind>
+    </ingestible>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricStove</li>
+        <li>FueledStove</li>
+      </recipeUsers>
+      <soundWorking>Recipe_CookMeal</soundWorking>
+      <workAmount>450</workAmount>
+      <targetCountAdjustment>1</targetCountAdjustment>
+      <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+      <ingredients>
+        <li>
+          <filter>
+            <categories>
+              <li>PlantFoodRaw</li>
+            </categories>
+          </filter>
+          <count>0.5</count>
+        </li>
+        <li>
+          <filter>
+            <categories>
+              <li>MeatRaw</li>
+            </categories>
+          </filter>
+          <count>0.25</count>
+        </li>
+      </ingredients>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Elder Scrolls Foods -->
+  <ThingDef ParentName="MealBase">
+    <defName>Saltrice</defName>
+    <label>saltrice</label>
+    <description>A hardy grain that grows well in the volcanic soil of Morrowind. It's a staple food for the Dunmer and forms the basis of many traditional dishes.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantMatter/Rice</texPath>
+      <color>(0.9, 0.8, 0.6)</color>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>2</DeteriorationRate>
+      <MarketValue>1.5</MarketValue>
+      <Mass>0.032</Mass>
+      <Flammability>1.0</Flammability>
+      <Nutrition>0.05</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>60</daysToRotStart>
+        <daysToDessicated>999999</daysToDessicated>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <preferability>DesperateOnly</preferability>
+      <maxNumToIngestAtOnce>8</maxNumToIngestAtOnce>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawVegetable_Eat</ingestSound>
+      <hungerOffsetBase>0.05</hungerOffsetBase>
+    </ingestible>
+    <thingCategories>
+      <li>PlantFoodRaw</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="MealBase">
+    <defName>GuarMeat</defName>
+    <label>guar meat</label>
+    <description>Meat from a guar, a common pack animal in Morrowind. The meat is lean and has a distinctive flavor that's popular among the Dunmer.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/AnimalProduct/Meat</texPath>
+      <color>(0.7, 0.5, 0.4)</color>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>10</DeteriorationRate>
+      <MarketValue>2.2</MarketValue>
+      <Mass>0.07</Mass>
+      <Flammability>1.0</Flammability>
+      <Nutrition>0.05</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>3</daysToRotStart>
+        <daysToDessicated>999999</daysToDessicated>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <ingestible>
+      <foodType>Meat</foodType>
+      <preferability>RawBad</preferability>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>RawMeat_Eat</ingestSound>
+      <hungerOffsetBase>0.05</hungerOffsetBase>
+    </ingestible>
+    <thingCategories>
+      <li>MeatRaw</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="MealCooked">
+    <defName>DunmerStew</defName>
+    <label>dunmer stew</label>
+    <description>A traditional Dunmer stew made with saltrice, local vegetables, and meat. It's hearty, warming, and reminiscent of home for any dark elf.</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/SimpleMeal</texPath>
+      <color>(0.6, 0.4, 0.3)</color>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>10</DeteriorationRate>
+      <MarketValue>20</MarketValue>
+      <WorkToMake>500</WorkToMake>
+      <Mass>0.46</Mass>
+      <Flammability>1.0</Flammability>
+      <Nutrition>0.9</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <hungerOffsetBase>0.9</hungerOffsetBase>
+      <joy>0.07</joy>
+      <joyKind>Gluttonous</joyKind>
+    </ingestible>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricStove</li>
+        <li>FueledStove</li>
+      </recipeUsers>
+      <soundWorking>Recipe_CookMeal</soundWorking>
+      <workAmount>500</workAmount>
+      <targetCountAdjustment>1</targetCountAdjustment>
+      <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+      <ingredients>
+        <li>
+          <filter>
+            <thingDefs>
+              <li>Saltrice</li>
+            </thingDefs>
+          </filter>
+          <count>0.4</count>
+        </li>
+        <li>
+          <filter>
+            <categories>
+              <li>MeatRaw</li>
+            </categories>
+          </filter>
+          <count>0.3</count>
+        </li>
+        <li>
+          <filter>
+            <categories>
+              <li>PlantFoodRaw</li>
+            </categories>
+          </filter>
+          <count>0.2</count>
+        </li>
+      </ingredients>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="DrugBase">
+    <defName>Sujamma</defName>
+    <label>sujamma</label>
+    <description>A traditional Dunmer alcoholic beverage made from fermented comberries. It's potent and provides temporary strength enhancement, but can be addictive.</description>
+    <possessionCount>3</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/Drug/Beer</texPath>
+      <color>(0.8, 0.2, 0.2)</color>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <DeteriorationRate>0.5</DeteriorationRate>
+      <MarketValue>25</MarketValue>
+      <Mass>0.3</Mass>
+      <Flammability>0.7</Flammability>
+      <Nutrition>0.1</Nutrition>
+    </statBases>
+    <ingestible>
+      <foodType>Fluid, Processed</foodType>
+      <joyKind>Chemical</joyKind>
+      <joy>0.17</joy>
+      <nurseable>true</nurseable>
+      <drugCategory>Social</drugCategory>
+      <ingestSound>Ingest_Beer</ingestSound>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <chairSearchRadius>25</chairSearchRadius>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AlcoholHigh</hediffDef>
+          <severity>0.25</severity>
+          <toleranceChemical>Alcohol</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>SujammaBoost</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <equipmentType>Primary</equipmentType>
+    <techLevel>Medieval</techLevel>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>180</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+      <li Class="CompProperties_Drug">
+        <chemical>Alcohol</chemical>
+        <addictiveness>0.010</addictiveness>
+        <minToleranceToAddict>0.25</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
+        <needLevelOffset>1</needLevelOffset>
+        <listOrder>10</listOrder>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>bottle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>neck</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <thingCategories>
+      <li>Drugs</li>
+    </thingCategories>
+  </ThingDef>
+</ThingDefs>

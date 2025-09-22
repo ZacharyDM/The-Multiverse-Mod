@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Star Wars Traits -->
+  <TraitDef>
+    <defName>GalacticHeritage</defName>
+    <label>Galactic Heritage</label>
+    <description>This pawn carries the adaptability and resourcefulness of humans who have spread across thousands of star systems.</description>
+    <degreeDatas>
+      <li>
+        <label>Galactic Citizen</label>
+        <description>Raised in a galaxy-spanning civilization, this pawn is versatile and quick to adapt to new situations.</description>
+        <skillGains>
+          <Shooting>2</Shooting>
+          <Crafting>1</Crafting>
+          <Social>1</Social>
+        </skillGains>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>Graceful</defName>
+    <label>Graceful</label>
+    <description>This pawn moves with natural elegance and poise, traits highly valued in Twi'lek culture.</description>
+    <degreeDatas>
+      <li>
+        <label>Graceful</label>
+        <description>Natural elegance and social grace make this pawn excellent in diplomatic situations.</description>
+        <skillGains>
+          <Social>3</Social>
+          <Artistic>2</Artistic>
+        </skillGains>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>Hunter</defName>
+    <label>Hunter</label>
+    <description>Born with exceptional eyesight and reflexes, this pawn embodies the hunting culture of Rodia.</description>
+    <degreeDatas>
+      <li>
+        <label>Natural Hunter</label>
+        <description>Exceptional tracking and shooting abilities make this pawn a formidable hunter.</description>
+        <skillGains>
+          <Shooting>4</Shooting>
+          <Animals>2</Animals>
+        </skillGains>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>IronWilled</defName>
+    <label>Iron Willed</label>
+    <description>This pawn possesses the mental discipline and determination characteristic of the Zabrak people.</description>
+    <degreeDatas>
+      <li>
+        <label>Iron Willed</label>
+        <description>Mental fortitude and resistance to psychological pressure define this pawn's character.</description>
+        <skillGains>
+          <Intellectual>2</Intellectual>
+          <Melee>2</Melee>
+        </skillGains>
+        <statFactors>
+          <MentalBreakThreshold>0.5</MentalBreakThreshold>
+        </statFactors>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>TacticalMind</defName>
+    <label>Tactical Mind</label>
+    <description>This pawn possesses the analytical brilliance and strategic thinking of the Chiss race.</description>
+    <degreeDatas>
+      <li>
+        <label>Tactical Genius</label>
+        <description>Superior tactical and analytical abilities make this pawn an excellent leader and strategist.</description>
+        <skillGains>
+          <Intellectual>3</Intellectual>
+          <Shooting>2</Shooting>
+          <Social>1</Social>
+        </skillGains>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>Loyal</defName>
+    <label>Loyal</label>
+    <description>This pawn embodies the fierce loyalty and honor of the Wookiee people.</description>
+    <degreeDatas>
+      <li>
+        <label>Fierce Loyalty</label>
+        <description>Unwavering loyalty to friends and companions, with terrible anger toward those who betray trust.</description>
+        <skillGains>
+          <Melee>3</Melee>
+          <Crafting>2</Crafting>
+        </skillGains>
+        <statFactors>
+          <SocialFightChance>2.0</SocialFightChance>
+        </statFactors>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Elder Scrolls Human Traits -->
+  <TraitDef>
+    <defName>FrostResistant</defName>
+    <label>Frost Resistant</label>
+    <description>This pawn has the natural cold resistance of the hardy Nord people.</description>
+    <degreeDatas>
+      <li>
+        <label>Frost Resistant</label>
+        <description>Natural resistance to cold and a warrior's spirit define this Nordic heritage.</description>
+        <skillGains>
+          <Melee>3</Melee>
+          <Construction>1</Construction>
+        </skillGains>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>ImperialCharm</defName>
+    <label>Imperial Charm</label>
+    <description>This pawn possesses the natural diplomacy and leadership of Imperial heritage.</description>
+    <degreeDatas>
+      <li>
+        <label>Imperial Charm</label>
+        <description>Natural leadership and diplomatic skills make this pawn excel in social situations.</description>
+        <skillGains>
+          <Social>3</Social>
+          <Intellectual>2</Intellectual>
+        </skillGains>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>MagicAffinity</defName>
+    <label>Magic Affinity</label>
+    <description>This pawn has the natural magical resistance and aptitude of Breton heritage.</description>
+    <degreeDatas>
+      <li>
+        <label>Magically Attuned</label>
+        <description>Natural resistance to magic and enhanced ability to understand complex concepts.</description>
+        <skillGains>
+          <Intellectual>4</Intellectual>
+          <Crafting>1</Crafting>
+        </skillGains>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>SwordSinger</defName>
+    <label>Sword Singer</label>
+    <description>This pawn carries the martial tradition and sword mastery of the Redguard people.</description>
+    <degreeDatas>
+      <li>
+        <label>Sword Singer</label>
+        <description>Masters of blade combat with a strong tradition of martial excellence.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Construction>1</Construction>
+        </skillGains>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Elder Scrolls Elf Traits -->
+  <TraitDef>
+    <defName>HighbornPride</defName>
+    <label>Highborn Pride</label>
+    <description>This pawn carries the superior intellect and magical prowess of Altmer heritage, along with their characteristic arrogance.</description>
+    <degreeDatas>
+      <li>
+        <label>Highborn</label>
+        <description>Superior magical abilities and intellectual capacity, but prone to arrogance.</description>
+        <skillGains>
+          <Intellectual>4</Intellectual>
+          <Crafting>2</Crafting>
+        </skillGains>
+        <statOffsets>
+          <SocialFightChance>0.1</SocialFightChance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>NatureBond</defName>
+    <label>Nature Bond</label>
+    <description>This pawn has the deep connection to nature and archery skills of the Bosmer.</description>
+    <degreeDatas>
+      <li>
+        <label>Nature's Child</label>
+        <description>Deep connection to the natural world and exceptional archery skills.</description>
+        <skillGains>
+          <Shooting>4</Shooting>
+          <Animals>2</Animals>
+          <Plants>2</Plants>
+        </skillGains>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>OrcishStrength</defName>
+    <label>Orcish Strength</label>
+    <description>This pawn possesses the incredible physical strength and combat prowess of the Orsimer.</description>
+    <degreeDatas>
+      <li>
+        <label>Orcish Warrior</label>
+        <description>Incredible physical strength and combat ability, following the code of Malacath.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Crafting>2</Crafting>
+        </skillGains>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>FelineAgility</defName>
+    <label>Feline Agility</label>
+    <description>This pawn has the natural agility, stealth, and trading instincts of the Khajiit.</description>
+    <degreeDatas>
+      <li>
+        <label>Cat-like</label>
+        <description>Enhanced agility, stealth, and natural trading instincts characteristic of Khajiit.</description>
+        <skillGains>
+          <Shooting>2</Shooting>
+          <Social>2</Social>
+          <Crafting>1</Crafting>
+        </skillGains>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>SwampBorn</defName>
+    <label>Swamp Born</label>
+    <description>This pawn has the disease resistance and aquatic adaptation of the Argonian people.</description>
+    <degreeDatas>
+      <li>
+        <label>Swamp Dweller</label>
+        <description>Natural resistance to disease and toxins, with an affinity for wetland environments.</description>
+        <skillGains>
+          <Medicine>2</Medicine>
+          <Plants>2</Plants>
+          <Animals>1</Animals>
+        </skillGains>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>
