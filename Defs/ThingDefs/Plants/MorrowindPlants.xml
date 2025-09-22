@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Gold Kanet: Ornamental flower -->
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantGoldKanet</defName>
+    <label>gold kanet</label>
+    <description>A beautiful golden flower native to Morrowind. Gold kanet is prized both for its ornamental value and its alchemical properties. The bright golden petals are said to have restorative qualities.</description>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Beauty>20</Beauty>
+      <Nutrition>0.02</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/GoldKanet</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+      <fertilityMin>0.6</fertilityMin>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+      <growDays>8</growDays>
+      <leaflessGraphicPath>Things/Plant/GoldKanet_Leafless</leaflessGraphicPath>
+      <harvestWork>120</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestAfterGrowth>0.20</harvestAfterGrowth>
+      <harvestMinGrowth>0.50</harvestMinGrowth>
+      <harvestYield>6</harvestYield>
+      <harvestFailable>false</harvestFailable>
+      <sowMinSkill>3</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+        <li>Decorative</li>
+      </sowTags>
+      <topWindExposure>0.3</topWindExposure>
+      <visualSizeRange>0.4~0.8</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+      <humanDamageMultiplier>4</humanDamageMultiplier>
+    </plant>
+  </ThingDef>
+
+  <!-- Gold Kanet Flowers -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>GoldKanetFlowers</defName>
+    <label>gold kanet flowers</label>
+    <description>Bright golden flowers with mild alchemical properties. Often used in potions and remedies, or simply kept for their beauty and pleasant fragrance.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/GoldKanetFlowers</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>3.5</MarketValue>
+      <Mass>0.02</Mass>
+      <Flammability>1.3</Flammability>
+      <DeteriorationRate>6</DeteriorationRate>
+      <Beauty>1</Beauty>
+    </statBases>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <nutrition>0.02</nutrition>
+      <preferability>DesperateOnly</preferability>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+  </ThingDef>
+
+  <!-- Fire Petal: Volcanic flower -->
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantFirePetal</defName>
+    <label>fire petal</label>
+    <description>A hardy flower that grows near volcanic vents and lava flows. Fire petals have adapted to extreme heat and are valued for their resistance-enhancing alchemical properties.</description>
+    <statBases>
+      <MaxHitPoints>90</MaxHitPoints>
+      <Beauty>15</Beauty>
+      <Nutrition>0.01</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/FirePetal</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+      <fertilityMin>0.4</fertilityMin>
+      <fertilitySensitivity>0.3</fertilitySensitivity>
+      <growDays>6</growDays>
+      <leaflessGraphicPath>Things/Plant/FirePetal_Leafless</leaflessGraphicPath>
+      <harvestWork>100</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestAfterGrowth>0.20</harvestAfterGrowth>
+      <harvestMinGrowth>0.40</harvestMinGrowth>
+      <harvestYield>4</harvestYield>
+      <harvestFailable>false</harvestFailable>
+      <sowMinSkill>4</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <topWindExposure>0.4</topWindExposure>
+      <visualSizeRange>0.3~0.7</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+      <humanDamageMultiplier>4</humanDamageMultiplier>
+    </plant>
+  </ThingDef>
+
+  <!-- Fire Petal Flowers -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>FirePetalFlowers</defName>
+    <label>fire petal flowers</label>
+    <description>Vibrant red-orange flowers that grow near volcanic activity. Known for their heat-resistant properties and use in fire resistance potions.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FirePetalFlowers</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>4.0</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>0.5</Flammability>
+      <DeteriorationRate>8</DeteriorationRate>
+      <Beauty>1</Beauty>
+    </statBases>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <nutrition>0.01</nutrition>
+      <preferability>DesperateOnly</preferability>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+  </ThingDef>
+
+  <!-- Hackle-Lo Leaf: Medicinal plant -->
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantHackleLoLeaf</defName>
+    <label>hackle-lo</label>
+    <description>A medicinal plant with broad leaves that are highly valued by healers and alchemists. Hackle-lo leaves are known for their healing properties and ability to cure various ailments.</description>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <Beauty>8</Beauty>
+      <Nutrition>0.03</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/HackleLoLeaf</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>12</pathCost>
+    <ingestible />
+    <plant>
+      <fertilityMin>0.7</fertilityMin>
+      <fertilitySensitivity>0.5</fertilitySensitivity>
+      <growDays>9</growDays>
+      <leaflessGraphicPath>Things/Plant/HackleLoLeaf_Leafless</leaflessGraphicPath>
+      <harvestWork>140</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestAfterGrowth>0.25</harvestAfterGrowth>
+      <harvestMinGrowth>0.60</harvestMinGrowth>
+      <harvestYield>8</harvestYield>
+      <harvestFailable>false</harvestFailable>
+      <sowMinSkill>5</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <sowResearchPrerequisites>
+        <li>Agriculture</li>
+      </sowResearchPrerequisites>
+      <topWindExposure>0.2</topWindExposure>
+      <visualSizeRange>0.5~1.0</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Health</purpose>
+      <humanDamageMultiplier>3</humanDamageMultiplier>
+    </plant>
+  </ThingDef>
+
+  <!-- Hackle-Lo Leaf Medicine -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>HackleLoLeaf</defName>
+    <label>hackle-lo leaf</label>
+    <description>Fresh hackle-lo leaves, prized for their medicinal properties. Can be used to treat wounds and illnesses, or processed into more potent healing compounds.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/HackleLoLeaf</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <MarketValue>6.0</MarketValue>
+      <Mass>0.03</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>4</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <nutrition>0.03</nutrition>
+      <preferability>DesperateOnly</preferability>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>20</daysToRotStart>
+        <daysToDessicated>40</daysToDessicated>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Comberry: Alchemical fruit -->
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantComberry</defName>
+    <label>comberry</label>
+    <description>A small shrub bearing dark purple berries with potent alchemical properties. Comberries are valued by mages and alchemists for their magicka-restoring effects.</description>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Beauty>12</Beauty>
+      <Nutrition>0.04</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Comberry</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <ingestible />
+    <plant>
+      <fertilityMin>0.5</fertilityMin>
+      <fertilitySensitivity>0.4</fertilitySensitivity>
+      <growDays>7</growDays>
+      <leaflessGraphicPath>Things/Plant/Comberry_Leafless</leaflessGraphicPath>
+      <harvestWork>160</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestAfterGrowth>0.30</harvestAfterGrowth>
+      <harvestMinGrowth>0.65</harvestMinGrowth>
+      <harvestYield>10</harvestYield>
+      <harvestFailable>false</harvestFailable>
+      <sowMinSkill>4</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <topWindExposure>0.15</topWindExposure>
+      <visualSizeRange>0.4~0.9</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+
+  <!-- Comberry Fruit -->
+  <ThingDef ParentName="RawPlantFood">
+    <defName>RawComberry</defName>
+    <label>comberry</label>
+    <description>Dark purple berries with a slightly bitter taste and mild energizing properties. Popular among scholars and mages for their supposed mental enhancing effects.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/Comberry</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.0</MarketValue>
+      <Nutrition>0.04</Nutrition>
+    </statBases>
+    <ingestible>
+      <nutrition>0.04</nutrition>
+      <preferability>RawGood</preferability>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <daysToDessicated>30</daysToDessicated>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>
