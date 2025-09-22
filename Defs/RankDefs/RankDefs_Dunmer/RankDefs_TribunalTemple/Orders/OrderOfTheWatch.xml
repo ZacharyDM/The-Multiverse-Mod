@@ -37,4 +37,10 @@
     <labelFemale>Watch Commander</labelFemale>
     <description>The supreme leader of the Order of the Watch, overseeing all temple security matters.</description>
   </RankDef>
+  <RankDef>
+    <defName>OrderWatch_LordHighArchordinator</defName>
+    <labelMale>Lord High Archordinator of the Watch</labelMale>
+    <labelFemale>Lady High Archordinator of the Watch</labelFemale>
+    <description>The highest authority within the Order of the Watch, commanding the entire division and answering only to the Alma Rula.</description>
+  </RankDef>
 </RankDefs>

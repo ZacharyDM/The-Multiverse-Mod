@@ -59,4 +59,10 @@
     <labelFemale>Matriarch</labelFemale>
     <description>The highest authority in the Tribunal Temple, guiding the faith and its followers.</description>
   </RankDef>
+  <RankDef>
+    <defName>TribunalTemple_AlmaRula</defName>
+    <labelMale>Alma Rula</labelMale>
+    <labelFemale>Alma Rula</labelFemale>
+    <description>The supreme figurehead and commander of all Ordinators, to whom the four Lord High Archordiators answer. The ultimate authority over all martial aspects of the Temple.</description>
+  </RankDef>
 </RankDefs>
