@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Saltrice: Main agricultural crop of the Dunmer -->
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantSaltrice</defName>
+    <label>saltrice</label>
+    <description>A hardy grain crop that forms the backbone of Dunmer agriculture. Saltrice thrives in Morrowind's volcanic soils and provides nutritious sustenance for the populace. The grain can be ground into flour for baking.</description>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Saltrice</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <ingestible />
+    <plant>
+      <fertilityMin>0.7</fertilityMin>
+      <fertilitySensitivity>0.5</fertilitySensitivity>
+      <growDays>9</growDays>
+      <leaflessGraphicPath>Things/Plant/Saltrice_Leafless</leaflessGraphicPath>
+      <harvestWork>200</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestAfterGrowth>0.30</harvestAfterGrowth>
+      <harvestMinGrowth>0.65</harvestMinGrowth>
+      <harvestYield>18</harvestYield>
+      <harvestFailable>true</harvestFailable>
+      <sowMinSkill>6</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <sowResearchPrerequisites>
+        <li>Agriculture</li>
+      </sowResearchPrerequisites>
+      <topWindExposure>0.1</topWindExposure>
+      <visualSizeRange>0.3~2.0</visualSizeRange>
+      <wildOrder>2</wildOrder>
+    </plant>
+  </ThingDef>
+
+  <!-- Saltrice Food Item -->
+  <ThingDef ParentName="RawPlantFood">
+    <defName>RawSaltrice</defName>
+    <label>raw saltrice</label>
+    <description>Unprocessed saltrice grain. Hardy and nutritious, this forms the staple crop of the Dunmer people. Can be cooked into meals or ground into flour.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/Saltrice</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <ingestible>
+      <nutrition>0.05</nutrition>
+      <preferability>RawBad</preferability>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>40</daysToRotStart>
+        <daysToDessicated>60</daysToDessicated>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Wickwheat: Important grain crop -->
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantWickwheat</defName>
+    <label>wickwheat</label>
+    <description>A wheat-like grain that grows well in Morrowind's climate. Wickwheat produces higher yields than saltrice but requires better soil conditions. Popular among more prosperous farmers.</description>
+    <statBases>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Nutrition>0.06</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Wickwheat</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <ingestible />
+    <plant>
+      <fertilityMin>0.8</fertilityMin>
+      <fertilitySensitivity>0.7</fertilitySensitivity>
+      <growDays>10</growDays>
+      <leaflessGraphicPath>Things/Plant/Wickwheat_Leafless</leaflessGraphicPath>
+      <harvestWork>220</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestAfterGrowth>0.30</harvestAfterGrowth>
+      <harvestMinGrowth>0.70</harvestMinGrowth>
+      <harvestYield>22</harvestYield>
+      <harvestFailable>true</harvestFailable>
+      <sowMinSkill>7</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <sowResearchPrerequisites>
+        <li>Agriculture</li>
+      </sowResearchPrerequisites>
+      <topWindExposure>0.1</topWindExposure>
+      <visualSizeRange>0.4~1.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+    </plant>
+  </ThingDef>
+
+  <!-- Wickwheat Food Item -->
+  <ThingDef ParentName="RawPlantFood">
+    <defName>RawWickwheat</defName>
+    <label>raw wickwheat</label>
+    <description>Fresh wickwheat grain, prized for its superior flavor compared to saltrice. Makes excellent bread and other baked goods.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/Wickwheat</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.4</MarketValue>
+      <Nutrition>0.06</Nutrition>
+    </statBases>
+    <ingestible>
+      <nutrition>0.06</nutrition>
+      <preferability>RawBad</preferability>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>35</daysToRotStart>
+        <daysToDessicated>55</daysToDessicated>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Marshmerrow: Swamp plant -->
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantMarshmerrow</defName>
+    <label>marshmerrow</label>
+    <description>A hardy swamp plant that grows in wetlands and marsh areas. Marshmerrow can be eaten as food and also has medicinal properties valued by alchemists.</description>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Nutrition>0.04</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Marshmerrow</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>12</pathCost>
+    <ingestible />
+    <plant>
+      <fertilityMin>0.5</fertilityMin>
+      <fertilitySensitivity>0.3</fertilitySensitivity>
+      <growDays>7</growDays>
+      <leaflessGraphicPath>Things/Plant/Marshmerrow_Leafless</leaflessGraphicPath>
+      <harvestWork>150</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestAfterGrowth>0.25</harvestAfterGrowth>
+      <harvestMinGrowth>0.60</harvestMinGrowth>
+      <harvestYield>12</harvestYield>
+      <harvestFailable>false</harvestFailable>
+      <sowMinSkill>4</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+        <li>Water</li>
+      </sowTags>
+      <sowResearchPrerequisites>
+        <li>Agriculture</li>
+      </sowResearchPrerequisites>
+      <topWindExposure>0.05</topWindExposure>
+      <visualSizeRange>0.3~1.2</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+
+  <!-- Marshmerrow Food Item -->
+  <ThingDef ParentName="RawPlantFood">
+    <defName>RawMarshmerrow</defName>
+    <label>raw marshmerrow</label>
+    <description>Fresh marshmerrow root, a staple food in wetland regions. Has a slightly sweet taste and mild restorative properties.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/Marshmerrow</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.0</MarketValue>
+      <Nutrition>0.04</Nutrition>
+    </statBases>
+    <ingestible>
+      <nutrition>0.04</nutrition>
+      <preferability>RawGood</preferability>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <daysToDessicated>45</daysToDessicated>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Ash Yam: Hardy tuber -->
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantAshYam</defName>
+    <label>ash yam</label>
+    <description>A hardy tuber that thrives in volcanic ash soil. Ash yams are incredibly resilient and can grow in the harshest conditions, making them essential for survival in Morrowind's ashlands.</description>
+    <statBases>
+      <MaxHitPoints>140</MaxHitPoints>
+      <Nutrition>0.07</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/AshYam</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>8</pathCost>
+    <ingestible />
+    <plant>
+      <fertilityMin>0.3</fertilityMin>
+      <fertilitySensitivity>0.2</fertilitySensitivity>
+      <growDays>12</growDays>
+      <leaflessGraphicPath>Things/Plant/AshYam_Leafless</leaflessGraphicPath>
+      <harvestWork>250</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestAfterGrowth>0.35</harvestAfterGrowth>
+      <harvestMinGrowth>0.75</harvestMinGrowth>
+      <harvestYield>25</harvestYield>
+      <harvestFailable>false</harvestFailable>
+      <sowMinSkill>5</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <sowResearchPrerequisites>
+        <li>Agriculture</li>
+      </sowResearchPrerequisites>
+      <topWindExposure>0.02</topWindExposure>
+      <visualSizeRange>0.2~1.5</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+
+  <!-- Ash Yam Food Item -->
+  <ThingDef ParentName="RawPlantFood">
+    <defName>RawAshYam</defName>
+    <label>raw ash yam</label>
+    <description>A hardy tuber that grows in volcanic soil. Ash yams are highly nutritious and filling, with a slightly mineral taste from the ash-rich environment.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/AshYam</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.6</MarketValue>
+      <Nutrition>0.07</Nutrition>
+    </statBases>
+    <ingestible>
+      <nutrition>0.07</nutrition>
+      <preferability>RawTasty</preferability>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>50</daysToRotStart>
+        <daysToDessicated>75</daysToDessicated>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

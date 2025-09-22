@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Nix-Hound: Pack hunting creature with beak-like mouth -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>NixHound</defName>
+    <label>nix-hound</label>
+    <description>A predatory pack hunter native to Morrowind's wilderness. These creatures have distinctive beak-like mouths and hunt in coordinated groups. Their insectoid appearance belies their aggressive mammalian behavior.</description>
+    <statBases>
+      <MoveSpeed>5.5</MoveSpeed>
+      <MarketValue>250</MarketValue>
+      <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+      <ComfyTemperatureMax>55</ComfyTemperatureMax>
+      <FilthRate>4</FilthRate>
+    </statBases>
+    <tools>
+      <li>
+        <label>beak</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.8</chanceFactor>
+      </li>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <predator>true</predator>
+      <petness>0.2</petness>
+      <baseBodySize>0.8</baseBodySize>
+      <baseHungerRate>0.25</baseHungerRate>
+      <baseHealthScale>0.9</baseHealthScale>
+      <foodType>CarnivoreAnimal</foodType>
+      <leatherDef>Leather_Plain</leatherDef>
+      <wildness>0.75</wildness>
+      <manhunterOnTameFailChance>0.1</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.25</manhunterOnDamageChance>
+      <packAnimal>false</packAnimal>
+      <lifeExpectancy>12</lifeExpectancy>
+      <mateMtbHours>8760</mateMtbHours>
+      <maturityAge>1.0</maturityAge>
+      <trainability>Intermediate</trainability>
+      <gestationPeriodDays>35</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 0.5)</li>
+          <li>(2, 1)</li>
+          <li>(3, 0.5)</li>
+          <li>(4, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.2</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>1.0</minAge>
+          <soundWounded>Pawn_Dog_Injured</soundWounded>
+          <soundDeath>Pawn_Dog_Death</soundDeath>
+          <soundCall>Pawn_Dog_Call</soundCall>
+          <soundAngry>Pawn_Dog_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+  <!-- Shalk: Resinous beetle-like creature -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Shalk</defName>
+    <label>shalk</label>
+    <description>A large beetle-like creature found in Morrowind's volcanic regions. Shalks are prized for their resinous shells, which can be harvested for various crafting purposes. They are generally docile unless threatened.</description>
+    <statBases>
+      <MoveSpeed>2.8</MoveSpeed>
+      <MarketValue>300</MarketValue>
+      <ComfyTemperatureMin>10</ComfyTemperatureMin>
+      <ComfyTemperatureMax>70</ComfyTemperatureMax>
+      <FilthRate>6</FilthRate>
+      <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+    </statBases>
+    <tools>
+      <li>
+        <label>mandibles</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2.5</cooldownTime>
+        <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+        <chanceFactor>0.8</chanceFactor>
+      </li>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <race>
+      <body>BeetleLikeWithClaws</body>
+      <predator>false</predator>
+      <petness>0.1</petness>
+      <baseBodySize>0.7</baseBodySize>
+      <baseHungerRate>0.15</baseHungerRate>
+      <baseHealthScale>0.8</baseHealthScale>
+      <foodType>VegetarianRoughAnimal</foodType>
+      <leatherDef>Leather_Plain</leatherDef>
+      <wildness>0.6</wildness>
+      <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.15</manhunterOnDamageChance>
+      <lifeExpectancy>8</lifeExpectancy>
+      <mateMtbHours>8760</mateMtbHours>
+      <maturityAge>0.8</maturityAge>
+      <trainability>Simple</trainability>
+      <gestationPeriodDays>25</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(1, 0)</li>
+          <li>(2, 0.5)</li>
+          <li>(4, 1)</li>
+          <li>(6, 0.5)</li>
+          <li>(8, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.15</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.8</minAge>
+          <soundWounded>Pawn_Megaspider_Wounded</soundWounded>
+          <soundDeath>Pawn_Megaspider_Death</soundDeath>
+          <soundCall>Pawn_Megaspider_Call</soundCall>
+          <soundAngry>Pawn_Megaspider_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+  <!-- Mudcrab: Giant crab creature -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Mudcrab</defName>
+    <label>mudcrab</label>
+    <description>A large crustacean found near Morrowind's coastal areas and swamps. These territorial creatures have powerful claws and thick shells that provide excellent protection. They can be aggressive when defending their territory.</description>
+    <statBases>
+      <MoveSpeed>3.2</MoveSpeed>
+      <MarketValue>180</MarketValue>
+      <ComfyTemperatureMin>5</ComfyTemperatureMin>
+      <ComfyTemperatureMax>50</ComfyTemperatureMax>
+      <FilthRate>8</FilthRate>
+      <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+    </statBases>
+    <tools>
+      <li>
+        <label>left pincer</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
+      </li>
+      <li>
+        <label>right pincer</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>BeetleLikeWithClaws</body>
+      <predator>false</predator>
+      <petness>0.05</petness>
+      <baseBodySize>0.6</baseBodySize>
+      <baseHungerRate>0.12</baseHungerRate>
+      <baseHealthScale>0.7</baseHealthScale>
+      <foodType>OmnivoreRoughAnimal</foodType>
+      <leatherDef>Leather_Plain</leatherDef>
+      <wildness>0.8</wildness>
+      <manhunterOnTameFailChance>0.08</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.3</manhunterOnDamageChance>
+      <lifeExpectancy>6</lifeExpectancy>
+      <mateMtbHours>8760</mateMtbHours>
+      <maturityAge>0.6</maturityAge>
+      <trainability>None</trainability>
+      <gestationPeriodDays>20</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(1, 0)</li>
+          <li>(3, 0.5)</li>
+          <li>(8, 1)</li>
+          <li>(15, 0.5)</li>
+          <li>(25, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.1</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.6</minAge>
+          <soundWounded>Pawn_Megaspider_Wounded</soundWounded>
+          <soundDeath>Pawn_Megaspider_Death</soundDeath>
+          <soundCall>Pawn_Megaspider_Call</soundCall>
+          <soundAngry>Pawn_Megaspider_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+  <!-- Cliff Racer: Flying reptilian creature -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>CliffRacer</defName>
+    <label>cliff racer</label>
+    <description>A flying reptile native to Morrowind, known for being one of the most persistent and annoying creatures in the province. These aerial predators swoop down on unsuspecting travelers with surprising aggression.</description>
+    <statBases>
+      <MoveSpeed>8.0</MoveSpeed>
+      <MarketValue>120</MarketValue>
+      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+      <FilthRate>3</FilthRate>
+    </statBases>
+    <tools>
+      <li>
+        <label>beak</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.8</cooldownTime>
+        <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+        <chanceFactor>0.8</chanceFactor>
+      </li>
+      <li>
+        <label>left talon</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right talon</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <race>
+      <body>Bird</body>
+      <predator>true</predator>
+      <petness>0.1</petness>
+      <baseBodySize>0.4</baseBodySize>
+      <baseHungerRate>0.2</baseHungerRate>
+      <baseHealthScale>0.5</baseHealthScale>
+      <foodType>CarnivoreAnimalStrict</foodType>
+      <leatherDef>Leather_Bird</leatherDef>
+      <wildness>0.9</wildness>
+      <manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.5</manhunterOnDamageChance>
+      <canFly>true</canFly>
+      <lifeExpectancy>8</lifeExpectancy>
+      <mateMtbHours>8760</mateMtbHours>
+      <maturityAge>0.8</maturityAge>
+      <trainability>Simple</trainability>
+      <gestationPeriodDays>18</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 0.5)</li>
+          <li>(2, 1)</li>
+          <li>(3, 0.5)</li>
+          <li>(4, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.15</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.8</minAge>
+          <soundWounded>Pawn_Cassowary_Wounded</soundWounded>
+          <soundDeath>Pawn_Cassowary_Death</soundDeath>
+          <soundCall>Pawn_Cassowary_Call</soundCall>
+          <soundAngry>Pawn_Cassowary_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+</Defs>
