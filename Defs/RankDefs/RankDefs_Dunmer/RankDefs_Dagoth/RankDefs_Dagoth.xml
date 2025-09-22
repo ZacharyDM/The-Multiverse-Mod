@@ -103,30 +103,5 @@
     <labelFemale>Ash Vampire Lady</labelFemale>
     <description>An elite ash vampire who has transcended mortality, serving as a champion and lieutenant to the Grandmaster.</description>
   </RankDef>
-  <RankDef>
-    <defName>Dagoth_VisionaryMaster</defName>
-    <labelMale>Visionary Master</labelMale>
-    <labelFemale>Visionary Mistress</labelFemale>
-    <description>The highest ranking dreamer, whose visions guide House Dagoth's grand strategy and divine purpose.</description>
-  </RankDef>
 
-  <!-- Sleeper-Specific Ranks -->
-  <RankDef>
-    <defName>Dagoth_SleeperTender</defName>
-    <labelMale>Sleeper Tender</labelMale>
-    <labelFemale>Sleeper Tender</labelFemale>
-    <description>A corpus adept responsible for overseeing the transformation of sleepers and guiding them through their metamorphosis.</description>
-  </RankDef>
-  <RankDef>
-    <defName>Dagoth_AshMaster</defName>
-    <labelMale>Ash Master</labelMale>
-    <labelFemale>Ash Mistress</labelFemale>
-    <description>A high-ranking corpus lord who commands ash slaves, zombies, and ghouls in service to House Dagoth's will.</description>
-  </RankDef>
-  <RankDef>
-    <defName>Dagoth_AscendedCommander</defName>
-    <labelMale>Ascended Commander</labelMale>
-    <labelFemale>Ascended Commander</labelFemale>
-    <description>An ascended sleeper who has retained enough intelligence to command others, serving as a terrible champion of Dagoth Ur's divine will.</description>
-  </RankDef>
 </RankDefs>
