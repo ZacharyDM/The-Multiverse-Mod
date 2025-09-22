@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Imperial Cult Rank Structure -->
+  <!-- Religious hierarchy for worship of the Nine Divines -->
+
+  <!-- Lay Ranks -->
+  <RankDef>
+    <defName>Cult_Follower</defName>
+    <labelMale>Follower</labelMale>
+    <labelFemale>Follower</labelFemale>
+    <description>A devout believer in the Nine Divines who regularly participates in religious ceremonies and supports the Imperial Cult.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>0</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Cult_Novice</defName>
+    <labelMale>Novice</labelMale>
+    <labelFemale>Novice</labelFemale>
+    <description>A beginning student of the divine mysteries, learning the basic tenets of Imperial religion and temple duties.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>1</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Cult_Acolyte</defName>
+    <labelMale>Acolyte</labelMale>
+    <labelFemale>Acolyte</labelFemale>
+    <description>A dedicated servant of the temple who assists in daily rituals and tends to the needs of pilgrims and worshippers.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>3</minLevel>
+  </RankDef>
+
+  <!-- Clerical Ranks -->
+  <RankDef>
+    <defName>Cult_Initiate</defName>
+    <labelMale>Initiate</labelMale>
+    <labelFemale>Initiate</labelFemale>
+    <description>One who has undergone the sacred initiation rites and been formally accepted into the priesthood of the Nine Divines.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>5</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Cult_Priest</defName>
+    <labelMale>Priest</labelMale>
+    <labelFemale>Priestess</labelFemale>
+    <description>An ordained minister of the Imperial Cult, authorized to conduct religious ceremonies, offer blessings, and provide spiritual guidance.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>7</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Cult_Chaplain</defName>
+    <labelMale>Chaplain</labelMale>
+    <labelFemale>Chaplain</labelFemale>
+    <description>A priest assigned to serve the spiritual needs of the Imperial Legion or other Imperial institutions away from the main temples.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>8</minLevel>
+  </RankDef>
+
+  <!-- Specialized Religious Roles -->
+  <RankDef>
+    <defName>Cult_Healer</defName>
+    <labelMale>Temple Healer</labelMale>
+    <labelFemale>Temple Healer</labelFemale>
+    <description>A priest specializing in the divine arts of healing, drawing upon the benevolence of the Divines to mend wounds and cure ailments.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>9</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Cult_Scholar</defName>
+    <labelMale>Temple Scholar</labelMale>
+    <labelFemale>Temple Scholar</labelFemale>
+    <description>A learned member of the clergy who studies religious texts, maintains temple libraries, and interprets divine doctrine.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>10</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Cult_Oracle</defName>
+    <labelMale>Oracle</labelMale>
+    <labelFemale>Oracle</labelFemale>
+    <description>A mystically gifted priest who serves as a conduit for divine revelation, offering prophecy and interpreting the will of the Divines.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>12</minLevel>
+  </RankDef>
+
+  <!-- Senior Clergy -->
+  <RankDef>
+    <defName>Cult_ArchPriest</defName>
+    <labelMale>Arch-Priest</labelMale>
+    <labelFemale>Arch-Priestess</labelFemale>
+    <description>A senior cleric responsible for overseeing a major temple or region, with authority over local priests and religious activities.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>13</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Cult_Patriarch</defName>
+    <labelMale>Patriarch</labelMale>
+    <labelFemale>Matriarch</labelFemale>
+    <description>A high-ranking religious leader who governs the Imperial Cult within an entire province, reporting directly to the imperial hierarchy.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>15</minLevel>
+  </RankDef>
+
+  <!-- Specialized Divine Service Ranks -->
+  <RankDef>
+    <defName>Cult_Crusader</defName>
+    <labelMale>Divine Crusader</labelMale>
+    <labelFemale>Divine Crusader</labelFemale>
+    <description>A warrior-priest who combines martial prowess with divine magic, serving as both protector of the faith and holy champion.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>14</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Cult_Knight</defName>
+    <labelMale>Divine Knight</labelMale>
+    <labelFemale>Divine Knight</labelFemale>
+    <description>An elite warrior blessed by the Divines, serving as both temporal and spiritual guardian of Imperial Cult interests.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>16</minLevel>
+  </RankDef>
+
+  <!-- Supreme Religious Authority -->
+  <RankDef>
+    <defName>Cult_HighPriest</defName>
+    <labelMale>High Priest</labelMale>
+    <labelFemale>High Priestess</labelFemale>
+    <description>The supreme religious authority of the Imperial Cult, serving as the voice of the Nine Divines and spiritual advisor to the Emperor.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>18</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Cult_Hierophant</defName>
+    <labelMale>Hierophant</labelMale>
+    <labelFemale>Hierophant</labelFemale>
+    <description>The ultimate spiritual leader, one who has achieved the highest understanding of divine mysteries and serves as the earthly representative of the Divines.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>20</minLevel>
+  </RankDef>
+
+  <!-- Regional/Specialized Leadership -->
+  <RankDef>
+    <defName>Cult_Primate</defName>
+    <labelMale>Primate</labelMale>
+    <labelFemale>Primate</labelFemale>
+    <description>The chief religious authority of a major region or province, responsible for coordinating multiple temples and religious activities.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>17</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Cult_Confessor</defName>
+    <labelMale>Grand Confessor</labelMale>
+    <labelFemale>Grand Confessor</labelFemale>
+    <description>A high-ranking priest responsible for maintaining religious orthodoxy and investigating matters of heresy or spiritual corruption.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>16</minLevel>
+  </RankDef>
+</Defs>

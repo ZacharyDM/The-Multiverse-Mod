@@ -4,5 +4,31 @@
   <TheMultiverseMod_Description>
     The Multiverse Mod brings together races, factions, items, and lore from multiple beloved franchises into RimWorld. Featuring a custom alien race framework, advanced graphics support, and seamless integration, this mod delivers a unique cross-universe experience.
   </TheMultiverseMod_Description>
+  
+  <!-- Imperial Race and Faction Names -->
+  <Imperial_Name>Imperial</Imperial_Name>
+  <Imperial_Description>A disciplined citizen of the Cyrodilic Empire, known for diplomatic skill and martial prowess.</Imperial_Description>
+  <HalfImperial_Name>Half-Imperial</HalfImperial_Name>
+  <HalfImperial_Description>A person of mixed Imperial heritage, retaining some Imperial traits and abilities.</HalfImperial_Description>
+  
+  <!-- Imperial Faction Names -->
+  <ImperialLegion_Name>Imperial Legion</ImperialLegion_Name>
+  <ImperialLegion_Description>The disciplined military force of the Empire.</ImperialLegion_Description>
+  <ImperialNobles_Name>Imperial Houses</ImperialNobles_Name>
+  <ImperialNobles_Description>The aristocratic families of the Empire.</ImperialNobles_Description>
+  <ImperialCult_Name>Imperial Cult</ImperialCult_Name>
+  <ImperialCult_Description>Worshippers of the Nine Divines.</ImperialCult_Description>
+  <ColovianEstates_Name>Colovian Estates</ColovianEstates_Name>
+  <ColovianEstates_Description>Hardy landholders of western Cyrodiil.</ColovianEstates_Description>
+  <NibeneseSyndicates_Name>Nibenese Syndicates</NibeneseSyndicates_Name>
+  <NibeneseSyndicates_Description>Sophisticated merchant guilds of eastern Cyrodiil.</NibeneseSyndicates_Description>
+  
+  <!-- Imperial Trait Names -->
+  <ImperialDiscipline_Name>Imperial Discipline</ImperialDiscipline_Name>
+  <ColovianHeritage_Name>Colovian Heritage</ColovianHeritage_Name>
+  <NibeneseHeritage_Name>Nibenese Heritage</NibeneseHeritage_Name>
+  <LegionVeteran_Name>Legion Veteran</LegionVeteran_Name>
+  <ImperialNoble_Name>Imperial Noble</ImperialNoble_Name>
+  
   <!-- Add more keys for things like item names, race names, faction names, etc. -->
 </LanguageData>

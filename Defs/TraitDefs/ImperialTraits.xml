@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Core Imperial trait representing their disciplined nature and cultural heritage -->
+  <TraitDef>
+    <defName>ImperialDiscipline</defName>
+    <label>Imperial Discipline</label>
+    <description>This pawn embodies the disciplined nature of Imperial culture, with enhanced social skills, construction ability, and mental resilience inherited from generations of Imperial civilization.</description>
+    <degreeDatas>
+      <li>
+        <label>Disciplined</label>
+        <description>Raised in the Imperial tradition of order and civilization, this pawn excels at social interaction, construction, and maintains mental fortitude.</description>
+        <skillGains>
+          <Social>3</Social>
+          <Construction>2</Construction>
+          <Intellectual>1</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <MentalBreakThreshold>-0.15</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Regional Imperial traits for cultural variation -->
+  <TraitDef>
+    <defName>ColovianHeritage</defName>
+    <label>Colovian Heritage</label>
+    <description>This pawn descends from the hardy Colovian highlands, inheriting their reputation for military prowess, craftsmanship, and practical skills.</description>
+    <degreeDatas>
+      <li>
+        <label>Colovian</label>
+        <description>From the western highlands of Cyrodiil, this pawn possesses enhanced combat skills and crafting abilities typical of Colovian stock.</description>
+        <skillGains>
+          <Melee>3</Melee>
+          <Crafting>2</Crafting>
+          <Mining>1</Mining>
+        </skillGains>
+        <statOffsets>
+          <WorkSpeedGlobal>0.10</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>NibeneseHeritage</defName>
+    <label>Nibenese Heritage</label>
+    <description>This pawn carries the sophisticated bloodline of the Nibenese, known for their magical aptitude, mercantile skills, and cultural refinement.</description>
+    <degreeDatas>
+      <li>
+        <label>Nibenese</label>
+        <description>From the eastern heartlands of Cyrodiil, this pawn exhibits the Nibenese talents for magic, trade, and artistic pursuits.</description>
+        <skillGains>
+          <Intellectual>3</Intellectual>
+          <Social>2</Social>
+          <Artistic>1</Artistic>
+        </skillGains>
+        <statOffsets>
+          <TradePriceImprovement>0.15</TradePriceImprovement>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Military background trait -->
+  <TraitDef>
+    <defName>LegionVeteran</defName>
+    <label>Legion Veteran</label>
+    <description>This pawn served with distinction in the Imperial Legion, gaining combat experience and tactical knowledge that serves them well in any conflict.</description>
+    <degreeDatas>
+      <li>
+        <label>Veteran</label>
+        <description>Years of service in the disciplined ranks of the Imperial Legion have honed this pawn's combat abilities and leadership skills.</description>
+        <skillGains>
+          <Shooting>4</Shooting>
+          <Melee>3</Melee>
+          <Social>1</Social>
+        </skillGains>
+        <statOffsets>
+          <AimingDelayFactor>-0.2</AimingDelayFactor>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Noble background trait -->
+  <TraitDef>
+    <defName>ImperialNoble</defName>
+    <label>Imperial Noble</label>
+    <description>This pawn was born into Imperial nobility, receiving the finest education and social training but perhaps lacking in practical labor skills.</description>
+    <degreeDatas>
+      <li>
+        <label>Noble</label>
+        <description>Raised in Imperial high society, this pawn excels in social situations and intellectual pursuits but may struggle with manual labor.</description>
+        <skillGains>
+          <Social>4</Social>
+          <Intellectual>3</Intellectual>
+          <Artistic>1</Artistic>
+        </skillGains>
+        <skillLossFactors>
+          <Mining>0.5</Mining>
+          <PlantWork>0.7</PlantWork>
+        </skillLossFactors>
+        <statOffsets>
+          <TradePriceImprovement>0.25</TradePriceImprovement>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>

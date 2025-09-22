@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Nibenese Syndicates Rank Structure -->
+  <!-- Commercial and magical hierarchy of eastern Cyrodiil -->
+
+  <!-- Apprentice and Entry Level -->
+  <RankDef>
+    <defName>Nibenese_Apprentice</defName>
+    <labelMale>Guild Apprentice</labelMale>
+    <labelFemale>Guild Apprentice</labelFemale>
+    <description>A beginning member of a Nibenese syndicate, learning the basics of trade, magic, or craftsmanship.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>0</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Nibenese_Journeyman</defName>
+    <labelMale>Journeyman</labelMale>
+    <labelFemale>Journeywoman</labelFemale>
+    <description>A skilled worker who has completed apprenticeship and can practice their trade independently within the syndicate.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>3</minLevel>
+  </RankDef>
+
+  <!-- Craft and Trade Specialists -->
+  <RankDef>
+    <defName>Nibenese_Artisan</defName>
+    <labelMale>Master Artisan</labelMale>
+    <labelFemale>Master Artisan</labelFemale>
+    <description>A master craftsperson whose works are prized throughout the Empire, representing the pinnacle of Nibenese artistry.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>7</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Nibenese_Merchant</defName>
+    <labelMale>Merchant</labelMale>
+    <labelFemale>Merchant</labelFemale>
+    <description>A successful trader dealing in exotic goods and conducting business across the Empire's provinces.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>5</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Nibenese_Broker</defName>
+    <labelMale>Trade Broker</labelMale>
+    <labelFemale>Trade Broker</labelFemale>
+    <description>A financial specialist who arranges complex deals and manages the syndicate's commercial relationships.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>8</minLevel>
+  </RankDef>
+
+  <!-- Magical Practitioners -->
+  <RankDef>
+    <defName>Nibenese_Adept</defName>
+    <labelMale>Mystical Adept</labelMale>
+    <labelFemale>Mystical Adept</labelFemale>
+    <description>A practitioner of the mystical arts, combining magic with commercial enterprise in the Nibenese tradition.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>6</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Nibenese_Mage</defName>
+    <labelMale>Syndicate Mage</labelMale>
+    <labelFemale>Syndicate Mage</labelFemale>
+    <description>A skilled wizard who uses magical knowledge to advance the syndicate's interests and protect its secrets.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>10</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Nibenese_Enchanter</defName>
+    <labelMale>Master Enchanter</labelMale>
+    <labelFemale>Master Enchanter</labelFemale>
+    <description>An expert in magical item creation whose enchanted goods bring great profit and prestige to the syndicate.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>11</minLevel>
+  </RankDef>
+
+  <!-- Administrative Positions -->
+  <RankDef>
+    <defName>Nibenese_Factor</defName>
+    <labelMale>Trading Factor</labelMale>
+    <labelFemale>Trading Factor</labelFemale>
+    <description>A syndicate representative who manages operations in distant provinces and negotiates major contracts.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>9</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Nibenese_Director</defName>
+    <labelMale>Syndicate Director</labelMale>
+    <labelFemale>Syndicate Director</labelFemale>
+    <description>A high-ranking administrator responsible for overseeing entire divisions of syndicate operations.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>13</minLevel>
+  </RankDef>
+
+  <!-- Leadership Ranks -->
+  <RankDef>
+    <defName>Nibenese_Councilor</defName>
+    <labelMale>Guild Councilor</labelMale>
+    <labelFemale>Guild Councilor</labelFemale>
+    <description>A member of the syndicate's governing council, helping to set policy and strategic direction.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>15</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Nibenese_Guildmaster</defName>
+    <labelMale>Guildmaster</labelMale>
+    <labelFemale>Guildmistress</labelFemale>
+    <description>The supreme leader of a Nibenese syndicate, wielding immense commercial influence and political power.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>17</minLevel>
+  </RankDef>
+
+  <!-- Special Positions -->
+  <RankDef>
+    <defName>Nibenese_Patron</defName>
+    <labelMale>Syndicate Patron</labelMale>
+    <labelFemale>Syndicate Patron</labelFemale>
+    <description>A wealthy sponsor who provides capital and protection to the syndicate in exchange for exclusive privileges and profits.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>16</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Nibenese_Magnate</defName>
+    <labelMale>Commercial Magnate</labelMale>
+    <labelFemale>Commercial Magnate</labelFemale>
+    <description>A titan of Nibenese commerce whose business empire spans multiple syndicates and influences imperial economic policy.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>18</minLevel>
+  </RankDef>
+
+  <!-- Security and Enforcement -->
+  <RankDef>
+    <defName>Nibenese_Guard</defName>
+    <labelMale>Syndicate Guard</labelMale>
+    <labelFemale>Syndicate Guard</labelFemale>
+    <description>A warrior employed to protect syndicate assets and enforce business agreements through strength of arms.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>4</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Nibenese_Enforcer</defName>
+    <labelMale>Debt Enforcer</labelMale>
+    <labelFemale>Debt Enforcer</labelFemale>
+    <description>A specialized agent who ensures compliance with syndicate contracts and collects on outstanding obligations.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>7</minLevel>
+  </RankDef>
+</Defs>

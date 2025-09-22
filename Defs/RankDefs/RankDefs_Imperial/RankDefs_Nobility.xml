@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Imperial Nobility Rank Structure -->
+  <!-- Based on the feudal hierarchy of the Elder Scrolls Empire -->
+
+  <!-- Commoner/Citizen Ranks -->
+  <RankDef>
+    <defName>Noble_Citizen</defName>
+    <labelMale>Citizen</labelMale>
+    <labelFemale>Citizen</labelFemale>
+    <description>A free citizen of the Empire with basic rights and protections under Imperial law, but no noble title or lands.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>0</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Noble_Freeman</defName>
+    <labelMale>Freeman</labelMale>
+    <labelFemale>Freewoman</labelFemale>
+    <description>A citizen who has earned recognition for service or achievement, holding slightly elevated status within Imperial society.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>1</minLevel>
+  </RankDef>
+
+  <!-- Minor Nobility -->
+  <RankDef>
+    <defName>Noble_Esquire</defName>
+    <labelMale>Esquire</labelMale>
+    <labelFemale>Dame</labelFemale>
+    <description>The lowest rank of nobility, often granted for exceptional service to the Empire or significant contributions to society.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>3</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Noble_Knight</defName>
+    <labelMale>Knight</labelMale>
+    <labelFemale>Dame Knight</labelFemale>
+    <description>A warrior noble sworn to serve the Empire, granted lands and titles in exchange for military service and loyalty to the Crown.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>5</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Noble_Baronet</defName>
+    <labelMale>Baronet</labelMale>
+    <labelFemale>Baronetess</labelFemale>
+    <description>A hereditary knight with a small estate, representing the transition between knighthood and the higher nobility.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>7</minLevel>
+  </RankDef>
+
+  <!-- Lesser Nobility -->
+  <RankDef>
+    <defName>Noble_Baron</defName>
+    <labelMale>Baron</labelMale>
+    <labelFemale>Baroness</labelFemale>
+    <description>A lord or lady with jurisdiction over a barony, responsible for local governance and justice within their domain.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>9</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Noble_Viscount</defName>
+    <labelMale>Viscount</labelMale>
+    <labelFemale>Viscountess</labelFemale>
+    <description>A noble ranking between Baron and Earl, often serving as deputies to higher-ranking nobles in their administrative duties.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>11</minLevel>
+  </RankDef>
+
+  <!-- Greater Nobility -->
+  <RankDef>
+    <defName>Noble_Earl</defName>
+    <labelMale>Earl</labelMale>
+    <labelFemale>Countess</labelFemale>
+    <description>A high-ranking noble with authority over an earldom, wielding significant political influence and commanding substantial resources.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>13</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Noble_Marquess</defName>
+    <labelMale>Marquess</labelMale>
+    <labelFemale>Marchioness</labelFemale>
+    <description>A border noble responsible for defending the Empire's frontier regions, granted extensive military and administrative powers.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>15</minLevel>
+  </RankDef>
+
+  <!-- High Nobility -->
+  <RankDef>
+    <defName>Noble_Duke</defName>
+    <labelMale>Duke</labelMale>
+    <labelFemale>Duchess</labelFemale>
+    <description>One of the highest-ranking nobles in the Empire, ruling over a duchy with near-autonomous authority under the Emperor.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>17</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Noble_Archduke</defName>
+    <labelMale>Archduke</labelMale>
+    <labelFemale>Archduchess</labelFemale>
+    <description>A supreme noble ranking just below the imperial family, often ruling multiple duchies or serving as regional governors.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>18</minLevel>
+  </RankDef>
+
+  <!-- Imperial Family and Court Ranks -->
+  <RankDef>
+    <defName>Noble_Prince</defName>
+    <labelMale>Prince</labelMale>
+    <labelFemale>Princess</labelFemale>
+    <description>A member of the imperial family or one granted the title by the Emperor, possessing royal blood or equivalent status.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>19</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Noble_Emperor</defName>
+    <labelMale>Emperor</labelMale>
+    <labelFemale>Empress</labelFemale>
+    <description>The supreme ruler of the Empire, wielding absolute authority over all Imperial territories and commanding the loyalty of all subjects.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>20</minLevel>
+  </RankDef>
+
+  <!-- Special Court Positions -->
+  <RankDef>
+    <defName>Noble_Councilor</defName>
+    <labelMale>Imperial Councilor</labelMale>
+    <labelFemale>Imperial Councilor</labelFemale>
+    <description>A trusted advisor to the imperial court, possessing significant influence over imperial policy regardless of hereditary rank.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>16</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Noble_Chancellor</defName>
+    <labelMale>Imperial Chancellor</labelMale>
+    <labelFemale>Imperial Chancellor</labelFemale>
+    <description>The chief administrator of the Empire, responsible for coordinating imperial policy and serving as the Emperor's right hand in governance.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>18</minLevel>
+  </RankDef>
+</Defs>

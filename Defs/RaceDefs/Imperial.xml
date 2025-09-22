@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <ThingDef ParentName="ImperialBase">
+    <defName>Imperial</defName>
+    <label>imperial</label>
+    <description>A full-blooded Imperial from the heartland of Cyrodiil. Known for their discipline, diplomatic skills, and the legacy of their once-great Empire. Imperials are natural leaders and skilled in both warfare and commerce.</description>
+    <race>
+      <!-- Imperial skin tones: varied but typically lighter than other human ethnicities -->
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <!-- Colovian skin tones (western highlands) -->
+          <li>
+            <weight>25</weight>
+            <only>
+              <li>(0.95, 0.88, 0.78, 1)</li> <!-- Fair Colovian -->
+            </only>
+          </li>
+          <li>
+            <weight>25</weight>
+            <only>
+              <li>(0.90, 0.83, 0.73, 1)</li> <!-- Typical Colovian -->
+            </only>
+          </li>
+          <!-- Nibenese skin tones (eastern heartlands) -->
+          <li>
+            <weight>25</weight>
+            <only>
+              <li>(0.92, 0.85, 0.75, 1)</li> <!-- Fair Nibenese -->
+            </only>
+          </li>
+          <li>
+            <weight>25</weight>
+            <only>
+              <li>(0.88, 0.80, 0.70, 1)</li> <!-- Typical Nibenese -->
+            </only>
+          </li>
+        </options>
+      </colorGenerator>
+      
+      <!-- Imperial cultural traits - varied backgrounds -->
+      <possibleTraits>
+        <li>ImperialDiscipline</li>
+        <li>ColovianHeritage</li>
+        <li>NibeneseHeritage</li>
+        <li>LegionVeteran</li>
+        <li>ImperialNoble</li>
+      </possibleTraits>
+      
+      <!-- Default Imperial discipline for all individuals -->
+      <forcedTraits>
+        <li>ImperialDiscipline</li>
+      </forcedTraits>
+    </race>
+    
+    <!-- Enhanced Imperial stats reflecting their disciplined civilization -->
+    <statBases>
+      <MoveSpeed>4.7</MoveSpeed>
+      <MarketValue>3000</MarketValue>
+      <ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+      <MeleeHitChance>0.05</MeleeHitChance>
+      <ComfyTemperatureMin>-15</ComfyTemperatureMin>
+      <ComfyTemperatureMax>45</ComfyTemperatureMax>
+      <!-- Imperial education and organization -->
+      <WorkSpeedGlobal>1.05</WorkSpeedGlobal>
+      <SocialImpact>1.1</SocialImpact>
+    </statBases>
+  </ThingDef>
+
+  <!-- Half-Imperial variant for mixed heritage -->
+  <ThingDef ParentName="ImperialBase">
+    <defName>HalfImperial</defName>
+    <label>half-imperial</label>
+    <description>A person of mixed Imperial and other heritage. While not possessing the full cultural advantages of pure Imperial bloodline, they retain much of the Imperial aptitude for leadership and organization.</description>
+    <race>
+      <!-- More varied skin tones reflecting mixed heritage -->
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <weight>20</weight>
+            <only>
+              <li>(0.95, 0.88, 0.78, 1)</li> <!-- Imperial-dominant -->
+            </only>
+          </li>
+          <li>
+            <weight>20</weight>
+            <only>
+              <li>(0.85, 0.75, 0.65, 1)</li> <!-- Mixed heritage -->
+            </only>
+          </li>
+          <li>
+            <weight>20</weight>
+            <only>
+              <li>(0.80, 0.70, 0.60, 1)</li> <!-- Other-dominant -->
+            </only>
+          </li>
+          <li>
+            <weight>20</weight>
+            <only>
+              <li>(0.92, 0.85, 0.75, 1)</li> <!-- Fair mixed -->
+            </only>
+          </li>
+          <li>
+            <weight>20</weight>
+            <only>
+              <li>(0.87, 0.78, 0.68, 1)</li> <!-- Typical mixed -->
+            </only>
+          </li>
+        </options>
+      </colorGenerator>
+      
+      <!-- Reduced but still present Imperial traits -->
+      <possibleTraits>
+        <li>ImperialDiscipline</li>
+        <li>ColovianHeritage</li>
+        <li>NibeneseHeritage</li>
+      </possibleTraits>
+      
+      <!-- Not all half-Imperials have the full discipline -->
+      <traitChances>
+        <li>
+          <trait>ImperialDiscipline</trait>
+          <chance>0.6</chance>
+        </li>
+      </traitChances>
+    </race>
+    
+    <!-- Slightly reduced Imperial advantages -->
+    <statBases>
+      <MoveSpeed>4.6</MoveSpeed>
+      <MarketValue>2700</MarketValue>
+      <ShootingAccuracyPawn>0.04</ShootingAccuracyPawn>
+      <MeleeHitChance>0.04</MeleeHitChance>
+      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+      <ComfyTemperatureMax>40</ComfyTemperatureMax>
+      <WorkSpeedGlobal>1.02</WorkSpeedGlobal>
+      <SocialImpact>1.05</SocialImpact>
+    </statBases>
+  </ThingDef>
+</ThingDefs>

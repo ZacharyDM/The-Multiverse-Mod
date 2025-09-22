@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Imperial Legion - The primary military force -->
+  <FactionDef>
+    <defName>ImperialLegion</defName>
+    <label>Imperial Legion</label>
+    <description>The disciplined military force of the Empire, renowned for their tactical prowess, strict hierarchy, and unwavering loyalty. They maintain order across the provinces and protect Imperial interests.</description>
+    <pawnSingular>legionnaire</pawnSingular>
+    <pawnsPlural>legionnaires</pawnsPlural>
+    <listOrderPriority>40</listOrderPriority>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiegeSettlements>true</canSiegeSettlements>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>Legate</leaderTitle>
+    <factionIconPath>UI/Icons/Imperial/Legion</factionIconPath>
+    <colorSpectrum>
+      <li>(0.8, 0.1, 0.1)</li> <!-- Imperial Red -->
+    </colorSpectrum>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxCountAtGameStart>3</maxCountAtGameStart>
+    <canUseAvoidGrid>true</canUseAvoidGrid>
+    <techLevel>Medieval</techLevel>
+    <allowedCultures>
+      <li>Imperial</li>
+    </allowedCultures>
+    <apparelStuffFilter>
+      <categories>
+        <li>Metallic</li>
+        <li>Woody</li>
+        <li>Stony</li>
+      </categories>
+    </apparelStuffFilter>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>ImperialMilitary</li>
+          <li>ImperialCivilian</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <geneticVariance>0.8</geneticVariance>
+    <fixedLeaderKinds>
+      <li>Imperial_Legion_Legate</li>
+    </fixedLeaderKinds>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <Imperial_Legion_Recruit>10</Imperial_Legion_Recruit>
+          <Imperial_Legion_Soldier>15</Imperial_Legion_Soldier>
+          <Imperial_Legion_Veteran>10</Imperial_Legion_Veteran>
+          <Imperial_Legion_Centurion>5</Imperial_Legion_Centurion>
+          <Imperial_Legion_Legate>1</Imperial_Legion_Legate>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+  </FactionDef>
+
+  <!-- Imperial Nobility - Various noble houses -->
+  <FactionDef>
+    <defName>ImperialNobles</defName>
+    <label>Imperial Houses</label>
+    <description>The aristocratic families that form the backbone of Imperial high society. Wealthy, influential, and politically savvy, they control much of the Empire's commerce and culture.</description>
+    <pawnSingular>noble</pawnSingular>
+    <pawnsPlural>nobles</pawnsPlural>
+    <listOrderPriority>35</listOrderPriority>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiegeSettlements>false</canSiegeSettlements>
+    <canStageAttacks>false</canStageAttacks>
+    <leaderTitle>High Lord</leaderTitle>
+    <factionIconPath>UI/Icons/Imperial/Nobles</factionIconPath>
+    <colorSpectrum>
+      <li>(0.7, 0.6, 0.2)</li> <!-- Imperial Gold -->
+    </colorSpectrum>
+    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <maxCountAtGameStart>2</maxCountAtGameStart>
+    <canUseAvoidGrid>true</canUseAvoidGrid>
+    <techLevel>Medieval</techLevel>
+    <allowedCultures>
+      <li>Imperial</li>
+    </allowedCultures>
+    <apparelStuffFilter>
+      <categories>
+        <li>Fabric</li>
+        <li>Leathery</li>
+      </categories>
+      <thingDefs>
+        <li>Gold</li>
+        <li>Silver</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>ImperialNoble</li>
+          <li>ImperialCivilian</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <geneticVariance>0.6</geneticVariance>
+    <fixedLeaderKinds>
+      <li>Imperial_Noble_Lord</li>
+    </fixedLeaderKinds>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <Imperial_Noble_Citizen>15</Imperial_Noble_Citizen>
+          <Imperial_Noble_Merchant>10</Imperial_Noble_Merchant>
+          <Imperial_Noble_Courtier>8</Imperial_Noble_Courtier>
+          <Imperial_Noble_Lord>3</Imperial_Noble_Lord>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+  </FactionDef>
+
+  <!-- Imperial Cult - Worshippers of the Nine Divines -->
+  <FactionDef>
+    <defName>ImperialCult</defName>
+    <label>Imperial Cult</label>
+    <description>The religious organization devoted to the Nine Divines, the official pantheon of the Empire. They provide spiritual guidance, healing, and moral authority throughout Imperial territories.</description>
+    <pawnSingular>priest</pawnSingular>
+    <pawnsPlural>priests</pawnsPlural>
+    <listOrderPriority>30</listOrderPriority>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiegeSettlements>false</canSiegeSettlements>
+    <canStageAttacks>false</canStageAttacks>
+    <leaderTitle>High Priest</leaderTitle>
+    <factionIconPath>UI/Icons/Imperial/Cult</factionIconPath>
+    <colorSpectrum>
+      <li>(0.9, 0.9, 0.7)</li> <!-- Holy White-Gold -->
+    </colorSpectrum>
+    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <canUseAvoidGrid>true</canUseAvoidGrid>
+    <techLevel>Medieval</techLevel>
+    <allowedCultures>
+      <li>Imperial</li>
+    </allowedCultures>
+    <apparelStuffFilter>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <thingDefs>
+        <li>Gold</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>ImperialReligious</li>
+          <li>ImperialCivilian</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <geneticVariance>0.7</geneticVariance>
+    <fixedLeaderKinds>
+      <li>Imperial_Cult_HighPriest</li>
+    </fixedLeaderKinds>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <Imperial_Cult_Acolyte>12</Imperial_Cult_Acolyte>
+          <Imperial_Cult_Priest>8</Imperial_Cult_Priest>
+          <Imperial_Cult_Elder>5</Imperial_Cult_Elder>
+          <Imperial_Cult_HighPriest>1</Imperial_Cult_HighPriest>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+  </FactionDef>
+
+  <!-- Colovian Estates - Western Imperial regional faction -->
+  <FactionDef>
+    <defName>ColovianEstates</defName>
+    <label>Colovian Estates</label>
+    <description>The hardy landholders of western Cyrodiil, known for their martial traditions and practical approach to governance. They maintain semi-autonomous control over their ancestral lands.</description>
+    <pawnSingular>colovian</pawnSingular>
+    <pawnsPlural>colovians</pawnsPlural>
+    <listOrderPriority>25</listOrderPriority>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiegeSettlements>false</canSiegeSettlements>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>Count</leaderTitle>
+    <factionIconPath>UI/Icons/Imperial/Colovian</factionIconPath>
+    <colorSpectrum>
+      <li>(0.5, 0.3, 0.1)</li> <!-- Colovian Brown -->
+    </colorSpectrum>
+    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <maxCountAtGameStart>2</maxCountAtGameStart>
+    <canUseAvoidGrid>true</canUseAvoidGrid>
+    <techLevel>Medieval</techLevel>
+    <allowedCultures>
+      <li>Imperial</li>
+    </allowedCultures>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>ImperialColovian</li>
+          <li>ImperialCivilian</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <geneticVariance>0.8</geneticVariance>
+    <fixedLeaderKinds>
+      <li>Imperial_Colovian_Count</li>
+    </fixedLeaderKinds>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>80</commonality>
+        <options>
+          <Imperial_Colovian_Militia>15</Imperial_Colovian_Militia>
+          <Imperial_Colovian_Ranger>10</Imperial_Colovian_Ranger>
+          <Imperial_Colovian_Knight>5</Imperial_Colovian_Knight>
+          <Imperial_Colovian_Count>1</Imperial_Colovian_Count>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+  </FactionDef>
+
+  <!-- Nibenese Syndicates - Eastern Imperial merchant guilds -->
+  <FactionDef>
+    <defName>NibeneseSyndicates</defName>
+    <label>Nibenese Syndicates</label>
+    <description>The sophisticated merchant guilds and trading companies of eastern Cyrodiil. Masters of commerce, magic, and political intrigue, they control much of the Empire's wealth.</description>
+    <pawnSingular>syndicate member</pawnSingular>
+    <pawnsPlural>syndicate members</pawnsPlural>
+    <listOrderPriority>25</listOrderPriority>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiegeSettlements>false</canSiegeSettlements>
+    <canStageAttacks>false</canStageAttacks>
+    <leaderTitle>Guildmaster</leaderTitle>
+    <factionIconPath>UI/Icons/Imperial/Nibenese</factionIconPath>
+    <colorSpectrum>
+      <li>(0.2, 0.2, 0.7)</li> <!-- Nibenese Blue -->
+    </colorSpectrum>
+    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <maxCountAtGameStart>2</maxCountAtGameStart>
+    <canUseAvoidGrid>true</canUseAvoidGrid>
+    <techLevel>Medieval</techLevel>
+    <allowedCultures>
+      <li>Imperial</li>
+    </allowedCultures>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>ImperialNibenese</li>
+          <li>ImperialCivilian</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <geneticVariance>0.7</geneticVariance>
+    <fixedLeaderKinds>
+      <li>Imperial_Nibenese_Guildmaster</li>
+    </fixedLeaderKinds>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Trader</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <Imperial_Nibenese_Apprentice>12</Imperial_Nibenese_Apprentice>
+          <Imperial_Nibenese_Merchant>10</Imperial_Nibenese_Merchant>
+          <Imperial_Nibenese_Mage>6</Imperial_Nibenese_Mage>
+          <Imperial_Nibenese_Guildmaster>2</Imperial_Nibenese_Guildmaster>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+  </FactionDef>
+</Defs>

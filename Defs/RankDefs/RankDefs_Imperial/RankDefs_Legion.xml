@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Imperial Legion Rank Structure -->
+  <!-- Based on the historical Roman Legion hierarchy with Elder Scrolls adaptations -->
+
+  <!-- Entry Level Ranks -->
+  <RankDef>
+    <defName>Legion_Recruit</defName>
+    <labelMale>Recruit</labelMale>
+    <labelFemale>Recruit</labelFemale>
+    <description>A new enlistee in the Imperial Legion, undergoing basic training and learning the fundamentals of military discipline.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>0</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Legion_Auxilia</defName>
+    <labelMale>Auxiliary</labelMale>
+    <labelFemale>Auxiliary</labelFemale>
+    <description>A support soldier in the Legion, responsible for logistics, engineering, and specialized tasks that support the main fighting force.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>1</minLevel>
+  </RankDef>
+
+  <!-- Regular Soldier Ranks -->
+  <RankDef>
+    <defName>Legion_Legionary</defName>
+    <labelMale>Legionary</labelMale>
+    <labelFemale>Legionary</labelFemale>
+    <description>A fully trained soldier of the Imperial Legion, the backbone of the Empire's military might. Disciplined, loyal, and battle-tested.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>3</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Legion_Veteran</defName>
+    <labelMale>Veteran</labelMale>
+    <labelFemale>Veteran</labelFemale>
+    <description>An experienced legionary who has served with distinction through multiple campaigns and proven their valor in battle.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>6</minLevel>
+  </RankDef>
+
+  <!-- Non-Commissioned Officer Ranks -->
+  <RankDef>
+    <defName>Legion_Decanus</defName>
+    <labelMale>Decanus</labelMale>
+    <labelFemale>Decana</labelFemale>
+    <description>A squad leader responsible for ten legionaries, the first step in the Legion's command structure. Shows tactical skill and leadership potential.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>8</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Legion_Optio</defName>
+    <labelMale>Optio</labelMale>
+    <labelFemale>Optio</labelFemale>
+    <description>A senior non-commissioned officer who assists centurions in managing century-level operations and training.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>10</minLevel>
+  </RankDef>
+
+  <!-- Specialist Ranks -->
+  <RankDef>
+    <defName>Legion_Signifer</defName>
+    <labelMale>Signifer</labelMale>
+    <labelFemale>Signifera</labelFemale>
+    <description>The standard bearer of a Legion century, responsible for carrying the unit's colors and maintaining unit cohesion in battle.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>7</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Legion_Cornicen</defName>
+    <labelMale>Cornicen</labelMale>
+    <labelFemale>Cornicen</labelFemale>
+    <description>A horn blower who signals commands across the battlefield, crucial for coordinating large-scale military maneuvers.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>5</minLevel>
+  </RankDef>
+
+  <!-- Commissioned Officer Ranks -->
+  <RankDef>
+    <defName>Legion_Centurion</defName>
+    <labelMale>Centurion</labelMale>
+    <labelFemale>Centurion</labelFemale>
+    <description>A company-level commander responsible for leading a century of legionaries. The cornerstone of Legion leadership and tactical excellence.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>12</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Legion_PrimusPilus</defName>
+    <labelMale>Primus Pilus</labelMale>
+    <labelFemale>Prima Pilus</labelFemale>
+    <description>The senior centurion of a Legion, responsible for the first cohort and serving as the senior tactical advisor to the Legion's commander.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>15</minLevel>
+  </RankDef>
+
+  <!-- Senior Officer Ranks -->
+  <RankDef>
+    <defName>Legion_Tribune</defName>
+    <labelMale>Tribune</labelMale>
+    <labelFemale>Tribune</labelFemale>
+    <description>A high-ranking officer often from the nobility, responsible for administrative duties and serving as second-in-command to the Legate.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>16</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Legion_Legate</defName>
+    <labelMale>Legate</labelMale>
+    <labelFemale>Legate</labelFemale>
+    <description>The supreme commander of an Imperial Legion, appointed by the Emperor himself. Possesses both military genius and political authority.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>18</minLevel>
+  </RankDef>
+
+  <!-- Special/Honorary Ranks -->
+  <RankDef>
+    <defName>Legion_Praefectus</defName>
+    <labelMale>Praefectus</labelMale>
+    <labelFemale>Praefecta</labelFemale>
+    <description>A regional military administrator who oversees multiple Legion operations and coordinates with civilian authorities.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>19</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Legion_General</defName>
+    <labelMale>General</labelMale>
+    <labelFemale>General</labelFemale>
+    <description>The highest military rank, commanding multiple Legions and reporting directly to the Emperor. Masters of grand strategy and imperial policy.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>20</minLevel>
+  </RankDef>
+</Defs>

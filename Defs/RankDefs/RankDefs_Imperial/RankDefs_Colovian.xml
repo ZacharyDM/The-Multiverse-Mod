@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Colovian Estates Rank Structure -->
+  <!-- Martial and feudal hierarchy of western Cyrodiil -->
+
+  <!-- Common Folk -->
+  <RankDef>
+    <defName>Colovian_Serf</defName>
+    <labelMale>Serf</labelMale>
+    <labelFemale>Serf</labelFemale>
+    <description>A bound peasant working the lands of a Colovian lord, tied to the estate but protected by feudal law.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>0</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Colovian_Freeman</defName>
+    <labelMale>Freeman</labelMale>
+    <labelFemale>Freewoman</labelFemale>
+    <description>A free citizen of Colovia with the right to bear arms and own property within the estates.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>2</minLevel>
+  </RankDef>
+
+  <!-- Military Ranks -->
+  <RankDef>
+    <defName>Colovian_MilitiaMember</defName>
+    <labelMale>Militia Member</labelMale>
+    <labelFemale>Militia Member</labelFemale>
+    <description>A local defender trained to protect Colovian settlements and estates from bandits and invaders.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>3</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Colovian_Ranger</defName>
+    <labelMale>Estate Ranger</labelMale>
+    <labelFemale>Estate Ranger</labelFemale>
+    <description>A skilled woodsman and scout responsible for patrolling the borders and wilderness of Colovian lands.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>5</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Colovian_Knight</defName>
+    <labelMale>Colovian Knight</labelMale>
+    <labelFemale>Dame of Colovia</labelFemale>
+    <description>A mounted warrior sworn to serve a Colovian lord, embodying the martial traditions of western Cyrodiil.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>8</minLevel>
+  </RankDef>
+
+  <!-- Estate Management -->
+  <RankDef>
+    <defName>Colovian_Steward</defName>
+    <labelMale>Estate Steward</labelMale>
+    <labelFemale>Estate Steward</labelFemale>
+    <description>The administrator of a Colovian estate, responsible for managing resources, crops, and local affairs.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>7</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Colovian_Castellan</defName>
+    <labelMale>Castellan</labelMale>
+    <labelFemale>Castellan</labelFemale>
+    <description>The military commander of a Colovian stronghold, responsible for defense and maintaining the lord's authority.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>10</minLevel>
+  </RankDef>
+
+  <!-- Noble Ranks -->
+  <RankDef>
+    <defName>Colovian_Thane</defName>
+    <labelMale>Thane</labelMale>
+    <labelFemale>Lady Thane</labelFemale>
+    <description>A minor lord or lady granted lands by a higher noble, owing military service in exchange for feudal rights.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>12</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Colovian_Baron</defName>
+    <labelMale>Baron</labelMale>
+    <labelFemale>Baroness</labelFemale>
+    <description>A Colovian noble ruling over significant lands and settlements, commanding local knights and militia.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>14</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Colovian_Count</defName>
+    <labelMale>Count</labelMale>
+    <labelFemale>Countess</labelFemale>
+    <description>A high-ranking Colovian noble with authority over multiple baronies and the right to mint coins and hold court.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>16</minLevel>
+  </RankDef>
+
+  <RankDef>
+    <defName>Colovian_Duke</defName>
+    <labelMale>Duke of Colovia</labelMale>
+    <labelFemale>Duchess of Colovia</labelFemale>
+    <description>The supreme ruler of western Cyrodiil, commanding all Colovian estates and serving as the Emperor's representative in the west.</description>
+    <genderRequirement>None</genderRequirement>
+    <minLevel>18</minLevel>
+  </RankDef>
+</Defs>

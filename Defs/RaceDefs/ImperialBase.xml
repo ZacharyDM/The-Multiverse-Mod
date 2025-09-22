@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <ThingDef Name="ImperialBase">
+    <defName>ImperialBase</defName>
+    <label>imperial</label>
+    <description>Template base for all Imperial races from The Elder Scrolls. Descendants of the Nedes and inheritors of the Cyrodilic Empire.</description>
+    <race>
+      <body>Humanoid</body>
+      <baseBodySize>1.0</baseBodySize>
+      <healthScale>1.0</healthScale>
+      <foodTypeFlags>VegetarianOrMeat</foodTypeFlags>
+      <gestationPeriodDays>30</gestationPeriodDays>
+      <wildness>0.0</wildness>
+      <intelligence>Humanlike</intelligence>
+      <!-- Human-like life stages but with slight Imperial longevity -->
+      <lifeStageAges Inherit="False">
+        <li>
+          <def>HumanBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>HumanChild</def>
+          <minAge>3</minAge>
+        </li>
+        <li>
+          <def>HumanAdult</def>
+          <minAge>16</minAge>
+        </li>
+        <li>
+          <def>HumanOld</def>
+          <minAge>60</minAge>
+        </li>
+      </lifeStageAges>
+      <!-- Slightly enhanced human lifespan due to advanced Imperial civilization -->
+      <lifeExpectancy>85</lifeExpectancy>
+      <ageGenerationCurve>
+        <points>
+          <li>
+            <x>16</x>
+            <y>0.5</y>
+          </li>
+          <li>
+            <x>35</x>
+            <y>1.0</y>
+          </li>
+          <li>
+            <x>55</x>
+            <y>0.9</y>
+          </li>
+          <li>
+            <x>70</x>
+            <y>0.6</y>
+          </li>
+          <li>
+            <x>85</x>
+            <y>0.1</y>
+          </li>
+        </points>
+      </ageGenerationCurve>
+    </race>
+    <statBases>
+      <MoveSpeed>4.6</MoveSpeed>
+      <MarketValue>2800</MarketValue>
+      <ComfyTemperatureMin>-15</ComfyTemperatureMin>
+      <ComfyTemperatureMax>40</ComfyTemperatureMax>
+      <!-- Imperial discipline and training -->
+      <ShootingAccuracyPawn>0.03</ShootingAccuracyPawn>
+      <MeleeHitChance>0.04</MeleeHitChance>
+    </statBases>
+    <thingCategories>
+      <li>Pawns</li>
+    </thingCategories>
+    <!-- Shared Imperial traits will be added here -->
+  </ThingDef>
+</ThingDefs>
