@@ -106,37 +106,16 @@
     </degreeDatas>
   </TraitDef>
 
-  <!-- Corpus Touched - General corpus affliction trait -->
-  <TraitDef>
-    <defName>HouseDagothCorpusTouched</defName>
-    <label>Corpus Touched</label>
-    <description>Marked by the divine disease of House Dagoth, these individuals show early signs of corpus transformation. They gain resistance to disease and toxins but suffer from social stigma and gradual physical changes.</description>
-    <degreeDatas>
-      <li>
-        <degree>0</degree>
-        <label>Corpus Touched</label>
-        <description>Recently infected with the corpus disease, showing early signs of transformation. Gains some resistance benefits but faces social challenges.</description>
-        <skillGains>
-          <Medicine>2</Medicine>
-        </skillGains>
-        <statOffsets>
-          <ImmunityGainSpeed>0.2</ImmunityGainSpeed>
-          <ToxicResistance>0.3</ToxicResistance>
-          <SocialImpact>-0.2</SocialImpact>
-        </statOffsets>
-      </li>
-    </degreeDatas>
-  </TraitDef>
 
-  <!-- Sleepers - Corpus-touched seers and those under Dagoth Ur's spell who transform through corpus stages -->
+  <!-- Sleepers - Corpus-touched seers who undergo progressive transformation through ash corruption stages -->
   <TraitDef>
     <defName>HouseDagothSleeper</defName>
     <label>Sleeper</label>
-    <description>Corpus-touched seers and prophets under Dagoth Ur's spell who commune with divine dreams and visions. These unfortunate souls undergo progressive transformation from dream-touched seers to mighty ascended beings, gaining power and psychic abilities at the cost of their humanity.</description>
+    <description>Corpus-touched seers under Dagoth Ur's spell who undergo progressive transformation through ash corruption. These unfortunate souls start as simple dreamers but gradually become horrific ash-corrupted beings, gaining power and psychic abilities at the cost of their humanity.</description>
     <degreeDatas>
       <li>
         <degree>0</degree>
-        <label>Dream-Touched Sleeper</label>
+        <label>Sleeper</label>
         <description>A newly awakened sleeper under Dagoth Ur's spell, beginning to experience divine visions. Shows enhanced psychic sensitivity and learning abilities but struggles with disturbing dreams and reality distortion.</description>
         <skillGains>
           <Intellectual>3</Intellectual>
@@ -154,83 +133,82 @@
       </li>
       <li>
         <degree>1</degree>
-        <label>Dream Prophet</label>
-        <description>An experienced sleeper whose visions guide House Dagoth's path and whose flesh begins corpus transformation. Possesses powerful psychic abilities and enhanced learning while gaining physical resilience.</description>
+        <label>Ash Slave</label>
+        <description>A sleeper whose body has begun ash corruption, becoming enslaved to the will of House Dagoth. Their flesh starts to change as they lose free will, gaining physical resilience while becoming increasingly servile.</description>
         <skillGains>
-          <Intellectual>5</Intellectual>
-          <Artistic>3</Artistic>
-          <Social>2</Social>
+          <Intellectual>4</Intellectual>
+          <Artistic>2</Artistic>
+          <Social>1</Social>
           <Medicine>3</Medicine>
-          <Melee>2</Melee>
+          <Melee>3</Melee>
         </skillGains>
         <statOffsets>
-          <PsychicSensitivity>0.5</PsychicSensitivity>
-          <MentalBreakThreshold>-0.15</MentalBreakThreshold>
-          <GlobalLearningFactor>0.25</GlobalLearningFactor>
+          <PsychicSensitivity>0.4</PsychicSensitivity>
+          <MentalBreakThreshold>-0.2</MentalBreakThreshold>
+          <GlobalLearningFactor>0.2</GlobalLearningFactor>
           <ImmunityGainSpeed>0.3</ImmunityGainSpeed>
           <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-          <SocialImpact>-0.2</SocialImpact>
-          <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
-          <NegotiationAbility>0.15</NegotiationAbility>
+          <SocialImpact>-0.25</SocialImpact>
+          <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
         </statOffsets>
       </li>
       <li>
         <degree>2</degree>
-        <label>Master Dream-Walker</label>
-        <description>A transcendent sleeper whose dreams shape reality while their corpus transformation accelerates. Commands extraordinary psychic powers and wisdom, though reality becomes increasingly fluid as their body transforms.</description>
+        <label>Ash Zombie</label>
+        <description>A grotesque ash-corrupted being that has lost most of its humanity. These shambling horrors retain some intelligence but are driven primarily by Dagoth Ur's will, gaining unnatural durability and strength.</description>
         <skillGains>
-          <Intellectual>8</Intellectual>
-          <Artistic>5</Artistic>
-          <Social>4</Social>
+          <Intellectual>3</Intellectual>
+          <Artistic>1</Artistic>
           <Medicine>5</Medicine>
-          <Melee>4</Melee>
-          <Mining>2</Mining>
-        </skillGains>
-        <statOffsets>
-          <PsychicSensitivity>0.7</PsychicSensitivity>
-          <MentalBreakThreshold>-0.25</MentalBreakThreshold>
-          <GlobalLearningFactor>0.4</GlobalLearningFactor>
-          <ImmunityGainSpeed>0.5</ImmunityGainSpeed>
-          <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
-          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
-          <SocialImpact>-0.35</SocialImpact>
-          <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
-          <MoveSpeed>0.1</MoveSpeed>
-          <NegotiationAbility>0.25</NegotiationAbility>
-        </statOffsets>
-      </li>
-      <li>
-        <degree>3</degree>
-        <label>Corpus Seer</label>
-        <description>A grotesque fusion of flesh and corpus that retains extraordinary psychic vision. These beings maintain intelligence and prophetic abilities while gaining fearsome combat capabilities through their transformed bodies.</description>
-        <skillGains>
-          <Intellectual>6</Intellectual>
-          <Artistic>3</Artistic>
-          <Social>2</Social>
-          <Medicine>7</Medicine>
           <Melee>6</Melee>
-          <Mining>4</Mining>
-          <Construction>3</Construction>
-          <Shooting>3</Shooting>
+          <Mining>3</Mining>
+          <Construction>2</Construction>
         </skillGains>
         <statOffsets>
-          <PsychicSensitivity>0.4</PsychicSensitivity>
-          <MentalBreakThreshold>-0.35</MentalBreakThreshold>
-          <GlobalLearningFactor>0.2</GlobalLearningFactor>
-          <ImmunityGainSpeed>0.7</ImmunityGainSpeed>
+          <PsychicSensitivity>0.3</PsychicSensitivity>
+          <MentalBreakThreshold>-0.4</MentalBreakThreshold>
+          <GlobalLearningFactor>0.1</GlobalLearningFactor>
+          <ImmunityGainSpeed>0.6</ImmunityGainSpeed>
           <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
           <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
           <SocialImpact>-0.5</SocialImpact>
           <WorkSpeedGlobal>0.2</WorkSpeedGlobal>
+          <MoveSpeed>0.1</MoveSpeed>
+          <MeleeHitChance>0.1</MeleeHitChance>
+        </statOffsets>
+      </li>
+      <li>
+        <degree>3</degree>
+        <label>Ash Ghoul</label>
+        <description>A terrifying fusion of ash and flesh that retains cunning intelligence while becoming a formidable warrior. These beings represent advanced ash corruption, possessing fearsome combat abilities and unnatural resilience.</description>
+        <skillGains>
+          <Intellectual>5</Intellectual>
+          <Artistic>2</Artistic>
+          <Social>1</Social>
+          <Medicine>6</Medicine>
+          <Melee>8</Melee>
+          <Mining>4</Mining>
+          <Construction>3</Construction>
+          <Shooting>4</Shooting>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.5</PsychicSensitivity>
+          <MentalBreakThreshold>-0.5</MentalBreakThreshold>
+          <GlobalLearningFactor>0.15</GlobalLearningFactor>
+          <ImmunityGainSpeed>0.8</ImmunityGainSpeed>
+          <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+          <SocialImpact>-0.65</SocialImpact>
+          <WorkSpeedGlobal>0.25</WorkSpeedGlobal>
           <MoveSpeed>0.2</MoveSpeed>
-          <MeleeHitChance>0.15</MeleeHitChance>
-          <NegotiationAbility>0.1</NegotiationAbility>
+          <MeleeHitChance>0.2</MeleeHitChance>
+          <MeleeDodgeChance>0.15</MeleeDodgeChance>
         </statOffsets>
       </li>
       <li>
         <degree>4</degree>
         <label>Ascended Sleeper</label>
-        <description>The final and most terrible form of sleeper transformation. These beings have transcended mortality through corpus while retaining their visionary powers, becoming living weapons of divine will with immense power, prophetic sight, and complete devotion to Dagoth Ur.</description>
+        <description>The final and most terrible form of sleeper transformation. These beings have transcended mortality through ash corruption while retaining their visionary powers, becoming living weapons of divine will with immense power, prophetic sight, and complete devotion to Dagoth Ur.</description>
         <skillGains>
           <Intellectual>10</Intellectual>
           <Artistic>6</Artistic>
