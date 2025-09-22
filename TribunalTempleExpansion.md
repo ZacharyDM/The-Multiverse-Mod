@@ -14,6 +14,10 @@ The Tribunal Temple expansion introduces multiple specialized branches within th
 - **High Ordinators** - Elite temple guards above all other orders
 - **Hands of Almalexia** - Ultimate guardians chosen by the Healing Mother
 
+### Ordinator Leadership Hierarchy
+- **Lord High Archordiators** - Supreme leaders of each of the four Ordinator divisions (Watch, War, Doctrine & Ordination, Inquisition)
+- **Alma Rula** - The ultimate figurehead and commander of all Ordinators, to whom all Lord High Archordiators answer
+
 ### Buoyant Armigers
 - Elite warrior-mystics specializing in combating dark forces
 - Progressive ranks from Aspirant to Grand Marshal
@@ -58,6 +62,18 @@ Each order has an associated trait that provides progressive skill bonuses and s
 - **Bonuses**: Extreme combat stats, movement speed, immunity
 - **Progression**: Single tier - Hand of Almalexia
 
+### Lord High Archordiators
+- **Focus**: Supreme command and legendary martial prowess
+- **Skills**: All major skills with exceptional bonuses
+- **Bonuses**: Unparalleled combat stats, leadership abilities, trading prowess
+- **Progression**: Single tier - Lord High Archordinator
+
+### Alma Rula
+- **Focus**: Ultimate authority over all Ordinators and legendary abilities
+- **Skills**: Mastery of all skills with extraordinary bonuses
+- **Bonuses**: Legendary combat stats, supreme leadership, enhanced mobility and immunity
+- **Progression**: Single tier - Alma Rula
+
 ### Buoyant Armigers
 - **Focus**: Anti-supernatural warfare and mental resilience
 - **Skills**: Melee, Shooting, Intellectual, Medicine
@@ -85,13 +101,13 @@ The system is designed to be quest-linked and unlockable:
 All ranks and abilities are based on canonical Morrowind lore:
 
 ### Ordinator Orders
-Based on the various branches mentioned in Elder Scrolls lore, each with distinct roles and specializations within the Temple hierarchy.
+Based on the various branches mentioned in Elder Scrolls lore, each with distinct roles and specializations within the Temple hierarchy. The hierarchy now includes the Lord High Archordiators - one supreme leader for each of the four main orders (Watch, War, Doctrine & Ordination, Inquisition) - who answer to the Alma Rula, the ultimate figurehead of all Ordinators.
 
 ### Buoyant Armigers
 Elite warrior-monks known for their battles against daedra and supernatural threats, with the Grand Marshal as their ultimate leader.
 
 ### Power Progression
-The system scales from basic temple members to legendary figures like the Hands of Almalexia, who possess near-divine abilities.
+The system scales from basic temple members to legendary figures like the Hands of Almalexia and the Alma Rula, who possess near-divine abilities. The Alma Rula represents the pinnacle of Ordinator authority, commanding all four divisions through their respective Lord High Archordiators.
 
 ## Integration Notes
 

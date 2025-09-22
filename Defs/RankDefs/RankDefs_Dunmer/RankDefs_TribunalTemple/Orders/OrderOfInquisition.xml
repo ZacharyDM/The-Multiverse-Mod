@@ -37,4 +37,10 @@
     <labelFemale>High Inquisitor</labelFemale>
     <description>The supreme authority of the Inquisition, feared by heretics and respected by the faithful.</description>
   </RankDef>
+  <RankDef>
+    <defName>OrderInquisition_LordHighArchordinator</defName>
+    <labelMale>Lord High Archordinator of Inquisition</labelMale>
+    <labelFemale>Lady High Archordinator of Inquisition</labelFemale>
+    <description>The ultimate master of the Order of Inquisition, commanding all investigations and judgment, answering only to the Alma Rula.</description>
+  </RankDef>
 </RankDefs>

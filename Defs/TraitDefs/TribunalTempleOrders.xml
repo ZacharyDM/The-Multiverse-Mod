@@ -225,4 +225,71 @@
       </li>
     </degreeDatas>
   </TraitDef>
+
+  <!-- Lord High Archordiators - Leaders of the four Ordinator divisions -->
+  <TraitDef>
+    <defName>LordHighArchordinator</defName>
+    <label>Lord High Archordinator</label>
+    <description>A Lord High Archordinator, supreme leader of one of the four Ordinator divisions, answering only to the Alma Rula.</description>
+    <degreeDatas>
+      <li>
+        <label>Lord High Archordinator</label>
+        <description>The supreme commander of an entire Ordinator division, possessing unparalleled skill and absolute authority within their order.</description>
+        <skillGains>
+          <Melee>7</Melee>
+          <Shooting>6</Shooting>
+          <Social>5</Social>
+          <Intellectual>4</Intellectual>
+          <Construction>3</Construction>
+          <Medicine>3</Medicine>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.40</MeleeHitChance>
+          <ShootingAccuracyPawn>0.40</ShootingAccuracyPawn>
+          <MeleeDodgeChance>0.20</MeleeDodgeChance>
+          <MeleeDamageRandomFactor>0.35</MeleeDamageRandomFactor>
+          <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+          <GlobalLearningFactor>0.25</GlobalLearningFactor>
+          <TradePriceImprovement>0.15</TradePriceImprovement>
+          <NegotiationAbility>0.30</NegotiationAbility>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Alma Rula - Supreme figurehead of all Ordinators -->
+  <TraitDef>
+    <defName>AlmaRula</defName>
+    <label>Alma Rula</label>
+    <description>The legendary Alma Rula, supreme figurehead and commander of all Ordinators, to whom the four Lord High Archordiators answer.</description>
+    <degreeDatas>
+      <li>
+        <label>Alma Rula</label>
+        <description>The ultimate authority over all martial aspects of the Temple, commanding all four Ordinator divisions with absolute power and legendary skill.</description>
+        <skillGains>
+          <Melee>10</Melee>
+          <Shooting>8</Shooting>
+          <Social>8</Social>
+          <Intellectual>6</Intellectual>
+          <Construction>4</Construction>
+          <Medicine>5</Medicine>
+          <Artistic>3</Artistic>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.60</MeleeHitChance>
+          <ShootingAccuracyPawn>0.60</ShootingAccuracyPawn>
+          <MeleeDodgeChance>0.30</MeleeDodgeChance>
+          <MeleeDamageRandomFactor>0.60</MeleeDamageRandomFactor>
+          <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+          <GlobalLearningFactor>0.40</GlobalLearningFactor>
+          <TradePriceImprovement>0.25</TradePriceImprovement>
+          <NegotiationAbility>0.50</NegotiationAbility>
+          <MoveSpeed>1.3</MoveSpeed>
+          <ImmunityGainSpeed>1.8</ImmunityGainSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
 </Defs>

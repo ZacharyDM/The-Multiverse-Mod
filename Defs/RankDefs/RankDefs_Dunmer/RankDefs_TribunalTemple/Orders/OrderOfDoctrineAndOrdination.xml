@@ -37,4 +37,10 @@
     <labelFemale>Grand Lorekeeper</labelFemale>
     <description>The ultimate authority on temple doctrine and sacred knowledge, guardian of the most ancient secrets.</description>
   </RankDef>
+  <RankDef>
+    <defName>OrderDoctrine_LordHighArchordinator</defName>
+    <labelMale>Lord High Archordinator of Doctrine</labelMale>
+    <labelFemale>Lady High Archordinator of Doctrine</labelFemale>
+    <description>The supreme authority of the Order of Doctrine and Ordination, keeper of all sacred knowledge and answering only to the Alma Rula.</description>
+  </RankDef>
 </RankDefs>

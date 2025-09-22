@@ -37,4 +37,10 @@
     <labelFemale>Supreme Champion</labelFemale>
     <description>The ultimate warrior of the Temple, unmatched in battle and divine favor.</description>
   </RankDef>
+  <RankDef>
+    <defName>OrderWar_LordHighArchordinator</defName>
+    <labelMale>Lord High Archordinator of War</labelMale>
+    <labelFemale>Lady High Archordinator of War</labelFemale>
+    <description>The supreme commander of the Order of War, leading all military divisions and answering only to the Alma Rula.</description>
+  </RankDef>
 </RankDefs>
