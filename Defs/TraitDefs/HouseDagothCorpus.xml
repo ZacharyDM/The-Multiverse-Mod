@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Dreamers - Corpus-touched prophets and seers of House Dagoth -->
+  <TraitDef>
+    <defName>HouseDagothDreamer</defName>
+    <label>Dreamer</label>
+    <description>Corpus-touched seers who commune with divine dreams and visions. These prophets of House Dagoth possess enhanced psychic abilities but suffer from persistent nightmares and waking visions that blur the line between dream and reality.</description>
+    <degreeDatas>
+      <li>
+        <degree>0</degree>
+        <label>Dream-Touched</label>
+        <description>A newly awakened dreamer, beginning to experience the divine visions of House Dagoth. Shows enhanced psychic sensitivity but struggles with disturbing dreams.</description>
+        <skillGains>
+          <Intellectual>3</Intellectual>
+          <Artistic>2</Artistic>
+          <Social>1</Social>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.25</PsychicSensitivity>
+          <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+      <li>
+        <degree>1</degree>
+        <label>Dream Prophet</label>
+        <description>An experienced dreamer whose visions guide House Dagoth's path. Possesses powerful psychic abilities and enhanced learning, though reality becomes increasingly fluid.</description>
+        <skillGains>
+          <Intellectual>5</Intellectual>
+          <Artistic>3</Artistic>
+          <Social>2</Social>
+          <Medicine>2</Medicine>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.5</PsychicSensitivity>
+          <MentalBreakThreshold>-0.15</MentalBreakThreshold>
+          <GlobalLearningFactor>0.2</GlobalLearningFactor>
+        </statOffsets>
+      </li>
+      <li>
+        <degree>2</degree>
+        <label>Master Dreamer</label>
+        <description>A transcendent prophet whose dreams shape reality itself. Commands extraordinary psychic powers and wisdom beyond mortal comprehension, though their grip on the waking world grows ever more tenuous.</description>
+        <skillGains>
+          <Intellectual>8</Intellectual>
+          <Artistic>5</Artistic>
+          <Social>4</Social>
+          <Medicine>3</Medicine>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.8</PsychicSensitivity>
+          <MentalBreakThreshold>-0.2</MentalBreakThreshold>
+          <GlobalLearningFactor>0.4</GlobalLearningFactor>
+          <NegotiationAbility>0.3</NegotiationAbility>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Ash Vampires - Elite corpus warriors and nobles of House Dagoth -->
+  <TraitDef>
+    <defName>HouseDagothAshVampire</defName>
+    <label>Ash Vampire</label>
+    <description>Elite corpus warriors transformed into immortal champions of House Dagoth. These formidable beings possess supernatural strength, resilience, and combat prowess, but are bound eternally to serve the will of Dagoth Ur.</description>
+    <degreeDatas>
+      <li>
+        <degree>0</degree>
+        <label>Lesser Ash Vampire</label>
+        <description>A newly transformed ash vampire, still adapting to their corpus-enhanced form. Possesses increased combat abilities and corpus resistance.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Shooting>2</Shooting>
+          <Medicine>2</Medicine>
+        </skillGains>
+        <statOffsets>
+          <MoveSpeed>0.15</MoveSpeed>
+          <MeleeHitChance>0.1</MeleeHitChance>
+          <MeleeDodgeChance>0.1</MeleeDodgeChance>
+          <ImmunityGainSpeed>0.3</ImmunityGainSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <degree>1</degree>
+        <label>Ash Vampire</label>
+        <description>A fully realized ash vampire with formidable combat prowess and corpus mastery. Commands respect and fear from lesser beings.</description>
+        <skillGains>
+          <Melee>6</Melee>
+          <Shooting>4</Shooting>
+          <Medicine>3</Medicine>
+          <Social>2</Social>
+        </skillGains>
+        <statOffsets>
+          <MoveSpeed>0.25</MoveSpeed>
+          <MeleeHitChance>0.2</MeleeHitChance>
+          <MeleeDodgeChance>0.2</MeleeDodgeChance>
+          <ImmunityGainSpeed>0.5</ImmunityGainSpeed>
+          <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+        </statOffsets>
+      </li>
+      <li>
+        <degree>2</degree>
+        <label>Greater Ash Vampire</label>
+        <description>An ancient and powerful ash vampire, a living legend of House Dagoth. Possesses near-divine combat abilities and corpus mastery that borders on the supernatural.</description>
+        <skillGains>
+          <Melee>10</Melee>
+          <Shooting>6</Shooting>
+          <Medicine>5</Medicine>
+          <Social>4</Social>
+          <Intellectual>3</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <MoveSpeed>0.4</MoveSpeed>
+          <MeleeHitChance>0.35</MeleeHitChance>
+          <MeleeDodgeChance>0.35</MeleeDodgeChance>
+          <ImmunityGainSpeed>0.8</ImmunityGainSpeed>
+          <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Corpus Stalkers - Corpus-twisted scouts and infiltrators -->
+  <TraitDef>
+    <defName>HouseDagothCorpusStalker</defName>
+    <label>Corpus Stalker</label>
+    <description>Corpus-twisted scouts and infiltrators who serve as the eyes and claws of House Dagoth. Their transformed bodies grant enhanced mobility and stealth capabilities, though they struggle with social interaction due to their disturbing appearance.</description>
+    <degreeDatas>
+      <li>
+        <degree>0</degree>
+        <label>Corpus Scout</label>
+        <description>A corpus-touched scout whose body has begun to adapt for stealth and survival. Enhanced mobility and perception, but increasingly alienated from normal society.</description>
+        <skillGains>
+          <Shooting>3</Shooting>
+          <Animals>2</Animals>
+          <Plants>2</Plants>
+        </skillGains>
+        <statOffsets>
+          <MoveSpeed>0.2</MoveSpeed>
+          <AimingDelayFactor>-0.1</AimingDelayFactor>
+          <HuntingStealth>0.2</HuntingStealth>
+          <SocialImpact>-0.15</SocialImpact>
+        </statOffsets>
+      </li>
+      <li>
+        <degree>1</degree>
+        <label>Corpus Stalker</label>
+        <description>A fully transformed corpus stalker, adapted for hunting and reconnaissance. Possesses supernatural tracking abilities and combat reflexes.</description>
+        <skillGains>
+          <Shooting>5</Shooting>
+          <Animals>4</Animals>
+          <Plants>3</Plants>
+          <Melee>3</Melee>
+        </skillGains>
+        <statOffsets>
+          <MoveSpeed>0.35</MoveSpeed>
+          <AimingDelayFactor>-0.2</AimingDelayFactor>
+          <HuntingStealth>0.4</HuntingStealth>
+          <SocialImpact>-0.25</SocialImpact>
+          <ShootingAccuracyPawn>0.15</ShootingAccuracyPawn>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Corpus Touched - General corpus affliction trait -->
+  <TraitDef>
+    <defName>HouseDagothCorpusTouched</defName>
+    <label>Corpus Touched</label>
+    <description>Marked by the divine disease of House Dagoth, these individuals show early signs of corpus transformation. They gain resistance to disease and toxins but suffer from social stigma and gradual physical changes.</description>
+    <degreeDatas>
+      <li>
+        <degree>0</degree>
+        <label>Corpus Touched</label>
+        <description>Recently infected with the corpus disease, showing early signs of transformation. Gains some resistance benefits but faces social challenges.</description>
+        <skillGains>
+          <Medicine>2</Medicine>
+        </skillGains>
+        <statOffsets>
+          <ImmunityGainSpeed>0.2</ImmunityGainSpeed>
+          <ToxicResistance>0.3</ToxicResistance>
+          <SocialImpact>-0.2</SocialImpact>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>

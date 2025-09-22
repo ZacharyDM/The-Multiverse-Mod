@@ -65,4 +65,48 @@
     <labelFemale>Grandmaster</labelFemale>
     <description>The supreme leader of House Dagoth, holding ultimate authority and responsibility.</description>
   </RankDef>
+
+  <!-- Corpus-Specific Ranks -->
+  <RankDef>
+    <defName>Dagoth_CorpusInitiate</defName>
+    <labelMale>Corpus Initiate</labelMale>
+    <labelFemale>Corpus Initiate</labelFemale>
+    <description>A new inductee into the corpus mysteries of House Dagoth, beginning their transformation under divine guidance.</description>
+  </RankDef>
+  <RankDef>
+    <defName>Dagoth_CorpusAdept</defName>
+    <labelMale>Corpus Adept</labelMale>
+    <labelFemale>Corpus Adept</labelFemale>
+    <description>A practitioner who has shown mastery of corpus techniques and begun their physical transformation.</description>
+  </RankDef>
+  <RankDef>
+    <defName>Dagoth_DreamPriest</defName>
+    <labelMale>Dream Priest</labelMale>
+    <labelFemale>Dream Priestess</labelFemale>
+    <description>A corpus-touched priest who interprets divine dreams and guides other dreamers in their visions.</description>
+  </RankDef>
+  <RankDef>
+    <defName>Dagoth_AshPriest</defName>
+    <labelMale>Ash Priest</labelMale>
+    <labelFemale>Ash Priestess</labelFemale>
+    <description>A high-ranking priest who oversees corpus rituals and the transformation of ash vampires.</description>
+  </RankDef>
+  <RankDef>
+    <defName>Dagoth_CorpusLord</defName>
+    <labelMale>Corpus Lord</labelMale>
+    <labelFemale>Corpus Lady</labelFemale>
+    <description>A powerful noble who has achieved advanced corpus transformation, commanding lesser corpus beings.</description>
+  </RankDef>
+  <RankDef>
+    <defName>Dagoth_AshVampireLord</defName>
+    <labelMale>Ash Vampire Lord</labelMale>
+    <labelFemale>Ash Vampire Lady</labelFemale>
+    <description>An elite ash vampire who has transcended mortality, serving as a champion and lieutenant to the Grandmaster.</description>
+  </RankDef>
+  <RankDef>
+    <defName>Dagoth_VisionaryMaster</defName>
+    <labelMale>Visionary Master</labelMale>
+    <labelFemale>Visionary Mistress</labelFemale>
+    <description>The highest ranking dreamer, whose visions guide House Dagoth's grand strategy and divine purpose.</description>
+  </RankDef>
 </RankDefs>
