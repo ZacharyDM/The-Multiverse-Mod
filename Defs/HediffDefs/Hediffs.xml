@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HediffDefs>
+  <!-- Sujamma Boost -->
+  <HediffDef>
+    <defName>SujammaBoost</defName>
+    <label>sujamma boost</label>
+    <description>The powerful Dunmer liquor courses through the bloodstream, providing temporary strength enhancement.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1.0, 0.5, 0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-2.0</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+    </comps>
+      <stages>
+        <li>
+          <statOffsets>
+            <MeleeDamageFactor>0.2</MeleeDamageFactor>
+            <CarryingCapacity>10</CarryingCapacity>
+          </statOffsets>
+        </li>
+      </stages>
+  </HediffDef>
+
+  <!-- Force Sensitivity -->
+  <HediffDef>
+    <defName>ForceSensitivity</defName>
+    <label>force sensitivity</label>
+    <description>This individual has a natural connection to the Force, granting enhanced abilities and intuition.</description>
+    <hediffClass>Hediff</hediffClass>
+    <defaultLabelColor>(0.4, 0.8, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <maxSeverity>3.0</maxSeverity>
+    <stages>
+      <li>
+        <label>weak</label>
+        <minSeverity>0.01</minSeverity>
+        <statOffsets>
+          <PsychicSensitivity>0.2</PsychicSensitivity>
+          <ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+        </statOffsets>
+      </li>
+      <li>
+        <label>moderate</label>
+        <minSeverity>1.0</minSeverity>
+        <statOffsets>
+          <PsychicSensitivity>0.5</PsychicSensitivity>
+          <ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
+          <MeleeDodgeChance>5</MeleeDodgeChance>
+        </statOffsets>
+      </li>
+      <li>
+        <label>strong</label>
+        <minSeverity>2.0</minSeverity>
+        <statOffsets>
+          <PsychicSensitivity>1.0</PsychicSensitivity>
+          <ShootingAccuracyPawn>0.3</ShootingAccuracyPawn>
+          <MeleeDodgeChance>10</MeleeDodgeChance>
+          <MoveSpeed>0.2</MoveSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- Magical Resistance -->
+  <HediffDef>
+    <defName>MagicResistance</defName>
+    <label>magic resistance</label>
+    <description>Natural resistance to magical effects and psychic phenomena.</description>
+    <hediffClass>Hediff</hediffClass>
+    <defaultLabelColor>(0.8, 0.6, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <maxSeverity>1.0</maxSeverity>
+    <stages>
+      <li>
+        <statFactors>
+          <PsychicSensitivity>0.7</PsychicSensitivity>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- Dwarven Enhancement -->
+  <HediffDef>
+    <defName>DwarvenEnhancement</defName>
+    <label>dwarven enhancement</label>
+    <description>Mechanical augmentations based on lost Dwemer technology, enhancing physical capabilities.</description>
+    <hediffClass>Hediff</hediffClass>
+    <defaultLabelColor>(0.7, 0.6, 0.4)</defaultLabelColor>
+    <isBad>false</isBad>
+    <maxSeverity>1.0</maxSeverity>
+    <stages>
+      <li>
+        <statOffsets>
+          <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+          <CarryingCapacity>15</CarryingCapacity>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- Imperial Training -->
+  <HediffDef>
+    <defName>ImperialTraining</defName>
+    <label>imperial training</label>
+    <description>Rigorous military and administrative training from the Imperial Legion, enhancing discipline and efficiency.</description>
+    <hediffClass>Hediff</hediffClass>
+    <defaultLabelColor>(0.8, 0.8, 0.4)</defaultLabelColor>
+    <isBad>false</isBad>
+    <maxSeverity>1.0</maxSeverity>
+    <stages>
+      <li>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+          <MeleeHitChance>0.1</MeleeHitChance>
+          <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- Khajiit Night Eye -->
+  <HediffDef>
+    <defName>NightEye</defName>
+    <label>night eye</label>
+    <description>Enhanced night vision allowing clear sight in darkness.</description>
+    <hediffClass>Hediff</hediffClass>
+    <defaultLabelColor>(0.9, 0.9, 0.5)</defaultLabelColor>
+    <isBad>false</isBad>
+    <maxSeverity>1.0</maxSeverity>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.2</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+</HediffDefs>

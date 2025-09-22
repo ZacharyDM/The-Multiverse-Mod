@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MemeDefs>
+  <!-- Star Wars Memes -->
+  <MemeDef>
+    <defName>TheForce</defName>
+    <label>the force</label>
+    <description>The Force is an energy field created by all living things. It surrounds us, penetrates us, and binds the galaxy together. Some are more sensitive to its call than others.</description>
+    <iconPath>UI/Memes/Animist</iconPath>
+    <groupDef>Theistic</groupDef>
+    <impact>2</impact>
+    <renderOrder>70</renderOrder>
+    <generalRules>
+      <rulesStrings>
+        <li>memeAdjective->force-sensitive</li>
+        <li>memeCreed->sensitivity to the Force</li>
+        <li>memeLeaderNoun->jedi master</li>
+      </rulesStrings>
+    </generalRules>
+    <symbolPacks>
+      <li><ideoSymbolPack>Cosmic</ideoSymbolPack></li>
+    </symbolPacks>
+    <replacementPatterns>
+      <li>
+        <keyword>force</keyword>
+        <path>force_concept</path>
+        <weight>3</weight>
+      </li>
+    </replacementPatterns>
+    <relatedPreceptFilter>
+      <apparelStuffFilter>
+        <categories>
+          <li>Leathery</li>
+          <li>Fabric</li>
+        </categories>
+      </apparelStuffFilter>
+    </relatedPreceptFilter>
+  </MemeDef>
+
+  <MemeDef>
+    <defName>GalacticEmpire</defName>
+    <label>imperial order</label>
+    <description>Order, discipline, and unity under the Empire's rule. The galaxy must be brought to heel through strength and authority. Peace through power.</description>
+    <iconPath>UI/Memes/Supremacist</iconPath>
+    <groupDef>Structure</groupDef>
+    <impact>2</impact>
+    <renderOrder>50</renderOrder>
+    <generalRules>
+      <rulesStrings>
+        <li>memeAdjective->imperial</li>
+        <li>memeCreed->galactic order</li>
+        <li>memeLeaderNoun->emperor</li>
+      </rulesStrings>
+    </generalRules>
+    <symbolPacks>
+      <li><ideoSymbolPack>Celestial</ideoSymbolPack></li>
+    </symbolPacks>
+  </MemeDef>
+
+  <!-- Elder Scrolls Memes -->
+  <MemeDef>
+    <defName>DaedricWorship</defName>
+    <label>daedric worship</label>
+    <description>The Daedric Princes are powerful beings from the planes of Oblivion. They offer great power to those willing to serve their often chaotic and destructive desires.</description>
+    <iconPath>UI/Memes/Darkness</iconPath>
+    <groupDef>Theistic</groupDef>
+    <impact>3</impact>
+    <renderOrder>85</renderOrder>
+    <generalRules>
+      <rulesStrings>
+        <li>memeAdjective->daedric</li>
+        <li>memeCreed->service to the Princes</li>
+        <li>memeLeaderNoun->daedric prince</li>
+      </rulesStrings>
+    </generalRules>
+    <symbolPacks>
+      <li><ideoSymbolPack>Diabolic</ideoSymbolPack></li>
+    </symbolPacks>
+    <conflictingMemes>
+      <li>Altruist</li>
+      <li>PainIsVirtue</li>
+    </conflictingMemes>
+  </MemeDef>
+
+  <MemeDef>
+    <defName>HouseHonor</defName>
+    <label>house honor</label>
+    <description>Honor, duty, and loyalty to one's Great House above all else. The strength of the house is the strength of Morrowind, and individual glory serves the greater whole.</description>
+    <iconPath>UI/Memes/Loyalist</iconPath>
+    <groupDef>Structure</groupDef>
+    <impact>2</impact>
+    <renderOrder>60</renderOrder>
+    <generalRules>
+      <rulesStrings>
+        <li>memeAdjective->honorable</li>
+        <li>memeCreed->house loyalty</li>
+        <li>memeLeaderNoun->house councilor</li>
+      </rulesStrings>
+    </generalRules>
+    <symbolPacks>
+      <li><ideoSymbolPack>Tribal</ideoSymbolPack></li>
+    </symbolPacks>
+  </MemeDef>
+
+  <MemeDef>
+    <defName>Ashlanders</defName>
+    <label>ancestor worship</label>
+    <description>The spirits of our ancestors guide us through the ash storms and hostile lands. We honor the old ways and reject the corruption of the settled peoples.</description>
+    <iconPath>UI/Memes/Animist</iconPath>
+    <groupDef>Theistic</groupDef>
+    <impact>2</impact>
+    <renderOrder>75</renderOrder>
+    <generalRules>
+      <rulesStrings>
+        <li>memeAdjective->traditional</li>
+        <li>memeCreed->ancestor veneration</li>
+        <li>memeLeaderNoun->ashkhan</li>
+      </rulesStrings>
+    </generalRules>
+    <symbolPacks>
+      <li><ideoSymbolPack>Tribal</ideoSymbolPack></li>
+    </symbolPacks>
+  </MemeDef>
+
+  <MemeDef>
+    <defName>MagicalSupremacy</defName>
+    <label>magical supremacy</label>
+    <description>Magic is the highest form of knowledge and power. Those who wield it are naturally superior to mundane beings. The pursuit of magical knowledge justifies any sacrifice.</description>
+    <iconPath>UI/Memes/Supremacist</iconPath>
+    <groupDef>Structure</groupDef>
+    <impact>2</impact>
+    <renderOrder>65</renderOrder>
+    <generalRules>
+      <rulesStrings>
+        <li>memeAdjective->arcane</li>
+        <li>memeCreed->magical superiority</li>
+        <li>memeLeaderNoun->archmagister</li>
+      </rulesStrings>
+    </generalRules>
+    <symbolPacks>
+      <li><ideoSymbolPack>Cosmic</ideoSymbolPack></li>
+    </symbolPacks>
+    <conflictingMemes>
+      <li>Egalitarian</li>
+    </conflictingMemes>
+  </MemeDef>
+</MemeDefs>

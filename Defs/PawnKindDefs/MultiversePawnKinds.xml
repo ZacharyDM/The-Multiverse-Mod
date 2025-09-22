@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PawnKindDefs>
+  <!-- Star Wars Pawn Kinds -->
+  <PawnKindDef ParentName="HumanKindBase">
+    <defName>GalacticHuman_Colonist</defName>
+    <label>galactic colonist</label>
+    <race>StarWarsHuman</race>
+    <defaultFactionType>GalacticEmpire</defaultFactionType>
+    <backstoryCategories>
+      <li>Colonial</li>
+      <li>Imperial</li>
+    </backstoryCategories>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+    </apparelTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="HumanKindBase">
+    <defName>Twilek_Performer</defName>
+    <label>twi'lek performer</label>
+    <race>Twilek</race>
+    <defaultFactionType>HuttCartel</defaultFactionType>
+    <backstoryCategories>
+      <li>Artistic</li>
+      <li>Criminal</li>
+    </backstoryCategories>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>500</min>
+      <max>2000</max>
+    </apparelMoney>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="HumanKindBase">
+    <defName>Rodian_Hunter</defName>
+    <label>rodian bounty hunter</label>
+    <race>Rodian</race>
+    <defaultFactionType>HuttCartel</defaultFactionType>
+    <backstoryCategories>
+      <li>Criminal</li>
+      <li>Violent</li>
+    </backstoryCategories>
+    <weaponTags>
+      <li>SimpleGun</li>
+      <li>StarWarsBlaster</li>
+    </weaponTags>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialMilitaryBasic</li>
+    </apparelTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="HumanKindBase">
+    <defName>Wookiee_Mechanic</defName>
+    <label>wookiee mechanic</label>
+    <race>Wookiee</race>
+    <defaultFactionType>RebelAlliance</defaultFactionType>
+    <backstoryCategories>
+      <li>Rebel</li>
+    </backstoryCategories>
+    <apparelTags>
+      <li>Worker</li>
+      <li>IndustrialBasic</li>
+    </apparelTags>
+    <techHediffsTags>
+      <li>Industrial</li>
+    </techHediffsTags>
+  </PawnKindDef>
+
+  <!-- Elder Scrolls Pawn Kinds -->
+  <PawnKindDef ParentName="HumanKindBase">
+    <defName>Nord_Warrior</defName>
+    <label>nord warrior</label>
+    <race>Nord</race>
+    <defaultFactionType>HouseRedoran</defaultFactionType>
+    <backstoryCategories>
+      <li>Tribal</li>
+      <li>Medieval</li>
+    </backstoryCategories>
+    <weaponTags>
+      <li>MedievalMeleeBasic</li>
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+    <apparelTags>
+      <li>MedievalBasic</li>
+      <li>MedievalMilitary</li>
+    </apparelTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="HumanKindBase">
+    <defName>Imperial_Diplomat</defName>
+    <label>imperial diplomat</label>
+    <race>Imperial</race>
+    <defaultFactionType>HouseHlaalu</defaultFactionType>
+    <backstoryCategories>
+      <li>Medieval</li>
+      <li>Civil</li>
+    </backstoryCategories>
+    <apparelTags>
+      <li>MedievalBasic</li>
+      <li>MedievalRoyal</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>800</min>
+      <max>3000</max>
+    </apparelMoney>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="HumanKindBase">
+    <defName>Altmer_Mage</defName>
+    <label>altmer mage</label>
+    <race>Altmer</race>
+    <defaultFactionType>HouseTelvanni</defaultFactionType>
+    <backstoryCategories>
+      <li>Medieval</li>
+      <li>Scholar</li>
+    </backstoryCategories>
+    <apparelTags>
+      <li>MedievalBasic</li>
+      <li>MedievalRoyal</li>
+    </apparelTags>
+    <techHediffsTags>
+      <li>Medieval</li>
+    </techHediffsTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="HumanKindBase">
+    <defName>Orsimer_Smith</defName>
+    <label>orsimer smith</label>
+    <race>Orsimer</race>
+    <defaultFactionType>HouseRedoran</defaultFactionType>
+    <backstoryCategories>
+      <li>Medieval</li>
+      <li>Tribal</li>
+    </backstoryCategories>
+    <weaponTags>
+      <li>MedievalMeleeBasic</li>
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+    <apparelTags>
+      <li>Worker</li>
+      <li>MedievalBasic</li>
+    </apparelTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="HumanKindBase">
+    <defName>Khajiit_Trader</defName>
+    <label>khajiit trader</label>
+    <race>Khajiit</race>
+    <defaultFactionType>HouseHlaalu</defaultFactionType>
+    <backstoryCategories>
+      <li>Medieval</li>
+      <li>Trader</li>
+    </backstoryCategories>
+    <apparelTags>
+      <li>MedievalBasic</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>400</min>
+      <max>1500</max>
+    </apparelMoney>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="HumanKindBase">
+    <defName>Argonian_Scout</defName>
+    <label>argonian scout</label>
+    <race>Argonian</race>
+    <defaultFactionType>HouseDres</defaultFactionType>
+    <backstoryCategories>
+      <li>Medieval</li>
+      <li>Tribal</li>
+    </backstoryCategories>
+    <weaponTags>
+      <li>Neolithic</li>
+      <li>MedievalMeleeBasic</li>
+    </weaponTags>
+    <apparelTags>
+      <li>MedievalBasic</li>
+    </apparelTags>
+  </PawnKindDef>
+</PawnKindDefs>
