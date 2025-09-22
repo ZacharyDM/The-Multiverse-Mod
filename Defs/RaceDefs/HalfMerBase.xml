@@ -69,6 +69,10 @@
     <thingCategories>
       <li>Pawns</li>
     </thingCategories>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/HalfMerBase</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
     <!-- Add shared Half Mer traits here -->
   </ThingDef>
 </ThingDefs>
