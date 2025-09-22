@@ -4,5 +4,82 @@
   <TheMultiverseMod_Description>
     The Multiverse Mod brings together races, factions, items, and lore from multiple beloved franchises into RimWorld. Featuring a custom alien race framework, advanced graphics support, and seamless integration, this mod delivers a unique cross-universe experience.
   </TheMultiverseMod_Description>
+  
+  <!-- Tribunal Temple Apparel -->
+  <Apparel_OrderWatchArmor_Label>Order of the Watch armor</Apparel_OrderWatchArmor_Label>
+  <Apparel_OrderWatchArmor_Description>Distinctive blue and gold armor worn by members of the Order of the Watch, the temple guardians and peacekeepers.</Apparel_OrderWatchArmor_Description>
+  
+  <Apparel_OrderWarArmor_Label>Order of War armor</Apparel_OrderWarArmor_Label>
+  <Apparel_OrderWarArmor_Description>Heavy combat armor worn by the Order of War, the military wing of the Tribunal Temple.</Apparel_OrderWarArmor_Description>
+  
+  <Apparel_OrderDoctrineRobes_Label>Order of Doctrine robes</Apparel_OrderDoctrineRobes_Label>
+  <Apparel_OrderDoctrineRobes_Description>Scholarly robes worn by members of the Order of Doctrine and Ordination.</Apparel_OrderDoctrineRobes_Description>
+  
+  <Apparel_OrderInquisitionArmor_Label>Order of Inquisition armor</Apparel_OrderInquisitionArmor_Label>
+  <Apparel_OrderInquisitionArmor_Description>Dark, intimidating armor worn by members of the Order of Inquisition.</Apparel_OrderInquisitionArmor_Description>
+  
+  <Apparel_HighOrdinatorArmor_Label>High Ordinator armor</Apparel_HighOrdinatorArmor_Label>
+  <Apparel_HighOrdinatorArmor_Description>Magnificent golden armor worn by High Ordinators, the elite temple guards.</Apparel_HighOrdinatorArmor_Description>
+  
+  <Apparel_HandsAlmalexiaArmor_Label>Hands of Almalexia armor</Apparel_HandsAlmalexiaArmor_Label>
+  <Apparel_HandsAlmalexiaArmor_Description>Legendary divine armor worn by the Hands of Almalexia.</Apparel_HandsAlmalexiaArmor_Description>
+  
+  <Apparel_BuoyantArmigerArmor_Label>Buoyant Armiger armor</Apparel_BuoyantArmigerArmor_Label>
+  <Apparel_BuoyantArmigerArmor_Description>Distinctive armor worn by the Buoyant Armigers, elite warrior-mystics.</Apparel_BuoyantArmigerArmor_Description>
+  
+  <!-- Ashlander Apparel -->
+  <Apparel_AhemmusaRobes_Label>Ahemmusa clan robes</Apparel_AhemmusaRobes_Label>
+  <Apparel_AhemmusaRobes_Description>Traditional robes worn by members of the peaceful Ahemmusa clan.</Apparel_AhemmusaRobes_Description>
+  
+  <Apparel_UrshilakuGarments_Label>Urshilaku clan garments</Apparel_UrshilakuGarments_Label>
+  <Apparel_UrshilakuGarments_Description>Traditional clothing of the Urshilaku clan, keepers of ancient prophecies.</Apparel_UrshilakuGarments_Description>
+  
+  <Apparel_ErabenimsunWarGarb_Label>Erabenimsun war garb</Apparel_ErabenimsunWarGarb_Label>
+  <Apparel_ErabenimsunWarGarb_Description>Battle-ready clothing of the fierce Erabenimsun clan.</Apparel_ErabenimsunWarGarb_Description>
+  
+  <Apparel_ZainabTraderGarments_Label>Zainab trader garments</Apparel_ZainabTraderGarments_Label>
+  <Apparel_ZainabTraderGarments_Description>Fine clothing worn by members of the Zainab clan, skilled traders and diplomats.</Apparel_ZainabTraderGarments_Description>
+  
+  <Apparel_KageshRitualRobes_Label>Kagesh ritual robes</Apparel_KageshRitualRobes_Label>
+  <Apparel_KageshRitualRobes_Description>Mysterious dark robes worn by members of the Kagesh clan.</Apparel_KageshRitualRobes_Description>
+  
+  <Apparel_UlathShadowGarments_Label>Ulath shadow garments</Apparel_UlathShadowGarments_Label>
+  <Apparel_UlathShadowGarments_Description>Specially designed clothing of the secretive Ulath clan.</Apparel_UlathShadowGarments_Description>
+  
+  <Apparel_VereansuSpiritRobes_Label>Vereansu spirit robes</Apparel_VereansuSpiritRobes_Label>
+  <Apparel_VereansuSpiritRobes_Description>Sacred robes worn by the Vereansu clan.</Apparel_VereansuSpiritRobes_Description>
+  
+  <Apparel_MabrigashWarriorRobes_Label>Mabrigash warrior robes</Apparel_MabrigashWarriorRobes_Label>
+  <Apparel_MabrigashWarriorRobes_Description>Mystical warrior robes worn by the matriarchal Mabrigash clan.</Apparel_MabrigashWarriorRobes_Description>
+  
+  <!-- Great House Apparel -->
+  <Apparel_HouseRedoranArmor_Label>House Redoran armor</Apparel_HouseRedoranArmor_Label>
+  <Apparel_HouseRedoranArmor_Description>Traditional armor of House Redoran, the warrior-protectors of Morrowind.</Apparel_HouseRedoranArmor_Description>
+  
+  <Apparel_HouseHlaaluRobes_Label>House Hlaalu robes</Apparel_HouseHlaaluRobes_Label>
+  <Apparel_HouseHlaaluRobes_Description>Elegant robes worn by members of House Hlaalu, the merchant-diplomats.</Apparel_HouseHlaaluRobes_Description>
+  
+  <Apparel_HouseTelvanniRobes_Label>House Telvanni robes</Apparel_HouseTelvanniRobes_Label>
+  <Apparel_HouseTelvanniRobes_Description>Mystical robes worn by the sorcerers of House Telvanni.</Apparel_HouseTelvanniRobes_Description>
+  
+  <Apparel_HouseIndorilArmor_Label>House Indoril ceremonial armor</Apparel_HouseIndorilArmor_Label>
+  <Apparel_HouseIndorilArmor_Description>Sacred armor worn by House Indoril, the devout temple guardians.</Apparel_HouseIndorilArmor_Description>
+  
+  <Apparel_HouseDresGarments_Label>House Dres garments</Apparel_HouseDresGarments_Label>
+  <Apparel_HouseDresGarments_Description>Practical garments worn by House Dres, the agrarian slaveholders.</Apparel_HouseDresGarments_Description>
+  
+  <!-- House Dagoth Apparel -->
+  <Apparel_SleeperRobes_Label>Sleeper robes</Apparel_SleeperRobes_Label>
+  <Apparel_SleeperRobes_Description>Tattered robes worn by those afflicted with the Corpus disease.</Apparel_SleeperRobes_Description>
+  
+  <Apparel_AshVampireArmor_Label>Ash Vampire armor</Apparel_AshVampireArmor_Label>
+  <Apparel_AshVampireArmor_Description>Corrupted armor worn by Ash Vampires, the elite servants of Dagoth Ur.</Apparel_AshVampireArmor_Description>
+  
+  <Apparel_CorpusStalkerGear_Label>Corpus Stalker gear</Apparel_CorpusStalkerGear_Label>
+  <Apparel_CorpusStalkerGear_Description>Specialized equipment worn by Corpus Stalkers.</Apparel_CorpusStalkerGear_Description>
+  
+  <Apparel_CorprusBeastHide_Label>corprus beast hide</Apparel_CorprusBeastHide_Label>
+  <Apparel_CorprusBeastHide_Description>Rough hide taken from a corprus creature and fashioned into crude protective wear.</Apparel_CorprusBeastHide_Description>
+  
   <!-- Add more keys for things like item names, race names, faction names, etc. -->
 </LanguageData>
