@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Order of the Watch Armor -->
+  <ThingDef ParentName="ArmorMakeableBase">
+    <defName>Apparel_OrderWatchArmor</defName>
+    <label>Order of the Watch armor</label>
+    <description>Distinctive blue and gold armor worn by members of the Order of the Watch, the temple guardians and peacekeepers. Provides solid protection while maintaining mobility for patrols and defensive actions.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/TribunalTemple/OrderWatch/OrderWatch</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>120</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <MaxHitPoints>280</MaxHitPoints>
+      <Mass>12</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.72</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.36</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.40</ArmorRating_Heat>
+      <Insulation_Cold>8</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>10</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.05</MoveSpeed>
+      <WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/TribunalTemple/OrderWatch/OrderWatch</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+        <li>TribunalTempleArmor</li>
+        <li>OrderOfTheWatch</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PlateArmor</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Order of War Armor -->
+  <ThingDef ParentName="ArmorMakeableBase">
+    <defName>Apparel_OrderWarArmor</defName>
+    <label>Order of War armor</label>
+    <description>Heavy combat armor worn by the Order of War, the military wing of the Tribunal Temple. Forged for maximum protection in battle, this crimson and gold armor bears the sacred symbols of the warrior-priests.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/TribunalTemple/OrderWar/OrderWar</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>140</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <statBases>
+      <WorkToMake>22000</WorkToMake>
+      <MaxHitPoints>320</MaxHitPoints>
+      <Mass>15</Mass>
+      <Flammability>0.3</Flammability>
+      <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.42</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.45</ArmorRating_Heat>
+      <Insulation_Cold>10</Insulation_Cold>
+      <Insulation_Heat>3</Insulation_Heat>
+      <EquipDelay>12</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.08</MoveSpeed>
+      <WorkSpeedGlobal>-0.08</WorkSpeedGlobal>
+      <MeleeHitChance>0.05</MeleeHitChance>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/TribunalTemple/OrderWar/OrderWar</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryAdvanced</li>
+        <li>TribunalTempleArmor</li>
+        <li>OrderOfWar</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PlateArmor</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Order of Doctrine and Ordination Robes -->
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_OrderDoctrineRobes</defName>
+    <label>Order of Doctrine robes</label>
+    <description>Scholarly robes worn by members of the Order of Doctrine and Ordination, the learned keepers of Temple knowledge. These flowing robes are adorned with sacred texts and provide comfort during long hours of study and teaching.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/TribunalTemple/OrderDoctrine/OrderDoctrine</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>2</Mass>
+      <Flammability>1.0</Flammability>
+      <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.20</ArmorRating_Heat>
+      <Insulation_Cold>12</Insulation_Cold>
+      <Insulation_Heat>8</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+      <ResearchSpeed>0.15</ResearchSpeed>
+      <SocialImpact>0.10</SocialImpact>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/TribunalTemple/OrderDoctrine/OrderDoctrine</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>TribunalTempleRobes</li>
+        <li>OrderOfDoctrine</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Order of Inquisition Armor -->
+  <ThingDef ParentName="ArmorMakeableBase">
+    <defName>Apparel_OrderInquisitionArmor</defName>
+    <label>Order of Inquisition armor</label>
+    <description>Dark, intimidating armor worn by members of the Order of Inquisition. This black and gold armor is designed to project authority and instill fear in heretics while providing adequate protection during interrogations and investigations.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/TribunalTemple/OrderInquisition/OrderInquisition</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>110</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <statBases>
+      <WorkToMake>16000</WorkToMake>
+      <MaxHitPoints>260</MaxHitPoints>
+      <Mass>10</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.68</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.34</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.38</ArmorRating_Heat>
+      <Insulation_Cold>7</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>9</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.04</MoveSpeed>
+      <WorkSpeedGlobal>-0.03</WorkSpeedGlobal>
+      <NegotiationAbility>0.15</NegotiationAbility>
+      <SocialImpact>0.20</SocialImpact>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/TribunalTemple/OrderInquisition/OrderInquisition</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+        <li>TribunalTempleArmor</li>
+        <li>OrderOfInquisition</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PlateArmor</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
+</Defs>
