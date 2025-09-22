@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RankDefs>
+  <!-- Hands of Almalexia Ranks -->
+  <RankDef>
+    <defName>HandsOfAlmalexia_Chosen</defName>
+    <labelMale>Chosen of Almalexia</labelMale>
+    <labelFemale>Chosen of Almalexia</labelFemale>
+    <description>One personally selected by Almalexia to potentially join her sacred guard, undergoing divine trials.</description>
+  </RankDef>
+  <RankDef>
+    <defName>HandsOfAlmalexia_Hand</defName>
+    <labelMale>Hand of Almalexia</labelMale>
+    <labelFemale>Hand of Almalexia</labelFemale>
+    <description>A chosen champion of Almalexia, blessed with supernatural abilities and absolute authority within the Temple hierarchy.</description>
+  </RankDef>
+  <RankDef>
+    <defName>HandsOfAlmalexia_LeftHand</defName>
+    <labelMale>Left Hand of Almalexia</labelMale>
+    <labelFemale>Left Hand of Almalexia</labelFemale>
+    <description>The strategic advisor and planner among the Hands, responsible for coordinating temple operations.</description>
+  </RankDef>
+  <RankDef>
+    <defName>HandsOfAlmalexia_RightHand</defName>
+    <labelMale>Right Hand of Almalexia</labelMale>
+    <labelFemale>Right Hand of Almalexia</labelFemale>
+    <description>The martial champion among the Hands, leading the goddess's forces in battle.</description>
+  </RankDef>
+</RankDefs>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RankDefs>
+  <!-- High Ordinator Ranks -->
+  <RankDef>
+    <defName>HighOrdinator_Candidate</defName>
+    <labelMale>Ordinator Candidate</labelMale>
+    <labelFemale>Ordinator Candidate</labelFemale>
+    <description>A candidate for induction into the High Ordinators, undergoing rigorous trials and training.</description>
+  </RankDef>
+  <RankDef>
+    <defName>HighOrdinator_Ordinator</defName>
+    <labelMale>High Ordinator</labelMale>
+    <labelFemale>High Ordinator</labelFemale>
+    <description>An elite guardian of the highest order, combining exceptional combat skills with unwavering devotion to the Tribunal.</description>
+  </RankDef>
+  <RankDef>
+    <defName>HighOrdinator_Captain</defName>
+    <labelMale>High Ordinator Captain</labelMale>
+    <labelFemale>High Ordinator Captain</labelFemale>
+    <description>A commander of High Ordinators, possessing legendary skill and the authority to lead the Temple's finest warriors.</description>
+  </RankDef>
+  <RankDef>
+    <defName>HighOrdinator_Commander</defName>
+    <labelMale>High Ordinator Commander</labelMale>
+    <labelFemale>High Ordinator Commander</labelFemale>
+    <description>A supreme leader among the High Ordinators, commanding multiple companies of elite temple guards.</description>
+  </RankDef>
+  <RankDef>
+    <defName>HighOrdinator_General</defName>
+    <labelMale>High Ordinator General</labelMale>
+    <labelFemale>High Ordinator General</labelFemale>
+    <description>The supreme commander of all High Ordinators, second only to the Hands of Almalexia in martial authority.</description>
+  </RankDef>
+</RankDefs>

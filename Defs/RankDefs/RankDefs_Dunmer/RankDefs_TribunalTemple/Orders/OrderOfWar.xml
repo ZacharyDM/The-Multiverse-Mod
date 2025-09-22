@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RankDefs>
+  <!-- Order of War Ranks -->
+  <RankDef>
+    <defName>OrderWar_Aspirant</defName>
+    <labelMale>War Aspirant</labelMale>
+    <labelFemale>War Aspirant</labelFemale>
+    <description>An aspiring member of the Order of War, training in the martial traditions of the Temple.</description>
+  </RankDef>
+  <RankDef>
+    <defName>OrderWar_Warrior</defName>
+    <labelMale>Temple Warrior</labelMale>
+    <labelFemale>Temple Warrior</labelFemale>
+    <description>A dedicated warrior in service to the Tribunal, skilled in combat and blessed by divine favor.</description>
+  </RankDef>
+  <RankDef>
+    <defName>OrderWar_WarPriest</defName>
+    <labelMale>War Priest</labelMale>
+    <labelFemale>War Priestess</labelFemale>
+    <description>A warrior-priest combining martial prowess with divine authority.</description>
+  </RankDef>
+  <RankDef>
+    <defName>OrderWar_Champion</defName>
+    <labelMale>Champion of War</labelMale>
+    <labelFemale>Champion of War</labelFemale>
+    <description>An elite warrior blessed by the Tribunal, feared in battle and respected in command.</description>
+  </RankDef>
+  <RankDef>
+    <defName>OrderWar_WarMaster</defName>
+    <labelMale>War Master</labelMale>
+    <labelFemale>War Master</labelFemale>
+    <description>A master tactician and warrior, leading the Temple's military campaigns.</description>
+  </RankDef>
+  <RankDef>
+    <defName>OrderWar_SupremeChampion</defName>
+    <labelMale>Supreme Champion</labelMale>
+    <labelFemale>Supreme Champion</labelFemale>
+    <description>The ultimate warrior of the Temple, unmatched in battle and divine favor.</description>
+  </RankDef>
+</RankDefs>

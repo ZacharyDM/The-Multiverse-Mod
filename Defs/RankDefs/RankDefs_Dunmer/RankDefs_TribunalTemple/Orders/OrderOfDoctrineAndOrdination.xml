@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RankDefs>
+  <!-- Order of Doctrine and Ordination Ranks -->
+  <RankDef>
+    <defName>OrderDoctrine_Student</defName>
+    <labelMale>Doctrine Student</labelMale>
+    <labelFemale>Doctrine Student</labelFemale>
+    <description>A student of temple doctrine, learning the sacred teachings and traditions.</description>
+  </RankDef>
+  <RankDef>
+    <defName>OrderDoctrine_Scribe</defName>
+    <labelMale>Temple Scribe</labelMale>
+    <labelFemale>Temple Scribe</labelFemale>
+    <description>A keeper of temple records and sacred texts, preserving ancient knowledge.</description>
+  </RankDef>
+  <RankDef>
+    <defName>OrderDoctrine_Scholar</defName>
+    <labelMale>Temple Scholar</labelMale>
+    <labelFemale>Temple Scholar</labelFemale>
+    <description>A learned member of the Temple, versed in doctrine and capable of teaching others.</description>
+  </RankDef>
+  <RankDef>
+    <defName>OrderDoctrine_Teacher</defName>
+    <labelMale>Temple Teacher</labelMale>
+    <labelFemale>Temple Teacher</labelFemale>
+    <description>An experienced educator who guides new initiates in the ways of the Tribunal.</description>
+  </RankDef>
+  <RankDef>
+    <defName>OrderDoctrine_MasterOfDoctrine</defName>
+    <labelMale>Master of Doctrine</labelMale>
+    <labelFemale>Mistress of Doctrine</labelFemale>
+    <description>An enlightened teacher and keeper of temple wisdom, able to guide others on the path of understanding.</description>
+  </RankDef>
+  <RankDef>
+    <defName>OrderDoctrine_GrandLorekeeper</defName>
+    <labelMale>Grand Lorekeeper</labelMale>
+    <labelFemale>Grand Lorekeeper</labelFemale>
+    <description>The ultimate authority on temple doctrine and sacred knowledge, guardian of the most ancient secrets.</description>
+  </RankDef>
+</RankDefs>
