@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RankDefs>
+  <!-- Order of the Watch Ranks -->
+  <RankDef>
+    <defName>OrderWatch_Recruit</defName>
+    <labelMale>Watch Recruit</labelMale>
+    <labelFemale>Watch Recruit</labelFemale>
+    <description>A new recruit to the Order of the Watch, learning the basics of temple security and vigilance.</description>
+  </RankDef>
+  <RankDef>
+    <defName>OrderWatch_Sentinel</defName>
+    <labelMale>Sentinel</labelMale>
+    <labelFemale>Sentinel</labelFemale>
+    <description>A proven guardian assigned to watch over temple grounds and visitors.</description>
+  </RankDef>
+  <RankDef>
+    <defName>OrderWatch_Watchman</defName>
+    <labelMale>Watchman</labelMale>
+    <labelFemale>Watchwoman</labelFemale>
+    <description>A vigilant guardian of the Temple, trained in observation and defensive tactics.</description>
+  </RankDef>
+  <RankDef>
+    <defName>OrderWatch_SeniorWatchman</defName>
+    <labelMale>Senior Watchman</labelMale>
+    <labelFemale>Senior Watchwoman</labelFemale>
+    <description>An experienced temple guard with enhanced combat skills and leadership abilities.</description>
+  </RankDef>
+  <RankDef>
+    <defName>OrderWatch_WatchCaptain</defName>
+    <labelMale>Watch Captain</labelMale>
+    <labelFemale>Watch Captain</labelFemale>
+    <description>A commander of the Watch, responsible for coordinating temple security operations.</description>
+  </RankDef>
+  <RankDef>
+    <defName>OrderWatch_WatchCommander</defName>
+    <labelMale>Watch Commander</labelMale>
+    <labelFemale>Watch Commander</labelFemale>
+    <description>The supreme leader of the Order of the Watch, overseeing all temple security matters.</description>
+  </RankDef>
+</RankDefs>

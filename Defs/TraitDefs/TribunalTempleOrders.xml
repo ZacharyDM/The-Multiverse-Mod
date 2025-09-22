@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Order of the Watch - Temple guardians and peacekeepers -->
+  <TraitDef>
+    <defName>OrderOfTheWatch</defName>
+    <label>Order of the Watch</label>
+    <description>Member of the Order of the Watch, elite temple guardians who maintain order and protect sacred sites.</description>
+    <degreeDatas>
+      <li>
+        <label>Watchman</label>
+        <description>A vigilant guardian of the Temple, trained in observation and defensive tactics.</description>
+        <skillGains>
+          <Shooting>2</Shooting>
+          <Melee>3</Melee>
+          <Construction>1</Construction>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.05</MeleeHitChance>
+          <ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Senior Watchman</label>
+        <description>An experienced temple guard with enhanced combat skills and leadership abilities.</description>
+        <skillGains>
+          <Shooting>3</Shooting>
+          <Melee>4</Melee>
+          <Construction>2</Construction>
+          <Social>1</Social>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.10</MeleeHitChance>
+          <ShootingAccuracyPawn>0.10</ShootingAccuracyPawn>
+          <MeleeDodgeChance>0.05</MeleeDodgeChance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Order of War - Military wing of the Temple -->
+  <TraitDef>
+    <defName>OrderOfWar</defName>
+    <label>Order of War</label>
+    <description>Member of the Order of War, the military arm of the Tribunal Temple focused on warfare and combat excellence.</description>
+    <degreeDatas>
+      <li>
+        <label>War Priest</label>
+        <description>A warrior-priest combining martial prowess with divine authority.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Shooting>2</Shooting>
+          <Medicine>1</Medicine>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.08</MeleeHitChance>
+          <MeleeDamageRandomFactor>0.10</MeleeDamageRandomFactor>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Champion of War</label>
+        <description>An elite warrior blessed by the Tribunal, feared in battle and respected in command.</description>
+        <skillGains>
+          <Melee>5</Melee>
+          <Shooting>3</Shooting>
+          <Medicine>2</Medicine>
+          <Social>2</Social>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.15</MeleeHitChance>
+          <MeleeDamageRandomFactor>0.20</MeleeDamageRandomFactor>
+          <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Order of Doctrine and Ordination - Scholars and teachers -->
+  <TraitDef>
+    <defName>OrderOfDoctrineAndOrdination</defName>
+    <label>Order of Doctrine and Ordination</label>
+    <description>Member of the Order of Doctrine and Ordination, learned scholars who preserve temple knowledge and train new initiates.</description>
+    <degreeDatas>
+      <li>
+        <label>Temple Scholar</label>
+        <description>A learned member of the Temple, versed in doctrine and capable of teaching others.</description>
+        <skillGains>
+          <Intellectual>4</Intellectual>
+          <Social>2</Social>
+          <Medicine>1</Medicine>
+        </skillGains>
+        <statOffsets>
+          <GlobalLearningFactor>0.10</GlobalLearningFactor>
+          <ResearchSpeedFactor>0.15</ResearchSpeedFactor>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Master of Doctrine</label>
+        <description>An enlightened teacher and keeper of temple wisdom, able to guide others on the path of understanding.</description>
+        <skillGains>
+          <Intellectual>5</Intellectual>
+          <Social>3</Social>
+          <Medicine>2</Medicine>
+          <Artistic>1</Artistic>
+        </skillGains>
+        <statOffsets>
+          <GlobalLearningFactor>0.20</GlobalLearningFactor>
+          <ResearchSpeedFactor>0.25</ResearchSpeedFactor>
+          <TradePriceImprovement>0.05</TradePriceImprovement>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Order of Inquisition - Investigators and enforcers -->
+  <TraitDef>
+    <defName>OrderOfInquisition</defName>
+    <label>Order of Inquisition</label>
+    <description>Member of the Order of Inquisition, dedicated to rooting out heresy and investigating threats to the Temple.</description>
+    <degreeDatas>
+      <li>
+        <label>Inquisitor</label>
+        <description>A sharp-eyed investigator trained to detect deception and uncover hidden truths.</description>
+        <skillGains>
+          <Social>3</Social>
+          <Intellectual>2</Intellectual>
+          <Shooting>2</Shooting>
+        </skillGains>
+        <statOffsets>
+          <TradePriceImprovement>0.10</TradePriceImprovement>
+          <NegotiationAbility>0.15</NegotiationAbility>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Grand Inquisitor</label>
+        <description>A master investigator with the authority to judge heretics and command lesser inquisitors.</description>
+        <skillGains>
+          <Social>4</Social>
+          <Intellectual>3</Intellectual>
+          <Shooting>3</Shooting>
+          <Melee>1</Melee>
+        </skillGains>
+        <statOffsets>
+          <TradePriceImprovement>0.20</TradePriceImprovement>
+          <NegotiationAbility>0.25</NegotiationAbility>
+          <ShootingAccuracyPawn>0.10</ShootingAccuracyPawn>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- High Ordinators - Elite temple guards -->
+  <TraitDef>
+    <defName>HighOrdinator</defName>
+    <label>High Ordinator</label>
+    <description>Member of the High Ordinators, elite temple guards who stand above all other Ordinator orders and serve as the Temple's most trusted protectors.</description>
+    <degreeDatas>
+      <li>
+        <label>High Ordinator</label>
+        <description>An elite guardian of the highest order, combining exceptional combat skills with unwavering devotion to the Tribunal.</description>
+        <skillGains>
+          <Melee>5</Melee>
+          <Shooting>4</Shooting>
+          <Social>2</Social>
+          <Construction>2</Construction>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.20</MeleeHitChance>
+          <ShootingAccuracyPawn>0.20</ShootingAccuracyPawn>
+          <MeleeDodgeChance>0.10</MeleeDodgeChance>
+          <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+        </statOffsets>
+      </li>
+      <li>
+        <label>High Ordinator Captain</label>
+        <description>A commander of High Ordinators, possessing legendary skill and the authority to lead the Temple's finest warriors.</description>
+        <skillGains>
+          <Melee>6</Melee>
+          <Shooting>5</Shooting>
+          <Social>3</Social>
+          <Construction>2</Construction>
+          <Intellectual>1</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.30</MeleeHitChance>
+          <ShootingAccuracyPawn>0.30</ShootingAccuracyPawn>
+          <MeleeDodgeChance>0.15</MeleeDodgeChance>
+          <MeleeDamageRandomFactor>0.25</MeleeDamageRandomFactor>
+          <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Hands of Almalexia - Ultimate temple guardians -->
+  <TraitDef>
+    <defName>HandsOfAlmalexia</defName>
+    <label>Hands of Almalexia</label>
+    <description>One of the legendary Hands of Almalexia, the ultimate guardians chosen personally by the Healing Mother to serve as her mortal instruments.</description>
+    <degreeDatas>
+      <li>
+        <label>Hand of Almalexia</label>
+        <description>A chosen champion of Almalexia, blessed with supernatural abilities and absolute authority within the Temple hierarchy.</description>
+        <skillGains>
+          <Melee>8</Melee>
+          <Shooting>6</Shooting>
+          <Social>5</Social>
+          <Medicine>4</Medicine>
+          <Intellectual>3</Intellectual>
+          <Construction>3</Construction>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.50</MeleeHitChance>
+          <ShootingAccuracyPawn>0.50</ShootingAccuracyPawn>
+          <MeleeDodgeChance>0.25</MeleeDodgeChance>
+          <MeleeDamageRandomFactor>0.50</MeleeDamageRandomFactor>
+          <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+          <GlobalLearningFactor>0.30</GlobalLearningFactor>
+          <MoveSpeed>1.2</MoveSpeed>
+          <ImmunityGainSpeed>1.5</ImmunityGainSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>

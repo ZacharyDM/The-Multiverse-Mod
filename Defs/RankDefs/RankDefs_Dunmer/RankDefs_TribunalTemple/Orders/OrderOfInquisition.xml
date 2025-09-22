@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RankDefs>
+  <!-- Order of Inquisition Ranks -->
+  <RankDef>
+    <defName>OrderInquisition_Seeker</defName>
+    <labelMale>Seeker</labelMale>
+    <labelFemale>Seeker</labelFemale>
+    <description>A novice investigator learning to identify heresy and threats to temple doctrine.</description>
+  </RankDef>
+  <RankDef>
+    <defName>OrderInquisition_Interrogator</defName>
+    <labelMale>Interrogator</labelMale>
+    <labelFemale>Interrogator</labelFemale>
+    <description>An investigator skilled in questioning suspects and uncovering hidden truths.</description>
+  </RankDef>
+  <RankDef>
+    <defName>OrderInquisition_Inquisitor</defName>
+    <labelMale>Inquisitor</labelMale>
+    <labelFemale>Inquisitor</labelFemale>
+    <description>A sharp-eyed investigator trained to detect deception and uncover hidden truths.</description>
+  </RankDef>
+  <RankDef>
+    <defName>OrderInquisition_SeniorInquisitor</defName>
+    <labelMale>Senior Inquisitor</labelMale>
+    <labelFemale>Senior Inquisitor</labelFemale>
+    <description>An experienced inquisitor with the authority to lead investigations and judge minor heretics.</description>
+  </RankDef>
+  <RankDef>
+    <defName>OrderInquisition_GrandInquisitor</defName>
+    <labelMale>Grand Inquisitor</labelMale>
+    <labelFemale>Grand Inquisitor</labelFemale>
+    <description>A master investigator with the authority to judge heretics and command lesser inquisitors.</description>
+  </RankDef>
+  <RankDef>
+    <defName>OrderInquisition_HighInquisitor</defName>
+    <labelMale>High Inquisitor</labelMale>
+    <labelFemale>High Inquisitor</labelFemale>
+    <description>The supreme authority of the Inquisition, feared by heretics and respected by the faithful.</description>
+  </RankDef>
+</RankDefs>

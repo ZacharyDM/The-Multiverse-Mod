@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RankDefs>
+  <!-- Buoyant Armigers Ranks -->
+  <RankDef>
+    <defName>BuoyantArmigers_Aspirant</defName>
+    <labelMale>Armiger Aspirant</labelMale>
+    <labelFemale>Armiger Aspirant</labelFemale>
+    <description>An aspiring member of the Buoyant Armigers, training in both martial and mystical arts.</description>
+  </RankDef>
+  <RankDef>
+    <defName>BuoyantArmigers_Initiate</defName>
+    <labelMale>Armiger Initiate</labelMale>
+    <labelFemale>Armiger Initiate</labelFemale>
+    <description>A newly inducted Buoyant Armiger, trained in both martial and mystical arts to face the darkness.</description>
+  </RankDef>
+  <RankDef>
+    <defName>BuoyantArmigers_Armiger</defName>
+    <labelMale>Armiger</labelMale>
+    <labelFemale>Armiger</labelFemale>
+    <description>A seasoned Buoyant Armiger, experienced in battles against daedra and other supernatural foes.</description>
+  </RankDef>
+  <RankDef>
+    <defName>BuoyantArmigers_Veteran</defName>
+    <labelMale>Veteran Armiger</labelMale>
+    <labelFemale>Veteran Armiger</labelFemale>
+    <description>A battle-hardened veteran with deep knowledge of dark forces and the skills to defeat them.</description>
+  </RankDef>
+  <RankDef>
+    <defName>BuoyantArmigers_Champion</defName>
+    <labelMale>Champion Armiger</labelMale>
+    <labelFemale>Champion Armiger</labelFemale>
+    <description>An elite champion among the Buoyant Armigers, capable of leading expeditions against the most dangerous supernatural threats.</description>
+  </RankDef>
+  <RankDef>
+    <defName>BuoyantArmigers_Captain</defName>
+    <labelMale>Armiger Captain</labelMale>
+    <labelFemale>Armiger Captain</labelFemale>
+    <description>A commander of Buoyant Armigers, coordinating multiple expeditions against dark forces.</description>
+  </RankDef>
+  <RankDef>
+    <defName>BuoyantArmigers_Marshal</defName>
+    <labelMale>Armiger Marshal</labelMale>
+    <labelFemale>Armiger Marshal</labelFemale>
+    <description>A high-ranking leader of the Buoyant Armigers, overseeing regional operations.</description>
+  </RankDef>
+  <RankDef>
+    <defName>BuoyantArmigers_GrandMarshal</defName>
+    <labelMale>Grand Marshal</labelMale>
+    <labelFemale>Grand Marshal</labelFemale>
+    <description>The supreme commander of the Buoyant Armigers, a legendary warrior-mystic with unmatched skill in combating dark forces.</description>
+  </RankDef>
+</RankDefs>

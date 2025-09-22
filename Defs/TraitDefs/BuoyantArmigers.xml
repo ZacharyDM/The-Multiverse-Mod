@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Buoyant Armigers - Elite warrior-mystics -->
+  <TraitDef>
+    <defName>BuoyantArmiger</defName>
+    <label>Buoyant Armiger</label>
+    <description>Member of the Buoyant Armigers, elite warrior-mystics of the Tribunal Temple who specialize in combating dark forces and supernatural threats.</description>
+    <degreeDatas>
+      <li>
+        <label>Armiger Initiate</label>
+        <description>A newly inducted Buoyant Armiger, trained in both martial and mystical arts to face the darkness.</description>
+        <skillGains>
+          <Melee>3</Melee>
+          <Shooting>2</Shooting>
+          <Intellectual>2</Intellectual>
+          <Medicine>1</Medicine>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.08</MeleeHitChance>
+          <ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+          <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Armiger</label>
+        <description>A seasoned Buoyant Armiger, experienced in battles against daedra and other supernatural foes.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Shooting>3</Shooting>
+          <Intellectual>3</Intellectual>
+          <Medicine>2</Medicine>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.12</MeleeHitChance>
+          <ShootingAccuracyPawn>0.08</ShootingAccuracyPawn>
+          <MentalBreakThreshold>-0.10</MentalBreakThreshold>
+          <MeleeDodgeChance>0.05</MeleeDodgeChance>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Veteran Armiger</label>
+        <description>A battle-hardened veteran with deep knowledge of dark forces and the skills to defeat them.</description>
+        <skillGains>
+          <Melee>5</Melee>
+          <Shooting>4</Shooting>
+          <Intellectual>3</Intellectual>
+          <Medicine>3</Medicine>
+          <Social>1</Social>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.18</MeleeHitChance>
+          <ShootingAccuracyPawn>0.12</ShootingAccuracyPawn>
+          <MentalBreakThreshold>-0.15</MentalBreakThreshold>
+          <MeleeDodgeChance>0.08</MeleeDodgeChance>
+          <MeleeDamageRandomFactor>0.15</MeleeDamageRandomFactor>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Champion Armiger</label>
+        <description>An elite champion among the Buoyant Armigers, capable of leading expeditions against the most dangerous supernatural threats.</description>
+        <skillGains>
+          <Melee>6</Melee>
+          <Shooting>5</Shooting>
+          <Intellectual>4</Intellectual>
+          <Medicine>3</Medicine>
+          <Social>2</Social>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.25</MeleeHitChance>
+          <ShootingAccuracyPawn>0.18</ShootingAccuracyPawn>
+          <MentalBreakThreshold>-0.20</MentalBreakThreshold>
+          <MeleeDodgeChance>0.12</MeleeDodgeChance>
+          <MeleeDamageRandomFactor>0.25</MeleeDamageRandomFactor>
+          <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Grand Marshal</label>
+        <description>The supreme commander of the Buoyant Armigers, a legendary warrior-mystic with unmatched skill in combating dark forces.</description>
+        <skillGains>
+          <Melee>8</Melee>
+          <Shooting>6</Shooting>
+          <Intellectual>5</Intellectual>
+          <Medicine>4</Medicine>
+          <Social>4</Social>
+          <Construction>2</Construction>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.40</MeleeHitChance>
+          <ShootingAccuracyPawn>0.30</ShootingAccuracyPawn>
+          <MentalBreakThreshold>-0.30</MentalBreakThreshold>
+          <MeleeDodgeChance>0.20</MeleeDodgeChance>
+          <MeleeDamageRandomFactor>0.40</MeleeDamageRandomFactor>
+          <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+          <GlobalLearningFactor>0.25</GlobalLearningFactor>
+          <MoveSpeed>1.1</MoveSpeed>
+          <ImmunityGainSpeed>1.3</ImmunityGainSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>
