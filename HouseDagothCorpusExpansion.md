@@ -10,6 +10,7 @@ House Dagoth represents the corrupted and transformed remnants of the lost Great
 - **Dreamers** - Corpus-touched prophets and seers with enhanced psychic abilities
 - **Ash Vampires** - Elite corpus warriors transformed into immortal champions
 - **Corpus Stalkers** - Corpus-twisted scouts and infiltrators
+- **Sleepers** - Those under Dagoth Ur's spell who undergo progressive corpus transformation
 - **Corpus Touched** - General corpus affliction affecting various individuals
 
 ### Corpus Disease
@@ -43,6 +44,9 @@ House Dagoth now includes corpus-specific ranks alongside traditional house rank
 - **Corpus Lord/Lady** - Advanced corpus transformation leader
 - **Ash Vampire Lord/Lady** - Elite immortal champion
 - **Visionary Master/Mistress** - Highest ranking dreamer
+- **Sleeper Tender** - Overseer of sleeper transformation
+- **Ash Master/Mistress** - Commander of transformed ash beings
+- **Ascended Commander** - Elite ascended sleeper with command authority
 
 ## Trait System
 
@@ -68,6 +72,13 @@ Each corpus creature type has associated traits with progressive power levels:
 - **Bonuses**: Movement speed, stealth, accuracy
 - **Drawbacks**: Reduced social impact due to disturbing appearance
 - **Progression**: Corpus Scout → Corpus Stalker
+
+### Sleepers
+- **Focus**: Progressive corpus transformation and servitude to Dagoth Ur
+- **Skills**: Melee, Medicine, Mining, Construction, Shooting, Intellectual (at higher levels)
+- **Bonuses**: Enhanced durability, work speed, combat abilities, corpus resistance
+- **Drawbacks**: Severe social penalties, mental instability, loss of free will
+- **Progression**: Sleeper → Ash Slave → Ash Zombie → Ash Ghoul → Ascended Sleeper
 
 ### Corpus Touched
 - **Focus**: Early corpus infection and adaptation
