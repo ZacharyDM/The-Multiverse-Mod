@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RankDefs>
+  <!-- Ashlander Clan Ranks - Based on Morrowind progression system -->
+  
+  <RankDef>
+    <defName>Ashlander_Clanfriend</defName>
+    <labelMale>Clanfriend</labelMale>
+    <labelFemale>Clanfriend</labelFemale>
+    <description>An outsider who has earned the respect and friendship of the Ashlander clan through honorable deeds.</description>
+  </RankDef>
+  
+  <RankDef>
+    <defName>Ashlander_Hearthfriend</defName>
+    <labelMale>Hearthfriend</labelMale>
+    <labelFemale>Hearthfriend</labelFemale>
+    <description>A trusted friend welcomed at the clan's hearth, accepted into the extended family.</description>
+  </RankDef>
+  
+  <RankDef>
+    <defName>Ashlander_Brother</defName>
+    <labelMale>Brother</labelMale>
+    <labelFemale>Sister</labelFemale>
+    <description>A blood brother or sister of the clan, bound by sacred oaths and shared trials.</description>
+  </RankDef>
+  
+  <RankDef>
+    <defName>Ashlander_Initiate</defName>
+    <labelMale>Initiate</labelMale>
+    <labelFemale>Initiate</labelFemale>
+    <description>One who has begun the journey of understanding Ashlander ways and ancestral wisdom.</description>
+  </RankDef>
+  
+  <RankDef>
+    <defName>Ashlander_Clanholder</defName>
+    <labelMale>Clanholder</labelMale>
+    <labelFemale>Clanholder</labelFemale>
+    <description>A respected member who holds property and standing within the clan structure.</description>
+  </RankDef>
+  
+  <RankDef>
+    <defName>Ashlander_Guide</defName>
+    <labelMale>Guide</labelMale>
+    <labelFemale>Guide</labelFemale>
+    <description>A wise member who leads others through the trials of clan life and harsh wasteland.</description>
+  </RankDef>
+  
+  <RankDef>
+    <defName>Ashlander_Champion</defName>
+    <labelMale>Champion</labelMale>
+    <labelFemale>Champion</labelFemale>
+    <description>A mighty warrior who represents the clan's strength and honor in battle and ceremony.</description>
+  </RankDef>
+  
+  <RankDef>
+    <defName>Ashlander_Gulakhan</defName>
+    <labelMale>Gulakhan</labelMale>
+    <labelFemale>Gulakhan</labelFemale>
+    <description>The war-leader and champion of the clan, second only to the Ashkhan in authority.</description>
+  </RankDef>
+  
+  <RankDef>
+    <defName>Ashlander_Farseer</defName>
+    <labelMale>Farseer</labelMale>
+    <labelFemale>Farseer</labelFemale>
+    <description>A visionary and prophet who communes with ancestors and foresees the clan's destiny.</description>
+  </RankDef>
+  
+  <RankDef>
+    <defName>Ashlander_Ashkhan</defName>
+    <labelMale>Ashkhan</labelMale>
+    <labelFemale>Ashkhan</labelFemale>
+    <description>The paramount chief of the clan, absolute ruler and spiritual guide of their people.</description>
+  </RankDef>
+</RankDefs>

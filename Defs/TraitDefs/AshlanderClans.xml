@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Ahemmusa Clan - Peaceful, wise, enduring -->
+  <TraitDef>
+    <defName>AhemmusaClan</defName>
+    <label>Ahemmusa Clan</label>
+    <description>Member of the peaceful Ahemmusa clan, known for wisdom, endurance, and deep spiritual understanding of the ashlands.</description>
+    <degreeDatas>
+      <li>
+        <label>Ahemmusa Clanmate</label>
+        <description>A member of the wise and peaceful Ahemmusa clan, raised to value knowledge and endurance over violence.</description>
+        <skillGains>
+          <Medicine>3</Medicine>
+          <Intellectual>2</Intellectual>
+          <Social>2</Social>
+        </skillGains>
+        <statOffsets>
+          <GlobalLearningFactor>0.15</GlobalLearningFactor>
+          <PainShockThreshold>0.10</PainShockThreshold>
+          <ImmunityGainSpeed>1.2</ImmunityGainSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Ahemmusa Elder</label>
+        <description>A wise elder of the Ahemmusa, deeply versed in clan lore and the healing arts of the ashlands.</description>
+        <skillGains>
+          <Medicine>4</Medicine>
+          <Intellectual>3</Intellectual>
+          <Social>3</Social>
+          <Artistic>1</Artistic>
+        </skillGains>
+        <statOffsets>
+          <GlobalLearningFactor>0.25</GlobalLearningFactor>
+          <PainShockThreshold>0.15</PainShockThreshold>
+          <ImmunityGainSpeed>1.4</ImmunityGainSpeed>
+          <MedicalTendQuality>0.20</MedicalTendQuality>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Urshilaku Clan - Traditional, keepers of prophecy and heritage -->
+  <TraitDef>
+    <defName>UrshilakuClan</defName>
+    <label>Urshilaku Clan</label>
+    <description>Member of the traditional Urshilaku clan, keepers of ancient prophecies and guardians of Ashlander heritage.</description>
+    <degreeDatas>
+      <li>
+        <label>Urshilaku Clanmate</label>
+        <description>A member of the traditional Urshilaku clan, raised with deep reverence for ancestral ways and prophecy.</description>
+        <skillGains>
+          <Intellectual>2</Intellectual>
+          <Social>2</Social>
+          <Melee>2</Melee>
+        </skillGains>
+        <statOffsets>
+          <MentalBreakThreshold>-0.10</MentalBreakThreshold>
+          <SocialImpact>1.15</SocialImpact>
+          <NegotiationAbility>0.15</NegotiationAbility>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Urshilaku Wise Woman</label>
+        <description>A keeper of Urshilaku wisdom, trained in the ancient prophecies and tribal law.</description>
+        <skillGains>
+          <Intellectual>3</Intellectual>
+          <Social>4</Social>
+          <Melee>2</Melee>
+          <Artistic>2</Artistic>
+        </skillGains>
+        <statOffsets>
+          <MentalBreakThreshold>-0.20</MentalBreakThreshold>
+          <SocialImpact>1.30</SocialImpact>
+          <NegotiationAbility>0.25</NegotiationAbility>
+          <TradePriceImprovement>0.15</TradePriceImprovement>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Erabenimsun Clan - Fierce and warlike -->
+  <TraitDef>
+    <defName>ErabenimsunClan</defName>
+    <label>Erabenimsun Clan</label>
+    <description>Member of the fierce Erabenimsun clan, the most warlike of the Ashlander tribes, bred for battle in the harsh Molag Amur.</description>
+    <degreeDatas>
+      <li>
+        <label>Erabenimsun Warrior</label>
+        <description>A fierce warrior of the Erabenimsun clan, trained from birth in the ways of war and survival.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Shooting>2</Shooting>
+          <Animals>1</Animals>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.10</MeleeHitChance>
+          <MeleeDamageRandomFactor>0.15</MeleeDamageRandomFactor>
+          <PainShockThreshold>0.15</PainShockThreshold>
+          <ArmorRating_Heat>0.10</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Erabenimsun Champion</label>
+        <description>A legendary warrior of the Erabenimsun, feared across the ashlands for their combat prowess.</description>
+        <skillGains>
+          <Melee>5</Melee>
+          <Shooting>3</Shooting>
+          <Animals>2</Animals>
+          <Social>1</Social>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.20</MeleeHitChance>
+          <MeleeDamageRandomFactor>0.25</MeleeDamageRandomFactor>
+          <PainShockThreshold>0.25</PainShockThreshold>
+          <ArmorRating_Heat>0.15</ArmorRating_Heat>
+          <MoveSpeed>1.1</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Zainab Clan - Resourceful, skilled in trade and diplomacy -->
+  <TraitDef>
+    <defName>ZainabClan</defName>
+    <label>Zainab Clan</label>
+    <description>Member of the resourceful Zainab clan, skilled traders and diplomats who thrive in the harsh ashlands.</description>
+    <degreeDatas>
+      <li>
+        <label>Zainab Trader</label>
+        <description>A member of the Zainab clan, raised in the traditions of trade, diplomacy, and resourceful survival.</description>
+        <skillGains>
+          <Social>3</Social>
+          <Intellectual>2</Intellectual>
+          <Crafting>2</Crafting>
+        </skillGains>
+        <statOffsets>
+          <TradePriceImprovement>0.20</TradePriceImprovement>
+          <NegotiationAbility>0.20</NegotiationAbility>
+          <WorkSpeedGlobal>1.10</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Zainab Merchant Prince</label>
+        <description>An accomplished merchant and diplomat of the Zainab, master of trade and negotiation.</description>
+        <skillGains>
+          <Social>4</Social>
+          <Intellectual>3</Intellectual>
+          <Crafting>3</Crafting>
+          <Artistic>1</Artistic>
+        </skillGains>
+        <statOffsets>
+          <TradePriceImprovement>0.35</TradePriceImprovement>
+          <NegotiationAbility>0.35</NegotiationAbility>
+          <WorkSpeedGlobal>1.20</WorkSpeedGlobal>
+          <SocialImpact>1.25</SocialImpact>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Kagesh Clan - Mysterious traditions and rituals -->
+  <TraitDef>
+    <defName>KageshClan</defName>
+    <label>Kagesh Clan</label>
+    <description>Member of the mysterious Kagesh clan, practitioners of ancient rituals and keepers of arcane secrets.</description>
+    <degreeDatas>
+      <li>
+        <label>Kagesh Mystic</label>
+        <description>A member of the enigmatic Kagesh clan, trained in mysterious rituals and ancient practices.</description>
+        <skillGains>
+          <Intellectual>3</Intellectual>
+          <Artistic>2</Artistic>
+          <Medicine>1</Medicine>
+        </skillGains>
+        <statOffsets>
+          <ResearchSpeedFactor>0.20</ResearchSpeedFactor>
+          <MentalBreakThreshold>-0.15</MentalBreakThreshold>
+          <PsychicSensitivity>1.20</PsychicSensitivity>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Kagesh Ritualist</label>
+        <description>A master of the Kagesh clan's ancient mysteries, wielding knowledge passed down through generations.</description>
+        <skillGains>
+          <Intellectual>4</Intellectual>
+          <Artistic>3</Artistic>
+          <Medicine>2</Medicine>
+          <Social>1</Social>
+        </skillGains>
+        <statOffsets>
+          <ResearchSpeedFactor>0.35</ResearchSpeedFactor>
+          <MentalBreakThreshold>-0.25</MentalBreakThreshold>
+          <PsychicSensitivity>1.35</PsychicSensitivity>
+          <GlobalLearningFactor>0.15</GlobalLearningFactor>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Ulath Clan - Secretive, skilled in survival and stealth -->
+  <TraitDef>
+    <defName>UlathClan</defName>
+    <label>Ulath Clan</label>
+    <description>Member of the secretive Ulath clan, masters of stealth, survival, and the hidden paths of the ashlands.</description>
+    <degreeDatas>
+      <li>
+        <label>Ulath Stalker</label>
+        <description>A member of the secretive Ulath clan, trained in stealth, survival, and the art of moving unseen.</description>
+        <skillGains>
+          <Shooting>3</Shooting>
+          <Animals>2</Animals>
+          <Plants>2</Plants>
+        </skillGains>
+        <statOffsets>
+          <MoveSpeed>1.15</MoveSpeed>
+          <ShootingAccuracyPawn>0.15</ShootingAccuracyPawn>
+          <CarryingCapacity>15</CarryingCapacity>
+          <ForagedNutritionPerDay>1.30</ForagedNutritionPerDay>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Ulath Shadow Walker</label>
+        <description>A master scout of the Ulath clan, able to traverse the ashlands like a ghost and strike from the shadows.</description>
+        <skillGains>
+          <Shooting>4</Shooting>
+          <Animals>3</Animals>
+          <Plants>3</Plants>
+          <Melee>2</Melee>
+        </skillGains>
+        <statOffsets>
+          <MoveSpeed>1.25</MoveSpeed>
+          <ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
+          <CarryingCapacity>25</CarryingCapacity>
+          <ForagedNutritionPerDay>1.50</ForagedNutritionPerDay>
+          <MeleeDodgeChance>0.10</MeleeDodgeChance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Vereansu Clan - Deep connection to ancestral spirits -->
+  <TraitDef>
+    <defName>VereansuClan</defName>
+    <label>Vereansu Clan</label>
+    <description>Member of the Vereansu clan, blessed with a deep spiritual connection to ancestral spirits and the land.</description>
+    <degreeDatas>
+      <li>
+        <label>Vereansu Spirit-Touched</label>
+        <description>A member of the Vereansu clan, blessed with the ability to commune with ancestral spirits.</description>
+        <skillGains>
+          <Social>2</Social>
+          <Intellectual>2</Intellectual>
+          <Artistic>3</Artistic>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>1.25</PsychicSensitivity>
+          <MentalBreakThreshold>-0.20</MentalBreakThreshold>
+          <SocialImpact>1.20</SocialImpact>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Vereansu Spirit Speaker</label>
+        <description>A revered spiritual leader of the Vereansu, able to channel the wisdom of the ancestors.</description>
+        <skillGains>
+          <Social>3</Social>
+          <Intellectual>3</Intellectual>
+          <Artistic>4</Artistic>
+          <Medicine>1</Medicine>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>1.40</PsychicSensitivity>
+          <MentalBreakThreshold>-0.30</MentalBreakThreshold>
+          <SocialImpact>1.35</SocialImpact>
+          <GlobalLearningFactor>0.20</GlobalLearningFactor>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Mabrigash Clan - Matriarchal, famous for mystical practices -->
+  <TraitDef>
+    <defName>MabrigashClan</defName>
+    <label>Mabrigash Clan</label>
+    <description>Member of the matriarchal Mabrigash clan, renowned for their mystical practices and female-led warrior society.</description>
+    <degreeDatas>
+      <li>
+        <label>Mabrigash Sister</label>
+        <description>A member of the all-female Mabrigash clan, trained in both mystical arts and warrior traditions.</description>
+        <skillGains>
+          <Melee>2</Melee>
+          <Medicine>2</Medicine>
+          <Artistic>2</Artistic>
+          <Social>1</Social>
+        </skillGains>
+        <statOffsets>
+          <MedicalTendQuality>0.15</MedicalTendQuality>
+          <PsychicSensitivity>1.15</PsychicSensitivity>
+          <MeleeHitChance>0.10</MeleeHitChance>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Mabrigash Matriarch</label>
+        <description>A powerful leader of the Mabrigash clan, master of both martial and mystical arts.</description>
+        <skillGains>
+          <Melee>3</Melee>
+          <Medicine>3</Medicine>
+          <Artistic>3</Artistic>
+          <Social>3</Social>
+        </skillGains>
+        <statOffsets>
+          <MedicalTendQuality>0.25</MedicalTendQuality>
+          <PsychicSensitivity>1.30</PsychicSensitivity>
+          <MeleeHitChance>0.20</MeleeHitChance>
+          <SocialImpact>1.25</SocialImpact>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>
