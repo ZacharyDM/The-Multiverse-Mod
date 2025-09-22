@@ -7,10 +7,9 @@ This documentation covers the House Dagoth corpus expansion, featuring corpus mo
 House Dagoth represents the corrupted and transformed remnants of the lost Great House, centered around the divine disease known as Corpus. This expansion introduces:
 
 ### Corpus Creatures
-- **Dreamers** - Corpus-touched prophets and seers with enhanced psychic abilities
+- **Sleepers** - Corpus-touched prophets and seers under Dagoth Ur's spell who undergo progressive transformation
 - **Ash Vampires** - Elite corpus warriors transformed into immortal champions
 - **Corpus Stalkers** - Corpus-twisted scouts and infiltrators
-- **Sleepers** - Those under Dagoth Ur's spell who undergo progressive corpus transformation
 - **Corpus Touched** - General corpus affliction affecting various individuals
 
 ### Corpus Disease
@@ -43,21 +42,17 @@ House Dagoth now includes corpus-specific ranks alongside traditional house rank
 - **Ash Priest/Priestess** - Overseer of corpus rituals
 - **Corpus Lord/Lady** - Advanced corpus transformation leader
 - **Ash Vampire Lord/Lady** - Elite immortal champion
-- **Visionary Master/Mistress** - Highest ranking dreamer
-- **Sleeper Tender** - Overseer of sleeper transformation
-- **Ash Master/Mistress** - Commander of transformed ash beings
-- **Ascended Commander** - Elite ascended sleeper with command authority
 
 ## Trait System
 
 Each corpus creature type has associated traits with progressive power levels:
 
-### Dreamers
-- **Focus**: Psychic abilities, visions, and divine guidance
-- **Skills**: Intellectual, Artistic, Social, Medicine
-- **Bonuses**: Psychic sensitivity, learning speed, negotiation
-- **Drawbacks**: Mental instability, reality distortion
-- **Progression**: Dream-Touched → Dream Prophet → Master Dreamer
+### Sleepers
+- **Focus**: Psychic abilities, visions, progressive corpus transformation and servitude to Dagoth Ur
+- **Skills**: Intellectual, Artistic, Social, Medicine, Melee, Mining, Construction, Shooting (at higher levels)
+- **Bonuses**: Psychic sensitivity, learning speed, negotiation, enhanced durability, work speed, combat abilities, corpus resistance
+- **Drawbacks**: Mental instability, reality distortion, severe social penalties, loss of free will
+- **Progression**: Dream-Touched Sleeper → Dream Prophet → Master Dream-Walker → Corpus Seer → Ascended Sleeper
 
 ### Ash Vampires
 - **Focus**: Supernatural combat prowess and corpus mastery
@@ -72,13 +67,6 @@ Each corpus creature type has associated traits with progressive power levels:
 - **Bonuses**: Movement speed, stealth, accuracy
 - **Drawbacks**: Reduced social impact due to disturbing appearance
 - **Progression**: Corpus Scout → Corpus Stalker
-
-### Sleepers
-- **Focus**: Progressive corpus transformation and servitude to Dagoth Ur
-- **Skills**: Melee, Medicine, Mining, Construction, Shooting, Intellectual (at higher levels)
-- **Bonuses**: Enhanced durability, work speed, combat abilities, corpus resistance
-- **Drawbacks**: Severe social penalties, mental instability, loss of free will
-- **Progression**: Sleeper → Ash Slave → Ash Zombie → Ash Ghoul → Ascended Sleeper
 
 ### Corpus Touched
 - **Focus**: Early corpus infection and adaptation
@@ -136,7 +124,7 @@ This expansion faithfully represents House Dagoth from The Elder Scrolls III: Mo
 ### Canonical Elements
 - Corpus as a divine disease granted by Dagoth Ur
 - Ash Vampires as elite immortal champions
-- Dreamers as corpus-touched prophets and seers
+- Sleepers as corpus-touched prophets and seers who undergo physical transformation
 - The transformative nature of corpus infection
 - House Dagoth's role as a corrupted Great House
 
@@ -177,4 +165,4 @@ The corpus system is designed for quest integration:
 - House Dagoth alignment through corpus acceptance
 - Progressive corruption and power acquisition
 - Conflicts between corpus and traditional Dunmer society
-- Divine visions and prophetic questlines through Dreamers
+- Divine visions and prophetic questlines through Sleepers
