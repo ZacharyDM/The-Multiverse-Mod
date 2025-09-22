@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <!-- House Redoran Armor -->
+  <!-- House Redoran Gah-Julan Bonemould Armor -->
   <ThingDef ParentName="ArmorMakeableBase">
     <defName>Apparel_HouseRedoranArmor</defName>
-    <label>House Redoran armor</label>
-    <description>Traditional armor of House Redoran, the warrior-protectors of Morrowind. This sturdy armor combines functionality with honor, featuring the distinctive crab-shell design and deep red coloring of the martial house.</description>
+    <label>House Redoran Gah-Julan bonemould armor</label>
+    <description>The iconic Gah-Julan bonemould armor worn by House Redoran warriors. This traditional Dunmer armor is crafted from the hardened shells and bones of native creatures, providing excellent protection while maintaining mobility. The distinctive styling reflects House Redoran's martial heritage and their role as Morrowind's defender-warriors.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/GreatHouses/Redoran/Redoran</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <costStuffCount>125</costStuffCount>
+    <costStuffCount>120</costStuffCount>
     <stuffCategories>
       <li>Metallic</li>
+      <li>Woody</li>
     </stuffCategories>
     <thingCategories>
       <li>ApparelArmor</li>
@@ -68,39 +69,105 @@
     </recipeMaker>
   </ThingDef>
 
-  <!-- House Hlaalu Robes -->
-  <ThingDef ParentName="ApparelMakeableBase">
-    <defName>Apparel_HouseHlaaluRobes</defName>
-    <label>House Hlaalu robes</label>
-    <description>Elegant robes worn by members of House Hlaalu, the merchant-diplomats of Morrowind. These fine garments are crafted to impress in negotiations and display the wealth and sophistication of the progressive house.</description>
+  <!-- House Redoran Master Helmet -->
+  <ThingDef ParentName="ArmorMakeableBase">
+    <defName>Apparel_HouseRedoranMasterHelmet</defName>
+    <label>House Redoran Master helmet</label>
+    <description>The unique ceremonial helmet worn by the leader of House Redoran. This masterwork piece of Gah-Julan bonemould armor features intricate decorations and superior craftsmanship, marking its wearer as the supreme commander of House Redoran's martial forces.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/GreatHouses/Redoran/RedoranMasterHelm</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>75</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>3.5</Mass>
+      <Flammability>0.3</Flammability>
+      <ArmorRating_Sharp>0.85</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.45</ArmorRating_Heat>
+      <Insulation_Cold>5</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>4</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MeleeHitChance>0.08</MeleeHitChance>
+      <SocialImpact>0.20</SocialImpact>
+      <MentalBreakThreshold>-0.10</MentalBreakThreshold>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/GreatHouses/Redoran/RedoranMasterHelm</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryAdvanced</li>
+        <li>HouseRedoran</li>
+        <li>RedoranLeader</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PlateArmor</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- House Hlaalu Armun-An Bonemould Armour -->
+  <ThingDef ParentName="ArmorMakeableBase">
+    <defName>Apparel_HouseHlaaluArmor</defName>
+    <label>House Hlaalu Armun-An bonemould armour</label>
+    <description>The traditional Armun-An bonemould armor worn by House Hlaalu warriors and guards. While House Hlaalu is known for diplomacy and trade, they are not defenseless. This practical armor combines the standard bonemould construction with decorative elements befitting Morrowind's most prosperous merchant house.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/GreatHouses/Hlaalu/Hlaalu</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <costStuffCount>85</costStuffCount>
+    <costStuffCount>115</costStuffCount>
     <stuffCategories>
-      <li>Fabric</li>
+      <li>Metallic</li>
+      <li>Woody</li>
     </stuffCategories>
     <thingCategories>
-      <li>Apparel</li>
+      <li>ApparelArmor</li>
     </thingCategories>
     <statBases>
-      <WorkToMake>9000</WorkToMake>
-      <MaxHitPoints>110</MaxHitPoints>
-      <Mass>2.2</Mass>
-      <Flammability>1.0</Flammability>
-      <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.06</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.18</ArmorRating_Heat>
-      <Insulation_Cold>16</Insulation_Cold>
-      <Insulation_Heat>6</Insulation_Heat>
-      <EquipDelay>3</EquipDelay>
+      <WorkToMake>18000</WorkToMake>
+      <MaxHitPoints>275</MaxHitPoints>
+      <Mass>12</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.70</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.40</ArmorRating_Heat>
+      <Insulation_Cold>8</Insulation_Cold>
+      <Insulation_Heat>3</Insulation_Heat>
+      <EquipDelay>10</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <TradePriceImprovement>0.12</TradePriceImprovement>
-      <NegotiationAbility>0.15</NegotiationAbility>
-      <SocialImpact>0.18</SocialImpact>
-      <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+      <MoveSpeed>-0.05</MoveSpeed>
+      <TradePriceImprovement>0.08</TradePriceImprovement>
+      <NegotiationAbility>0.10</NegotiationAbility>
+      <SocialImpact>0.12</SocialImpact>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -115,20 +182,22 @@
         <li>Middle</li>
       </layers>
       <tags>
+        <li>IndustrialMilitaryBasic</li>
         <li>HouseHlaalu</li>
       </tags>
       <defaultOutfitTags>
-        <li>Worker</li>
+        <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
     <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PlateArmor</researchPrerequisite>
       <skillRequirements>
-        <Crafting>5</Crafting>
+        <Crafting>6</Crafting>
       </skillRequirements>
-      <recipeUsers>
-        <li>ElectricTailoringBench</li>
-        <li>HandTailoringBench</li>
+      <recipeUsers Inherit="False">
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
       </recipeUsers>
     </recipeMaker>
   </ThingDef>
@@ -195,6 +264,73 @@
       <recipeUsers>
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- House Telvanni Cephalopod Helmet -->
+  <ThingDef ParentName="ArmorMakeableBase">
+    <defName>Apparel_HouseTelvanniCephalopodHelmet</defName>
+    <label>House Telvanni Cephalopod helmet</label>
+    <description>The distinctive cephalopod-shaped helmet worn by House Telvanni guards. This unique piece of headgear is both intimidating and practical, designed to protect the heads of those who serve the sorcerer-lords of House Telvanni. Its tentacle-like protrusions are not merely decorative but serve as magical conduits.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/GreatHouses/Telvanni/TelvanniCephalopodHelm</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <MaxHitPoints>140</MaxHitPoints>
+      <Mass>3.0</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.50</ArmorRating_Heat>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>6</Insulation_Heat>
+      <EquipDelay>4</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <PsychicSensitivity>0.12</PsychicSensitivity>
+      <ResearchSpeed>0.08</ResearchSpeed>
+      <SocialImpact>0.15</SocialImpact>
+      <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/GreatHouses/Telvanni/TelvanniCephalopodHelm</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+        <li>HouseTelvanni</li>
+        <li>TelvanniGuard</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PlateArmor</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
       </recipeUsers>
     </recipeMaker>
   </ThingDef>
