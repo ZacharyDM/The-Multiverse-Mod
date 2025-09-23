@@ -68,6 +68,12 @@ The Morrowind expansion introduces authentic content from the iconic Elder Scrol
 - **Market Value**: 200 gold
 - **Special**: Pack animal, armored shell
 
+#### Silt Strider
+- **Role**: Massive transport arthropod
+- **Traits**: Extremely docile, patient, powerful legs
+- **Market Value**: 1200 gold
+- **Special**: Advanced trainability, pack animal, rideable mount, exceptional carrying capacity
+
 ### Predatory Species
 
 #### Alit
@@ -255,7 +261,7 @@ Defs/
 ├── ThingDefs/Races/
 │   ├── MorrowindAnimals.xml        # Guar, Kagouti, Alit
 │   ├── MorrowindAnimals2.xml       # Nix-Hound, Shalk, etc.
-│   ├── MorrowindAnimals3.xml       # Netch, Kwama species
+│   ├── MorrowindAnimals3.xml       # Netch, Kwama species, Silt Strider
 │   └── DaedricBeasts.xml           # Daedric creatures and Atronachs
 ├── ThingDefs/Items/
 │   └── DaedricMaterials.xml        # Soul gems, salts, claws, hearts
@@ -288,6 +294,10 @@ The mod expects texture files at the following paths (textures not included in c
 - `Things/Pawn/Animal/[DaedricBeast]/[DaedricBeast].png`
 - `Things/Plant/[PlantName].png`
 - `Things/Item/Resource/[ResourceName].png`
+
+**New Animal Textures Needed:**
+- `Things/Pawn/Animal/SiltStrider/SiltStrider.png`
+- `Things/Pawn/Animal/SiltStrider/Dessicated_SiltStrider.png`
 
 **New Daedric Beast Textures Needed:**
 - `Things/Pawn/Animal/Scamp/Scamp.png`
