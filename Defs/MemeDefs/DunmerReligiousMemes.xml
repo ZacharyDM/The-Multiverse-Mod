@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Tribunal Temple Worship - Living Gods Veneration -->
+  <MemeDef>
+    <defName>TribunalWorship</defName>
+    <label>tribunal worship</label>
+    <description>Devotion to the Living Gods of Morrowind: Almalexia the Healing Mother, Sotha Sil the Clockwork God, and Vivec the Poet-Warrior. This faith teaches that these three former mortals achieved divinity through wisdom, struggle, and sacrifice, and now guide their people from their sacred temples.</description>
+    <iconPath>UI/Memes/TribunalWorship</iconPath>
+    <impact>2</impact>
+    <category>Deity</category>
+    <exclusionTags>
+      <li>Deity</li>
+    </exclusionTags>
+    <generalRules>
+      <rulesStrings>
+        <li>rule->venerate the Living Gods</li>
+        <li>rule->uphold Temple orthodoxy</li>
+        <li>rule->defend the faithful from heresy</li>
+      </rulesStrings>
+    </generalRules>
+    <worshipRoomLabel>temple hall</worshipRoomLabel>
+    <symbolPacks>
+      <li>
+        <ideoName>Tribunal Temple</ideoName>
+        <theme>TribunalTemple</theme>
+        <adjective>faithful</adjective>
+        <member>temple faithful</member>
+        <deity>Living Gods</deity>
+        <deityPlural>Living Gods</deityPlural>
+        <place>temple</place>
+      </li>
+    </symbolPacks>
+    <ritualPatterns>
+      <li>
+        <keyword>temple</keyword>
+        <duties>
+          <li>Priest</li>
+          <li>Moral guide</li>
+        </duties>
+      </li>
+    </ritualPatterns>
+    <deityCountRange>3~3</deityCountRange>
+    <deityNameMaker>TribunalDeityNames</deityNameMaker>
+    <allowSymbolsFromDeity>true</allowSymbolsFromDeity>
+    <fixedDeityNameTypes>
+      <li>Almalexia</li>
+      <li>SothaSil</li>
+      <li>Vivec</li>
+    </fixedDeityNameTypes>
+  </MemeDef>
+
+  <!-- House Dagoth Corpus Cult - Dagoth Ur and Divine Disease Worship -->
+  <MemeDef>
+    <defName>CorpusCult</defName>
+    <label>corpus worship</label>
+    <description>Veneration of Dagoth Ur and the divine disease known as Corpus. Followers believe that Corpus is not a curse but a blessing that transforms the faithful into something greater than mortal flesh. They seek to spread this "gift" and serve their god-king in his underground citadel.</description>
+    <iconPath>UI/Memes/CorpusCult</iconPath>
+    <impact>3</impact>
+    <category>Deity</category>
+    <exclusionTags>
+      <li>Deity</li>
+    </exclusionTags>
+    <generalRules>
+      <rulesStrings>
+        <li>rule->embrace the gifts of Corpus</li>
+        <li>rule->serve the Sharmat's will</li>
+        <li>rule->transform flesh through divine disease</li>
+        <li>rule->reject false gods and their lies</li>
+      </rulesStrings>
+    </generalRules>
+    <worshipRoomLabel>corpus chamber</worshipRoomLabel>
+    <symbolPacks>
+      <li>
+        <ideoName>House Dagoth</ideoName>
+        <theme>HouseDagoth</theme>
+        <adjective>corpus-blessed</adjective>
+        <member>corpus cultist</member>
+        <deity>Dagoth Ur</deity>
+        <deityPlural>Sharmat</deityPlural>
+        <place>citadel</place>
+      </li>
+    </symbolPacks>
+    <ritualPatterns>
+      <li>
+        <keyword>corpus</keyword>
+        <duties>
+          <li>Sleeper</li>
+          <li>Ash prophet</li>
+        </duties>
+      </li>
+    </ritualPatterns>
+    <deityCountRange>1~1</deityCountRange>
+    <deityNameMaker>DagothDeityNames</deityNameMaker>
+    <allowSymbolsFromDeity>true</allowSymbolsFromDeity>
+    <fixedDeityNameTypes>
+      <li>DagothUr</li>
+    </fixedDeityNameTypes>
+  </MemeDef>
+
+  <!-- Ashlander Ancestor Worship - Traditional Daedra and Ancestor Veneration -->
+  <MemeDef>
+    <defName>AshlanderAncestorWorship</defName>
+    <label>ancestor worship</label>
+    <description>The ancient faith of the nomadic Ashlander tribes, venerating the spirits of deceased ancestors and the Good Daedra: Azura the Dusk and Dawn, Boethiah the Prince of Plots, and Mephala the Webspinner. This is the oldest religious tradition of the Dunmer people, predating the Tribunal Temple.</description>
+    <iconPath>UI/Memes/AncestorWorship</iconPath>
+    <impact>1</impact>
+    <category>Deity</category>
+    <exclusionTags>
+      <li>Deity</li>
+    </exclusionTags>
+    <generalRules>
+      <rulesStrings>
+        <li>rule->honor the ancestors' wisdom</li>
+        <li>rule->follow the Good Daedra's teachings</li>
+        <li>rule->preserve ancient traditions</li>
+        <li>rule->respect the ash and bone</li>
+      </rulesStrings>
+    </generalRules>
+    <worshipRoomLabel>ancestor shrine</worshipRoomLabel>
+    <symbolPacks>
+      <li>
+        <ideoName>Ashlander Tradition</ideoName>
+        <theme>AshlanderTradition</theme>
+        <adjective>traditional</adjective>
+        <member>tribe member</member>
+        <deity>Good Daedra</deity>
+        <deityPlural>Good Daedra</deityPlural>
+        <place>tribal camp</place>
+      </li>
+    </symbolPacks>
+    <ritualPatterns>
+      <li>
+        <keyword>ancestor</keyword>
+        <duties>
+          <li>Wise woman</li>
+          <li>Farseer</li>
+        </duties>
+      </li>
+    </ritualPatterns>
+    <deityCountRange>3~5</deityCountRange>
+    <deityNameMaker>DaedraDeityNames</deityNameMaker>
+    <allowSymbolsFromDeity>true</allowSymbolsFromDeity>
+    <fixedDeityNameTypes>
+      <li>Azura</li>
+      <li>Boethiah</li>
+      <li>Mephala</li>
+    </fixedDeityNameTypes>
+  </MemeDef>
+
+  <!-- Great House Ancestor Worship - Formal House-based Ancestor Veneration -->
+  <MemeDef>
+    <defName>GreatHouseAncestorWorship</defName>
+    <label>house ancestor worship</label>
+    <description>The formal ancestor veneration practiced by the Great Houses of Morrowind, honoring the noble lineages and founding fathers of each House. This tradition emphasizes bloodline, honor, and the continuation of House prestige through generations.</description>
+    <iconPath>UI/Memes/GreatHouseWorship</iconPath>
+    <impact>1</impact>
+    <category>Structure</category>
+    <exclusionTags>
+      <li>Structure_Individualist</li>
+    </exclusionTags>
+    <generalRules>
+      <rulesStrings>
+        <li>rule->uphold House honor and tradition</li>
+        <li>rule->venerate noble bloodlines</li>
+        <li>rule->preserve family legacy</li>
+        <li>rule->maintain hierarchical order</li>
+      </rulesStrings>
+    </generalRules>
+    <worshipRoomLabel>ancestral hall</worshipRoomLabel>
+    <symbolPacks>
+      <li>
+        <ideoName>Great House Tradition</ideoName>
+        <theme>GreatHouse</theme>
+        <adjective>noble</adjective>
+        <member>house retainer</member>
+        <deity>house ancestors</deity>
+        <deityPlural>noble ancestors</deityPlural>
+        <place>great house</place>
+      </li>
+    </symbolPacks>
+    <ritualPatterns>
+      <li>
+        <keyword>house</keyword>
+        <duties>
+          <li>House priest</li>
+          <li>Genealogist</li>
+        </duties>
+      </li>
+    </ritualPatterns>
+    <deityCountRange>1~3</deityCountRange>
+    <deityNameMaker>HouseAncestorNames</deityNameMaker>
+  </MemeDef>
+</Defs>

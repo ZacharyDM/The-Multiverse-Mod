@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Tribunal Temple Deity Names -->
+  <RulePackDef>
+    <defName>TribunalDeityNames</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[TribunalGodName]</li>
+        
+        <li>TribunalGodName->Almalexia</li>
+        <li>TribunalGodName->Sotha Sil</li>
+        <li>TribunalGodName->Vivec</li>
+        <li>TribunalGodName->The Healing Mother</li>
+        <li>TribunalGodName->The Clockwork God</li>
+        <li>TribunalGodName->The Poet-Warrior</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <!-- House Dagoth Deity Names -->
+  <RulePackDef>
+    <defName>DagothDeityNames</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[DagothGodName]</li>
+        
+        <li>DagothGodName->Dagoth Ur</li>
+        <li>DagothGodName->The Sharmat</li>
+        <li>DagothGodName->The Dreamer</li>
+        <li>DagothGodName->Lord of the Sixth House</li>
+        <li>DagothGodName->The Dwemer's Bane</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <!-- Daedra Deity Names for Ashlanders -->
+  <RulePackDef>
+    <defName>DaedraDeityNames</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[DaedraGodName]</li>
+        
+        <li>DaedraGodName->Azura</li>
+        <li>DaedraGodName->Boethiah</li>
+        <li>DaedraGodName->Mephala</li>
+        <li>DaedraGodName->Dusk and Dawn</li>
+        <li>DaedraGodName->Prince of Plots</li>
+        <li>DaedraGodName->The Webspinner</li>
+        <li>DaedraGodName->Anticipation of Sotha Sil</li>
+        <li>DaedraGodName->Anticipation of Almalexia</li>
+        <li>DaedraGodName->Anticipation of Vivec</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <!-- Great House Ancestor Names -->
+  <RulePackDef>
+    <defName>HouseAncestorNames</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[HouseAncestorName]</li>
+        
+        <li>HouseAncestorName->Indoril Nerevar</li>
+        <li>HouseAncestorName->Saint Veloth</li>
+        <li>HouseAncestorName->House Founder</li>
+        <li>HouseAncestorName->Noble Ancestor</li>
+        <li>HouseAncestorName->House Patriarch</li>
+        <li>HouseAncestorName->House Matriarch</li>
+        <li>HouseAncestorName->First Councilor</li>
+        <li>HouseAncestorName->Elder of the House</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

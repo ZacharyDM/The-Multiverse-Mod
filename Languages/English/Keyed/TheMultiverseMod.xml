@@ -81,5 +81,56 @@
   <Apparel_CorprusBeastHide_Label>corprus beast hide</Apparel_CorprusBeastHide_Label>
   <Apparel_CorprusBeastHide_Description>Rough hide taken from a corprus creature and fashioned into crude protective wear.</Apparel_CorprusBeastHide_Description>
   
+  <!-- Dunmer Religious Memes -->
+  <Meme_TribunalWorship_Label>Tribunal Worship</Meme_TribunalWorship_Label>
+  <Meme_TribunalWorship_Description>Devotion to the Living Gods of Morrowind: Almalexia the Healing Mother, Sotha Sil the Clockwork God, and Vivec the Poet-Warrior. This faith teaches that these three former mortals achieved divinity through wisdom, struggle, and sacrifice, and now guide their people from their sacred temples.</Meme_TribunalWorship_Description>
+  
+  <Meme_CorpusCult_Label>Corpus Worship</Meme_CorpusCult_Label>
+  <Meme_CorpusCult_Description>Veneration of Dagoth Ur and the divine disease known as Corpus. Followers believe that Corpus is not a curse but a blessing that transforms the faithful into something greater than mortal flesh. They seek to spread this "gift" and serve their god-king in his underground citadel.</Meme_CorpusCult_Description>
+  
+  <Meme_AshlanderAncestorWorship_Label>Ancestor Worship</Meme_AshlanderAncestorWorship_Label>
+  <Meme_AshlanderAncestorWorship_Description>The ancient faith of the nomadic Ashlander tribes, venerating the spirits of deceased ancestors and the Good Daedra: Azura the Dusk and Dawn, Boethiah the Prince of Plots, and Mephala the Webspinner. This is the oldest religious tradition of the Dunmer people, predating the Tribunal Temple.</Meme_AshlanderAncestorWorship_Description>
+  
+  <Meme_GreatHouseAncestorWorship_Label>House Ancestor Worship</Meme_GreatHouseAncestorWorship_Label>
+  <Meme_GreatHouseAncestorWorship_Description>The formal ancestor veneration practiced by the Great Houses of Morrowind, honoring the noble lineages and founding fathers of each House. This tradition emphasizes bloodline, honor, and the continuation of House prestige through generations.</Meme_GreatHouseAncestorWorship_Description>
+
+  <!-- Dunmer Religious Precepts -->
+  <Precept_TempleFaith_Required_Label>Temple Faith</Precept_TempleFaith_Required_Label>
+  <Precept_TempleFaith_Required_Description>The faithful must venerate the Living Gods and follow Temple orthodoxy.</Precept_TempleFaith_Required_Description>
+  
+  <Precept_CorpusBlessing_Required_Label>Corpus Blessing</Precept_CorpusBlessing_Required_Label>
+  <Precept_CorpusBlessing_Required_Description>The faithful must embrace Corpus as a divine gift, not a curse.</Precept_CorpusBlessing_Required_Description>
+  
+  <Precept_AncestorWisdom_Required_Label>Ancestor Wisdom</Precept_AncestorWisdom_Required_Label>
+  <Precept_AncestorWisdom_Required_Description>The faithful must honor the ancestors and preserve ancient traditions.</Precept_AncestorWisdom_Required_Description>
+  
+  <Precept_HouseHonor_Required_Label>House Honor</Precept_HouseHonor_Required_Label>
+  <Precept_HouseHonor_Required_Description>The faithful must uphold House honor and noble traditions.</Precept_HouseHonor_Required_Description>
+
+  <!-- Dunmer Religious Thoughts -->
+  <Thought_TempleFaith_Satisfied_Label>faithful to the Living Gods</Thought_TempleFaith_Satisfied_Label>
+  <Thought_TempleFaith_Satisfied_Description>I have honored the Tribunal and followed Temple teachings.</Thought_TempleFaith_Satisfied_Description>
+  
+  <Thought_TempleFaith_Violated_Label>unfaithful to the Living Gods</Thought_TempleFaith_Violated_Label>
+  <Thought_TempleFaith_Violated_Description>I have failed the Tribunal and strayed from Temple orthodoxy.</Thought_TempleFaith_Violated_Description>
+  
+  <Thought_CorpusBlessing_Satisfied_Label>blessed by Corpus</Thought_CorpusBlessing_Satisfied_Label>
+  <Thought_CorpusBlessing_Satisfied_Description>I have embraced the divine gifts of Corpus transformation.</Thought_CorpusBlessing_Satisfied_Description>
+  
+  <Thought_CorpusBlessing_Violated_Label>rejected divine Corpus</Thought_CorpusBlessing_Violated_Label>
+  <Thought_CorpusBlessing_Violated_Description>I have spurned the Sharmat's gifts and denied my transformation.</Thought_CorpusBlessing_Violated_Description>
+  
+  <Thought_AncestorWisdom_Satisfied_Label>honored the ancestors</Thought_AncestorWisdom_Satisfied_Label>
+  <Thought_AncestorWisdom_Satisfied_Description>I have followed ancient traditions and respected the wisdom of those who came before.</Thought_AncestorWisdom_Satisfied_Description>
+  
+  <Thought_AncestorWisdom_Violated_Label>dishonored the ancestors</Thought_AncestorWisdom_Violated_Label>
+  <Thought_AncestorWisdom_Violated_Description>I have forgotten the old ways and abandoned traditional wisdom.</Thought_AncestorWisdom_Violated_Description>
+  
+  <Thought_HouseHonor_Satisfied_Label>upheld House honor</Thought_HouseHonor_Satisfied_Label>
+  <Thought_HouseHonor_Satisfied_Description>I have maintained the dignity and traditions of my Great House.</Thought_HouseHonor_Satisfied_Description>
+  
+  <Thought_HouseHonor_Violated_Label>shamed my House</Thought_HouseHonor_Violated_Label>
+  <Thought_HouseHonor_Violated_Description>I have brought dishonor upon my noble bloodline and ancestral legacy.</Thought_HouseHonor_Violated_Description>
+
   <!-- Add more keys for things like item names, race names, faction names, etc. -->
 </LanguageData>

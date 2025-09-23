@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Dunmer-specific Precepts for Religious Memes -->
+  
+  <!-- Tribunal Temple Precepts -->
+  <PreceptDef>
+    <defName>TempleFaith_Required</defName>
+    <label>temple faith</label>
+    <description>The faithful must venerate the Living Gods and follow Temple orthodoxy.</description>
+    <impact>Medium</impact>
+    <associatedMemes>
+      <li>TribunalWorship</li>
+    </associatedMemes>
+    <issue>Charity</issue>
+    <defaultSelectionWeight>1</defaultSelectionWeight>
+    <comps>
+      <li Class="PreceptComp_SituationalThought">
+        <thought>TempleFaith_Satisfied</thought>
+        <eventDef>CharityFulfilled</eventDef>
+      </li>
+    </comps>
+  </PreceptDef>
+
+  <!-- House Dagoth Corpus Precepts -->
+  <PreceptDef>
+    <defName>CorpusBlessing_Required</defName>
+    <label>corpus blessing</label>
+    <description>The faithful must embrace Corpus as a divine gift, not a curse.</description>
+    <impact>High</impact>
+    <associatedMemes>
+      <li>CorpusCult</li>
+    </associatedMemes>
+    <issue>Charity</issue>
+    <defaultSelectionWeight>1</defaultSelectionWeight>
+    <comps>
+      <li Class="PreceptComp_SituationalThought">
+        <thought>CorpusBlessing_Satisfied</thought>
+        <eventDef>CharityFulfilled</eventDef>
+      </li>
+    </comps>
+  </PreceptDef>
+
+  <!-- Ashlander Ancestor Precepts -->
+  <PreceptDef>
+    <defName>AncestorWisdom_Required</defName>
+    <label>ancestor wisdom</label>
+    <description>The faithful must honor the ancestors and preserve ancient traditions.</description>
+    <impact>Medium</impact>
+    <associatedMemes>
+      <li>AshlanderAncestorWorship</li>
+    </associatedMemes>
+    <issue>Charity</issue>
+    <defaultSelectionWeight>1</defaultSelectionWeight>
+    <comps>
+      <li Class="PreceptComp_SituationalThought">
+        <thought>AncestorWisdom_Satisfied</thought>
+        <eventDef>CharityFulfilled</eventDef>
+      </li>
+    </comps>
+  </PreceptDef>
+
+  <!-- Great House Ancestor Precepts -->
+  <PreceptDef>
+    <defName>HouseHonor_Required</defName>
+    <label>house honor</label>
+    <description>The faithful must uphold House honor and noble traditions.</description>
+    <impact>Medium</impact>
+    <associatedMemes>
+      <li>GreatHouseAncestorWorship</li>
+    </associatedMemes>
+    <issue>Charity</issue>
+    <defaultSelectionWeight>1</defaultSelectionWeight>
+    <comps>
+      <li Class="PreceptComp_SituationalThought">
+        <thought>HouseHonor_Satisfied</thought>
+        <eventDef>CharityFulfilled</eventDef>
+      </li>
+    </comps>
+  </PreceptDef>
+</Defs>
