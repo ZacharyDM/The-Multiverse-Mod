@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Nocturnal - Prince of Night, Luck, and Thieves -->
+  <TraitDef>
+    <defName>ChampionOfNocturnal</defName>
+    <label>Champion of Nocturnal</label>
+    <description>A champion of Nocturnal, the Daedric Prince of night and thieves. They are masters of stealth and shadow, blessed with supernatural luck in their endeavors.</description>
+    <degreeDatas>
+      <li>
+        <label>Initiate of Nocturnal</label>
+        <description>An initiate blessed by the Night Mistress, beginning to understand the power found in shadows and stealth.</description>
+        <skillGains>
+          <Shooting>2</Shooting>
+          <Melee>2</Melee>
+          <Social>1</Social>
+        </skillGains>
+        <statOffsets>
+          <MoveSpeed>1.10</MoveSpeed>
+          <ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Champion of Nocturnal</label>
+        <description>A true champion of the Ur-dra, master thief and shadow-walker blessed with exceptional fortune.</description>
+        <skillGains>
+          <Shooting>3</Shooting>
+          <Melee>3</Melee>
+          <Social>2</Social>
+          <Intellectual>1</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <MoveSpeed>1.20</MoveSpeed>
+          <ShootingAccuracyPawn>0.15</ShootingAccuracyPawn>
+          <MeleeHitChance>0.15</MeleeHitChance>
+          <TradePriceImprovement>0.15</TradePriceImprovement>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Chosen of Nocturnal</label>
+        <description>The ultimate night-walker, blessed with supernatural luck and the ability to move unseen through any shadow.</description>
+        <skillGains>
+          <Shooting>4</Shooting>
+          <Melee>4</Melee>
+          <Social>3</Social>
+          <Intellectual>2</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <MoveSpeed>1.30</MoveSpeed>
+          <ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
+          <MeleeHitChance>0.25</MeleeHitChance>
+          <TradePriceImprovement>0.25</TradePriceImprovement>
+          <MeleeDodgeChance>0.20</MeleeDodgeChance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Peryite - Prince of Pestilence, Natural Order, and Tasks -->
+  <TraitDef>
+    <defName>ChampionOfPeryite</defName>
+    <label>Champion of Peryite</label>
+    <description>A champion of Peryite, the Daedric Prince of pestilence and natural order. They understand the necessity of disease and decay in maintaining the cosmic balance.</description>
+    <degreeDatas>
+      <li>
+        <label>Initiate of Peryite</label>
+        <description>An initiate marked by the Taskmaster, beginning to understand the role of disease and order in the natural cycle.</description>
+        <skillGains>
+          <Medicine>3</Medicine>
+          <Intellectual>2</Intellectual>
+          <Animals>1</Animals>
+        </skillGains>
+        <statOffsets>
+          <ImmunityGainSpeed>1.5</ImmunityGainSpeed>
+          <ToxicSensitivity>-0.50</ToxicSensitivity>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Champion of Peryite</label>
+        <description>A true champion of the Lord of Pestilence, immune to most diseases while spreading necessary plagues to maintain balance.</description>
+        <skillGains>
+          <Medicine>4</Medicine>
+          <Intellectual>3</Intellectual>
+          <Animals>2</Animals>
+          <Social>1</Social>
+        </skillGains>
+        <statOffsets>
+          <ImmunityGainSpeed>2.0</ImmunityGainSpeed>
+          <ToxicSensitivity>-0.75</ToxicSensitivity>
+          <GlobalLearningFactor>0.15</GlobalLearningFactor>
+          <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Chosen of Peryite</label>
+        <description>The ultimate servant of ordered pestilence, capable of wielding disease as a tool of cosmic balance and natural order.</description>
+        <skillGains>
+          <Medicine>5</Medicine>
+          <Intellectual>4</Intellectual>
+          <Animals>3</Animals>
+          <Social>2</Social>
+        </skillGains>
+        <statOffsets>
+          <ImmunityGainSpeed>3.0</ImmunityGainSpeed>
+          <ToxicSensitivity>-1.0</ToxicSensitivity>
+          <GlobalLearningFactor>0.25</GlobalLearningFactor>
+          <WorkSpeedGlobal>0.25</WorkSpeedGlobal>
+          <MedicalTendQuality>0.30</MedicalTendQuality>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Sanguine - Prince of Debauchery, Hedonism, and Dark Indulgences -->
+  <TraitDef>
+    <defName>ChampionOfSanguine</defName>
+    <label>Champion of Sanguine</label>
+    <description>A champion of Sanguine, the Daedric Prince of debauchery and hedonism. They embody the pursuit of pleasure and excess, finding power through indulgence and revelry.</description>
+    <degreeDatas>
+      <li>
+        <label>Initiate of Sanguine</label>
+        <description>An initiate blessed by the Lord of Revelry, beginning to understand the power found in pleasure and excess.</description>
+        <skillGains>
+          <Social>3</Social>
+          <Artistic>2</Artistic>
+          <Cooking>1</Cooking>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.15</SocialImpact>
+          <MentalBreakThreshold>-0.10</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Champion of Sanguine</label>
+        <description>A true champion of the Prince of Pleasure, master of revels and keeper of dark festivities.</description>
+        <skillGains>
+          <Social>4</Social>
+          <Artistic>3</Artistic>
+          <Cooking>2</Cooking>
+          <Medicine>1</Medicine>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.25</SocialImpact>
+          <MentalBreakThreshold>-0.20</MentalBreakThreshold>
+          <NegotiationAbility>0.20</NegotiationAbility>
+          <JoyFallRateFactor>0.75</JoyFallRateFactor>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Chosen of Sanguine</label>
+        <description>The ultimate hedonist, capable of spreading joy and excess while finding strength through the pursuit of dark pleasures.</description>
+        <skillGains>
+          <Social>5</Social>
+          <Artistic>4</Artistic>
+          <Cooking>3</Cooking>
+          <Medicine>2</Medicine>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.40</SocialImpact>
+          <MentalBreakThreshold>-0.35</MentalBreakThreshold>
+          <NegotiationAbility>0.35</NegotiationAbility>
+          <JoyFallRateFactor>0.50</JoyFallRateFactor>
+          <TradePriceImprovement>0.20</TradePriceImprovement>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Sheogorath - Prince of Madness, Creativity, and Art -->
+  <TraitDef>
+    <defName>ChampionOfSheogorath</defName>
+    <label>Champion of Sheogorath</label>
+    <description>A champion of Sheogorath, the Daedric Prince of madness. They possess a unique form of wisdom born from insanity, seeing patterns and possibilities others cannot comprehend.</description>
+    <degreeDatas>
+      <li>
+        <label>Initiate of Sheogorath</label>
+        <description>An initiate touched by the Mad God's genius, beginning to see the world through the lens of divine madness.</description>
+        <skillGains>
+          <Artistic>3</Artistic>
+          <Intellectual>2</Intellectual>
+          <Social>2</Social>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.30</PsychicSensitivity>
+          <MentalBreakThreshold>-0.25</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Champion of Sheogorath</label>
+        <description>A true champion of the Madgod, blessed with creative genius that borders on the incomprehensible.</description>
+        <skillGains>
+          <Artistic>4</Artistic>
+          <Intellectual>3</Intellectual>
+          <Social>3</Social>
+          <Crafting>2</Crafting>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.50</PsychicSensitivity>
+          <MentalBreakThreshold>-0.50</MentalBreakThreshold>
+          <GlobalLearningFactor>0.20</GlobalLearningFactor>
+          <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Chosen of Sheogorath</label>
+        <description>The ultimate mad genius, capable of channeling divine insanity into works of impossible creativity and insight.</description>
+        <skillGains>
+          <Artistic>5</Artistic>
+          <Intellectual>4</Intellectual>
+          <Social>4</Social>
+          <Crafting>3</Crafting>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.75</PsychicSensitivity>
+          <MentalBreakThreshold>-0.75</MentalBreakThreshold>
+          <GlobalLearningFactor>0.35</GlobalLearningFactor>
+          <WorkSpeedGlobal>0.30</WorkSpeedGlobal>
+          <SocialImpact>0.25</SocialImpact>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Vaermina - Prince of Dreams, Nightmares, and Psychological Torture -->
+  <TraitDef>
+    <defName>ChampionOfVaermina</defName>
+    <label>Champion of Vaermina</label>
+    <description>A champion of Vaermina, the Daedric Prince of dreams and nightmares. They are masters of the sleeping mind, capable of entering and manipulating the realm of dreams.</description>
+    <degreeDatas>
+      <li>
+        <label>Initiate of Vaermina</label>
+        <description>An initiate touched by the Dreamweaver, beginning to understand the power found within the sleeping mind.</description>
+        <skillGains>
+          <Intellectual>2</Intellectual>
+          <Social>2</Social>
+          <Medicine>2</Medicine>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.25</PsychicSensitivity>
+          <RestFallRateFactor>0.85</RestFallRateFactor>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Champion of Vaermina</label>
+        <description>A true champion of the Weaver of Dreams, capable of walking between the world of sleep and waking reality.</description>
+        <skillGains>
+          <Intellectual>3</Intellectual>
+          <Social>3</Social>
+          <Medicine>3</Medicine>
+          <Artistic>1</Artistic>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.40</PsychicSensitivity>
+          <RestFallRateFactor>0.70</RestFallRateFactor>
+          <GlobalLearningFactor>0.15</GlobalLearningFactor>
+          <SocialImpact>0.15</SocialImpact>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Chosen of Vaermina</label>
+        <description>The ultimate dreamwalker, capable of reshaping the very fabric of sleep and nightmare to serve their dark purposes.</description>
+        <skillGains>
+          <Intellectual>4</Intellectual>
+          <Social>4</Social>
+          <Medicine>4</Medicine>
+          <Artistic>2</Artistic>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.60</PsychicSensitivity>
+          <RestFallRateFactor>0.50</RestFallRateFactor>
+          <GlobalLearningFactor>0.25</GlobalLearningFactor>
+          <SocialImpact>0.25</SocialImpact>
+          <MentalBreakThreshold>0.30</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Dragonborn - The Dragon-Blooded -->
+  <TraitDef>
+    <defName>Dragonborn</defName>
+    <label>Dragonborn</label>
+    <description>Blessed with the soul of a dragon, they possess the innate ability to learn and understand the Thu'um - the ancient draconic language of power. This rare gift marks them as a legendary figure destined for greatness.</description>
+    <degreeDatas>
+      <li>
+        <label>Dragonborn</label>
+        <description>Born with the soul of a dragon, capable of absorbing knowledge and power at an accelerated rate. Their voice carries supernatural authority.</description>
+        <skillGains>
+          <Intellectual>3</Intellectual>
+          <Social>3</Social>
+          <Melee>2</Melee>
+          <Shooting>2</Shooting>
+        </skillGains>
+        <statOffsets>
+          <GlobalLearningFactor>0.25</GlobalLearningFactor>
+          <SocialImpact>0.20</SocialImpact>
+          <NegotiationAbility>0.20</NegotiationAbility>
+          <MentalBreakThreshold>0.20</MentalBreakThreshold>
+          <PsychicSensitivity>0.30</PsychicSensitivity>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Thu'um Master</label>
+        <description>A master of the Voice, capable of wielding the Thu'um with devastating effect. Their draconic soul grants them incredible power and presence.</description>
+        <skillGains>
+          <Intellectual>4</Intellectual>
+          <Social>4</Social>
+          <Melee>3</Melee>
+          <Shooting>3</Shooting>
+          <Medicine>2</Medicine>
+        </skillGains>
+        <statOffsets>
+          <GlobalLearningFactor>0.40</GlobalLearningFactor>
+          <SocialImpact>0.35</SocialImpact>
+          <NegotiationAbility>0.35</NegotiationAbility>
+          <MentalBreakThreshold>0.35</MentalBreakThreshold>
+          <PsychicSensitivity>0.50</PsychicSensitivity>
+          <MeleeDamageRandomFactor>0.20</MeleeDamageRandomFactor>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Legendary Dragonborn</label>
+        <description>A legendary Dragonborn whose Thu'um can shake the very foundations of reality. They command respect from dragons and mortals alike.</description>
+        <skillGains>
+          <Intellectual>5</Intellectual>
+          <Social>5</Social>
+          <Melee>4</Melee>
+          <Shooting>4</Shooting>
+          <Medicine>3</Medicine>
+          <Artistic>2</Artistic>
+        </skillGains>
+        <statOffsets>
+          <GlobalLearningFactor>0.60</GlobalLearningFactor>
+          <SocialImpact>0.50</SocialImpact>
+          <NegotiationAbility>0.50</NegotiationAbility>
+          <MentalBreakThreshold>0.50</MentalBreakThreshold>
+          <PsychicSensitivity>0.75</PsychicSensitivity>
+          <MeleeDamageRandomFactor>0.35</MeleeDamageRandomFactor>
+          <ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>

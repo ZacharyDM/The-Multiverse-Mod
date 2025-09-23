@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Azura's Star - Reusable Soul Gem -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>AzurasStar</defName>
+    <label>Azura's Star</label>
+    <description>Azura's Star, an artifact of the Daedric Prince Azura. This infinitely reusable soul gem appears as a brilliant star that never loses its radiance. Unlike mortal soul gems, it can be recharged indefinitely without breaking, making it one of the most prized artifacts among enchanters.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/AzurasStar</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>1</stackLimit>
+    <statBases>
+      <MarketValue>8000</MarketValue>
+      <Mass>0.3</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>15</Beauty>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Artifact</li>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(255,255,255,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Goldbrand - Boethiah's Flaming Blade -->
+  <ThingDef ParentName="MeleeWeaponUltratech">
+    <defName>Goldbrand</defName>
+    <label>Goldbrand</label>
+    <description>Goldbrand, the legendary flaming katana blessed by Boethiah. This golden blade burns with supernatural fire that never dims, cutting through armor and flesh alike while inspiring both fear and treachery in those who witness its power.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/Goldbrand</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconPath>Things/Item/Equipment/WeaponMelee/Goldbrand</uiIconPath>
+    <techLevel>Spacer</techLevel>
+    <weaponTags>
+      <li>UltratechMelee</li>
+    </weaponTags>
+    <tradeTags>
+      <li>Artifact</li>
+      <li>WeaponMelee</li>
+    </tradeTags>
+    <statBases>
+      <WorkToMake>180000</WorkToMake>
+      <MaxHitPoints>600</MaxHitPoints>
+      <Mass>2.5</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>25</Beauty>
+      <MarketValue>15000</MarketValue>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>0.15</MoveSpeed>
+      <MeleeDamageRandomFactor>0.35</MeleeDamageRandomFactor>
+      <MeleeHitChance>0.25</MeleeHitChance>
+    </equippedStatOffsets>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>28</power>
+        <cooldownTime>2.0</cooldownTime>
+        <armorPenetration>0.40</armorPenetration>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>32</power>
+        <cooldownTime>2.0</cooldownTime>
+        <armorPenetration>0.35</armorPenetration>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(255,150,0,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Masque of Clavicus Vile - Negotiation Mask -->
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>Apparel_MasqueOfClavicusVile</defName>
+    <label>Masque of Clavicus Vile</label>
+    <description>The Masque of Clavicus Vile, a horned mask that embodies the trickster nature of its creator. This artifact enhances the wearer's ability to make deals and manipulate others, though every bargain struck while wearing it carries the potential for unexpected consequences.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/MasqueOfClavicusVile/MasqueOfClavicusVile</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>75</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>ApparelNoble</li>
+    </thingCategories>
+    <statBases>
+      <WorkToMake>90000</WorkToMake>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>1.5</Mass>
+      <Flammability>0</Flammability>
+      <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.20</ArmorRating_Heat>
+      <Insulation_Cold>5</Insulation_Cold>
+      <EquipDelay>1.5</EquipDelay>
+      <MarketValue>12000</MarketValue>
+      <Beauty>20</Beauty>
+    </statBases>
+    <equippedStatOffsets>
+      <TradePriceImprovement>0.50</TradePriceImprovement>
+      <NegotiationAbility>0.60</NegotiationAbility>
+      <SocialImpact>0.40</SocialImpact>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/MasqueOfClavicusVile/MasqueOfClavicusVile</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+    </apparel>
+    <tradeTags>
+      <li>Artifact</li>
+      <li>Clothing</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>2</glowRadius>
+        <glowColor>(200,150,50,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Oghma Infinium - Book of Knowledge -->
+  <ThingDef ParentName="BookBase">
+    <defName>OghmaInfinium</defName>
+    <label>Oghma Infinium</label>
+    <description>The Oghma Infinium, Hermaeus Mora's grimoire of forbidden knowledge. This tome contains secrets that could reshape reality itself, written in an ever-shifting script that reveals different truths to each reader. Those who study it gain tremendous wisdom, but at the cost of their sanity.</description>
+    <graphicData>
+      <texPath>Things/Item/Misc/OghmaInfinium</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>1</stackLimit>
+    <statBases>
+      <MarketValue>25000</MarketValue>
+      <Mass>2.0</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>30</Beauty>
+    </statBases>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Artifact</li>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Study the Oghma Infinium</useLabel>
+        <useDuration>3600</useDuration>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_GainAbility</compClass>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>4</glowRadius>
+        <glowColor>(50,200,50,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Savior's Hide - Hircine's Armor -->
+  <ThingDef ParentName="ArmorMakeableBase">
+    <defName>Apparel_SaviorsHide</defName>
+    <label>Savior's Hide</label>
+    <description>The Savior's Hide, a cuirass blessed by Hircine himself. Made from the hide of a legendary werewolf, this armor provides exceptional protection while enhancing the wearer's natural hunting instincts and connection to the wild.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/SaviorsHide/SaviorsHide</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>100</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <statBases>
+      <WorkToMake>120000</WorkToMake>
+      <MaxHitPoints>400</MaxHitPoints>
+      <Mass>8</Mass>
+      <Flammability>0.1</Flammability>
+      <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.30</ArmorRating_Heat>
+      <Insulation_Cold>25</Insulation_Cold>
+      <Insulation_Heat>10</Insulation_Heat>
+      <EquipDelay>8</EquipDelay>
+      <MarketValue>18000</MarketValue>
+      <Beauty>15</Beauty>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>0.25</MoveSpeed>
+      <ShootingAccuracyPawn>0.20</ShootingAccuracyPawn>
+      <CarryingCapacity>30</CarryingCapacity>
+      <ImmunityGainSpeed>2.0</ImmunityGainSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/SaviorsHide/SaviorsHide</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+    </apparel>
+    <tradeTags>
+      <li>Artifact</li>
+      <li>Clothing</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>2</glowRadius>
+        <glowColor>(150,100,50,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Volendrung - Malacath's Hammer -->
+  <ThingDef ParentName="MeleeWeaponUltratech">
+    <defName>Volendrung</defName>
+    <label>Volendrung</label>
+    <description>Volendrung, the legendary warhammer of Malacath. This massive Dwemer-forged weapon absorbs the magical energy of those it strikes, growing stronger with each blow. It embodies the strength and endurance of the outcast and spurned.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/Volendrung</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconPath>Things/Item/Equipment/WeaponMelee/Volendrung</uiIconPath>
+    <techLevel>Spacer</techLevel>
+    <weaponTags>
+      <li>UltratechMelee</li>
+    </weaponTags>
+    <tradeTags>
+      <li>Artifact</li>
+      <li>WeaponMelee</li>
+    </tradeTags>
+    <statBases>
+      <WorkToMake>200000</WorkToMake>
+      <MaxHitPoints>800</MaxHitPoints>
+      <Mass>6.0</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>20</Beauty>
+      <MarketValue>20000</MarketValue>
+    </statBases>
+    <equippedStatOffsets>
+      <MeleeDamageRandomFactor>0.45</MeleeDamageRandomFactor>
+      <MeleeHitChance>0.20</MeleeHitChance>
+      <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+      <PainShockThreshold>0.25</PainShockThreshold>
+    </equippedStatOffsets>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>40</power>
+        <cooldownTime>3.5</cooldownTime>
+        <armorPenetration>0.50</armorPenetration>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(100,100,255,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Mehrunes' Razor - Dagger of Instant Death -->
+  <ThingDef ParentName="MeleeWeaponUltratech">
+    <defName>MehrunesRazor</defName>
+    <label>Mehrunes' Razor</label>
+    <description>Mehrunes' Razor, the legendary dagger of the Prince of Destruction. This impossibly sharp blade can cut through any material and has the power to instantly kill even the mightiest foes, though such power comes with great risk to the wielder.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/MehrunesRazor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconPath>Things/Item/Equipment/WeaponMelee/MehrunesRazor</uiIconPath>
+    <techLevel>Spacer</techLevel>
+    <weaponTags>
+      <li>UltratechMelee</li>
+    </weaponTags>
+    <tradeTags>
+      <li>Artifact</li>
+      <li>WeaponMelee</li>
+    </tradeTags>
+    <statBases>
+      <WorkToMake>150000</WorkToMake>
+      <MaxHitPoints>400</MaxHitPoints>
+      <Mass>1.2</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>25</Beauty>
+      <MarketValue>22000</MarketValue>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>0.20</MoveSpeed>
+      <MeleeDamageRandomFactor>0.60</MeleeDamageRandomFactor>
+      <MeleeHitChance>0.30</MeleeHitChance>
+    </equippedStatOffsets>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>35</power>
+        <cooldownTime>1.8</cooldownTime>
+        <armorPenetration>0.75</armorPenetration>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>30</power>
+        <cooldownTime>1.5</cooldownTime>
+        <armorPenetration>0.70</armorPenetration>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>2</glowRadius>
+        <glowColor>(255,50,50,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>
