@@ -89,24 +89,25 @@
     </degreeDatas>
   </TraitDef>
 
-  <!-- Falmer (Betrayed) Racial Trait -->
+  <!-- Falmer (Snow Elf) Racial Trait -->
   <TraitDef>
-    <defName>FalmerAdaptation</defName>
-    <label>Falmer Adaptation</label>
-    <description>This Falmer possesses heightened senses and underground adaptation despite their blindness and corruption.</description>
+    <defName>FalmerSnowElfHeritage</defName>
+    <label>Snow Elf Heritage</label>
+    <description>This Falmer possesses the ancient heritage of the Snow Elves, with natural cold resistance, archery skills, and magical affinity.</description>
     <degreeDatas>
       <li>
-        <label>Heightened Senses</label>
-        <description>Despite blindness, this pawn has adapted with enhanced hearing and other senses, excelling in stealth and melee combat.</description>
+        <label>Ancient Legacy</label>
+        <description>Born with the proud heritage of the original Snow Elves, this pawn excels in archery, magic, and construction of their great cities.</description>
         <skillGains>
-          <Melee>4</Melee>
-          <Animals>3</Animals>
-          <Mining>2</Mining>
+          <Shooting>4</Shooting>
+          <Intellectual>3</Intellectual>
+          <Artistic>2</Artistic>
+          <Construction>2</Construction>
         </skillGains>
         <statOffsets>
-          <MeleeHitChance>0.08</MeleeHitChance>
-          <MoveSpeed>0.3</MoveSpeed>
-          <ShootingAccuracyPawn>-0.1</ShootingAccuracyPawn>
+          <ShootingAccuracyPawn>0.06</ShootingAccuracyPawn>
+          <ResearchSpeed>0.08</ResearchSpeed>
+          <PsychicSensitivity>0.12</PsychicSensitivity>
         </statOffsets>
       </li>
     </degreeDatas>

@@ -17,7 +17,7 @@ The Elder Scrolls Races expansion introduces **27 playable races** organized int
 - **Altmer** - Magical supremacists from Summerset
 - **Orsimer** - Berserker smiths from Orsinium
 - **Dwemer** - Technologically advanced Deep Elves (extinct)
-- **Falmer** - Corrupted Snow Elves adapted to underground life
+- **Falmer** - Snow Elves with mastery of ice magic and archery
 - **Ayleid** - Ancient Wild Elves, masters of magic and architecture
 - **Chimer** - Changed Folk, ancestors of the modern Dunmer
 - **Maormer** - Sea Elves from Pyandonea, skilled seafarers
@@ -113,12 +113,12 @@ The Elder Scrolls Races expansion introduces **27 playable races** organized int
 - **Special Abilities**: Enhanced research speed, improved work efficiency
 - **Lore**: The most technologically advanced race in Tamriel's history, masters of steam and metal
 
-### Falmer (Betrayed)
-- **Heritage**: Snow Elves transformed by Dwemer experiments
-- **Key Traits**: Heightened senses despite blindness, underground adaptation
-- **Skill Bonuses**: Melee +4, Animals +3, Mining +2
-- **Special Abilities**: Enhanced melee accuracy and movement, reduced shooting accuracy
-- **Lore**: Once proud Snow Elves, now twisted and adapted to subterranean life
+### Falmer (Snow Elf)
+- **Heritage**: Original Snow Elves who ruled ancient Skyrim
+- **Key Traits**: Cold resistance, archery mastery, magical affinity
+- **Skill Bonuses**: Shooting +4, Intellectual +3, Artistic +2, Construction +2
+- **Special Abilities**: Enhanced shooting accuracy, increased research speed and psychic sensitivity
+- **Lore**: Once proud rulers of Skyrim, the Snow Elves built magnificent cities and mastered ice magic
 
 ### Ayleid (Wild Elf)
 - **Heritage**: Ancient elves who ruled Cyrodiil before the rise of men
@@ -346,16 +346,16 @@ Additional textures may be needed for:
 - Rich lore background for each race spanning all of Elder Scrolls history
 - Distinct cultural characteristics reflected in gameplay mechanics
 - Supports incredibly varied colony compositions and strategies
-- Enables recreation of historical scenarios (Dwemer expeditions, Falmer survivors)
+- Enables recreation of historical scenarios (Dwemer expeditions, ancient Snow Elf kingdoms)
 - Ancient and extinct races provide unique narrative opportunities
 - Monstrous races challenge traditional settlement dynamics
 
 ### Gameplay Variety
 - **Combat Specialists**: Ka Po' Tun, Giants, Ogres for warrior colonies
-- **Magical Focus**: Altmer, Aldmer, Sload for research-heavy playthroughs  
+- **Magical Focus**: Altmer, Aldmer, Sload, Falmer for research-heavy playthroughs  
 - **Stealth/Agility**: Lilmothiit, Tang Mo, Goblins for nimble operations
 - **Trade/Social**: Imperials, Maormer, Lamia for diplomatic settlements
-- **Survival/Adaptation**: Falmer, Dreugh, Argonians for harsh environments
+- **Survival/Adaptation**: Dreugh, Argonians for harsh environments
 - **Crafting Masters**: Dwemer, Orsimer for industrial colonies
 
 This massive expansion transforms the Elder Scrolls experience within RimWorld by providing unprecedented racial diversity with authentic lore-based characteristics and meaningful gameplay differences across 27 distinct races.

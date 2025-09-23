@@ -181,39 +181,38 @@
   <ThingDef ParentName="MerBase">
     <defName>Falmer</defName>
     <label>falmer</label>
-    <description>The Betrayed, once Snow Elves, the Falmer were transformed by the Dwemer into twisted, blind creatures. They possess heightened senses and are naturally adapted to underground environments.</description>
+    <description>The Snow Elves, also known as Falmer, were once a proud and sophisticated elven civilization that ruled Skyrim before the arrival of the Nords. They are naturally adapted to cold environments and possess mastery over ice magic and archery.</description>
     <race>
-      <!-- Falmer have pale, sickly skin tones -->
+      <!-- Falmer have pale, pristine skin tones -->
       <colorGenerator Class="ColorGenerator_Options">
         <options>
           <li>
             <weight>50</weight>
-            <only>(0.8, 0.8, 0.9, 1)</only> <!-- Pale blue-white -->
+            <only>(0.95, 0.95, 1.0, 1)</only> <!-- Pure pale white -->
           </li>
           <li>
             <weight>30</weight>
-            <only>(0.75, 0.75, 0.85, 1)</only> <!-- Pale -->
+            <only>(0.9, 0.9, 0.98, 1)</only> <!-- Pale blue-white -->
           </li>
           <li>
             <weight>20</weight>
-            <only>(0.7, 0.7, 0.8, 1)</only> <!-- Greyish pale -->
+            <only>(0.92, 0.92, 0.95, 1)</only> <!-- Ivory white -->
           </li>
         </options>
       </colorGenerator>
-      <baseBodySize>0.9</baseBodySize>
-      <healthScale>0.85</healthScale>
+      <baseBodySize>1.05</baseBodySize>
       <forcedTraits>
-        <li>FalmerAdaptation</li>
+        <li>FalmerSnowElfHeritage</li>
       </forcedTraits>
-      <lifeExpectancy>150</lifeExpectancy>
+      <lifeExpectancy>200</lifeExpectancy>
     </race>
     <statBases>
-      <MoveSpeed>4.7</MoveSpeed>
-      <MarketValue>2800</MarketValue>
-      <ShootingAccuracyPawn>-0.02</ShootingAccuracyPawn>
-      <MeleeHitChance>0.06</MeleeHitChance>
-      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
-      <ComfyTemperatureMax>25</ComfyTemperatureMax>
+      <MoveSpeed>4.4</MoveSpeed>
+      <MarketValue>3400</MarketValue>
+      <ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+      <MeleeHitChance>0.03</MeleeHitChance>
+      <ComfyTemperatureMin>-25</ComfyTemperatureMin>
+      <ComfyTemperatureMax>30</ComfyTemperatureMax>
     </statBases>
     <graphicData>
       <texPath>UI/Icons/ThingCategories/Falmer</texPath>

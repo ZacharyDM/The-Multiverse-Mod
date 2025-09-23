@@ -170,7 +170,7 @@
     <label>Falmer</label>
     <race>Falmer</race>
     <defaultFactionType>PlayerColony</defaultFactionType>
-    <combatPower>85</combatPower>
+    <combatPower>75</combatPower>
     <backstoryCategories>
       <li>Civil</li>
       <li>Tribal</li>
@@ -179,27 +179,31 @@
     <inventoryOptions>
       <li>
         <thingDef>MealSimple</thingDef>
-        <count>2</count>
+        <count>3</count>
       </li>
     </inventoryOptions>
-    <itemQuality>Poor</itemQuality>
+    <itemQuality>Good</itemQuality>
     <forcedTraits>
-      <li>FalmerAdaptation</li>
+      <li>FalmerSnowElfHeritage</li>
     </forcedTraits>
     <allowedWorkTypes>
       <li>All</li>
     </allowedWorkTypes>
     <skills>
       <li>
-        <skill>Melee</skill>
+        <skill>Shooting</skill>
         <level>6</level>
       </li>
       <li>
-        <skill>Animals</skill>
+        <skill>Intellectual</skill>
         <level>4</level>
       </li>
       <li>
-        <skill>Mining</skill>
+        <skill>Artistic</skill>
+        <level>3</level>
+      </li>
+      <li>
+        <skill>Construction</skill>
         <level>3</level>
       </li>
     </skills>
