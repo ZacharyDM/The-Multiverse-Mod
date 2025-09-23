@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Khajiit Racial Trait -->
+  <TraitDef>
+    <defName>KhajiitNaturalAgility</defName>
+    <label>Khajiit Natural Agility</label>
+    <description>This Khajiit possesses the natural agility and stealth of their feline heritage, along with keen night vision and nimble fingers.</description>
+    <degreeDatas>
+      <li>
+        <label>Feline Grace</label>
+        <description>Born with the natural agility of the cat-folk, this pawn excels in stealth, movement, and fine manipulation.</description>
+        <skillGains>
+          <Animals>2</Animals>
+          <Melee>2</Melee>
+          <Crafting>1</Crafting>
+          <Medicine>1</Medicine>
+        </skillGains>
+        <statOffsets>
+          <MoveSpeed>0.3</MoveSpeed>
+          <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Argonian Racial Trait -->
+  <TraitDef>
+    <defName>ArgonianAdaptation</defName>
+    <label>Argonian Adaptation</label>
+    <description>This Argonian possesses the natural adaptations of the lizard-folk, including resistance to disease and superior swimming abilities.</description>
+    <degreeDatas>
+      <li>
+        <label>Hist-Born</label>
+        <description>Born under the blessing of the Hist, this pawn has enhanced resistance to disease and natural healing abilities.</description>
+        <skillGains>
+          <Medicine>3</Medicine>
+          <Animals>2</Animals>
+          <Plants>1</Plants>
+        </skillGains>
+        <statOffsets>
+          <ImmunityGainSpeed>0.15</ImmunityGainSpeed>
+          <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Breton Racial Trait -->
+  <TraitDef>
+    <defName>BretonMagicResistance</defName>
+    <label>Breton Magic Resistance</label>
+    <description>This Breton possesses the natural magic resistance and intellect of their mixed elven-human heritage.</description>
+    <degreeDatas>
+      <li>
+        <label>Dragonskin</label>
+        <description>Born with natural magic resistance and enhanced intellect from their mixed heritage.</description>
+        <skillGains>
+          <Intellectual>3</Intellectual>
+          <Medicine>2</Medicine>
+          <Social>1</Social>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>-0.2</PsychicSensitivity>
+          <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Nord Racial Trait -->
+  <TraitDef>
+    <defName>NordResilience</defName>
+    <label>Nord Resilience</label>
+    <description>This Nord possesses the natural hardiness and combat prowess of the northern warriors of Skyrim.</description>
+    <degreeDatas>
+      <li>
+        <label>Nordic Steel</label>
+        <description>Born in the harsh lands of Skyrim, this pawn has enhanced cold resistance and natural combat abilities.</description>
+        <skillGains>
+          <Melee>3</Melee>
+          <Construction>2</Construction>
+          <Mining>1</Mining>
+        </skillGains>
+        <statOffsets>
+          <ComfyTemperatureMin>-15</ComfyTemperatureMin>
+          <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Redguard Racial Trait -->
+  <TraitDef>
+    <defName>RedguardWarriorSpirit</defName>
+    <label>Redguard Warrior Spirit</label>
+    <description>This Redguard possesses the natural warrior traditions and desert adaptations of Hammerfell.</description>
+    <degreeDatas>
+      <li>
+        <label>Sword-Singer</label>
+        <description>Born with the warrior traditions of Hammerfell, this pawn excels in combat and desert survival.</description>
+        <skillGains>
+          <Melee>3</Melee>
+          <Shooting>2</Shooting>
+          <Mining>1</Mining>
+        </skillGains>
+        <statOffsets>
+          <ComfyTemperatureMax>10</ComfyTemperatureMax>
+          <MeleeHitChance>0.02</MeleeHitChance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Imperial Racial Trait -->
+  <TraitDef>
+    <defName>ImperialDiplomacy</defName>
+    <label>Imperial Diplomacy</label>
+    <description>This Imperial possesses the natural leadership and diplomatic skills that built the Empire.</description>
+    <degreeDatas>
+      <li>
+        <label>Voice of the Emperor</label>
+        <description>Born with the diplomatic traditions of Cyrodiil, this pawn excels in social situations and leadership.</description>
+        <skillGains>
+          <Social>3</Social>
+          <Intellectual>2</Intellectual>
+          <Artistic>1</Artistic>
+        </skillGains>
+        <statOffsets>
+          <TradePriceImprovement>0.08</TradePriceImprovement>
+          <NegotiationAbility>0.1</NegotiationAbility>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>

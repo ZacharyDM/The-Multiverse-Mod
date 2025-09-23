@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <ThingDef ParentName="HumanBase">
+    <defName>Breton</defName>
+    <label>breton</label>
+    <description>A human race from High Rock, the Bretons are known for their natural resistance to magic and their mixed elven-human heritage. They excel in intellectual pursuits and magical studies.</description>
+    <race>
+      <!-- Bretons have slightly greyish skin tone -->
+      <colorGenerator Class="ColorGenerator_Single">
+        <color>(0.9, 0.85, 0.8, 1)</color>
+      </colorGenerator>
+      <forcedTraits>
+        <li>BretonMagicResistance</li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MoveSpeed>4.5</MoveSpeed>
+      <MarketValue>3000</MarketValue>
+      <ShootingAccuracyPawn>0.03</ShootingAccuracyPawn>
+      <MeleeHitChance>0.03</MeleeHitChance>
+      <ComfyTemperatureMin>-12</ComfyTemperatureMin>
+      <ComfyTemperatureMax>32</ComfyTemperatureMax>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/Breton</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="HumanBase">
+    <defName>Nord</defName>
+    <label>nord</label>
+    <description>The tall, fair-haired humans of Skyrim are known for their resistance to cold, prowess with weapons, and fierce independence. They are natural warriors and builders.</description>
+    <race>
+      <!-- Nords have fair skin -->
+      <colorGenerator Class="ColorGenerator_Single">
+        <color>(0.95, 0.9, 0.85, 1)</color>
+      </colorGenerator>
+      <baseBodySize>1.05</baseBodySize>
+      <healthScale>1.1</healthScale>
+      <forcedTraits>
+        <li>NordResilience</li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MoveSpeed>4.4</MoveSpeed>
+      <MarketValue>2900</MarketValue>
+      <ShootingAccuracyPawn>0.02</ShootingAccuracyPawn>
+      <MeleeHitChance>0.05</MeleeHitChance>
+      <ComfyTemperatureMin>-25</ComfyTemperatureMin>
+      <ComfyTemperatureMax>30</ComfyTemperatureMax>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/Nord</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="HumanBase">
+    <defName>Redguard</defName>
+    <label>redguard</label>
+    <description>The most naturally talented warriors in Tamriel, the dark-skinned Redguards of Hammerfell possess a natural affinity for combat and have adapted to the harsh desert conditions.</description>
+    <race>
+      <!-- Redguards have dark skin -->
+      <colorGenerator Class="ColorGenerator_Single">
+        <color>(0.4, 0.3, 0.25, 1)</color>
+      </colorGenerator>
+      <forcedTraits>
+        <li>RedguardWarriorSpirit</li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MoveSpeed>4.7</MoveSpeed>
+      <MarketValue>3100</MarketValue>
+      <ShootingAccuracyPawn>0.04</ShootingAccuracyPawn>
+      <MeleeHitChance>0.06</MeleeHitChance>
+      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+      <ComfyTemperatureMax>50</ComfyTemperatureMax>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/Redguard</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="HumanBase">
+    <defName>Imperial</defName>
+    <label>imperial</label>
+    <description>The natives of Cyrodiil are well-educated, diplomatic, and disciplined. Known for their natural leadership abilities and the charm that helped them build an empire.</description>
+    <race>
+      <!-- Imperials have olive skin -->
+      <colorGenerator Class="ColorGenerator_Single">
+        <color>(0.8, 0.7, 0.6, 1)</color>
+      </colorGenerator>
+      <forcedTraits>
+        <li>ImperialDiplomacy</li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MoveSpeed>4.6</MoveSpeed>
+      <MarketValue>3200</MarketValue>
+      <ShootingAccuracyPawn>0.03</ShootingAccuracyPawn>
+      <MeleeHitChance>0.04</MeleeHitChance>
+      <ComfyTemperatureMin>-15</ComfyTemperatureMin>
+      <ComfyTemperatureMax>40</ComfyTemperatureMax>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/Imperial</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+</ThingDefs>

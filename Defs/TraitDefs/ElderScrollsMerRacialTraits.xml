@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Bosmer (Wood Elf) Racial Trait -->
+  <TraitDef>
+    <defName>BosmerForestWisdom</defName>
+    <label>Bosmer Forest Wisdom</label>
+    <description>This Bosmer possesses the natural archery skills and forest knowledge of the Wood Elves of Valenwood.</description>
+    <degreeDatas>
+      <li>
+        <label>Green Pact</label>
+        <description>Born in the forests of Valenwood, this pawn has exceptional archery skills and plant knowledge.</description>
+        <skillGains>
+          <Shooting>4</Shooting>
+          <Animals>2</Animals>
+          <Plants>2</Plants>
+        </skillGains>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+          <MoveSpeed>0.2</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Altmer (High Elf) Racial Trait -->
+  <TraitDef>
+    <defName>AltmerMagicalAffinity</defName>
+    <label>Altmer Magical Affinity</label>
+    <description>This Altmer possesses the enhanced magical abilities and intellectual superiority of the High Elves of Summerset.</description>
+    <degreeDatas>
+      <li>
+        <label>Highborn</label>
+        <description>Born with the magical superiority of the Summerset Isles, this pawn excels in intellectual and artistic pursuits.</description>
+        <skillGains>
+          <Intellectual>4</Intellectual>
+          <Artistic>2</Artistic>
+          <Crafting>1</Crafting>
+        </skillGains>
+        <statOffsets>
+          <ResearchSpeed>0.1</ResearchSpeed>
+          <PsychicSensitivity>0.15</PsychicSensitivity>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Orsimer (Orc) Racial Trait -->
+  <TraitDef>
+    <defName>OrsimerFerocity</defName>
+    <label>Orsimer Ferocity</label>
+    <description>This Orsimer possesses the natural strength and smithing abilities of the Orc strongholds.</description>
+    <degreeDatas>
+      <li>
+        <label>Berserker Rage</label>
+        <description>Born with the fierce strength of the Orsimer, this pawn excels in combat and metalworking.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Crafting>3</Crafting>
+          <Mining>2</Mining>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageAmount>0.15</MeleeDamageAmount>
+          <WorkSpeedGlobal>0.08</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>
