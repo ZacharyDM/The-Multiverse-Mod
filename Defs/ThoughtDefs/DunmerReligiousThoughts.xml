@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Thoughts related to Dunmer Religious Precepts -->
+  
+  <!-- Tribunal Temple Thoughts -->
+  <ThoughtDef>
+    <defName>TempleFaith_Satisfied</defName>
+    <durationDays>4</durationDays>
+    <stages>
+      <li>
+        <label>faithful to the Living Gods</label>
+        <description>I have honored the Tribunal and followed Temple teachings.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>TempleFaith_Violated</defName>
+    <durationDays>6</durationDays>
+    <stages>
+      <li>
+        <label>unfaithful to the Living Gods</label>
+        <description>I have failed the Tribunal and strayed from Temple orthodoxy.</description>
+        <baseMoodEffect>-12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- House Dagoth Corpus Thoughts -->
+  <ThoughtDef>
+    <defName>CorpusBlessing_Satisfied</defName>
+    <durationDays>4</durationDays>
+    <stages>
+      <li>
+        <label>blessed by Corpus</label>
+        <description>I have embraced the divine gifts of Corpus transformation.</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>CorpusBlessing_Violated</defName>
+    <durationDays>8</durationDays>
+    <stages>
+      <li>
+        <label>rejected divine Corpus</label>
+        <description>I have spurned the Sharmat's gifts and denied my transformation.</description>
+        <baseMoodEffect>-15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Ashlander Ancestor Thoughts -->
+  <ThoughtDef>
+    <defName>AncestorWisdom_Satisfied</defName>
+    <durationDays>5</durationDays>
+    <stages>
+      <li>
+        <label>honored the ancestors</label>
+        <description>I have followed ancient traditions and respected the wisdom of those who came before.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>AncestorWisdom_Violated</defName>
+    <durationDays>7</durationDays>
+    <stages>
+      <li>
+        <label>dishonored the ancestors</label>
+        <description>I have forgotten the old ways and abandoned traditional wisdom.</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Great House Honor Thoughts -->
+  <ThoughtDef>
+    <defName>HouseHonor_Satisfied</defName>
+    <durationDays>4</durationDays>
+    <stages>
+      <li>
+        <label>upheld House honor</label>
+        <description>I have maintained the dignity and traditions of my Great House.</description>
+        <baseMoodEffect>7</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>HouseHonor_Violated</defName>
+    <durationDays>6</durationDays>
+    <stages>
+      <li>
+        <label>shamed my House</label>
+        <description>I have brought dishonor upon my noble bloodline and ancestral legacy.</description>
+        <baseMoodEffect>-11</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>
