@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Thu'um System - Dragon Shouts from Skyrim -->
+  <TraitDef>
+    <defName>ThuumMastery</defName>
+    <label>Thu'um Mastery</label>
+    <description>The ancient art of the Thu'um, or Dragon Shouts - a form of magic that harnesses the power of the dragon language. Those who master the Thu'um can speak in the dragon tongue and bend reality to their will.</description>
+    <degreeDatas>
+      <li>
+        <degree>0</degree>
+        <label>Thu'um Apprentice</label>
+        <description>A novice in the ancient art of the Thu'um. Has learned the basics of dragon speech and can perform simple shouts with limited power.</description>
+        <skillGains>
+          <Intellectual>2</Intellectual>
+          <Social>1</Social>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.1</SocialImpact>
+          <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+      <li>
+        <degree>1</degree>
+        <label>Thu'um Adept</label>
+        <description>An experienced practitioner of the Thu'um who has learned multiple shouts and can channel greater power through their voice. Their understanding of the dragon language grows deeper.</description>
+        <skillGains>
+          <Intellectual>4</Intellectual>
+          <Social>2</Social>
+          <Melee>1</Melee>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.15</SocialImpact>
+          <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+          <PsychicSensitivity>0.1</PsychicSensitivity>
+        </statOffsets>
+      </li>
+      <li>
+        <degree>2</degree>
+        <label>Thu'um Master</label>
+        <description>A master of the Thu'um whose voice carries the power of dragons. They have learned many shouts and can speak them with devastating effectiveness, their very words reshaping reality.</description>
+        <skillGains>
+          <Intellectual>6</Intellectual>
+          <Social>4</Social>
+          <Melee>2</Melee>
+          <Shooting>2</Shooting>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.2</SocialImpact>
+          <MentalBreakThreshold>-0.15</MentalBreakThreshold>
+          <PsychicSensitivity>0.2</PsychicSensitivity>
+          <GlobalLearningFactor>0.1</GlobalLearningFactor>
+        </statOffsets>
+      </li>
+      <li>
+        <degree>3</degree>
+        <label>Draconic Voice</label>
+        <description>One whose mastery of the Thu'um approaches that of the ancient dragons themselves. Their voice resonates with draconic power, capable of earth-shaking shouts that can change the course of battle and bend the world to their will.</description>
+        <skillGains>
+          <Intellectual>8</Intellectual>
+          <Social>6</Social>
+          <Melee>3</Melee>
+          <Shooting>3</Shooting>
+          <Medicine>2</Medicine>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.3</SocialImpact>
+          <MentalBreakThreshold>-0.2</MentalBreakThreshold>
+          <PsychicSensitivity>0.3</PsychicSensitivity>
+          <GlobalLearningFactor>0.2</GlobalLearningFactor>
+          <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>

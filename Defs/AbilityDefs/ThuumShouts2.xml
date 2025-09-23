@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Tiid Klo Ul - Slow Time -->
+  <AbilityDef>
+    <defName>ThuumSlowTime</defName>
+    <label>slow time</label>
+    <description>Tiid Klo Ul! Shout at time, and command it to obey, as the world around you stands still. Time slows around you, allowing you to move and act with supernatural speed.</description>
+    <iconPath>UI/Icons/Abilities/SlowTime</iconPath>
+    <cooldownTicksRange>18000</cooldownTicksRange>
+    <aiCanUse>false</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>0</range>
+      <targetingSelf>true</targetingSelf>
+      <warmupTime>1.5</warmupTime>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <hediffDef>ThuumSlowTime</hediffDef>
+        <duration>240</duration>
+        <onlyOnTargets>false</onlyOnTargets>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>ThuumMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Mul Qah Diiv - Dragon Aspect -->
+  <AbilityDef>
+    <defName>ThuumDragonAspect</defName>
+    <label>dragon aspect</label>
+    <description>Mul Qah Diiv! Once a day, take on the mighty aspect of a dragon, delivering colossal blows, with an armored hide, and more powerful shouts.</description>
+    <iconPath>UI/Icons/Abilities/DragonAspect</iconPath>
+    <cooldownTicksRange>60000</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>0</range>
+      <targetingSelf>true</targetingSelf>
+      <warmupTime>2.0</warmupTime>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <hediffDef>ThuumDragonAspect</hediffDef>
+        <duration>1800</duration>
+        <onlyOnTargets>false</onlyOnTargets>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>ThuumMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Lok Vah Koor - Clear Skies -->
+  <AbilityDef>
+    <defName>ThuumClearSkies</defName>
+    <label>clear skies</label>
+    <description>Lok Vah Koor! Sky above, voice within. Changes the weather to clear skies and can dispel fog or toxic fallout in the area.</description>
+    <iconPath>UI/Icons/Abilities/ClearSkies</iconPath>
+    <cooldownTicksRange>9000</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>50</range>
+      <warmupTime>3.0</warmupTime>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityWeatherControl">
+        <radius>50</radius>
+        <duration>3600</duration>
+        <weatherType>Clear</weatherType>
+        <clearsContaminants>true</clearsContaminants>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>ThuumMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Krii Lun Aus - Marked for Death -->
+  <AbilityDef>
+    <defName>ThuumMarkedForDeath</defName>
+    <label>marked for death</label>
+    <description>Krii Lun Aus! Speak, and let your voice herald doom, as an opponent's armor and lifeforce are weakened. Curses the target, reducing their armor and health over time.</description>
+    <iconPath>UI/Icons/Abilities/MarkedForDeath</iconPath>
+    <cooldownTicksRange>7200</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>25</range>
+      <warmupTime>2.5</warmupTime>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+        <mustBeSelectable>true</mustBeSelectable>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <hediffDef>ThuumMarkedForDeath</hediffDef>
+        <duration>1800</duration>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>ThuumMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Laas Yah Nir - Life Detect -->
+  <AbilityDef>
+    <defName>ThuumLifeDetect</defName>
+    <label>aura whisper</label>
+    <description>Laas Yah Nir! Your voice is not a shout, but a whisper, revealing the life forces of any and all. Reveals all living beings in a large area around you.</description>
+    <iconPath>UI/Icons/Abilities/AuraWhisper</iconPath>
+    <cooldownTicksRange>3600</cooldownTicksRange>
+    <aiCanUse>false</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>0</range>
+      <targetingSelf>true</targetingSelf>
+      <warmupTime>1.0</warmupTime>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityRevealArea">
+        <radius>40</radius>
+        <revealDuration>600</revealDuration>
+        <onlyLiving>true</onlyLiving>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>ThuumMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Fo Krah Diin - Frost Breath -->
+  <AbilityDef>
+    <defName>ThuumFrostBreath</defName>
+    <label>frost breath</label>
+    <description>Fo Krah Diin! Your breath is winter, your Thu'um a blizzard. Exhales a cone of freezing cold that damages and slows enemies.</description>
+    <iconPath>UI/Icons/Abilities/FrostBreath</iconPath>
+    <cooldownTicksRange>4800</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>15</range>
+      <warmupTime>2.0</warmupTime>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+        <canTargetPawns>true</canTargetPawns>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityCone">
+        <damageAmount>25</damageAmount>
+        <damageType>Frostbite</damageType>
+        <range>15</range>
+        <width>4</width>
+        <slowEffect>true</slowEffect>
+        <slowDuration>300</slowDuration>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>ThuumMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Zul Mey Gut - Throw Voice -->
+  <AbilityDef>
+    <defName>ThuumThrowVoice</defName>
+    <label>throw voice</label>
+    <description>Zul Mey Gut! The Thu'um is heard, but its source unknown, fooling others into seeking you where you are not. Creates a distraction at a target location.</description>
+    <iconPath>UI/Icons/Abilities/ThrowVoice</iconPath>
+    <cooldownTicksRange>1800</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>35</range>
+      <warmupTime>1.0</warmupTime>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityDistraction">
+        <radius>8</radius>
+        <duration>300</duration>
+        <distractionStrength>High</distractionStrength>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>ThuumMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+</Defs>

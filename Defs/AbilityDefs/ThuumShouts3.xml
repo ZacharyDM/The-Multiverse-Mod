@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Gol Hah Dov - Dragonrend -->
+  <AbilityDef>
+    <defName>ThuumDragonrend</defName>
+    <label>dragonrend</label>
+    <description>Gol Hah Dov! Your voice lashes out at a dragon's very soul, forcing the beast to land and face you. Forces flying creatures to land and prevents flight for a time.</description>
+    <iconPath>UI/Icons/Abilities/Dragonrend</iconPath>
+    <cooldownTicksRange>12000</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>40</range>
+      <warmupTime>2.5</warmupTime>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+        <mustBeSelectable>true</mustBeSelectable>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <hediffDef>ThuumDragonrend</hediffDef>
+        <duration>600</duration>
+      </li>
+      <li Class="CompProperties_AbilityForceDown">
+        <forcesFlyers>true</forcesFlyers>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>ThuumMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Rii Vaaz Zol - Soul Tear -->
+  <AbilityDef>
+    <defName>ThuumSoulTear</defName>
+    <label>soul tear</label>
+    <description>Rii Vaaz Zol! Your Thu'um cuts deep into the heart of your foes. They cannot resist its power. Deals massive damage and can instantly kill weak enemies.</description>
+    <iconPath>UI/Icons/Abilities/SoulTear</iconPath>
+    <cooldownTicksRange>24000</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>30</range>
+      <warmupTime>3.0</warmupTime>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+        <mustBeSelectable>true</mustBeSelectable>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityDamage">
+        <damageAmount>80</damageAmount>
+        <damageType>Psychic</damageType>
+        <instantKillThreshold>0.3</instantKillThreshold>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>ThuumMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Strun Bah Qo - Storm Call -->
+  <AbilityDef>
+    <defName>ThuumStormCall</defName>
+    <label>storm call</label>
+    <description>Strun Bah Qo! A shout to the skies, a cry to the clouds, that awakens the destructive force of Skyrim's lightning. Summons a powerful thunderstorm.</description>
+    <iconPath>UI/Icons/Abilities/StormCall</iconPath>
+    <cooldownTicksRange>30000</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>0</range>
+      <targetingSelf>true</targetingSelf>
+      <warmupTime>5.0</warmupTime>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityWeatherControl">
+        <radius>100</radius>
+        <duration>7200</duration>
+        <weatherType>RainyThunderstorm</weatherType>
+        <lightningStrikes>true</lightningStrikes>
+        <lightningFrequency>120</lightningFrequency>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>ThuumMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Dur Neh Viir - Curse Never Dying -->
+  <AbilityDef>
+    <defName>ThuumCurseNeverDying</defName>
+    <label>curse never dying</label>
+    <description>Dur Neh Viir! Curse your enemies with undeath, so they may never find peace. Summons a spectral dragon ally that fights alongside you.</description>
+    <iconPath>UI/Icons/Abilities/CurseNeverDying</iconPath>
+    <cooldownTicksRange>36000</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>20</range>
+      <warmupTime>4.0</warmupTime>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilitySummon">
+        <summonedPawn>SpectralDragon</summonedPawn>
+        <duration>3600</duration>
+        <maxSummons>1</maxSummons>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>ThuumMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Joor Zah Frul - Mortal Flesh -->
+  <AbilityDef>
+    <defName>ThuumMortalFlesh</defName>
+    <label>mortal flesh</label>
+    <description>Joor Zah Frul! Your shout makes dragons vulnerable, stripping away their magical defenses. Removes magical protection and immunity from the target.</description>
+    <iconPath>UI/Icons/Abilities/MortalFlesh</iconPath>
+    <cooldownTicksRange>15000</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>25</range>
+      <warmupTime>2.0</warmupTime>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+        <mustBeSelectable>true</mustBeSelectable>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <hediffDef>ThuumMortalFlesh</hediffDef>
+        <duration>900</duration>
+      </li>
+      <li Class="CompProperties_AbilityDispelMagic">
+        <dispelsAllMagicEffects>true</dispelsAllMagicEffects>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>ThuumMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Hun Kaal Zoor - Summon Spectral Army -->
+  <AbilityDef>
+    <defName>ThuumCallOfValor</defName>
+    <label>call of valor</label>
+    <description>Hun Kaal Zoor! The valiant of Sovngarde hear your Voice, and journey beyond space and time to lend aid. Summons heroic warrior spirits to fight alongside you.</description>
+    <iconPath>UI/Icons/Abilities/CallOfValor</iconPath>
+    <cooldownTicksRange>48000</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>15</range>
+      <warmupTime>6.0</warmupTime>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilitySummon">
+        <summonedPawn>SpectralWarrior</summonedPawn>
+        <duration>1800</duration>
+        <maxSummons>3</maxSummons>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>ThuumMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Wah Dein Vokul - Elemental Fury -->
+  <AbilityDef>
+    <defName>ThuumElementalFury</defName>
+    <label>elemental fury</label>
+    <description>Su Grah Dun! The Thu'um imbues your arms with the speed of wind, allowing for faster weapon strikes. Greatly increases attack speed for a short time.</description>
+    <iconPath>UI/Icons/Abilities/ElementalFury</iconPath>
+    <cooldownTicksRange>9000</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>0</range>
+      <targetingSelf>true</targetingSelf>
+      <warmupTime>1.5</warmupTime>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <hediffDef>ThuumElementalFury</hediffDef>
+        <duration>300</duration>
+        <onlyOnTargets>false</onlyOnTargets>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>ThuumMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+</Defs>
