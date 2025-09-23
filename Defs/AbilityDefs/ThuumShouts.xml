@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Fus Ro Dah - Unrelenting Force -->
+  <AbilityDef>
+    <defName>ThuumUnrelentingForce</defName>
+    <label>unrelenting force</label>
+    <description>Fus Ro Dah! Your voice is raw power, pushing aside anything - or anyone - who stands in your path. A powerful shout that can knock enemies back and break through obstacles.</description>
+    <iconPath>UI/Icons/Abilities/UnrelentingForce</iconPath>
+    <cooldownTicksRange>3600</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>12</range>
+      <warmupTime>1.5</warmupTime>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetBuildings>true</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityKnockback">
+        <knockbackDistance>8</knockbackDistance>
+        <damageAmount>25</damageAmount>
+        <damageType>Blunt</damageType>
+        <affectStructures>true</affectStructures>
+      </li>
+      <li Class="CompProperties_AbilityEffect">
+        <radius>5</radius>
+        <effectDef>Explosion_Smoke</effectDef>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>ThuumMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Yol Toor Shul - Fire Breath -->
+  <AbilityDef>
+    <defName>ThuumFireBreath</defName>
+    <label>fire breath</label>
+    <description>Yol Toor Shul! Inhale air, exhale flame, and behold the power of Thu'um as inferno. Your breath becomes flame, burning everything in its path.</description>
+    <iconPath>UI/Icons/Abilities/FireBreath</iconPath>
+    <cooldownTicksRange>4800</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>15</range>
+      <warmupTime>2.0</warmupTime>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+        <canTargetPawns>true</canTargetPawns>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityFlamethrower">
+        <damageAmount>30</damageAmount>
+        <range>15</range>
+        <width>3</width>
+        <chanceToStartFire>0.8</chanceToStartFire>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>ThuumMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Iiz Slen Nus - Ice Form -->
+  <AbilityDef>
+    <defName>ThuumIceForm</defName>
+    <label>ice form</label>
+    <description>Iiz Slen Nus! Your Thu'um freezes an opponent solid. Encases the target in ice, immobilizing them and dealing frost damage over time.</description>
+    <iconPath>UI/Icons/Abilities/IceForm</iconPath>
+    <cooldownTicksRange>6000</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>20</range>
+      <warmupTime>1.8</warmupTime>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+        <mustBeSelectable>true</mustBeSelectable>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <hediffDef>ThuumIceFrozen</hediffDef>
+        <duration>300</duration>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>ThuumMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Feim Zii Gron - Become Ethereal -->
+  <AbilityDef>
+    <defName>ThuumBecomeEthereal</defName>
+    <label>become ethereal</label>
+    <description>Feim Zii Gron! The Thu'um reaches out to the Void, changing your form to one that cannot harm, or be harmed. Become incorporeal and immune to damage for a short time.</description>
+    <iconPath>UI/Icons/Abilities/BecomeEthereal</iconPath>
+    <cooldownTicksRange>12000</cooldownTicksRange>
+    <aiCanUse>false</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>0</range>
+      <targetingSelf>true</targetingSelf>
+      <warmupTime>1.0</warmupTime>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <hediffDef>ThuumEthereal</hediffDef>
+        <duration>180</duration>
+        <onlyOnTargets>false</onlyOnTargets>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>ThuumMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Wuld Nah Kest - Whirlwind Sprint -->
+  <AbilityDef>
+    <defName>ThuumWhirlwindSprint</defName>
+    <label>whirlwind sprint</label>
+    <description>Wuld Nah Kest! The Thu'um rushes forward, carrying you in its wake with the speed of a tempest. Instantly teleport a short distance in any direction.</description>
+    <iconPath>UI/Icons/Abilities/WhirlwindSprint</iconPath>
+    <cooldownTicksRange>1800</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>20</range>
+      <warmupTime>0.5</warmupTime>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityTeleport">
+        <destination>Target</destination>
+        <maxRange>20</maxRange>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>ThuumMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+</Defs>

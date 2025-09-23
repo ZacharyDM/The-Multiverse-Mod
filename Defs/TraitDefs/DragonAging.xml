@@ -9,7 +9,7 @@
       <li>
         <degree>0</degree>
         <label>Dragon</label>
-        <description>A young dragon, intelligent and powerful but still growing into their potential. Possesses natural armor, enhanced physical abilities, and basic magical understanding.</description>
+        <description>A young dragon, intelligent and powerful but still growing into their potential. Possesses natural armor, enhanced physical abilities, and basic magical understanding. Naturally gifted in the Thu'um.</description>
         <skillGains>
           <Melee>3</Melee>
           <Shooting>2</Shooting>
@@ -25,11 +25,17 @@
           <GlobalLearningFactor>0.2</GlobalLearningFactor>
           <ImmunityGainSpeed>0.3</ImmunityGainSpeed>
         </statOffsets>
+        <forcedTraits>
+          <li>
+            <def>ThuumMastery</def>
+            <degree>0</degree>
+          </li>
+        </forcedTraits>
       </li>
       <li>
         <degree>1</degree>
         <label>Blood Dragon</label>
-        <description>A maturing dragon whose scales have deepened to crimson. Blood Dragons have learned to harness their inner fire, gaining enhanced combat prowess and the ability to inspire both fear and respect.</description>
+        <description>A maturing dragon whose scales have deepened to crimson. Blood Dragons have learned to harness their inner fire, gaining enhanced combat prowess and the ability to inspire both fear and respect. Their Thu'um grows stronger.</description>
         <skillGains>
           <Melee>5</Melee>
           <Shooting>3</Shooting>
@@ -48,11 +54,17 @@
           <ImmunityGainSpeed>0.4</ImmunityGainSpeed>
           <SocialImpact>0.1</SocialImpact>
         </statOffsets>
+        <forcedTraits>
+          <li>
+            <def>ThuumMastery</def>
+            <degree>1</degree>
+          </li>
+        </forcedTraits>
       </li>
       <li>
         <degree>2</degree>
         <label>Frost Dragon</label>
-        <description>An experienced dragon whose mastery over ice and cold has transformed their very essence. Frost Dragons possess incredible resilience and the wisdom that comes with centuries of existence.</description>
+        <description>An experienced dragon whose mastery over ice and cold has transformed their very essence. Frost Dragons possess incredible resilience and the wisdom that comes with centuries of existence. Masters of the Thu'um.</description>
         <skillGains>
           <Melee>6</Melee>
           <Shooting>4</Shooting>
@@ -73,11 +85,17 @@
           <SocialImpact>0.15</SocialImpact>
           <ComfyTemperatureMin>-20</ComfyTemperatureMin>
         </statOffsets>
+        <forcedTraits>
+          <li>
+            <def>ThuumMastery</def>
+            <degree>2</degree>
+          </li>
+        </forcedTraits>
       </li>
       <li>
         <degree>3</degree>
         <label>Elder Dragon</label>
-        <description>A venerable dragon who has lived for centuries, accumulating vast knowledge and power. Elder Dragons are forces of nature, commanding respect from all intelligent beings and possessing near-legendary capabilities.</description>
+        <description>A venerable dragon who has lived for centuries, accumulating vast knowledge and power. Elder Dragons are forces of nature, commanding respect from all intelligent beings and possessing near-legendary capabilities. Their Thu'um approaches draconic perfection.</description>
         <skillGains>
           <Melee>8</Melee>
           <Shooting>6</Shooting>
@@ -100,11 +118,17 @@
           <NegotiationAbility>0.3</NegotiationAbility>
           <TradePriceImprovement>0.2</TradePriceImprovement>
         </statOffsets>
+        <forcedTraits>
+          <li>
+            <def>ThuumMastery</def>
+            <degree>3</degree>
+          </li>
+        </forcedTraits>
       </li>
       <li>
         <degree>4</degree>
         <label>Ancient Dragon</label>
-        <description>A dragon of immense age and power, having survived countless conflicts and accumulated millennia of wisdom. Ancient Dragons are living repositories of knowledge, their very presence commanding awe and terror.</description>
+        <description>A dragon of immense age and power, having survived countless conflicts and accumulated millennia of wisdom. Ancient Dragons are living repositories of knowledge, their very presence commanding awe and terror. Their Thu'um shakes the foundations of reality.</description>
         <skillGains>
           <Melee>10</Melee>
           <Shooting>8</Shooting>
@@ -129,11 +153,17 @@
           <TradePriceImprovement>0.3</TradePriceImprovement>
           <WorkSpeedGlobal>0.2</WorkSpeedGlobal>
         </statOffsets>
+        <forcedTraits>
+          <li>
+            <def>ThuumMastery</def>
+            <degree>3</degree>
+          </li>
+        </forcedTraits>
       </li>
       <li>
         <degree>5</degree>
         <label>Revered Dragon</label>
-        <description>A dragon of such ancient power that their very existence becomes the stuff of legend. Revered Dragons possess abilities that border on the divine, their wisdom spanning eras and their power reshaping the world around them.</description>
+        <description>A dragon of such ancient power that their very existence becomes the stuff of legend. Revered Dragons possess abilities that border on the divine, their wisdom spanning eras and their power reshaping the world around them. Their Thu'um commands the very forces of nature.</description>
         <skillGains>
           <Melee>12</Melee>
           <Shooting>10</Shooting>
@@ -160,11 +190,17 @@
           <WorkSpeedGlobal>0.3</WorkSpeedGlobal>
           <MentalBreakThreshold>-0.2</MentalBreakThreshold>
         </statOffsets>
+        <forcedTraits>
+          <li>
+            <def>ThuumMastery</def>
+            <degree>3</degree>
+          </li>
+        </forcedTraits>
       </li>
       <li>
         <degree>6</degree>
         <label>Legendary Dragon</label>
-        <description>The pinnacle of draconic evolution - a being of such immense power and wisdom that they transcend mortal understanding. Legendary Dragons are forces of nature incarnate, their very presence altering reality and inspiring both worship and terror. They are the stuff of myths made manifest.</description>
+        <description>The pinnacle of draconic evolution - a being of such immense power and wisdom that they transcend mortal understanding. Legendary Dragons are forces of nature incarnate, their very presence altering reality and inspiring both worship and terror. They are the stuff of myths made manifest. Their Thu'um rivals that of the ancient Dovah of legend.</description>
         <skillGains>
           <Melee>15</Melee>
           <Shooting>12</Shooting>
@@ -194,6 +230,12 @@
           <MentalBreakThreshold>-0.3</MentalBreakThreshold>
           <PsychicSensitivity>0.3</PsychicSensitivity>
         </statOffsets>
+        <forcedTraits>
+          <li>
+            <def>ThuumMastery</def>
+            <degree>3</degree>
+          </li>
+        </forcedTraits>
       </li>
     </degreeDatas>
   </TraitDef>

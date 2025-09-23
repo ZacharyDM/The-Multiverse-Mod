@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Ice Form Effect - Freezes target solid -->
+  <HediffDef>
+    <defName>ThuumIceFrozen</defName>
+    <label>frozen solid</label>
+    <description>Encased in ice by the power of Thu'um. Cannot move or act, but takes reduced damage from all sources.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.7, 0.9, 1.0)</defaultLabelColor>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>true</isBad>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <setMax>0.0</setMax>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <setMax>0.0</setMax>
+          </li>
+        </capMods>
+        <statOffsets>
+          <IncomingDamageFactor>-0.5</IncomingDamageFactor>
+        </statOffsets>
+        <hungerRateFactor>0.1</hungerRateFactor>
+        <restFallFactor>0.1</restFallFactor>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>300</disappearsAfterTicks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <!-- Become Ethereal Effect - Immune to damage but cannot interact -->
+  <HediffDef>
+    <defName>ThuumEthereal</defName>
+    <label>ethereal form</label>
+    <description>Transformed into ethereal form by Thu'um. Cannot be harmed but also cannot interact with the physical world.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 0.8, 1.0)</defaultLabelColor>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <setMax>0.0</setMax>
+          </li>
+        </capMods>
+        <statOffsets>
+          <IncomingDamageFactor>-1.0</IncomingDamageFactor>
+          <MoveSpeed>0.5</MoveSpeed>
+        </statOffsets>
+        <hungerRateFactor>0.0</hungerRateFactor>
+        <restFallFactor>0.0</restFallFactor>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>180</disappearsAfterTicks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <!-- Slow Time Effect - For Tiid Klo Ul shout -->
+  <HediffDef>
+    <defName>ThuumSlowTime</defName>
+    <label>time dilation</label>
+    <description>Time moves more slowly around you due to the power of Thu'um. You move and act much faster relative to everything else.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1.0, 1.0, 0.7)</defaultLabelColor>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <stages>
+      <li>
+        <statOffsets>
+          <MoveSpeed>1.5</MoveSpeed>
+          <WorkSpeedGlobal>2.0</WorkSpeedGlobal>
+          <MeleeHitChance>0.3</MeleeHitChance>
+          <MeleeDodgeChance>0.4</MeleeDodgeChance>
+          <ShootingAccuracyPawn>0.3</ShootingAccuracyPawn>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>240</disappearsAfterTicks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <!-- Dragon Aspect Effect - For Mul Qah Diiv shout -->
+  <HediffDef>
+    <defName>ThuumDragonAspect</defName>
+    <label>dragon aspect</label>
+    <description>The power of the dragons flows through you, enhancing all your abilities with draconic might.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1.0, 0.7, 0.2)</defaultLabelColor>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <stages>
+      <li>
+        <statOffsets>
+          <MoveSpeed>0.8</MoveSpeed>
+          <MeleeHitChance>0.2</MeleeHitChance>
+          <MeleeDodgeChance>0.2</MeleeDodgeChance>
+          <ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
+          <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+          <SocialImpact>0.3</SocialImpact>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>1800</disappearsAfterTicks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <!-- Marked for Death Effect - Weakens armor and health -->
+  <HediffDef>
+    <defName>ThuumMarkedForDeath</defName>
+    <label>marked for death</label>
+    <description>Cursed by the Thu'um. Armor and vitality drain away as death approaches inexorably.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.1, 0.1)</defaultLabelColor>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>true</isBad>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Blunt>-0.4</ArmorRating_Blunt>
+          <ArmorRating_Sharp>-0.4</ArmorRating_Sharp>
+          <ArmorRating_Heat>-0.4</ArmorRating_Heat>
+          <InjuryHealingFactor>-0.5</InjuryHealingFactor>
+          <ImmunityGainSpeed>-0.3</ImmunityGainSpeed>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>-0.2</offset>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <offset>-0.1</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>1800</disappearsAfterTicks>
+      </li>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>0.1</severityPerDayNotImmune>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <!-- Dragonrend Effect - Prevents flight -->
+  <HediffDef>
+    <defName>ThuumDragonrend</defName>
+    <label>dragonrend</label>
+    <description>Forced to comprehend mortality, the target cannot fly and experiences existential dread.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.4, 0.2, 0.6)</defaultLabelColor>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>true</isBad>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.3</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <MentalBreakThreshold>0.15</MentalBreakThreshold>
+        </statOffsets>
+        <mentalStateGiveChance>0.1</mentalStateGiveChance>
+        <mentalStatesToGive>
+          <li>Berserk</li>
+        </mentalStatesToGive>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>600</disappearsAfterTicks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <!-- Mortal Flesh Effect - Removes magical defenses -->
+  <HediffDef>
+    <defName>ThuumMortalFlesh</defName>
+    <label>mortal flesh</label>
+    <description>Stripped of magical protections, reduced to vulnerable mortal flesh.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 0.6, 0.4)</defaultLabelColor>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>true</isBad>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Blunt>-0.3</ArmorRating_Blunt>
+          <ArmorRating_Sharp>-0.3</ArmorRating_Sharp>
+          <ArmorRating_Heat>-0.3</ArmorRating_Heat>
+          <PsychicSensitivity>0.5</PsychicSensitivity>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>-0.3</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>900</disappearsAfterTicks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <!-- Elemental Fury Effect - Increased attack speed -->
+  <HediffDef>
+    <defName>ThuumElementalFury</defName>
+    <label>elemental fury</label>
+    <description>Arms move with supernatural speed, striking faster than the eye can follow.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.9, 0.9, 0.2)</defaultLabelColor>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <stages>
+      <li>
+        <statOffsets>
+          <MeleeHitChance>0.25</MeleeHitChance>
+          <WorkSpeedGlobal>0.5</WorkSpeedGlobal>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.8</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>300</disappearsAfterTicks>
+      </li>
+    </comps>
+  </HediffDef>
+</Defs>
