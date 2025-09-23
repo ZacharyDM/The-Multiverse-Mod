@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Azura - Prince of Dawn and Dusk, Lady of Prophecy and Vanity -->
+  <TraitDef>
+    <defName>ChampionOfAzura</defName>
+    <label>Champion of Azura</label>
+    <description>A chosen champion of Azura, the Daedric Prince of dawn and dusk. Blessed with prophetic vision and divine beauty, they serve as a conduit for Azura's will in the mortal realm.</description>
+    <degreeDatas>
+      <li>
+        <label>Initiate of Azura</label>
+        <description>An initiate touched by Azura's twilight blessing, beginning to understand the mysteries of dawn and dusk.</description>
+        <skillGains>
+          <Intellectual>2</Intellectual>
+          <Social>2</Social>
+          <Artistic>1</Artistic>
+        </skillGains>
+        <statOffsets>
+          <GlobalLearningFactor>0.10</GlobalLearningFactor>
+          <PsychicSensitivity>0.20</PsychicSensitivity>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Champion of Azura</label>
+        <description>A true champion of the Twilight Prince, gifted with prophetic sight and unwavering devotion to beauty and wisdom.</description>
+        <skillGains>
+          <Intellectual>3</Intellectual>
+          <Social>3</Social>
+          <Artistic>2</Artistic>
+          <Medicine>1</Medicine>
+        </skillGains>
+        <statOffsets>
+          <GlobalLearningFactor>0.20</GlobalLearningFactor>
+          <PsychicSensitivity>0.40</PsychicSensitivity>
+          <TradePriceImprovement>0.10</TradePriceImprovement>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Chosen of Azura</label>
+        <description>The ultimate servant of Azura, blessed with divine prophecy and radiant beauty that inspires both awe and devotion.</description>
+        <skillGains>
+          <Intellectual>4</Intellectual>
+          <Social>4</Social>
+          <Artistic>3</Artistic>
+          <Medicine>2</Medicine>
+        </skillGains>
+        <statOffsets>
+          <GlobalLearningFactor>0.30</GlobalLearningFactor>
+          <PsychicSensitivity>0.60</PsychicSensitivity>
+          <TradePriceImprovement>0.20</TradePriceImprovement>
+          <SocialImpact>0.25</SocialImpact>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Boethiah - Prince of Deceit, Conspiracy, Treachery, and Unlawful Overthrow -->
+  <TraitDef>
+    <defName>ChampionOfBoethiah</defName>
+    <label>Champion of Boethiah</label>
+    <description>A champion of Boethiah, the Daedric Prince of plots and deceit. Masters of assassination and conspiracy, they excel at overthrowing the established order through cunning and blade work.</description>
+    <degreeDatas>
+      <li>
+        <label>Initiate of Boethiah</label>
+        <description>An initiate learning the ways of the deceiver, skilled in the arts of stealth and manipulation.</description>
+        <skillGains>
+          <Melee>2</Melee>
+          <Social>2</Social>
+          <Shooting>1</Shooting>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.08</MeleeHitChance>
+          <MoveSpeed>1.05</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Champion of Boethiah</label>
+        <description>A true champion of the Prince of Plots, expert in assassination and the overthrow of tyrants.</description>
+        <skillGains>
+          <Melee>3</Melee>
+          <Social>3</Social>
+          <Shooting>2</Shooting>
+          <Intellectual>1</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.15</MeleeHitChance>
+          <MeleeDamageRandomFactor>0.15</MeleeDamageRandomFactor>
+          <MoveSpeed>1.10</MoveSpeed>
+          <NegotiationAbility>0.20</NegotiationAbility>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Chosen of Boethiah</label>
+        <description>The ultimate servant of treachery, capable of toppling kingdoms through a combination of blade and cunning word.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Social>4</Social>
+          <Shooting>3</Shooting>
+          <Intellectual>2</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.25</MeleeHitChance>
+          <MeleeDamageRandomFactor>0.25</MeleeDamageRandomFactor>
+          <MoveSpeed>1.15</MoveSpeed>
+          <NegotiationAbility>0.30</NegotiationAbility>
+          <SocialImpact>0.20</SocialImpact>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Clavicus Vile - Prince of Bargains, Wishes, and Power -->
+  <TraitDef>
+    <defName>ChampionOfClavicusVile</defName>
+    <label>Champion of Clavicus Vile</label>
+    <description>A champion of Clavicus Vile, the Daedric Prince of bargains and wishes. They excel at making deals, acquiring power through cunning agreements, and fulfilling twisted desires.</description>
+    <degreeDatas>
+      <li>
+        <label>Initiate of Clavicus Vile</label>
+        <description>An initiate learning the art of the deal, beginning to understand the power of well-crafted bargains.</description>
+        <skillGains>
+          <Social>3</Social>
+          <Intellectual>2</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <TradePriceImprovement>0.15</TradePriceImprovement>
+          <NegotiationAbility>0.15</NegotiationAbility>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Champion of Clavicus Vile</label>
+        <description>A true champion of the Prince of Bargains, master of twisted deals and ironic fulfillment of desires.</description>
+        <skillGains>
+          <Social>4</Social>
+          <Intellectual>3</Intellectual>
+          <Artistic>1</Artistic>
+        </skillGains>
+        <statOffsets>
+          <TradePriceImprovement>0.25</TradePriceImprovement>
+          <NegotiationAbility>0.25</NegotiationAbility>
+          <SocialImpact>0.15</SocialImpact>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Chosen of Clavicus Vile</label>
+        <description>The ultimate deal-maker, capable of twisting any bargain to their advantage while fulfilling the letter if not the spirit of agreements.</description>
+        <skillGains>
+          <Social>5</Social>
+          <Intellectual>4</Intellectual>
+          <Artistic>2</Artistic>
+          <Medicine>1</Medicine>
+        </skillGains>
+        <statOffsets>
+          <TradePriceImprovement>0.40</TradePriceImprovement>
+          <NegotiationAbility>0.40</NegotiationAbility>
+          <SocialImpact>0.30</SocialImpact>
+          <GlobalLearningFactor>0.15</GlobalLearningFactor>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Hermaeus Mora - Prince of Knowledge, Memory, and Fate -->
+  <TraitDef>
+    <defName>ChampionOfHermausMora</defName>
+    <label>Champion of Hermaeus Mora</label>
+    <description>A champion of Hermaeus Mora, the Daedric Prince of knowledge and forbidden secrets. They are seekers of hidden truths and guardians of dangerous wisdom.</description>
+    <degreeDatas>
+      <li>
+        <label>Initiate of Hermaeus Mora</label>
+        <description>An initiate touched by the hunger for forbidden knowledge, beginning their endless quest for understanding.</description>
+        <skillGains>
+          <Intellectual>4</Intellectual>
+          <Medicine>1</Medicine>
+        </skillGains>
+        <statOffsets>
+          <GlobalLearningFactor>0.20</GlobalLearningFactor>
+          <ResearchSpeedFactor>0.25</ResearchSpeedFactor>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Champion of Hermaeus Mora</label>
+        <description>A true champion of the Woodland Man, their mind expanded by exposure to infinite libraries of forbidden lore.</description>
+        <skillGains>
+          <Intellectual>6</Intellectual>
+          <Medicine>2</Medicine>
+          <Artistic>1</Artistic>
+        </skillGains>
+        <statOffsets>
+          <GlobalLearningFactor>0.35</GlobalLearningFactor>
+          <ResearchSpeedFactor>0.40</ResearchSpeedFactor>
+          <PsychicSensitivity>0.25</PsychicSensitivity>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Chosen of Hermaeus Mora</label>
+        <description>The ultimate seeker of knowledge, their mind a repository of secrets that could reshape reality itself.</description>
+        <skillGains>
+          <Intellectual>8</Intellectual>
+          <Medicine>3</Medicine>
+          <Artistic>2</Artistic>
+          <Social>1</Social>
+        </skillGains>
+        <statOffsets>
+          <GlobalLearningFactor>0.50</GlobalLearningFactor>
+          <ResearchSpeedFactor>0.60</ResearchSpeedFactor>
+          <PsychicSensitivity>0.40</PsychicSensitivity>
+          <MentalBreakThreshold>0.25</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Hircine - Prince of the Hunt, Lycanthropy, and the Natural Order -->
+  <TraitDef>
+    <defName>ChampionOfHircine</defName>
+    <label>Champion of Hircine</label>
+    <description>A champion of Hircine, the Daedric Prince of the hunt. They embody the primal instincts of predator and prey, excelling in tracking, combat, and survival in the wilderness.</description>
+    <degreeDatas>
+      <li>
+        <label>Initiate of Hircine</label>
+        <description>An initiate blessed by the Huntsman, beginning to understand the ways of predator and prey.</description>
+        <skillGains>
+          <Shooting>3</Shooting>
+          <Melee>2</Melee>
+          <Animals>2</Animals>
+        </skillGains>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.10</ShootingAccuracyPawn>
+          <MoveSpeed>1.10</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Champion of Hircine</label>
+        <description>A true champion of the Hunt Father, master of the wild hunt and keeper of the natural balance.</description>
+        <skillGains>
+          <Shooting>4</Shooting>
+          <Melee>3</Melee>
+          <Animals>3</Animals>
+          <Medicine>1</Medicine>
+        </skillGains>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.20</ShootingAccuracyPawn>
+          <MoveSpeed>1.20</MoveSpeed>
+          <MeleeHitChance>0.15</MeleeHitChance>
+          <CarryingCapacity>20</CarryingCapacity>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Chosen of Hircine</label>
+        <description>The ultimate hunter, blessed with supernatural tracking abilities and an unbreakable connection to the wild.</description>
+        <skillGains>
+          <Shooting>5</Shooting>
+          <Melee>4</Melee>
+          <Animals>4</Animals>
+          <Medicine>2</Medicine>
+        </skillGains>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.30</ShootingAccuracyPawn>
+          <MoveSpeed>1.30</MoveSpeed>
+          <MeleeHitChance>0.25</MeleeHitChance>
+          <CarryingCapacity>40</CarryingCapacity>
+          <ImmunityGainSpeed>1.5</ImmunityGainSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Jyggalag - Prince of Order, Logic, and Deduction -->
+  <TraitDef>
+    <defName>ChampionOfJyggalag</defName>
+    <label>Champion of Jyggalag</label>
+    <description>A champion of Jyggalag, the Daedric Prince of order and logic. They seek to impose perfect mathematical precision on the chaotic world through systematic application of reason.</description>
+    <degreeDatas>
+      <li>
+        <label>Initiate of Jyggalag</label>
+        <description>An initiate learning the rigid discipline of perfect order, beginning to see the mathematical patterns underlying all existence.</description>
+        <skillGains>
+          <Intellectual>3</Intellectual>
+          <Construction>2</Construction>
+          <Crafting>1</Crafting>
+        </skillGains>
+        <statOffsets>
+          <GlobalLearningFactor>0.15</GlobalLearningFactor>
+          <WorkSpeedGlobal>0.10</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Champion of Jyggalag</label>
+        <description>A true champion of the Prince of Order, capable of imposing systematic perfection on any endeavor.</description>
+        <skillGains>
+          <Intellectual>4</Intellectual>
+          <Construction>3</Construction>
+          <Crafting>2</Crafting>
+          <Medicine>1</Medicine>
+        </skillGains>
+        <statOffsets>
+          <GlobalLearningFactor>0.25</GlobalLearningFactor>
+          <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
+          <ResearchSpeedFactor>0.20</ResearchSpeedFactor>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Chosen of Jyggalag</label>
+        <description>The ultimate enforcer of cosmic order, capable of reducing any chaos to perfect, crystalline logic.</description>
+        <skillGains>
+          <Intellectual>5</Intellectual>
+          <Construction>4</Construction>
+          <Crafting>3</Crafting>
+          <Medicine>2</Medicine>
+        </skillGains>
+        <statOffsets>
+          <GlobalLearningFactor>0.40</GlobalLearningFactor>
+          <WorkSpeedGlobal>0.30</WorkSpeedGlobal>
+          <ResearchSpeedFactor>0.35</ResearchSpeedFactor>
+          <MentalBreakThreshold>0.50</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Malacath - Prince of the Spurned and Ostracized, Keeper of the Sworn Oath -->
+  <TraitDef>
+    <defName>ChampionOfMalacath</defName>
+    <label>Champion of Malacath</label>
+    <description>A champion of Malacath, the Daedric Prince of the spurned and ostracized. They embody strength through adversity, loyalty to outcasts, and the sacred nature of sworn oaths.</description>
+    <degreeDatas>
+      <li>
+        <label>Initiate of Malacath</label>
+        <description>An initiate who has sworn themselves to the patron of outcasts, beginning to understand strength through hardship.</description>
+        <skillGains>
+          <Melee>3</Melee>
+          <Shooting>1</Shooting>
+          <Crafting>1</Crafting>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.10</MeleeHitChance>
+          <PainShockThreshold>0.15</PainShockThreshold>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Champion of Malacath</label>
+        <description>A true champion of the Ashpit's lord, protector of the weak and keeper of sacred oaths.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Shooting>2</Shooting>
+          <Crafting>2</Crafting>
+          <Construction>1</Construction>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.20</MeleeHitChance>
+          <MeleeDamageRandomFactor>0.15</MeleeDamageRandomFactor>
+          <PainShockThreshold>0.25</PainShockThreshold>
+          <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Chosen of Malacath</label>
+        <description>The ultimate champion of the spurned, unbreakable in their oath and unstoppable in their fury against those who prey upon the weak.</description>
+        <skillGains>
+          <Melee>5</Melee>
+          <Shooting>3</Shooting>
+          <Crafting>3</Crafting>
+          <Construction>2</Construction>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.30</MeleeHitChance>
+          <MeleeDamageRandomFactor>0.25</MeleeDamageRandomFactor>
+          <PainShockThreshold>0.40</PainShockThreshold>
+          <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Mehrunes Dagon - Prince of Destruction, Change, Revolution, and Ambition -->
+  <TraitDef>
+    <defName>ChampionOfMehreunesDagon</defName>
+    <label>Champion of Mehrunes Dagon</label>
+    <description>A champion of Mehrunes Dagon, the Daedric Prince of destruction and revolution. They are agents of violent change, bringing down established orders through force and flame.</description>
+    <degreeDatas>
+      <li>
+        <label>Initiate of Mehrunes Dagon</label>
+        <description>An initiate branded by the Prince of Destruction, learning to harness revolutionary fervor and destructive power.</description>
+        <skillGains>
+          <Melee>3</Melee>
+          <Shooting>2</Shooting>
+          <Mining>1</Mining>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageRandomFactor>0.15</MeleeDamageRandomFactor>
+          <MoveSpeed>1.05</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Champion of Mehrunes Dagon</label>
+        <description>A true champion of the Lord of Change, capable of toppling kingdoms and reshaping the world through controlled destruction.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Shooting>3</Shooting>
+          <Mining>2</Mining>
+          <Social>1</Social>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageRandomFactor>0.25</MeleeDamageRandomFactor>
+          <MeleeHitChance>0.15</MeleeHitChance>
+          <MoveSpeed>1.10</MoveSpeed>
+          <WorkSpeedGlobal>0.10</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Chosen of Mehrunes Dagon</label>
+        <description>The ultimate agent of destruction, capable of bringing the fires of Oblivion to bear against any obstacle or enemy.</description>
+        <skillGains>
+          <Melee>5</Melee>
+          <Shooting>4</Shooting>
+          <Mining>3</Mining>
+          <Social>2</Social>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageRandomFactor>0.40</MeleeDamageRandomFactor>
+          <MeleeHitChance>0.25</MeleeHitChance>
+          <MoveSpeed>1.15</MoveSpeed>
+          <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
+          <ArmorRating_Heat>0.25</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Mephala - Prince of Webs, Lies, Murder, and Secrets -->
+  <TraitDef>
+    <defName>ChampionOfMephala</defName>
+    <label>Champion of Mephala</label>
+    <description>A champion of Mephala, the Daedric Prince of murder and secrets. They are masters of intrigue, weaving webs of conspiracy while excelling at the art of silent death.</description>
+    <degreeDatas>
+      <li>
+        <label>Initiate of Mephala</label>
+        <description>An initiate learning the ways of the Webspinner, beginning to understand the art of secrets and silent death.</description>
+        <skillGains>
+          <Melee>2</Melee>
+          <Social>2</Social>
+          <Intellectual>1</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.10</MeleeHitChance>
+          <MoveSpeed>1.05</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Champion of Mephala</label>
+        <description>A true champion of the Spinner, weaving deadly plots while mastering the balance between murder and manipulation.</description>
+        <skillGains>
+          <Melee>3</Melee>
+          <Social>3</Social>
+          <Intellectual>2</Intellectual>
+          <Medicine>1</Medicine>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.20</MeleeHitChance>
+          <MeleeDamageRandomFactor>0.15</MeleeDamageRandomFactor>
+          <MoveSpeed>1.10</MoveSpeed>
+          <SocialImpact>0.15</SocialImpact>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Chosen of Mephala</label>
+        <description>The ultimate webspinner, capable of orchestrating the downfall of kingdoms through a combination of blade and intrigue.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Social>4</Social>
+          <Intellectual>3</Intellectual>
+          <Medicine>2</Medicine>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.30</MeleeHitChance>
+          <MeleeDamageRandomFactor>0.25</MeleeDamageRandomFactor>
+          <MoveSpeed>1.15</MoveSpeed>
+          <SocialImpact>0.25</SocialImpact>
+          <NegotiationAbility>0.20</NegotiationAbility>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Meridia - Prince of Life Energy, Light, and the Undead's Bane -->
+  <TraitDef>
+    <defName>ChampionOfMeridia</defName>
+    <label>Champion of Meridia</label>
+    <description>A champion of Meridia, the Daedric Prince of life energy and light. They are zealous enemies of the undead and protectors of the living, wielding radiant power against corruption.</description>
+    <degreeDatas>
+      <li>
+        <label>Initiate of Meridia</label>
+        <description>An initiate blessed by the Lady of Light, beginning to channel radiant energy in service of life and purity.</description>
+        <skillGains>
+          <Medicine>3</Medicine>
+          <Melee>2</Melee>
+          <Social>1</Social>
+        </skillGains>
+        <statOffsets>
+          <MedicalTendQuality>0.15</MedicalTendQuality>
+          <ImmunityGainSpeed>1.3</ImmunityGainSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Champion of Meridia</label>
+        <description>A true champion of the Bright Lady, radiating purifying light that heals the living and destroys the undead.</description>
+        <skillGains>
+          <Medicine>4</Medicine>
+          <Melee>3</Melee>
+          <Social>2</Social>
+          <Intellectual>1</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <MedicalTendQuality>0.25</MedicalTendQuality>
+          <ImmunityGainSpeed>1.5</ImmunityGainSpeed>
+          <MeleeDamageRandomFactor>0.15</MeleeDamageRandomFactor>
+          <SocialImpact>0.15</SocialImpact>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Chosen of Meridia</label>
+        <description>The ultimate beacon of light, capable of banishing darkness and corruption while serving as a pillar of hope for all living beings.</description>
+        <skillGains>
+          <Medicine>5</Medicine>
+          <Melee>4</Melee>
+          <Social>3</Social>
+          <Intellectual>2</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <MedicalTendQuality>0.40</MedicalTendQuality>
+          <ImmunityGainSpeed>2.0</ImmunityGainSpeed>
+          <MeleeDamageRandomFactor>0.25</MeleeDamageRandomFactor>
+          <SocialImpact>0.25</SocialImpact>
+          <MentalBreakThreshold>0.30</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Molag Bal - Prince of Domination, Enslavement, and Corruption -->
+  <TraitDef>
+    <defName>ChampionOfMolagBal</defName>
+    <label>Champion of Molag Bal</label>
+    <description>A champion of Molag Bal, the Daedric Prince of domination and corruption. They excel at breaking the will of others and spreading the influence of their dark master through fear and brutality.</description>
+    <degreeDatas>
+      <li>
+        <label>Initiate of Molag Bal</label>
+        <description>An initiate marked by the King of Rape, beginning to understand the power that comes from dominating others.</description>
+        <skillGains>
+          <Melee>3</Melee>
+          <Social>2</Social>
+          <Construction>1</Construction>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageRandomFactor>0.10</MeleeDamageRandomFactor>
+          <SocialImpact>0.10</SocialImpact>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Champion of Molag Bal</label>
+        <description>A true champion of the Lord of Brutality, master of corruption and fear, capable of bending others to their will.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Social>3</Social>
+          <Construction>2</Construction>
+          <Medicine>1</Medicine>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageRandomFactor>0.20</MeleeDamageRandomFactor>
+          <MeleeHitChance>0.15</MeleeHitChance>
+          <SocialImpact>0.20</SocialImpact>
+          <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Chosen of Molag Bal</label>
+        <description>The ultimate corruptor, capable of enslaving minds and souls while spreading the dominion of Coldharbour across the mortal realm.</description>
+        <skillGains>
+          <Melee>5</Melee>
+          <Social>4</Social>
+          <Construction>3</Construction>
+          <Medicine>2</Medicine>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageRandomFactor>0.35</MeleeDamageRandomFactor>
+          <MeleeHitChance>0.25</MeleeHitChance>
+          <SocialImpact>0.35</SocialImpact>
+          <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Namira - Prince of Ancient Darkness, Repulsive Things, and Cannibalism -->
+  <TraitDef>
+    <defName>ChampionOfNamira</defName>
+    <label>Champion of Namira</label>
+    <description>A champion of Namira, the Daedric Prince of ancient darkness and decay. They embrace the repulsive and forbidden, finding strength in what others reject and fear.</description>
+    <degreeDatas>
+      <li>
+        <label>Initiate of Namira</label>
+        <description>An initiate touched by the Ancient Darkness, beginning to understand the power found in decay and the forbidden.</description>
+        <skillGains>
+          <Medicine>2</Medicine>
+          <Melee>2</Melee>
+          <Animals>1</Animals>
+        </skillGains>
+        <statOffsets>
+          <ImmunityGainSpeed>1.2</ImmunityGainSpeed>
+          <ToxicSensitivity>-0.25</ToxicSensitivity>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Champion of Namira</label>
+        <description>A true champion of the Spirit Daedra, embracing corruption and decay as sources of power and wisdom.</description>
+        <skillGains>
+          <Medicine>3</Medicine>
+          <Melee>3</Melee>
+          <Animals>2</Animals>
+          <Intellectual>1</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <ImmunityGainSpeed>1.4</ImmunityGainSpeed>
+          <ToxicSensitivity>-0.50</ToxicSensitivity>
+          <MeleeDamageRandomFactor>0.15</MeleeDamageRandomFactor>
+          <FoodPoisonChance>-0.75</FoodPoisonChance>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Chosen of Namira</label>
+        <description>The ultimate servant of decay, thriving in conditions that would destroy others while spreading the ancient darkness.</description>
+        <skillGains>
+          <Medicine>4</Medicine>
+          <Melee>4</Melee>
+          <Animals>3</Animals>
+          <Intellectual>2</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <ImmunityGainSpeed>1.8</ImmunityGainSpeed>
+          <ToxicSensitivity>-0.80</ToxicSensitivity>
+          <MeleeDamageRandomFactor>0.25</MeleeDamageRandomFactor>
+          <FoodPoisonChance>-1.0</FoodPoisonChance>
+          <RestFallRateFactor>0.75</RestFallRateFactor>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>

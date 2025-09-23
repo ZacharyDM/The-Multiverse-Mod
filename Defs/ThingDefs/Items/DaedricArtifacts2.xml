@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Ebony Blade - Mephala's Whispering Sword -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>EbonyBlade</defName>
+    <label>Ebony Blade</label>
+    <description>The Ebony Blade, Mephala's artifact of murder and betrayal. This cursed sword whispers dark suggestions to its wielder, growing stronger with each act of treachery. It feeds on the life force of friends and loved ones, making it as dangerous to allies as enemies.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/EbonyBlade</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconPath>Things/Item/Equipment/WeaponMelee/EbonyBlade</uiIconPath>
+    <techLevel>Spacer</techLevel>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <tradeTags>
+      <li>Artifact</li>
+      <li>WeaponMelee</li>
+    </tradeTags>
+    <statBases>
+      <WorkToMake>170000</WorkToMake>
+      <MaxHitPoints>500</MaxHitPoints>
+      <Mass>3.5</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>20</Beauty>
+      <MarketValue>18000</MarketValue>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>0.10</MoveSpeed>
+      <MeleeDamageRandomFactor>0.40</MeleeDamageRandomFactor>
+      <MeleeHitChance>0.25</MeleeHitChance>
+      <SocialImpact>0.15</SocialImpact>
+    </equippedStatOffsets>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2.2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>30</power>
+        <cooldownTime>2.2</cooldownTime>
+        <armorPenetration>0.45</armorPenetration>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>35</power>
+        <cooldownTime>2.2</cooldownTime>
+        <armorPenetration>0.40</armorPenetration>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>2</glowRadius>
+        <glowColor>(100,0,100,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Dawnbreaker - Meridia's Sword of Light -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>Dawnbreaker</defName>
+    <label>Dawnbreaker</label>
+    <description>Dawnbreaker, Meridia's legendary sword of pure light. This radiant blade burns with the power of dawn, specifically crafted to destroy undead and purge corruption. Its light is said to be capable of banishing even the darkest shadows.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/Dawnbreaker</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconPath>Things/Item/Equipment/WeaponMelee/Dawnbreaker</uiIconPath>
+    <techLevel>Spacer</techLevel>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <tradeTags>
+      <li>Artifact</li>
+      <li>WeaponMelee</li>
+    </tradeTags>
+    <statBases>
+      <WorkToMake>160000</WorkToMake>
+      <MaxHitPoints>450</MaxHitPoints>
+      <Mass>2.8</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>30</Beauty>
+      <MarketValue>19000</MarketValue>
+    </statBases>
+    <equippedStatOffsets>
+      <MeleeDamageRandomFactor>0.35</MeleeDamageRandomFactor>
+      <MeleeHitChance>0.20</MeleeHitChance>
+      <ImmunityGainSpeed>1.5</ImmunityGainSpeed>
+      <MentalBreakThreshold>0.15</MentalBreakThreshold>
+    </equippedStatOffsets>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>28</power>
+        <cooldownTime>2.0</cooldownTime>
+        <armorPenetration>0.40</armorPenetration>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>33</power>
+        <cooldownTime>2.0</cooldownTime>
+        <armorPenetration>0.35</armorPenetration>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(255,255,200,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Mace of Molag Bal -->
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>MaceOfMolagBal</defName>
+    <label>Mace of Molag Bal</label>
+    <description>The Mace of Molag Bal, a weapon of pure malevolence forged by the Prince of Domination himself. This brutal mace drains the life and spirit from its victims, transferring their essence to the wielder while spreading corruption and despair.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/MaceOfMolagBal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconPath>Things/Item/Equipment/WeaponMelee/MaceOfMolagBal</uiIconPath>
+    <techLevel>Spacer</techLevel>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <tradeTags>
+      <li>Artifact</li>
+      <li>WeaponMelee</li>
+    </tradeTags>
+    <statBases>
+      <WorkToMake>180000</WorkToMake>
+      <MaxHitPoints>650</MaxHitPoints>
+      <Mass>4.5</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>-10</Beauty>
+      <MarketValue>17000</MarketValue>
+    </statBases>
+    <equippedStatOffsets>
+      <MeleeDamageRandomFactor>0.50</MeleeDamageRandomFactor>
+      <MeleeHitChance>0.15</MeleeHitChance>
+      <SocialImpact>0.30</SocialImpact>
+      <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+    </equippedStatOffsets>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2.8</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>38</power>
+        <cooldownTime>3.0</cooldownTime>
+        <armorPenetration>0.45</armorPenetration>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(150,0,0,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Ring of Namira -->
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_RingOfNamira</defName>
+    <label>Ring of Namira</label>
+    <description>The Ring of Namira, a artifact of the Daedric Prince of Ancient Darkness. This grotesque ring enhances the wearer's ability to feed on the repulsive and forbidden, granting immunity to disease while encouraging cannibalistic tendencies.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/RingOfNamira/RingOfNamira</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>ApparelNoble</li>
+    </thingCategories>
+    <statBases>
+      <WorkToMake>60000</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.2</Mass>
+      <Flammability>0</Flammability>
+      <EquipDelay>1</EquipDelay>
+      <MarketValue>14000</MarketValue>
+      <Beauty>-5</Beauty>
+    </statBases>
+    <equippedStatOffsets>
+      <ImmunityGainSpeed>5.0</ImmunityGainSpeed>
+      <ToxicSensitivity>-1.0</ToxicSensitivity>
+      <FoodPoisonChance>-1.0</FoodPoisonChance>
+      <RestFallRateFactor>0.60</RestFallRateFactor>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>LeftRingFinger</li>
+        <li>RightRingFinger</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/RingOfNamira/RingOfNamira</wornGraphicPath>
+      <layers>
+        <li>Accessories</li>
+      </layers>
+    </apparel>
+    <tradeTags>
+      <li>Artifact</li>
+      <li>Clothing</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>1</glowRadius>
+        <glowColor>(100,50,100,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Skeleton Key - Nocturnal's Lockpick -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>SkeletonKey</defName>
+    <label>Skeleton Key</label>
+    <description>The Skeleton Key, Nocturnal's legendary lockpick that can open any lock, whether physical or metaphysical. This unbreakable tool represents infinite possibility and the power to unlock any secret or barrier.</description>
+    <graphicData>
+      <texPath>Things/Item/Misc/SkeletonKey</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>1</stackLimit>
+    <statBases>
+      <MarketValue>16000</MarketValue>
+      <Mass>0.3</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>15</Beauty>
+    </statBases>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Artifact</li>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use Skeleton Key</useLabel>
+        <useDuration>60</useDuration>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>2</glowRadius>
+        <glowColor>(150,150,255,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Spellbreaker - Peryite's Shield -->
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>Spellbreaker</defName>
+    <label>Spellbreaker</label>
+    <description>Spellbreaker, Peryite's legendary shield that protects against magical attacks and disease. This Dwemer-crafted buckler creates a ward that can absorb and nullify magical energies, making its bearer nearly invulnerable to supernatural threats.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/Spellbreaker</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconPath>Things/Item/Equipment/WeaponMelee/Spellbreaker</uiIconPath>
+    <techLevel>Spacer</techLevel>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <tradeTags>
+      <li>Artifact</li>
+      <li>WeaponMelee</li>
+    </tradeTags>
+    <statBases>
+      <WorkToMake>140000</WorkToMake>
+      <MaxHitPoints>600</MaxHitPoints>
+      <Mass>3.0</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>20</Beauty>
+      <MarketValue>21000</MarketValue>
+    </statBases>
+    <equippedStatOffsets>
+      <MeleeHitChance>0.15</MeleeHitChance>
+      <MeleeDodgeChance>0.25</MeleeDodgeChance>
+      <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+      <ImmunityGainSpeed>3.0</ImmunityGainSpeed>
+      <PsychicSensitivity>-0.50</PsychicSensitivity>
+    </equippedStatOffsets>
+    <tools>
+      <li>
+        <label>rim</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2.5</cooldownTime>
+        <armorPenetration>0.20</armorPenetration>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>2</glowRadius>
+        <glowColor>(200,200,50,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Sanguine Rose - Staff of Summoning -->
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>SanguineRose</defName>
+    <label>Sanguine Rose</label>
+    <description>The Sanguine Rose, a staff artifact of the Daedric Prince Sanguine. This enchanted staff can summon Daedric servants to aid the wielder, manifesting creatures from the realm of revelry and debauchery to fight alongside mortals.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/SanguineRose</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconPath>Things/Item/Equipment/WeaponMelee/SanguineRose</uiIconPath>
+    <techLevel>Medieval</techLevel>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <tradeTags>
+      <li>Artifact</li>
+      <li>WeaponMelee</li>
+    </tradeTags>
+    <statBases>
+      <WorkToMake>90000</WorkToMake>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Mass>2.0</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>25</Beauty>
+      <MarketValue>15000</MarketValue>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.25</SocialImpact>
+      <NegotiationAbility>0.20</NegotiationAbility>
+      <JoyFallRateFactor>0.75</JoyFallRateFactor>
+    </equippedStatOffsets>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>4</glowRadius>
+        <glowColor>(255,100,150,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Wabbajack - Sheogorath's Staff of Chaos -->
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>Wabbajack</defName>
+    <label>Wabbajack</label>
+    <description>The Wabbajack, Sheogorath's legendary staff of unpredictable magic. This artifact embodies the very essence of madness, capable of transforming anything it strikes in completely random and often bizarre ways. No two uses ever produce the same result.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/Wabbajack</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconPath>Things/Item/Equipment/WeaponMelee/Wabbajack</uiIconPath>
+    <techLevel>Spacer</techLevel>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <tradeTags>
+      <li>Artifact</li>
+      <li>WeaponMelee</li>
+    </tradeTags>
+    <statBases>
+      <WorkToMake>120000</WorkToMake>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Mass>1.8</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>20</Beauty>
+      <MarketValue>25000</MarketValue>
+    </statBases>
+    <equippedStatOffsets>
+      <GlobalLearningFactor>0.30</GlobalLearningFactor>
+      <PsychicSensitivity>0.75</PsychicSensitivity>
+      <MentalBreakThreshold>-0.50</MentalBreakThreshold>
+      <SocialImpact>0.20</SocialImpact>
+    </equippedStatOffsets>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.2</cooldownTime>
+        <armorPenetration>0.30</armorPenetration>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>5</glowRadius>
+        <glowColor>(200,100,255,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Skull of Corruption - Vaermina's Dream Staff -->
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>SkullOfCorruption</defName>
+    <label>Skull of Corruption</label>
+    <description>The Skull of Corruption, Vaermina's horrific staff crafted from nightmares themselves. This twisted artifact can drain the dreams and life essence from sleeping victims, growing more powerful with each dream consumed while spreading terror and madness.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/SkullOfCorruption</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconPath>Things/Item/Equipment/WeaponMelee/SkullOfCorruption</uiIconPath>
+    <techLevel>Spacer</techLevel>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <tradeTags>
+      <li>Artifact</li>
+      <li>WeaponMelee</li>
+    </tradeTags>
+    <statBases>
+      <WorkToMake>110000</WorkToMake>
+      <MaxHitPoints>350</MaxHitPoints>
+      <Mass>2.5</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>-15</Beauty>
+      <MarketValue>16000</MarketValue>
+    </statBases>
+    <equippedStatOffsets>
+      <PsychicSensitivity>0.60</PsychicSensitivity>
+      <RestFallRateFactor>0.40</RestFallRateFactor>
+      <GlobalLearningFactor>0.20</GlobalLearningFactor>
+      <SocialImpact>0.15</SocialImpact>
+    </equippedStatOffsets>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2.5</cooldownTime>
+        <armorPenetration>0.25</armorPenetration>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(100,0,150,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>
