@@ -21,6 +21,13 @@ The Morrowind expansion introduces authentic content from the iconic Elder Scrol
 - **Decorative flowers** for beautification and alchemy
 - **Medicinal herbs** with healing properties
 
+### Biomes (5 regions)
+- **Ashlands** - Volcanic wasteland with ash storms
+- **Bitter Coast** - Humid swamplands with fungal forests
+- **Grazelands** - Fertile grasslands ideal for agriculture
+- **West Gash** - Rocky highlands with river valleys
+- **Molag Amur** - Active volcanic region with lava flows
+
 ### Daedric Materials (10 types)
 - **Supernatural components** harvested from Daedric creatures
 - **Alchemical reagents** for powerful enchantments
@@ -173,6 +180,45 @@ The Morrowind expansion introduces authentic content from the iconic Elder Scrol
 - **Yield**: 10 berries, mental enhancement
 - **Market Value**: 2.0 gold per berry
 
+## Biomes
+
+The Morrowind expansion introduces five distinct biomes that capture the diverse landscapes of the Elder Scrolls' volcanic province:
+
+### Ashlands
+- **Description**: Volcanic wasteland with frequent ash storms
+- **Climate**: Hot and dry with low fertility
+- **Flora**: Hardy volcanic plants like Ash Yam and Fire Petal
+- **Fauna**: Heat-adapted creatures including Alit, Kagouti, and Shalk
+- **Settlement**: Poor suitability due to harsh conditions
+
+### Bitter Coast
+- **Description**: Humid swamplands with fungal forests
+- **Climate**: Warm and wet with high plant growth
+- **Flora**: Marshmerrow, Saltrice, and moisture-loving plants
+- **Fauna**: Guar, Betty Netch, and swamp-dwelling species
+- **Settlement**: Moderate suitability despite difficult movement
+
+### Grazelands
+- **Description**: Fertile grasslands ideal for agriculture
+- **Climate**: Temperate with balanced rainfall
+- **Flora**: Premium crops like Wickwheat and decorative Gold Kanet
+- **Fauna**: Abundant herbivores and diverse wildlife
+- **Settlement**: Excellent suitability for colonies
+
+### West Gash
+- **Description**: Rocky highlands with river valleys
+- **Climate**: Cool and rocky with moderate fertility
+- **Flora**: Hardy crops and medicinal plants
+- **Fauna**: Mountain-adapted predators and resilient species
+- **Settlement**: Good defensibility but challenging terrain
+
+### Molag Amur
+- **Description**: Active volcanic region with lava flows
+- **Climate**: Extremely hot with minimal life support
+- **Flora**: Only the most heat-resistant plants survive
+- **Fauna**: Fire-immune creatures like Flame Atronachs
+- **Settlement**: Nearly uninhabitable except for specialized bases
+
 ## Daedric Beasts
 
 ### Lesser Daedra
@@ -253,6 +299,8 @@ The Morrowind expansion introduces authentic content from the iconic Elder Scrol
 
 ```
 Defs/
+├── BiomeDefs/
+│   └── MorrowindBiomes.xml         # Ashlands, Bitter Coast, Grazelands, West Gash, Molag Amur
 ├── HediffDefs/
 │   ├── CorpusDisease.xml           # Existing House Dagoth disease
 │   ├── MorrowindDiseases.xml       # Ataxia, Bone Break Fever, etc.
@@ -345,6 +393,12 @@ This expansion faithfully represents content from The Elder Scrolls III: Morrowi
 - **Agricultural realism** reflecting Dunmer farming practices
 - **Alchemical properties** true to Elder Scrolls tradition
 - **Environmental adaptation** to volcanic and marsh biomes
+
+### Biomes
+- **Authentic geographic regions** matching Morrowind's distinctive landscapes
+- **Climate consistency** with Elder Scrolls environmental lore
+- **Proper ecological balance** between flora, fauna, and terrain
+- **Settlement patterns** reflecting Dunmer adaptation strategies
 
 ## Quest Integration Potential
 
