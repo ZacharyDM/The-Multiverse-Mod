@@ -33,7 +33,7 @@
   </ThingDef>
 
   <!-- Goldbrand - Boethiah's Flaming Blade -->
-  <ThingDef ParentName="MeleeWeaponUltratech">
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>Goldbrand</defName>
     <label>Goldbrand</label>
     <description>Goldbrand, the legendary flaming katana blessed by Boethiah. This golden blade burns with supernatural fire that never dims, cutting through armor and flesh alike while inspiring both fear and treachery in those who witness its power.</description>
@@ -44,7 +44,7 @@
     <uiIconPath>Things/Item/Equipment/WeaponMelee/Goldbrand</uiIconPath>
     <techLevel>Spacer</techLevel>
     <weaponTags>
-      <li>UltratechMelee</li>
+      <li>MedievalMeleeAdvanced</li>
     </weaponTags>
     <tradeTags>
       <li>Artifact</li>
@@ -101,7 +101,7 @@
   </ThingDef>
 
   <!-- Masque of Clavicus Vile - Negotiation Mask -->
-  <ThingDef ParentName="HatMakeableBase">
+  <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_MasqueOfClavicusVile</defName>
     <label>Masque of Clavicus Vile</label>
     <description>The Masque of Clavicus Vile, a horned mask that embodies the trickster nature of its creator. This artifact enhances the wearer's ability to make deals and manipulate others, though every bargain struck while wearing it carries the potential for unexpected consequences.</description>
@@ -156,7 +156,7 @@
   </ThingDef>
 
   <!-- Oghma Infinium - Book of Knowledge -->
-  <ThingDef ParentName="BookBase">
+  <ThingDef ParentName="ResourceBase">
     <defName>OghmaInfinium</defName>
     <label>Oghma Infinium</label>
     <description>The Oghma Infinium, Hermaeus Mora's grimoire of forbidden knowledge. This tome contains secrets that could reshape reality itself, written in an ever-shifting script that reveals different truths to each reader. Those who study it gain tremendous wisdom, but at the cost of their sanity.</description>
@@ -256,7 +256,7 @@
   </ThingDef>
 
   <!-- Volendrung - Malacath's Hammer -->
-  <ThingDef ParentName="MeleeWeaponUltratech">
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
     <defName>Volendrung</defName>
     <label>Volendrung</label>
     <description>Volendrung, the legendary warhammer of Malacath. This massive Dwemer-forged weapon absorbs the magical energy of those it strikes, growing stronger with each blow. It embodies the strength and endurance of the outcast and spurned.</description>
@@ -267,7 +267,7 @@
     <uiIconPath>Things/Item/Equipment/WeaponMelee/Volendrung</uiIconPath>
     <techLevel>Spacer</techLevel>
     <weaponTags>
-      <li>UltratechMelee</li>
+      <li>MedievalMeleeAdvanced</li>
     </weaponTags>
     <tradeTags>
       <li>Artifact</li>
@@ -316,7 +316,7 @@
   </ThingDef>
 
   <!-- Mehrunes' Razor - Dagger of Instant Death -->
-  <ThingDef ParentName="MeleeWeaponUltratech">
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>MehrunesRazor</defName>
     <label>Mehrunes' Razor</label>
     <description>Mehrunes' Razor, the legendary dagger of the Prince of Destruction. This impossibly sharp blade can cut through any material and has the power to instantly kill even the mightiest foes, though such power comes with great risk to the wielder.</description>
@@ -327,7 +327,7 @@
     <uiIconPath>Things/Item/Equipment/WeaponMelee/MehrunesRazor</uiIconPath>
     <techLevel>Spacer</techLevel>
     <weaponTags>
-      <li>UltratechMelee</li>
+      <li>MedievalMeleeAdvanced</li>
     </weaponTags>
     <tradeTags>
       <li>Artifact</li>

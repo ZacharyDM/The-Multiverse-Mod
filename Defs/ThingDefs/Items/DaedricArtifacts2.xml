@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- Ebony Blade - Mephala's Whispering Sword -->
-  <ThingDef ParentName="MeleeWeaponUltratech">
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>EbonyBlade</defName>
     <label>Ebony Blade</label>
     <description>The Ebony Blade, Mephala's artifact of murder and betrayal. This cursed sword whispers dark suggestions to its wielder, growing stronger with each act of treachery. It feeds on the life force of friends and loved ones, making it as dangerous to allies as enemies.</description>
@@ -12,7 +12,7 @@
     <uiIconPath>Things/Item/Equipment/WeaponMelee/EbonyBlade</uiIconPath>
     <techLevel>Spacer</techLevel>
     <weaponTags>
-      <li>UltratechMelee</li>
+      <li>MedievalMeleeAdvanced</li>
     </weaponTags>
     <tradeTags>
       <li>Artifact</li>
@@ -70,7 +70,7 @@
   </ThingDef>
 
   <!-- Dawnbreaker - Meridia's Sword of Light -->
-  <ThingDef ParentName="MeleeWeaponUltratech">
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>Dawnbreaker</defName>
     <label>Dawnbreaker</label>
     <description>Dawnbreaker, Meridia's legendary sword of pure light. This radiant blade burns with the power of dawn, specifically crafted to destroy undead and purge corruption. Its light is said to be capable of banishing even the darkest shadows.</description>
@@ -81,7 +81,7 @@
     <uiIconPath>Things/Item/Equipment/WeaponMelee/Dawnbreaker</uiIconPath>
     <techLevel>Spacer</techLevel>
     <weaponTags>
-      <li>UltratechMelee</li>
+      <li>MedievalMeleeAdvanced</li>
     </weaponTags>
     <tradeTags>
       <li>Artifact</li>
@@ -139,7 +139,7 @@
   </ThingDef>
 
   <!-- Mace of Molag Bal -->
-  <ThingDef ParentName="MeleeWeaponUltratech">
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
     <defName>MaceOfMolagBal</defName>
     <label>Mace of Molag Bal</label>
     <description>The Mace of Molag Bal, a weapon of pure malevolence forged by the Prince of Domination himself. This brutal mace drains the life and spirit from its victims, transferring their essence to the wielder while spreading corruption and despair.</description>
@@ -150,7 +150,7 @@
     <uiIconPath>Things/Item/Equipment/WeaponMelee/MaceOfMolagBal</uiIconPath>
     <techLevel>Spacer</techLevel>
     <weaponTags>
-      <li>UltratechMelee</li>
+      <li>MedievalMeleeAdvanced</li>
     </weaponTags>
     <tradeTags>
       <li>Artifact</li>
@@ -289,7 +289,7 @@
   </ThingDef>
 
   <!-- Spellbreaker - Peryite's Shield -->
-  <ThingDef ParentName="ShieldMakeableBase">
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
     <defName>Spellbreaker</defName>
     <label>Spellbreaker</label>
     <description>Spellbreaker, Peryite's legendary shield that protects against magical attacks and disease. This Dwemer-crafted buckler creates a ward that can absorb and nullify magical energies, making its bearer nearly invulnerable to supernatural threats.</description>
@@ -300,7 +300,7 @@
     <uiIconPath>Things/Item/Equipment/WeaponMelee/Spellbreaker</uiIconPath>
     <techLevel>Spacer</techLevel>
     <weaponTags>
-      <li>UltratechMelee</li>
+      <li>MedievalMeleeAdvanced</li>
     </weaponTags>
     <tradeTags>
       <li>Artifact</li>
@@ -343,7 +343,7 @@
   </ThingDef>
 
   <!-- Sanguine Rose - Staff of Summoning -->
-  <ThingDef ParentName="BaseWeapon">
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
     <defName>SanguineRose</defName>
     <label>Sanguine Rose</label>
     <description>The Sanguine Rose, a staff artifact of the Daedric Prince Sanguine. This enchanted staff can summon Daedric servants to aid the wielder, manifesting creatures from the realm of revelry and debauchery to fight alongside mortals.</description>
@@ -352,9 +352,9 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconPath>Things/Item/Equipment/WeaponMelee/SanguineRose</uiIconPath>
-    <techLevel>Neolithic</techLevel>
+    <techLevel>Medieval</techLevel>
     <weaponTags>
-      <li>NeolithicMeleeAdvanced</li>
+      <li>MedievalMeleeAdvanced</li>
     </weaponTags>
     <tradeTags>
       <li>Artifact</li>
@@ -401,7 +401,7 @@
   </ThingDef>
 
   <!-- Wabbajack - Sheogorath's Staff of Chaos -->
-  <ThingDef ParentName="BaseWeapon">
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
     <defName>Wabbajack</defName>
     <label>Wabbajack</label>
     <description>The Wabbajack, Sheogorath's legendary staff of unpredictable magic. This artifact embodies the very essence of madness, capable of transforming anything it strikes in completely random and often bizarre ways. No two uses ever produce the same result.</description>
@@ -412,7 +412,7 @@
     <uiIconPath>Things/Item/Equipment/WeaponMelee/Wabbajack</uiIconPath>
     <techLevel>Spacer</techLevel>
     <weaponTags>
-      <li>UltratechMelee</li>
+      <li>MedievalMeleeAdvanced</li>
     </weaponTags>
     <tradeTags>
       <li>Artifact</li>
@@ -461,7 +461,7 @@
   </ThingDef>
 
   <!-- Skull of Corruption - Vaermina's Dream Staff -->
-  <ThingDef ParentName="BaseWeapon">
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
     <defName>SkullOfCorruption</defName>
     <label>Skull of Corruption</label>
     <description>The Skull of Corruption, Vaermina's horrific staff crafted from nightmares themselves. This twisted artifact can drain the dreams and life essence from sleeping victims, growing more powerful with each dream consumed while spreading terror and madness.</description>
@@ -472,7 +472,7 @@
     <uiIconPath>Things/Item/Equipment/WeaponMelee/SkullOfCorruption</uiIconPath>
     <techLevel>Spacer</techLevel>
     <weaponTags>
-      <li>UltratechMelee</li>
+      <li>MedievalMeleeAdvanced</li>
     </weaponTags>
     <tradeTags>
       <li>Artifact</li>
