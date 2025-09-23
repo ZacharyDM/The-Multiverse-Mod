@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <ThingDef Name="DragonBase">
+    <defName>DragonBase</defName>
+    <label>dragon</label>
+    <description>Template base for all Dragon races. Dragons are ancient, intelligent creatures that grow in power and change form as they age.</description>
+    <race>
+      <body>Humanoid</body>
+      <baseBodySize>1.2</baseBodySize>
+      <healthScale>1.5</healthScale>
+      <foodTypeFlags>CarnivoreAnimal</foodTypeFlags>
+      <gestationPeriodDays>45</gestationPeriodDays>
+      <wildness>0.2</wildness>
+      <intelligence>Humanlike</intelligence>
+      <!-- Dragons are extremely long-lived, aging through different forms -->
+      <lifeStageAges Inherit="False">
+        <li>
+          <def>HumanBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>HumanChild</def>
+          <minAge>25</minAge>
+        </li>
+        <li>
+          <def>HumanAdult</def>
+          <minAge>100</minAge>
+        </li>
+        <li>
+          <def>HumanOld</def>
+          <minAge>500</minAge>
+        </li>
+      </lifeStageAges>
+      <!-- Dragons can live for millennia -->
+      <lifeExpectancy>1000</lifeExpectancy>
+      <ageGenerationCurve>
+        <points>
+          <li>
+            <x>100</x>
+            <y>0.8</y>
+          </li>
+          <li>
+            <x>200</x>
+            <y>1.0</y>
+          </li>
+          <li>
+            <x>400</x>
+            <y>0.9</y>
+          </li>
+          <li>
+            <x>600</x>
+            <y>0.6</y>
+          </li>
+          <li>
+            <x>800</x>
+            <y>0.3</y>
+          </li>
+          <li>
+            <x>1000</x>
+            <y>0.1</y>
+          </li>
+        </points>
+      </ageGenerationCurve>
+    </race>
+    <statBases>
+      <MoveSpeed>5.0</MoveSpeed>
+      <MarketValue>8000</MarketValue>
+      <ComfyTemperatureMin>-30</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+      <ShootingAccuracyPawn>0.08</ShootingAccuracyPawn>
+      <MeleeHitChance>0.10</MeleeHitChance>
+      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+    </statBases>
+    <thingCategories>
+      <li>Pawns</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/DragonBase</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="DragonBase">
+    <defName>Dragon</defName>
+    <label>dragon</label>
+    <description>A young but intelligent dragon, capable of speech and thought. Even at this early stage of life, dragons possess natural armor, enhanced physical capabilities, and an innate understanding of magic and combat. As they age, they will transform into increasingly powerful forms.</description>
+    <race>
+      <!-- Dragons start with a basic aging trait that will progress over time -->
+      <forcedTraits>
+        <li>DragonAging</li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MoveSpeed>5.0</MoveSpeed>
+      <MarketValue>8000</MarketValue>
+      <ShootingAccuracyPawn>0.08</ShootingAccuracyPawn>
+      <MeleeHitChance>0.10</MeleeHitChance>
+      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/Dragon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+</ThingDefs>

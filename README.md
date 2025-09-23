@@ -19,8 +19,23 @@ The goal of the Multiverse Mod is to bring content from multiple franchises into
 
 Expect to see characters, species, technology, and lore from your favorite universes reimagined for Rimworld gameplay.
 
-## Features (Planned)
+## Features (Current & Planned)
 
+### Current Features
+
+#### Elder Scrolls/Morrowind Content
+- **Dunmer Race**: Full-blooded dark elves with unique traits and abilities
+- **Faction Systems**: Tribunal Temple orders, House Dagoth corpus mechanics, Ashlander clans
+- **Trait Progressions**: Advanced progression systems for various organizations
+- **Diseases & Biomes**: Morrowind-specific diseases and environmental systems
+- **Cultural Items**: Faction-specific apparel and equipment
+
+#### Dragon Race System  
+- **Dragons**: Ancient intelligent race with 7 progressive forms (Dragon → Blood Dragon → Frost Dragon → Elder Dragon → Ancient Dragon → Revered Dragon → Legendary Dragon)
+- **Age-Based Evolution**: Dragons transform and grow more powerful over their millennium-long lifespans
+- **Progressive Abilities**: Each form grants enhanced combat prowess, magical abilities, and social influence
+
+### Planned Features
 - Multiple new playable xenotypes/races from various franchises
 - Unique items and weapons inspired by other universes
 - Custom factions with their own stories and behaviors

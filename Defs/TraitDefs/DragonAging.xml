@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Dragon Aging - Progressive transformation through dragon life stages -->
+  <TraitDef>
+    <defName>DragonAging</defName>
+    <label>Dragon Form</label>
+    <description>Dragons progress through distinct forms as they age, each granting increased power, knowledge, and physical capabilities. This transformation reflects their ancient nature and growing mastery over magic and combat.</description>
+    <degreeDatas>
+      <li>
+        <degree>0</degree>
+        <label>Dragon</label>
+        <description>A young dragon, intelligent and powerful but still growing into their potential. Possesses natural armor, enhanced physical abilities, and basic magical understanding.</description>
+        <skillGains>
+          <Melee>3</Melee>
+          <Shooting>2</Shooting>
+          <Intellectual>4</Intellectual>
+          <Social>2</Social>
+        </skillGains>
+        <statOffsets>
+          <MoveSpeed>0.2</MoveSpeed>
+          <MeleeHitChance>0.1</MeleeHitChance>
+          <ShootingAccuracyPawn>0.08</ShootingAccuracyPawn>
+          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+          <GlobalLearningFactor>0.2</GlobalLearningFactor>
+          <ImmunityGainSpeed>0.3</ImmunityGainSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <degree>1</degree>
+        <label>Blood Dragon</label>
+        <description>A maturing dragon whose scales have deepened to crimson. Blood Dragons have learned to harness their inner fire, gaining enhanced combat prowess and the ability to inspire both fear and respect.</description>
+        <skillGains>
+          <Melee>5</Melee>
+          <Shooting>3</Shooting>
+          <Intellectual>5</Intellectual>
+          <Social>3</Social>
+          <Medicine>2</Medicine>
+        </skillGains>
+        <statOffsets>
+          <MoveSpeed>0.3</MoveSpeed>
+          <MeleeHitChance>0.15</MeleeHitChance>
+          <MeleeDodgeChance>0.1</MeleeDodgeChance>
+          <ShootingAccuracyPawn>0.12</ShootingAccuracyPawn>
+          <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+          <GlobalLearningFactor>0.3</GlobalLearningFactor>
+          <ImmunityGainSpeed>0.4</ImmunityGainSpeed>
+          <SocialImpact>0.1</SocialImpact>
+        </statOffsets>
+      </li>
+      <li>
+        <degree>2</degree>
+        <label>Frost Dragon</label>
+        <description>An experienced dragon whose mastery over ice and cold has transformed their very essence. Frost Dragons possess incredible resilience and the wisdom that comes with centuries of existence.</description>
+        <skillGains>
+          <Melee>6</Melee>
+          <Shooting>4</Shooting>
+          <Intellectual>7</Intellectual>
+          <Social>4</Social>
+          <Medicine>3</Medicine>
+          <Construction>2</Construction>
+        </skillGains>
+        <statOffsets>
+          <MoveSpeed>0.4</MoveSpeed>
+          <MeleeHitChance>0.2</MeleeHitChance>
+          <MeleeDodgeChance>0.15</MeleeDodgeChance>
+          <ShootingAccuracyPawn>0.15</ShootingAccuracyPawn>
+          <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+          <GlobalLearningFactor>0.4</GlobalLearningFactor>
+          <ImmunityGainSpeed>0.6</ImmunityGainSpeed>
+          <SocialImpact>0.15</SocialImpact>
+          <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+        </statOffsets>
+      </li>
+      <li>
+        <degree>3</degree>
+        <label>Elder Dragon</label>
+        <description>A venerable dragon who has lived for centuries, accumulating vast knowledge and power. Elder Dragons are forces of nature, commanding respect from all intelligent beings and possessing near-legendary capabilities.</description>
+        <skillGains>
+          <Melee>8</Melee>
+          <Shooting>6</Shooting>
+          <Intellectual>10</Intellectual>
+          <Social>6</Social>
+          <Medicine>5</Medicine>
+          <Construction>3</Construction>
+          <Research>4</Research>
+        </skillGains>
+        <statOffsets>
+          <MoveSpeed>0.5</MoveSpeed>
+          <MeleeHitChance>0.25</MeleeHitChance>
+          <MeleeDodgeChance>0.2</MeleeDodgeChance>
+          <ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
+          <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+          <GlobalLearningFactor>0.5</GlobalLearningFactor>
+          <ImmunityGainSpeed>0.8</ImmunityGainSpeed>
+          <SocialImpact>0.2</SocialImpact>
+          <NegotiationAbility>0.3</NegotiationAbility>
+          <TradePriceImprovement>0.2</TradePriceImprovement>
+        </statOffsets>
+      </li>
+      <li>
+        <degree>4</degree>
+        <label>Ancient Dragon</label>
+        <description>A dragon of immense age and power, having survived countless conflicts and accumulated millennia of wisdom. Ancient Dragons are living repositories of knowledge, their very presence commanding awe and terror.</description>
+        <skillGains>
+          <Melee>10</Melee>
+          <Shooting>8</Shooting>
+          <Intellectual>12</Intellectual>
+          <Social>8</Social>
+          <Medicine>6</Medicine>
+          <Construction>4</Construction>
+          <Research>6</Research>
+          <Artistic>3</Artistic>
+        </skillGains>
+        <statOffsets>
+          <MoveSpeed>0.6</MoveSpeed>
+          <MeleeHitChance>0.3</MeleeHitChance>
+          <MeleeDodgeChance>0.25</MeleeDodgeChance>
+          <ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
+          <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+          <GlobalLearningFactor>0.6</GlobalLearningFactor>
+          <ImmunityGainSpeed>1.0</ImmunityGainSpeed>
+          <SocialImpact>0.3</SocialImpact>
+          <NegotiationAbility>0.4</NegotiationAbility>
+          <TradePriceImprovement>0.3</TradePriceImprovement>
+          <WorkSpeedGlobal>0.2</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+      <li>
+        <degree>5</degree>
+        <label>Revered Dragon</label>
+        <description>A dragon of such ancient power that their very existence becomes the stuff of legend. Revered Dragons possess abilities that border on the divine, their wisdom spanning eras and their power reshaping the world around them.</description>
+        <skillGains>
+          <Melee>12</Melee>
+          <Shooting>10</Shooting>
+          <Intellectual>15</Intellectual>
+          <Social>10</Social>
+          <Medicine>8</Medicine>
+          <Construction>6</Construction>
+          <Research>8</Research>
+          <Artistic>5</Artistic>
+          <Mining>4</Mining>
+        </skillGains>
+        <statOffsets>
+          <MoveSpeed>0.8</MoveSpeed>
+          <MeleeHitChance>0.4</MeleeHitChance>
+          <MeleeDodgeChance>0.35</MeleeDodgeChance>
+          <ShootingAccuracyPawn>0.3</ShootingAccuracyPawn>
+          <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+          <GlobalLearningFactor>0.8</GlobalLearningFactor>
+          <ImmunityGainSpeed>1.2</ImmunityGainSpeed>
+          <SocialImpact>0.4</SocialImpact>
+          <NegotiationAbility>0.5</NegotiationAbility>
+          <TradePriceImprovement>0.4</TradePriceImprovement>
+          <WorkSpeedGlobal>0.3</WorkSpeedGlobal>
+          <MentalBreakThreshold>-0.2</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+      <li>
+        <degree>6</degree>
+        <label>Legendary Dragon</label>
+        <description>The pinnacle of draconic evolution - a being of such immense power and wisdom that they transcend mortal understanding. Legendary Dragons are forces of nature incarnate, their very presence altering reality and inspiring both worship and terror. They are the stuff of myths made manifest.</description>
+        <skillGains>
+          <Melee>15</Melee>
+          <Shooting>12</Shooting>
+          <Intellectual>20</Intellectual>
+          <Social>12</Social>
+          <Medicine>10</Medicine>
+          <Construction>8</Construction>
+          <Research>10</Research>
+          <Artistic>8</Artistic>
+          <Mining>6</Mining>
+          <Plants>4</Plants>
+          <Animals>6</Animals>
+        </skillGains>
+        <statOffsets>
+          <MoveSpeed>1.0</MoveSpeed>
+          <MeleeHitChance>0.5</MeleeHitChance>
+          <MeleeDodgeChance>0.5</MeleeDodgeChance>
+          <ShootingAccuracyPawn>0.4</ShootingAccuracyPawn>
+          <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+          <GlobalLearningFactor>1.0</GlobalLearningFactor>
+          <ImmunityGainSpeed>1.5</ImmunityGainSpeed>
+          <SocialImpact>0.5</SocialImpact>
+          <NegotiationAbility>0.6</NegotiationAbility>
+          <TradePriceImprovement>0.5</TradePriceImprovement>
+          <WorkSpeedGlobal>0.5</WorkSpeedGlobal>
+          <MentalBreakThreshold>-0.3</MentalBreakThreshold>
+          <PsychicSensitivity>0.3</PsychicSensitivity>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>
