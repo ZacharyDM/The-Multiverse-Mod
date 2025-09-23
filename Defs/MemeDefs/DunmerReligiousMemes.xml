@@ -49,10 +49,10 @@
     </fixedDeityNameTypes>
   </MemeDef>
 
-  <!-- House Dagoth Corpus Cult - Dagoth Ur and Divine Disease Worship -->
+  <!-- House Dagoth Corpus Cult - The Sixth House -->
   <MemeDef>
     <defName>CorpusCult</defName>
-    <label>corpus worship</label>
+    <label>the sixth house</label>
     <description>Veneration of Dagoth Ur and the divine disease known as Corpus. Followers believe that Corpus is not a curse but a blessing that transforms the faithful into something greater than mortal flesh. They seek to spread this "gift" and serve their god-king in his underground citadel.</description>
     <iconPath>UI/Memes/CorpusCult</iconPath>
     <impact>3</impact>
@@ -71,10 +71,10 @@
     <worshipRoomLabel>corpus chamber</worshipRoomLabel>
     <symbolPacks>
       <li>
-        <ideoName>House Dagoth</ideoName>
+        <ideoName>The Sixth House</ideoName>
         <theme>HouseDagoth</theme>
         <adjective>corpus-blessed</adjective>
-        <member>corpus cultist</member>
+        <member>sixth house cultist</member>
         <deity>Dagoth Ur</deity>
         <deityPlural>Sharmat</deityPlural>
         <place>citadel</place>
@@ -97,11 +97,11 @@
     </fixedDeityNameTypes>
   </MemeDef>
 
-  <!-- Ashlander Ancestor Worship - Traditional Daedra and Ancestor Veneration -->
+  <!-- Ashlander Ancestor Worship - The Reclaimations -->
   <MemeDef>
     <defName>AshlanderAncestorWorship</defName>
-    <label>ancestor worship</label>
-    <description>The ancient faith of the nomadic Ashlander tribes, venerating the spirits of deceased ancestors and the Good Daedra: Azura the Dusk and Dawn, Boethiah the Prince of Plots, and Mephala the Webspinner. This is the oldest religious tradition of the Dunmer people, predating the Tribunal Temple.</description>
+    <label>the reclaimations</label>
+    <description>The ancient faith of the nomadic Ashlander tribes, venerating the spirits of deceased ancestors and the Good Daedra: Azura the Dusk and Dawn, Boethiah the Prince of Plots, and Mephala the Webspinner. This was the original Chimer religion, focusing on worship of the 4 good Daedra, with the other bad Daedra being of the House of Troubles.</description>
     <iconPath>UI/Memes/AncestorWorship</iconPath>
     <impact>1</impact>
     <category>Deity</category>
@@ -119,7 +119,7 @@
     <worshipRoomLabel>ancestor shrine</worshipRoomLabel>
     <symbolPacks>
       <li>
-        <ideoName>Ashlander Tradition</ideoName>
+        <ideoName>The Reclaimations</ideoName>
         <theme>AshlanderTradition</theme>
         <adjective>traditional</adjective>
         <member>tribe member</member>
@@ -147,11 +147,11 @@
     </fixedDeityNameTypes>
   </MemeDef>
 
-  <!-- Great House Ancestor Worship - Formal House-based Ancestor Veneration -->
+  <!-- Great House Ancestor Worship - The Tribunal -->
   <MemeDef>
     <defName>GreatHouseAncestorWorship</defName>
-    <label>house ancestor worship</label>
-    <description>The formal ancestor veneration practiced by the Great Houses of Morrowind, honoring the noble lineages and founding fathers of each House. This tradition emphasizes bloodline, honor, and the continuation of House prestige through generations.</description>
+    <label>the tribunal</label>
+    <description>The main religion followed by all Great Houses of Morrowind, venerating the three Living Gods alongside their noble lineages and founding fathers. This tradition emphasizes bloodline, honor, and the continuation of House prestige through generations while following the canonical state religion.</description>
     <iconPath>UI/Memes/GreatHouseWorship</iconPath>
     <impact>1</impact>
     <category>Structure</category>
@@ -169,12 +169,12 @@
     <worshipRoomLabel>ancestral hall</worshipRoomLabel>
     <symbolPacks>
       <li>
-        <ideoName>Great House Tradition</ideoName>
+        <ideoName>The Tribunal</ideoName>
         <theme>GreatHouse</theme>
         <adjective>noble</adjective>
         <member>house retainer</member>
-        <deity>house ancestors</deity>
-        <deityPlural>noble ancestors</deityPlural>
+        <deity>living gods</deity>
+        <deityPlural>living gods</deityPlural>
         <place>great house</place>
       </li>
     </symbolPacks>
