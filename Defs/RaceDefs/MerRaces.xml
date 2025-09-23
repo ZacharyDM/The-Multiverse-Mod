@@ -135,4 +135,265 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </ThingDef>
+
+  <ThingDef ParentName="MerBase">
+    <defName>Dwemer</defName>
+    <label>dwemer</label>
+    <description>The Deep Elves, also known as Dwemer, were a mysterious and technologically advanced race that vanished from Tamriel. They were master engineers and artificers, known for their mechanical constructs and steam-powered technology.</description>
+    <race>
+      <!-- Dwemer have bronze/copper skin tones -->
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <weight>50</weight>
+            <only>(0.7, 0.6, 0.4, 1)</only> <!-- Bronze -->
+          </li>
+          <li>
+            <weight>30</weight>
+            <only>(0.65, 0.55, 0.35, 1)</only> <!-- Dark bronze -->
+          </li>
+          <li>
+            <weight>20</weight>
+            <only>(0.8, 0.65, 0.45, 1)</only> <!-- Light bronze -->
+          </li>
+        </options>
+      </colorGenerator>
+      <baseBodySize>1.0</baseBodySize>
+      <forcedTraits>
+        <li>DwemerIngenuity</li>
+      </forcedTraits>
+      <lifeExpectancy>220</lifeExpectancy>
+    </race>
+    <statBases>
+      <MoveSpeed>4.2</MoveSpeed>
+      <MarketValue>4000</MarketValue>
+      <ShootingAccuracyPawn>0.02</ShootingAccuracyPawn>
+      <MeleeHitChance>0.03</MeleeHitChance>
+      <ComfyTemperatureMin>-15</ComfyTemperatureMin>
+      <ComfyTemperatureMax>45</ComfyTemperatureMax>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/Dwemer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="MerBase">
+    <defName>Falmer</defName>
+    <label>falmer</label>
+    <description>The Betrayed, once Snow Elves, the Falmer were transformed by the Dwemer into twisted, blind creatures. They possess heightened senses and are naturally adapted to underground environments.</description>
+    <race>
+      <!-- Falmer have pale, sickly skin tones -->
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <weight>50</weight>
+            <only>(0.8, 0.8, 0.9, 1)</only> <!-- Pale blue-white -->
+          </li>
+          <li>
+            <weight>30</weight>
+            <only>(0.75, 0.75, 0.85, 1)</only> <!-- Pale -->
+          </li>
+          <li>
+            <weight>20</weight>
+            <only>(0.7, 0.7, 0.8, 1)</only> <!-- Greyish pale -->
+          </li>
+        </options>
+      </colorGenerator>
+      <baseBodySize>0.9</baseBodySize>
+      <healthScale>0.85</healthScale>
+      <forcedTraits>
+        <li>FalmerAdaptation</li>
+      </forcedTraits>
+      <lifeExpectancy>150</lifeExpectancy>
+    </race>
+    <statBases>
+      <MoveSpeed>4.7</MoveSpeed>
+      <MarketValue>2800</MarketValue>
+      <ShootingAccuracyPawn>-0.02</ShootingAccuracyPawn>
+      <MeleeHitChance>0.06</MeleeHitChance>
+      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+      <ComfyTemperatureMax>25</ComfyTemperatureMax>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/Falmer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="MerBase">
+    <defName>Ayleid</defName>
+    <label>ayleid</label>
+    <description>The Wild Elves of ancient Cyrodiil, the Ayleids were masters of magic and architecture. They built great white-gold cities and were known for their mastery of starlight and magic.</description>
+    <race>
+      <!-- Ayleids have pale golden skin tones -->
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <weight>40</weight>
+            <only>(0.9, 0.9, 0.8, 1)</only> <!-- Pale gold -->
+          </li>
+          <li>
+            <weight>30</weight>
+            <only>(0.85, 0.85, 0.75, 1)</only> <!-- Ivory -->
+          </li>
+          <li>
+            <weight>20</weight>
+            <only>(0.95, 0.95, 0.85, 1)</only> <!-- Light gold -->
+          </li>
+          <li>
+            <weight>10</weight>
+            <only>(0.8, 0.8, 0.7, 1)</only> <!-- Dusky gold -->
+          </li>
+        </options>
+      </colorGenerator>
+      <baseBodySize>1.0</baseBodySize>
+      <forcedTraits>
+        <li>AyleidStarlightMastery</li>
+      </forcedTraits>
+      <lifeExpectancy>240</lifeExpectancy>
+    </race>
+    <statBases>
+      <MoveSpeed>4.3</MoveSpeed>
+      <MarketValue>3800</MarketValue>
+      <ShootingAccuracyPawn>0.04</ShootingAccuracyPawn>
+      <MeleeHitChance>0.02</MeleeHitChance>
+      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+      <ComfyTemperatureMax>38</ComfyTemperatureMax>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/Ayleid</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="MerBase">
+    <defName>Chimer</defName>
+    <label>chimer</label>
+    <description>The Changed Folk, ancestors of the modern Dunmer before their curse. The Chimer had golden skin and were known for their warrior culture and devotion to the Good Daedra.</description>
+    <race>
+      <!-- Chimer have golden skin like Altmer but slightly different -->
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <weight>50</weight>
+            <only>(0.85, 0.75, 0.55, 1)</only> <!-- Deep golden -->
+          </li>
+          <li>
+            <weight>30</weight>
+            <only>(0.9, 0.8, 0.6, 1)</only> <!-- Golden -->
+          </li>
+          <li>
+            <weight>20</weight>
+            <only>(0.8, 0.7, 0.5, 1)</only> <!-- Dark golden -->
+          </li>
+        </options>
+      </colorGenerator>
+      <baseBodySize>1.0</baseBodySize>
+      <forcedTraits>
+        <li>ChimerWarriorSpirit</li>
+      </forcedTraits>
+      <lifeExpectancy>210</lifeExpectancy>
+    </race>
+    <statBases>
+      <MoveSpeed>4.6</MoveSpeed>
+      <MarketValue>3400</MarketValue>
+      <ShootingAccuracyPawn>0.03</ShootingAccuracyPawn>
+      <MeleeHitChance>0.05</MeleeHitChance>
+      <ComfyTemperatureMin>-8</ComfyTemperatureMin>
+      <ComfyTemperatureMax>42</ComfyTemperatureMax>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/Chimer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="MerBase">
+    <defName>Maormer</defName>
+    <label>maormer</label>
+    <description>The Sea Elves of Pyandonea are skilled seafarers and snake-charmers. They have pale skin that becomes chameleon-like and are known for their mastery of sea serpents and naval warfare.</description>
+    <race>
+      <!-- Maormer have pale, almost translucent skin -->
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <weight>40</weight>
+            <only>(0.9, 0.95, 0.95, 1)</only> <!-- Pale blue-white -->
+          </li>
+          <li>
+            <weight>30</weight>
+            <only>(0.85, 0.9, 0.9, 1)</only> <!-- Very pale -->
+          </li>
+          <li>
+            <weight>20</weight>
+            <only>(0.95, 1.0, 1.0, 1)</only> <!-- Near white -->
+          </li>
+          <li>
+            <weight>10</weight>
+            <only>(0.8, 0.85, 0.85, 1)</only> <!-- Greyish pale -->
+          </li>
+        </options>
+      </colorGenerator>
+      <baseBodySize>1.0</baseBodySize>
+      <forcedTraits>
+        <li>MaormerSeaMastery</li>
+      </forcedTraits>
+      <lifeExpectancy>230</lifeExpectancy>
+    </race>
+    <statBases>
+      <MoveSpeed>4.4</MoveSpeed>
+      <MarketValue>3600</MarketValue>
+      <ShootingAccuracyPawn>0.03</ShootingAccuracyPawn>
+      <MeleeHitChance>0.04</MeleeHitChance>
+      <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+      <ComfyTemperatureMax>35</ComfyTemperatureMax>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/Maormer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="MerBase">
+    <defName>Aldmer</defName>
+    <label>aldmer</label>
+    <description>The Elder Folk, the original elven race from which all other mer descended. They were the first to settle Tamriel and are considered the ancestors of all elven races.</description>
+    <race>
+      <!-- Aldmer have pure golden skin -->
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <weight>60</weight>
+            <only>(1.0, 0.9, 0.7, 1)</only> <!-- Pure gold -->
+          </li>
+          <li>
+            <weight>25</weight>
+            <only>(0.95, 0.85, 0.65, 1)</only> <!-- Rich gold -->
+          </li>
+          <li>
+            <weight>15</weight>
+            <only>(1.0, 0.95, 0.75, 1)</only> <!-- Light gold -->
+          </li>
+        </options>
+      </colorGenerator>
+      <baseBodySize>1.05</baseBodySize>
+      <forcedTraits>
+        <li>AldmerAncientWisdom</li>
+      </forcedTraits>
+      <lifeExpectancy>280</lifeExpectancy>
+    </race>
+    <statBases>
+      <MoveSpeed>4.1</MoveSpeed>
+      <MarketValue>4200</MarketValue>
+      <ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+      <MeleeHitChance>0.04</MeleeHitChance>
+      <ComfyTemperatureMin>-8</ComfyTemperatureMin>
+      <ComfyTemperatureMax>40</ComfyTemperatureMax>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/Aldmer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
 </ThingDefs>

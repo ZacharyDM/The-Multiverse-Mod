@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Ogre Racial Trait -->
+  <TraitDef>
+    <defName>OgreBrutality</defName>
+    <label>Ogre Brutality</label>
+    <description>This Ogre possesses the immense strength and crude nature typical of their kind, excelling in physical tasks but struggling with delicate work.</description>
+    <degreeDatas>
+      <li>
+        <label>Brute Force</label>
+        <description>Born with incredible strength but limited intellect, this pawn excels in physical combat and labor.</description>
+        <skillGains>
+          <Melee>5</Melee>
+          <Mining>4</Mining>
+          <Construction>3</Construction>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageAmount>0.25</MeleeDamageAmount>
+          <MeleeHitChance>0.08</MeleeHitChance>
+          <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+          <ResearchSpeed>-0.3</ResearchSpeed>
+          <ShootingAccuracyPawn>-0.05</ShootingAccuracyPawn>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Goblin Racial Trait -->
+  <TraitDef>
+    <defName>GoblinCunning</defName>
+    <label>Goblin Cunning</label>
+    <description>This Goblin possesses the natural cunning and mischievous nature of their kind, excelling in stealth and trickery.</description>
+    <degreeDatas>
+      <li>
+        <label>Mischievous</label>
+        <description>Born with natural cunning and agility, this pawn excels in stealth, crafting small items, and survival.</description>
+        <skillGains>
+          <Crafting>3</Crafting>
+          <Animals>3</Animals>
+          <Mining>2</Mining>
+          <Melee>2</Melee>
+        </skillGains>
+        <statOffsets>
+          <MoveSpeed>0.4</MoveSpeed>
+          <ShootingAccuracyPawn>0.04</ShootingAccuracyPawn>
+          <WorkSpeedGlobal>0.08</WorkSpeedGlobal>
+          <MeleeDamageAmount>-0.1</MeleeDamageAmount>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Dreugh Racial Trait -->
+  <TraitDef>
+    <defName>DreudhAmphibious</defName>
+    <label>Dreugh Amphibious</label>
+    <description>This Dreugh possesses the amphibious nature and natural armor of the ancient crab-people, adapted for both land and sea.</description>
+    <degreeDatas>
+      <li>
+        <label>Shell Armor</label>
+        <description>Born with natural shell armor and amphibious adaptation, this pawn has enhanced defense and water affinity.</description>
+        <skillGains>
+          <Animals>3</Animals>
+          <Medicine>3</Medicine>
+          <Intellectual>2</Intellectual>
+          <Melee>2</Melee>
+        </skillGains>
+        <statOffsets>
+          <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+          <ImmunityGainSpeed>0.2</ImmunityGainSpeed>
+          <MoveSpeed>-0.3</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Centaur Racial Trait -->
+  <TraitDef>
+    <defName>CentaurWild</defName>
+    <label>Centaur Wild</label>
+    <description>This Centaur possesses the natural speed, archery skills, and wild nature of the horse-people.</description>
+    <degreeDatas>
+      <li>
+        <label>Wild Runner</label>
+        <description>Born with the speed of horses and skill of hunters, this pawn excels in archery, movement, and nature knowledge.</description>
+        <skillGains>
+          <Shooting>5</Shooting>
+          <Animals>4</Animals>
+          <Plants>3</Plants>
+          <Melee>2</Melee>
+        </skillGains>
+        <statOffsets>
+          <MoveSpeed>2.0</MoveSpeed>
+          <ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+          <MeleeHitChance>0.04</MeleeHitChance>
+          <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Giant Racial Trait -->
+  <TraitDef>
+    <defName>GiantStrength</defName>
+    <label>Giant Strength</label>
+    <description>This Giant possesses the incredible size and strength of their kind, but lacks agility and fine motor skills.</description>
+    <degreeDatas>
+      <li>
+        <label>Colossal</label>
+        <description>Born with massive size and strength, this pawn can accomplish incredible feats of physical power but struggles with delicate tasks.</description>
+        <skillGains>
+          <Melee>6</Melee>
+          <Mining>5</Mining>
+          <Construction>4</Construction>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageAmount>0.4</MeleeDamageAmount>
+          <MeleeHitChance>0.1</MeleeHitChance>
+          <WorkSpeedGlobal>0.2</WorkSpeedGlobal>
+          <MoveSpeed>-1.5</MoveSpeed>
+          <ShootingAccuracyPawn>-0.1</ShootingAccuracyPawn>
+          <ResearchSpeed>-0.2</ResearchSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>
