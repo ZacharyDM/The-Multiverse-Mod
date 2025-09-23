@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <ThingDef ParentName="MerBase">
+    <defName>Bosmer</defName>
+    <label>bosmer</label>
+    <description>The Wood Elves of Valenwood are naturally gifted archers and scouts. Bound by the Green Pact, they live in harmony with nature and possess exceptional marksmanship abilities.</description>
+    <race>
+      <!-- Bosmer have copper/bronze skin tones -->
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <weight>40</weight>
+            <only>(0.7, 0.55, 0.4, 1)</only> <!-- Copper -->
+          </li>
+          <li>
+            <weight>30</weight>
+            <only>(0.65, 0.5, 0.35, 1)</only> <!-- Bronze -->
+          </li>
+          <li>
+            <weight>20</weight>
+            <only>(0.8, 0.6, 0.45, 1)</only> <!-- Light copper -->
+          </li>
+          <li>
+            <weight>10</weight>
+            <only>(0.6, 0.45, 0.3, 1)</only> <!-- Dark bronze -->
+          </li>
+        </options>
+      </colorGenerator>
+      <baseBodySize>0.95</baseBodySize>
+      <forcedTraits>
+        <li>BosmerForestWisdom</li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MoveSpeed>4.8</MoveSpeed>
+      <MarketValue>3100</MarketValue>
+      <ShootingAccuracyPawn>0.08</ShootingAccuracyPawn>
+      <MeleeHitChance>0.04</MeleeHitChance>
+      <ComfyTemperatureMin>-8</ComfyTemperatureMin>
+      <ComfyTemperatureMax>42</ComfyTemperatureMax>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/Bosmer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="MerBase">
+    <defName>Altmer</defName>
+    <label>altmer</label>
+    <description>The High Elves of Summerset are considered the most magically gifted of all races. They are tall, proud, and possess enhanced magical abilities but are somewhat susceptible to magic themselves.</description>
+    <race>
+      <!-- Altmer have golden skin tones -->
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <weight>50</weight>
+            <only>(0.9, 0.8, 0.6, 1)</only> <!-- Golden -->
+          </li>
+          <li>
+            <weight>30</weight>
+            <only>(0.95, 0.85, 0.65, 1)</only> <!-- Light golden -->
+          </li>
+          <li>
+            <weight>20</weight>
+            <only>(0.85, 0.75, 0.55, 1)</only> <!-- Deep golden -->
+          </li>
+        </options>
+      </colorGenerator>
+      <baseBodySize>1.05</baseBodySize>
+      <forcedTraits>
+        <li>AltmerMagicalAffinity</li>
+      </forcedTraits>
+      <!-- Altmer live longer than other Mer -->
+      <lifeExpectancy>250</lifeExpectancy>
+    </race>
+    <statBases>
+      <MoveSpeed>4.4</MoveSpeed>
+      <MarketValue>3500</MarketValue>
+      <ShootingAccuracyPawn>0.03</ShootingAccuracyPawn>
+      <MeleeHitChance>0.03</MeleeHitChance>
+      <ComfyTemperatureMin>-8</ComfyTemperatureMin>
+      <ComfyTemperatureMax>38</ComfyTemperatureMax>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/Altmer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="MerBase">
+    <defName>Orsimer</defName>
+    <label>orsimer</label>
+    <description>The Orcs, also known as Orsimer, are the strongest of the elven races. They excel in heavy armor usage, smithing, and berserker combat styles. They are known for their honor-bound society.</description>
+    <race>
+      <!-- Orsimer have green skin tones -->
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <weight>40</weight>
+            <only>(0.4, 0.5, 0.3, 1)</only> <!-- Green -->
+          </li>
+          <li>
+            <weight>30</weight>
+            <only>(0.35, 0.45, 0.25, 1)</only> <!-- Dark green -->
+          </li>
+          <li>
+            <weight>20</weight>
+            <only>(0.45, 0.55, 0.35, 1)</only> <!-- Light green -->
+          </li>
+          <li>
+            <weight>10</weight>
+            <only>(0.5, 0.4, 0.3, 1)</only> <!-- Brown-green -->
+          </li>
+        </options>
+      </colorGenerator>
+      <baseBodySize>1.1</baseBodySize>
+      <healthScale>1.15</healthScale>
+      <forcedTraits>
+        <li>OrsimerFerocity</li>
+      </forcedTraits>
+      <!-- Orsimer have shorter lifespans than other Mer -->
+      <lifeExpectancy>180</lifeExpectancy>
+    </race>
+    <statBases>
+      <MoveSpeed>4.3</MoveSpeed>
+      <MarketValue>3300</MarketValue>
+      <ShootingAccuracyPawn>0.02</ShootingAccuracyPawn>
+      <MeleeHitChance>0.08</MeleeHitChance>
+      <ComfyTemperatureMin>-12</ComfyTemperatureMin>
+      <ComfyTemperatureMax>45</ComfyTemperatureMax>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/Orsimer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+</ThingDefs>

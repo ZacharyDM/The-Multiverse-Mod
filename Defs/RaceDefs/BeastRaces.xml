@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <ThingDef ParentName="BeastRaceBase">
+    <defName>Khajiit</defName>
+    <label>khajiit</label>
+    <description>The cat-people of Elsweyr are known for their natural agility, stealth, and keen night vision. They make excellent thieves, merchants, and scouts with their nimble fingers and quick reflexes.</description>
+    <race>
+      <!-- Khajiit have fur-like coloring -->
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <weight>40</weight>
+            <only>(0.6, 0.45, 0.3, 1)</only> <!-- Brown -->
+          </li>
+          <li>
+            <weight>30</weight>
+            <only>(0.7, 0.6, 0.4, 1)</only> <!-- Tan -->
+          </li>
+          <li>
+            <weight>20</weight>
+            <only>(0.5, 0.5, 0.5, 1)</only> <!-- Grey -->
+          </li>
+          <li>
+            <weight>10</weight>
+            <only>(0.3, 0.3, 0.3, 1)</only> <!-- Dark -->
+          </li>
+        </options>
+      </colorGenerator>
+      <baseBodySize>0.95</baseBodySize>
+      <forcedTraits>
+        <li>KhajiitNaturalAgility</li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MoveSpeed>5.1</MoveSpeed>
+      <MarketValue>3400</MarketValue>
+      <ShootingAccuracyPawn>0.04</ShootingAccuracyPawn>
+      <MeleeHitChance>0.06</MeleeHitChance>
+      <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+      <ComfyTemperatureMax>45</ComfyTemperatureMax>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/Khajiit</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="BeastRaceBase">
+    <defName>Argonian</defName>
+    <label>argonian</label>
+    <description>The reptilian people of Black Marsh are known for their resistance to disease, natural healing abilities, and adaptability to harsh swampland conditions. They are connected to the mysterious Hist trees.</description>
+    <race>
+      <!-- Argonians have reptilian coloring -->
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <weight>35</weight>
+            <only>(0.4, 0.6, 0.3, 1)</only> <!-- Green -->
+          </li>
+          <li>
+            <weight>25</weight>
+            <only>(0.5, 0.4, 0.2, 1)</only> <!-- Brown -->
+          </li>
+          <li>
+            <weight>20</weight>
+            <only>(0.3, 0.5, 0.5, 1)</only> <!-- Teal -->
+          </li>
+          <li>
+            <weight>15</weight>
+            <only>(0.6, 0.5, 0.2, 1)</only> <!-- Yellow-brown -->
+          </li>
+          <li>
+            <weight>5</weight>
+            <only>(0.2, 0.2, 0.4, 1)</only> <!-- Blue-grey -->
+          </li>
+        </options>
+      </colorGenerator>
+      <baseBodySize>1.0</baseBodySize>
+      <forcedTraits>
+        <li>ArgonianAdaptation</li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MoveSpeed>4.7</MoveSpeed>
+      <MarketValue>3300</MarketValue>
+      <ShootingAccuracyPawn>0.03</ShootingAccuracyPawn>
+      <MeleeHitChance>0.04</MeleeHitChance>
+      <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+      <ComfyTemperatureMax>50</ComfyTemperatureMax>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/Argonian</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+</ThingDefs>

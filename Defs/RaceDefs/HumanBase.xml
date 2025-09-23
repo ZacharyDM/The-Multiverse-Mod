@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <ThingDef Name="HumanBase">
+    <defName>HumanBase</defName>
+    <label>human</label>
+    <description>Template base for all Human races. Contains shared traits and settings for human variants from different regions of Tamriel.</description>
+    <race>
+      <body>Humanoid</body>
+      <baseBodySize>1.0</baseBodySize>
+      <healthScale>1.0</healthScale>
+      <foodTypeFlags>VegetarianOrMeat</foodTypeFlags>
+      <gestationPeriodDays>30</gestationPeriodDays>
+      <wildness>0.0</wildness>
+      <intelligence>Humanlike</intelligence>
+      <!-- Standard human life stages -->
+      <lifeStageAges Inherit="False">
+        <li>
+          <def>HumanBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>HumanChild</def>
+          <minAge>3</minAge>
+        </li>
+        <li>
+          <def>HumanAdult</def>
+          <minAge>13</minAge>
+        </li>
+        <li>
+          <def>HumanOld</def>
+          <minAge>65</minAge>
+        </li>
+      </lifeStageAges>
+      <!-- Standard human lifespan -->
+      <lifeExpectancy>80</lifeExpectancy>
+      <ageGenerationCurve>
+        <points>
+          <li>
+            <x>18</x>
+            <y>0.5</y>
+          </li>
+          <li>
+            <x>30</x>
+            <y>1.0</y>
+          </li>
+          <li>
+            <x>50</x>
+            <y>0.8</y>
+          </li>
+          <li>
+            <x>70</x>
+            <y>0.5</y>
+          </li>
+          <li>
+            <x>80</x>
+            <y>0.1</y>
+          </li>
+        </points>
+      </ageGenerationCurve>
+    </race>
+    <statBases>
+      <MoveSpeed>4.6</MoveSpeed>
+      <MarketValue>2800</MarketValue>
+      <ComfyTemperatureMin>-15</ComfyTemperatureMin>
+      <ComfyTemperatureMax>35</ComfyTemperatureMax>
+      <ShootingAccuracyPawn>0.02</ShootingAccuracyPawn>
+      <MeleeHitChance>0.03</MeleeHitChance>
+    </statBases>
+    <thingCategories>
+      <li>Pawns</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/HumanBase</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+</ThingDefs>

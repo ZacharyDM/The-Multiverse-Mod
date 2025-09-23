@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <ThingDef Name="BeastRaceBase">
+    <defName>BeastRaceBase</defName>
+    <label>beast race</label>
+    <description>Template base for all Beast races. Contains shared traits and settings for the non-human races of Tamriel like Khajiit and Argonians.</description>
+    <race>
+      <body>Humanoid</body>
+      <baseBodySize>1.0</baseBodySize>
+      <healthScale>1.1</healthScale>
+      <foodTypeFlags>VegetarianOrMeat</foodTypeFlags>
+      <gestationPeriodDays>32</gestationPeriodDays>
+      <wildness>0.05</wildness>
+      <intelligence>Humanlike</intelligence>
+      <!-- Beast races have slightly different life stages -->
+      <lifeStageAges Inherit="False">
+        <li>
+          <def>HumanBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>HumanChild</def>
+          <minAge>4</minAge>
+        </li>
+        <li>
+          <def>HumanAdult</def>
+          <minAge>15</minAge>
+        </li>
+        <li>
+          <def>HumanOld</def>
+          <minAge>70</minAge>
+        </li>
+      </lifeStageAges>
+      <!-- Slightly longer lived than standard humans -->
+      <lifeExpectancy>90</lifeExpectancy>
+      <ageGenerationCurve>
+        <points>
+          <li>
+            <x>18</x>
+            <y>0.5</y>
+          </li>
+          <li>
+            <x>35</x>
+            <y>1.0</y>
+          </li>
+          <li>
+            <x>60</x>
+            <y>0.8</y>
+          </li>
+          <li>
+            <x>80</x>
+            <y>0.5</y>
+          </li>
+          <li>
+            <x>90</x>
+            <y>0.1</y>
+          </li>
+        </points>
+      </ageGenerationCurve>
+    </race>
+    <statBases>
+      <MoveSpeed>4.8</MoveSpeed>
+      <MarketValue>3200</MarketValue>
+      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+      <ComfyTemperatureMax>40</ComfyTemperatureMax>
+      <ShootingAccuracyPawn>0.03</ShootingAccuracyPawn>
+      <MeleeHitChance>0.04</MeleeHitChance>
+    </statBases>
+    <thingCategories>
+      <li>Pawns</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/BeastRaceBase</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+</ThingDefs>
