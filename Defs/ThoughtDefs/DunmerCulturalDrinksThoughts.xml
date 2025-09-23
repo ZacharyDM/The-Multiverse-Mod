@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Sujamma taste thoughts -->
+  <ThoughtDef>
+    <defName>DrankSujamma</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>Alcohol</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>enjoyed sujamma</label>
+        <description>I had some sujamma. It's a strong drink, but it has that distinctive bitter taste that reminds me of home.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+        <minExpectation>ExtremelyLow</minExpectation>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Mazte taste thoughts -->
+  <ThoughtDef>
+    <defName>DrankMazte</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>Alcohol</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>enjoyed mazte</label>
+        <description>I had some mazte. This traditional Dunmer beer has a satisfying grainy flavor that goes well with any meal.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+        <minExpectation>ExtremelyLow</minExpectation>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Flin taste thoughts -->
+  <ThoughtDef>
+    <defName>DrankFlin</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>Alcohol</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>enjoyed flin</label>
+        <description>I had some flin. This potent drink has a fiery taste that warms the spirit and strengthens resolve.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+        <minExpectation>ExtremelyLow</minExpectation>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Greef taste thoughts -->
+  <ThoughtDef>
+    <defName>DrankGreef</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>Alcohol</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>enjoyed greef</label>
+        <description>I had some greef. The herbal flavors are quite pleasant and seem to clear the mind while relaxing the body.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+        <minExpectation>ExtremelyLow</minExpectation>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Shein taste thoughts -->
+  <ThoughtDef>
+    <defName>DrankShein</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>Alcohol</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>enjoyed shein</label>
+        <description>I had some shein. This refined wine has an elegant, complex flavor that speaks of sophistication and culture.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+        <minExpectation>ExtremelyLow</minExpectation>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>
