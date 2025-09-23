@@ -83,7 +83,7 @@
   
   <!-- Dunmer Religious Memes -->
   <Meme_TribunalWorship_Label>Tribunal Worship</Meme_TribunalWorship_Label>
-  <Meme_TribunalWorship_Description>Devotion to the Living Gods of Morrowind: Almalexia the Healing Mother, Sotha Sil the Clockwork God, and Vivec the Poet-Warrior. This faith teaches that these three former mortals achieved divinity through wisdom, struggle, and sacrifice, and now guide their people from their sacred temples.</Meme_TribunalWorship_Description>
+  <Meme_TribunalWorship_Description>Devotion to the Living Gods of Morrowind: Almalexia the Healing Mother, Sotha Sil the Clockwork God, and Vivec the Poet-Warrior, combined with veneration of noble ancestors and House founders. This faith teaches that these three former mortals achieved divinity through wisdom, struggle, and sacrifice, while also honoring the bloodlines and traditions of the Great Houses.</Meme_TribunalWorship_Description>
   
   <Meme_CorpusCult_Label>The Sixth House</Meme_CorpusCult_Label>
   <Meme_CorpusCult_Description>Veneration of Dagoth Ur and the divine disease known as Corpus. Followers believe that Corpus is not a curse but a blessing that transforms the faithful into something greater than mortal flesh. They seek to spread this "gift" and serve their god-king in his underground citadel.</Meme_CorpusCult_Description>
@@ -91,8 +91,6 @@
   <Meme_AshlanderAncestorWorship_Label>The Reclaimations</Meme_AshlanderAncestorWorship_Label>
   <Meme_AshlanderAncestorWorship_Description>The ancient faith of the nomadic Ashlander tribes, venerating the spirits of deceased ancestors and the Good Daedra: Azura the Dusk and Dawn, Boethiah the Prince of Plots, and Mephala the Webspinner. This was the original Chimer religion, focusing on worship of the 4 good Daedra, with the other bad Daedra being of the House of Troubles.</Meme_AshlanderAncestorWorship_Description>
 
-  <Meme_GreatHouseAncestorWorship_Label>The Tribunal</Meme_GreatHouseAncestorWorship_Label>
-  <Meme_GreatHouseAncestorWorship_Description>The main religion followed by all Great Houses of Morrowind, venerating the three Living Gods alongside their noble lineages and founding fathers. This tradition emphasizes bloodline, honor, and the continuation of House prestige through generations while following the canonical state religion.</Meme_GreatHouseAncestorWorship_Description>
 
   <!-- Dunmer Religious Precepts -->
   <Precept_TempleFaith_Required_Label>Temple Faith</Precept_TempleFaith_Required_Label>
