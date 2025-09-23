@@ -33,6 +33,12 @@ The Morrowind expansion introduces authentic content from the iconic Elder Scrol
 - **Alchemical reagents** for powerful enchantments
 - **Soul gems** containing trapped Daedric essences
 
+### Cultural Drinks (5 beverages)
+- **Traditional alcoholic beverages** reflecting Dunmer culture
+- **Brewing recipes** using native Morrowind crops
+- **Social drinks** for various cultural occasions and classes
+- **Lore-accurate** flavors and preparation methods
+
 ## Diseases
 
 ### Common Diseases
@@ -295,6 +301,53 @@ The Morrowind expansion introduces five distinct biomes that capture the diverse
 - **Ogrim Hide**: Thick armored supernatural leather (Market Value: 30 gold)
 - **Daedra Heart**: Still-beating otherworldly organ (Market Value: 200 gold)
 
+## Cultural Drinks
+
+The Dunmer have a rich tradition of brewing alcoholic beverages that reflect their unique culture and ingredients:
+
+### Traditional Beverages
+
+#### Sujamma
+- **Type**: Strong alcoholic drink
+- **Ingredients**: Saltrice and comberries
+- **Flavor**: Distinctive bitter taste
+- **Market Value**: 18 gold per bottle
+- **Cultural Role**: Beloved by all social classes
+
+#### Mazte  
+- **Type**: Traditional beer
+- **Ingredients**: Saltrice
+- **Flavor**: Grainy, slightly sweet
+- **Market Value**: 12 gold per bottle
+- **Cultural Role**: Common drink of working-class Dunmer
+
+#### Flin
+- **Type**: Potent alcoholic beverage
+- **Ingredients**: Wickwheat and ash yam
+- **Flavor**: Sharp and fiery
+- **Market Value**: 22 gold per bottle
+- **Cultural Role**: Favored by warriors and nobles
+
+#### Greef
+- **Type**: Herbal alcoholic drink
+- **Ingredients**: Marshmerrow and hackle-lo leaves
+- **Flavor**: Distinctive herbal notes
+- **Market Value**: 16 gold per bottle
+- **Cultural Role**: Popular among scholars and mages
+
+#### Shein
+- **Type**: Wine-like beverage
+- **Ingredients**: Wickwheat and gold kanet flowers
+- **Flavor**: Complex and refined
+- **Market Value**: 25 gold per bottle
+- **Cultural Role**: Nobility and formal occasions
+
+### Brewing Requirements
+- **Basic Brewing**: Available at crafting spots (mazte only)
+- **Advanced Brewing**: Requires drug lab or electric drug lab
+- **Skill Requirements**: Cooking skill level 3-10 depending on complexity
+- **Research Prerequisites**: Brewing (mazte) or Drug Production (others)
+
 ## File Structure
 
 ```
@@ -320,6 +373,11 @@ Defs/
 └── ThingDefs/Plants/
     ├── MorrowindCrops.xml          # Food crops and products
     └── MorrowindPlants.xml         # Decorative and alchemical plants
+├── ThingDefs/Items/
+│   ├── DaedricMaterials.xml        # Soul gems, salts, claws, hearts
+│   └── DunmerCulturalDrinks.xml    # Traditional Dunmer alcoholic beverages
+└── RecipeDefs/
+    └── DunmerCulturalDrinksRecipes.xml # Brewing recipes for cultural drinks
 ```
 
 ## Integration Notes
@@ -393,6 +451,12 @@ This expansion faithfully represents content from The Elder Scrolls III: Morrowi
 - **Agricultural realism** reflecting Dunmer farming practices
 - **Alchemical properties** true to Elder Scrolls tradition
 - **Environmental adaptation** to volcanic and marsh biomes
+
+### Cultural Drinks
+- **Authentic recipes** using traditional Morrowind ingredients
+- **Lore-accurate** beverage names and descriptions from Elder Scrolls
+- **Social hierarchy** reflected in drink preferences and availability
+- **Cultural significance** matching Dunmer societal traditions
 
 ### Biomes
 - **Authentic geographic regions** matching Morrowind's distinctive landscapes

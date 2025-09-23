@@ -130,5 +130,21 @@
   <Thought_HouseHonor_Violated_Label>shamed my House</Thought_HouseHonor_Violated_Label>
   <Thought_HouseHonor_Violated_Description>I have brought dishonor upon my noble bloodline and ancestral legacy.</Thought_HouseHonor_Violated_Description>
 
+  <!-- Dunmer Cultural Drinks -->
+  <Sujamma_Label>sujamma</Sujamma_Label>
+  <Sujamma_Description>A potent alcoholic beverage beloved by the Dunmer people. This strong drink is fermented from local ingredients and has a distinctive bitter taste that pairs well with traditional Dunmer cuisine.</Sujamma_Description>
+  
+  <Mazte_Label>mazte</Mazte_Label>
+  <Mazte_Description>A traditional Dunmer beer brewed from saltrice. This mildly alcoholic beverage has a grainy, slightly sweet flavor and is commonly consumed with meals.</Mazte_Description>
+  
+  <Flin_Label>flin</Flin_Label>
+  <Flin_Description>A potent alcoholic drink favored by Dunmer warriors and nobles. Flin has a sharp, fiery taste and is significantly stronger than mazte.</Flin_Description>
+  
+  <Greef_Label>greef</Greef_Label>
+  <Greef_Description>A traditional Dunmer alcoholic beverage with a distinctive herbal flavor. Greef is brewed using various native plants and has mild intoxicating effects.</Greef_Description>
+  
+  <Shein_Label>shein</Shein_Label>
+  <Shein_Description>An elegant wine-like beverage favored by Dunmer nobility and the upper classes. Shein has a complex, refined flavor and is often served during formal occasions.</Shein_Description>
+
   <!-- Add more keys for things like item names, race names, faction names, etc. -->
 </LanguageData>

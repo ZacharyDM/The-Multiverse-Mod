@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Sujamma - Traditional Dunmer strong alcoholic drink -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>Sujamma</defName>
+    <label>sujamma</label>
+    <description>A potent alcoholic beverage beloved by the Dunmer people. This strong drink is fermented from local ingredients and has a distinctive bitter taste that pairs well with traditional Dunmer cuisine. Consuming sujamma provides courage but can impair judgment.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Sujamma</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>18</MarketValue>
+      <Mass>0.8</Mass>
+      <Flammability>0.5</Flammability>
+      <Nutrition>0.08</Nutrition>
+    </statBases>
+    <ingestible>
+      <nutrition>0.08</nutrition>
+      <baseIngestTicks>800</baseIngestTicks>
+      <chairSearchRadius>25</chairSearchRadius>
+      <preferability>ProcessedFood</preferability>
+      <tasteThought>DrankSujamma</tasteThought>
+      <nurseable>true</nurseable>
+      <drugCategory>Social</drugCategory>
+      <ingestSound>Ingest_Drink</ingestSound>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>Alcohol</hediffDef>
+          <severity>0.18</severity>
+          <toleranceChemical>Alcohol</toleranceChemical>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <techLevel>Medieval</techLevel>
+    <thingCategories>
+      <li>Drugs</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>300</daysToRotStart>
+        <daysToDessicated>600</daysToDessicated>
+      </li>
+    </comps>
+    <tradeTags>
+      <li>BasicItems</li>
+      
+    </tradeTags>
+  </ThingDef>
+
+  <!-- Mazte - Traditional Dunmer beer made from saltrice -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>Mazte</defName>
+    <label>mazte</label>
+    <description>A traditional Dunmer beer brewed from saltrice. This mildly alcoholic beverage has a grainy, slightly sweet flavor and is commonly consumed with meals. Mazte is considered the common drink of working-class Dunmer.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Mazte</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>12</MarketValue>
+      <Mass>0.8</Mass>
+      <Flammability>0.5</Flammability>
+      <Nutrition>0.10</Nutrition>
+    </statBases>
+    <ingestible>
+      <nutrition>0.10</nutrition>
+      <baseIngestTicks>720</baseIngestTicks>
+      <chairSearchRadius>25</chairSearchRadius>
+      <preferability>ProcessedFood</preferability>
+      <tasteThought>DrankMazte</tasteThought>
+      <nurseable>true</nurseable>
+      <drugCategory>Social</drugCategory>
+      <ingestSound>Ingest_Drink</ingestSound>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>Alcohol</hediffDef>
+          <severity>0.08</severity>
+          <toleranceChemical>Alcohol</toleranceChemical>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <techLevel>Medieval</techLevel>
+    <thingCategories>
+      <li>Drugs</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>180</daysToRotStart>
+        <daysToDessicated>360</daysToDessicated>
+      </li>
+    </comps>
+    <tradeTags>
+      <li>BasicItems</li>
+      
+    </tradeTags>
+  </ThingDef>
+
+  <!-- Flin - Strong Dunmer alcoholic beverage -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>Flin</defName>
+    <label>flin</label>
+    <description>A potent alcoholic drink favored by Dunmer warriors and nobles. Flin has a sharp, fiery taste and is significantly stronger than mazte. It's often served during celebrations and important gatherings.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Flin</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>22</MarketValue>
+      <Mass>0.8</Mass>
+      <Flammability>0.7</Flammability>
+      <Nutrition>0.06</Nutrition>
+    </statBases>
+    <ingestible>
+      <nutrition>0.06</nutrition>
+      <baseIngestTicks>900</baseIngestTicks>
+      <chairSearchRadius>25</chairSearchRadius>
+      <preferability>ProcessedFood</preferability>
+      <tasteThought>DrankFlin</tasteThought>
+      <nurseable>true</nurseable>
+      <drugCategory>Social</drugCategory>
+      <ingestSound>Ingest_Drink</ingestSound>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>Alcohol</hediffDef>
+          <severity>0.20</severity>
+          <toleranceChemical>Alcohol</toleranceChemical>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <techLevel>Medieval</techLevel>
+    <thingCategories>
+      <li>Drugs</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>400</daysToRotStart>
+        <daysToDessicated>800</daysToDessicated>
+      </li>
+    </comps>
+    <tradeTags>
+      <li>BasicItems</li>
+      
+    </tradeTags>
+  </ThingDef>
+
+  <!-- Greef - Another traditional Dunmer drink -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>Greef</defName>
+    <label>greef</label>
+    <description>A traditional Dunmer alcoholic beverage with a distinctive herbal flavor. Greef is brewed using various native plants and has mild intoxicating effects. It's popular among scholars and mages for its supposed mental clarity properties.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Greef</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>16</MarketValue>
+      <Mass>0.8</Mass>
+      <Flammability>0.5</Flammability>
+      <Nutrition>0.07</Nutrition>
+    </statBases>
+    <ingestible>
+      <nutrition>0.07</nutrition>
+      <baseIngestTicks>750</baseIngestTicks>
+      <chairSearchRadius>25</chairSearchRadius>
+      <preferability>ProcessedFood</preferability>
+      <tasteThought>DrankGreef</tasteThought>
+      <nurseable>true</nurseable>
+      <drugCategory>Social</drugCategory>
+      <ingestSound>Ingest_Drink</ingestSound>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>Alcohol</hediffDef>
+          <severity>0.12</severity>
+          <toleranceChemical>Alcohol</toleranceChemical>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <techLevel>Medieval</techLevel>
+    <thingCategories>
+      <li>Drugs</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>250</daysToRotStart>
+        <daysToDessicated>500</daysToDessicated>
+      </li>
+    </comps>
+    <tradeTags>
+      <li>BasicItems</li>
+      
+    </tradeTags>
+  </ThingDef>
+
+  <!-- Shein - Wine-like Dunmer beverage -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>Shein</defName>
+    <label>shein</label>
+    <description>An elegant wine-like beverage favored by Dunmer nobility and the upper classes. Shein has a complex, refined flavor and is often served during formal occasions and diplomatic gatherings. Its moderate alcohol content makes it suitable for extended social events.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Shein</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>25</MarketValue>
+      <Mass>0.8</Mass>
+      <Flammability>0.4</Flammability>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <ingestible>
+      <nutrition>0.05</nutrition>
+      <baseIngestTicks>850</baseIngestTicks>
+      <chairSearchRadius>25</chairSearchRadius>
+      <preferability>ProcessedFood</preferability>
+      <tasteThought>DrankShein</tasteThought>
+      <nurseable>true</nurseable>
+      <drugCategory>Social</drugCategory>
+      <ingestSound>Ingest_Drink</ingestSound>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>Alcohol</hediffDef>
+          <severity>0.15</severity>
+          <toleranceChemical>Alcohol</toleranceChemical>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <techLevel>Medieval</techLevel>
+    <thingCategories>
+      <li>Drugs</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>500</daysToRotStart>
+        <daysToDessicated>1000</daysToDessicated>
+      </li>
+    </comps>
+    <tradeTags>
+      <li>BasicItems</li>
+      
+    </tradeTags>
+  </ThingDef>
+
+</Defs>

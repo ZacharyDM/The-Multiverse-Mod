@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Sujamma brewing recipe -->
+  <RecipeDef>
+    <defName>BrewSujamma</defName>
+    <label>brew sujamma</label>
+    <description>Brew the traditional Dunmer alcoholic drink sujamma using saltrice and comberries.</description>
+    <jobString>Brewing sujamma.</jobString>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1200</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <skillRequirements>
+      <Cooking>6</Cooking>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawSaltrice</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawComberry</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <products>
+      <Sujamma>3</Sujamma>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <recipeUsers>
+      <li>DrugLab</li>
+      <li>ElectricDrugLab</li>
+    </recipeUsers>
+    <researchPrerequisite>DrugProduction</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Mazte brewing recipe -->
+  <RecipeDef>
+    <defName>BrewMazte</defName>
+    <label>brew mazte</label>
+    <description>Brew the traditional Dunmer beer mazte using saltrice.</description>
+    <jobString>Brewing mazte.</jobString>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>800</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <skillRequirements>
+      <Cooking>3</Cooking>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawSaltrice</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <Mazte>5</Mazte>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <recipeUsers>
+      <li>DrugLab</li>
+      <li>ElectricDrugLab</li>
+      <li>CraftingSpot</li>
+    </recipeUsers>
+    <researchPrerequisite>Brewing</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Flin brewing recipe -->
+  <RecipeDef>
+    <defName>BrewFlin</defName>
+    <label>brew flin</label>
+    <description>Brew the potent Dunmer drink flin using wickwheat and ash yam.</description>
+    <jobString>Brewing flin.</jobString>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1500</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <skillRequirements>
+      <Cooking>8</Cooking>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawWickwheat</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawAshYam</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <products>
+      <Flin>2</Flin>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <recipeUsers>
+      <li>DrugLab</li>
+      <li>ElectricDrugLab</li>
+    </recipeUsers>
+    <researchPrerequisite>DrugProduction</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Greef brewing recipe -->
+  <RecipeDef>
+    <defName>BrewGreef</defName>
+    <label>brew greef</label>
+    <description>Brew the traditional Dunmer drink greef using marshmerrow and hackle-lo leaves.</description>
+    <jobString>Brewing greef.</jobString>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1000</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <skillRequirements>
+      <Cooking>5</Cooking>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawMarshmerrow</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>HackleLoLeaf</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <products>
+      <Greef>4</Greef>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <recipeUsers>
+      <li>DrugLab</li>
+      <li>ElectricDrugLab</li>
+    </recipeUsers>
+    <researchPrerequisite>DrugProduction</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Shein brewing recipe -->
+  <RecipeDef>
+    <defName>BrewShein</defName>
+    <label>brew shein</label>
+    <description>Brew the refined Dunmer wine shein using wickwheat and gold kanet flowers.</description>
+    <jobString>Brewing shein.</jobString>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1800</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <skillRequirements>
+      <Cooking>10</Cooking>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawWickwheat</li>
+          </thingDefs>
+        </filter>
+        <count>12</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>GoldKanetFlowers</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <Shein>2</Shein>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <recipeUsers>
+      <li>DrugLab</li>
+      <li>ElectricDrugLab</li>
+    </recipeUsers>
+    <researchPrerequisite>DrugProduction</researchPrerequisite>
+  </RecipeDef>
+
+</Defs>
