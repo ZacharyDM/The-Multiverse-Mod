@@ -81,5 +81,18 @@
   <Apparel_CorprusBeastHide_Label>corprus beast hide</Apparel_CorprusBeastHide_Label>
   <Apparel_CorprusBeastHide_Description>Rough hide taken from a corprus creature and fashioned into crude protective wear.</Apparel_CorprusBeastHide_Description>
   
+  <!-- Dunmer Religious Memes -->
+  <Meme_TribunalWorship_Label>Tribunal Worship</Meme_TribunalWorship_Label>
+  <Meme_TribunalWorship_Description>Devotion to the Living Gods of Morrowind: Almalexia the Healing Mother, Sotha Sil the Clockwork God, and Vivec the Poet-Warrior. This faith teaches that these three former mortals achieved divinity through wisdom, struggle, and sacrifice, and now guide their people from their sacred temples.</Meme_TribunalWorship_Description>
+  
+  <Meme_CorpusCult_Label>Corpus Worship</Meme_CorpusCult_Label>
+  <Meme_CorpusCult_Description>Veneration of Dagoth Ur and the divine disease known as Corpus. Followers believe that Corpus is not a curse but a blessing that transforms the faithful into something greater than mortal flesh. They seek to spread this "gift" and serve their god-king in his underground citadel.</Meme_CorpusCult_Description>
+  
+  <Meme_AshlanderAncestorWorship_Label>Ancestor Worship</Meme_AshlanderAncestorWorship_Label>
+  <Meme_AshlanderAncestorWorship_Description>The ancient faith of the nomadic Ashlander tribes, venerating the spirits of deceased ancestors and the Good Daedra: Azura the Dusk and Dawn, Boethiah the Prince of Plots, and Mephala the Webspinner. This is the oldest religious tradition of the Dunmer people, predating the Tribunal Temple.</Meme_AshlanderAncestorWorship_Description>
+  
+  <Meme_GreatHouseAncestorWorship_Label>House Ancestor Worship</Meme_GreatHouseAncestorWorship_Label>
+  <Meme_GreatHouseAncestorWorship_Description>The formal ancestor veneration practiced by the Great Houses of Morrowind, honoring the noble lineages and founding fathers of each House. This tradition emphasizes bloodline, honor, and the continuation of House prestige through generations.</Meme_GreatHouseAncestorWorship_Description>
+
   <!-- Add more keys for things like item names, race names, faction names, etc. -->
 </LanguageData>
