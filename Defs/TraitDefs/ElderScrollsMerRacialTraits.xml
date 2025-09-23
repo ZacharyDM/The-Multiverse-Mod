@@ -65,4 +65,144 @@
       </li>
     </degreeDatas>
   </TraitDef>
+
+  <!-- Dwemer (Deep Elf) Racial Trait -->
+  <TraitDef>
+    <defName>DwemerIngenuity</defName>
+    <label>Dwemer Ingenuity</label>
+    <description>This Dwemer possesses the advanced technological knowledge and engineering skills of the Deep Elves.</description>
+    <degreeDatas>
+      <li>
+        <label>Master Engineer</label>
+        <description>Born with the technological mastery of the Dwemer, this pawn excels in crafting, construction, and intellectual pursuits.</description>
+        <skillGains>
+          <Crafting>5</Crafting>
+          <Construction>3</Construction>
+          <Intellectual>3</Intellectual>
+          <Mining>2</Mining>
+        </skillGains>
+        <statOffsets>
+          <ResearchSpeed>0.15</ResearchSpeed>
+          <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Falmer (Betrayed) Racial Trait -->
+  <TraitDef>
+    <defName>FalmerAdaptation</defName>
+    <label>Falmer Adaptation</label>
+    <description>This Falmer possesses heightened senses and underground adaptation despite their blindness and corruption.</description>
+    <degreeDatas>
+      <li>
+        <label>Heightened Senses</label>
+        <description>Despite blindness, this pawn has adapted with enhanced hearing and other senses, excelling in stealth and melee combat.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Animals>3</Animals>
+          <Mining>2</Mining>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.08</MeleeHitChance>
+          <MoveSpeed>0.3</MoveSpeed>
+          <ShootingAccuracyPawn>-0.1</ShootingAccuracyPawn>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Ayleid (Wild Elf) Racial Trait -->
+  <TraitDef>
+    <defName>AyleidStarlightMastery</defName>
+    <label>Ayleid Starlight Mastery</label>
+    <description>This Ayleid possesses the ancient magical knowledge and architectural mastery of the Wild Elves.</description>
+    <degreeDatas>
+      <li>
+        <label>Starlight Magic</label>
+        <description>Born with mastery of ancient magics and architecture, this pawn excels in intellectual and artistic pursuits.</description>
+        <skillGains>
+          <Intellectual>4</Intellectual>
+          <Artistic>3</Artistic>
+          <Construction>2</Construction>
+          <Shooting>2</Shooting>
+        </skillGains>
+        <statOffsets>
+          <ResearchSpeed>0.12</ResearchSpeed>
+          <PsychicSensitivity>0.2</PsychicSensitivity>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Chimer (Changed Folk) Racial Trait -->
+  <TraitDef>
+    <defName>ChimerWarriorSpirit</defName>
+    <label>Chimer Warrior Spirit</label>
+    <description>This Chimer possesses the warrior culture and Daedric devotion of the ancestor folk.</description>
+    <degreeDatas>
+      <li>
+        <label>Ancestor Blessing</label>
+        <description>Born with the warrior spirit of the Chimer, this pawn excels in combat and shows strong devotion.</description>
+        <skillGains>
+          <Melee>3</Melee>
+          <Shooting>3</Shooting>
+          <Intellectual>2</Intellectual>
+          <Social>1</Social>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.04</MeleeHitChance>
+          <ShootingAccuracyPawn>0.04</ShootingAccuracyPawn>
+          <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Maormer (Sea Elf) Racial Trait -->
+  <TraitDef>
+    <defName>MaormerSeaMastery</defName>
+    <label>Maormer Sea Mastery</label>
+    <description>This Maormer possesses the seafaring skills and serpent-charming abilities of the Sea Elves.</description>
+    <degreeDatas>
+      <li>
+        <label>Serpent Lord</label>
+        <description>Born with mastery of the seas and serpents, this pawn excels in animals, shooting, and shows natural adaptability.</description>
+        <skillGains>
+          <Animals>4</Animals>
+          <Shooting>3</Shooting>
+          <Social>2</Social>
+          <Medicine>1</Medicine>
+        </skillGains>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.06</ShootingAccuracyPawn>
+          <TradePriceImprovement>0.05</TradePriceImprovement>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Aldmer (Elder Folk) Racial Trait -->
+  <TraitDef>
+    <defName>AldmerAncientWisdom</defName>
+    <label>Aldmer Ancient Wisdom</label>
+    <description>This Aldmer possesses the ancient wisdom and pure magical heritage of the first elves.</description>
+    <degreeDatas>
+      <li>
+        <label>First Born</label>
+        <description>Born with the pure essence of the first elves, this pawn has exceptional abilities in all intellectual and magical pursuits.</description>
+        <skillGains>
+          <Intellectual>5</Intellectual>
+          <Artistic>3</Artistic>
+          <Shooting>2</Shooting>
+          <Social>2</Social>
+        </skillGains>
+        <statOffsets>
+          <ResearchSpeed>0.18</ResearchSpeed>
+          <PsychicSensitivity>0.25</PsychicSensitivity>
+          <ShootingAccuracyPawn>0.03</ShootingAccuracyPawn>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
 </Defs>

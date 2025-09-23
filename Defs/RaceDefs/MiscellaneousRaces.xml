@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <!-- Base template for large/monstrous races -->
+  <ThingDef Name="MonstrousRaceBase">
+    <defName>MonstrousRaceBase</defName>
+    <label>monstrous race</label>
+    <description>Template base for large monstrous races like Ogres, Giants, and other non-standard races.</description>
+    <race>
+      <body>Humanoid</body>
+      <baseBodySize>1.0</baseBodySize>
+      <healthScale>1.2</healthScale>
+      <foodTypeFlags>VegetarianOrMeat</foodTypeFlags>
+      <gestationPeriodDays>35</gestationPeriodDays>
+      <wildness>0.15</wildness>
+      <intelligence>Humanlike</intelligence>
+      <!-- Monstrous races have different life stages -->
+      <lifeStageAges Inherit="False">
+        <li>
+          <def>HumanBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>HumanChild</def>
+          <minAge>8</minAge>
+        </li>
+        <li>
+          <def>HumanAdult</def>
+          <minAge>20</minAge>
+        </li>
+        <li>
+          <def>HumanOld</def>
+          <minAge>80</minAge>
+        </li>
+      </lifeStageAges>
+      <!-- Varied lifespan -->
+      <lifeExpectancy>120</lifeExpectancy>
+      <ageGenerationCurve>
+        <points>
+          <li>
+            <x>25</x>
+            <y>0.5</y>
+          </li>
+          <li>
+            <x>50</x>
+            <y>1.0</y>
+          </li>
+          <li>
+            <x>90</x>
+            <y>0.8</y>
+          </li>
+          <li>
+            <x>120</x>
+            <y>0.1</y>
+          </li>
+        </points>
+      </ageGenerationCurve>
+    </race>
+    <statBases>
+      <MoveSpeed>4.0</MoveSpeed>
+      <MarketValue>3000</MarketValue>
+      <ComfyTemperatureMin>-15</ComfyTemperatureMin>
+      <ComfyTemperatureMax>45</ComfyTemperatureMax>
+      <ShootingAccuracyPawn>0.01</ShootingAccuracyPawn>
+      <MeleeHitChance>0.06</MeleeHitChance>
+    </statBases>
+    <thingCategories>
+      <li>Pawns</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/MonstrousRaceBase</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="MonstrousRaceBase">
+    <defName>Ogre</defName>
+    <label>ogre</label>
+    <description>Large, brutish humanoids known for their immense strength and crude nature. They are not particularly intelligent but are formidable in combat and physical labor.</description>
+    <race>
+      <!-- Ogres have brutish skin tones -->
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <weight>40</weight>
+            <only>(0.5, 0.4, 0.3, 1)</only> <!-- Brown -->
+          </li>
+          <li>
+            <weight>30</weight>
+            <only>(0.4, 0.5, 0.3, 1)</only> <!-- Green-brown -->
+          </li>
+          <li>
+            <weight>20</weight>
+            <only>(0.6, 0.5, 0.4, 1)</only> <!-- Tan-brown -->
+          </li>
+          <li>
+            <weight>10</weight>
+            <only>(0.3, 0.3, 0.3, 1)</only> <!-- Dark -->
+          </li>
+        </options>
+      </colorGenerator>
+      <baseBodySize>1.5</baseBodySize>
+      <healthScale>1.8</healthScale>
+      <forcedTraits>
+        <li>OgreBrutality</li>
+      </forcedTraits>
+      <lifeExpectancy>80</lifeExpectancy>
+    </race>
+    <statBases>
+      <MoveSpeed>3.5</MoveSpeed>
+      <MarketValue>2800</MarketValue>
+      <ShootingAccuracyPawn>-0.02</ShootingAccuracyPawn>
+      <MeleeHitChance>0.10</MeleeHitChance>
+      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+      <ComfyTemperatureMax>50</ComfyTemperatureMax>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/Ogre</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="MonstrousRaceBase">
+    <defName>Goblin</defName>
+    <label>goblin</label>
+    <description>Small, cunning humanoids known for their mischievous nature and tribal society. They are quick and clever but physically weaker than most races.</description>
+    <race>
+      <!-- Goblins have greenish skin tones -->
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <weight>50</weight>
+            <only>(0.4, 0.6, 0.3, 1)</only> <!-- Green -->
+          </li>
+          <li>
+            <weight>25</weight>
+            <only>(0.5, 0.5, 0.3, 1)</only> <!-- Yellow-green -->
+          </li>
+          <li>
+            <weight>15</weight>
+            <only>(0.3, 0.5, 0.3, 1)</only> <!-- Dark green -->
+          </li>
+          <li>
+            <weight>10</weight>
+            <only>(0.6, 0.4, 0.3, 1)</only> <!-- Brown-green -->
+          </li>
+        </options>
+      </colorGenerator>
+      <baseBodySize>0.7</baseBodySize>
+      <healthScale>0.8</healthScale>
+      <forcedTraits>
+        <li>GoblinCunning</li>
+      </forcedTraits>
+      <lifeExpectancy>60</lifeExpectancy>
+    </race>
+    <statBases>
+      <MoveSpeed>5.2</MoveSpeed>
+      <MarketValue>2200</MarketValue>
+      <ShootingAccuracyPawn>0.04</ShootingAccuracyPawn>
+      <MeleeHitChance>0.03</MeleeHitChance>
+      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+      <ComfyTemperatureMax>45</ComfyTemperatureMax>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/Goblin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="MonstrousRaceBase">
+    <defName>Dreugh</defName>
+    <label>dreugh</label>
+    <description>Ancient crab-like humanoids with a rich history of underwater civilization. They are amphibious and possess natural armor but are somewhat clumsy on land.</description>
+    <race>
+      <!-- Dreugh have crustacean coloring -->
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <weight>40</weight>
+            <only>(0.6, 0.3, 0.2, 1)</only> <!-- Reddish-brown -->
+          </li>
+          <li>
+            <weight>30</weight>
+            <only>(0.4, 0.5, 0.4, 1)</only> <!-- Green-brown -->
+          </li>
+          <li>
+            <weight>20</weight>
+            <only>(0.5, 0.4, 0.3, 1)</only> <!-- Brown -->
+          </li>
+          <li>
+            <weight>10</weight>
+            <only>(0.3, 0.4, 0.5, 1)</only> <!-- Blue-grey -->
+          </li>
+        </options>
+      </colorGenerator>
+      <baseBodySize>1.3</baseBodySize>
+      <healthScale>1.4</healthScale>
+      <forcedTraits>
+        <li>DreudhAmphibious</li>
+      </forcedTraits>
+      <lifeExpectancy>150</lifeExpectancy>
+    </race>
+    <statBases>
+      <MoveSpeed>3.8</MoveSpeed>
+      <MarketValue>3500</MarketValue>
+      <ShootingAccuracyPawn>0.01</ShootingAccuracyPawn>
+      <MeleeHitChance>0.05</MeleeHitChance>
+      <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+      <ComfyTemperatureMax>40</ComfyTemperatureMax>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/Dreugh</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="MonstrousRaceBase">
+    <defName>Centaur</defName>
+    <label>centaur</label>
+    <description>Half-human, half-horse beings known for their speed, archery skills, and connection to nature. They are proud and independent with a strong warrior culture.</description>
+    <race>
+      <!-- Centaurs have human-like upper body and horse lower body coloring -->
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <weight>30</weight>
+            <only>(0.8, 0.7, 0.6, 1)</only> <!-- Tan -->
+          </li>
+          <li>
+            <weight>25</weight>
+            <only>(0.6, 0.4, 0.3, 1)</only> <!-- Brown -->
+          </li>
+          <li>
+            <weight>20</weight>
+            <only>(0.9, 0.8, 0.7, 1)</only> <!-- Light tan -->
+          </li>
+          <li>
+            <weight>15</weight>
+            <only>(0.3, 0.3, 0.3, 1)</only> <!-- Dark -->
+          </li>
+          <li>
+            <weight>10</weight>
+            <only>(1.0, 1.0, 1.0, 1)</only> <!-- White -->
+          </li>
+        </options>
+      </colorGenerator>
+      <baseBodySize>1.8</baseBodySize>
+      <healthScale>1.6</healthScale>
+      <forcedTraits>
+        <li>CentaurWild</li>
+      </forcedTraits>
+      <lifeExpectancy>200</lifeExpectancy>
+    </race>
+    <statBases>
+      <MoveSpeed>6.5</MoveSpeed>
+      <MarketValue>4000</MarketValue>
+      <ShootingAccuracyPawn>0.08</ShootingAccuracyPawn>
+      <MeleeHitChance>0.06</MeleeHitChance>
+      <ComfyTemperatureMin>-15</ComfyTemperatureMin>
+      <ComfyTemperatureMax>45</ComfyTemperatureMax>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/Centaur</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="MonstrousRaceBase">
+    <defName>Giant</defName>
+    <label>giant</label>
+    <description>Massive humanoids of immense size and strength. They are simple folk who prefer solitary lives, but their incredible physical power makes them formidable when roused.</description>
+    <race>
+      <!-- Giants have human-like but weathered skin -->
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <weight>40</weight>
+            <only>(0.7, 0.6, 0.5, 1)</only> <!-- Weathered -->
+          </li>
+          <li>
+            <weight>30</weight>
+            <only>(0.6, 0.5, 0.4, 1)</only> <!-- Tanned -->
+          </li>
+          <li>
+            <weight>20</weight>
+            <only>(0.8, 0.7, 0.6, 1)</only> <!-- Light weathered -->
+          </li>
+          <li>
+            <weight>10</weight>
+            <only>(0.5, 0.4, 0.3, 1)</only> <!-- Dark weathered -->
+          </li>
+        </options>
+      </colorGenerator>
+      <baseBodySize>2.5</baseBodySize>
+      <healthScale>2.5</healthScale>
+      <forcedTraits>
+        <li>GiantStrength</li>
+      </forcedTraits>
+      <lifeExpectancy>300</lifeExpectancy>
+    </race>
+    <statBases>
+      <MoveSpeed>3.0</MoveSpeed>
+      <MarketValue>5500</MarketValue>
+      <ShootingAccuracyPawn>-0.05</ShootingAccuracyPawn>
+      <MeleeHitChance>0.15</MeleeHitChance>
+      <ComfyTemperatureMin>-30</ComfyTemperatureMin>
+      <ComfyTemperatureMax>40</ComfyTemperatureMax>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/Giant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+</ThingDefs>

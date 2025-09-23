@@ -132,4 +132,172 @@
       </li>
     </degreeDatas>
   </TraitDef>
+
+  <!-- Lilmothiit Racial Trait -->
+  <TraitDef>
+    <defName>LilmothiitCunning</defName>
+    <label>Lilmothiit Cunning</label>
+    <description>This Lilmothiit possesses the natural cunning and trade skills of the fox-people of Black Marsh.</description>
+    <degreeDatas>
+      <li>
+        <label>Fox Cunning</label>
+        <description>Born with the intelligence and agility of the fox-folk, this pawn excels in social situations, trade, and stealth.</description>
+        <skillGains>
+          <Social>3</Social>
+          <Animals>2</Animals>
+          <Melee>2</Melee>
+          <Intellectual>2</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <TradePriceImprovement>0.12</TradePriceImprovement>
+          <MoveSpeed>0.3</MoveSpeed>
+          <MeleeHitChance>0.03</MeleeHitChance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Sload Racial Trait -->
+  <TraitDef>
+    <defName>SloadNecromancy</defName>
+    <label>Sload Necromancy</label>
+    <description>This Sload possesses the ancient necromantic knowledge and disease mastery of the slug-lords of Thras.</description>
+    <degreeDatas>
+      <li>
+        <label>Master of Disease</label>
+        <description>Born with ancient necromantic powers, this pawn has exceptional magical knowledge but moves very slowly.</description>
+        <skillGains>
+          <Intellectual>6</Intellectual>
+          <Medicine>4</Medicine>
+          <Social>1</Social>
+        </skillGains>
+        <statOffsets>
+          <ResearchSpeed>0.25</ResearchSpeed>
+          <PsychicSensitivity>0.3</PsychicSensitivity>
+          <MoveSpeed>-1.8</MoveSpeed>
+          <ImmunityGainSpeed>0.3</ImmunityGainSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Ka Po' Tun Racial Trait -->
+  <TraitDef>
+    <defName>KaPoTunHonor</defName>
+    <label>Ka Po' Tun Honor</label>
+    <description>This Ka Po' Tun possesses the warrior honor and discipline of the tiger-people of Akavir.</description>
+    <degreeDatas>
+      <li>
+        <label>Dragon Disciple</label>
+        <description>Born with the strength and honor of the tiger-folk, this pawn excels in combat and shows unwavering discipline.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Shooting>3</Shooting>
+          <Social>2</Social>
+          <Intellectual>1</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageAmount>0.12</MeleeDamageAmount>
+          <MeleeHitChance>0.05</MeleeHitChance>
+          <MentalBreakThreshold>-0.08</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Tang Mo Racial Trait -->
+  <TraitDef>
+    <defName>TangMoAgility</defName>
+    <label>Tang Mo Agility</label>
+    <description>This Tang Mo possesses the natural agility and crafting skills of the monkey-people of Akavir.</description>
+    <degreeDatas>
+      <li>
+        <label>Simian Dexterity</label>
+        <description>Born with exceptional agility and intelligence, this pawn excels in crafting, movement, and intellectual pursuits.</description>
+        <skillGains>
+          <Crafting>4</Crafting>
+          <Intellectual>3</Intellectual>
+          <Animals>2</Animals>
+          <Melee>1</Melee>
+        </skillGains>
+        <statOffsets>
+          <MoveSpeed>0.6</MoveSpeed>
+          <WorkSpeedGlobal>0.12</WorkSpeedGlobal>
+          <ShootingAccuracyPawn>0.02</ShootingAccuracyPawn>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Tsaesci Racial Trait -->
+  <TraitDef>
+    <defName>TsaesciVampirism</defName>
+    <label>Tsaesci Vampirism</label>
+    <description>This Tsaesci possesses the vampiric abilities and combat prowess of the serpent-people of Akavir.</description>
+    <degreeDatas>
+      <li>
+        <label>Serpent Vampire</label>
+        <description>Born with vampiric serpent nature, this pawn has enhanced combat abilities and unnatural longevity.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Shooting>4</Shooting>
+          <Social>2</Social>
+          <Medicine>1</Medicine>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageAmount>0.1</MeleeDamageAmount>
+          <ShootingAccuracyPawn>0.06</ShootingAccuracyPawn>
+          <ImmunityGainSpeed>0.2</ImmunityGainSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Lamia Racial Trait -->
+  <TraitDef>
+    <defName>LamiaEnchantment</defName>
+    <label>Lamia Enchantment</label>
+    <description>This Lamia possesses the magical enchantment abilities and serpentine nature of the snake-centaurs.</description>
+    <degreeDatas>
+      <li>
+        <label>Serpent Enchantress</label>
+        <description>Born with enchanting magic and serpentine grace, this pawn excels in magic and social manipulation.</description>
+        <skillGains>
+          <Social>4</Social>
+          <Intellectual>3</Intellectual>
+          <Medicine>2</Medicine>
+          <Melee>2</Melee>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.2</PsychicSensitivity>
+          <NegotiationAbility>0.15</NegotiationAbility>
+          <TradePriceImprovement>0.08</TradePriceImprovement>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Imga Racial Trait -->
+  <TraitDef>
+    <defName>ImgaSophistication</defName>
+    <label>Imga Sophistication</label>
+    <description>This Imga possesses the cultured sophistication and Altmer-worshipping nature of the intelligent ape-folk.</description>
+    <degreeDatas>
+      <li>
+        <label>Cultured Ape</label>
+        <description>Born with sophisticated culture and Altmer worship, this pawn excels in social and artistic pursuits while maintaining physical strength.</description>
+        <skillGains>
+          <Social>3</Social>
+          <Artistic>3</Artistic>
+          <Intellectual>2</Intellectual>
+          <Melee>2</Melee>
+        </skillGains>
+        <statOffsets>
+          <NegotiationAbility>0.1</NegotiationAbility>
+          <MeleeHitChance>0.04</MeleeHitChance>
+          <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
 </Defs>
