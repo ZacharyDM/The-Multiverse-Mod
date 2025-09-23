@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Scamp Claw -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>ScampClaw</defName>
+    <label>scamp claw</label>
+    <description>A sharp, curved claw harvested from a scamp. These razor-edged talons are prized by alchemists and weaponsmiths for their supernatural sharpness and resistance to wear.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/ScampClaw</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>75</stackLimit>
+    <statBases>
+      <MarketValue>12</MarketValue>
+      <Mass>0.02</Mass>
+      <Flammability>0.2</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+
+  <!-- Clannfear Claw -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>ClannfearClaw</defName>
+    <label>clannfear claw</label>
+    <description>A large, serrated claw from a clannfear. These wickedly curved talons are exceptionally durable and are highly sought after for crafting enchanted weapons and armor.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/ClannfearClaw</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MarketValue>25</MarketValue>
+      <Mass>0.08</Mass>
+      <Flammability>0.1</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+
+  <!-- Daedroth Teeth -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>DaedrothTeeth</defName>
+    <label>daedroth teeth</label>
+    <description>Massive fangs harvested from a daedroth's fearsome maw. These bone-crushing teeth are incredibly hard and are valued by both alchemists and collectors of rare Daedric materials.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/DaedrothTeeth</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MarketValue>40</MarketValue>
+      <Mass>0.15</Mass>
+      <Flammability>0.05</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+
+  <!-- Ogrim Hide -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>OgrimHide</defName>
+    <label>ogrim hide</label>
+    <description>Thick, armored hide stripped from an ogrim. This supernatural leather is incredibly tough and provides excellent protection when worked into armor by skilled craftsmen.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/OgrimHide</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MarketValue>30</MarketValue>
+      <Mass>0.20</Mass>
+      <Flammability>0.3</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>Leathers</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+
+  <!-- Daedra Heart -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>DaedraHeart</defName>
+    <label>daedra heart</label>
+    <description>The still-beating heart of a Daedric creature. This otherworldly organ pulses with supernatural energy and is one of the most prized alchemical ingredients in existence, essential for creating the most powerful enchantments.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/DaedraHeart</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>10</stackLimit>
+    <statBases>
+      <MarketValue>200</MarketValue>
+      <Mass>0.5</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>1</glowRadius>
+        <glowColor>(150,0,150,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Lesser Soul Gem -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>LesserSoulGem</defName>
+    <label>lesser soul gem</label>
+    <description>A small crystalline soul gem that has captured the essence of a weak Daedric creature. These gems glow with a faint inner light and can be used to power minor enchantments or magical devices.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/LesserSoulGem</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MarketValue>50</MarketValue>
+      <Mass>0.1</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>1</Beauty>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>2</glowRadius>
+        <glowColor>(100,100,255,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Common Soul Gem -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>CommonSoulGem</defName>
+    <label>common soul gem</label>
+    <description>A moderately sized soul gem containing the trapped essence of a Daedric creature. The captured soul provides enough energy to power substantial enchantments and magical workings.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/CommonSoulGem</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>15</stackLimit>
+    <statBases>
+      <MarketValue>120</MarketValue>
+      <Mass>0.2</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>2</Beauty>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(150,150,255,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Greater Soul Gem -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>GreaterSoulGem</defName>
+    <label>greater soul gem</label>
+    <description>A large, brilliant soul gem containing the powerful essence of a mighty Daedric creature. These rare gems pulse with immense magical energy and are capable of powering the most potent enchantments known to mortals.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/GreaterSoulGem</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>5</stackLimit>
+    <statBases>
+      <MarketValue>400</MarketValue>
+      <Mass>0.4</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>5</Beauty>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>4</glowRadius>
+        <glowColor>(200,200,255,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Fire Salts -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>FireSalts</defName>
+    <label>fire salts</label>
+    <description>Crystalline salts infused with elemental fire, harvested from flame atronachs. These glowing crystals radiate heat and are essential components in fire-based alchemical preparations and enchantments.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FireSalts</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MarketValue>80</MarketValue>
+      <Mass>0.1</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>3</Beauty>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>2</glowRadius>
+        <glowColor>(255,150,0,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Frost Salts -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>FrostSalts</defName>
+    <label>frost salts</label>
+    <description>Crystalline salts infused with elemental ice, harvested from frost atronachs. These frigid crystals emanate an aura of cold and are prized for their use in ice-based magical workings.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FrostSalts</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MarketValue>90</MarketValue>
+      <Mass>0.1</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>3</Beauty>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>2</glowRadius>
+        <glowColor>(150,200,255,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Void Salts -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>VoidSalts</defName>
+    <label>void salts</label>
+    <description>Rare crystalline salts charged with electrical energy, harvested from storm atronachs. These crackling crystals are among the most valuable alchemical components, essential for lightning-based enchantments.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/VoidSalts</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>15</stackLimit>
+    <statBases>
+      <MarketValue>110</MarketValue>
+      <Mass>0.1</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>4</Beauty>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(200,150,255,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

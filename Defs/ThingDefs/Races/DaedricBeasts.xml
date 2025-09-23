@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Scamp: Small mischievous Daedric imp -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Scamp</defName>
+    <label>scamp</label>
+    <description>A small, imp-like Daedric creature known for its mischievous nature and razor-sharp claws. Scamps are among the weakest of the Daedra, but their cunning and agility make them dangerous in groups.</description>
+    <statBases>
+      <MoveSpeed>4.8</MoveSpeed>
+      <MarketValue>180</MarketValue>
+      <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+      <ComfyTemperatureMax>80</ComfyTemperatureMax>
+      <FilthRate>2</FilthRate>
+    </statBases>
+    <tools>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.8</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.8</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <predator>true</predator>
+      <petness>0.0</petness>
+      <baseBodySize>0.4</baseBodySize>
+      <baseHungerRate>0.20</baseHungerRate>
+      <baseHealthScale>0.6</baseHealthScale>
+      <foodType>CarnivoreAnimal</foodType>
+      <leatherDef>Leather_Patch</leatherDef>
+      <wildness>0.98</wildness>
+      <manhunterOnTameFailChance>0.8</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.9</manhunterOnDamageChance>
+      <lifeExpectancy>200</lifeExpectancy>
+      <mateMtbHours>17520</mateMtbHours>
+      <maturityAge>50</maturityAge>
+      <trainability>None</trainability>
+      <gestationPeriodDays>120</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(2, 0.3)</li>
+          <li>(3, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>10</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>50</minAge>
+          <soundWounded>Pawn_Monkey_Wounded</soundWounded>
+          <soundDeath>Pawn_Monkey_Death</soundDeath>
+          <soundCall>Pawn_Monkey_Call</soundCall>
+          <soundAngry>Pawn_Monkey_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <butcherProducts>
+      <ScampClaw>2</ScampClaw>
+      <LesserSoulGem>1</LesserSoulGem>
+    </butcherProducts>
+  </ThingDef>
+
+  <!-- Clannfear: Reptilian Daedric beast -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Clannfear</defName>
+    <label>clannfear</label>
+    <description>A large, reptilian Daedric creature with powerful claws and a distinctive crested head. These intelligent predators are known for their pack hunting tactics and fierce loyalty to their Daedric masters.</description>
+    <statBases>
+      <MoveSpeed>5.5</MoveSpeed>
+      <MarketValue>450</MarketValue>
+      <ComfyTemperatureMin>-30</ComfyTemperatureMin>
+      <ComfyTemperatureMax>70</ComfyTemperatureMax>
+      <FilthRate>4</FilthRate>
+    </statBases>
+    <tools>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2.2</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2.2</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>2.8</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <predator>true</predator>
+      <petness>0.0</petness>
+      <baseBodySize>1.1</baseBodySize>
+      <baseHungerRate>0.35</baseHungerRate>
+      <baseHealthScale>1.2</baseHealthScale>
+      <foodType>CarnivoreAnimal</foodType>
+      <leatherDef>Leather_Heavy</leatherDef>
+      <wildness>0.99</wildness>
+      <manhunterOnTameFailChance>0.9</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.85</manhunterOnDamageChance>
+      <lifeExpectancy>300</lifeExpectancy>
+      <mateMtbHours>17520</mateMtbHours>
+      <maturityAge>80</maturityAge>
+      <trainability>None</trainability>
+      <gestationPeriodDays>180</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(2, 0.1)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>20</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>80</minAge>
+          <soundWounded>Pawn_Warg_Wounded</soundWounded>
+          <soundDeath>Pawn_Warg_Death</soundDeath>
+          <soundCall>Pawn_Warg_Call</soundCall>
+          <soundAngry>Pawn_Warg_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+    <butcherProducts>
+      <ClannfearClaw>4</ClannfearClaw>
+      <DaedraHeart>1</DaedraHeart>
+      <CommonSoulGem>1</CommonSoulGem>
+    </butcherProducts>
+  </ThingDef>
+
+  <!-- Daedroth: Crocodilian Daedric beast -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Daedroth</defName>
+    <label>daedroth</label>
+    <description>A massive crocodilian Daedric beast with an enormous maw filled with razor-sharp teeth. These hulking creatures are among the most physically powerful of the lesser Daedra, capable of crushing armor and bone with their devastating bite.</description>
+    <statBases>
+      <MoveSpeed>4.2</MoveSpeed>
+      <MarketValue>800</MarketValue>
+      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+      <FilthRate>10</FilthRate>
+    </statBases>
+    <tools>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>35</power>
+        <cooldownTime>3.5</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.8</chanceFactor>
+      </li>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>tail</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>3.0</cooldownTime>
+        <linkedBodyPartsGroup>TailAttackTool</linkedBodyPartsGroup>
+        <chanceFactor>0.4</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <predator>true</predator>
+      <petness>0.0</petness>
+      <baseBodySize>2.2</baseBodySize>
+      <baseHungerRate>0.60</baseHungerRate>
+      <baseHealthScale>2.0</baseHealthScale>
+      <foodType>CarnivoreAnimal</foodType>
+      <leatherDef>Leather_Heavy</leatherDef>
+      <wildness>0.99</wildness>
+      <manhunterOnTameFailChance>0.95</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.9</manhunterOnDamageChance>
+      <lifeExpectancy>500</lifeExpectancy>
+      <mateMtbHours>26280</mateMtbHours>
+      <maturityAge>120</maturityAge>
+      <trainability>None</trainability>
+      <gestationPeriodDays>300</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(2, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>30</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>120</minAge>
+          <soundWounded>Pawn_Bear_Wounded</soundWounded>
+          <soundDeath>Pawn_Bear_Death</soundDeath>
+          <soundCall>Pawn_Bear_Call</soundCall>
+          <soundAngry>Pawn_Bear_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+    <butcherProducts>
+      <DaedrothTeeth>6</DaedrothTeeth>
+      <DaedraHeart>2</DaedraHeart>
+      <GreaterSoulGem>1</GreaterSoulGem>
+    </butcherProducts>
+  </ThingDef>
+
+  <!-- Ogrim: Large brutish Daedric creature -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Ogrim</defName>
+    <label>ogrim</label>
+    <description>A hulking, brutish Daedric creature with immense physical strength and a thick, armored hide. These savage beasts are slow but devastatingly powerful, capable of crushing enemies with their massive fists.</description>
+    <statBases>
+      <MoveSpeed>3.0</MoveSpeed>
+      <MarketValue>1200</MarketValue>
+      <ComfyTemperatureMin>-50</ComfyTemperatureMin>
+      <ComfyTemperatureMax>80</ComfyTemperatureMax>
+      <FilthRate>12</FilthRate>
+    </statBases>
+    <tools>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>40</power>
+        <cooldownTime>4.0</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>40</power>
+        <cooldownTime>4.0</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>30</power>
+        <cooldownTime>3.5</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <predator>true</predator>
+      <petness>0.0</petness>
+      <baseBodySize>3.0</baseBodySize>
+      <baseHungerRate>0.80</baseHungerRate>
+      <baseHealthScale>2.5</baseHealthScale>
+      <foodType>CarnivoreAnimal</foodType>
+      <leatherDef>Leather_Heavy</leatherDef>
+      <wildness>0.99</wildness>
+      <manhunterOnTameFailChance>0.99</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.95</manhunterOnDamageChance>
+      <lifeExpectancy>800</lifeExpectancy>
+      <mateMtbHours>35040</mateMtbHours>
+      <maturityAge>200</maturityAge>
+      <trainability>None</trainability>
+      <gestationPeriodDays>400</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(2, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>50</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>200</minAge>
+          <soundWounded>Pawn_Elephant_Wounded</soundWounded>
+          <soundDeath>Pawn_Elephant_Death</soundDeath>
+          <soundCall>Pawn_Elephant_Call</soundCall>
+          <soundAngry>Pawn_Elephant_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+    <butcherProducts>
+      <OgrimHide>8</OgrimHide>
+      <DaedraHeart>3</DaedraHeart>
+      <GreaterSoulGem>1</GreaterSoulGem>
+    </butcherProducts>
+  </ThingDef>
+
+  <!-- Flame Atronach: Elemental fire creature -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>FlameAtronach</defName>
+    <label>flame atronach</label>
+    <description>A towering creature of living flame and molten rock, bound from the elemental plane of fire. These powerful beings radiate intense heat and can incinerate enemies with their fiery attacks.</description>
+    <statBases>
+      <MoveSpeed>4.5</MoveSpeed>
+      <MarketValue>900</MarketValue>
+      <ComfyTemperatureMin>-100</ComfyTemperatureMin>
+      <ComfyTemperatureMax>200</ComfyTemperatureMax>
+      <FilthRate>0</FilthRate>
+    </statBases>
+    <tools>
+      <li>
+        <label>flame fist</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Burn</li>
+        </capacities>
+        <power>28</power>
+        <cooldownTime>3.0</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <chanceFactor>0.8</chanceFactor>
+      </li>
+      <li>
+        <label>flame fist</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Burn</li>
+        </capacities>
+        <power>28</power>
+        <cooldownTime>3.0</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <chanceFactor>0.8</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <predator>true</predator>
+      <petness>0.0</petness>
+      <baseBodySize>2.0</baseBodySize>
+      <baseHungerRate>0.0</baseHungerRate>
+      <baseHealthScale>1.8</baseHealthScale>
+      <foodType>None</foodType>
+      <leatherDef>Leather_Heavy</leatherDef>
+      <wildness>0.99</wildness>
+      <manhunterOnTameFailChance>0.99</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.95</manhunterOnDamageChance>
+      <lifeExpectancy>1000</lifeExpectancy>
+      <mateMtbHours>-1</mateMtbHours>
+      <maturityAge>0</maturityAge>
+      <trainability>None</trainability>
+      <lifeStageAges>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Bear_Wounded</soundWounded>
+          <soundDeath>Pawn_Bear_Death</soundDeath>
+          <soundCall>Pawn_Bear_Call</soundCall>
+          <soundAngry>Pawn_Bear_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+    <butcherProducts>
+      <FireSalts>3</FireSalts>
+      <DaedraHeart>1</DaedraHeart>
+      <GreaterSoulGem>1</GreaterSoulGem>
+    </butcherProducts>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(255,100,0,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Frost Atronach: Elemental ice creature -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>FrostAtronach</defName>
+    <label>frost atronach</label>
+    <description>A massive creature of ice and snow, summoned from the elemental plane of frost. These towering giants move slowly but possess incredible strength and can freeze enemies with their icy touch.</description>
+    <statBases>
+      <MoveSpeed>2.8</MoveSpeed>
+      <MarketValue>1100</MarketValue>
+      <ComfyTemperatureMin>-200</ComfyTemperatureMin>
+      <ComfyTemperatureMax>0</ComfyTemperatureMax>
+      <FilthRate>0</FilthRate>
+    </statBases>
+    <tools>
+      <li>
+        <label>ice fist</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Frostbite</li>
+        </capacities>
+        <power>45</power>
+        <cooldownTime>4.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>ice fist</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Frostbite</li>
+        </capacities>
+        <power>45</power>
+        <cooldownTime>4.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <predator>true</predator>
+      <petness>0.0</petness>
+      <baseBodySize>3.5</baseBodySize>
+      <baseHungerRate>0.0</baseHungerRate>
+      <baseHealthScale>3.0</baseHealthScale>
+      <foodType>None</foodType>
+      <leatherDef>Leather_Heavy</leatherDef>
+      <wildness>0.99</wildness>
+      <manhunterOnTameFailChance>0.99</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.95</manhunterOnDamageChance>
+      <lifeExpectancy>1000</lifeExpectancy>
+      <mateMtbHours>-1</mateMtbHours>
+      <maturityAge>0</maturityAge>
+      <trainability>None</trainability>
+      <lifeStageAges>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Elephant_Wounded</soundWounded>
+          <soundDeath>Pawn_Elephant_Death</soundDeath>
+          <soundCall>Pawn_Elephant_Call</soundCall>
+          <soundAngry>Pawn_Elephant_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+    <butcherProducts>
+      <FrostSalts>4</FrostSalts>
+      <DaedraHeart>2</DaedraHeart>
+      <GreaterSoulGem>1</GreaterSoulGem>
+    </butcherProducts>
+  </ThingDef>
+
+  <!-- Storm Atronach: Elemental lightning creature -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>StormAtronach</defName>
+    <label>storm atronach</label>
+    <description>A crackling entity of pure electrical energy bound in a humanoid form. These volatile creatures channel the power of storms and can unleash devastating lightning attacks on their enemies.</description>
+    <statBases>
+      <MoveSpeed>5.5</MoveSpeed>
+      <MarketValue>1000</MarketValue>
+      <ComfyTemperatureMin>-50</ComfyTemperatureMin>
+      <ComfyTemperatureMax>100</ComfyTemperatureMax>
+      <FilthRate>0</FilthRate>
+    </statBases>
+    <tools>
+      <li>
+        <label>lightning strike</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Stun</li>
+        </capacities>
+        <power>32</power>
+        <cooldownTime>3.2</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <chanceFactor>0.9</chanceFactor>
+      </li>
+      <li>
+        <label>lightning strike</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Stun</li>
+        </capacities>
+        <power>32</power>
+        <cooldownTime>3.2</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <chanceFactor>0.9</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <predator>true</predator>
+      <petness>0.0</petness>
+      <baseBodySize>2.5</baseBodySize>
+      <baseHungerRate>0.0</baseHungerRate>
+      <baseHealthScale>2.2</baseHealthScale>
+      <foodType>None</foodType>
+      <leatherDef>Leather_Heavy</leatherDef>
+      <wildness>0.99</wildness>
+      <manhunterOnTameFailChance>0.99</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.95</manhunterOnDamageChance>
+      <lifeExpectancy>1000</lifeExpectancy>
+      <mateMtbHours>-1</mateMtbHours>
+      <maturityAge>0</maturityAge>
+      <trainability>None</trainability>
+      <lifeStageAges>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Bear_Wounded</soundWounded>
+          <soundDeath>Pawn_Bear_Death</soundDeath>
+          <soundCall>Pawn_Bear_Call</soundCall>
+          <soundAngry>Pawn_Bear_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+    <butcherProducts>
+      <VoidSalts>3</VoidSalts>
+      <DaedraHeart>1</DaedraHeart>
+      <GreaterSoulGem>1</GreaterSoulGem>
+    </butcherProducts>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>4</glowRadius>
+        <glowColor>(150,200,255,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

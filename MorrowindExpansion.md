@@ -10,15 +10,21 @@ The Morrowind expansion introduces authentic content from the iconic Elder Scrol
 - **Corpus** (existing) - Divine disease from House Dagoth
 - **15 new diseases** covering all major ailments from Morrowind
 
-### Animals (11 species)
+### Animals (18 species)
 - **Native creatures** from Morrowind's diverse ecosystems
 - **Domesticated animals** used by Dunmer civilization
 - **Dangerous predators** that roam the ashlands
+- **Daedric beasts** from the planes of Oblivion
 
 ### Plants (9 species)
 - **Agricultural crops** that form the basis of Dunmer farming
 - **Decorative flowers** for beautification and alchemy
 - **Medicinal herbs** with healing properties
+
+### Daedric Materials (10 types)
+- **Supernatural components** harvested from Daedric creatures
+- **Alchemical reagents** for powerful enchantments
+- **Soul gems** containing trapped Daedric essences
 
 ## Diseases
 
@@ -161,6 +167,82 @@ The Morrowind expansion introduces authentic content from the iconic Elder Scrol
 - **Yield**: 10 berries, mental enhancement
 - **Market Value**: 2.0 gold per berry
 
+## Daedric Beasts
+
+### Lesser Daedra
+
+#### Scamp
+- **Role**: Mischievous imp-like creature
+- **Traits**: Small, agile, cunning
+- **Market Value**: 180 gold
+- **Combat**: Sharp claws, bite attacks
+- **Drops**: Scamp claws, Lesser soul gems
+
+#### Clannfear
+- **Role**: Reptilian pack hunter
+- **Traits**: Intelligent, pack behavior, crested head
+- **Market Value**: 450 gold
+- **Combat**: Powerful claws, devastating bite
+- **Drops**: Clannfear claws, Daedra hearts, Common soul gems
+
+### Greater Daedra
+
+#### Daedroth
+- **Role**: Massive crocodilian predator
+- **Traits**: Enormous size, crushing bite
+- **Market Value**: 800 gold
+- **Combat**: Bone-crushing teeth, claws, tail whip
+- **Drops**: Daedroth teeth, Daedra hearts, Greater soul gems
+
+#### Ogrim
+- **Role**: Brutish armored giant
+- **Traits**: Immense strength, thick hide, slow movement
+- **Market Value**: 1200 gold
+- **Combat**: Devastating fist attacks, head bash
+- **Drops**: Ogrim hide, Daedra hearts, Greater soul gems
+
+### Atronachs
+
+#### Flame Atronach
+- **Role**: Elemental fire creature
+- **Traits**: Living flame, heat radiation, immune to fire
+- **Market Value**: 900 gold
+- **Combat**: Burning fists, fire immunity
+- **Drops**: Fire salts, Daedra hearts, Greater soul gems
+
+#### Frost Atronach
+- **Role**: Elemental ice giant
+- **Traits**: Massive size, freezing aura, slow but powerful
+- **Market Value**: 1100 gold
+- **Combat**: Ice-crushing fists, cold immunity
+- **Drops**: Frost salts, Daedra hearts, Greater soul gems
+
+#### Storm Atronach
+- **Role**: Electrical energy being
+- **Traits**: Lightning speed, electrical attacks, volatile
+- **Market Value**: 1000 gold
+- **Combat**: Lightning strikes, stunning attacks
+- **Drops**: Void salts, Daedra hearts, Greater soul gems
+
+## Daedric Materials & Items
+
+### Soul Gems
+- **Lesser Soul Gem**: Captures weak Daedric essences (Market Value: 50 gold)
+- **Common Soul Gem**: Contains moderate Daedric souls (Market Value: 120 gold)  
+- **Greater Soul Gem**: Holds powerful Daedric souls (Market Value: 400 gold)
+
+### Elemental Salts
+- **Fire Salts**: Crystalline fire essence from Flame Atronachs (Market Value: 80 gold)
+- **Frost Salts**: Ice-infused crystals from Frost Atronachs (Market Value: 90 gold)
+- **Void Salts**: Lightning-charged crystals from Storm Atronachs (Market Value: 110 gold)
+
+### Daedric Body Parts
+- **Scamp Claw**: Sharp supernatural talons (Market Value: 12 gold)
+- **Clannfear Claw**: Large serrated claws (Market Value: 25 gold)
+- **Daedroth Teeth**: Massive bone-crushing fangs (Market Value: 40 gold)
+- **Ogrim Hide**: Thick armored supernatural leather (Market Value: 30 gold)
+- **Daedra Heart**: Still-beating otherworldly organ (Market Value: 200 gold)
+
 ## File Structure
 
 ```
@@ -173,10 +255,14 @@ Defs/
 ├── ThingDefs/Races/
 │   ├── MorrowindAnimals.xml        # Guar, Kagouti, Alit
 │   ├── MorrowindAnimals2.xml       # Nix-Hound, Shalk, etc.
-│   └── MorrowindAnimals3.xml       # Netch, Kwama species
+│   ├── MorrowindAnimals3.xml       # Netch, Kwama species
+│   └── DaedricBeasts.xml           # Daedric creatures and Atronachs
+├── ThingDefs/Items/
+│   └── DaedricMaterials.xml        # Soul gems, salts, claws, hearts
 ├── PawnKindDefs/
 │   ├── PawnKind_MorrowindAnimals.xml
-│   └── PawnKind_MorrowindAnimals2.xml
+│   ├── PawnKind_MorrowindAnimals2.xml
+│   └── PawnKind_DaedricBeasts.xml  # Daedric creature spawn definitions
 └── ThingDefs/Plants/
     ├── MorrowindCrops.xml          # Food crops and products
     └── MorrowindPlants.xml         # Decorative and alchemical plants
@@ -199,8 +285,31 @@ Defs/
 ### Texture Requirements
 The mod expects texture files at the following paths (textures not included in code):
 - `Things/Pawn/Animal/[AnimalName]/[AnimalName].png`
+- `Things/Pawn/Animal/[DaedricBeast]/[DaedricBeast].png`
 - `Things/Plant/[PlantName].png`
 - `Things/Item/Resource/[ResourceName].png`
+
+**New Daedric Beast Textures Needed:**
+- `Things/Pawn/Animal/Scamp/Scamp.png`
+- `Things/Pawn/Animal/Clannfear/Clannfear.png`
+- `Things/Pawn/Animal/Daedroth/Daedroth.png`
+- `Things/Pawn/Animal/Ogrim/Ogrim.png`
+- `Things/Pawn/Animal/FlameAtronach/FlameAtronach.png`
+- `Things/Pawn/Animal/FrostAtronach/FrostAtronach.png`
+- `Things/Pawn/Animal/StormAtronach/StormAtronach.png`
+
+**New Daedric Material Textures Needed:**
+- `Things/Item/Resource/ScampClaw.png`
+- `Things/Item/Resource/ClannfearClaw.png`
+- `Things/Item/Resource/DaedrothTeeth.png`
+- `Things/Item/Resource/OgrimHide.png`
+- `Things/Item/Resource/DaedraHeart.png`
+- `Things/Item/Resource/LesserSoulGem.png`
+- `Things/Item/Resource/CommonSoulGem.png`
+- `Things/Item/Resource/GreaterSoulGem.png`
+- `Things/Item/Resource/FireSalts.png`
+- `Things/Item/Resource/FrostSalts.png`
+- `Things/Item/Resource/VoidSalts.png`
 
 ## Lore Accuracy
 
@@ -216,6 +325,12 @@ This expansion faithfully represents content from The Elder Scrolls III: Morrowi
 - **Proper relationships** between predators and prey
 - **Cultural significance** to Dunmer society
 
+### Daedric Beasts  
+- **Authentic Daedric hierarchy** reflecting Lesser and Greater Daedra distinctions
+- **Accurate Atronach types** with appropriate elemental properties
+- **Lore-appropriate drops** matching Elder Scrolls alchemy ingredients
+- **Proper combat abilities** reflecting each creature's canonical strengths
+
 ### Plants
 - **Agricultural realism** reflecting Dunmer farming practices
 - **Alchemical properties** true to Elder Scrolls tradition
@@ -229,5 +344,8 @@ The content is designed for future quest integration:
 - **Agricultural expansion** and crop development
 - **Alchemical research** using native plants
 - **Ecological balance** management scenarios
+- **Daedric summoning** and banishment rituals
+- **Soul gem crafting** and enchantment storylines
+- **Planar expeditions** to hunt powerful Daedra
 
 This comprehensive expansion significantly enhances the Elder Scrolls experience within RimWorld, providing authentic content that respects both franchises while creating engaging gameplay opportunities.
