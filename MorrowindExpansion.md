@@ -426,6 +426,11 @@ The mod expects texture files at the following paths (textures not included in c
 - `Things/Item/Resource/FireSalts.png`
 - `Things/Item/Resource/FrostSalts.png`
 - `Things/Item/Resource/VoidSalts.png`
+- `Things/Item/Drug/Sujamma.png`
+- `Things/Item/Drug/Mazte.png`
+- `Things/Item/Drug/Flin.png`
+- `Things/Item/Drug/Greef.png`
+- `Things/Item/Drug/Shein.png`
 
 ## Lore Accuracy
 
