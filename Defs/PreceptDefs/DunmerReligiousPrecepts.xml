@@ -21,6 +21,25 @@
     </comps>
   </PreceptDef>
 
+  <!-- House Honor Precepts - now part of Tribunal Worship -->
+  <PreceptDef>
+    <defName>HouseHonor_Required</defName>
+    <label>house honor</label>
+    <description>The faithful must uphold House honor and noble traditions.</description>
+    <impact>Medium</impact>
+    <associatedMemes>
+      <li>TribunalWorship</li>
+    </associatedMemes>
+    <issue>Charity</issue>
+    <defaultSelectionWeight>1</defaultSelectionWeight>
+    <comps>
+      <li Class="PreceptComp_SituationalThought">
+        <thought>HouseHonor_Satisfied</thought>
+        <eventDef>CharityFulfilled</eventDef>
+      </li>
+    </comps>
+  </PreceptDef>
+
   <!-- House Dagoth Corpus Precepts -->
   <PreceptDef>
     <defName>CorpusBlessing_Required</defName>
@@ -59,22 +78,5 @@
     </comps>
   </PreceptDef>
 
-  <!-- Great House Ancestor Precepts -->
-  <PreceptDef>
-    <defName>HouseHonor_Required</defName>
-    <label>house honor</label>
-    <description>The faithful must uphold House honor and noble traditions.</description>
-    <impact>Medium</impact>
-    <associatedMemes>
-      <li>GreatHouseAncestorWorship</li>
-    </associatedMemes>
-    <issue>Charity</issue>
-    <defaultSelectionWeight>1</defaultSelectionWeight>
-    <comps>
-      <li Class="PreceptComp_SituationalThought">
-        <thought>HouseHonor_Satisfied</thought>
-        <eventDef>CharityFulfilled</eventDef>
-      </li>
-    </comps>
-  </PreceptDef>
+
 </Defs>

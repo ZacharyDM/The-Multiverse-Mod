@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <!-- Tribunal Temple Worship - Living Gods Veneration -->
+  <!-- Tribunal Temple Worship - Living Gods Veneration with Ancestor Worship -->
   <MemeDef>
     <defName>TribunalWorship</defName>
     <label>tribunal worship</label>
-    <description>Devotion to the Living Gods of Morrowind: Almalexia the Healing Mother, Sotha Sil the Clockwork God, and Vivec the Poet-Warrior. This faith teaches that these three former mortals achieved divinity through wisdom, struggle, and sacrifice, and now guide their people from their sacred temples.</description>
+    <description>Devotion to the Living Gods of Morrowind: Almalexia the Healing Mother, Sotha Sil the Clockwork God, and Vivec the Poet-Warrior, combined with veneration of noble ancestors and House founders. This faith teaches that these three former mortals achieved divinity through wisdom, struggle, and sacrifice, while also honoring the bloodlines and traditions of the Great Houses.</description>
     <iconPath>UI/Memes/TribunalWorship</iconPath>
     <impact>2</impact>
     <category>Deity</category>
@@ -16,6 +16,8 @@
         <li>rule->venerate the Living Gods</li>
         <li>rule->uphold Temple orthodoxy</li>
         <li>rule->defend the faithful from heresy</li>
+        <li>rule->honor noble ancestors and bloodlines</li>
+        <li>rule->preserve House traditions</li>
       </rulesStrings>
     </generalRules>
     <worshipRoomLabel>temple hall</worshipRoomLabel>
@@ -36,10 +38,11 @@
         <duties>
           <li>Priest</li>
           <li>Moral guide</li>
+          <li>Genealogist</li>
         </duties>
       </li>
     </ritualPatterns>
-    <deityCountRange>3~3</deityCountRange>
+    <deityCountRange>3~6</deityCountRange>
     <deityNameMaker>TribunalDeityNames</deityNameMaker>
     <allowSymbolsFromDeity>true</allowSymbolsFromDeity>
     <fixedDeityNameTypes>
@@ -147,47 +150,5 @@
     </fixedDeityNameTypes>
   </MemeDef>
 
-  <!-- Great House Ancestor Worship - The Tribunal -->
-  <MemeDef>
-    <defName>GreatHouseAncestorWorship</defName>
-    <label>the tribunal</label>
-    <description>The main religion followed by all Great Houses of Morrowind, venerating the three Living Gods alongside their noble lineages and founding fathers. This tradition emphasizes bloodline, honor, and the continuation of House prestige through generations while following the canonical state religion.</description>
-    <iconPath>UI/Memes/GreatHouseWorship</iconPath>
-    <impact>1</impact>
-    <category>Structure</category>
-    <exclusionTags>
-      <li>Structure_Individualist</li>
-    </exclusionTags>
-    <generalRules>
-      <rulesStrings>
-        <li>rule->uphold House honor and tradition</li>
-        <li>rule->venerate noble bloodlines</li>
-        <li>rule->preserve family legacy</li>
-        <li>rule->maintain hierarchical order</li>
-      </rulesStrings>
-    </generalRules>
-    <worshipRoomLabel>ancestral hall</worshipRoomLabel>
-    <symbolPacks>
-      <li>
-        <ideoName>The Tribunal</ideoName>
-        <theme>GreatHouse</theme>
-        <adjective>noble</adjective>
-        <member>house retainer</member>
-        <deity>living gods</deity>
-        <deityPlural>living gods</deityPlural>
-        <place>great house</place>
-      </li>
-    </symbolPacks>
-    <ritualPatterns>
-      <li>
-        <keyword>house</keyword>
-        <duties>
-          <li>House priest</li>
-          <li>Genealogist</li>
-        </duties>
-      </li>
-    </ritualPatterns>
-    <deityCountRange>1~3</deityCountRange>
-    <deityNameMaker>HouseAncestorNames</deityNameMaker>
-  </MemeDef>
+
 </Defs>

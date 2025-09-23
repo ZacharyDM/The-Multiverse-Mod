@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <!-- Tribunal Temple Deity Names -->
+  <!-- Tribunal Temple Deity Names - includes Living Gods and Ancestors -->
   <RulePackDef>
     <defName>TribunalDeityNames</defName>
     <rulePack>
@@ -13,6 +13,14 @@
         <li>TribunalGodName->The Healing Mother</li>
         <li>TribunalGodName->The Clockwork God</li>
         <li>TribunalGodName->The Poet-Warrior</li>
+        <li>TribunalGodName->Indoril Nerevar</li>
+        <li>TribunalGodName->Saint Veloth</li>
+        <li>TribunalGodName->House Founder</li>
+        <li>TribunalGodName->Noble Ancestor</li>
+        <li>TribunalGodName->House Patriarch</li>
+        <li>TribunalGodName->House Matriarch</li>
+        <li>TribunalGodName->First Councilor</li>
+        <li>TribunalGodName->Elder of the House</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
@@ -53,22 +61,5 @@
     </rulePack>
   </RulePackDef>
 
-  <!-- Great House Ancestor Names -->
-  <RulePackDef>
-    <defName>HouseAncestorNames</defName>
-    <rulePack>
-      <rulesStrings>
-        <li>name->[HouseAncestorName]</li>
-        
-        <li>HouseAncestorName->Indoril Nerevar</li>
-        <li>HouseAncestorName->Saint Veloth</li>
-        <li>HouseAncestorName->House Founder</li>
-        <li>HouseAncestorName->Noble Ancestor</li>
-        <li>HouseAncestorName->House Patriarch</li>
-        <li>HouseAncestorName->House Matriarch</li>
-        <li>HouseAncestorName->First Councilor</li>
-        <li>HouseAncestorName->Elder of the House</li>
-      </rulesStrings>
-    </rulePack>
-  </RulePackDef>
+
 </Defs>
