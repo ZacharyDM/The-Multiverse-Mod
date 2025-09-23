@@ -169,4 +169,46 @@
     </lifeStages>
   </PawnKindDef>
 
+  <PawnKindDef>
+    <defName>SiltStrider</defName>
+    <label>silt strider</label>
+    <race>SiltStrider</race>
+    <defaultFactionType>AnimalFaction</defaultFactionType>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/SiltStrider/SiltStrider</texPath>
+          <drawSize>2.0</drawSize>
+          <color>(140,130,110)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/SiltStrider/Dessicated_SiltStrider</texPath>
+          <drawSize>2.0</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/SiltStrider/SiltStrider</texPath>
+          <drawSize>2.8</drawSize>
+          <color>(140,130,110)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/SiltStrider/Dessicated_SiltStrider</texPath>
+          <drawSize>2.8</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/SiltStrider/SiltStrider</texPath>
+          <drawSize>3.5</drawSize>
+          <color>(140,130,110)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/SiltStrider/Dessicated_SiltStrider</texPath>
+          <drawSize>3.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
 </Defs>
