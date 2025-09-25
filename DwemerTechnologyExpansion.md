@@ -154,7 +154,7 @@ The Dwemer Technology expansion introduces **dwarven metal** as a unique resourc
 ```
 Defs/
 ├── FactionDefs/
-│   └── DunmerFactions.xml           # Dwemer Technologists faction
+│   └── DwemerFactions.xml           # Dwemer Technologists faction
 ├── ResearchProjectDefs/
 │   └── DwemerTechnology.xml         # Three-tier research progression
 ├── RecipeDefs/
