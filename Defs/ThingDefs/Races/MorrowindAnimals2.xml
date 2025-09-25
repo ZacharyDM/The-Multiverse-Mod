@@ -374,4 +374,83 @@
     </race>
   </ThingDef>
 
+  <!-- Scrib: Healing beetle-like creature -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Scrib</defName>
+    <label>scrib</label>
+    <description>A small, harmless beetle-like creature that secretes a valuable healing jelly. Scribs are prized by alchemists and healers for their medicinal properties, making them highly sought after despite their docile nature.</description>
+    <statBases>
+      <MoveSpeed>2.0</MoveSpeed>
+      <MarketValue>150</MarketValue>
+      <ComfyTemperatureMin>5</ComfyTemperatureMin>
+      <ComfyTemperatureMax>50</ComfyTemperatureMax>
+      <FilthRate>2</FilthRate>
+      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+    </statBases>
+    <tools>
+      <li>
+        <label>mandibles</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+        <chanceFactor>0.6</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>BeetleLike</body>
+      <predator>false</predator>
+      <petness>0.4</petness>
+      <baseBodySize>0.3</baseBodySize>
+      <baseHungerRate>0.1</baseHungerRate>
+      <baseHealthScale>0.4</baseHealthScale>
+      <foodType>VegetarianRoughAnimal</foodType>
+      <leatherDef>Leather_Plain</leatherDef>
+      <butcherProducts>
+        <ScribJelly>2</ScribJelly>
+      </butcherProducts>
+      <wildness>0.2</wildness>
+      <manhunterOnTameFailChance>0.01</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.05</manhunterOnDamageChance>
+      <lifeExpectancy>6</lifeExpectancy>
+      <mateMtbHours>8760</mateMtbHours>
+      <maturityAge>0.5</maturityAge>
+      <trainability>Simple</trainability>
+      <gestationPeriodDays>20</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(1, 0)</li>
+          <li>(3, 0.5)</li>
+          <li>(6, 1)</li>
+          <li>(10, 0.5)</li>
+          <li>(12, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.1</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.5</minAge>
+          <soundWounded>Pawn_Megaspider_Wounded</soundWounded>
+          <soundDeath>Pawn_Megaspider_Death</soundDeath>
+          <soundCall>Pawn_Megaspider_Call</soundCall>
+          <soundAngry>Pawn_Megaspider_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
 </Defs>

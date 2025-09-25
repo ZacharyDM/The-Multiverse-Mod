@@ -34,6 +34,8 @@
     <wildPlants>
       <PlantAshYam>0.5</PlantAshYam>
       <PlantFirePetal>0.3</PlantFirePetal>
+      <PlantCorkbulbRoot>0.2</PlantCorkbulbRoot>
+      <PlantStoneflower>0.1</PlantStoneflower>
     </wildPlants>
     <terrainsByFertility>
       <li>
@@ -91,11 +93,16 @@
       <BettyNetch>0.3</BettyNetch>
       <NixHound>0.2</NixHound>
       <KwamaWorker>0.1</KwamaWorker>
+      <Scrib>0.3</Scrib>
     </wildAnimals>
     <wildPlants>
       <PlantMarshmerrow>0.8</PlantMarshmerrow>
       <PlantSaltrice>0.4</PlantSaltrice>
       <PlantComberry>0.3</PlantComberry>
+      <PlantVioletCoprinus>0.4</PlantVioletCoprinus>
+      <PlantLuminousRussula>0.3</PlantLuminousRussula>
+      <PlantTramaRoot>0.2</PlantTramaRoot>
+      <PlantHyphaFacia>0.15</PlantHyphaFacia>
     </wildPlants>
     <terrainsByFertility>
       <li>
@@ -289,6 +296,7 @@
     <wildPlants>
       <PlantAshYam>0.2</PlantAshYam>
       <PlantFirePetal>0.3</PlantFirePetal>
+      <PlantBunglersBane>0.1</PlantBunglersBane>
     </wildPlants>
     <terrainsByFertility>
       <li>
