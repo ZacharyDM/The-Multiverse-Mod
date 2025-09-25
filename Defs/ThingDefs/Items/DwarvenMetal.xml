@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Dwarven Metal - Raw Resource -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>DwarvenMetal</defName>
+    <label>dwarven metal</label>
+    <description>A unique and highly advanced metallic alloy created by the lost Dwemer civilization. This mysterious metal exhibits properties far superior to conventional materials, displaying exceptional durability and conductivity. The secrets of its creation were lost with the Dwemer, making existing stocks incredibly valuable. Can only be obtained through trade or by mastering ancient Dwemer technology.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/DwarvenMetal</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MarketValue>450</MarketValue>
+      <Mass>0.8</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>8</Beauty>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+      <li>DwarvenTech</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>2</glowRadius>
+        <glowColor>(180,140,90,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Dwarven Metal Ingot - Processed Resource -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>DwarvenMetalIngot</defName>
+    <label>dwarven metal ingot</label>
+    <description>A refined ingot of dwarven metal, processed using ancient Dwemer techniques. The metal has been purified and shaped into a standard ingot form, ready for use in advanced crafting and construction. The ingot gleams with an inner bronze light and feels surprisingly light despite its incredible strength.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/DwarvenMetalIngot</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MarketValue>750</MarketValue>
+      <Mass>1.2</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>12</Beauty>
+    </statBases>
+    <thingCategories>
+      <li>Metallic</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+      <li>DwarvenTech</li>
+    </tradeTags>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <statOffsets>
+        <WorkToMake>800</WorkToMake>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>2.8</MaxHitPoints>
+        <Beauty>3.5</Beauty>
+        <WorkToMake>0.6</WorkToMake>
+        <WorkToBuild>0.6</WorkToBuild>
+        <Mass>0.4</Mass>
+        <SharpDamageMultiplier>1.8</SharpDamageMultiplier>
+        <BluntDamageMultiplier>1.6</BluntDamageMultiplier>
+      </statFactors>
+      <color>(180,140,90)</color>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(180,140,90,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

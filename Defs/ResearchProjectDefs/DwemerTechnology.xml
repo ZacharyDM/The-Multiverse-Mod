@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Basic Dwemer Technology -->
+  <ResearchProjectDef>
+    <defName>DwemerMetallurgy</defName>
+    <label>Dwemer Metallurgy</label>
+    <description>Study the ancient Dwemer techniques for working with dwarven metal. This research unlocks the ability to process raw dwarven metal into refined ingots suitable for crafting. Requires alliance with Dwemer Technologists faction.</description>
+    <baseCost>3500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Smithing</li>
+      <li>Machining</li>
+    </prerequisites>
+    <tab>Main</tab>
+    <researchViewX>6.00</researchViewX>
+    <researchViewY>2.20</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+  </ResearchProjectDef>
+
+  <!-- Advanced Dwemer Crafting -->
+  <ResearchProjectDef>
+    <defName>DwemerCrafting</defName>
+    <label>Dwemer Crafting Techniques</label>
+    <description>Learn the advanced crafting methods used by the Dwemer to create superior equipment and structures. Unlocks the ability to craft Dwemeri-style apparel, weapons, and furniture with enhanced properties.</description>
+    <baseCost>4800</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DwemerMetallurgy</li>
+      <li>ComplexClothing</li>
+    </prerequisites>
+    <tab>Main</tab>
+    <researchViewX>7.50</researchViewX>
+    <researchViewY>2.20</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+  </ResearchProjectDef>
+
+  <!-- Master Dwemer Engineering -->
+  <ResearchProjectDef>
+    <defName>DwemerEngineering</defName>
+    <label>Dwemer Engineering</label>
+    <description>Master the pinnacle of Dwemer technological achievement. This advanced research unlocks the most sophisticated Dwemer constructions and allows for the creation of legendary Dwemeri equipment rivaling the artifacts of old.</description>
+    <baseCost>6500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>DwemerCrafting</li>
+      <li>Fabrication</li>
+    </prerequisites>
+    <tab>Main</tab>
+    <researchViewX>9.00</researchViewX>
+    <researchViewY>2.20</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+  </ResearchProjectDef>
+
+</Defs>

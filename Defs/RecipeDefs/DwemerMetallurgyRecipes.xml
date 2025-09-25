@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Process Dwarven Metal into Ingots -->
+  <RecipeDef>
+    <defName>ProcessDwarvenMetal</defName>
+    <label>process dwarven metal</label>
+    <description>Process raw dwarven metal using ancient Dwemer techniques to create refined ingots suitable for advanced crafting.</description>
+    <jobString>Processing dwarven metal.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>2400</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <skillRequirements>
+      <Crafting>12</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>DwarvenMetal</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <DwarvenMetalIngot>2</DwarvenMetalIngot>
+    </products>
+    <workSkill>Crafting</workSkill>
+    <recipeUsers>
+      <li>ElectricSmelter</li>
+      <li>FueledSmithy</li>
+    </recipeUsers>
+    <researchPrerequisite>DwemerMetallurgy</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Alternative recipe for advanced processing -->
+  <RecipeDef>
+    <defName>RefineDwarvenMetal</defName>
+    <label>refine dwarven metal (advanced)</label>
+    <description>Use advanced techniques and equipment to more efficiently refine dwarven metal with higher yield and better quality.</description>
+    <jobString>Refining dwarven metal.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>3200</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <skillRequirements>
+      <Crafting>15</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>DwarvenMetal</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <DwarvenMetalIngot>3</DwarvenMetalIngot>
+    </products>
+    <workSkill>Crafting</workSkill>
+    <recipeUsers>
+      <li>FabricationBench</li>
+    </recipeUsers>
+    <researchPrerequisite>DwemerEngineering</researchPrerequisite>
+  </RecipeDef>
+
+</Defs>
