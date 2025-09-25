@@ -211,4 +211,47 @@
     </lifeStages>
   </PawnKindDef>
 
+  <!-- Scrib -->
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Scrib</defName>
+    <label>scrib</label>
+    <race>Scrib</race>
+    <defaultFactionType>AnimalFaction</defaultFactionType>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Scrib/Scrib</texPath>
+          <drawSize>0.4</drawSize>
+          <color>(120,140,100)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Scrib/Dessicated_Scrib</texPath>
+          <drawSize>0.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Scrib/Scrib</texPath>
+          <drawSize>0.6</drawSize>
+          <color>(120,140,100)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Scrib/Dessicated_Scrib</texPath>
+          <drawSize>0.6</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Scrib/Scrib</texPath>
+          <drawSize>0.8</drawSize>
+          <color>(120,140,100)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Scrib/Dessicated_Scrib</texPath>
+          <drawSize>0.8</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
 </Defs>

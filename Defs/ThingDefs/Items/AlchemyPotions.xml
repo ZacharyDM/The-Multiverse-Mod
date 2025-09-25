@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Health Potion -->
+  <ThingDef ParentName="DrugBase">
+    <defName>HealthPotion</defName>
+    <label>health potion</label>
+    <description>A crimson potion that rapidly restores health when consumed. Made from healing herbs and alchemical compounds, it accelerates the body's natural healing processes.</description>
+    <descriptionHyperlinks>
+      <HediffDef>RestoreHealthEffect</HediffDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>Things/Item/Drug/HealthPotion</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>600</WorkToMake>
+      <MarketValue>35</MarketValue>
+      <Mass>0.2</Mass>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>RestoreHealthEffect</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <researchPrerequisite>DrugProduction</researchPrerequisite>
+      <recipeUsers>
+        <li>AlchemyLab</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Intellectual>5</Intellectual>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <HackleLoLeaf>2</HackleLoLeaf>
+      <TramaRoot>1</TramaRoot>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Strength Potion -->
+  <ThingDef ParentName="DrugBase">
+    <defName>StrengthPotion</defName>
+    <label>strength potion</label>
+    <description>A golden potion that enhances physical strength and endurance. Brewed from hardy mountain flowers, it temporarily increases carrying capacity and melee damage.</description>
+    <descriptionHyperlinks>
+      <HediffDef>FortifyStrengthEffect</HediffDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>Things/Item/Drug/StrengthPotion</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>800</WorkToMake>
+      <MarketValue>45</MarketValue>
+      <Mass>0.2</Mass>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <ingestible>
+      <drugCategory>Social</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>FortifyStrengthEffect</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <researchPrerequisite>DrugProduction</researchPrerequisite>
+      <recipeUsers>
+        <li>AlchemyLab</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Intellectual>6</Intellectual>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <StoneflowerPetals>2</StoneflowerPetals>
+      <CorkbulbRoot>1</CorkbulbRoot>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1001</listOrder>
+        <overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Water Walking Potion -->
+  <ThingDef ParentName="DrugBase">
+    <defName>WaterWalkingPotion</defName>
+    <label>water walking potion</label>
+    <description>A shimmering blue potion that grants the ability to walk on water. Made from violet coprinus mushrooms, it provides mystical buoyancy and enhanced movement speed.</description>
+    <descriptionHyperlinks>
+      <HediffDef>WaterWalkingEffect</HediffDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>Things/Item/Drug/WaterWalkingPotion</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <MarketValue>60</MarketValue>
+      <Mass>0.2</Mass>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <ingestible>
+      <drugCategory>Social</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>WaterWalkingEffect</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <researchPrerequisite>DrugProduction</researchPrerequisite>
+      <recipeUsers>
+        <li>AlchemyLab</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Intellectual>7</Intellectual>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <VioletCoprinus>3</VioletCoprinus>
+      <CliffRacerPlume>1</CliffRacerPlume>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1002</listOrder>
+        <overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Night Eye Potion -->
+  <ThingDef ParentName="DrugBase">
+    <defName>NightEyePotion</defName>
+    <label>night eye potion</label>
+    <description>A glowing potion that grants perfect vision in darkness. Brewed from luminous russula mushrooms, it enhances sight and accuracy in low-light conditions.</description>
+    <descriptionHyperlinks>
+      <HediffDef>NightEyeEffect</HediffDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>Things/Item/Drug/NightEyePotion</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>700</WorkToMake>
+      <MarketValue>40</MarketValue>
+      <Mass>0.2</Mass>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <ingestible>
+      <drugCategory>Social</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>NightEyeEffect</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <researchPrerequisite>DrugProduction</researchPrerequisite>
+      <recipeUsers>
+        <li>AlchemyLab</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Intellectual>5</Intellectual>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <LuminousRussula>2</LuminousRussula>
+      <RawComberry>1</RawComberry>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1003</listOrder>
+        <overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Fire Resistance Potion -->
+  <ThingDef ParentName="DrugBase">
+    <defName>FireResistancePotion</defName>
+    <label>fire resistance potion</label>
+    <description>An orange potion that provides protection against heat and flames. Made from fire petals and corkbulb root, it grants significant resistance to fire damage.</description>
+    <descriptionHyperlinks>
+      <HediffDef>FireResistanceEffect</HediffDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>Things/Item/Drug/FireResistancePotion</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>900</WorkToMake>
+      <MarketValue>50</MarketValue>
+      <Mass>0.2</Mass>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <ingestible>
+      <drugCategory>Social</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>FireResistanceEffect</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <researchPrerequisite>DrugProduction</researchPrerequisite>
+      <recipeUsers>
+        <li>AlchemyLab</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Intellectual>6</Intellectual>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <FirePetalFlowers>3</FirePetalFlowers>
+      <CorkbulbRoot>2</CorkbulbRoot>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1004</listOrder>
+        <overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Intelligence Potion -->
+  <ThingDef ParentName="DrugBase">
+    <defName>IntelligencePotion</defName>
+    <label>intelligence potion</label>
+    <description>A purple potion that enhances mental capacity and learning ability. Brewed from hypha facia and comberries, it increases research speed and magical sensitivity.</description>
+    <descriptionHyperlinks>
+      <HediffDef>FortifyIntelligenceEffect</HediffDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>Things/Item/Drug/IntelligencePotion</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>1200</WorkToMake>
+      <MarketValue>70</MarketValue>
+      <Mass>0.2</Mass>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <ingestible>
+      <drugCategory>Social</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>FortifyIntelligenceEffect</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <researchPrerequisite>DrugProduction</researchPrerequisite>
+      <recipeUsers>
+        <li>AlchemyLab</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Intellectual>8</Intellectual>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <HyphaFacia>2</HyphaFacia>
+      <RawComberry>2</RawComberry>
+      <GoldKanetFlowers>1</GoldKanetFlowers>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1005</listOrder>
+        <overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Levitation Potion -->
+  <ThingDef ParentName="DrugBase">
+    <defName>LevitationPotion</defName>
+    <label>levitation potion</label>
+    <description>A shimmering golden potion that grants the power of flight. Made from the rarest ingredients including white pharaoh moth wings, it allows temporary levitation and greatly enhanced mobility.</description>
+    <descriptionHyperlinks>
+      <HediffDef>LevitationEffect</HediffDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>Things/Item/Drug/LevitationPotion</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>1800</WorkToMake>
+      <MarketValue>120</MarketValue>
+      <Mass>0.2</Mass>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <ingestible>
+      <drugCategory>Social</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>LevitationEffect</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <researchPrerequisite>DrugProduction</researchPrerequisite>
+      <recipeUsers>
+        <li>AlchemyLab</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Intellectual>10</Intellectual>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <WhitePharaohMothWing>2</WhitePharaohMothWing>
+      <CliffRacerPlume>3</CliffRacerPlume>
+      <VioletCoprinus>2</VioletCoprinus>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1006</listOrder>
+        <overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Poison -->
+  <ThingDef ParentName="DrugBase">
+    <defName>PoisonPotion</defName>
+    <label>poison</label>
+    <description>A dark, deadly potion brewed from bungler's bane mushrooms. This toxic concoction can be used to coat weapons or administered directly, causing severe damage and debilitation.</description>
+    <descriptionHyperlinks>
+      <HediffDef>PoisonEffect</HediffDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>Things/Item/Drug/PoisonPotion</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>600</WorkToMake>
+      <MarketValue>30</MarketValue>
+      <Mass>0.2</Mass>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <ingestible>
+      <drugCategory>Hard</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>PoisonEffect</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <researchPrerequisite>DrugProduction</researchPrerequisite>
+      <recipeUsers>
+        <li>AlchemyLab</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Intellectual>7</Intellectual>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <BunglersBane>3</BunglersBane>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1007</listOrder>
+        <overdoseSeverityOffset>0.15~0.25</overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>
