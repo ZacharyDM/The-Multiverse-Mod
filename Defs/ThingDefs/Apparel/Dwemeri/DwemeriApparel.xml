@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Dwemeri Engineering Robes -->
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_DwemeriEngineeringRobes</defName>
+    <label>Dwemeri engineering robes</label>
+    <description>Masterfully crafted robes incorporating Dwemer technological principles. The fabric is woven with fine dwarven metal threads that provide both protection and enhanced cognitive function. Built-in analytical instruments assist with complex calculations and engineering work.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Dwemeri/EngineeringRobes/EngineeringRobes</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>85</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costList>
+      <DwarvenMetalIngot>2</DwarvenMetalIngot>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Mass>1.2</Mass>
+      <Flammability>0.2</Flammability>
+      <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.25</ArmorRating_Heat>
+      <Insulation_Cold>18</Insulation_Cold>
+      <Insulation_Heat>12</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ResearchSpeed>0.25</ResearchSpeed>
+      <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+      <ConstructionSpeed>0.20</ConstructionSpeed>
+      <PlantWorkSpeed>-0.05</PlantWorkSpeed>
+      <MiningSpeed>0.10</MiningSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Dwemeri/EngineeringRobes/EngineeringRobes</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>DwemeriApparel</li>
+        <li>IndustrialBasic</li>
+      </tags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>DwemerCrafting</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Dwemeri Mechanical Armor -->
+  <ThingDef ParentName="ArmorMakeableBase">
+    <defName>Apparel_DwemeriMechanicalArmor</defName>
+    <label>Dwemeri mechanical armor</label>
+    <description>Advanced powered armor incorporating intricate Dwemer mechanical systems. Steam-powered actuators enhance the wearer's physical capabilities while providing superior protection. The bronze-colored plates are inscribed with complex geometric patterns that serve both decorative and functional purposes, channeling energy throughout the armor's systems.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Dwemeri/MechanicalArmor/MechanicalArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>150</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <DwarvenMetalIngot>8</DwarvenMetalIngot>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <Steel>25</Steel>
+    </costList>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <statBases>
+      <WorkToMake>35000</WorkToMake>
+      <MaxHitPoints>420</MaxHitPoints>
+      <Mass>18</Mass>
+      <Flammability>0.1</Flammability>
+      <ArmorRating_Sharp>1.25</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.85</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.95</ArmorRating_Heat>
+      <Insulation_Cold>25</Insulation_Cold>
+      <Insulation_Heat>15</Insulation_Heat>
+      <EquipDelay>15</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>0.10</MoveSpeed>
+      <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
+      <MeleeHitChance>0.12</MeleeHitChance>
+      <MeleeDodgeChance>0.08</MeleeDodgeChance>
+      <CarryingCapacity>25</CarryingCapacity>
+      <ConstructionSpeed>0.25</ConstructionSpeed>
+      <MiningSpeed>0.30</MiningSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Dwemeri/MechanicalArmor/MechanicalArmor</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>DwemeriApparel</li>
+        <li>IndustrialAdvanced</li>
+      </tags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>DwemerEngineering</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>15</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Dwemeri Scholar's Spectacles -->
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_DwemeriScholarsSpectacles</defName>
+    <label>Dwemeri scholar's spectacles</label>
+    <description>Precision-crafted spectacles incorporating advanced Dwemer optical technology. Multiple adjustable lenses provide enhanced vision and analytical capabilities. The dwarven metal frame contains microscopic gears that automatically adjust focus and magnification based on the task at hand.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Dwemeri/ScholarsSpectacles/ScholarsSpectacles</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <DwarvenMetalIngot>1</DwarvenMetalIngot>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <Gold>10</Gold>
+    </costList>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.1</Mass>
+      <Flammability>0.1</Flammability>
+      <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.08</ArmorRating_Heat>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ResearchSpeed>0.35</ResearchSpeed>
+      <ShootingAccuracyPawn>0.15</ShootingAccuracyPawn>
+      <SurgerySuccessChanceFactor>0.20</SurgerySuccessChanceFactor>
+      <DrugCookingSpeed>0.15</DrugCookingSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Eyes</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Dwemeri/ScholarsSpectacles/ScholarsSpectacles</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>DwemeriApparel</li>
+        <li>IndustrialBasic</li>
+      </tags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>DwemerCrafting</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Dwemeri Work Boots -->
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_DwemeriWorkBoots</defName>
+    <label>Dwemeri work boots</label>
+    <description>Heavy-duty boots designed for industrial work, incorporating Dwemer engineering principles. The soles contain pneumatic shock absorbers and the steel toe caps are reinforced with dwarven metal. Small steam vents provide temperature regulation and the boots never seem to wear out.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Dwemeri/WorkBoots/WorkBoots</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>45</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costList>
+      <DwarvenMetalIngot>1</DwarvenMetalIngot>
+      <Steel>15</Steel>
+    </costList>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <WorkToMake>6000</WorkToMake>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>1.8</Mass>
+      <Flammability>0.3</Flammability>
+      <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.45</ArmorRating_Heat>
+      <Insulation_Cold>8</Insulation_Cold>
+      <Insulation_Heat>4</Insulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>0.05</MoveSpeed>
+      <WorkSpeedGlobal>0.10</WorkSpeedGlobal>
+      <ConstructionSpeed>0.15</ConstructionSpeed>
+      <MiningSpeed>0.20</MiningSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Feet</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Dwemeri/WorkBoots/WorkBoots</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>DwemeriApparel</li>
+        <li>IndustrialBasic</li>
+      </tags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>DwemerCrafting</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+</Defs>

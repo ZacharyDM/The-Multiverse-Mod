@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Dwemeri Steam Forge -->
+  <ThingDef ParentName="BenchBase">
+    <defName>DwemeriSteamForge</defName>
+    <label>Dwemeri steam forge</label>
+    <description>An advanced crafting station incorporating Dwemer steam technology. This sophisticated forge uses pressurized steam and precision mechanical systems to work with dwarven metal and create superior equipment. The bronze construction features intricate gears and pipes that regulate temperature and pressure with mechanical precision.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Production/DwemeriSteamForge</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,1.5)</drawSize>
+    </graphicData>
+    <costList>
+      <DwarvenMetalIngot>15</DwarvenMetalIngot>
+      <Steel>80</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <WorkToBuild>12000</WorkToBuild>
+      <MaxHitPoints>350</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+      <Beauty>8</Beauty>
+    </statBases>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>Impassable</passability>
+    <pathCost>50</pathCost>
+    <hasInteractionCell>true</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(180,140,90,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>12</heatPerSecond>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
+      </li>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>DwemerEngineering</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Dwemeri Observatory -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>DwemeriObservatory</defName>
+    <label>Dwemeri observatory</label>
+    <description>A magnificent bronze tower equipped with precision optical instruments and mechanical calculation engines. This Dwemer-inspired structure enhances research capabilities by providing advanced measurement and observation tools. The rotating dome tracks celestial movements while internal mechanisms record and analyze data.</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Misc/DwemeriObservatory</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(4,6)</drawSize>
+    </graphicData>
+    <uiIconPath>Things/Building/Misc/DwemeriObservatory_MenuIcon</uiIconPath>
+    <costList>
+      <DwarvenMetalIngot>25</DwarvenMetalIngot>
+      <Steel>120</Steel>
+      <ComponentIndustrial>12</ComponentIndustrial>
+      <Gold>20</Gold>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.40</fillPercent>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <WorkToBuild>25000</WorkToBuild>
+      <MaxHitPoints>280</MaxHitPoints>
+      <Beauty>35</Beauty>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(4,4)</size>
+    <designationCategory>Misc</designationCategory>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <passability>PassThroughOnly</passability>
+    <pathCost>60</pathCost>
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+    </building>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <ResearchSpeedFactor>0.35</ResearchSpeedFactor>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+        <maxDistance>8</maxDistance>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(180,140,90,0)</glowColor>
+      </li>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>DwemerEngineering</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Dwemeri Mechanical Door -->
+  <ThingDef ParentName="DoorBase">
+    <defName>DwemeriMechanicalDoor</defName>
+    <label>Dwemeri mechanical door</label>
+    <description>A heavy bronze door operated by intricate Dwemer mechanical systems. Precision gears and counterweights allow the massive portal to open and close smoothly despite its considerable weight. The door's surface is adorned with geometric patterns that serve both decorative and structural purposes.</description>
+    <graphicData>
+      <texPath>Things/Building/Door/DwemeriMechanicalDoor_Mover</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/Door/DwemeriMechanicalDoor_MenuIcon</uiIconPath>
+    <costList>
+      <DwarvenMetalIngot>6</DwarvenMetalIngot>
+      <Steel>25</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <WorkToBuild>3500</WorkToBuild>
+      <MaxHitPoints>280</MaxHitPoints>
+      <Beauty>12</Beauty>
+      <Flammability>0</Flammability>
+    </statBases>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <building>
+      <soundDoorOpenPowered>Door_OpenPowered</soundDoorOpenPowered>
+      <soundDoorClosePowered>Door_ClosePowered</soundDoorClosePowered>
+      <soundDoorOpenManual>Door_OpenManual</soundDoorOpenManual>
+      <soundDoorCloseManual>Door_CloseManual</soundDoorCloseManual>
+      <blueprintGraphicData>
+        <texPath>Things/Building/Door/Door_Blueprint</texPath>
+      </blueprintGraphicData>
+    </building>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(180,140,90,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>DwemerCrafting</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Dwemeri Precision Workbench -->
+  <ThingDef ParentName="BenchBase">
+    <defName>DwemeriPrecisionWorkbench</defName>
+    <label>Dwemeri precision workbench</label>
+    <description>A masterfully crafted workbench incorporating Dwemer precision engineering. Microscopic adjustment mechanisms and built-in measurement tools allow for extremely accurate work. The bronze surface contains retractable tool holders and measurement devices, making complex crafting tasks significantly more efficient.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Production/DwemeriPrecisionWorkbench</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,1.5)</drawSize>
+    </graphicData>
+    <costList>
+      <DwarvenMetalIngot>8</DwarvenMetalIngot>
+      <Steel>40</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <WoodLog>50</WoodLog>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <WorkToBuild>8000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+      <Beauty>15</Beauty>
+      <WorkTableWorkSpeedFactor>1.35</WorkTableWorkSpeedFactor>
+    </statBases>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>Impassable</passability>
+    <pathCost>50</pathCost>
+    <hasInteractionCell>true</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>4</glowRadius>
+        <glowColor>(180,140,90,0)</glowColor>
+      </li>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>DwemerCrafting</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+</Defs>
