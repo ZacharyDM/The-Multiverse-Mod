@@ -19,14 +19,7 @@
         <statOffsets>
           <PsychicSensitivity>0.2</PsychicSensitivity>
         </statOffsets>
-        <disallowedTraits>
-          <li>DestructionMastery</li>
-          <li>IllusionMastery</li>
-        </disallowedTraits>
-        <forcedTraits>
-          <li>DestructionMastery</li>
-          <li>IllusionMastery</li>
-        </forcedTraits>
+
       </li>
       <li>
         <degree>1</degree>
@@ -39,11 +32,7 @@
           <PsychicSensitivity>0.3</PsychicSensitivity>
           <ResearchSpeed>0.15</ResearchSpeed>
         </statOffsets>
-        <forcedTraits>
-          <li>DestructionMastery</li>
-          <li>IllusionMastery</li>
-          <li>AlterationMastery</li>
-        </forcedTraits>
+
       </li>
     </degreeDatas>
   </TraitDef>
@@ -64,10 +53,7 @@
         <statOffsets>
           <PsychicSensitivity>0.15</PsychicSensitivity>
         </statOffsets>
-        <forcedTraits>
-          <li>DestructionMastery</li>
-          <li>MysticismMastery</li>
-        </forcedTraits>
+
       </li>
     </degreeDatas>
   </TraitDef>
@@ -88,9 +74,7 @@
         <statOffsets>
           <PsychicSensitivity>-0.1</PsychicSensitivity>
         </statOffsets>
-        <forcedTraits>
-          <li>RestorationMastery</li>
-        </forcedTraits>
+
       </li>
     </degreeDatas>
   </TraitDef>
@@ -111,10 +95,7 @@
         <statOffsets>
           <SocialImpact>0.1</SocialImpact>
         </statOffsets>
-        <forcedTraits>
-          <li>RestorationMastery</li>
-          <li>IllusionMastery</li>
-        </forcedTraits>
+
       </li>
     </degreeDatas>
   </TraitDef>
@@ -136,10 +117,7 @@
         <statOffsets>
           <PsychicSensitivity>0.1</PsychicSensitivity>
         </statOffsets>
-        <forcedTraits>
-          <li>MysticismMastery</li>
-          <li>AlterationMastery</li>
-        </forcedTraits>
+
       </li>
     </degreeDatas>
   </TraitDef>
@@ -161,10 +139,7 @@
           <ImmunityGainSpeed>0.1</ImmunityGainSpeed>
           <PsychicSensitivity>0.1</PsychicSensitivity>
         </statOffsets>
-        <forcedTraits>
-          <li>RestorationMastery</li>
-          <li>MysticismMastery</li>
-        </forcedTraits>
+
       </li>
     </degreeDatas>
   </TraitDef>
@@ -186,9 +161,7 @@
           <SocialImpact>0.1</SocialImpact>
           <MoveSpeed>0.1</MoveSpeed>
         </statOffsets>
-        <forcedTraits>
-          <li>IllusionMastery</li>
-        </forcedTraits>
+
       </li>
     </degreeDatas>
   </TraitDef>
@@ -212,10 +185,7 @@
           <ResearchSpeed>0.2</ResearchSpeed>
           <PsychicSensitivity>0.15</PsychicSensitivity>
         </statOffsets>
-        <forcedTraits>
-          <li>AlterationMastery</li>
-          <li>MysticismMastery</li>
-        </forcedTraits>
+
       </li>
     </degreeDatas>
   </TraitDef>
@@ -235,11 +205,7 @@
         <statOffsets>
           <PsychicSensitivity>0.2</PsychicSensitivity>
         </statOffsets>
-        <forcedTraits>
-          <li>DestructionMastery</li>
-          <li>MysticismMastery</li>
-          <li>RestorationMastery</li>
-        </forcedTraits>
+
       </li>
     </degreeDatas>
   </TraitDef>
@@ -260,10 +226,7 @@
         <statOffsets>
           <PsychicSensitivity>0.25</PsychicSensitivity>
         </statOffsets>
-        <forcedTraits>
-          <li>ConjurationMastery</li>
-          <li>MysticismMastery</li>
-        </forcedTraits>
+
       </li>
     </degreeDatas>
   </TraitDef>

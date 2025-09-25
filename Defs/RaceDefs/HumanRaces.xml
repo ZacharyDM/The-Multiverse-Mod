@@ -11,6 +11,7 @@
       </colorGenerator>
       <forcedTraits>
         <li>BretonMagicResistance</li>
+        <li>RestorationMastery</li>
       </forcedTraits>
     </race>
     <statBases>
