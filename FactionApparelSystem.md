@@ -4,7 +4,7 @@ This documentation covers the comprehensive faction-specific apparel system adde
 
 ## Overview
 
-The apparel system adds **22+ unique apparel items** across multiple faction categories:
+The apparel system adds **18+ unique apparel items** and **8 comprehensive style systems** across multiple faction categories:
 
 ### Tribunal Temple Orders (7 items)
 - **Order of the Watch Armor** - Blue and gold armor for temple guardians
@@ -15,15 +15,15 @@ The apparel system adds **22+ unique apparel items** across multiple faction cat
 - **Hands of Almalexia Armor** - Legendary divine armor with supernatural properties
 - **Buoyant Armiger Armor** - Specialized armor for anti-supernatural combat
 
-### Ashlander Clans (8 items)
-- **Ahemmusa Clan Robes** - Peaceful, wisdom-focused garments
-- **Urshilaku Clan Garments** - Traditional prophecy-keeper clothing
-- **Erabenimsun War Garb** - Battle-ready warrior clan attire
-- **Zainab Trader Garments** - Fine diplomatic and trading clothes
-- **Kagesh Ritual Robes** - Mysterious arcane-marked robes
-- **Ulath Shadow Garments** - Stealth-focused survival gear
-- **Vereansu Spirit Robes** - Ancestral spirit-connected sacred robes
-- **Mabrigash Warrior Robes** - Matriarchal mystical combat robes
+### Ashlander Clans (8 style categories)
+- **Ahemmusa Style** - Peaceful, wisdom-focused designs with earth-toned patterns
+- **Urshilaku Style** - Traditional prophecy-keeper aesthetics with sacred symbols
+- **Erabenimsun Style** - Battle-ready warrior styling with intimidating war decorations
+- **Zainab Style** - Fine diplomatic designs displaying wealth and sophistication
+- **Kagesh Style** - Mysterious aesthetics with arcane symbols and ritual markings
+- **Ulath Style** - Stealth-focused styling with dark, concealed designs
+- **Vereansu Style** - Ancestral spirit-connected aesthetics with otherworldly energy
+- **Mabrigash Style** - Matriarchal mystical warrior styling with enchanted patterns
 
 ### Great Houses (7 items)
 - **House Redoran Gah-Julan Bonemould Armor** - Traditional bonemould armor of the warrior-defenders
@@ -56,8 +56,15 @@ Each apparel item provides appropriate stat bonuses reflecting the faction's cha
 - **Heavy Armor**: 150-200 metallic materials
 - **Specialized Gear**: Various fabric/leather combinations
 
+### Style System Features
+The Ashlander clans now use RimWorld's style system, providing:
+- **Comprehensive Visual Identity**: Each clan has consistent styling across apparel, weapons, and buildings
+- **Flexible Application**: Styles apply to multiple item types rather than unique single items
+- **Enhanced Immersion**: Complete aesthetic coherence for each clan's settlements and equipment
+- **Expanded Coverage**: Styles extend beyond apparel to include weapons and architecture
+
 ### Tech Level Integration
-- **Neolithic**: Basic Ashlander clothing
+- **Neolithic**: Basic Ashlander styles and traditional crafting
 - **Medieval**: Great House and Temple armor
 - **Industrial**: Elite Temple armor
 - **Spacer/Ultratech**: Legendary divine armor
@@ -69,19 +76,28 @@ Defs/ThingDefs/Apparel/
 ├── TribunalTemple/
 │   ├── OrdinatorArmor.xml      # Basic order armor
 │   └── EliteArmor.xml          # High-tier elite armor
-├── Ashlanders/
-│   ├── MainClanApparel.xml     # Four main clan garments
-│   └── AdditionalClanApparel.xml # Four additional clan garments
 ├── GreatHouses/
 │   └── GreatHouseApparel.xml   # All five Great House items
 └── HouseDagoth/
     └── CorpusApparel.xml       # Corpus-influenced gear
 
+Defs/StyleCategoryDefs/
+├── AshlanderStyles.xml         # 8 Ashlander clan style categories
+├── AshlanderApparelStyles.xml  # Apparel styles for all 8 clans
+├── AshlanderWeaponStyles.xml   # Weapon styles for all 8 clans
+└── AshlanderBuildingStyles.xml # Building styles for all 8 clans
+
 Textures/Things/Pawn/Humanlike/Apparel/
 ├── TribunalTemple/            # Temple order textures
-├── Ashlanders/               # Ashlander clan textures
+├── Ashlanders/               # Ashlander clan style textures
 ├── GreatHouses/              # Great House textures
 └── HouseDagoth/              # House Dagoth corpus textures
+
+Textures/Item/Equipment/WeaponMelee/Ashlander/
+└── [ClanName]/               # Weapon textures for each clan
+
+Textures/Building/
+└── Ashlander/[ClanName]/     # Building textures for each clan
 ```
 
 ## Integration Notes
@@ -103,9 +119,11 @@ The apparel system faithfully represents Elder Scrolls lore:
 ## Usage
 
 Players can:
-1. Craft faction-specific apparel at appropriate crafting stations
-2. Assign outfits to colonists based on their faction alignment
-3. Use apparel as rewards or quest items in faction storylines
-4. Display faction loyalty through distinctive clothing choices
+1. Apply faction-specific styles to apparel, weapons, and buildings through the style system
+2. Create cohesive clan settlements with consistent visual themes
+3. Craft styled items that reflect their chosen Ashlander clan affiliation
+4. Build complete clan compounds with matching architecture and equipment
+5. Use styled items as rewards or quest items in faction storylines
+6. Display faction loyalty through comprehensive visual consistency
 
-This system significantly enhances faction identity and provides meaningful progression rewards for players engaging with The Elder Scrolls universe within RimWorld.
+The style system significantly enhances faction identity by providing complete visual coherence across all aspects of clan life, from personal equipment to settlement architecture, creating a more immersive experience within The Elder Scrolls universe.

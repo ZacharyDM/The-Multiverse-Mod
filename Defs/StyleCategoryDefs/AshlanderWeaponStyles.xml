@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Ahemmusa Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>Ahemmusa_Weapons</defName>
+    <label>Ahemmusa weapons</label>
+    <description>Traditional weapons of the peaceful Ahemmusa clan, featuring simple but effective designs with earth-toned decorations.</description>
+    <styleTags>
+      <li>Ahemmusa</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_Spear>Things/Item/Equipment/WeaponMelee/Ashlander/Ahemmusa/Spear</MeleeWeapon_Spear>
+      <MeleeWeapon_Club>Things/Item/Equipment/WeaponMelee/Ashlander/Ahemmusa/Club</MeleeWeapon_Club>
+      <MeleeWeapon_Knife>Things/Item/Equipment/WeaponMelee/Ashlander/Ahemmusa/Knife</MeleeWeapon_Knife>
+      <Bow_Short>Things/Item/Equipment/WeaponRanged/Ashlander/Ahemmusa/Bow</Bow_Short>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Urshilaku Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>Urshilaku_Weapons</defName>
+    <label>Urshilaku weapons</label>
+    <description>Sacred weapons of the Urshilaku clan, decorated with prophecy symbols and ancestral markings.</description>
+    <styleTags>
+      <li>Urshilaku</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_Spear>Things/Item/Equipment/WeaponMelee/Ashlander/Urshilaku/Spear</MeleeWeapon_Spear>
+      <MeleeWeapon_Club>Things/Item/Equipment/WeaponMelee/Ashlander/Urshilaku/Club</MeleeWeapon_Club>
+      <MeleeWeapon_Knife>Things/Item/Equipment/WeaponMelee/Ashlander/Urshilaku/Knife</MeleeWeapon_Knife>
+      <Bow_Short>Things/Item/Equipment/WeaponRanged/Ashlander/Urshilaku/Bow</Bow_Short>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Erabenimsun Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>Erabenimsun_Weapons</defName>
+    <label>Erabenimsun weapons</label>
+    <description>Fierce warrior weapons of the Erabenimsun clan, designed for maximum combat effectiveness with intimidating war decorations.</description>
+    <styleTags>
+      <li>Erabenimsun</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_Spear>Things/Item/Equipment/WeaponMelee/Ashlander/Erabenimsun/Spear</MeleeWeapon_Spear>
+      <MeleeWeapon_Club>Things/Item/Equipment/WeaponMelee/Ashlander/Erabenimsun/Club</MeleeWeapon_Club>
+      <MeleeWeapon_Knife>Things/Item/Equipment/WeaponMelee/Ashlander/Erabenimsun/Knife</MeleeWeapon_Knife>
+      <MeleeWeapon_LongSword>Things/Item/Equipment/WeaponMelee/Ashlander/Erabenimsun/Sword</MeleeWeapon_LongSword>
+      <Bow_Short>Things/Item/Equipment/WeaponRanged/Ashlander/Erabenimsun/Bow</Bow_Short>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Zainab Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>Zainab_Weapons</defName>
+    <label>Zainab weapons</label>
+    <description>Elegant weapons of the Zainab clan, featuring fine craftsmanship and decorative elements that display wealth and sophistication.</description>
+    <styleTags>
+      <li>Zainab</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_Spear>Things/Item/Equipment/WeaponMelee/Ashlander/Zainab/Spear</MeleeWeapon_Spear>
+      <MeleeWeapon_Club>Things/Item/Equipment/WeaponMelee/Ashlander/Zainab/Club</MeleeWeapon_Club>
+      <MeleeWeapon_Knife>Things/Item/Equipment/WeaponMelee/Ashlander/Zainab/Knife</MeleeWeapon_Knife>
+      <Bow_Short>Things/Item/Equipment/WeaponRanged/Ashlander/Zainab/Bow</Bow_Short>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Kagesh Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>Kagesh_Weapons</defName>
+    <label>Kagesh weapons</label>
+    <description>Mysterious weapons of the Kagesh clan, covered in arcane symbols and ritual markings that hint at hidden powers.</description>
+    <styleTags>
+      <li>Kagesh</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_Spear>Things/Item/Equipment/WeaponMelee/Ashlander/Kagesh/Spear</MeleeWeapon_Spear>
+      <MeleeWeapon_Club>Things/Item/Equipment/WeaponMelee/Ashlander/Kagesh/Club</MeleeWeapon_Club>
+      <MeleeWeapon_Knife>Things/Item/Equipment/WeaponMelee/Ashlander/Kagesh/Knife</MeleeWeapon_Knife>
+      <Bow_Short>Things/Item/Equipment/WeaponRanged/Ashlander/Kagesh/Bow</Bow_Short>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Ulath Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>Ulath_Weapons</defName>
+    <label>Ulath weapons</label>
+    <description>Stealthy weapons of the secretive Ulath clan, designed for silent strikes and survival in the harsh ashlands.</description>
+    <styleTags>
+      <li>Ulath</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_Spear>Things/Item/Equipment/WeaponMelee/Ashlander/Ulath/Spear</MeleeWeapon_Spear>
+      <MeleeWeapon_Club>Things/Item/Equipment/WeaponMelee/Ashlander/Ulath/Club</MeleeWeapon_Club>
+      <MeleeWeapon_Knife>Things/Item/Equipment/WeaponMelee/Ashlander/Ulath/Knife</MeleeWeapon_Knife>
+      <Bow_Short>Things/Item/Equipment/WeaponRanged/Ashlander/Ulath/Bow</Bow_Short>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Vereansu Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>Vereansu_Weapons</defName>
+    <label>Vereansu weapons</label>
+    <description>Spiritual weapons of the Vereansu clan, blessed with ancestral symbols that seem to shimmer with otherworldly energy.</description>
+    <styleTags>
+      <li>Vereansu</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_Spear>Things/Item/Equipment/WeaponMelee/Ashlander/Vereansu/Spear</MeleeWeapon_Spear>
+      <MeleeWeapon_Club>Things/Item/Equipment/WeaponMelee/Ashlander/Vereansu/Club</MeleeWeapon_Club>
+      <MeleeWeapon_Knife>Things/Item/Equipment/WeaponMelee/Ashlander/Vereansu/Knife</MeleeWeapon_Knife>
+      <Bow_Short>Things/Item/Equipment/WeaponRanged/Ashlander/Vereansu/Bow</Bow_Short>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Mabrigash Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>Mabrigash_Weapons</defName>
+    <label>Mabrigash weapons</label>
+    <description>Mystical warrior weapons of the matriarchal Mabrigash clan, combining practical combat design with enchanted patterns.</description>
+    <styleTags>
+      <li>Mabrigash</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_Spear>Things/Item/Equipment/WeaponMelee/Ashlander/Mabrigash/Spear</MeleeWeapon_Spear>
+      <MeleeWeapon_Club>Things/Item/Equipment/WeaponMelee/Ashlander/Mabrigash/Club</MeleeWeapon_Club>
+      <MeleeWeapon_Knife>Things/Item/Equipment/WeaponMelee/Ashlander/Mabrigash/Knife</MeleeWeapon_Knife>
+      <MeleeWeapon_LongSword>Things/Item/Equipment/WeaponMelee/Ashlander/Mabrigash/Sword</MeleeWeapon_LongSword>
+      <Bow_Short>Things/Item/Equipment/WeaponRanged/Ashlander/Mabrigash/Bow</Bow_Short>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+</Defs>
