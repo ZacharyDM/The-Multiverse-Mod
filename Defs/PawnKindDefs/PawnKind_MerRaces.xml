@@ -384,4 +384,119 @@
       </li>
     </skills>
   </PawnKindDef>
+
+  <!-- Dwemereth Faction Members with Clan Traits -->
+  <PawnKindDef>
+    <defName>DwemerethKagenEngineer</defName>
+    <label>Kagen Engineer</label>
+    <race>Dwemer</race>
+    <defaultFactionType>Dwemereth</defaultFactionType>
+    <combatPower>65</combatPower>
+    <backstoryCategories>
+      <li>Civil</li>
+    </backstoryCategories>
+    <defaultOutfit>Clothes</defaultOutfit>
+    <itemQuality>Excellent</itemQuality>
+    <forcedTraits>
+      <li>DwemerIngenuity</li>
+      <li>KagenClan</li>
+    </forcedTraits>
+    <allowedWorkTypes>
+      <li>All</li>
+    </allowedWorkTypes>
+    <skills>
+      <li>
+        <skill>Construction</skill>
+        <level>8</level>
+      </li>
+      <li>
+        <skill>Crafting</skill>
+        <level>7</level>
+      </li>
+      <li>
+        <skill>Intellectual</skill>
+        <level>6</level>
+      </li>
+      <li>
+        <skill>Artistic</skill>
+        <level>4</level>
+      </li>
+    </skills>
+  </PawnKindDef>
+
+  <PawnKindDef>
+    <defName>DwemerethRourkenSmith</defName>
+    <label>Rourken Smith</label>
+    <race>Dwemer</race>
+    <defaultFactionType>Dwemereth</defaultFactionType>
+    <combatPower>75</combatPower>
+    <backstoryCategories>
+      <li>Civil</li>
+    </backstoryCategories>
+    <defaultOutfit>Clothes</defaultOutfit>
+    <itemQuality>Excellent</itemQuality>
+    <forcedTraits>
+      <li>DwemerIngenuity</li>
+      <li>RourkenClan</li>
+    </forcedTraits>
+    <allowedWorkTypes>
+      <li>All</li>
+    </allowedWorkTypes>
+    <skills>
+      <li>
+        <skill>Crafting</skill>
+        <level>9</level>
+      </li>
+      <li>
+        <skill>Mining</skill>
+        <level>7</level>
+      </li>
+      <li>
+        <skill>Melee</skill>
+        <level>5</level>
+      </li>
+      <li>
+        <skill>Construction</skill>
+        <level>4</level>
+      </li>
+    </skills>
+  </PawnKindDef>
+
+  <PawnKindDef>
+    <defName>DwemerethFreeholdTrader</defName>
+    <label>Freehold Trader</label>
+    <race>Dwemer</race>
+    <defaultFactionType>Dwemereth</defaultFactionType>
+    <combatPower>60</combatPower>
+    <backstoryCategories>
+      <li>Civil</li>
+    </backstoryCategories>
+    <defaultOutfit>Clothes</defaultOutfit>
+    <itemQuality>Excellent</itemQuality>
+    <forcedTraits>
+      <li>DwemerIngenuity</li>
+      <li>FreeholdClan</li>
+    </forcedTraits>
+    <allowedWorkTypes>
+      <li>All</li>
+    </allowedWorkTypes>
+    <skills>
+      <li>
+        <skill>Social</skill>
+        <level>8</level>
+      </li>
+      <li>
+        <skill>Crafting</skill>
+        <level>6</level>
+      </li>
+      <li>
+        <skill>Intellectual</skill>
+        <level>5</level>
+      </li>
+      <li>
+        <skill>Construction</skill>
+        <level>4</level>
+      </li>
+    </skills>
+  </PawnKindDef>
 </Defs>
