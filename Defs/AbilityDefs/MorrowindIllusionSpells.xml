@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Illusion Spells - Mind control, invisibility, and perception manipulation -->
+
+  <!-- Charm Person -->
+  <AbilityDef>
+    <defName>MorrowindCharmPerson</defName>
+    <label>charm person</label>
+    <description>A basic illusion spell that makes the target more friendly and cooperative. The charmed person views the caster more favorably.</description>
+    <iconPath>UI/Icons/Abilities/CharmPerson</iconPath>
+    <cooldownTicksRange>3600</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>12</range>
+      <warmupTime>2.0</warmupTime>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityHediff">
+        <hediffDef>MorrowindCharmed</hediffDef>
+        <duration>1800</duration>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>IllusionMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Invisibility -->
+  <AbilityDef>
+    <defName>MorrowindInvisibility</defName>
+    <label>invisibility</label>
+    <description>An illusion spell that renders the caster nearly invisible to enemies. The magical concealment makes detection extremely difficult.</description>
+    <iconPath>UI/Icons/Abilities/Invisibility</iconPath>
+    <cooldownTicksRange>7200</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>0</range>
+      <warmupTime>2.5</warmupTime>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityHediff">
+        <hediffDef>MorrowindInvisible</hediffDef>
+        <duration>1200</duration>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>IllusionMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Light -->
+  <AbilityDef>
+    <defName>MorrowindLight</defName>
+    <label>light</label>
+    <description>A simple illusion spell that creates a magical light source. The glowing orb illuminates dark areas and can help in navigation.</description>
+    <iconPath>UI/Icons/Abilities/Light</iconPath>
+    <cooldownTicksRange>600</cooldownTicksRange>
+    <aiCanUse>false</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>0</range>
+      <warmupTime>1.0</warmupTime>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityHediff">
+        <hediffDef>MorrowindMagicalLight</hediffDef>
+        <duration>7200</duration>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>IllusionMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Calm Humanoid - Advanced -->
+  <AbilityDef>
+    <defName>MorrowindCalmHumanoid</defName>
+    <label>calm humanoid</label>
+    <description>An advanced illusion spell that pacifies hostile humanoids, making them temporarily peaceful. The calming influence reduces aggression.</description>
+    <iconPath>UI/Icons/Abilities/CalmHumanoid</iconPath>
+    <cooldownTicksRange>4800</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>20</range>
+      <warmupTime>3.0</warmupTime>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityHediff">
+        <hediffDef>MorrowindCalmed</hediffDef>
+        <duration>2400</duration>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>IllusionMastery</li>
+    </requiredTraits>
+    <requiredTraitDegree>1</requiredTraitDegree>
+  </AbilityDef>
+
+  <!-- Paralyze - Advanced -->
+  <AbilityDef>
+    <defName>MorrowindParalyze</defName>
+    <label>paralyze</label>
+    <description>An advanced illusion spell that temporarily paralyzes the target, rendering them unable to move or act. The victim remains conscious but helpless.</description>
+    <iconPath>UI/Icons/Abilities/Paralyze</iconPath>
+    <cooldownTicksRange>9600</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>15</range>
+      <warmupTime>4.0</warmupTime>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityHediff">
+        <hediffDef>MorrowindParalyzed</hediffDef>
+        <duration>600</duration>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>IllusionMastery</li>
+    </requiredTraits>
+    <requiredTraitDegree>1</requiredTraitDegree>
+  </AbilityDef>
+
+  <!-- Dominate Humanoid - Master Level -->
+  <AbilityDef>
+    <defName>MorrowindDominateHumanoid</defName>
+    <label>dominate humanoid</label>
+    <description>A master-level illusion spell that completely dominates the target's will, forcing them to fight for the caster. The victim becomes a temporary ally.</description>
+    <iconPath>UI/Icons/Abilities/DominateHumanoid</iconPath>
+    <cooldownTicksRange>14400</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>18</range>
+      <warmupTime>5.0</warmupTime>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityHediff">
+        <hediffDef>MorrowindDominated</hediffDef>
+        <duration>1800</duration>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>IllusionMastery</li>
+    </requiredTraits>
+    <requiredTraitDegree>2</requiredTraitDegree>
+  </AbilityDef>
+</Defs>

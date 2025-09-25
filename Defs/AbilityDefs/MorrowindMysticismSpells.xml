@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Mysticism Spells - The most esoteric magical arts -->
+
+  <!-- Detect Life -->
+  <AbilityDef>
+    <defName>MorrowindDetectLife</defName>
+    <label>detect life</label>
+    <description>A basic mysticism spell that reveals the locations of living creatures within a large area. The caster senses the life force of all nearby beings.</description>
+    <iconPath>UI/Icons/Abilities/DetectLife</iconPath>
+    <cooldownTicksRange>3600</cooldownTicksRange>
+    <aiCanUse>false</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>0</range>
+      <warmupTime>2.0</warmupTime>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityHediff">
+        <hediffDef>MorrowindDetectLife</hediffDef>
+        <duration>1800</duration>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>MysticismMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Dispel Magic -->
+  <AbilityDef>
+    <defName>MorrowindDispelMagic</defName>
+    <label>dispel magic</label>
+    <description>A mysticism spell that removes magical effects from the target. The dispelling energy cancels ongoing enchantments and spell effects.</description>
+    <iconPath>UI/Icons/Abilities/DispelMagic</iconPath>
+    <cooldownTicksRange>4800</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>12</range>
+      <warmupTime>2.5</warmupTime>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetSelf>true</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityDispelMagic">
+        <dispelChance>0.8</dispelChance>
+        <dispelAllEffects>true</dispelAllEffects>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>MysticismMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Absorb Health -->
+  <AbilityDef>
+    <defName>MorrowindAbsorbHealth</defName>
+    <label>absorb health</label>
+    <description>A mysticism spell that transfers the target's life force to the caster. The victim weakens while the caster is healed by the stolen vitality.</description>
+    <iconPath>UI/Icons/Abilities/AbsorbHealth</iconPath>
+    <cooldownTicksRange>6000</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>10</range>
+      <warmupTime>3.0</warmupTime>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityDamage">
+        <damageAmount>25</damageAmount>
+        <damageType>Cut</damageType>
+        <bodyPartToHit>Torso</bodyPartToHit>
+      </li>
+      <li Class="CompProperties_AbilityHealCaster">
+        <healAmount>20</healAmount>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>MysticismMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Reflect Damage - Advanced -->
+  <AbilityDef>
+    <defName>MorrowindReflectDamage</defName>
+    <label>reflect damage</label>
+    <description>An advanced mysticism spell that creates a magical barrier that reflects damage back to attackers. Physical attacks are partially reflected to their source.</description>
+    <iconPath>UI/Icons/Abilities/ReflectDamage</iconPath>
+    <cooldownTicksRange>9600</cooldownTicksRange>
+    <aiCanUse>false</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>0</range>
+      <warmupTime>4.0</warmupTime>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityHediff">
+        <hediffDef>MorrowindReflectDamage</hediffDef>
+        <duration>2400</duration>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>MysticismMastery</li>
+    </requiredTraits>
+    <requiredTraitDegree>1</requiredTraitDegree>
+  </AbilityDef>
+
+  <!-- Mark and Recall - Advanced -->
+  <AbilityDef>
+    <defName>MorrowindMark</defName>
+    <label>mark</label>
+    <description>An advanced mysticism spell that marks the current location for future teleportation. The magical anchor allows instant return via the Recall spell.</description>
+    <iconPath>UI/Icons/Abilities/Mark</iconPath>
+    <cooldownTicksRange>7200</cooldownTicksRange>
+    <aiCanUse>false</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>0</range>
+      <warmupTime>3.0</warmupTime>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityMark">
+        <markDuration>72000</markDuration>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>MysticismMastery</li>
+    </requiredTraits>
+    <requiredTraitDegree>1</requiredTraitDegree>
+  </AbilityDef>
+
+  <AbilityDef>
+    <defName>MorrowindRecall</defName>
+    <label>recall</label>
+    <description>An advanced mysticism spell that instantly teleports the caster to a previously marked location. The magical transport is instantaneous across any distance.</description>
+    <iconPath>UI/Icons/Abilities/Recall</iconPath>
+    <cooldownTicksRange>3600</cooldownTicksRange>
+    <aiCanUse>false</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>0</range>
+      <warmupTime>2.0</warmupTime>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityRecall">
+        <requiresMark>true</requiresMark>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>MysticismMastery</li>
+    </requiredTraits>
+    <requiredTraitDegree>1</requiredTraitDegree>
+  </AbilityDef>
+
+  <!-- Soul Burn - Master Level -->
+  <AbilityDef>
+    <defName>MorrowindSoulBurn</defName>
+    <label>soul burn</label>
+    <description>A master-level mysticism spell that directly attacks the target's soul, causing devastating psychic damage that bypasses all physical defenses.</description>
+    <iconPath>UI/Icons/Abilities/SoulBurn</iconPath>
+    <cooldownTicksRange>12000</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>18</range>
+      <warmupTime>5.0</warmupTime>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityDamage">
+        <damageAmount>60</damageAmount>
+        <damageType>Psychic</damageType>
+        <bodyPartToHit>Brain</bodyPartToHit>
+        <armorPenetration>1.0</armorPenetration>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>MysticismMastery</li>
+    </requiredTraits>
+    <requiredTraitDegree>2</requiredTraitDegree>
+  </AbilityDef>
+</Defs>
