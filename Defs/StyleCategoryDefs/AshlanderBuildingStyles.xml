@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Ahemmusa Building Style -->
+  <StyleItemCategoryDef>
+    <defName>Ahemmusa_Buildings</defName>
+    <label>Ahemmusa buildings</label>
+    <description>Traditional architecture of the peaceful Ahemmusa clan, featuring earth-toned materials and practical designs suited for ashland settlements.</description>
+    <styleTags>
+      <li>Ahemmusa</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Things/Building/Linked/Ashlander/Ahemmusa/Wall</Wall>
+      <Door>Things/Building/Door/Ashlander/Ahemmusa/Door</Door>
+      <Bed>Things/Building/Furniture/Ashlander/Ahemmusa/Bed</Bed>
+      <Table2x2c>Things/Building/Furniture/Ashlander/Ahemmusa/Table</Table2x2c>
+      <DiningChair>Things/Building/Furniture/Ashlander/Ahemmusa/Chair</DiningChair>
+      <Campfire>Things/Building/Misc/Ashlander/Ahemmusa/Campfire</Campfire>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Urshilaku Building Style -->
+  <StyleItemCategoryDef>
+    <defName>Urshilaku_Buildings</defName>
+    <label>Urshilaku buildings</label>
+    <description>Sacred architecture of the Urshilaku clan, decorated with prophecy symbols and ancestral patterns that honor their heritage.</description>
+    <styleTags>
+      <li>Urshilaku</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Things/Building/Linked/Ashlander/Urshilaku/Wall</Wall>
+      <Door>Things/Building/Door/Ashlander/Urshilaku/Door</Door>
+      <Bed>Things/Building/Furniture/Ashlander/Urshilaku/Bed</Bed>
+      <Table2x2c>Things/Building/Furniture/Ashlander/Urshilaku/Table</Table2x2c>
+      <DiningChair>Things/Building/Furniture/Ashlander/Urshilaku/Chair</DiningChair>
+      <Campfire>Things/Building/Misc/Ashlander/Urshilaku/Campfire</Campfire>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Erabenimsun Building Style -->
+  <StyleItemCategoryDef>
+    <defName>Erabenimsun_Buildings</defName>
+    <label>Erabenimsun buildings</label>
+    <description>Fortified architecture of the fierce Erabenimsun clan, designed for defense with intimidating war decorations and reinforced structures.</description>
+    <styleTags>
+      <li>Erabenimsun</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Things/Building/Linked/Ashlander/Erabenimsun/Wall</Wall>
+      <Door>Things/Building/Door/Ashlander/Erabenimsun/Door</Door>
+      <Bed>Things/Building/Furniture/Ashlander/Erabenimsun/Bed</Bed>
+      <Table2x2c>Things/Building/Furniture/Ashlander/Erabenimsun/Table</Table2x2c>
+      <DiningChair>Things/Building/Furniture/Ashlander/Erabenimsun/Chair</DiningChair>
+      <Campfire>Things/Building/Misc/Ashlander/Erabenimsun/Campfire</Campfire>
+      <Sandbags>Things/Building/Security/Ashlander/Erabenimsun/Sandbags</Sandbags>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Zainab Building Style -->
+  <StyleItemCategoryDef>
+    <defName>Zainab_Buildings</defName>
+    <label>Zainab buildings</label>
+    <description>Elegant architecture of the sophisticated Zainab clan, featuring fine craftsmanship and decorative elements that display wealth.</description>
+    <styleTags>
+      <li>Zainab</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Things/Building/Linked/Ashlander/Zainab/Wall</Wall>
+      <Door>Things/Building/Door/Ashlander/Zainab/Door</Door>
+      <Bed>Things/Building/Furniture/Ashlander/Zainab/Bed</Bed>
+      <Table2x2c>Things/Building/Furniture/Ashlander/Zainab/Table</Table2x2c>
+      <DiningChair>Things/Building/Furniture/Ashlander/Zainab/Chair</DiningChair>
+      <Campfire>Things/Building/Misc/Ashlander/Zainab/Campfire</Campfire>
+      <TradeBeacon>Things/Building/Misc/Ashlander/Zainab/TradeBeacon</TradeBeacon>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Kagesh Building Style -->
+  <StyleItemCategoryDef>
+    <defName>Kagesh_Buildings</defName>
+    <label>Kagesh buildings</label>
+    <description>Mysterious architecture of the Kagesh clan, covered in arcane symbols and ritual markings that hint at hidden knowledge.</description>
+    <styleTags>
+      <li>Kagesh</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Things/Building/Linked/Ashlander/Kagesh/Wall</Wall>
+      <Door>Things/Building/Door/Ashlander/Kagesh/Door</Door>
+      <Bed>Things/Building/Furniture/Ashlander/Kagesh/Bed</Bed>
+      <Table2x2c>Things/Building/Furniture/Ashlander/Kagesh/Table</Table2x2c>
+      <DiningChair>Things/Building/Furniture/Ashlander/Kagesh/Chair</DiningChair>
+      <Campfire>Things/Building/Misc/Ashlander/Kagesh/Campfire</Campfire>
+      <ResearchBench>Things/Building/Research/Ashlander/Kagesh/ResearchBench</ResearchBench>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Ulath Building Style -->
+  <StyleItemCategoryDef>
+    <defName>Ulath_Buildings</defName>
+    <label>Ulath buildings</label>
+    <description>Concealed architecture of the secretive Ulath clan, designed to blend with the environment and provide hidden shelter.</description>
+    <styleTags>
+      <li>Ulath</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Things/Building/Linked/Ashlander/Ulath/Wall</Wall>
+      <Door>Things/Building/Door/Ashlander/Ulath/Door</Door>
+      <Bed>Things/Building/Furniture/Ashlander/Ulath/Bed</Bed>
+      <Table2x2c>Things/Building/Furniture/Ashlander/Ulath/Table</Table2x2c>
+      <DiningChair>Things/Building/Furniture/Ashlander/Ulath/Chair</DiningChair>
+      <Campfire>Things/Building/Misc/Ashlander/Ulath/Campfire</Campfire>
+      <TrapSpike>Things/Building/Security/Ashlander/Ulath/TrapSpike</TrapSpike>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Vereansu Building Style -->
+  <StyleItemCategoryDef>
+    <defName>Vereansu_Buildings</defName>
+    <label>Vereansu buildings</label>
+    <description>Spiritual architecture of the Vereansu clan, blessed with ancestral symbols that seem to shimmer with otherworldly energy.</description>
+    <styleTags>
+      <li>Vereansu</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Things/Building/Linked/Ashlander/Vereansu/Wall</Wall>
+      <Door>Things/Building/Door/Ashlander/Vereansu/Door</Door>
+      <Bed>Things/Building/Furniture/Ashlander/Vereansu/Bed</Bed>
+      <Table2x2c>Things/Building/Furniture/Ashlander/Vereansu/Table</Table2x2c>
+      <DiningChair>Things/Building/Furniture/Ashlander/Vereansu/Chair</DiningChair>
+      <Campfire>Things/Building/Misc/Ashlander/Vereansu/Campfire</Campfire>
+      <MeditationSpot>Things/Building/Misc/Ashlander/Vereansu/MeditationSpot</MeditationSpot>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Mabrigash Building Style -->
+  <StyleItemCategoryDef>
+    <defName>Mabrigash_Buildings</defName>
+    <label>Mabrigash buildings</label>
+    <description>Mystical warrior architecture of the matriarchal Mabrigash clan, combining practical needs with enchanted patterns.</description>
+    <styleTags>
+      <li>Mabrigash</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Things/Building/Linked/Ashlander/Mabrigash/Wall</Wall>
+      <Door>Things/Building/Door/Ashlander/Mabrigash/Door</Door>
+      <Bed>Things/Building/Furniture/Ashlander/Mabrigash/Bed</Bed>
+      <Table2x2c>Things/Building/Furniture/Ashlander/Mabrigash/Table</Table2x2c>
+      <DiningChair>Things/Building/Furniture/Ashlander/Mabrigash/Chair</DiningChair>
+      <Campfire>Things/Building/Misc/Ashlander/Mabrigash/Campfire</Campfire>
+      <MedicalBed>Things/Building/Furniture/Ashlander/Mabrigash/MedicalBed</MedicalBed>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+</Defs>

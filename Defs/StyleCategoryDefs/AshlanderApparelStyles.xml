@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Ahemmusa Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>Ahemmusa_Apparel</defName>
+    <label>Ahemmusa apparel</label>
+    <description>Traditional apparel worn by the peaceful Ahemmusa clan, featuring earth-toned patterns and wisdom-focused designs.</description>
+    <styleTags>
+      <li>Ahemmusa</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/Ashlanders/Ahemmusa/Ahemmusa</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/Ashlanders/Ahemmusa/Ahemmusa</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/Ashlanders/Ahemmusa/Ahemmusa</Apparel_Tunic>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Urshilaku Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>Urshilaku_Apparel</defName>
+    <label>Urshilaku apparel</label>
+    <description>Traditional clothing of the Urshilaku clan, decorated with sacred symbols and ancestral patterns.</description>
+    <styleTags>
+      <li>Urshilaku</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/Ashlanders/Urshilaku/Urshilaku</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/Ashlanders/Urshilaku/Urshilaku</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/Ashlanders/Urshilaku/Urshilaku</Apparel_Tunic>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Erabenimsun Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>Erabenimsun_Apparel</defName>
+    <label>Erabenimsun apparel</label>
+    <description>Battle-ready clothing of the fierce Erabenimsun clan, featuring war paint patterns and reinforced designs.</description>
+    <styleTags>
+      <li>Erabenimsun</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/Ashlanders/Erabenimsun/Erabenimsun</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/Ashlanders/Erabenimsun/Erabenimsun</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/Ashlanders/Erabenimsun/Erabenimsun</Apparel_Tunic>
+      <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/Ashlanders/Erabenimsun/Erabenimsun</Apparel_FlakVest>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Zainab Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>Zainab_Apparel</defName>
+    <label>Zainab apparel</label>
+    <description>Fine clothing worn by the sophisticated Zainab clan, designed to impress in diplomatic negotiations.</description>
+    <styleTags>
+      <li>Zainab</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/Ashlanders/Zainab/Zainab</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/Ashlanders/Zainab/Zainab</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/Ashlanders/Zainab/Zainab</Apparel_Tunic>
+      <Apparel_CollarShirt>Things/Pawn/Humanlike/Apparel/Ashlanders/Zainab/Zainab</Apparel_CollarShirt>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Kagesh Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>Kagesh_Apparel</defName>
+    <label>Kagesh apparel</label>
+    <description>Mysterious dark clothing worn by the Kagesh clan, covered in arcane symbols and ritual markings.</description>
+    <styleTags>
+      <li>Kagesh</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/Ashlanders/Kagesh/Kagesh</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/Ashlanders/Kagesh/Kagesh</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/Ashlanders/Kagesh/Kagesh</Apparel_Tunic>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Ulath Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>Ulath_Apparel</defName>
+    <label>Ulath apparel</label>
+    <description>Specially designed dark clothing of the secretive Ulath clan, crafted for stealth and survival.</description>
+    <styleTags>
+      <li>Ulath</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/Ashlanders/Ulath/Ulath</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/Ashlanders/Ulath/Ulath</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/Ashlanders/Ulath/Ulath</Apparel_Tunic>
+      <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/Ashlanders/Ulath/Ulath</Apparel_FlakVest>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Vereansu Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>Vereansu_Apparel</defName>
+    <label>Vereansu apparel</label>
+    <description>Sacred clothing worn by the Vereansu clan, adorned with ancestral symbols that shimmer with otherworldly energy.</description>
+    <styleTags>
+      <li>Vereansu</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/Ashlanders/Vereansu/Vereansu</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/Ashlanders/Vereansu/Vereansu</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/Ashlanders/Vereansu/Vereansu</Apparel_Tunic>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Mabrigash Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>Mabrigash_Apparel</defName>
+    <label>Mabrigash apparel</label>
+    <description>Mystical warrior clothing worn by the matriarchal Mabrigash clan, combining practical combat needs with spiritual requirements.</description>
+    <styleTags>
+      <li>Mabrigash</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/Ashlanders/Mabrigash/Mabrigash</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/Ashlanders/Mabrigash/Mabrigash</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/Ashlanders/Mabrigash/Mabrigash</Apparel_Tunic>
+      <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/Ashlanders/Mabrigash/Mabrigash</Apparel_FlakVest>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+</Defs>

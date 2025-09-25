@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Ahemmusa Clan Style -->
+  <StyleCategoryDef>
+    <defName>Ahemmusa</defName>
+    <label>Ahemmusa</label>
+    <description>The peaceful Ahemmusa clan's style emphasizes wisdom and endurance, featuring earth-toned patterns and practical designs suited for ashland life.</description>
+  </StyleCategoryDef>
+
+  <!-- Urshilaku Clan Style -->
+  <StyleCategoryDef>
+    <defName>Urshilaku</defName>
+    <label>Urshilaku</label>
+    <description>The Urshilaku clan's style reflects their role as keepers of ancient prophecies, incorporating sacred symbols and traditional ancestral patterns.</description>
+  </StyleCategoryDef>
+
+  <!-- Erabenimsun Clan Style -->
+  <StyleCategoryDef>
+    <defName>Erabenimsun</defName>
+    <label>Erabenimsun</label>
+    <description>The fierce Erabenimsun clan's style is battle-ready and intimidating, featuring war paint patterns and reinforced designs for combat effectiveness.</description>
+  </StyleCategoryDef>
+
+  <!-- Zainab Clan Style -->
+  <StyleCategoryDef>
+    <defName>Zainab</defName>
+    <label>Zainab</label>
+    <description>The Zainab clan's style embodies sophistication and wealth, with fine craftsmanship and elegant designs that impress in diplomatic negotiations.</description>
+  </StyleCategoryDef>
+
+  <!-- Kagesh Clan Style -->
+  <StyleCategoryDef>
+    <defName>Kagesh</defName>
+    <label>Kagesh</label>
+    <description>The mysterious Kagesh clan's style is marked by arcane symbols and ritual patterns, reflecting their connection to hidden knowledge and secretive traditions.</description>
+  </StyleCategoryDef>
+
+  <!-- Ulath Clan Style -->
+  <StyleCategoryDef>
+    <defName>Ulath</defName>
+    <label>Ulath</label>
+    <description>The secretive Ulath clan's style prioritizes stealth and survival, featuring dark colors and form-fitting designs for silent movement through the ashlands.</description>
+  </StyleCategoryDef>
+
+  <!-- Vereansu Clan Style -->
+  <StyleCategoryDef>
+    <defName>Vereansu</defName>
+    <label>Vereansu</label>
+    <description>The Vereansu clan's style emphasizes spiritual connections to ancestors, with ethereal designs and ancestral symbols that shimmer with otherworldly energy.</description>
+  </StyleCategoryDef>
+
+  <!-- Mabrigash Clan Style -->
+  <StyleCategoryDef>
+    <defName>Mabrigash</defName>
+    <label>Mabrigash</label>
+    <description>The matriarchal Mabrigash clan's style combines mystical warrior traditions with practical combat needs, featuring enchanted patterns and protective designs.</description>
+  </StyleCategoryDef>
+
+</Defs>
