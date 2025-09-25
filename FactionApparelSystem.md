@@ -4,7 +4,7 @@ This documentation covers the comprehensive faction-specific apparel system adde
 
 ## Overview
 
-The apparel system adds **22+ unique apparel items** across multiple faction categories:
+The apparel system adds **23+ unique apparel items** across multiple faction categories:
 
 ### Tribunal Temple Orders (7 items)
 - **Order of the Watch Armor** - Blue and gold armor for temple guardians
@@ -25,10 +25,11 @@ The apparel system adds **22+ unique apparel items** across multiple faction cat
 - **Vereansu Spirit Robes** - Ancestral spirit-connected sacred robes
 - **Mabrigash Warrior Robes** - Matriarchal mystical combat robes
 
-### Great Houses (7 items)
-- **House Redoran Gah-Julan Bonemould Armor** - Traditional bonemould armor of the warrior-defenders
+### Great Houses (8 items)
+- **Bonemould Armor** - Base traditional Dunmer armor crafted from creature shells and bones
+- **Bonemould Armor (Gah-Julan Style)** - House Redoran variant with enhanced combat effectiveness
+- **Bonemould Armor (Armun-an Style)** - House Hlaalu variant with diplomatic and trade bonuses
 - **House Redoran Master Helmet** - Unique ceremonial helmet for the House Redoran leader
-- **House Hlaalu Armun-An Bonemould Armour** - Standard bonemould protection for Hlaalu guards
 - **House Telvanni Robes** - Mystical sorcerer robes with magical properties
 - **House Telvanni Cephalopod Helmet** - Distinctive helmet worn by Telvanni guards
 - **House Indoril Armor** - Sacred ceremonial temple guardian armor
