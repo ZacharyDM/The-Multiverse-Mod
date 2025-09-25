@@ -70,6 +70,8 @@
       <baseBodySize>1.05</baseBodySize>
       <forcedTraits>
         <li>AltmerMagicalAffinity</li>
+        <li>DestructionMastery</li>
+        <li>IllusionMastery</li>
       </forcedTraits>
       <!-- Altmer live longer than other Mer -->
       <lifeExpectancy>250</lifeExpectancy>

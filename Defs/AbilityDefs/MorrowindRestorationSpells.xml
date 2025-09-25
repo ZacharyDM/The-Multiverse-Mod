@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Restoration Spells - Healing, Protection, and Curing -->
+
+  <!-- Heal Minor Wounds -->
+  <AbilityDef>
+    <defName>MorrowindHealMinorWounds</defName>
+    <label>heal minor wounds</label>
+    <description>A basic restoration spell that mends minor injuries and cuts. The healing light closes small wounds and reduces pain.</description>
+    <iconPath>UI/Icons/Abilities/HealMinorWounds</iconPath>
+    <cooldownTicksRange>1200</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>8</range>
+      <warmupTime>1.5</warmupTime>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetSelf>true</canTargetSelf>
+        <mustBeHostileToUse>false</mustBeHostileToUse>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityHeal">
+        <healAmount>15</healAmount>
+        <bodyPartsToHeal>All</bodyPartsToHeal>
+      </li>
+      <li Class="CompProperties_AbilityEffect">
+        <effectDef>Heal_RestoreBodyPart</effectDef>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>RestorationMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Cure Common Disease -->
+  <AbilityDef>
+    <defName>MorrowindCureCommonDisease</defName>
+    <label>cure common disease</label>
+    <description>A restoration spell that purges common diseases from the body. The healing magic cleanses infections and restores natural health.</description>
+    <iconPath>UI/Icons/Abilities/CureDisease</iconPath>
+    <cooldownTicksRange>2400</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>8</range>
+      <warmupTime>2.0</warmupTime>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetSelf>true</canTargetSelf>
+        <mustBeHostileToUse>false</mustBeHostileToUse>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityCureDisease">
+        <cureChance>0.8</cureChance>
+        <diseaseTypes>
+          <li>Flu</li>
+          <li>Plague</li>
+          <li>Malaria</li>
+        </diseaseTypes>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>RestorationMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Restore Stamina -->
+  <AbilityDef>
+    <defName>MorrowindRestoreStamina</defName>
+    <label>restore stamina</label>
+    <description>A restoration spell that refreshes the body and restores energy. The target feels renewed vigor and reduced fatigue.</description>
+    <iconPath>UI/Icons/Abilities/RestoreStamina</iconPath>
+    <cooldownTicksRange>1800</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>10</range>
+      <warmupTime>1.0</warmupTime>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetSelf>true</canTargetSelf>
+        <mustBeHostileToUse>false</mustBeHostileToUse>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityHediff">
+        <hediffDef>MorrowindRestoredStamina</hediffDef>
+        <duration>1800</duration>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>RestorationMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Heal Major Wounds - Advanced -->
+  <AbilityDef>
+    <defName>MorrowindHealMajorWounds</defName>
+    <label>heal major wounds</label>
+    <description>An advanced restoration spell that can mend serious injuries and partially restore damaged organs. The powerful healing magic can save lives.</description>
+    <iconPath>UI/Icons/Abilities/HealMajorWounds</iconPath>
+    <cooldownTicksRange>4800</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>12</range>
+      <warmupTime>3.0</warmupTime>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetSelf>true</canTargetSelf>
+        <mustBeHostileToUse>false</mustBeHostileToUse>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityHeal">
+        <healAmount>40</healAmount>
+        <bodyPartsToHeal>All</bodyPartsToHeal>
+      </li>
+      <li Class="CompProperties_AbilityRestoreLimb">
+        <restoreChance>0.5</restoreChance>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>RestorationMastery</li>
+    </requiredTraits>
+    <requiredTraitDegree>1</requiredTraitDegree>
+  </AbilityDef>
+
+  <!-- Shield Spell -->
+  <AbilityDef>
+    <defName>MorrowindShield</defName>
+    <label>shield</label>
+    <description>A protective restoration spell that creates a magical barrier around the target. The shield absorbs incoming damage and glows with protective energy.</description>
+    <iconPath>UI/Icons/Abilities/Shield</iconPath>
+    <cooldownTicksRange>6000</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>15</range>
+      <warmupTime>2.5</warmupTime>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetSelf>true</canTargetSelf>
+        <mustBeHostileToUse>false</mustBeHostileToUse>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityHediff">
+        <hediffDef>MorrowindMagicalShield</hediffDef>
+        <duration>3600</duration>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>RestorationMastery</li>
+    </requiredTraits>
+    <requiredTraitDegree>1</requiredTraitDegree>
+  </AbilityDef>
+
+  <!-- Resurrect - Master Level -->
+  <AbilityDef>
+    <defName>MorrowindResurrect</defName>
+    <label>resurrect</label>
+    <description>A master-level restoration spell that can bring the recently dead back to life. This powerful magic restores the soul to the body and heals fatal wounds.</description>
+    <iconPath>UI/Icons/Abilities/Resurrect</iconPath>
+    <cooldownTicksRange>72000</cooldownTicksRange>
+    <aiCanUse>false</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>5</range>
+      <warmupTime>10.0</warmupTime>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+        <mustBeHostileToUse>false</mustBeHostileToUse>
+        <onlyTargetDeadPawns>true</onlyTargetDeadPawns>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityResurrect">
+        <resurrectChance>0.7</resurrectChance>
+        <healthOnResurrect>0.3</healthOnResurrect>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>RestorationMastery</li>
+    </requiredTraits>
+    <requiredTraitDegree>2</requiredTraitDegree>
+  </AbilityDef>
+</Defs>

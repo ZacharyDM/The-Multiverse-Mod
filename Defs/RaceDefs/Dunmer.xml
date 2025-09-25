@@ -12,6 +12,8 @@
       <!-- Trait for lore/flavor; use if defined in TraitDefs and preferred over skillGains -->
       <forcedTraits>
         <li>BloodOfTheChangedOnes</li>
+        <li>DestructionMastery</li>
+        <li>MysticismMastery</li>
       </forcedTraits>
       <!-- Remove or comment out skillGains if using trait bonuses -->
       <!--

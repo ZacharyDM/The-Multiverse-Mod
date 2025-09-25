@@ -1,11 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <!-- House Redoran Gah-Julan Bonemould Armor -->
+  <!-- Base Bonemould Armor -->
   <ThingDef ParentName="ArmorMakeableBase">
-    <defName>Apparel_HouseRedoranArmor</defName>
-    <label>House Redoran Gah-Julan bonemould armor</label>
-    <description>The iconic Gah-Julan bonemould armor worn by House Redoran warriors. This traditional Dunmer armor is crafted from the hardened shells and bones of native creatures, providing excellent protection while maintaining mobility. The distinctive styling reflects House Redoran's martial heritage and their role as Morrowind's defender-warriors.</description>
+    <defName>Apparel_BonemouldArmor</defName>
+    <label>bonemould armor</label>
+    <description>Traditional Dunmer armor crafted from the hardened shells and bones of native creatures. This distinctive armor provides excellent protection while maintaining mobility. The construction method has been used for centuries across Morrowind.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/GreatHouses/Bonemould/Bonemould</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>115</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <MaxHitPoints>280</MaxHitPoints>
+      <Mass>12.5</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.72</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.36</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.41</ArmorRating_Heat>
+      <Insulation_Cold>8</Insulation_Cold>
+      <Insulation_Heat>3</Insulation_Heat>
+      <EquipDelay>10</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.05</MoveSpeed>
+      <WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/GreatHouses/Bonemould/Bonemould</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+        <li>BonemouldArmor</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PlateArmor</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Bonemould Armor - Gah-Julan Style (House Redoran) -->
+  <ThingDef ParentName="ArmorMakeableBase">
+    <defName>Apparel_BonemouldArmor_GahJulan</defName>
+    <label>bonemould armor (Gah-Julan style)</label>
+    <description>Traditional bonemould armor crafted in the Gah-Julan style favored by House Redoran. This variant features enhanced protection and distinctive styling that reflects House Redoran's martial heritage and their role as Morrowind's defender-warriors. The armor provides superior combat bonuses fitting for the warrior-house.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/GreatHouses/Redoran/Redoran</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -50,7 +116,9 @@
       </layers>
       <tags>
         <li>IndustrialMilitaryBasic</li>
+        <li>BonemouldArmor</li>
         <li>HouseRedoran</li>
+        <li>GahJulanStyle</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -134,11 +202,11 @@
     </recipeMaker>
   </ThingDef>
 
-  <!-- House Hlaalu Armun-An Bonemould Armour -->
+  <!-- Bonemould Armor - Armun-an Style (House Hlaalu) -->
   <ThingDef ParentName="ArmorMakeableBase">
-    <defName>Apparel_HouseHlaaluArmor</defName>
-    <label>House Hlaalu Armun-An bonemould armour</label>
-    <description>The traditional Armun-An bonemould armor worn by House Hlaalu warriors and guards. While House Hlaalu is known for diplomacy and trade, they are not defenseless. This practical armor combines the standard bonemould construction with decorative elements befitting Morrowind's most prosperous merchant house.</description>
+    <defName>Apparel_BonemouldArmor_ArmunanStyle</defName>
+    <label>bonemould armor (Armun-an style)</label>
+    <description>Traditional bonemould armor crafted in the Armun-an style favored by House Hlaalu. While House Hlaalu is known for diplomacy and trade, they are not defenseless. This practical armor combines the standard bonemould construction with decorative elements and craftsmanship befitting Morrowind's most prosperous merchant house.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/GreatHouses/Hlaalu/Hlaalu</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -183,7 +251,9 @@
       </layers>
       <tags>
         <li>IndustrialMilitaryBasic</li>
+        <li>BonemouldArmor</li>
         <li>HouseHlaalu</li>
+        <li>ArmunanStyle</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Kagen Clan - Master engineers and tonal architects -->
+  <TraitDef>
+    <defName>KagenClan</defName>
+    <label>Kagen Clan</label>
+    <description>Member of the prestigious Kagen clan, renowned throughout Dwemer society for their mastery of tonal architecture and the construction of great machines.</description>
+    <degreeDatas>
+      <li>
+        <label>Kagen Clanmate</label>
+        <description>A member of Clan Kagen, raised with deep knowledge of engineering and tonal architecture. Their understanding of sound and vibration allows them to craft superior constructs.</description>
+        <skillGains>
+          <Construction>4</Construction>
+          <Crafting>3</Crafting>
+          <Intellectual>2</Intellectual>
+          <Artistic>1</Artistic>
+        </skillGains>
+        <statOffsets>
+          <ConstructionSpeed>0.15</ConstructionSpeed>
+          <ResearchSpeed>0.10</ResearchSpeed>
+          <WorkSpeedGlobal>0.08</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Kagen Master Engineer</label>
+        <description>A master engineer of Clan Kagen, capable of creating the most complex tonal architectures and mechanical wonders that define Dwemer civilization.</description>
+        <skillGains>
+          <Construction>5</Construction>
+          <Crafting>4</Crafting>
+          <Intellectual>3</Intellectual>
+          <Artistic>2</Artistic>
+        </skillGains>
+        <statOffsets>
+          <ConstructionSpeed>0.25</ConstructionSpeed>
+          <ResearchSpeed>0.15</ResearchSpeed>
+          <WorkSpeedGlobal>0.12</WorkSpeedGlobal>
+          <ConstructSuccessChance>0.10</ConstructSuccessChance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Rourken Clan - Exiles and master smiths -->
+  <TraitDef>
+    <defName>RourkenClan</defName>
+    <label>Rourken Clan</label>
+    <description>Member of the exile Rourken clan, who left Morrowind rather than submit to the Tribunal. Known for their exceptional smithing abilities and fierce independence.</description>
+    <degreeDatas>
+      <li>
+        <label>Rourken Clanmate</label>
+        <description>A member of the proud Rourken clan, bearing the skills of master smiths and the stubborn independence that led to their exile from Morrowind.</description>
+        <skillGains>
+          <Crafting>4</Crafting>
+          <Mining>3</Mining>
+          <Melee>2</Melee>
+          <Construction>1</Construction>
+        </skillGains>
+        <statOffsets>
+          <WorkSpeedGlobal>0.12</WorkSpeedGlobal>
+          <MiningYield>0.15</MiningYield>
+          <MeleeDamageAmount>0.08</MeleeDamageAmount>
+          <MentalBreakThreshold>-0.08</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Rourken Master Smith</label>
+        <description>A master smith of Clan Rourken, capable of forging the finest Dwemer metal and creating weapons that rival even the great hammers of legend.</description>
+        <skillGains>
+          <Crafting>6</Crafting>
+          <Mining>4</Mining>
+          <Melee>3</Melee>
+          <Construction>2</Construction>
+        </skillGains>
+        <statOffsets>
+          <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
+          <MiningYield>0.25</MiningYield>
+          <MeleeDamageAmount>0.12</MeleeDamageAmount>
+          <MentalBreakThreshold>-0.12</MentalBreakThreshold>
+          <SmithingSuccessChance>0.15</SmithingSuccessChance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Freehold Clan - Merchant-engineers and traders -->
+  <TraitDef>
+    <defName>FreeholdClan</defName>
+    <label>Freehold Clan</label>
+    <description>Member of the Freehold clan, Dwemer who combine engineering prowess with shrewd business acumen, serving as merchants and negotiators for their people.</description>
+    <degreeDatas>
+      <li>
+        <label>Freehold Clanmate</label>
+        <description>A member of Clan Freehold, raised to understand both the intricacies of Dwemer technology and the art of profitable negotiation with outsiders.</description>
+        <skillGains>
+          <Social>3</Social>
+          <Crafting>3</Crafting>
+          <Intellectual>2</Intellectual>
+          <Construction>1</Construction>
+        </skillGains>
+        <statOffsets>
+          <TradePriceImprovement>0.12</TradePriceImprovement>
+          <NegotiationAbility>0.15</NegotiationAbility>
+          <ResearchSpeed>0.08</ResearchSpeed>
+          <SocialImpact>0.10</SocialImpact>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Freehold Trade Master</label>
+        <description>A trade master of Clan Freehold, combining deep technological knowledge with unparalleled skills in negotiation and commercial enterprise.</description>
+        <skillGains>
+          <Social>4</Social>
+          <Crafting>4</Crafting>
+          <Intellectual>3</Intellectual>
+          <Construction>2</Construction>
+        </skillGains>
+        <statOffsets>
+          <TradePriceImprovement>0.20</TradePriceImprovement>
+          <NegotiationAbility>0.25</NegotiationAbility>
+          <ResearchSpeed>0.12</ResearchSpeed>
+          <SocialImpact>0.15</SocialImpact>
+          <GlobalLearningFactor>0.10</GlobalLearningFactor>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>

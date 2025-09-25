@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Alteration Spells - Transmutation and physical law manipulation -->
+
+  <!-- Open Lock -->
+  <AbilityDef>
+    <defName>MorrowindOpenLock</defName>
+    <label>open lock</label>
+    <description>A basic alteration spell that magically opens simple locks and doors. The spell manipulates the locking mechanism through transmutation.</description>
+    <iconPath>UI/Icons/Abilities/OpenLock</iconPath>
+    <cooldownTicksRange>1800</cooldownTicksRange>
+    <aiCanUse>false</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>5</range>
+      <warmupTime>2.0</warmupTime>
+      <targetParams>
+        <canTargetBuildings>true</canTargetBuildings>
+        <canTargetPawns>false</canTargetPawns>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityOpenLock">
+        <successChance>0.7</successChance>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>AlterationMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Transmute Metal -->
+  <AbilityDef>
+    <defName>MorrowindTransmuteMetal</defName>
+    <label>transmute metal</label>
+    <description>An alteration spell that transforms base metals into more valuable materials. The magical transmutation converts iron to steel or steel to precious metals.</description>
+    <iconPath>UI/Icons/Abilities/TransmuteMetal</iconPath>
+    <cooldownTicksRange>7200</cooldownTicksRange>
+    <aiCanUse>false</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>8</range>
+      <warmupTime>3.0</warmupTime>
+      <targetParams>
+        <canTargetThings>true</canTargetThings>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityTransmute">
+        <transmutationRules>
+          <Iron>Steel</Iron>
+          <Steel>Silver</Steel>
+          <Silver>Gold</Silver>
+        </transmutationRules>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>AlterationMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Water Walking -->
+  <AbilityDef>
+    <defName>MorrowindWaterWalking</defName>
+    <label>water walking</label>
+    <description>An alteration spell that allows the caster to walk on water as if it were solid ground. The magic alters the surface tension of water.</description>
+    <iconPath>UI/Icons/Abilities/WaterWalking</iconPath>
+    <cooldownTicksRange>3600</cooldownTicksRange>
+    <aiCanUse>false</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>0</range>
+      <warmupTime>2.0</warmupTime>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityHediff">
+        <hediffDef>MorrowindWaterWalking</hediffDef>
+        <duration>3600</duration>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>AlterationMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Levitate - Advanced -->
+  <AbilityDef>
+    <defName>MorrowindLevitate</defName>
+    <label>levitate</label>
+    <description>An advanced alteration spell that allows the caster to float and fly through the air. The magic negates the effects of gravity on the target.</description>
+    <iconPath>UI/Icons/Abilities/Levitate</iconPath>
+    <cooldownTicksRange>9600</cooldownTicksRange>
+    <aiCanUse>false</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>10</range>
+      <warmupTime>3.5</warmupTime>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+        <canTargetPawns>true</canTargetPawns>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityHediff">
+        <hediffDef>MorrowindLevitating</hediffDef>
+        <duration>1800</duration>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>AlterationMastery</li>
+    </requiredTraits>
+    <requiredTraitDegree>1</requiredTraitDegree>
+  </AbilityDef>
+
+  <!-- Slowfall - Advanced -->
+  <AbilityDef>
+    <defName>MorrowindSlowfall</defName>
+    <label>slowfall</label>
+    <description>An advanced alteration spell that makes the target fall slowly and safely. The magic reduces the effects of gravity during descent.</description>
+    <iconPath>UI/Icons/Abilities/Slowfall</iconPath>
+    <cooldownTicksRange>4800</cooldownTicksRange>
+    <aiCanUse>false</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>12</range>
+      <warmupTime>2.5</warmupTime>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+        <canTargetPawns>true</canTargetPawns>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityHediff">
+        <hediffDef>MorrowindSlowfall</hediffDef>
+        <duration>2400</duration>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>AlterationMastery</li>
+    </requiredTraits>
+    <requiredTraitDegree>1</requiredTraitDegree>
+  </AbilityDef>
+
+  <!-- Telekinesis - Master Level -->
+  <AbilityDef>
+    <defName>MorrowindTelekinesis</defName>
+    <label>telekinesis</label>
+    <description>A master-level alteration spell that allows manipulation of objects at a distance. The caster can move, activate, or interact with distant items through pure will.</description>
+    <iconPath>UI/Icons/Abilities/Telekinesis</iconPath>
+    <cooldownTicksRange>6000</cooldownTicksRange>
+    <aiCanUse>false</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>25</range>
+      <warmupTime>4.0</warmupTime>
+      <targetParams>
+        <canTargetThings>true</canTargetThings>
+        <canTargetBuildings>true</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityTelekinesis">
+        <maxWeight>100</maxWeight>
+        <moveDistance>10</moveDistance>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>AlterationMastery</li>
+    </requiredTraits>
+    <requiredTraitDegree>2</requiredTraitDegree>
+  </AbilityDef>
+</Defs>
