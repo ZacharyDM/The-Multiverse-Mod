@@ -29,6 +29,7 @@
       <baseBodySize>0.95</baseBodySize>
       <forcedTraits>
         <li>KhajiitNaturalAgility</li>
+        <li>IllusionMastery</li>
       </forcedTraits>
     </race>
     <statBases>
@@ -78,6 +79,8 @@
       <baseBodySize>1.0</baseBodySize>
       <forcedTraits>
         <li>ArgonianAdaptation</li>
+        <li>RestorationMastery</li>
+        <li>MysticismMastery</li>
       </forcedTraits>
     </race>
     <statBases>

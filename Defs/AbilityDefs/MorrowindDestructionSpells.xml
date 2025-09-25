@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Destruction Spells - Fire, Frost, Shock, and Drain -->
+
+  <!-- Fire Damage Spell -->
+  <AbilityDef>
+    <defName>MorrowindFireDamage</defName>
+    <label>fire damage</label>
+    <description>A basic destruction spell that conjures flames to burn enemies. The flames sear flesh and ignite flammable materials.</description>
+    <iconPath>UI/Icons/Abilities/FireDamage</iconPath>
+    <cooldownTicksRange>1800</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>15</range>
+      <warmupTime>1.0</warmupTime>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityDamage">
+        <damageAmount>20</damageAmount>
+        <damageType>Flame</damageType>
+        <bodyPartToHit>Torso</bodyPartToHit>
+      </li>
+      <li Class="CompProperties_AbilityEffect">
+        <effectDef>Explosion_FireSmall</effectDef>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>DestructionMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Frost Damage Spell -->
+  <AbilityDef>
+    <defName>MorrowindFrostDamage</defName>
+    <label>frost damage</label>
+    <description>A basic destruction spell that conjures ice to freeze and damage enemies. The bitter cold slows movement and damages tissue.</description>
+    <iconPath>UI/Icons/Abilities/FrostDamage</iconPath>
+    <cooldownTicksRange>1800</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>15</range>
+      <warmupTime>1.0</warmupTime>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityDamage">
+        <damageAmount>18</damageAmount>
+        <damageType>Frostbite</damageType>
+        <bodyPartToHit>Torso</bodyPartToHit>
+      </li>
+      <li Class="CompProperties_AbilityHediff">
+        <hediffDef>Hypothermia</hediffDef>
+        <duration>300</duration>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>DestructionMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Shock Damage Spell -->
+  <AbilityDef>
+    <defName>MorrowindShockDamage</defName>
+    <label>shock damage</label>
+    <description>A basic destruction spell that conjures lightning to electrocute enemies. The electrical energy disrupts nervous systems and damages equipment.</description>
+    <iconPath>UI/Icons/Abilities/ShockDamage</iconPath>
+    <cooldownTicksRange>1800</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>18</range>
+      <warmupTime>0.8</warmupTime>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityDamage">
+        <damageAmount>22</damageAmount>
+        <damageType>EMP</damageType>
+        <bodyPartToHit>Torso</bodyPartToHit>
+      </li>
+      <li Class="CompProperties_AbilityHediff">
+        <hediffDef>BadBack</hediffDef>
+        <duration>180</duration>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>DestructionMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Fireball - Advanced Destruction -->
+  <AbilityDef>
+    <defName>MorrowindFireball</defName>
+    <label>fireball</label>
+    <description>An advanced destruction spell that hurls an explosive ball of fire at enemies. The fireball explodes on impact, damaging multiple targets.</description>
+    <iconPath>UI/Icons/Abilities/Fireball</iconPath>
+    <cooldownTicksRange>3600</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>25</range>
+      <warmupTime>2.0</warmupTime>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetBuildings>true</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityExplosion">
+        <explosionRadius>3</explosionRadius>
+        <damageAmount>35</damageAmount>
+        <damageType>Flame</damageType>
+        <effectDef>Explosion_Fire</effectDef>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>DestructionMastery</li>
+    </requiredTraits>
+    <requiredTraitDegree>1</requiredTraitDegree>
+  </AbilityDef>
+
+  <!-- Drain Health - Life Stealing Magic -->
+  <AbilityDef>
+    <defName>MorrowindDrainHealth</defName>
+    <label>drain health</label>
+    <description>A sinister destruction spell that drains the life force from enemies and transfers it to the caster. The victim weakens as the caster grows stronger.</description>
+    <iconPath>UI/Icons/Abilities/DrainHealth</iconPath>
+    <cooldownTicksRange>4800</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>12</range>
+      <warmupTime>2.5</warmupTime>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityDamage">
+        <damageAmount>30</damageAmount>
+        <damageType>Cut</damageType>
+        <bodyPartToHit>Torso</bodyPartToHit>
+      </li>
+      <li Class="CompProperties_AbilityHealCaster">
+        <healAmount>15</healAmount>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>DestructionMastery</li>
+    </requiredTraits>
+    <requiredTraitDegree>1</requiredTraitDegree>
+  </AbilityDef>
+
+  <!-- Disintegrate Weapon - Master Level Destruction -->
+  <AbilityDef>
+    <defName>MorrowindDisintegrateWeapon</defName>
+    <label>disintegrate weapon</label>
+    <description>A master-level destruction spell that destroys the target's weapon or armor through magical corrosion. The targeted equipment crumbles to dust.</description>
+    <iconPath>UI/Icons/Abilities/DisintegrateWeapon</iconPath>
+    <cooldownTicksRange>7200</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>20</range>
+      <warmupTime>3.0</warmupTime>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityDestroyEquipment">
+        <targetEquipmentSlot>Primary</targetEquipmentSlot>
+        <destroyChance>0.75</destroyChance>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>DestructionMastery</li>
+    </requiredTraits>
+    <requiredTraitDegree>2</requiredTraitDegree>
+  </AbilityDef>
+</Defs>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Conjuration Spells - Summoning creatures and creating bound weapons -->
+
+  <!-- Summon Ancestral Ghost -->
+  <AbilityDef>
+    <defName>MorrowindSummonAncestralGhost</defName>
+    <label>summon ancestral ghost</label>
+    <description>A basic conjuration spell that summons the spirit of an ancient ancestor to fight alongside the caster. The ghost is ethereal and resistant to physical damage.</description>
+    <iconPath>UI/Icons/Abilities/SummonAncestralGhost</iconPath>
+    <cooldownTicksRange>7200</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>10</range>
+      <warmupTime>3.0</warmupTime>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilitySummon">
+        <summonedPawnKindDef>MorrowindAncestralGhost</summonedPawnKindDef>
+        <duration>3600</duration>
+        <maxSummons>1</maxSummons>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>ConjurationMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Bound Dagger -->
+  <AbilityDef>
+    <defName>MorrowindBoundDagger</defName>
+    <label>bound dagger</label>
+    <description>A conjuration spell that creates a magical dagger from pure energy. The weapon is weightless and strikes with supernatural force.</description>
+    <iconPath>UI/Icons/Abilities/BoundDagger</iconPath>
+    <cooldownTicksRange>3600</cooldownTicksRange>
+    <aiCanUse>false</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>0</range>
+      <warmupTime>2.0</warmupTime>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityCreateBoundWeapon">
+        <weaponDef>MorrowindBoundDagger</weaponDef>
+        <duration>2400</duration>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>ConjurationMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Soul Trap -->
+  <AbilityDef>
+    <defName>MorrowindSoulTrap</defName>
+    <label>soul trap</label>
+    <description>A conjuration spell that prepares a target's soul for capture upon death. When the trapped creature dies, its soul is drawn into a soul gem.</description>
+    <iconPath>UI/Icons/Abilities/SoulTrap</iconPath>
+    <cooldownTicksRange>4800</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>15</range>
+      <warmupTime>2.5</warmupTime>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityHediff">
+        <hediffDef>MorrowindSoulTrapped</hediffDef>
+        <duration>1800</duration>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>ConjurationMastery</li>
+    </requiredTraits>
+  </AbilityDef>
+
+  <!-- Summon Scamp - Advanced -->
+  <AbilityDef>
+    <defName>MorrowindSummonScamp</defName>
+    <label>summon scamp</label>
+    <description>An advanced conjuration spell that summons a mischievous Daedric scamp to serve the caster. Scamps are agile fighters with claws and basic spellcasting.</description>
+    <iconPath>UI/Icons/Abilities/SummonScamp</iconPath>
+    <cooldownTicksRange>9600</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>12</range>
+      <warmupTime>4.0</warmupTime>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilitySummon">
+        <summonedPawnKindDef>MorrowindScamp</summonedPawnKindDef>
+        <duration>2400</duration>
+        <maxSummons>1</maxSummons>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>ConjurationMastery</li>
+    </requiredTraits>
+    <requiredTraitDegree>1</requiredTraitDegree>
+  </AbilityDef>
+
+  <!-- Bound Sword - Advanced -->
+  <AbilityDef>
+    <defName>MorrowindBoundSword</defName>
+    <label>bound sword</label>
+    <description>An advanced conjuration spell that creates a powerful magical sword from pure energy. The blade cuts through armor with supernatural efficiency.</description>
+    <iconPath>UI/Icons/Abilities/BoundSword</iconPath>
+    <cooldownTicksRange>7200</cooldownTicksRange>
+    <aiCanUse>false</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>0</range>
+      <warmupTime>3.0</warmupTime>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityCreateBoundWeapon">
+        <weaponDef>MorrowindBoundSword</weaponDef>
+        <duration>3600</duration>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>ConjurationMastery</li>
+    </requiredTraits>
+    <requiredTraitDegree>1</requiredTraitDegree>
+  </AbilityDef>
+
+  <!-- Summon Dremora - Master Level -->
+  <AbilityDef>
+    <defName>MorrowindSummonDremora</defName>
+    <label>summon dremora</label>
+    <description>A master-level conjuration spell that summons a powerful Dremora warrior from the planes of Oblivion. These elite Daedric knights are formidable combatants.</description>
+    <iconPath>UI/Icons/Abilities/SummonDremora</iconPath>
+    <cooldownTicksRange>14400</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>15</range>
+      <warmupTime>6.0</warmupTime>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilitySummon">
+        <summonedPawnKindDef>MorrowindDremora</summonedPawnKindDef>
+        <duration>1800</duration>
+        <maxSummons>1</maxSummons>
+      </li>
+    </comps>
+    <requiredTraits>
+      <li>ConjurationMastery</li>
+    </requiredTraits>
+    <requiredTraitDegree>2</requiredTraitDegree>
+  </AbilityDef>
+</Defs>

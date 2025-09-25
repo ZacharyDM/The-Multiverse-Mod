@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Magic School Affinities for Elder Scrolls Races -->
+  <!-- These traits can be randomly assigned to Elder Scrolls races to give them magical abilities -->
+
+  <!-- High Elf (Altmer) - Masters of all schools, especially Destruction and Illusion -->
+  <TraitDef>
+    <defName>AltmerMagicMastery</defName>
+    <label>Altmer Magic Mastery</label>
+    <description>This High Elf possesses exceptional magical talent, with natural aptitude for multiple schools of magic. Altmer are considered the most magically gifted race.</description>
+    <degreeDatas>
+      <li>
+        <degree>0</degree>
+        <label>Natural Mage</label>
+        <description>Born with innate magical talent, this Altmer shows natural aptitude for destruction and illusion magic.</description>
+        <skillGains>
+          <Intellectual>3</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.2</PsychicSensitivity>
+        </statOffsets>
+
+      </li>
+      <li>
+        <degree>1</degree>
+        <label>Archmage Potential</label>
+        <description>This Altmer possesses extraordinary magical talent, with mastery over multiple schools of magic.</description>
+        <skillGains>
+          <Intellectual>5</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.3</PsychicSensitivity>
+          <ResearchSpeed>0.15</ResearchSpeed>
+        </statOffsets>
+
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Dark Elf (Dunmer) - Destruction and Mysticism specialists -->
+  <TraitDef>
+    <defName>DunmerMagicHeritage</defName>
+    <label>Dunmer Magic Heritage</label>
+    <description>This Dark Elf possesses the traditional magical knowledge of Morrowind, specializing in destruction and mysticism. Their ancestors mastered these schools in the ancient days.</description>
+    <degreeDatas>
+      <li>
+        <degree>0</degree>
+        <label>Ashlander Sorcery</label>
+        <description>Trained in the traditional magic of the Dunmer, specializing in destructive and mystical arts.</description>
+        <skillGains>
+          <Intellectual>2</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.15</PsychicSensitivity>
+        </statOffsets>
+
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Breton - Natural magic resistance and restoration affinity -->
+  <TraitDef>
+    <defName>BretonMagicBlood</defName>
+    <label>Breton Magic Blood</label>
+    <description>This Breton possesses the mixed elven-human heritage that grants natural magic resistance and aptitude for restoration magic.</description>
+    <degreeDatas>
+      <li>
+        <label>Dragonborn Blood</label>
+        <description>Born with mixed magical heritage, this Breton has natural resistance to hostile magic and talent for restoration.</description>
+        <skillGains>
+          <Intellectual>2</Intellectual>
+          <Medicine>1</Medicine>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>-0.1</PsychicSensitivity>
+        </statOffsets>
+
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Imperial - Balanced magic users, especially Restoration and Illusion -->
+  <TraitDef>
+    <defName>ImperialMagicEducation</defName>
+    <label>Imperial Magic Education</label>
+    <description>This Imperial received formal magical education in the Empire's institutions, with balanced training in restoration and illusion magic.</description>
+    <degreeDatas>
+      <li>
+        <label>Imperial Academy</label>
+        <description>Educated in the Imperial magical traditions, specializing in healing and diplomatic magic.</description>
+        <skillGains>
+          <Intellectual>2</Intellectual>
+          <Social>1</Social>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.1</SocialImpact>
+        </statOffsets>
+
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Wood Elf (Bosmer) - Mysticism and Alteration for nature magic -->
+  <TraitDef>
+    <defName>BosmerNatureMagic</defName>
+    <label>Bosmer Nature Magic</label>
+    <description>This Wood Elf possesses the natural magic of Valenwood, using mysticism and alteration to commune with nature and the forest spirits.</description>
+    <degreeDatas>
+      <li>
+        <label>Forest Walker</label>
+        <description>Trained in the ancient nature magic of the Bosmer, using mystical arts to understand and alter the natural world.</description>
+        <skillGains>
+          <Intellectual>1</Intellectual>
+          <Animals>2</Animals>
+          <Plants>1</Plants>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.1</PsychicSensitivity>
+        </statOffsets>
+
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Argonian - Restoration and Mysticism through Hist connection -->
+  <TraitDef>
+    <defName>ArgonianHistMagic</defName>
+    <label>Argonian Hist Magic</label>
+    <description>This Argonian draws magical power from their connection to the Hist, specializing in restoration magic and mystical arts.</description>
+    <degreeDatas>
+      <li>
+        <label>Hist-Blessed</label>
+        <description>Connected to the Hist trees, this Argonian can channel restorative and mystical energies.</description>
+        <skillGains>
+          <Medicine>2</Medicine>
+          <Intellectual>1</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <ImmunityGainSpeed>0.1</ImmunityGainSpeed>
+          <PsychicSensitivity>0.1</PsychicSensitivity>
+        </statOffsets>
+
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Khajiit - Illusion specialists -->
+  <TraitDef>
+    <defName>KhajiitMoonMagic</defName>
+    <label>Khajiit Moon Magic</label>
+    <description>This Khajiit possesses the moon-blessed magic of Elsweyr, specializing in illusion magic and stealth enchantments.</description>
+    <degreeDatas>
+      <li>
+        <label>Moon-Touched</label>
+        <description>Blessed by the moons of Elsweyr, this Khajiit excels in illusion magic and stealth.</description>
+        <skillGains>
+          <Social>1</Social>
+          <Intellectual>1</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.1</SocialImpact>
+          <MoveSpeed>0.1</MoveSpeed>
+        </statOffsets>
+
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Ancient Elven Races - Specialized magic -->
+  
+  <!-- Dwemer - Alteration and Mysticism for their technology -->
+  <TraitDef>
+    <defName>DwemerTechnomancy</defName>
+    <label>Dwemer Technomancy</label>
+    <description>This Dwemer possesses the lost magical techniques that powered their great machines, combining alteration and mysticism with technology.</description>
+    <degreeDatas>
+      <li>
+        <label>Tonal Architect</label>
+        <description>Master of the lost Dwemer arts of technomancy, using alteration and mysticism to power great machines.</description>
+        <skillGains>
+          <Intellectual>3</Intellectual>
+          <Crafting>2</Crafting>
+        </skillGains>
+        <statOffsets>
+          <ResearchSpeed>0.2</ResearchSpeed>
+          <PsychicSensitivity>0.15</PsychicSensitivity>
+        </statOffsets>
+
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Chimer - All schools like their Dunmer descendants -->
+  <TraitDef>
+    <defName>ChimerAncientMagic</defName>
+    <label>Chimer Ancient Magic</label>
+    <description>This Chimer possesses the ancient magical knowledge from before the transformation into the Dunmer, with broad magical understanding.</description>
+    <degreeDatas>
+      <li>
+        <label>First Folk</label>
+        <description>Keeper of the ancient magical traditions that predate the modern Dunmer, with knowledge of multiple schools.</description>
+        <skillGains>
+          <Intellectual>3</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.2</PsychicSensitivity>
+        </statOffsets>
+
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Ayleid - Conjuration and Mysticism masters -->
+  <TraitDef>
+    <defName>AyleidStarMagic</defName>
+    <label>Ayleid Star Magic</label>
+    <description>This Ayleid possesses the star-blessed magic of the ancient Heartland elves, masters of conjuration and mysticism who built great cities powered by starlight.</description>
+    <degreeDatas>
+      <li>
+        <label>Starlight Weaver</label>
+        <description>Master of the ancient Ayleid arts of star magic, specializing in conjuration and mystical arts.</description>
+        <skillGains>
+          <Intellectual>4</Intellectual>
+          <Artistic>1</Artistic>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.25</PsychicSensitivity>
+        </statOffsets>
+
+      </li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>

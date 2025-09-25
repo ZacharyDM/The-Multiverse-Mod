@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Destruction School - Offensive magic dealing with fire, frost, shock, and draining life -->
+  <TraitDef>
+    <defName>DestructionMastery</defName>
+    <label>Destruction Mastery</label>
+    <description>The school of Destruction deals with harnessing the forces of fire, frost, and shock to damage and debilitate foes. Masters of Destruction can unleash devastating magical attacks.</description>
+    <degreeDatas>
+      <li>
+        <degree>0</degree>
+        <label>Destruction Apprentice</label>
+        <description>A novice in the destructive arts, capable of minor offensive spells and basic elemental manipulation.</description>
+        <skillGains>
+          <Intellectual>2</Intellectual>
+          <Shooting>1</Shooting>
+        </skillGains>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+        </statOffsets>
+      </li>
+      <li>
+        <degree>1</degree>
+        <label>Destruction Adept</label>
+        <description>An experienced practitioner of destruction magic, capable of moderately powerful offensive spells and improved elemental control.</description>
+        <skillGains>
+          <Intellectual>4</Intellectual>
+          <Shooting>2</Shooting>
+          <Melee>1</Melee>
+        </skillGains>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+          <PsychicSensitivity>0.1</PsychicSensitivity>
+        </statOffsets>
+      </li>
+      <li>
+        <degree>2</degree>
+        <label>Destruction Master</label>
+        <description>A master of the destructive arts whose spells can devastate entire battlefields. Their understanding of elemental forces is unparalleled.</description>
+        <skillGains>
+          <Intellectual>6</Intellectual>
+          <Shooting>4</Shooting>
+          <Melee>2</Melee>
+        </skillGains>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.15</ShootingAccuracyPawn>
+          <PsychicSensitivity>0.2</PsychicSensitivity>
+          <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Restoration School - Healing and protective magic -->
+  <TraitDef>
+    <defName>RestorationMastery</defName>
+    <label>Restoration Mastery</label>
+    <description>The school of Restoration deals with healing wounds, curing diseases, and providing magical protection. Masters of Restoration can heal even the most grievous injuries.</description>
+    <degreeDatas>
+      <li>
+        <degree>0</degree>
+        <label>Restoration Apprentice</label>
+        <description>A novice healer capable of basic healing spells and minor protective enchantments.</description>
+        <skillGains>
+          <Medicine>3</Medicine>
+          <Intellectual>2</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <ImmunityGainSpeed>0.1</ImmunityGainSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <degree>1</degree>
+        <label>Restoration Adept</label>
+        <description>An experienced healer whose restorative magic can cure diseases and mend serious wounds with greater efficiency.</description>
+        <skillGains>
+          <Medicine>5</Medicine>
+          <Intellectual>3</Intellectual>
+          <Social>1</Social>
+        </skillGains>
+        <statOffsets>
+          <ImmunityGainSpeed>0.2</ImmunityGainSpeed>
+          <PsychicSensitivity>0.1</PsychicSensitivity>
+        </statOffsets>
+      </li>
+      <li>
+        <degree>2</degree>
+        <label>Restoration Master</label>
+        <description>A master healer whose magic can restore life itself and provide powerful protective barriers against harm.</description>
+        <skillGains>
+          <Medicine>8</Medicine>
+          <Intellectual>4</Intellectual>
+          <Social>2</Social>
+        </skillGains>
+        <statOffsets>
+          <ImmunityGainSpeed>0.3</ImmunityGainSpeed>
+          <PsychicSensitivity>0.2</PsychicSensitivity>
+          <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Illusion School - Magic affecting the mind and perception -->
+  <TraitDef>
+    <defName>IllusionMastery</defName>
+    <label>Illusion Mastery</label>
+    <description>The school of Illusion deals with manipulating the mind, altering perception, and controlling behavior. Masters of Illusion can become invisible and bend others to their will.</description>
+    <degreeDatas>
+      <li>
+        <degree>0</degree>
+        <label>Illusion Apprentice</label>
+        <description>A novice illusionist capable of minor mind tricks and basic invisibility spells.</description>
+        <skillGains>
+          <Social>3</Social>
+          <Intellectual>2</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.1</SocialImpact>
+        </statOffsets>
+      </li>
+      <li>
+        <degree>1</degree>
+        <label>Illusion Adept</label>
+        <description>An experienced illusionist whose magic can charm enemies and provide enhanced stealth capabilities.</description>
+        <skillGains>
+          <Social>5</Social>
+          <Intellectual>3</Intellectual>
+          <Melee>1</Melee>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.15</SocialImpact>
+          <PsychicSensitivity>0.15</PsychicSensitivity>
+        </statOffsets>
+      </li>
+      <li>
+        <degree>2</degree>
+        <label>Illusion Master</label>
+        <description>A master of illusion whose spells can dominate minds completely and render themselves nearly undetectable.</description>
+        <skillGains>
+          <Social>8</Social>
+          <Intellectual>4</Intellectual>
+          <Melee>2</Melee>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.25</SocialImpact>
+          <PsychicSensitivity>0.25</PsychicSensitivity>
+          <MentalBreakThreshold>-0.15</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Alteration School - Magic that changes the fundamental nature of things -->
+  <TraitDef>
+    <defName>AlterationMastery</defName>
+    <label>Alteration Mastery</label>
+    <description>The school of Alteration deals with changing the fundamental properties of objects and creatures. Masters of Alteration can transmute materials and alter physical laws.</description>
+    <degreeDatas>
+      <li>
+        <degree>0</degree>
+        <label>Alteration Apprentice</label>
+        <description>A novice who can perform basic transmutation and minor alterations to physical properties.</description>
+        <skillGains>
+          <Crafting>2</Crafting>
+          <Intellectual>2</Intellectual>
+          <Construction>1</Construction>
+        </skillGains>
+        <statOffsets>
+          <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+      <li>
+        <degree>1</degree>
+        <label>Alteration Adept</label>
+        <description>An experienced transmuter capable of significant alterations to matter and enhanced crafting abilities.</description>
+        <skillGains>
+          <Crafting>4</Crafting>
+          <Intellectual>3</Intellectual>
+          <Construction>2</Construction>
+          <Mining>1</Mining>
+        </skillGains>
+        <statOffsets>
+          <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+          <PsychicSensitivity>0.1</PsychicSensitivity>
+        </statOffsets>
+      </li>
+      <li>
+        <degree>2</degree>
+        <label>Alteration Master</label>
+        <description>A master of alteration whose magic can fundamentally reshape reality and transmute any material with ease.</description>
+        <skillGains>
+          <Crafting>6</Crafting>
+          <Intellectual>4</Intellectual>
+          <Construction>3</Construction>
+          <Mining>2</Mining>
+        </skillGains>
+        <statOffsets>
+          <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+          <PsychicSensitivity>0.2</PsychicSensitivity>
+          <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Conjuration School - Summoning and binding magic -->
+  <TraitDef>
+    <defName>ConjurationMastery</defName>
+    <label>Conjuration Mastery</label>
+    <description>The school of Conjuration deals with summoning creatures from other planes and binding souls. Masters of Conjuration can call forth powerful allies and create magical weapons.</description>
+    <degreeDatas>
+      <li>
+        <degree>0</degree>
+        <label>Conjuration Apprentice</label>
+        <description>A novice summoner capable of calling minor creatures and creating basic bound weapons.</description>
+        <skillGains>
+          <Intellectual>3</Intellectual>
+          <Animals>1</Animals>
+          <Melee>1</Melee>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.1</PsychicSensitivity>
+        </statOffsets>
+      </li>
+      <li>
+        <degree>1</degree>
+        <label>Conjuration Adept</label>
+        <description>An experienced conjurer who can summon more powerful creatures and maintain multiple summons simultaneously.</description>
+        <skillGains>
+          <Intellectual>5</Intellectual>
+          <Animals>2</Animals>
+          <Melee>2</Melee>
+          <Social>1</Social>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.2</PsychicSensitivity>
+          <SocialImpact>0.1</SocialImpact>
+        </statOffsets>
+      </li>
+      <li>
+        <degree>2</degree>
+        <label>Conjuration Master</label>
+        <description>A master summoner whose magic can call forth legendary creatures and bind the souls of enemies.</description>
+        <skillGains>
+          <Intellectual>7</Intellectual>
+          <Animals>3</Animals>
+          <Melee>3</Melee>
+          <Social>2</Social>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.3</PsychicSensitivity>
+          <SocialImpact>0.15</SocialImpact>
+          <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Mysticism School - The most esoteric magical arts -->
+  <TraitDef>
+    <defName>MysticismMastery</defName>
+    <label>Mysticism Mastery</label>
+    <description>The school of Mysticism deals with the most esoteric magical arts - teleportation, soul manipulation, and dimensional magic. Masters of Mysticism understand the deepest mysteries of magic itself.</description>
+    <degreeDatas>
+      <li>
+        <degree>0</degree>
+        <label>Mysticism Apprentice</label>
+        <description>A novice mystic who can perform basic detection spells and minor teleportation magic.</description>
+        <skillGains>
+          <Intellectual>4</Intellectual>
+          <Artistic>1</Artistic>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.15</PsychicSensitivity>
+        </statOffsets>
+      </li>
+      <li>
+        <degree>1</degree>
+        <label>Mysticism Adept</label>
+        <description>An experienced mystic whose understanding of esoteric magic grants enhanced perception and dimensional awareness.</description>
+        <skillGains>
+          <Intellectual>6</Intellectual>
+          <Artistic>2</Artistic>
+          <Social>1</Social>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.25</PsychicSensitivity>
+          <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+      <li>
+        <degree>2</degree>
+        <label>Mysticism Master</label>
+        <description>A master of the mystical arts whose understanding of magic transcends normal reality. They can manipulate souls, space, and time itself.</description>
+        <skillGains>
+          <Intellectual>8</Intellectual>
+          <Artistic>3</Artistic>
+          <Social>2</Social>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.4</PsychicSensitivity>
+          <MentalBreakThreshold>-0.2</MentalBreakThreshold>
+          <SocialImpact>0.1</SocialImpact>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>
