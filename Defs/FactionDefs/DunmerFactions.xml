@@ -65,30 +65,7 @@
     <hidden>false</hidden>
   </FactionDef>
 
-  <!-- Dwemer Faction -->
-  <FactionDef>
-    <defName>DwemerTechnologists</defName>
-    <label>Dwemer Technologists</label>
-    <description>Surviving remnants of the ancient Dwemer civilization, these mysterious engineers guard the secrets of Dwemer technology jealously. They are the only ones who understand how to work with dwarven metal and create the advanced artifacts of their ancestors. Gaining their trust requires proving oneself worthy of their technological legacy.</description>
-    <color>(0.7, 0.55, 0.35, 1)</color>
-    <allowedRaceDefs>
-      <li>Dwemer</li>
-    </allowedRaceDefs>
-    <techLevel>Industrial</techLevel>
-    <hidden>false</hidden>
-    <requiredCountAtGameStart>0</requiredCountAtGameStart>
-    <maxCountAtGameStart>1</maxCountAtGameStart>
-    <canMakeRandomly>false</canMakeRandomly>
-    <canSiege>false</canSiege>
-    <canStageAttacks>false</canStageAttacks>
-    <leaderTitle>Chief Engineer</leaderTitle>
-    <factionIconPath>UI/Factions/DwemerTech</factionIconPath>
-    <settlementGenerationWeight>0.5</settlementGenerationWeight>
-    <requiredMemes>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
-    </requiredMemes>
-  </FactionDef>
+
 
   <!-- Tribunal Temple -->
   <FactionDef>
@@ -206,15 +183,5 @@
     <techLevel>Neolithic</techLevel>
   </FactionDef>
 
-  <!-- Dwemer Main Faction -->
-  <FactionDef>
-    <defName>Dwemereth</defName>
-    <label>Dwemereth</label>
-    <description>The primary Dwemer faction, representing the unified Deep Elves civilization known for their advanced technology and engineering prowess.</description>
-    <color>(0.6, 0.5, 0.3, 1)</color>
-    <allowedRaceDefs>
-      <li>Dwemer</li>
-    </allowedRaceDefs>
-    <techLevel>Industrial</techLevel>
-  </FactionDef>
+
 </FactionDefs>
