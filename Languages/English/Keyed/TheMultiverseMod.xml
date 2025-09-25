@@ -52,12 +52,19 @@
   <Apparel_MabrigashWarriorRobes_Label>Mabrigash warrior robes</Apparel_MabrigashWarriorRobes_Label>
   <Apparel_MabrigashWarriorRobes_Description>Mystical warrior robes worn by the matriarchal Mabrigash clan.</Apparel_MabrigashWarriorRobes_Description>
   
-  <!-- Great House Apparel -->
-  <Apparel_HouseRedoranArmor_Label>House Redoran armor</Apparel_HouseRedoranArmor_Label>
-  <Apparel_HouseRedoranArmor_Description>Traditional armor of House Redoran, the warrior-protectors of Morrowind.</Apparel_HouseRedoranArmor_Description>
+  <!-- Bonemould Armor -->
+  <Apparel_BonemouldArmor_Label>bonemould armor</Apparel_BonemouldArmor_Label>
+  <Apparel_BonemouldArmor_Description>Traditional Dunmer armor crafted from the hardened shells and bones of native creatures. This distinctive armor provides excellent protection while maintaining mobility.</Apparel_BonemouldArmor_Description>
   
-  <Apparel_HouseHlaaluRobes_Label>House Hlaalu robes</Apparel_HouseHlaaluRobes_Label>
-  <Apparel_HouseHlaaluRobes_Description>Elegant robes worn by members of House Hlaalu, the merchant-diplomats.</Apparel_HouseHlaaluRobes_Description>
+  <Apparel_BonemouldArmor_GahJulan_Label>bonemould armor (Gah-Julan style)</Apparel_BonemouldArmor_GahJulan_Label>
+  <Apparel_BonemouldArmor_GahJulan_Description>Traditional bonemould armor crafted in the Gah-Julan style favored by House Redoran, featuring enhanced protection and distinctive styling.</Apparel_BonemouldArmor_GahJulan_Description>
+  
+  <Apparel_BonemouldArmor_ArmunanStyle_Label>bonemould armor (Armun-an style)</Apparel_BonemouldArmor_ArmunanStyle_Label>
+  <Apparel_BonemouldArmor_ArmunanStyle_Description>Traditional bonemould armor crafted in the Armun-an style favored by House Hlaalu, combining practical protection with elegant decorative elements.</Apparel_BonemouldArmor_ArmunanStyle_Description>
+
+  <!-- Great House Apparel -->
+  <Apparel_HouseRedoranMasterHelmet_Label>House Redoran Master helmet</Apparel_HouseRedoranMasterHelmet_Label>
+  <Apparel_HouseRedoranMasterHelmet_Description>The unique ceremonial helmet worn by the leader of House Redoran.</Apparel_HouseRedoranMasterHelmet_Description>
   
   <Apparel_HouseTelvanniRobes_Label>House Telvanni robes</Apparel_HouseTelvanniRobes_Label>
   <Apparel_HouseTelvanniRobes_Description>Mystical robes worn by the sorcerers of House Telvanni.</Apparel_HouseTelvanniRobes_Description>
