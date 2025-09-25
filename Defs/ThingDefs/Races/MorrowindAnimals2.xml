@@ -52,6 +52,7 @@
       <baseHealthScale>0.9</baseHealthScale>
       <foodType>CarnivoreAnimal</foodType>
       <leatherDef>Leather_Plain</leatherDef>
+      <meatDef>MeatNixHound</meatDef>
       <wildness>0.75</wildness>
       <manhunterOnTameFailChance>0.1</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.25</manhunterOnDamageChance>
@@ -147,6 +148,9 @@
       <baseHealthScale>0.8</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
       <leatherDef>Leather_Plain</leatherDef>
+      <butcherProducts>
+        <ShalkResin>2</ShalkResin>
+      </butcherProducts>
       <wildness>0.6</wildness>
       <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.15</manhunterOnDamageChance>
@@ -325,6 +329,9 @@
       <baseHealthScale>0.5</baseHealthScale>
       <foodType>CarnivoreAnimalStrict</foodType>
       <leatherDef>Leather_Bird</leatherDef>
+      <butcherProducts>
+        <CliffRacerPlume>3</CliffRacerPlume>
+      </butcherProducts>
       <wildness>0.9</wildness>
       <manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.5</manhunterOnDamageChance>

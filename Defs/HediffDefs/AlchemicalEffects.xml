@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Restore Health Effect -->
+  <HediffDef>
+    <defName>RestoreHealthEffect</defName>
+    <label>restore health</label>
+    <description>The body regenerates health at an accelerated rate due to alchemical enhancement.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 1.0, 0.8)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>-0.25</severityPerDayNotImmune>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <naturalHealingFactor>3.0</naturalHealingFactor>
+        <statOffsets>
+          <InjuryHealingFactor>2.0</InjuryHealingFactor>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- Fortify Strength Effect -->
+  <HediffDef>
+    <defName>FortifyStrengthEffect</defName>
+    <label>fortify strength</label>
+    <description>Alchemical enhancement increases physical strength and carrying capacity.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1.0, 0.8, 0.6)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>-0.20</severityPerDayNotImmune>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <CarryingCapacity>15</CarryingCapacity>
+          <MeleeDamageMultiplier>0.25</MeleeDamageMultiplier>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.10</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- Water Walking Effect -->
+  <HediffDef>
+    <defName>WaterWalkingEffect</defName>
+    <label>water walking</label>
+    <description>Mystical enhancement allows walking on water surfaces as if they were solid ground.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.8, 1.0)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>-0.15</severityPerDayNotImmune>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <MoveSpeed>0.3</MoveSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- Night Eye Effect -->
+  <HediffDef>
+    <defName>NightEyeEffect</defName>
+    <label>night eye</label>
+    <description>Enhanced vision allows perfect sight in darkness and low light conditions.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.9, 0.9, 1.0)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>-0.12</severityPerDayNotImmune>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.15</ShootingAccuracyPawn>
+          <MeleeHitChance>0.15</MeleeHitChance>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.25</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- Fire Resistance Effect -->
+  <HediffDef>
+    <defName>FireResistanceEffect</defName>
+    <label>fire resistance</label>
+    <description>Alchemical protection provides significant resistance to heat and fire damage.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1.0, 0.6, 0.4)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>-0.18</severityPerDayNotImmune>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <ComfyTemperatureMax>20</ComfyTemperatureMax>
+        </statOffsets>
+        <damageFactors>
+          <Flame>0.5</Flame>
+          <Burn>0.5</Burn>
+        </damageFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- Fortify Intelligence Effect -->
+  <HediffDef>
+    <defName>FortifyIntelligenceEffect</defName>
+    <label>fortify intelligence</label>
+    <description>Mental enhancement increases learning speed, research ability, and magical capacity.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.7, 0.6, 1.0)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>-0.16</severityPerDayNotImmune>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <ResearchSpeed>0.30</ResearchSpeed>
+          <GlobalLearningFactor>0.25</GlobalLearningFactor>
+          <PsychicSensitivity>0.20</PsychicSensitivity>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- Levitation Effect -->
+  <HediffDef>
+    <defName>LevitationEffect</defName>
+    <label>levitation</label>
+    <description>Magical levitation allows movement over terrain obstacles and provides enhanced mobility.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1.0, 1.0, 0.8)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>-0.10</severityPerDayNotImmune>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <MoveSpeed>0.8</MoveSpeed>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.30</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- Restore Magicka Effect -->
+  <HediffDef>
+    <defName>RestoreMagickaEffect</defName>
+    <label>restore magicka</label>
+    <description>Mystical energy restoration enhances psychic sensitivity and mental recovery.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.8, 1.0)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>-0.22</severityPerDayNotImmune>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <PsychicSensitivity>0.40</PsychicSensitivity>
+          <MentalBreakThreshold>-0.10</MentalBreakThreshold>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.15</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- Poison Effect -->
+  <HediffDef>
+    <defName>PoisonEffect</defName>
+    <label>poisoned</label>
+    <description>Toxins course through the bloodstream, causing damage over time and weakening the body.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 0.4, 0.8)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>true</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>-0.30</severityPerDayNotImmune>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <MoveSpeed>-0.2</MoveSpeed>
+          <WorkSpeedGlobal>-0.15</WorkSpeedGlobal>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>-0.20</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.15</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- Fortify Speed Effect -->
+  <HediffDef>
+    <defName>FortifySpeedEffect</defName>
+    <label>fortify speed</label>
+    <description>Enhanced reflexes and agility increase movement speed and reaction time.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 1.0, 0.6)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>-0.14</severityPerDayNotImmune>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <MoveSpeed>0.5</MoveSpeed>
+          <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
+          <MeleeHitChance>0.10</MeleeHitChance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>

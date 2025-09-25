@@ -278,4 +278,496 @@
     </comps>
   </ThingDef>
 
+  <!-- Violet Coprinus: Mushroom -->
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantVioletCoprinus</defName>
+    <label>violet coprinus</label>
+    <description>A distinctive purple mushroom that grows in damp areas. The violet coprinus is prized by alchemists for its water-walking properties and is commonly found in the marshlands of Morrowind.</description>
+    <statBases>
+      <MaxHitPoints>40</MaxHitPoints>
+      <Beauty>3</Beauty>
+      <Nutrition>0.02</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/VioletCoprinus</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>8</pathCost>
+    <ingestible />
+    <plant>
+      <fertilityMin>0.4</fertilityMin>
+      <fertilitySensitivity>0.3</fertilitySensitivity>
+      <growDays>5</growDays>
+      <leaflessGraphicPath>Things/Plant/VioletCoprinus_Leafless</leaflessGraphicPath>
+      <harvestWork>80</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestAfterGrowth>0.15</harvestAfterGrowth>
+      <harvestMinGrowth>0.30</harvestMinGrowth>
+      <harvestYield>3</harvestYield>
+      <harvestFailable>false</harvestFailable>
+      <sowMinSkill>2</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <visualSizeRange>0.2~0.5</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+
+  <!-- Violet Coprinus Mushrooms -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>VioletCoprinus</defName>
+    <label>violet coprinus</label>
+    <description>A purple mushroom with magical properties. In Morrowind, these fungi are known for their water-walking effects and are a key ingredient in many levitation and mobility potions.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/VioletCoprinus</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>4.5</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>1.2</Flammability>
+      <DeteriorationRate>8</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <nutrition>0.02</nutrition>
+      <preferability>DesperateOnly</preferability>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+  </ThingDef>
+
+  <!-- Luminous Russula: Glowing mushroom -->
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantLuminousRussula</defName>
+    <label>luminous russula</label>
+    <description>A bioluminescent mushroom that glows with a soft blue light. Found in caves and dark places, luminous russula is valued for its night-eye enhancing properties.</description>
+    <statBases>
+      <MaxHitPoints>35</MaxHitPoints>
+      <Beauty>8</Beauty>
+      <Nutrition>0.01</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/LuminousRussula</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>8</pathCost>
+    <ingestible />
+    <plant>
+      <fertilityMin>0.2</fertilityMin>
+      <fertilitySensitivity>0.2</fertilitySensitivity>
+      <growDays>4</growDays>
+      <leaflessGraphicPath>Things/Plant/LuminousRussula_Leafless</leaflessGraphicPath>
+      <harvestWork>70</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestAfterGrowth>0.10</harvestAfterGrowth>
+      <harvestMinGrowth>0.25</harvestMinGrowth>
+      <harvestYield>2</harvestYield>
+      <harvestFailable>false</harvestFailable>
+      <sowMinSkill>1</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.0</topWindExposure>
+      <visualSizeRange>0.15~0.4</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+    </plant>
+  </ThingDef>
+
+  <!-- Luminous Russula Mushrooms -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>LuminousRussula</defName>
+    <label>luminous russula</label>
+    <description>A glowing blue mushroom that provides light in darkness. These fungi are essential for night-eye potions and are highly valued by cave explorers and nocturnal alchemists.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/LuminousRussula</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>40</MaxHitPoints>
+      <MarketValue>6.0</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>10</DeteriorationRate>
+      <Beauty>2</Beauty>
+    </statBases>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <nutrition>0.01</nutrition>
+      <preferability>DesperateOnly</preferability>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+  </ThingDef>
+
+  <!-- Bungler's Bane: Poisonous mushroom -->
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantBunglersBane</defName>
+    <label>bungler's bane</label>
+    <description>A highly toxic mushroom with distinctive dark caps. Despite its danger, bungler's bane is essential for creating powerful poisons and antidotes. Harvesting requires extreme care.</description>
+    <statBases>
+      <MaxHitPoints>45</MaxHitPoints>
+      <Beauty>-2</Beauty>
+      <Nutrition>0.01</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/BunglersBane</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <ingestible />
+    <plant>
+      <fertilityMin>0.3</fertilityMin>
+      <fertilitySensitivity>0.2</fertilitySensitivity>
+      <growDays>6</growDays>
+      <leaflessGraphicPath>Things/Plant/BunglersBane_Leafless</leaflessGraphicPath>
+      <harvestWork>120</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestAfterGrowth>0.20</harvestAfterGrowth>
+      <harvestMinGrowth>0.40</harvestMinGrowth>
+      <harvestYield>2</harvestYield>
+      <harvestFailable>false</harvestFailable>
+      <sowMinSkill>6</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <visualSizeRange>0.2~0.4</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Health</purpose>
+    </plant>
+  </ThingDef>
+
+  <!-- Bungler's Bane Mushrooms -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>BunglersBane</defName>
+    <label>bungler's bane</label>
+    <description>A highly poisonous mushroom with deadly toxins. Despite its danger, it's an essential ingredient for creating antidotes and powerful poisons. Handle with extreme caution.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/BunglersBane</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>40</MaxHitPoints>
+      <MarketValue>8.0</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>0.8</Flammability>
+      <DeteriorationRate>12</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <nutrition>0.01</nutrition>
+      <preferability>NeverForNutrition</preferability>
+      <foodType>VegetableOrFruit</foodType>
+      <tasteThought>AteAwfulMeal</tasteThought>
+    </ingestible>
+  </ThingDef>
+
+  <!-- Hypha Facia: Fungal network -->
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantHyphaFacia</defName>
+    <label>hypha facia</label>
+    <description>A strange fungal organism that forms interconnected networks beneath the soil. Hypha facia is prized for its telepathic enhancement properties and connection to the natural world.</description>
+    <statBases>
+      <MaxHitPoints>30</MaxHitPoints>
+      <Beauty>5</Beauty>
+      <Nutrition>0.02</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/HyphaFacia</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>6</pathCost>
+    <ingestible />
+    <plant>
+      <fertilityMin>0.6</fertilityMin>
+      <fertilitySensitivity>0.4</fertilitySensitivity>
+      <growDays>8</growDays>
+      <leaflessGraphicPath>Things/Plant/HyphaFacia_Leafless</leaflessGraphicPath>
+      <harvestWork>100</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestAfterGrowth>0.25</harvestAfterGrowth>
+      <harvestMinGrowth>0.50</harvestMinGrowth>
+      <harvestYield>4</harvestYield>
+      <harvestFailable>false</harvestFailable>
+      <sowMinSkill>5</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <topWindExposure>0.0</topWindExposure>
+      <visualSizeRange>0.3~0.6</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Health</purpose>
+    </plant>
+  </ThingDef>
+
+  <!-- Hypha Facia Specimens -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>HyphaFacia</defName>
+    <label>hypha facia</label>
+    <description>Delicate fungal specimens that form part of vast underground networks. These organisms are essential for mental enhancement potions and telepathic abilities.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/HyphaFacia</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>30</MaxHitPoints>
+      <MarketValue>5.5</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>1.4</Flammability>
+      <DeteriorationRate>15</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <nutrition>0.02</nutrition>
+      <preferability>DesperateOnly</preferability>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+  </ThingDef>
+
+  <!-- Corkbulb Root: Tree root -->
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantCorkbulbRoot</defName>
+    <label>corkbulb root</label>
+    <description>The thick, gnarled root of the corkbulb tree. These roots burrow deep into volcanic soil and are highly valued for their flame resistance properties and durability.</description>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Beauty>6</Beauty>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/CorkbulbRoot</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>18</pathCost>
+    <ingestible />
+    <plant>
+      <fertilityMin>0.4</fertilityMin>
+      <fertilitySensitivity>0.3</fertilitySensitivity>
+      <growDays>15</growDays>
+      <leaflessGraphicPath>Things/Plant/CorkbulbRoot_Leafless</leaflessGraphicPath>
+      <harvestWork>200</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestAfterGrowth>0.30</harvestAfterGrowth>
+      <harvestMinGrowth>0.70</harvestMinGrowth>
+      <harvestYield>6</harvestYield>
+      <harvestFailable>false</harvestFailable>
+      <sowMinSkill>7</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <topWindExposure>0.4</topWindExposure>
+      <visualSizeRange>0.6~1.2</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Health</purpose>
+    </plant>
+  </ThingDef>
+
+  <!-- Corkbulb Root Items -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>CorkbulbRoot</defName>
+    <label>corkbulb root</label>
+    <description>Tough, fibrous roots from the hardy corkbulb tree. These roots are essential for fire resistance potions and are prized for their natural flame-retardant properties.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/CorkbulbRoot</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>4.0</MarketValue>
+      <Mass>0.05</Mass>
+      <Flammability>0.3</Flammability>
+      <DeteriorationRate>3</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <nutrition>0.05</nutrition>
+      <preferability>DesperateOnly</preferability>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+  </ThingDef>
+
+  <!-- Trama Root: Giant mushroom root -->
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantTramaRoot</defName>
+    <label>trama root</label>
+    <description>The massive root system of the giant trama mushroom trees. These roots form the foundation of Morrowind's fungal forests and contain powerful restorative compounds.</description>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Beauty>10</Beauty>
+      <Nutrition>0.08</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/TramaRoot</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>25</pathCost>
+    <ingestible />
+    <plant>
+      <fertilityMin>0.5</fertilityMin>
+      <fertilitySensitivity>0.4</fertilitySensitivity>
+      <growDays>20</growDays>
+      <leaflessGraphicPath>Things/Plant/TramaRoot_Leafless</leaflessGraphicPath>
+      <harvestWork>300</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestAfterGrowth>0.35</harvestAfterGrowth>
+      <harvestMinGrowth>0.80</harvestMinGrowth>
+      <harvestYield>8</harvestYield>
+      <harvestFailable>false</harvestFailable>
+      <sowMinSkill>8</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <topWindExposure>0.3</topWindExposure>
+      <visualSizeRange>0.8~1.5</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+
+  <!-- Trama Root Items -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>TramaRoot</defName>
+    <label>trama root</label>
+    <description>Large, nutritious roots from the giant trama mushroom trees. These roots are excellent for healing potions and provide substantial nourishment even when raw.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/TramaRoot</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <MarketValue>3.0</MarketValue>
+      <Mass>0.08</Mass>
+      <Flammability>0.9</Flammability>
+      <DeteriorationRate>4</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <nutrition>0.08</nutrition>
+      <preferability>RawBad</preferability>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+  </ThingDef>
+
+  <!-- Stoneflower: Rare mountain flower -->
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantStoneflower</defName>
+    <label>stoneflower</label>
+    <description>A rare flower that grows only in rocky, mountainous terrain. Stoneflowers are extremely hardy and are prized for their fortifying properties in strength and endurance potions.</description>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Beauty>18</Beauty>
+      <Nutrition>0.01</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Stoneflower</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>16</pathCost>
+    <ingestible />
+    <plant>
+      <fertilityMin>0.2</fertilityMin>
+      <fertilitySensitivity>0.2</fertilitySensitivity>
+      <growDays>12</growDays>
+      <leaflessGraphicPath>Things/Plant/Stoneflower_Leafless</leaflessGraphicPath>
+      <harvestWork>180</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestAfterGrowth>0.25</harvestAfterGrowth>
+      <harvestMinGrowth>0.60</harvestMinGrowth>
+      <harvestYield>3</harvestYield>
+      <harvestFailable>false</harvestFailable>
+      <sowMinSkill>8</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <topWindExposure>0.6</topWindExposure>
+      <visualSizeRange>0.3~0.7</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+      <humanDamageMultiplier>2</humanDamageMultiplier>
+    </plant>
+  </ThingDef>
+
+  <!-- Stoneflower Petals -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>StoneflowerPetals</defName>
+    <label>stoneflower petals</label>
+    <description>Rare stone-grey petals from the hardy stoneflower. These petals are essential for strength and endurance enhancement potions, and are highly valued by warriors and laborers.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/StoneflowerPetals</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <MarketValue>12.0</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>0.6</Flammability>
+      <DeteriorationRate>4</DeteriorationRate>
+      <Beauty>2</Beauty>
+    </statBases>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <nutrition>0.01</nutrition>
+      <preferability>DesperateOnly</preferability>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+  </ThingDef>
+
+  <!-- White Pharaoh Moth Wing: Insect ingredient -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>WhitePharaohMothWing</defName>
+    <label>white pharaoh moth wing</label>
+    <description>The delicate wing of a rare white pharaoh moth. These ethereal wings are essential for levitation and feather-fall potions, allowing the creation of magical effects that defy gravity.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/WhitePharaohMothWing</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <MarketValue>15.0</MarketValue>
+      <Mass>0.001</Mass>
+      <Flammability>2.0</Flammability>
+      <DeteriorationRate>20</DeteriorationRate>
+      <Beauty>3</Beauty>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <ingestible>
+      <nutrition>0.001</nutrition>
+      <preferability>NeverForNutrition</preferability>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+  </ThingDef>
+
 </Defs>
