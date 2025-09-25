@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Moon Worship Precepts -->
+  <PreceptDef>
+    <defName>KhajiitMoonReverence</defName>
+    <label>moon reverence</label>
+    <description>The sacred moons Jone and Jode must be honored and their cycles respected.</description>
+    <issue>KhajiitMoonReverence</issue>
+    <impact>Low</impact>
+    <displayOrderInIssue>0</displayOrderInIssue>
+    <associatedMemes>
+      <li>KhajiitMoonWorship</li>
+    </associatedMemes>
+    <comps>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <thought>KhajiitHonoredMoons</thought>
+        <description>honored the sacred moons</description>
+      </li>
+    </comps>
+  </PreceptDef>
+
+  <PreceptDef>
+    <defName>KhajiitMoonSugarSacred</defName>
+    <label>moon-sugar sanctity</label>
+    <description>Moon-sugar is sacred and must be treated with proper reverence, not abused or wasted.</description>
+    <issue>KhajiitMoonSugar</issue>
+    <impact>Medium</impact>
+    <displayOrderInIssue>0</displayOrderInIssue>
+    <associatedMemes>
+      <li>KhajiitMoonWorship</li>
+      <li>RiddleTharEpiphany</li>
+    </associatedMemes>
+    <comps>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <thought>KhajiitRespectedMoonSugar</thought>
+        <description>properly honored moon-sugar</description>
+      </li>
+    </comps>
+  </PreceptDef>
+
+  <PreceptDef>
+    <defName>KhajiitBreedAcceptance</defName>
+    <label>breed acceptance</label>
+    <description>All Khajiit breeds are blessed by the moons and must be accepted as equals regardless of their form.</description>
+    <issue>KhajiitBreedEquality</issue>
+    <impact>Medium</impact>
+    <displayOrderInIssue>0</displayOrderInIssue>
+    <associatedMemes>
+      <li>KhajiitMoonWorship</li>
+      <li>RiddleTharEpiphany</li>
+      <li>AzurahsChildren</li>
+    </associatedMemes>
+    <comps>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <thought>KhajiitAcceptedBreeds</thought>
+        <description>showed respect for all Khajiit breeds</description>
+      </li>
+    </comps>
+  </PreceptDef>
+
+  <!-- Riddle'Thar Epiphany Precepts -->
+  <PreceptDef>
+    <defName>RiddleTharHonestTrade</defName>
+    <label>honest trade</label>
+    <description>All trade must be conducted with honesty and fairness, as taught by Riddle'Thar.</description>
+    <issue>RiddleTharTrade</issue>
+    <impact>Medium</impact>
+    <displayOrderInIssue>0</displayOrderInIssue>
+    <associatedMemes>
+      <li>RiddleTharEpiphany</li>
+    </associatedMemes>
+    <comps>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <thought>RiddleTharHonestTrader</thought>
+        <description>conducted honest trade</description>
+      </li>
+    </comps>
+  </PreceptDef>
+
+  <PreceptDef>
+    <defName>RiddleTharFamilyLoyalty</defName>
+    <label>family loyalty</label>
+    <description>Loyalty to family and clan must be maintained above all other considerations.</description>
+    <issue>RiddleTharFamily</issue>
+    <impact>High</impact>
+    <displayOrderInIssue>0</displayOrderInIssue>
+    <associatedMemes>
+      <li>RiddleTharEpiphany</li>
+    </associatedMemes>
+    <comps>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <thought>RiddleTharFamilyLoyal</thought>
+        <description>showed loyalty to family</description>
+      </li>
+    </comps>
+  </PreceptDef>
+
+  <PreceptDef>
+    <defName>RiddleTharElderWisdom</defName>
+    <label>elder wisdom</label>
+    <description>The wisdom of elders must be respected and their guidance sought in important matters.</description>
+    <issue>RiddleTharWisdom</issue>
+    <impact>Low</impact>
+    <displayOrderInIssue>0</displayOrderInIssue>
+    <associatedMemes>
+      <li>RiddleTharEpiphany</li>
+    </associatedMemes>
+    <comps>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <thought>RiddleTharRespectedElders</thought>
+        <description>respected elder wisdom</description>
+      </li>
+    </comps>
+  </PreceptDef>
+
+  <!-- Azurah's Children Precepts -->
+  <PreceptDef>
+    <defName>AzurahFelineRespect</defName>
+    <label>feline reverence</label>
+    <description>All feline forms are sacred manifestations of Azurah's divine will and must be protected.</description>
+    <issue>AzurahFelines</issue>
+    <impact>Medium</impact>
+    <displayOrderInIssue>0</displayOrderInIssue>
+    <associatedMemes>
+      <li>AzurahsChildren</li>
+    </associatedMemes>
+    <comps>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <thought>AzurahProtectedFelines</thought>
+        <description>protected sacred feline forms</description>
+      </li>
+    </comps>
+  </PreceptDef>
+
+  <PreceptDef>
+    <defName>AzurahAncientWays</defName>
+    <label>ancient ways preservation</label>
+    <description>The ancient ways and primal traditions must be preserved and passed to future generations.</description>
+    <issue>AzurahTradition</issue>
+    <impact>Low</impact>
+    <displayOrderInIssue>0</displayOrderInIssue>
+    <associatedMemes>
+      <li>AzurahsChildren</li>
+    </associatedMemes>
+    <comps>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <thought>AzurahPreservedTradition</thought>
+        <description>preserved ancient traditions</description>
+      </li>
+    </comps>
+  </PreceptDef>
+
+  <PreceptDef>
+    <defName>AzurahShapeAcceptance</defName>
+    <label>shape acceptance</label>
+    <description>All forms and shapes given by Azurah are blessed, and transformation is a sacred gift.</description>
+    <issue>AzurahTransformation</issue>
+    <impact>Low</impact>
+    <displayOrderInIssue>0</displayOrderInIssue>
+    <associatedMemes>
+      <li>AzurahsChildren</li>
+    </associatedMemes>
+    <comps>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <thought>AzurahAcceptedTransformation</thought>
+        <description>accepted sacred transformation</description>
+      </li>
+    </comps>
+  </PreceptDef>
+
+</Defs>

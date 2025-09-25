@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Ohmes Traits -->
+  <TraitDef>
+    <defName>OhmesIntelligence</defName>
+    <label>Ohmes Intelligence</label>
+    <description>This Ohmes possesses the keen intellect and analytical mind characteristic of their breed, making them excellent scholars and negotiators.</description>
+    <degreeDatas>
+      <li>
+        <label>Scholarly Mind</label>
+        <description>Born with the intellectual gifts of the Ohmes, this pawn excels in research and learning.</description>
+        <skillGains>
+          <Intellectual>4</Intellectual>
+          <Social>3</Social>
+          <Medicine>2</Medicine>
+        </skillGains>
+        <statOffsets>
+          <ResearchSpeed>0.15</ResearchSpeed>
+          <GlobalLearningFactor>0.1</GlobalLearningFactor>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>OhmesDiplomacy</defName>
+    <label>Ohmes Diplomatic Nature</label>
+    <description>This Ohmes has the natural diplomatic abilities and social grace that make their breed excellent spies and negotiators.</description>
+    <degreeDatas>
+      <li>
+        <label>Natural Diplomat</label>
+        <description>Born with the diplomatic gifts of the Ohmes, this pawn excels in social situations and negotiations.</description>
+        <skillGains>
+          <Social>4</Social>
+          <Intellectual>2</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <NegotiationAbility>0.2</NegotiationAbility>
+          <SocialImpact>0.15</SocialImpact>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Ohmes-raht Traits -->
+  <TraitDef>
+    <defName>OhmesRahtMerchant</defName>
+    <label>Ohmes-raht Merchant Instinct</label>
+    <description>This Ohmes-raht possesses the natural mercantile instincts and trade knowledge of their breed.</description>
+    <degreeDatas>
+      <li>
+        <label>Natural Trader</label>
+        <description>Born with the merchant instincts of the Ohmes-raht, this pawn excels in trade and commerce.</description>
+        <skillGains>
+          <Social>3</Social>
+          <Intellectual>2</Intellectual>
+          <Crafting>2</Crafting>
+        </skillGains>
+        <statOffsets>
+          <TradePriceImprovement>0.1</TradePriceImprovement>
+          <SocialImpact>0.1</SocialImpact>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>OhmesRahtCrafting</defName>
+    <label>Ohmes-raht Craftsmanship</label>
+    <description>This Ohmes-raht has the skilled craftsmanship and attention to detail characteristic of their breed.</description>
+    <degreeDatas>
+      <li>
+        <label>Skilled Artisan</label>
+        <description>Born with the crafting skills of the Ohmes-raht, this pawn creates superior quality goods.</description>
+        <skillGains>
+          <Crafting>4</Crafting>
+          <Artistic>3</Artistic>
+          <Construction>2</Construction>
+        </skillGains>
+        <statOffsets>
+          <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+          <GeneralLaborSpeed>0.05</GeneralLaborSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Suthay Traits -->
+  <TraitDef>
+    <defName>SuthayAgility</defName>
+    <label>Suthay Natural Agility</label>
+    <description>This Suthay possesses the remarkable agility and dexterity that makes their breed excellent acrobats and nimble fighters.</description>
+    <degreeDatas>
+      <li>
+        <label>Feline Grace</label>
+        <description>Born with the natural agility of the Suthay, this pawn moves with exceptional grace and speed.</description>
+        <skillGains>
+          <Melee>3</Melee>
+          <Shooting>2</Shooting>
+          <Animals>2</Animals>
+        </skillGains>
+        <statOffsets>
+          <MoveSpeed>0.4</MoveSpeed>
+          <MeleeHitChance>0.05</MeleeHitChance>
+          <MeleeDodgeChance>0.1</MeleeDodgeChance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>SuthayDexterity</defName>
+    <label>Suthay Manual Dexterity</label>
+    <description>This Suthay has the exceptional manual dexterity and fine motor control characteristic of their breed.</description>
+    <degreeDatas>
+      <li>
+        <label>Nimble Fingers</label>
+        <description>Born with the dexterity of the Suthay, this pawn excels at precise manual tasks.</description>
+        <skillGains>
+          <Crafting>3</Crafting>
+          <Medicine>3</Medicine>
+          <Artistic>2</Artistic>
+        </skillGains>
+        <statOffsets>
+          <WorkSpeedGlobal>0.08</WorkSpeedGlobal>
+          <SurgerySuccessChanceFactor>0.1</SurgerySuccessChanceFactor>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Suthay-raht Traits -->
+  <TraitDef>
+    <defName>SuthayRahtWarrior</defName>
+    <label>Suthay-raht Warrior Spirit</label>
+    <description>This Suthay-raht possesses the natural warrior instincts and combat prowess of their breed.</description>
+    <degreeDatas>
+      <li>
+        <label>Born Fighter</label>
+        <description>Born with the warrior spirit of the Suthay-raht, this pawn excels in combat situations.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Shooting>3</Shooting>
+          <Construction>1</Construction>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.08</MeleeHitChance>
+          <ShootingAccuracy>0.05</ShootingAccuracy>
+          <MeleeDamageFactor>0.1</MeleeDamageFactor>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>SuthayRahtHunter</defName>
+    <label>Suthay-raht Hunter Instincts</label>
+    <description>This Suthay-raht has the keen hunting instincts and tracking abilities of their breed.</description>
+    <degreeDatas>
+      <li>
+        <label>Master Hunter</label>
+        <description>Born with the hunting instincts of the Suthay-raht, this pawn excels at tracking and survival.</description>
+        <skillGains>
+          <Animals>4</Animals>
+          <Shooting>3</Shooting>
+          <Plants>2</Plants>
+        </skillGains>
+        <statOffsets>
+          <HuntingStealth>0.2</HuntingStealth>
+          <TameAnimalChance>0.1</TameAnimalChance>
+          <PlantHarvestYield>0.05</PlantHarvestYield>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Alfiq Traits -->
+  <TraitDef>
+    <defName>AlfiqMagic</defName>
+    <label>Alfiq Magical Prowess</label>
+    <description>This Alfiq possesses the extraordinary magical abilities that make their breed feared spellcasters despite their small size.</description>
+    <degreeDatas>
+      <li>
+        <label>Arcane Mastery</label>
+        <description>Born with the magical gifts of the Alfiq, this pawn wields powerful spells despite their tiny form.</description>
+        <skillGains>
+          <Intellectual>5</Intellectual>
+          <Medicine>3</Medicine>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.3</PsychicSensitivity>
+          <ResearchSpeed>0.2</ResearchSpeed>
+          <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>AlfiqIntelligence</defName>
+    <label>Alfiq Feline Wisdom</label>
+    <description>This Alfiq has the deep intelligence and wisdom that belies their cat-like appearance.</description>
+    <degreeDatas>
+      <li>
+        <label>Hidden Wisdom</label>
+        <description>Born with the intelligence of the Alfiq, this pawn possesses wisdom beyond their apparent form.</description>
+        <skillGains>
+          <Intellectual>4</Intellectual>
+          <Social>2</Social>
+          <Medicine>2</Medicine>
+        </skillGains>
+        <statOffsets>
+          <GlobalLearningFactor>0.15</GlobalLearningFactor>
+          <ResearchSpeed>0.1</ResearchSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Alfiq-raht Traits -->
+  <TraitDef>
+    <defName>AlfiqRahtMagic</defName>
+    <label>Alfiq-raht Mystical Power</label>
+    <description>This Alfiq-raht possesses powerful magical abilities and serves as a mystical advisor despite their quadrupedal form.</description>
+    <degreeDatas>
+      <li>
+        <label>Mystical Advisor</label>
+        <description>Born with the magical prowess of the Alfiq-raht, this pawn channels powerful mystical forces.</description>
+        <skillGains>
+          <Intellectual>4</Intellectual>
+          <Social>3</Social>
+          <Medicine>3</Medicine>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.25</PsychicSensitivity>
+          <SocialImpact>0.1</SocialImpact>
+          <ResearchSpeed>0.15</ResearchSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>AlfiqRahtMystery</defName>
+    <label>Alfiq-raht Mysterious Nature</label>
+    <description>This Alfiq-raht possesses the mysterious and enigmatic nature characteristic of their rare breed.</description>
+    <degreeDatas>
+      <li>
+        <label>Enigmatic Presence</label>
+        <description>Born with the mysterious nature of the Alfiq-raht, this pawn's true capabilities remain hidden.</description>
+        <skillGains>
+          <Intellectual>3</Intellectual>
+          <Social>2</Social>
+          <Animals>2</Animals>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.15</SocialImpact>
+          <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Dagi Traits -->
+  <TraitDef>
+    <defName>DagiClimbing</defName>
+    <label>Dagi Arboreal Mastery</label>
+    <description>This Dagi possesses the exceptional climbing abilities and tree-dwelling instincts of their breed.</description>
+    <degreeDatas>
+      <li>
+        <label>Tree Walker</label>
+        <description>Born with the arboreal mastery of the Dagi, this pawn moves through trees with unmatched grace.</description>
+        <skillGains>
+          <Animals>3</Animals>
+          <Plants>3</Plants>
+          <Construction>2</Construction>
+        </skillGains>
+        <statOffsets>
+          <MoveSpeed>0.5</MoveSpeed>
+          <PlantHarvestYield>0.1</PlantHarvestYield>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>DagiScouting</defName>
+    <label>Dagi Natural Scout</label>
+    <description>This Dagi has the keen senses and scouting abilities that make their breed excellent lookouts and scouts.</description>
+    <degreeDatas>
+      <li>
+        <label>Alert Scout</label>
+        <description>Born with the scouting instincts of the Dagi, this pawn serves as an excellent lookout.</description>
+        <skillGains>
+          <Shooting>3</Shooting>
+          <Animals>2</Animals>
+          <Intellectual>2</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <ShootingAccuracy>0.08</ShootingAccuracy>
+          <HuntingStealth>0.15</HuntingStealth>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Dagi-raht Traits -->
+  <TraitDef>
+    <defName>DagiRahtStealth</defName>
+    <label>Dagi-raht Forest Stealth</label>
+    <description>This Dagi-raht possesses the exceptional stealth capabilities that make their breed master forest hunters.</description>
+    <degreeDatas>
+      <li>
+        <label>Forest Shadow</label>
+        <description>Born with the stealth mastery of the Dagi-raht, this pawn moves unseen through forests.</description>
+        <skillGains>
+          <Shooting>3</Shooting>
+          <Melee>3</Melee>
+          <Animals>2</Animals>
+        </skillGains>
+        <statOffsets>
+          <HuntingStealth>0.25</HuntingStealth>
+          <MeleeDodgeChance>0.08</MeleeDodgeChance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>DagiRahtHunting</defName>
+    <label>Dagi-raht Predator Instincts</label>
+    <description>This Dagi-raht has the natural predator instincts and hunting prowess of their forest-dwelling breed.</description>
+    <degreeDatas>
+      <li>
+        <label>Forest Predator</label>
+        <description>Born with the predator instincts of the Dagi-raht, this pawn excels at hunting in forests.</description>
+        <skillGains>
+          <Animals>4</Animals>
+          <Melee>3</Melee>
+          <Shooting>2</Shooting>
+        </skillGains>
+        <statOffsets>
+          <TameAnimalChance>0.15</TameAnimalChance>
+          <MeleeDamageFactor>0.08</MeleeDamageFactor>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Cathay Traits -->
+  <TraitDef>
+    <defName>CathayStrength</defName>
+    <label>Cathay Physical Prowess</label>
+    <description>This Cathay possesses the natural strength and physical capabilities that make their breed excellent warriors and laborers.</description>
+    <degreeDatas>
+      <li>
+        <label>Balanced Warrior</label>
+        <description>Born with the physical prowess of the Cathay, this pawn combines strength with intelligence.</description>
+        <skillGains>
+          <Melee>3</Melee>
+          <Construction>3</Construction>
+          <Mining>2</Mining>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageFactor>0.1</MeleeDamageFactor>
+          <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+          <CarryingCapacity>15</CarryingCapacity>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>CathayBalance</defName>
+    <label>Cathay Balanced Nature</label>
+    <description>This Cathay has the balanced combination of intelligence and physical capability that defines their breed.</description>
+    <degreeDatas>
+      <li>
+        <label>Natural Balance</label>
+        <description>Born with the balanced nature of the Cathay, this pawn excels in multiple areas.</description>
+        <skillGains>
+          <Intellectual>2</Intellectual>
+          <Social>2</Social>
+          <Melee>2</Melee>
+          <Crafting>2</Crafting>
+        </skillGains>
+        <statOffsets>
+          <GlobalLearningFactor>0.05</GlobalLearningFactor>
+          <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Cathay-raht Traits -->
+  <TraitDef>
+    <defName>CathayRahtPower</defName>
+    <label>Cathay-raht Immense Strength</label>
+    <description>This Cathay-raht possesses the immense physical power that makes their breed formidable fighters and capable of tremendous labor.</description>
+    <degreeDatas>
+      <li>
+        <label>Powerhouse</label>
+        <description>Born with the immense strength of the Cathay-raht, this pawn can accomplish tremendous physical feats.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Construction>4</Construction>
+          <Mining>3</Mining>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageFactor>0.15</MeleeDamageFactor>
+          <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+          <CarryingCapacity>35</CarryingCapacity>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>CathayRahtEndurance</defName>
+    <label>Cathay-raht Physical Endurance</label>
+    <description>This Cathay-raht has the incredible physical endurance and stamina characteristic of their large, powerful breed.</description>
+    <degreeDatas>
+      <li>
+        <label>Tireless Worker</label>
+        <description>Born with the endurance of the Cathay-raht, this pawn can work tirelessly for extended periods.</description>
+        <skillGains>
+          <Construction>3</Construction>
+          <Mining>3</Mining>
+          <Plants>2</Plants>
+        </skillGains>
+        <statOffsets>
+          <RestFallRateFactor>0.8</RestFallRateFactor>
+          <WorkSpeedGlobal>0.08</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Giant Breed Traits -->
+  <TraitDef>
+    <defName>SencheWisdom</defName>
+    <label>Senche Ancient Wisdom</label>
+    <description>This Senche possesses the ancient wisdom and intelligence that comes with their great size and longevity.</description>
+    <degreeDatas>
+      <li>
+        <label>Ancient Wisdom</label>
+        <description>Born with the wisdom of the Senche, this pawn carries the knowledge of ages.</description>
+        <skillGains>
+          <Intellectual>4</Intellectual>
+          <Social>3</Social>
+          <Medicine>3</Medicine>
+        </skillGains>
+        <statOffsets>
+          <GlobalLearningFactor>0.1</GlobalLearningFactor>
+          <SocialImpact>0.15</SocialImpact>
+          <MentalBreakThreshold>-0.08</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>SencheLoyalty</defName>
+    <label>Senche Unwavering Loyalty</label>
+    <description>This Senche possesses the unwavering loyalty and protective instincts that make their breed trusted companions and mounts.</description>
+    <degreeDatas>
+      <li>
+        <label>Loyal Guardian</label>
+        <description>Born with the loyalty of the Senche, this pawn will defend their companions to the end.</description>
+        <skillGains>
+          <Melee>3</Melee>
+          <Social>2</Social>
+          <Animals>2</Animals>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageFactor>0.12</MeleeDamageFactor>
+          <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+          <SocialImpact>0.1</SocialImpact>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>PahmarStrength</defName>
+    <label>Pahmar Primal Strength</label>
+    <description>This Pahmar possesses the raw, primal strength that makes their breed excellent beasts of burden despite their inability to speak.</description>
+    <degreeDatas>
+      <li>
+        <label>Primal Power</label>
+        <description>Born with the primal strength of the Pahmar, this pawn embodies raw physical might.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Construction>3</Construction>
+          <Mining>4</Mining>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageFactor>0.18</MeleeDamageFactor>
+          <WorkSpeedGlobal>0.12</WorkSpeedGlobal>
+          <CarryingCapacity>50</CarryingCapacity>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>PahmarInstinct</defName>
+    <label>Pahmar Feral Instincts</label>
+    <description>This Pahmar retains the feral instincts and intuitive understanding that compensate for their inability to speak.</description>
+    <degreeDatas>
+      <li>
+        <label>Feral Insight</label>
+        <description>Born with the instincts of the Pahmar, this pawn understands the world through senses beyond words.</description>
+        <skillGains>
+          <Animals>5</Animals>
+          <Plants>3</Plants>
+          <Melee>2</Melee>
+        </skillGains>
+        <statOffsets>
+          <TameAnimalChance>0.2</TameAnimalChance>
+          <HuntingStealth>0.15</HuntingStealth>
+          <PsychicSensitivity>0.1</PsychicSensitivity>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Mane Traits -->
+  <TraitDef>
+    <defName>ManeSpiritualLeader</defName>
+    <label>Mane Spiritual Authority</label>
+    <description>This Mane possesses the spiritual authority and divine blessing that makes them the natural leader of all Khajiit peoples.</description>
+    <degreeDatas>
+      <li>
+        <label>Divine Authority</label>
+        <description>Born under the rarest lunar alignment, this pawn carries the divine mandate to lead all Khajiit.</description>
+        <skillGains>
+          <Social>5</Social>
+          <Intellectual>4</Intellectual>
+          <Medicine>3</Medicine>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.3</SocialImpact>
+          <NegotiationAbility>0.25</NegotiationAbility>
+          <PsychicSensitivity>0.2</PsychicSensitivity>
+          <MentalBreakThreshold>-0.15</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>ManeDivineBlessing</defName>
+    <label>Mane Divine Blessing</label>
+    <description>This Mane carries the divine blessing of the moons themselves, granting them supernatural abilities and insight.</description>
+    <degreeDatas>
+      <li>
+        <label>Moon-Blessed</label>
+        <description>Blessed by the rare eclipse alignment, this pawn possesses abilities beyond normal Khajiit.</description>
+        <skillGains>
+          <Intellectual>3</Intellectual>
+          <Social>3</Social>
+          <Medicine>3</Medicine>
+          <Animals>2</Animals>
+        </skillGains>
+        <statOffsets>
+          <GlobalLearningFactor>0.15</GlobalLearningFactor>
+          <ResearchSpeed>0.1</ResearchSpeed>
+          <ImmunityGainSpeed>0.1</ImmunityGainSpeed>
+          <PsychicSensitivity>0.15</PsychicSensitivity>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+</Defs>

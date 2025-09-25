@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Traditional Khajiit Moon Worship -->
+  <MemeDef>
+    <defName>KhajiitMoonWorship</defName>
+    <label>khajiit moon worship</label>
+    <description>Ancient worship of Jone (Masser) and Jode (Secunda), the sacred moons that determine the forms of the Khajiit. This traditional faith teaches that the moons are divine beings whose dance across the sky shapes the destiny of all cat-folk. Moon-sugar is considered sacred, and the lunar cycles guide all important decisions.</description>
+    <iconPath>UI/Memes/KhajiitMoonWorship</iconPath>
+    <impact>2</impact>
+    <category>Deity</category>
+    <exclusionTags>
+      <li>Deity</li>
+    </exclusionTags>
+    <generalRules>
+      <rulesStrings>
+        <li>rule->honor the sacred moons Jone and Jode</li>
+        <li>rule->follow the lunar cycles in all endeavors</li>
+        <li>rule->respect the moon-sugar as sacred gift</li>
+        <li>rule->protect the caravan routes</li>
+        <li>rule->welcome all breeds as moon-blessed</li>
+      </rulesStrings>
+    </generalRules>
+    <worshipRoomLabel>moon shrine</worshipRoomLabel>
+    <symbolPacks>
+      <li>
+        <ideoName>Moon Dancers</ideoName>
+        <theme>KhajiitMoon</theme>
+        <adjective>moon-blessed</adjective>
+        <member>moon dancer</member>
+        <deity>Jone and Jode</deity>
+        <deityPlural>Sacred Moons</deityPlural>
+        <place>moon shrine</place>
+      </li>
+    </symbolPacks>
+    <ritualPatterns>
+      <li>
+        <keyword>moon</keyword>
+        <duties>
+          <li>Moon priest</li>
+          <li>Lunar guide</li>
+          <li>Sugar keeper</li>
+        </duties>
+      </li>
+    </ritualPatterns>
+    <deityCountRange>2~4</deityCountRange>
+    <deityNameMaker>KhajiitMoonDeityNames</deityNameMaker>
+    <allowSymbolsFromDeity>true</allowSymbolsFromDeity>
+    <fixedDeityNameTypes>
+      <li>Jone</li>
+      <li>Jode</li>
+    </fixedDeityNameTypes>
+  </MemeDef>
+
+  <!-- Riddle'Thar Epiphany - Reformed Khajiit Religion -->
+  <MemeDef>
+    <defName>RiddleTharEpiphany</defName>
+    <label>riddle'thar epiphany</label>
+    <description>The reformed religion of the Khajiit based on the teachings of Riddle'Thar, who sought to unify the various tribes and clans under a common moral framework. This faith emphasizes the 16 commandments for proper living, honor in trade, respect for family bonds, and the balance between moon-worship and practical ethics.</description>
+    <iconPath>UI/Memes/RiddleTharEpiphany</iconPath>
+    <impact>2</impact>
+    <category>Deity</category>
+    <exclusionTags>
+      <li>Deity</li>
+    </exclusionTags>
+    <generalRules>
+      <rulesStrings>
+        <li>rule->follow the 16 commandments of proper living</li>
+        <li>rule->honor family bonds and clan loyalty</li>
+        <li>rule->conduct trade with honesty and fairness</li>
+        <li>rule->respect the wisdom of elders</li>
+        <li>rule->protect the weak and innocent</li>
+        <li>rule->maintain the ancient customs</li>
+      </rulesStrings>
+    </generalRules>
+    <worshipRoomLabel>temple of riddles</worshipRoomLabel>
+    <symbolPacks>
+      <li>
+        <ideoName>Riddle'Thar Faithful</ideoName>
+        <theme>RiddleThar</theme>
+        <adjective>enlightened</adjective>
+        <member>riddle-keeper</member>
+        <deity>Riddle'Thar</deity>
+        <deityPlural>Sacred Teachers</deityPlural>
+        <place>temple of riddles</place>
+      </li>
+    </symbolPacks>
+    <ritualPatterns>
+      <li>
+        <keyword>riddle</keyword>
+        <duties>
+          <li>Riddle-keeper</li>
+          <li>Moral guide</li>
+          <li>Family elder</li>
+        </duties>
+      </li>
+    </ritualPatterns>
+    <deityCountRange>3~6</deityCountRange>
+    <deityNameMaker>RiddleTharDeityNames</deityNameMaker>
+    <allowSymbolsFromDeity>true</allowSymbolsFromDeity>
+    <fixedDeityNameTypes>
+      <li>RiddleThar</li>
+      <li>AzurahMother</li>
+    </fixedDeityNameTypes>
+  </MemeDef>
+
+  <!-- Azurah's Children - Primordial Khajiit Faith -->
+  <MemeDef>
+    <defName>AzurahsChildren</defName>
+    <label>azurah's children</label>
+    <description>The most ancient faith of the Khajiit, recognizing Azurah as the divine mother who shaped the first cats into the many forms of Khajiit. This primal religion teaches that all cat-folk are blessed children of Azurah, transformed by her divine will to walk many paths. The faith emphasizes the mystical connection between all feline forms.</description>
+    <iconPath>UI/Memes/AzurahsChildren</iconPath>
+    <impact>1</impact>
+    <category>Deity</category>
+    <exclusionTags>
+      <li>Deity</li>
+    </exclusionTags>
+    <generalRules>
+      <rulesStrings>
+        <li>rule->honor Azurah as the divine mother</li>
+        <li>rule->respect all feline forms as sacred</li>
+        <li>rule->preserve the ancient ways</li>
+        <li>rule->protect the lunar sanctuaries</li>
+        <li>rule->guide the lost back to the path</li>
+      </rulesStrings>
+    </generalRules>
+    <worshipRoomLabel>azurah's shrine</worshipRoomLabel>
+    <symbolPacks>
+      <li>
+        <ideoName>Azurah's Children</ideoName>
+        <theme>AzurahCats</theme>
+        <adjective>feline-blessed</adjective>
+        <member>azurah's child</member>
+        <deity>Azurah</deity>
+        <deityPlural>Feline Spirits</deityPlural>
+        <place>sacred grove</place>
+      </li>
+    </symbolPacks>
+    <ritualPatterns>
+      <li>
+        <keyword>feline</keyword>
+        <duties>
+          <li>Cat-mother</li>
+          <li>Spirit guide</li>
+          <li>Path-walker</li>
+        </duties>
+      </li>
+    </ritualPatterns>
+    <deityCountRange>2~5</deityCountRange>
+    <deityNameMaker>AzurahDeityNames</deityNameMaker>
+    <allowSymbolsFromDeity>true</allowSymbolsFromDeity>
+    <fixedDeityNameTypes>
+      <li>Azurah</li>
+      <li>FirstCat</li>
+    </fixedDeityNameTypes>
+  </MemeDef>
+
+</Defs>

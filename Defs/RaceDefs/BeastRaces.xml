@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ThingDefs>
+  <!-- Traditional Khajiit - General breed for backward compatibility -->
   <ThingDef ParentName="BeastRaceBase">
     <defName>Khajiit</defName>
-    <label>khajiit</label>
-    <description>The cat-people of Elsweyr are known for their natural agility, stealth, and keen night vision. They make excellent thieves, merchants, and scouts with their nimble fingers and quick reflexes.</description>
+    <label>khajiit (mixed breed)</label>
+    <description>A Khajiit of mixed or unknown breed lineage. The cat-people of Elsweyr are known for their natural agility, stealth, and keen night vision. This individual possesses the general traits common to all Khajiit, but lacks the specialized abilities of the distinct breeds.</description>
     <race>
       <!-- Khajiit have fur-like coloring -->
       <colorGenerator Class="ColorGenerator_Options">
@@ -29,7 +30,7 @@
       <baseBodySize>0.95</baseBodySize>
       <forcedTraits>
         <li>KhajiitNaturalAgility</li>
-        <li>IllusionMastery</li>
+        <li>KhajiitLunarAwareness</li>
       </forcedTraits>
     </race>
     <statBases>
