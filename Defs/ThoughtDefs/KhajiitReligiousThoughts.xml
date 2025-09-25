@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Moon Worship Thoughts -->
+  <ThoughtDef>
+    <defName>KhajiitHonoredMoons</defName>
+    <durationDays>4</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>honored the sacred moons</label>
+        <description>I properly honored Jone and Jode in their eternal dance. The moons smile upon me.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>KhajiitRespectedMoonSugar</defName>
+    <durationDays>3</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>respected moon-sugar</label>
+        <description>I treated the sacred moon-sugar with proper reverence, as the moons intended.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>KhajiitAcceptedBreeds</defName>
+    <durationDays>5</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>accepted all breeds</label>
+        <description>I showed proper respect for all children of the moons, regardless of their blessed form.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>KhajiitDisrespectedMoons</defName>
+    <durationDays>8</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>disrespected the moons</label>
+        <description>I failed to honor Jone and Jode properly. Their displeasure weighs heavily upon me.</description>
+        <baseMoodEffect>-12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>KhajiitWastedMoonSugar</defName>
+    <durationDays>6</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>wasted sacred moon-sugar</label>
+        <description>I allowed sacred moon-sugar to be wasted or abused. This is a grave offense to the moons.</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Riddle'Thar Epiphany Thoughts -->
+  <ThoughtDef>
+    <defName>RiddleTharHonestTrader</defName>
+    <durationDays>4</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>conducted honest trade</label>
+        <description>I followed Riddle'Thar's teachings and conducted business with honesty and fairness.</description>
+        <baseMoodEffect>7</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>RiddleTharFamilyLoyal</defName>
+    <durationDays>5</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>showed family loyalty</label>
+        <description>I upheld my loyalty to family and clan, as Riddle'Thar commanded.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>RiddleTharRespectedElders</defName>
+    <durationDays>3</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>respected elder wisdom</label>
+        <description>I sought and respected the wisdom of my elders, following the ancient ways.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>RiddleTharDishonestTrade</defName>
+    <durationDays>7</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>conducted dishonest trade</label>
+        <description>I betrayed the teachings of Riddle'Thar by engaging in dishonest commerce. My shame burns deep.</description>
+        <baseMoodEffect>-14</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>RiddleTharBetrayedFamily</defName>
+    <durationDays>10</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>betrayed family loyalty</label>
+        <description>I failed in my loyalty to family and clan. This betrayal of Riddle'Thar's highest teaching torments me.</description>
+        <baseMoodEffect>-18</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Azurah's Children Thoughts -->
+  <ThoughtDef>
+    <defName>AzurahProtectedFelines</defName>
+    <durationDays>4</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>protected sacred felines</label>
+        <description>I protected the sacred feline forms blessed by Azurah. Her approval warms my spirit.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>AzurahPreservedTradition</defName>
+    <durationDays>5</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>preserved ancient traditions</label>
+        <description>I helped preserve the ancient ways of our people, keeping Azurah's gifts alive.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>AzurahAcceptedTransformation</defName>
+    <durationDays>3</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>accepted sacred transformation</label>
+        <description>I embraced the sacred gift of change and transformation that Azurah grants to all her children.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>AzurahHarmedFelines</defName>
+    <durationDays>8</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>harmed sacred felines</label>
+        <description>I caused harm to the sacred feline forms blessed by Azurah. Her disappointment haunts me.</description>
+        <baseMoodEffect>-13</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>AzurahAbandonedTradition</defName>
+    <durationDays>6</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>abandoned ancient traditions</label>
+        <description>I turned my back on the ancient ways and traditions. Azurah's gifts are being forgotten.</description>
+        <baseMoodEffect>-11</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- General Khajiit Thoughts -->
+  <ThoughtDef>
+    <defName>KhajiitLunarBlessing</defName>
+    <durationDays>2</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>blessed by lunar cycles</label>
+        <description>The moons' influence flows through me, strengthening my natural abilities.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>KhajiitMoonSugarEuphoria</defName>
+    <durationDays>1</durationDays>
+    <stackLimit>3</stackLimit>
+    <stages>
+      <li>
+        <label>moon-sugar clarity</label>
+        <description>The sacred moon-sugar has opened my mind to the beauty of the lunar dance.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>KhajiitBreedPride</defName>
+    <durationDays>3</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>proud of my breed</label>
+        <description>I am proud of the form the moons blessed me with at birth. Each breed has its sacred purpose.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Anequinan Cultural Traits -->
+  <TraitDef>
+    <defName>AnequinanDesertborn</defName>
+    <label>Anequinan Desert Heritage</label>
+    <description>This Khajiit comes from the harsh northern deserts and badlands of Anequina, possessing the survival instincts and warrior traditions of the nomadic tribes.</description>
+    <degreeDatas>
+      <li>
+        <label>Desert Nomad</label>
+        <description>Born in the harsh deserts of Anequina, this pawn has adapted to survive in the most inhospitable conditions.</description>
+        <skillGains>
+          <Animals>3</Animals>
+          <Plants>2</Plants>
+          <Melee>3</Melee>
+          <Construction>1</Construction>
+        </skillGains>
+        <statOffsets>
+          <ComfyTemperatureMax>10</ComfyTemperatureMax>
+          <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+          <MoveSpeed>0.2</MoveSpeed>
+          <HuntingStealth>0.1</HuntingStealth>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.2</biostatCpxFactor>
+    <exclusionTags>
+      <li>KhajiitCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>AnequinanWarriorTradition</defName>
+    <label>Anequinan Warrior Code</label>
+    <description>This Khajiit follows the ancient warrior traditions of northern Elsweyr, emphasizing honor, strength, and tribal loyalty.</description>
+    <degreeDatas>
+      <li>
+        <label>Tribal Warrior</label>
+        <description>Raised in the warrior traditions of Anequina, this pawn values honor and martial prowess above all.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Shooting>2</Shooting>
+          <Social>2</Social>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageFactor>0.1</MeleeDamageFactor>
+          <MeleeHitChance>0.05</MeleeHitChance>
+          <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.15</biostatCpxFactor>
+    <exclusionTags>
+      <li>KhajiitWarriorTradition</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Pellitine Cultural Traits -->
+  <TraitDef>
+    <defName>PellitineRiverborn</defName>
+    <label>Pellitine River Heritage</label>
+    <description>This Khajiit comes from the lush river valleys and jungles of southern Pellitine, possessing the agricultural knowledge and crafting skills of settled communities.</description>
+    <degreeDatas>
+      <li>
+        <label>River Dweller</label>
+        <description>Born along the fertile rivers of Pellitine, this pawn excels in agriculture and craftsmanship.</description>
+        <skillGains>
+          <Plants>4</Plants>
+          <Crafting>3</Crafting>
+          <Construction>2</Construction>
+          <Medicine>1</Medicine>
+        </skillGains>
+        <statOffsets>
+          <PlantHarvestYield>0.15</PlantHarvestYield>
+          <PlantWorkSpeed>0.1</PlantWorkSpeed>
+          <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.2</biostatCpxFactor>
+    <exclusionTags>
+      <li>KhajiitCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>PellitineMerchantTradition</defName>
+    <label>Pellitine Trade Heritage</label>
+    <description>This Khajiit comes from the merchant families of southern Elsweyr, possessing the diplomatic skills and trade knowledge of cosmopolitan communities.</description>
+    <degreeDatas>
+      <li>
+        <label>Urban Merchant</label>
+        <description>Raised in the trading cities of Pellitine, this pawn excels in commerce and diplomacy.</description>
+        <skillGains>
+          <Social>4</Social>
+          <Intellectual>3</Intellectual>
+          <Crafting>2</Crafting>
+        </skillGains>
+        <statOffsets>
+          <TradePriceImprovement>0.15</TradePriceImprovement>
+          <SocialImpact>0.1</SocialImpact>
+          <NegotiationAbility>0.1</NegotiationAbility>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.15</biostatCpxFactor>
+    <exclusionTags>
+      <li>KhajiitWarriorTradition</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Moon Cycle Awareness Trait -->
+  <TraitDef>
+    <defName>KhajiitLunarAwareness</defName>
+    <label>Khajiit Lunar Awareness</label>
+    <description>This Khajiit possesses an innate awareness of the lunar cycles and their significance, understanding the mystical connection between the moons and their people's nature.</description>
+    <degreeDatas>
+      <li>
+        <label>Moon-blessed</label>
+        <description>Born with an innate connection to Jone and Jode, this pawn understands the sacred rhythms of the lunar lattice.</description>
+        <skillGains>
+          <Intellectual>2</Intellectual>
+          <Social>2</Social>
+          <Medicine>1</Medicine>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.1</PsychicSensitivity>
+          <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.1</biostatCpxFactor>
+  </TraitDef>
+
+  <!-- Moon-sugar Addiction Traits -->
+  <TraitDef>
+    <defName>KhajiitMoonSugarRefinement</defName>
+    <label>Khajiit Moon-sugar Tolerance</label>
+    <description>This Khajiit has developed a refined palate for moon-sugar and its derivatives, able to distinguish quality and resist addiction.</description>
+    <degreeDatas>
+      <li>
+        <label>Sugar Connoisseur</label>
+        <description>Born with a natural tolerance for moon-sugar, this pawn can enjoy its benefits while avoiding its dangers.</description>
+        <skillGains>
+          <Social>2</Social>
+          <Medicine>2</Medicine>
+        </skillGains>
+        <statOffsets>
+          <DrugDesireOffset>-0.02</DrugDesireOffset>
+          <ImmunityGainSpeed>0.05</ImmunityGainSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.05</biostatCpxFactor>
+  </TraitDef>
+
+  <!-- Caravan Traits -->
+  <TraitDef>
+    <defName>KhajiitCaravaneer</defName>
+    <label>Khajiit Caravan Heritage</label>
+    <description>This Khajiit comes from the great trading caravans that travel the roads of Tamriel, possessing the skills and knowledge of the traveling merchant families.</description>
+    <degreeDatas>
+      <li>
+        <label>Road Walker</label>
+        <description>Born into the caravan lifestyle, this pawn knows the roads and trade routes of Tamriel like the back of their paw.</description>
+        <skillGains>
+          <Social>3</Social>
+          <Animals>3</Animals>
+          <Intellectual>2</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <MoveSpeed>0.1</MoveSpeed>
+          <TradePriceImprovement>0.1</TradePriceImprovement>
+          <CarryingCapacity>10</CarryingCapacity>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.1</biostatCpxFactor>
+  </TraitDef>
+
+  <!-- Elsweyr Confederacy Loyalty -->
+  <TraitDef>
+    <defName>KhajiitConfederacyLoyalty</defName>
+    <label>Elsweyr Confederacy Loyalty</label>
+    <description>This Khajiit holds strong loyalty to the Elsweyr Confederacy and the ancient traditions that unite all Khajiit peoples.</description>
+    <degreeDatas>
+      <li>
+        <label>Confederate</label>
+        <description>Loyal to the Elsweyr Confederacy, this pawn believes in the unity of all Khajiit breeds and clans.</description>
+        <skillGains>
+          <Social>3</Social>
+          <Intellectual>2</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.08</SocialImpact>
+          <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.05</biostatCpxFactor>
+  </TraitDef>
+
+</Defs>

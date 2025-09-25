@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <!-- Khajiit Breed Base Definition -->
+  <ThingDef Name="KhajiitBreedBase" ParentName="BeastRaceBase" Abstract="True">
+    <race>
+      <baseBodySize>0.95</baseBodySize>
+      <lifeExpectancy>90</lifeExpectancy>
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <weight>40</weight>
+            <only>(0.6, 0.45, 0.3, 1)</only> <!-- Brown -->
+          </li>
+          <li>
+            <weight>30</weight>
+            <only>(0.7, 0.6, 0.4, 1)</only> <!-- Tan -->
+          </li>
+          <li>
+            <weight>20</weight>
+            <only>(0.5, 0.5, 0.5, 1)</only> <!-- Grey -->
+          </li>
+          <li>
+            <weight>10</weight>
+            <only>(0.3, 0.3, 0.3, 1)</only> <!-- Dark -->
+          </li>
+        </options>
+      </colorGenerator>
+    </race>
+    <statBases>
+      <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+      <ComfyTemperatureMax>45</ComfyTemperatureMax>
+    </statBases>
+  </ThingDef>
+
+  <!-- Humanoid Breeds -->
+  <ThingDef ParentName="KhajiitBreedBase">
+    <defName>KhajiitOhmes</defName>
+    <label>ohmes</label>
+    <description>The most man-like of the Khajiit breeds, born under new Masser and new Secunda. Often mistaken for Bosmer, they are small in stature but possess keen intelligence and natural diplomatic abilities. Their subtle feline features make them excellent spies and negotiators.</description>
+    <race>
+      <baseBodySize>0.85</baseBodySize>
+      <forcedTraits>
+        <li>OhmesIntelligence</li>
+        <li>OhmesDiplomacy</li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MoveSpeed>4.8</MoveSpeed>
+      <MarketValue>3600</MarketValue>
+      <ShootingAccuracyPawn>0.03</ShootingAccuracyPawn>
+      <MeleeHitChance>0.02</MeleeHitChance>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/KhajiitOhmes</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="KhajiitBreedBase">
+    <defName>KhajiitOhmesRaht</defName>
+    <label>ohmes-raht</label>
+    <description>A larger variant of the Ohmes, born under new Masser and waxing Secunda. They possess light fur and some visible feline features while maintaining an essentially humanoid form. Natural merchants and skilled craftsmen.</description>
+    <race>
+      <baseBodySize>0.9</baseBodySize>
+      <forcedTraits>
+        <li>OhmesRahtMerchant</li>
+        <li>OhmesRahtCrafting</li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MoveSpeed>4.9</MoveSpeed>
+      <MarketValue>3500</MarketValue>
+      <ShootingAccuracyPawn>0.03</ShootingAccuracyPawn>
+      <MeleeHitChance>0.03</MeleeHitChance>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/KhajiitOhmesRaht</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="KhajiitBreedBase">
+    <defName>KhajiitSuthay</defName>
+    <label>suthay</label>
+    <description>Born under new Masser and full Secunda, Suthay are human-like but with obvious feline features. They possess natural agility and dexterity, making them excellent acrobats and nimble fighters. This is a common breed seen in other provinces.</description>
+    <race>
+      <baseBodySize>0.95</baseBodySize>
+      <forcedTraits>
+        <li>SuthayAgility</li>
+        <li>SuthayDexterity</li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MoveSpeed>5.2</MoveSpeed>
+      <MarketValue>3400</MarketValue>
+      <ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+      <MeleeHitChance>0.06</MeleeHitChance>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/KhajiitSuthay</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="KhajiitBreedBase">
+    <defName>KhajiitSuthayRaht</defName>
+    <label>suthay-raht</label>
+    <description>Larger than their Suthay cousins, born under new Masser and waning Secunda. They are more muscular and make excellent warriors and hunters. This is the most common breed encountered in Cyrodiil and Skyrim.</description>
+    <race>
+      <baseBodySize>1.0</baseBodySize>
+      <forcedTraits>
+        <li>SuthayRahtWarrior</li>
+        <li>SuthayRahtHunter</li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MoveSpeed>5.0</MoveSpeed>
+      <MarketValue>3300</MarketValue>
+      <ShootingAccuracyPawn>0.04</ShootingAccuracyPawn>
+      <MeleeHitChance>0.07</MeleeHitChance>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/KhajiitSuthayRaht</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <!-- Quadrupedal Breeds -->
+  <ThingDef ParentName="KhajiitBreedBase">
+    <defName>KhajiitAlfiq</defName>
+    <label>alfiq</label>
+    <description>Born under waxing Masser and new Secunda, Alfiq are physically indistinguishable from house cats but possess the intelligence of any other Khajiit. They are highly skilled spellcasters despite their small size and have difficulty speaking Tamrielic languages.</description>
+    <race>
+      <baseBodySize>0.3</baseBodySize>
+      <forcedTraits>
+        <li>AlfiqMagic</li>
+        <li>AlfiqIntelligence</li>
+      </forcedTraits>
+      <lifeExpectancy>110</lifeExpectancy>
+    </race>
+    <statBases>
+      <MoveSpeed>6.0</MoveSpeed>
+      <MarketValue>4200</MarketValue>
+      <ShootingAccuracyPawn>0.01</ShootingAccuracyPawn>
+      <MeleeHitChance>0.02</MeleeHitChance>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/KhajiitAlfiq</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="KhajiitBreedBase">
+    <defName>KhajiitAlfiqRaht</defName>
+    <label>alfiq-raht</label>
+    <description>Larger than Alfiq, resembling a lynx in size. Born under waxing Masser and waxing Secunda, they are powerful mages despite their quadrupedal nature. They are rare and mysterious, often serving as magical advisors.</description>
+    <race>
+      <baseBodySize>0.5</baseBodySize>
+      <forcedTraits>
+        <li>AlfiqRahtMagic</li>
+        <li>AlfiqRahtMystery</li>
+      </forcedTraits>
+      <lifeExpectancy>120</lifeExpectancy>
+    </race>
+    <statBases>
+      <MoveSpeed>5.5</MoveSpeed>
+      <MarketValue>4500</MarketValue>
+      <ShootingAccuracyPawn>0.02</ShootingAccuracyPawn>
+      <MeleeHitChance>0.04</MeleeHitChance>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/KhajiitAlfiqRaht</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="KhajiitBreedBase">
+    <defName>KhajiitDagi</defName>
+    <label>dagi</label>
+    <description>Small, intelligent Khajiit born under waxing Masser and full Secunda. They live in trees and are natural climbers and scouts. Their light build makes them incredibly agile but physically weaker than other breeds.</description>
+    <race>
+      <baseBodySize>0.4</baseBodySize>
+      <forcedTraits>
+        <li>DagiClimbing</li>
+        <li>DagiScouting</li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MoveSpeed>6.2</MoveSpeed>
+      <MarketValue>3800</MarketValue>
+      <ShootingAccuracyPawn>0.06</ShootingAccuracyPawn>
+      <MeleeHitChance>0.03</MeleeHitChance>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/KhajiitDagi</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="KhajiitBreedBase">
+    <defName>KhajiitDagiRaht</defName>
+    <label>dagi-raht</label>
+    <description>Larger than Dagi, about jaguar-sized. Born under waxing Masser and waning Secunda, they are forest dwellers and hunters with excellent stealth capabilities. They combine the agility of their smaller cousins with increased strength.</description>
+    <race>
+      <baseBodySize>0.7</baseBodySize>
+      <forcedTraits>
+        <li>DagiRahtStealth</li>
+        <li>DagiRahtHunting</li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MoveSpeed>5.8</MoveSpeed>
+      <MarketValue>3900</MarketValue>
+      <ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+      <MeleeHitChance>0.06</MeleeHitChance>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/KhajiitDagiRaht</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <!-- Large Breeds -->
+  <ThingDef ParentName="KhajiitBreedBase">
+    <defName>KhajiitCathay</defName>
+    <label>cathay</label>
+    <description>Large, powerful, and intelligent Khajiit born under full Masser and new Secunda. They are natural warriors and laborers, representing the most common breed in Elsweyr. They balance strength with intelligence effectively.</description>
+    <race>
+      <baseBodySize>1.2</baseBodySize>
+      <healthScale>1.1</healthScale>
+      <forcedTraits>
+        <li>CathayStrength</li>
+        <li>CathayBalance</li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MoveSpeed>4.6</MoveSpeed>
+      <MarketValue>3200</MarketValue>
+      <ShootingAccuracyPawn>0.03</ShootingAccuracyPawn>
+      <MeleeHitChance>0.08</MeleeHitChance>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/KhajiitCathay</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="KhajiitBreedBase">
+    <defName>KhajiitCathayRaht</defName>
+    <label>cathay-raht</label>
+    <description>The largest of the common breeds, born under full Masser and waxing Secunda. They are powerful fighters and workers capable of carrying heavy loads. Their size makes them formidable in combat but slower than smaller breeds.</description>
+    <race>
+      <baseBodySize>1.4</baseBodySize>
+      <healthScale>1.3</healthScale>
+      <forcedTraits>
+        <li>CathayRahtPower</li>
+        <li>CathayRahtEndurance</li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MoveSpeed>4.2</MoveSpeed>
+      <MarketValue>3100</MarketValue>
+      <ShootingAccuracyPawn>0.02</ShootingAccuracyPawn>
+      <MeleeHitChance>0.09</MeleeHitChance>
+      <CarryingCapacity>100</CarryingCapacity>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/KhajiitCathayRaht</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <!-- Giant Breeds -->
+  <ThingDef ParentName="KhajiitBreedBase">
+    <defName>KhajiitSenche</defName>
+    <label>senche</label>
+    <description>Intelligent Khajiit born under waning Masser and full Secunda who can speak despite their large, feline form. They often serve as mounts for other Khajiit breeds and are known for their loyalty and wisdom. They combine great size with retained intelligence.</description>
+    <race>
+      <baseBodySize>2.0</baseBodySize>
+      <healthScale>1.6</healthScale>
+      <forcedTraits>
+        <li>SencheWisdom</li>
+        <li>SencheLoyalty</li>
+      </forcedTraits>
+      <lifeExpectancy>150</lifeExpectancy>
+    </race>
+    <statBases>
+      <MoveSpeed>3.8</MoveSpeed>
+      <MarketValue>4500</MarketValue>
+      <ShootingAccuracyPawn>0.01</ShootingAccuracyPawn>
+      <MeleeHitChance>0.12</MeleeHitChance>
+      <CarryingCapacity>200</CarryingCapacity>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/KhajiitSenche</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="KhajiitBreedBase">
+    <defName>KhajiitPahmar</defName>
+    <label>pahmar</label>
+    <description>Tiger-like Khajiit born under waning Masser and new Secunda who cannot speak but retain their intelligence. Despite their inability to communicate in conventional languages, they are highly intelligent and often used as mounts and beasts of burden by other Khajiit.</description>
+    <race>
+      <baseBodySize>1.8</baseBodySize>
+      <healthScale>1.5</healthScale>
+      <forcedTraits>
+        <li>PahmarStrength</li>
+        <li>PahmarInstinct</li>
+      </forcedTraits>
+      <lifeExpectancy>120</lifeExpectancy>
+    </race>
+    <statBases>
+      <MoveSpeed>4.0</MoveSpeed>
+      <MarketValue>4000</MarketValue>
+      <ShootingAccuracyPawn>0.01</ShootingAccuracyPawn>
+      <MeleeHitChance>0.11</MeleeHitChance>
+      <CarryingCapacity>150</CarryingCapacity>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/KhajiitPahmar</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <!-- Mythical Breed -->
+  <ThingDef ParentName="KhajiitBreedBase">
+    <defName>KhajiitMane</defName>
+    <label>mane</label>
+    <description>The rarest and most blessed of all Khajiit breeds, born only when both moons are full and eclipse simultaneously. The Mane serves as the spiritual and political leader of all Khajiit. Only one can exist at any time, and their birth heralds great changes for all of Elsweyr.</description>
+    <race>
+      <baseBodySize>1.1</baseBodySize>
+      <healthScale>1.2</healthScale>
+      <forcedTraits>
+        <li>ManeSpiritualLeader</li>
+        <li>ManeDivineBlessing</li>
+        <li>KhajiitLunarEclipse</li>
+      </forcedTraits>
+      <lifeExpectancy>200</lifeExpectancy>
+    </race>
+    <statBases>
+      <MoveSpeed>4.8</MoveSpeed>
+      <MarketValue>8000</MarketValue>
+      <ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+      <MeleeHitChance>0.07</MeleeHitChance>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/KhajiitMane</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <!-- Note: Continuing with remaining breeds would make this file very large. 
+       For the initial implementation, I'll focus on the most common/important breeds -->
+
+</ThingDefs>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Khajiit Moon Worship Deity Names -->
+  <RulePackDef>
+    <defName>KhajiitMoonDeityNames</defName>
+    <include>
+      <li>NamerDeityBase</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <!-- Moon deity names -->
+        <li>Jone->Jone the Bright</li>
+        <li>Jone->Jone the Ever-Watchful</li>
+        <li>Jone->Jone the Silver Guide</li>
+        <li>Jode->Jode the Swift</li>
+        <li>Jode->Jode the Dancing Moon</li>
+        <li>Jode->Jode the Night Walker</li>
+        
+        <!-- Additional lunar spirits -->
+        <li>MoonSpirit->Lunar Mother</li>
+        <li>MoonSpirit->Night's Eye</li>
+        <li>MoonSpirit->Silver Walker</li>
+        <li>MoonSpirit->Moon-Sugar Guardian</li>
+        <li>MoonSpirit->Bright Jone's Child</li>
+        <li>MoonSpirit->Swift Jode's Heir</li>
+        
+        <!-- Moon phases as deities -->
+        <li>PhaseName->New Moon's Secret</li>
+        <li>PhaseName->Waxing Moon's Promise</li>
+        <li>PhaseName->Full Moon's Glory</li>
+        <li>PhaseName->Waning Moon's Wisdom</li>
+        
+        <!-- Constellation spirits -->
+        <li>StarSpirit->The Thief's Moon</li>
+        <li>StarSpirit->The Lover's Light</li>
+        <li>StarSpirit->The Shadow's Guide</li>
+        
+        <!-- Final name construction -->
+        <li>name->[Jone]</li>
+        <li>name->[Jode]</li>
+        <li>name->[MoonSpirit]</li>
+        <li>name->[PhaseName]</li>
+        <li>name->[StarSpirit]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <!-- Riddle'Thar Epiphany Deity Names -->
+  <RulePackDef>
+    <defName>RiddleTharDeityNames</defName>
+    <include>
+      <li>NamerDeityBase</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <!-- Riddle'Thar and associated prophets -->
+        <li>RiddleThar->Riddle'Thar the First Secret</li>
+        <li>RiddleThar->Riddle'Thar the Unifier</li>
+        <li>RiddleThar->Riddle'Thar the Wise</li>
+        <li>AzurahMother->Azurah the Mother Cat</li>
+        <li>AzurahMother->Azurah the Shape-Giver</li>
+        <li>AzurahMother->Azurah of the Many Paths</li>
+        
+        <!-- Moral teachers and ancestors -->
+        <li>Teacher->The First Merchant</li>
+        <li>Teacher->The Honest Trader</li>
+        <li>Teacher->The Family Keeper</li>
+        <li>Teacher->The Clan Mother</li>
+        <li>Teacher->The Sugar Sage</li>
+        <li>Teacher->The Path Walker</li>
+        
+        <!-- Virtues personified -->
+        <li>Virtue->Honor in Trade</li>
+        <li>Virtue->Loyalty to Clan</li>
+        <li>Virtue->Wisdom of Elders</li>
+        <li>Virtue->Protection of Young</li>
+        <li>Virtue->Respect for Sacred</li>
+        <li>Virtue->Balance in All Things</li>
+        
+        <!-- Ancient clan ancestors -->
+        <li>Ancestor->First-Walker of the Sands</li>
+        <li>Ancestor->Moon-Born of the South</li>
+        <li>Ancestor->Star-Eyed of the North</li>
+        <li>Ancestor->Sugar-Blessed of the Rivers</li>
+        
+        <!-- Final name construction -->
+        <li>name->[RiddleThar]</li>
+        <li>name->[AzurahMother]</li>
+        <li>name->[Teacher]</li>
+        <li>name->[Virtue]</li>
+        <li>name->[Ancestor]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <!-- Azurah's Children Deity Names -->
+  <RulePackDef>
+    <defName>AzurahDeityNames</defName>
+    <include>
+      <li>NamerDeityBase</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <!-- Azurah in her various aspects -->
+        <li>Azurah->Azurah the Mother of Cats</li>
+        <li>Azurah->Azurah the Shape-Changer</li>
+        <li>Azurah->Azurah the Moon-Friend</li>
+        <li>Azurah->Azurah of Many Forms</li>
+        <li>Azurah->Azurah the First Walker</li>
+        
+        <!-- The First Cat and primordial spirits -->
+        <li>FirstCat->The First Cat</li>
+        <li>FirstCat->The Original Form</li>
+        <li>FirstCat->The Unchanged One</li>
+        <li>FirstCat->The Forest Mother</li>
+        
+        <!-- Primal feline spirits -->
+        <li>FelineSpirit->The Great Prowler</li>
+        <li>FelineSpirit->The Silent Hunter</li>
+        <li>FelineSpirit->The Night Stalker</li>
+        <li>FelineSpirit->The Moon Caller</li>
+        <li>FelineSpirit->The Star Watcher</li>
+        <li>FelineSpirit->The Tree Walker</li>
+        
+        <!-- Transformation spirits -->
+        <li>ShapeSpirit->The Many-Formed</li>
+        <li>ShapeSpirit->The Ever-Changing</li>
+        <li>ShapeSpirit->The Form-Giver</li>
+        <li>ShapeSpirit->The Path-Maker</li>
+        
+        <!-- Ancient totems -->
+        <li>Totem->Spirit of the Small Cat</li>
+        <li>Totem->Spirit of the Great Cat</li>
+        <li>Totem->Spirit of the Wise Cat</li>
+        <li>Totem->Spirit of the Wild Cat</li>
+        
+        <!-- Final name construction -->
+        <li>name->[Azurah]</li>
+        <li>name->[FirstCat]</li>
+        <li>name->[FelineSpirit]</li>
+        <li>name->[ShapeSpirit]</li>
+        <li>name->[Totem]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

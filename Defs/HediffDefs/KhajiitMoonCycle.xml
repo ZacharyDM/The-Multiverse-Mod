@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Moon Phase Awareness Hediff -->
+  <HediffDef>
+    <defName>KhajiitMoonPhaseAwareness</defName>
+    <label>moon phase awareness</label>
+    <description>This Khajiit is aware of the current phase of the moons and feels their influence on their natural abilities.</description>
+    <hediffClass>Hediff</hediffClass>
+    <defaultLabelColor>(0.7, 0.7, 1)</defaultLabelColor>
+    <makesSickThought>false</makesSickThought>
+    <maxSeverity>1.0</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <PsychicSensitivity>0.05</PsychicSensitivity>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- New Moon Phase Effects -->
+  <HediffDef>
+    <defName>KhajiitNewMoonPhase</defName>
+    <label>new moon phase</label>
+    <description>The influence of the new moon phase affects this Khajiit's abilities, enhancing stealth and intellect but reducing physical power.</description>
+    <hediffClass>Hediff</hediffClass>
+    <defaultLabelColor>(0.3, 0.3, 0.5)</defaultLabelColor>
+    <makesSickThought>false</makesSickThought>
+    <maxSeverity>1.0</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <HuntingStealth>0.1</HuntingStealth>
+          <GlobalLearningFactor>0.05</GlobalLearningFactor>
+          <MeleeDamageFactor>-0.05</MeleeDamageFactor>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- Waxing Moon Phase Effects -->
+  <HediffDef>
+    <defName>KhajiitWaxingMoonPhase</defName>
+    <label>waxing moon phase</label>
+    <description>The influence of the waxing moon phase affects this Khajiit's abilities, gradually increasing magical aptitude and social skills.</description>
+    <hediffClass>Hediff</hediffClass>
+    <defaultLabelColor>(0.5, 0.5, 0.7)</defaultLabelColor>
+    <makesSickThought>false</makesSickThought>
+    <maxSeverity>1.0</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <PsychicSensitivity>0.1</PsychicSensitivity>
+          <SocialImpact>0.05</SocialImpact>
+          <ResearchSpeed>0.05</ResearchSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- Full Moon Phase Effects -->
+  <HediffDef>
+    <defName>KhajiitFullMoonPhase</defName>
+    <label>full moon phase</label>
+    <description>The influence of the full moon phase affects this Khajiit's abilities, greatly enhancing physical prowess and combat ability.</description>
+    <hediffClass>Hediff</hediffClass>
+    <defaultLabelColor>(0.8, 0.8, 1)</defaultLabelColor>
+    <makesSickThought>false</makesSickThought>
+    <maxSeverity>1.0</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <MeleeDamageFactor>0.1</MeleeDamageFactor>
+          <MeleeHitChance>0.05</MeleeHitChance>
+          <MoveSpeed>0.2</MoveSpeed>
+          <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- Waning Moon Phase Effects -->
+  <HediffDef>
+    <defName>KhajiitWaningMoonPhase</defName>
+    <label>waning moon phase</label>
+    <description>The influence of the waning moon phase affects this Khajiit's abilities, enhancing wisdom and healing abilities while reducing aggression.</description>
+    <hediffClass>Hediff</hediffClass>
+    <defaultLabelColor>(0.6, 0.6, 0.8)</defaultLabelColor>
+    <makesSickThought>false</makesSickThought>
+    <maxSeverity>1.0</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <MedicalTendQuality>0.1</MedicalTendQuality>
+          <GlobalLearningFactor>0.08</GlobalLearningFactor>
+          <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+          <MeleeDamageFactor>-0.03</MeleeDamageFactor>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- Dual Moon Eclipse - Rare Mane Birth Conditions -->
+  <HediffDef>
+    <defName>KhajiitLunarEclipse</defName>
+    <label>lunar eclipse blessing</label>
+    <description>Born during the rare alignment when both moons are full and eclipsed, this Khajiit carries the blessing that marks potential Mane candidates.</description>
+    <hediffClass>Hediff</hediffClass>
+    <defaultLabelColor>(1, 0.8, 0.3)</defaultLabelColor>
+    <makesSickThought>false</makesSickThought>
+    <maxSeverity>1.0</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <SocialImpact>0.2</SocialImpact>
+          <PsychicSensitivity>0.15</PsychicSensitivity>
+          <GlobalLearningFactor>0.1</GlobalLearningFactor>
+          <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- Moon-sugar Blessing -->
+  <HediffDef>
+    <defName>KhajiitMoonSugarBlessing</defName>
+    <label>moon-sugar blessing</label>
+    <description>This Khajiit has been blessed with sacred moon-sugar, enhancing their connection to the lunar cycles and their natural abilities.</description>
+    <hediffClass>Hediff</hediffClass>
+    <defaultLabelColor>(0.9, 0.7, 0.9)</defaultLabelColor>
+    <makesSickThought>false</makesSickThought>
+    <maxSeverity>1.0</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <MoveSpeed>0.1</MoveSpeed>
+          <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+          <PsychicSensitivity>0.05</PsychicSensitivity>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.05</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>
