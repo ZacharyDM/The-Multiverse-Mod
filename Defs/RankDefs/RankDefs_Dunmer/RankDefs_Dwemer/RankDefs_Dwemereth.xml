@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RankDefs>
+  <!-- Dwemereth Faction Ranks - Based on Dwemer engineering hierarchy -->
+  
+  <RankDef>
+    <defName>Dwemer_Initiate</defName>
+    <labelMale>Initiate</labelMale>
+    <labelFemale>Initiate</labelFemale>
+    <description>A newly accepted student of Dwemer knowledge, beginning to understand the fundamentals of tonal architecture and mechanical engineering.</description>
+  </RankDef>
+  
+  <RankDef>
+    <defName>Dwemer_Apprentice</defName>
+    <labelMale>Apprentice</labelMale>
+    <labelFemale>Apprentice</labelFemale>
+    <description>An apprentice engineer who has demonstrated basic competency in Dwemer craftsmanship and theoretical understanding.</description>
+  </RankDef>
+
+  <RankDef>
+    <defName>Dwemer_Artisan</defName>
+    <labelMale>Artisan</labelMale>
+    <labelFemale>Artisan</labelFemale>
+    <description>A skilled artisan capable of creating intermediate Dwemer constructs and understanding complex tonal principles.</description>
+  </RankDef>
+
+  <RankDef>
+    <defName>Dwemer_Engineer</defName>
+    <labelMale>Engineer</labelMale>
+    <labelFemale>Engineer</labelFemale>
+    <description>A full engineer of the Dwemer, capable of designing and constructing sophisticated mechanical devices and understanding advanced theories.</description>
+  </RankDef>
+
+  <RankDef>
+    <defName>Dwemer_MasterCraftsman</defName>
+    <labelMale>Master Craftsman</labelMale>
+    <labelFemale>Master Craftswoman</labelFemale>
+    <description>A master craftsman who has achieved excellence in their chosen specialization and can train others in the Dwemer arts.</description>
+  </RankDef>
+
+  <RankDef>
+    <defName>Dwemer_Architect</defName>
+    <labelMale>Architect</labelMale>
+    <labelFemale>Architect</labelFemale>
+    <description>A tonal architect responsible for designing the great mechanical structures and city systems that define Dwemer civilization.</description>
+  </RankDef>
+
+  <RankDef>
+    <defName>Dwemer_ChiefEngineer</defName>
+    <labelMale>Chief Engineer</labelMale>
+    <labelFemale>Chief Engineer</labelFemale>
+    <description>A chief engineer who oversees major construction projects and leads teams of lesser engineers in their endeavors.</description>
+  </RankDef>
+
+  <RankDef>
+    <defName>Dwemer_Tonal</defName>
+    <labelMale>Tonal</labelMale>
+    <labelFemale>Tonal</labelFemale>
+    <description>A master of tonal architecture, one of the highest positions in Dwemer society, capable of manipulating reality through sound and vibration.</description>
+  </RankDef>
+
+  <RankDef>
+    <defName>Dwemer_HighCraftlord</defName>
+    <labelMale>High Craftlord</labelMale>
+    <labelFemale>High Craftlord</labelFemale>
+    <description>The highest ranking engineer-leader of a Dwemer settlement, responsible for all technological advancement and construction within their domain.</description>
+  </RankDef>
+</RankDefs>

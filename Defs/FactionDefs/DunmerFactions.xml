@@ -205,4 +205,16 @@
     </allowedRaceDefs>
     <techLevel>Neolithic</techLevel>
   </FactionDef>
+
+  <!-- Dwemer Main Faction -->
+  <FactionDef>
+    <defName>Dwemereth</defName>
+    <label>Dwemereth</label>
+    <description>The primary Dwemer faction, representing the unified Deep Elves civilization known for their advanced technology and engineering prowess.</description>
+    <color>(0.6, 0.5, 0.3, 1)</color>
+    <allowedRaceDefs>
+      <li>Dwemer</li>
+    </allowedRaceDefs>
+    <techLevel>Industrial</techLevel>
+  </FactionDef>
 </FactionDefs>
