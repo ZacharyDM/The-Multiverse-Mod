@@ -14,7 +14,6 @@
       <li>ArgonianSarpa</li>
       <li>ArgonianAgaceph</li>
       <li>ArgonianPaatru</li>
-      <li>ArgonianWamasu</li>
     </allowedRaceDefs>
     <techLevel>Medieval</techLevel>
     <hostileTowardsOutsiders>true</hostileTowardsOutsiders>
@@ -33,7 +32,6 @@
       <li>ArgonianSarpa</li>
       <li>ArgonianAgaceph</li>
       <li>ArgonianPaatru</li>
-      <li>ArgonianWamasu</li>
     </allowedRaceDefs>
     <techLevel>Medieval</techLevel>
     <hidden>true</hidden>
@@ -52,7 +50,6 @@
       <li>ArgonianSarpa</li>
       <li>ArgonianAgaceph</li>
       <li>ArgonianPaatru</li>
-      <li>ArgonianWamasu</li>
     </allowedRaceDefs>
     <techLevel>Medieval</techLevel>
   </FactionDef>
@@ -70,7 +67,6 @@
       <li>ArgonianSarpa</li>
       <li>ArgonianAgaceph</li>
       <li>ArgonianPaatru</li>
-      <li>ArgonianWamasu</li>
     </allowedRaceDefs>
     <techLevel>Medieval</techLevel>
   </FactionDef>
@@ -88,7 +84,6 @@
       <li>ArgonianSarpa</li>
       <li>ArgonianAgaceph</li>
       <li>ArgonianPaatru</li>
-      <li>ArgonianWamasu</li>
     </allowedRaceDefs>
     <techLevel>Neolithic</techLevel>
   </FactionDef>
@@ -106,7 +101,6 @@
       <li>ArgonianSarpa</li>
       <li>ArgonianAgaceph</li>
       <li>ArgonianPaatru</li>
-      <li>ArgonianWamasu</li>
     </allowedRaceDefs>
     <techLevel>Medieval</techLevel>
   </FactionDef>
@@ -124,7 +118,6 @@
       <li>ArgonianSarpa</li>
       <li>ArgonianAgaceph</li>
       <li>ArgonianPaatru</li>
-      <li>ArgonianWamasu</li>
     </allowedRaceDefs>
     <techLevel>Medieval</techLevel>
   </FactionDef>

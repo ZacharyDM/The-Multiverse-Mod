@@ -41,13 +41,6 @@ This expansion introduces **6 distinct Argonian subraces** based on Elder Scroll
 - **Special Abilities**: Enhanced work speed, immunity gain, mental resilience
 - **Lore**: Natural laborers and builders, backbone of Argonian society
 
-### Wamasu (Draconic Argonians)
-- **Heritage**: Rare, dragon-blessed with vestigial wings
-- **Key Traits**: Ancient magical knowledge, natural leadership, longevity
-- **Skill Bonuses**: Intellectual +4, Social +3, Medicine +3, Melee +2
-- **Special Abilities**: Psychic sensitivity, research speed, negotiation
-- **Lore**: Revered shamans and leaders with draconic heritage
-
 ## Argonian Factions
 
 ### An-Xileel
@@ -136,7 +129,7 @@ All weapons are crafted using traditional materials and provide bonuses appropri
 ```
 Defs/
 ├── RaceDefs/
-│   └── ArgonianSubraces.xml           # 6 Argonian subrace definitions
+│   └── ArgonianSubraces.xml           # 5 Argonian subrace definitions
 ├── TraitDefs/
 │   └── ArgonianSubraceTraits.xml      # Unique traits for each subrace
 ├── FactionDefs/
@@ -144,15 +137,20 @@ Defs/
 ├── ThingDefs/
 │   ├── Apparel/
 │   │   └── ArgonianApparel.xml        # 6 unique apparel items
-│   └── Weapons/
-│       └── ArgonianWeapons.xml        # 5 unique weapons
+│   ├── Weapons/
+│   │   └── ArgonianWeapons.xml        # 5 unique weapons
+│   ├── Races/
+│   │   └── MorrowindAnimals.xml       # Wamasu beast definition
+│   └── Items/
+│       └── MorrowindAnimalIngredients.xml # Wamasu hide material
 ├── StyleCategoryDefs/
 │   ├── ArgonianStyles.xml             # 7 architectural styles
 │   ├── ArgonianApparelStyles.xml      # Apparel style categories
 │   ├── ArgonianWeaponStyles.xml       # Weapon style categories
 │   └── ArgonianBuildingStyles.xml     # Building style categories
 └── PawnKindDefs/
-    └── PawnKind_ArgonianSubraces.xml  # Spawn definitions
+    ├── PawnKind_ArgonianSubraces.xml  # Argonian subrace spawning
+    └── PawnKind_MorrowindAnimals.xml  # Wamasu beast spawning
 ```
 
 ## Integration Notes
@@ -171,5 +169,6 @@ The expansion faithfully represents Elder Scrolls lore by:
 - Reflecting the cultural importance of the Hist trees
 - Representing the diverse ecology of Black Marsh
 - Maintaining the mysterious and adaptable nature of Argonian society
+- **Correctly placing Wamasu as separate beasts rather than Argonian subraces, as per Elder Scrolls lore**
 
-This creates a rich, immersive experience that captures the essence of Argonian culture while providing diverse gameplay options through the various subraces and their unique abilities.
+This creates a rich, immersive experience that captures the essence of Argonian culture while providing diverse gameplay options through the various subraces and their unique abilities. The Wamasu appear as dangerous beasts native to the swamps of Black Marsh, maintaining their lore-accurate status as separate creatures rather than a subrace of Argonians.
