@@ -1,0 +1,149 @@
+<RankDefs>
+  <!-- Imperial Legion Ranks - Based on Morrowind with additions from other games -->
+  
+  <!-- Entry Level Ranks -->
+  <RankDef>
+    <defName>ImperialLegion_Recruit</defName>
+    <labelMale>Recruit</labelMale>
+    <labelFemale>Recruit</labelFemale>
+    <description>A new enlistee in the Imperial Legion, undergoing basic training and learning military discipline.</description>
+  </RankDef>
+  
+  <RankDef>
+    <defName>ImperialLegion_Spearman</defName>
+    <labelMale>Spearman</labelMale>
+    <labelFemale>Spearwoman</labelFemale>
+    <description>A basic infantry soldier of the Imperial Legion, trained in spear and shield combat formation.</description>
+  </RankDef>
+  
+  <RankDef>
+    <defName>ImperialLegion_Trooper</defName>
+    <labelMale>Trooper</labelMale>
+    <labelFemale>Trooper</labelFemale>
+    <description>A standard legionnaire, competent in all basic military skills and ready for campaign duty.</description>
+  </RankDef>
+  
+  <!-- Non-Commissioned Officer Ranks -->
+  <RankDef>
+    <defName>ImperialLegion_Agent</defName>
+    <labelMale>Agent</labelMale>
+    <labelFemale>Agent</labelFemale>
+    <description>A legion member tasked with intelligence gathering, investigations, and special operations.</description>
+  </RankDef>
+  
+  <RankDef>
+    <defName>ImperialLegion_Champion</defName>
+    <labelMale>Champion</labelMale>
+    <labelFemale>Champion</labelFemale>
+    <description>An elite warrior who has proven themselves in combat, often serving as a role model for other legionnaires.</description>
+  </RankDef>
+  
+  <RankDef>
+    <defName>ImperialLegion_Sergeant</defName>
+    <labelMale>Sergeant</labelMale>
+    <labelFemale>Sergeant</labelFemale>
+    <description>A squad leader responsible for training and leading small groups of legionnaires.</description>
+  </RankDef>
+  
+  <!-- Commissioned Officer Ranks -->
+  <RankDef>
+    <defName>ImperialLegion_Knight</defName>
+    <labelMale>Knight</labelMale>
+    <labelFemale>Dame</labelFemale>
+    <description>A commissioned officer of noble bearing, granted the honor of knighthood for service to the Empire.</description>
+  </RankDef>
+  
+  <RankDef>
+    <defName>ImperialLegion_Captain</defName>
+    <labelMale>Captain</labelMale>
+    <labelFemale>Captain</labelFemale>
+    <description>A company commander responsible for 100-200 legionnaires and their tactical deployment.</description>
+  </RankDef>
+  
+  <RankDef>
+    <defName>ImperialLegion_Quaestor</defName>
+    <labelMale>Quaestor</labelMale>
+    <labelFemale>Quaestor</labelFemale>
+    <description>A legion administrator responsible for logistics, supplies, and bureaucratic affairs.</description>
+  </RankDef>
+  
+  <RankDef>
+    <defName>ImperialLegion_Tribune</defName>
+    <labelMale>Tribune</labelMale>
+    <labelFemale>Tribune</labelFemale>
+    <description>A high-ranking officer commanding multiple centuries, responsible for strategic planning and execution.</description>
+  </RankDef>
+  
+  <!-- Senior Officer Ranks -->
+  <RankDef>
+    <defName>ImperialLegion_Praefect</defName>
+    <labelMale>Praefect</labelMale>
+    <labelFemale>Praefect</labelFemale>
+    <description>A regional military commander overseeing multiple cohorts and garrison forces.</description>
+  </RankDef>
+  
+  <RankDef>
+    <defName>ImperialLegion_Praetor</defName>
+    <labelMale>Praetor</labelMale>
+    <labelFemale>Praetor</labelFemale>
+    <description>A senior military magistrate with both military and civilian authority in frontier regions.</description>
+  </RankDef>
+  
+  <RankDef>
+    <defName>ImperialLegion_Legate</defName>
+    <labelMale>Legate</labelMale>
+    <labelFemale>Legate</labelFemale>
+    <description>The commanding officer of an entire legion, responsible for thousands of soldiers and major military operations.</description>
+  </RankDef>
+  
+  <!-- Supreme Command Ranks -->
+  <RankDef>
+    <defName>ImperialLegion_General</defName>
+    <labelMale>General</labelMale>
+    <labelFemale>General</labelFemale>
+    <description>A supreme military commander overseeing multiple legions and coordinating large-scale campaigns.</description>
+  </RankDef>
+  
+  <RankDef>
+    <defName>ImperialLegion_FieldMarshal</defName>
+    <labelMale>Field Marshal</labelMale>
+    <labelFemale>Field Marshal</labelFemale>
+    <description>The highest military rank below the Emperor, commanding all Imperial forces in a theater of operations.</description>
+  </RankDef>
+
+  <!-- Special Ranks and Positions -->
+  <RankDef>
+    <defName>ImperialLegion_Centurion</defName>
+    <labelMale>Centurion</labelMale>
+    <labelFemale>Centurion</labelFemale>
+    <description>A veteran officer commanding a century of 80-100 legionnaires, the backbone of legion leadership.</description>
+  </RankDef>
+  
+  <RankDef>
+    <defName>ImperialLegion_Optio</defName>
+    <labelMale>Optio</labelMale>
+    <labelFemale>Optio</labelFemale>
+    <description>A centurion's second-in-command and potential successor, handling administrative duties and training.</description>
+  </RankDef>
+  
+  <RankDef>
+    <defName>ImperialLegion_Signifer</defName>
+    <labelMale>Signifer</labelMale>
+    <labelFemale>Signifer</labelFemale>
+    <description>A standard-bearer responsible for carrying the legion's battle standards and maintaining unit cohesion.</description>
+  </RankDef>
+  
+  <RankDef>
+    <defName>ImperialLegion_Aquilifer</defName>
+    <labelMale>Aquilifer</labelMale>
+    <labelFemale>Aquilifer</labelFemale>
+    <description>The most honored standard-bearer, carrying the legion's golden eagle and defending it with their life.</description>
+  </RankDef>
+  
+  <RankDef>
+    <defName>ImperialLegion_Primus_Pilus</defName>
+    <labelMale>Primus Pilus</labelMale>
+    <labelFemale>Prima Pilus</labelFemale>
+    <description>The senior centurion of the first cohort, the most experienced and respected officer below the tribune rank.</description>
+  </RankDef>
+</RankDefs>
