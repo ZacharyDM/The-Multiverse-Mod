@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Dunmer Special Resources Trader -->
+  <TraderKindDef>
+    <defName>DunmerSpecialResourceTrader</defName>
+    <label>Dunmer resource trader</label>
+    <stockGenerators>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Malachite</thingDef>
+        <totalPriceRange>300~800</totalPriceRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Ebony</thingDef>
+        <totalPriceRange>600~1500</totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>ResourcesRaw</categoryDef>
+        <thingDefCountRange>2~6</thingDefCountRange>
+        <totalPriceRange>200~500</totalPriceRange>
+      </li>
+    </stockGenerators>
+  </TraderKindDef>
+
+  <!-- Dwemer Special Resources Trader -->
+  <TraderKindDef>
+    <defName>DwemerSpecialResourceTrader</defName>
+    <label>Dwemer resource trader</label>
+    <stockGenerators>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Malachite</thingDef>
+        <totalPriceRange>400~900</totalPriceRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Ebony</thingDef>
+        <totalPriceRange>800~2000</totalPriceRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>DwarvenMetal</thingDef>
+        <totalPriceRange>500~1200</totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>ResourcesRaw</categoryDef>
+        <thingDefCountRange>3~8</thingDefCountRange>
+        <totalPriceRange>300~700</totalPriceRange>
+      </li>
+    </stockGenerators>
+  </TraderKindDef>
+
+  <!-- Orsimer Special Resources Trader -->
+  <TraderKindDef>
+    <defName>OrsimerSpecialResourceTrader</defName>
+    <label>Orsimer resource trader</label>
+    <stockGenerators>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Malachite</thingDef>
+        <totalPriceRange>350~850</totalPriceRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Ebony</thingDef>
+        <totalPriceRange>700~1800</totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>Metallic</categoryDef>
+        <thingDefCountRange>4~10</thingDefCountRange>
+        <totalPriceRange>400~800</totalPriceRange>
+      </li>
+    </stockGenerators>
+  </TraderKindDef>
+
+</Defs>
