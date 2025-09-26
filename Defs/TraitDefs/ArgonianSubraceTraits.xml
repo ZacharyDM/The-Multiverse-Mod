@@ -125,29 +125,6 @@
     </degreeDatas>
   </TraitDef>
 
-  <!-- Wamasu Trait -->
-  <TraitDef>
-    <defName>WamasuDraconic</defName>
-    <label>Wamasu Draconic</label>
-    <description>This Wamasu possesses the rare draconic heritage and mystical abilities of the most blessed Argonian subspecies.</description>
-    <degreeDatas>
-      <li>
-        <label>Dragon-Touched</label>
-        <description>Born with draconic features and ancient magical heritage, this pawn has enhanced magical abilities and natural leadership qualities.</description>
-        <skillGains>
-          <Intellectual>4</Intellectual>
-          <Social>3</Social>
-          <Medicine>3</Medicine>
-          <Melee>2</Melee>
-        </skillGains>
-        <statOffsets>
-          <PsychicSensitivity>0.25</PsychicSensitivity>
-          <ResearchSpeed>0.20</ResearchSpeed>
-          <ImmunityGainSpeed>0.18</ImmunityGainSpeed>
-          <NegotiationAbility>0.10</NegotiationAbility>
-        </statOffsets>
-      </li>
-    </degreeDatas>
-  </TraitDef>
+
 
 </Defs>

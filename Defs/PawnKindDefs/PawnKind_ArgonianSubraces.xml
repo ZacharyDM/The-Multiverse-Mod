@@ -128,23 +128,6 @@
     <baseRecruitDifficulty>0.40</baseRecruitDifficulty>
   </PawnKindDef>
 
-  <!-- Wamasu -->
-  <PawnKindDef>
-    <defName>ArgonianWamasuShaman</defName>
-    <label>wamasu shaman</label>
-    <race>ArgonianWamasu</race>
-    <defaultFactionType>RootWhisperTribe</defaultFactionType>
-    <chemicalAddictionChance>0.005</chemicalAddictionChance>
-    <backstoryCategories>
-      <li>Tribal</li>
-    </backstoryCategories>
-    <baseRecruitDifficulty>0.85</baseRecruitDifficulty>
-    <apparelTags>
-      <li>RootWhisperTribeApparel</li>
-    </apparelTags>
-    <weaponTags>
-      <li>RootWhisperTribeWeapon</li>
-    </weaponTags>
-  </PawnKindDef>
+
 
 </PawnKindDefs>

@@ -299,4 +299,114 @@
     </race>
   </ThingDef>
 
+  <!-- Wamasu: Large draconic beast of Argonia -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Wamasu</defName>
+    <label>wamasu</label>
+    <description>A massive, draconic beast native to the swamps of Black Marsh. These powerful creatures have dragon-like features and are capable of devastating electrical attacks. They are extremely territorial and highly dangerous, though legends speak of ancient bonds between Wamasu and certain Argonian tribes.</description>
+    <statBases>
+      <MoveSpeed>4.5</MoveSpeed>
+      <MarketValue>1200</MarketValue>
+      <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+      <ComfyTemperatureMax>65</ComfyTemperatureMax>
+      <FilthRate>12</FilthRate>
+    </statBases>
+    <tools>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>28</power>
+        <cooldownTime>3.0</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.8</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>2.5</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>tail</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>3.0</cooldownTime>
+        <linkedBodyPartsGroup>TailAttackTool</linkedBodyPartsGroup>
+        <chanceFactor>0.6</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <predator>true</predator>
+      <petness>0.05</petness>
+      <baseBodySize>2.2</baseBodySize>
+      <baseHungerRate>0.60</baseHungerRate>
+      <baseHealthScale>2.0</baseHealthScale>
+      <foodType>CarnivoreAnimal</foodType>
+      <leatherDef>WamasuHide</leatherDef>
+      <wildness>0.99</wildness>
+      <manhunterOnTameFailChance>0.35</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.8</manhunterOnDamageChance>
+      <lifeExpectancy>45</lifeExpectancy>
+      <mateMtbHours>8760</mateMtbHours>
+      <maturityAge>5.0</maturityAge>
+      <trainability>Advanced</trainability>
+      <gestationPeriodDays>120</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(2, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>1.0</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>5.0</minAge>
+          <soundWounded>Pawn_Warg_Wounded</soundWounded>
+          <soundDeath>Pawn_Warg_Death</soundDeath>
+          <soundCall>Pawn_Warg_Call</soundCall>
+          <soundAngry>Pawn_Warg_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
 </Defs>

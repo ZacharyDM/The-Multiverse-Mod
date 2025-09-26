@@ -295,4 +295,46 @@
     </lifeStages>
   </PawnKindDef>
 
+  <PawnKindDef>
+    <defName>Wamasu</defName>
+    <label>wamasu</label>
+    <race>Wamasu</race>
+    <defaultFactionType>AnimalFaction</defaultFactionType>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wamasu/Wamasu</texPath>
+          <drawSize>1.2</drawSize>
+          <color>(70,90,70)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wamasu/Dessicated_Wamasu</texPath>
+          <drawSize>1.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wamasu/Wamasu</texPath>
+          <drawSize>1.8</drawSize>
+          <color>(70,90,70)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wamasu/Dessicated_Wamasu</texPath>
+          <drawSize>1.8</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wamasu/Wamasu</texPath>
+          <drawSize>2.4</drawSize>
+          <color>(70,90,70)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wamasu/Dessicated_Wamasu</texPath>
+          <drawSize>2.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
 </Defs>

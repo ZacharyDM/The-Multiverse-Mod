@@ -254,60 +254,6 @@
     </graphicData>
   </ThingDef>
 
-  <!-- Wamasu - Draconic Argonians -->
-  <ThingDef ParentName="BeastRaceBase">
-    <defName>ArgonianWamasu</defName>
-    <label>wamasu</label>
-    <description>Rare, draconic Argonians with vestigial wings and dragon-like features. They possess natural magical abilities and are revered among their kind as blessed by ancient draconic powers.</description>
-    <race>
-      <colorGenerator Class="ColorGenerator_Options">
-        <options>
-          <li>
-            <weight>25</weight>
-            <only>(0.2, 0.4, 0.2, 1)</only> <!-- Deep green -->
-          </li>
-          <li>
-            <weight>20</weight>
-            <only>(0.4, 0.2, 0.1, 1)</only> <!-- Deep brown -->
-          </li>
-          <li>
-            <weight>20</weight>
-            <only>(0.1, 0.3, 0.4, 1)</only> <!-- Deep blue -->
-          </li>
-          <li>
-            <weight>15</weight>
-            <only>(0.5, 0.3, 0.1, 1)</only> <!-- Bronze -->
-          </li>
-          <li>
-            <weight>10</weight>
-            <only>(0.3, 0.1, 0.1, 1)</only> <!-- Deep red -->
-          </li>
-          <li>
-            <weight>10</weight>
-            <only>(0.1, 0.1, 0.1, 1)</only> <!-- Black -->
-          </li>
-        </options>
-      </colorGenerator>
-      <baseBodySize>1.1</baseBodySize>
-      <healthScale>1.1</healthScale>
-      <forcedTraits>
-        <li>WamasuDraconic</li>
-        <li>MysticismMastery</li>
-      </forcedTraits>
-      <lifeExpectancy>150</lifeExpectancy>
-    </race>
-    <statBases>
-      <MoveSpeed>4.5</MoveSpeed>
-      <MarketValue>4500</MarketValue>
-      <ShootingAccuracyPawn>0.03</ShootingAccuracyPawn>
-      <MeleeHitChance>0.04</MeleeHitChance>
-      <ComfyTemperatureMin>-12</ComfyTemperatureMin>
-      <ComfyTemperatureMax>55</ComfyTemperatureMax>
-    </statBases>
-    <graphicData>
-      <texPath>UI/Icons/ThingCategories/ArgonianWamasu</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-  </ThingDef>
+
 
 </ThingDefs>

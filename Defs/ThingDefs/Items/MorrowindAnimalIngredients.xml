@@ -243,4 +243,44 @@
     </tradeTags>
   </ThingDef>
 
+  <!-- Wamasu Hide: Rare draconic hide -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>WamasuHide</defName>
+    <label>wamasu hide</label>
+    <description>Incredibly rare and valuable hide from a wamasu. This draconic leather possesses natural magical properties and exceptional durability. It is said to offer protection against both physical and magical attacks, making it one of the most prized materials in all of Tamriel.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/WamasuHide</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>15</stackLimit>
+    <statBases>
+      <MarketValue>15.0</MarketValue>
+      <Mass>0.12</Mass>
+      <Flammability>0.6</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>Leathers</li>
+    </thingCategories>
+    <stuffProps>
+      <categories>
+        <li>Leathery</li>
+      </categories>
+      <commonality>0.05</commonality>
+      <statOffsets>
+        <WorkToMake>400</WorkToMake>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>1.8</MaxHitPoints>
+        <ArmorRating_Blunt>1.3</ArmorRating_Blunt>
+        <ArmorRating_Sharp>1.3</ArmorRating_Sharp>
+        <Insulation_Cold>0.25</Insulation_Cold>
+        <Insulation_Heat>0.25</Insulation_Heat>
+      </statFactors>
+    </stuffProps>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+
 </Defs>
