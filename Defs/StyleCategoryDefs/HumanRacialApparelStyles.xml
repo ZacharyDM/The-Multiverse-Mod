@@ -163,24 +163,6 @@
     </thingDefStyles>
   </StyleItemCategoryDef>
 
-  <!-- Na-Totambu Apparel Style - Ancient royal bloodlines -->
-  <StyleItemCategoryDef>
-    <defName>NaTotambu_Apparel</defName>
-    <label>Na-Totambu apparel</label>
-    <description>Refined ceremonial clothing and armor of the ancient Na-Totambu nobility, featuring the purest traditional designs with elaborate royal symbolism.</description>
-    <styleTags>
-      <li>NaTotambu</li>
-    </styleTags>
-    <thingDefStyles>
-      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/HumanRaces/NaTotambu/NaTotambu</Apparel_Parka>
-      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/HumanRaces/NaTotambu/NaTotambu</Apparel_Robe>
-      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/HumanRaces/NaTotambu/NaTotambu</Apparel_Tunic>
-      <Apparel_CollarShirt>Things/Pawn/Humanlike/Apparel/HumanRaces/NaTotambu/NaTotambu</Apparel_CollarShirt>
-      <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/HumanRaces/NaTotambu/NaTotambu</Apparel_FlakVest>
-      <Apparel_PlateArmor>Things/Pawn/Humanlike/Apparel/HumanRaces/NaTotambu/NaTotambu</Apparel_PlateArmor>
-    </thingDefStyles>
-  </StyleItemCategoryDef>
-
   <!-- Ansei Apparel Style - Sword-singer mysticism -->
   <StyleItemCategoryDef>
     <defName>Ansei_Apparel</defName>
@@ -196,6 +178,76 @@
       <Apparel_CollarShirt>Things/Pawn/Humanlike/Apparel/HumanRaces/Ansei/Ansei</Apparel_CollarShirt>
       <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/HumanRaces/Ansei/Ansei</Apparel_FlakVest>
       <Apparel_PlateArmor>Things/Pawn/Humanlike/Apparel/HumanRaces/Ansei/Ansei</Apparel_PlateArmor>
+
+  <!-- Eastmarcher Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>Eastmarcher_Apparel</defName>
+    <label>Eastmarcher apparel</label>
+    <description>Traditional Nordic clothing and armor from eastern Skyrim, featuring deep blues and silver with ancient runic patterns that preserve the oldest Nordic traditions.</description>
+    <styleTags>
+      <li>Eastmarcher</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/HumanRaces/Eastmarcher/Eastmarcher</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/HumanRaces/Eastmarcher/Eastmarcher</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/HumanRaces/Eastmarcher/Eastmarcher</Apparel_Tunic>
+      <Apparel_CollarShirt>Things/Pawn/Humanlike/Apparel/HumanRaces/Eastmarcher/Eastmarcher</Apparel_CollarShirt>
+      <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/HumanRaces/Eastmarcher/Eastmarcher</Apparel_FlakVest>
+      <Apparel_PlateArmor>Things/Pawn/Humanlike/Apparel/HumanRaces/Eastmarcher/Eastmarcher</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Westmarcher Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>Westmarcher_Apparel</defName>
+    <label>Westmarcher apparel</label>
+    <description>Adaptable Nordic clothing from western Skyrim, featuring grey and gold designs that blend traditional Nordic elements with cosmopolitan influences.</description>
+    <styleTags>
+      <li>Westmarcher</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/HumanRaces/Westmarcher/Westmarcher</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/HumanRaces/Westmarcher/Westmarcher</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/HumanRaces/Westmarcher/Westmarcher</Apparel_Tunic>
+      <Apparel_CollarShirt>Things/Pawn/Humanlike/Apparel/HumanRaces/Westmarcher/Westmarcher</Apparel_CollarShirt>
+      <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/HumanRaces/Westmarcher/Westmarcher</Apparel_FlakVest>
+      <Apparel_PlateArmor>Things/Pawn/Humanlike/Apparel/HumanRaces/Westmarcher/Westmarcher</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Skaal Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>Skaal_Apparel</defName>
+    <label>Skaal apparel</label>
+    <description>Ancient Nordic tribal clothing from Solstheim, featuring natural earth tones with spiritual symbols and patterns that reflect harmony with nature and the All-Maker.</description>
+    <styleTags>
+      <li>Skaal</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/HumanRaces/Skaal/Skaal</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/HumanRaces/Skaal/Skaal</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/HumanRaces/Skaal/Skaal</Apparel_Tunic>
+      <Apparel_CollarShirt>Things/Pawn/Humanlike/Apparel/HumanRaces/Skaal/Skaal</Apparel_CollarShirt>
+      <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/HumanRaces/Skaal/Skaal</Apparel_FlakVest>
+      <Apparel_PlateArmor>Things/Pawn/Humanlike/Apparel/HumanRaces/Skaal/Skaal</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Cyro-Nord Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>CyroNord_Apparel</defName>
+    <label>Cyro-Nord apparel</label>
+    <description>Sophisticated Nordic clothing influenced by Imperial culture, featuring refined designs in red and blue that bridge Nordic tradition with Imperial diplomatic elegance.</description>
+    <styleTags>
+      <li>CyroNord</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/HumanRaces/CyroNord/CyroNord</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/HumanRaces/CyroNord/CyroNord</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/HumanRaces/CyroNord/CyroNord</Apparel_Tunic>
+      <Apparel_CollarShirt>Things/Pawn/Humanlike/Apparel/HumanRaces/CyroNord/CyroNord</Apparel_CollarShirt>
+      <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/HumanRaces/CyroNord/CyroNord</Apparel_FlakVest>
+      <Apparel_PlateArmor>Things/Pawn/Humanlike/Apparel/HumanRaces/CyroNord/CyroNord</Apparel_PlateArmor>
     </thingDefStyles>
   </StyleItemCategoryDef>
 

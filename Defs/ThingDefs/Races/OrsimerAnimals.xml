@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Echatere: Giant tick-like pack animals used by Orcs -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Echatere</defName>
+    <label>echatere</label>
+    <description>A large, tick-like arthropod native to the harsh mountain regions where Orcs dwell. These hardy creatures are prized by Orsimer strongholds as pack animals capable of carrying enormous loads across treacherous terrain. Their chitinous shells provide excellent protection, and their multiple legs give them sure footing on rocky slopes.</description>
+    <statBases>
+      <MoveSpeed>3.2</MoveSpeed>
+      <MarketValue>600</MarketValue>
+      <ComfyTemperatureMin>-25</ComfyTemperatureMin>
+      <ComfyTemperatureMax>50</ComfyTemperatureMax>
+      <FilthRate>6</FilthRate>
+    </statBases>
+    <tools>
+      <li>
+        <label>mandibles</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2.5</cooldownTime>
+        <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+      <li>
+        <label>legs</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.8</cooldownTime>
+        <linkedBodyPartsGroup>Legs</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <tradeTags>
+      <li>AnimalOrsimerPack</li>
+    </tradeTags>
+    <race>
+      <body>BeetleLike</body>
+      <predator>false</predator>
+      <petness>0.6</petness>
+      <baseBodySize>1.8</baseBodySize>
+      <baseHungerRate>0.4</baseHungerRate>
+      <baseHealthScale>1.4</baseHealthScale>
+      <foodType>VegetarianRoughAnimal</foodType>
+      <leatherDef>Leather_Thick</leatherDef>
+      <wildness>0.3</wildness>
+      <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.02</manhunterOnDamageChance>
+      <nuzzleMtbHours>240</nuzzleMtbHours>
+      <lifeExpectancy>28</lifeExpectancy>
+      <mateMtbHours>8760</mateMtbHours>
+      <maturityAge>2.0</maturityAge>
+      <trainability>Advanced</trainability>
+      <packAnimal>true</packAnimal>
+      <gestationPeriodDays>75</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.5, 1)</li>
+          <li>(2, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.4</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>2.0</minAge>
+          <soundWounded>Pawn_Megaspider_Wounded</soundWounded>
+          <soundDeath>Pawn_Megaspider_Death</soundDeath>
+          <soundCall>Pawn_Megaspider_Call</soundCall>
+          <soundAngry>Pawn_Megaspider_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+  <!-- Stronghold Wolf: Domesticated wolves used by Orc strongholds -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>StrongholdWolf</defName>
+    <label>stronghold wolf</label>
+    <description>A large, hardy breed of wolf that has been domesticated by Orcish strongholds for generations. These powerful canines serve as guards, hunting companions, and war beasts. Their loyalty to their Orcish masters is legendary, and their thick fur allows them to thrive in harsh mountain climates.</description>
+    <statBases>
+      <MoveSpeed>5.5</MoveSpeed>
+      <MarketValue>350</MarketValue>
+      <ComfyTemperatureMin>-30</ComfyTemperatureMin>
+      <ComfyTemperatureMax>40</ComfyTemperatureMax>
+      <FilthRate>4</FilthRate>
+    </statBases>
+    <tools>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.7</chanceFactor>
+      </li>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <tradeTags>
+      <li>AnimalOrsimerWar</li>
+    </tradeTags>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <predator>true</predator>
+      <petness>0.8</petness>
+      <baseBodySize>0.9</baseBodySize>
+      <baseHungerRate>0.3</baseHungerRate>
+      <baseHealthScale>1.2</baseHealthScale>
+      <foodType>CarnivoreAnimal</foodType>
+      <leatherDef>Leather_Wolf</leatherDef>
+      <wildness>0.2</wildness>
+      <manhunterOnTameFailChance>0.08</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.1</manhunterOnDamageChance>
+      <nuzzleMtbHours>48</nuzzleMtbHours>
+      <lifeExpectancy>16</lifeExpectancy>
+      <mateMtbHours>8760</mateMtbHours>
+      <maturityAge>1.0</maturityAge>
+      <trainability>Advanced</trainability>
+      <gestationPeriodDays>50</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(3, 1.7)</li>
+          <li>(5, 0.1)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.2</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>1.0</minAge>
+          <soundWounded>Pawn_Warg_Wounded</soundWounded>
+          <soundDeath>Pawn_Warg_Death</soundDeath>
+          <soundCall>Pawn_Warg_Call</soundCall>
+          <soundAngry>Pawn_Warg_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+  <!-- Mountain Goat: Hardy livestock for high-altitude strongholds -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>MountainGoat</defName>
+    <label>mountain goat</label>
+    <description>A sturdy, sure-footed goat adapted to life in the harsh mountain regions where many Orc strongholds are built. These animals provide milk, meat, and warm fur, making them valuable livestock for communities living in high-altitude environments. Their ability to navigate treacherous terrain makes them excellent companions for mountain dwellers.</description>
+    <statBases>
+      <MoveSpeed>4.2</MoveSpeed>
+      <MarketValue>200</MarketValue>
+      <ComfyTemperatureMin>-35</ComfyTemperatureMin>
+      <ComfyTemperatureMax>35</ComfyTemperatureMax>
+      <FilthRate>8</FilthRate>
+    </statBases>
+    <tools>
+      <li>
+        <label>left hoof</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right hoof</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>horns</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.5</cooldownTime>
+        <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <tradeTags>
+      <li>AnimalOrsimerLivestock</li>
+    </tradeTags>
+    <race>
+      <body>QuadrupedAnimalWithHooves</body>
+      <predator>false</predator>
+      <petness>0.5</petness>
+      <baseBodySize>0.7</baseBodySize>
+      <baseHungerRate>0.25</baseHungerRate>
+      <baseHealthScale>0.9</baseHealthScale>
+      <foodType>VegetarianRoughAnimal</foodType>
+      <leatherDef>Leather_Plain</leatherDef>
+      <wildness>0.35</wildness>
+      <manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.01</manhunterOnDamageChance>
+      <nuzzleMtbHours>120</nuzzleMtbHours>
+      <lifeExpectancy>14</lifeExpectancy>
+      <mateMtbHours>8760</mateMtbHours>
+      <maturityAge>0.8</maturityAge>
+      <trainability>Simple</trainability>
+      <gestationPeriodDays>40</gestationPeriodDays>
+      <milkDef>Milk</milkDef>
+      <milkIntervalDays>2</milkIntervalDays>
+      <milkAmount>8</milkAmount>
+      <shearableDef>WoolSheep</shearableDef>
+      <shearIntervalDays>25</shearIntervalDays>
+      <woolAmount>40</woolAmount>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(2, 1.7)</li>
+          <li>(3, 0.1)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.15</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.8</minAge>
+          <soundWounded>Pawn_Alpaca_Wounded</soundWounded>
+          <soundDeath>Pawn_Alpaca_Death</soundDeath>
+          <soundCall>Pawn_Alpaca_Call</soundCall>
+          <soundAngry>Pawn_Alpaca_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallBash_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+  <!-- Wereboar: Large, aggressive boars used by some Orc tribes -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Wereboar</defName>
+    <label>wereboar</label>
+    <description>A massive, aggressive breed of boar with supernatural size and ferocity. These dangerous beasts are sometimes tamed by the most skilled Orc beast masters, serving as both war mounts and sources of food. Their thick hide and violent temperament make them formidable in combat, but extremely difficult to control.</description>
+    <statBases>
+      <MoveSpeed>4.8</MoveSpeed>
+      <MarketValue>800</MarketValue>
+      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+      <ComfyTemperatureMax>45</ComfyTemperatureMax>
+      <FilthRate>12</FilthRate>
+    </statBases>
+    <tools>
+      <li>
+        <label>tusks</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2.5</cooldownTime>
+        <linkedBodyPartsGroup>TuskAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <tradeTags>
+      <li>AnimalOrsimerWar</li>
+    </tradeTags>
+    <race>
+      <body>QuadrupedAnimalWithHooves</body>
+      <predator>false</predator>
+      <petness>0.3</petness>
+      <baseBodySize>1.5</baseBodySize>
+      <baseHungerRate>0.45</baseHungerRate>
+      <baseHealthScale>1.6</baseHealthScale>
+      <foodType>OmnivoreAnimal</foodType>
+      <leatherDef>Leather_Pig</leatherDef>
+      <wildness>0.75</wildness>
+      <manhunterOnTameFailChance>0.15</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.2</manhunterOnDamageChance>
+      <nuzzleMtbHours>480</nuzzleMtbHours>
+      <lifeExpectancy>18</lifeExpectancy>
+      <mateMtbHours>8760</mateMtbHours>
+      <maturityAge>1.2</maturityAge>
+      <trainability>Intermediate</trainability>
+      <gestationPeriodDays>55</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(4, 1.5)</li>
+          <li>(6, 0.1)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.25</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>1.2</minAge>
+          <soundWounded>Pawn_Boar_Wounded</soundWounded>
+          <soundDeath>Pawn_Boar_Death</soundDeath>
+          <soundCall>Pawn_Boar_Call</soundCall>
+          <soundAngry>Pawn_Boar_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+</Defs>

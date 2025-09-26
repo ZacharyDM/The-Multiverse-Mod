@@ -179,26 +179,6 @@
     </thingDefStyles>
   </StyleItemCategoryDef>
 
-  <!-- Na-Totambu Building Style - Ancient royal architecture -->
-  <StyleItemCategoryDef>
-    <defName>NaTotambu_Buildings</defName>
-    <label>Na-Totambu buildings</label>
-    <description>Refined architecture of the ancient Na-Totambu nobility, featuring the purest traditional Yokudan designs with elaborate royal symbolism and ceremonial elements.</description>
-    <styleTags>
-      <li>NaTotambu</li>
-    </styleTags>
-    <thingDefStyles>
-      <Wall>Things/Building/Linked/HumanRaces/NaTotambu/Wall</Wall>
-      <Door>Things/Building/Door/HumanRaces/NaTotambu/Door</Door>
-      <Bed>Things/Building/Furniture/HumanRaces/NaTotambu/Bed</Bed>
-      <Table2x2c>Things/Building/Furniture/HumanRaces/NaTotambu/Table</Table2x2c>
-      <DiningChair>Things/Building/Furniture/HumanRaces/NaTotambu/Chair</DiningChair>
-      <Campfire>Things/Building/Misc/HumanRaces/NaTotambu/Campfire</Campfire>
-      <Torch>Things/Building/Misc/HumanRaces/NaTotambu/Torch</Torch>
-      <SimpleResearchBench>Things/Building/Production/HumanRaces/NaTotambu/SimpleResearchBench</SimpleResearchBench>
-    </thingDefStyles>
-  </StyleItemCategoryDef>
-
   <!-- Ansei Building Style - Sword-singer training facilities -->
   <StyleItemCategoryDef>
     <defName>Ansei_Buildings</defName>
@@ -216,6 +196,84 @@
       <Campfire>Things/Building/Misc/HumanRaces/Ansei/Campfire</Campfire>
       <Torch>Things/Building/Misc/HumanRaces/Ansei/Torch</Torch>
       <SimpleResearchBench>Things/Building/Production/HumanRaces/Ansei/SimpleResearchBench</SimpleResearchBench>
+
+  <!-- Eastmarcher Building Style -->
+  <StyleItemCategoryDef>
+    <defName>Eastmarcher_Buildings</defName>
+    <label>Eastmarcher buildings</label>
+    <description>Traditional Nordic architecture from eastern Skyrim, featuring deep blue and silver designs with ancient runic carvings that preserve the oldest building traditions.</description>
+    <styleTags>
+      <li>Eastmarcher</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Things/Building/Linked/HumanRaces/Eastmarcher/Wall</Wall>
+      <Door>Things/Building/Door/HumanRaces/Eastmarcher/Door</Door>
+      <Bed>Things/Building/Furniture/HumanRaces/Eastmarcher/Bed</Bed>
+      <Table2x2c>Things/Building/Furniture/HumanRaces/Eastmarcher/Table</Table2x2c>
+      <DiningChair>Things/Building/Furniture/HumanRaces/Eastmarcher/Chair</DiningChair>
+      <Campfire>Things/Building/Misc/HumanRaces/Eastmarcher/Campfire</Campfire>
+      <Torch>Things/Building/Misc/HumanRaces/Eastmarcher/Torch</Torch>
+      <Stonecutting>Things/Building/Production/HumanRaces/Eastmarcher/Stonecutting</Stonecutting>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Westmarcher Building Style -->
+  <StyleItemCategoryDef>
+    <defName>Westmarcher_Buildings</defName>
+    <label>Westmarcher buildings</label>
+    <description>Adaptable Nordic architecture from western Skyrim, featuring grey and gold designs that blend traditional Nordic stonework with cosmopolitan architectural influences.</description>
+    <styleTags>
+      <li>Westmarcher</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Things/Building/Linked/HumanRaces/Westmarcher/Wall</Wall>
+      <Door>Things/Building/Door/HumanRaces/Westmarcher/Door</Door>
+      <Bed>Things/Building/Furniture/HumanRaces/Westmarcher/Bed</Bed>
+      <Table2x2c>Things/Building/Furniture/HumanRaces/Westmarcher/Table</Table2x2c>
+      <DiningChair>Things/Building/Furniture/HumanRaces/Westmarcher/Chair</DiningChair>
+      <Campfire>Things/Building/Misc/HumanRaces/Westmarcher/Campfire</Campfire>
+      <Torch>Things/Building/Misc/HumanRaces/Westmarcher/Torch</Torch>
+      <ResearchBench>Things/Building/Production/HumanRaces/Westmarcher/ResearchBench</ResearchBench>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Skaal Building Style -->
+  <StyleItemCategoryDef>
+    <defName>Skaal_Buildings</defName>
+    <label>Skaal buildings</label>
+    <description>Ancient tribal architecture of the Skaal, featuring natural materials and earth tones with organic designs that harmonize with the natural environment of Solstheim.</description>
+    <styleTags>
+      <li>Skaal</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Things/Building/Linked/HumanRaces/Skaal/Wall</Wall>
+      <Door>Things/Building/Door/HumanRaces/Skaal/Door</Door>
+      <Bed>Things/Building/Furniture/HumanRaces/Skaal/Bed</Bed>
+      <Table2x2c>Things/Building/Furniture/HumanRaces/Skaal/Table</Table2x2c>
+      <DiningChair>Things/Building/Furniture/HumanRaces/Skaal/Chair</DiningChair>
+      <Campfire>Things/Building/Misc/HumanRaces/Skaal/Campfire</Campfire>
+      <Torch>Things/Building/Misc/HumanRaces/Skaal/Torch</Torch>
+      <DrugLab>Things/Building/Production/HumanRaces/Skaal/DrugLab</DrugLab>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Cyro-Nord Building Style -->
+  <StyleItemCategoryDef>
+    <defName>CyroNord_Buildings</defName>
+    <label>Cyro-Nord buildings</label>
+    <description>Sophisticated Nordic architecture influenced by Imperial design, featuring refined construction with red and blue elements that bridge Nordic tradition with Imperial elegance.</description>
+    <styleTags>
+      <li>CyroNord</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Things/Building/Linked/HumanRaces/CyroNord/Wall</Wall>
+      <Door>Things/Building/Door/HumanRaces/CyroNord/Door</Door>
+      <Bed>Things/Building/Furniture/HumanRaces/CyroNord/Bed</Bed>
+      <Table2x2c>Things/Building/Furniture/HumanRaces/CyroNord/Table</Table2x2c>
+      <DiningChair>Things/Building/Furniture/HumanRaces/CyroNord/Chair</DiningChair>
+      <Campfire>Things/Building/Misc/HumanRaces/CyroNord/Campfire</Campfire>
+      <Torch>Things/Building/Misc/HumanRaces/CyroNord/Torch</Torch>
+      <ResearchBench>Things/Building/Production/HumanRaces/CyroNord/ResearchBench</ResearchBench>
     </thingDefStyles>
   </StyleItemCategoryDef>
 

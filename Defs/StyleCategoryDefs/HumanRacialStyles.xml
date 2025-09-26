@@ -43,6 +43,34 @@
     <description>The hardy Nord style represents the fierce warriors of Skyrim, featuring grey and blue practical designs with Nordic patterns suited for harsh climates and independent living.</description>
   </StyleCategoryDef>
 
+  <!-- Eastmarcher Style - Traditional Nord culture -->
+  <StyleCategoryDef>
+    <defName>Eastmarcher</defName>
+    <label>Eastmarcher</label>
+    <description>The traditional Eastmarcher style embodies the most conservative Nordic culture, featuring deep blues and silver with ancient Nordic runes and clan symbols that preserve the oldest traditions of Skyrim.</description>
+  </StyleCategoryDef>
+
+  <!-- Westmarcher Style - Cosmopolitan Nord culture -->
+  <StyleCategoryDef>
+    <defName>Westmarcher</defName>
+    <label>Westmarcher</label>
+    <description>The adaptable Westmarcher style blends Nordic tradition with cosmopolitan influences, featuring grey and gold designs that reflect the cultural diversity of western Skyrim's holds.</description>
+  </StyleCategoryDef>
+
+  <!-- Skaal Style - Ancient Solstheim traditions -->
+  <StyleCategoryDef>
+    <defName>Skaal</defName>
+    <label>Skaal</label>
+    <description>The mystical Skaal style preserves the most ancient Nordic traditions, featuring natural earth tones with spiritual symbols and patterns that reflect their harmony with nature and the All-Maker.</description>
+  </StyleCategoryDef>
+
+  <!-- Cyro-Nord Style - Imperial-influenced Nords -->
+  <StyleCategoryDef>
+    <defName>CyroNord</defName>
+    <label>Cyro-Nord</label>
+    <description>The diplomatic Cyro-Nord style combines Nordic heritage with Imperial sophistication, featuring refined designs in red and blue that bridge the gap between Nordic tradition and Imperial culture.</description>
+  </StyleCategoryDef>
+
   <!-- Redguard Style -->
   <StyleCategoryDef>
     <defName>Redguard</defName>

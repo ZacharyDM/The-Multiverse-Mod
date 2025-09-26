@@ -1,24 +1,222 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FactionDefs>
-  <!-- Orsimer Strongholds Faction -->
+  <!-- Wood Orcs Faction - Valenwood Orcs -->
   <FactionDef>
-    <defName>OrsimerStrongholds</defName>
-    <label>Orsimer Strongholds</label>
-    <description>Independent Orsimer strongholds scattered across the harsh mountainous regions. These proud warrior-smiths maintain their ancient traditions of metalworking and honor-based society. They are renowned for their exceptional craftsmanship with rare materials like malachite and ebony, which they trade at premium prices to worthy allies.</description>
-    <color>(0.2, 0.6, 0.2, 1)</color>
+    <defName>WoodOrcs</defName>
+    <label>Wood Orcs</label>
+    <description>Orsimer tribes that have adapted to life in the forests of Valenwood, blending traditional Orc strength with Bosmeri forest wisdom. They are skilled hunters and craftsmen who respect the Green Pact while maintaining their warrior traditions.</description>
+    <color>(0.15, 0.5, 0.2, 1)</color>
     <allowedRaceDefs>
       <li>Orsimer</li>
     </allowedRaceDefs>
     <techLevel>Medieval</techLevel>
     <hidden>false</hidden>
     <requiredCountAtGameStart>0</requiredCountAtGameStart>
-    <maxCountAtGameStart>2</maxCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
-    <leaderTitle>Stronghold Chief</leaderTitle>
-    <factionIconPath>UI/Factions/OrsimerStronghold</factionIconPath>
-    <settlementGenerationWeight>0.8</settlementGenerationWeight>
+    <leaderTitle>Forest Chief</leaderTitle>
+    <factionIconPath>UI/Factions/WoodOrcs</factionIconPath>
+    <settlementGenerationWeight>0.6</settlementGenerationWeight>
+    <caravanTraderKinds>
+      <li>OrsimerAnimalTrader</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>OrsimerAnimalTrader</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>OrsimerAnimalTrader</li>
+    </baseTraderKinds>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
+    </requiredMemes>
+  </FactionDef>
+
+  <!-- Iron Orcs Faction - Dragontail Mountain Orcs -->
+  <FactionDef>
+    <defName>IronOrcs</defName>
+    <label>Iron Orcs</label>
+    <description>Orsimer clans dwelling in the harsh Dragontail Mountains, renowned as the greatest metalworkers and miners among all Orc tribes. They work with the rarest ores and maintain fiercely independent mountain strongholds.</description>
+    <color>(0.4, 0.4, 0.4, 1)</color>
+    <allowedRaceDefs>
+      <li>Orsimer</li>
+    </allowedRaceDefs>
+    <techLevel>Medieval</techLevel>
+    <hidden>false</hidden>
+    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>Forge Master</leaderTitle>
+    <factionIconPath>UI/Factions/IronOrcs</factionIconPath>
+    <settlementGenerationWeight>0.7</settlementGenerationWeight>
+    <caravanTraderKinds>
+      <li>OrsimerSpecialResourceTrader</li>
+      <li>OrsimerAnimalTrader</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>OrsimerSpecialResourceTrader</li>
+      <li>OrsimerAnimalTrader</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>OrsimerSpecialResourceTrader</li>
+      <li>OrsimerAnimalTrader</li>
+    </baseTraderKinds>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+    </requiredMemes>
+  </FactionDef>
+
+  <!-- Orsinium Faction - City Orcs -->
+  <FactionDef>
+    <defName>Orsinium</defName>
+    <label>Orsinium</label>
+    <description>The great Orcish city-state in the Wrothgarian Mountains, representing the pinnacle of Orcish civilization. Orsinium balances traditional Orc values with diplomatic sophistication and urban development.</description>
+    <color>(0.3, 0.6, 0.3, 1)</color>
+    <allowedRaceDefs>
+      <li>Orsimer</li>
+    </allowedRaceDefs>
+    <techLevel>Medieval</techLevel>
+    <hidden>false</hidden>
+    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>King of Orsinium</leaderTitle>
+    <factionIconPath>UI/Factions/Orsinium</factionIconPath>
+    <settlementGenerationWeight>0.9</settlementGenerationWeight>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+    </requiredMemes>
+  </FactionDef>
+
+  <!-- Dushnikh Yal Stronghold -->
+  <FactionDef>
+    <defName>DushnikhYal</defName>
+    <label>Dushnikh Yal</label>
+    <description>One of the most traditional and disciplined Orcish strongholds, known throughout Tamriel for their exceptional armor smithing and unwavering adherence to the Code of Malacath. They produce the finest Orcish armor.</description>
+    <color>(0.25, 0.45, 0.25, 1)</color>
+    <allowedRaceDefs>
+      <li>Orsimer</li>
+    </allowedRaceDefs>
+    <techLevel>Medieval</techLevel>
+    <hidden>false</hidden>
+    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>Chief of Dushnikh Yal</leaderTitle>
+    <factionIconPath>UI/Factions/DushnikhYal</factionIconPath>
+    <settlementGenerationWeight>0.5</settlementGenerationWeight>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+    </requiredMemes>
+  </FactionDef>
+
+  <!-- Largashbur Stronghold -->
+  <FactionDef>
+    <defName>Largashbur</defName>
+    <label>Largashbur</label>
+    <description>An Orcish stronghold known for its shamanic traditions and deep spiritual connection to Malacath. The Orcs of Largashbur are skilled beast masters and maintain the spiritual aspects of traditional Orcish culture.</description>
+    <color>(0.35, 0.5, 0.25, 1)</color>
+    <allowedRaceDefs>
+      <li>Orsimer</li>
+    </allowedRaceDefs>
+    <techLevel>Medieval</techLevel>
+    <hidden>false</hidden>
+    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>Chief of Largashbur</leaderTitle>
+    <factionIconPath>UI/Factions/Largashbur</factionIconPath>
+    <settlementGenerationWeight>0.5</settlementGenerationWeight>
+    <caravanTraderKinds>
+      <li>OrsimerAnimalTrader</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>OrsimerAnimalTrader</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>OrsimerAnimalTrader</li>
+    </baseTraderKinds>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">AnimistSimple</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+    </requiredMemes>
+  </FactionDef>
+
+  <!-- Mor Khazgur Stronghold -->
+  <FactionDef>
+    <defName>MorKhazgur</defName>
+    <label>Mor Khazgur</label>
+    <description>A powerful Orcish stronghold renowned for producing the finest weapons in all of Tamriel. The weapon masters of Mor Khazgur are legendary for their skill in both forging and wielding the deadliest blades.</description>
+    <color>(0.2, 0.55, 0.3, 1)</color>
+    <allowedRaceDefs>
+      <li>Orsimer</li>
+    </allowedRaceDefs>
+    <techLevel>Medieval</techLevel>
+    <hidden>false</hidden>
+    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>Chief of Mor Khazgur</leaderTitle>
+    <factionIconPath>UI/Factions/MorKhazgur</factionIconPath>
+    <settlementGenerationWeight>0.6</settlementGenerationWeight>
+    <caravanTraderKinds>
+      <li>OrsimerSpecialResourceTrader</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>OrsimerSpecialResourceTrader</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>OrsimerSpecialResourceTrader</li>
+    </baseTraderKinds>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+    </requiredMemes>
+  </FactionDef>
+
+  <!-- Narzulbur Stronghold -->
+  <FactionDef>
+    <defName>Narzulbur</defName>
+    <label>Narzulbur</label>
+    <description>An Orcish stronghold famous for their mining expertise and mastery of rare ore processing. The miners of Narzulbur extract and work with the most precious metals and gems found in the deepest mountain veins.</description>
+    <color>(0.4, 0.5, 0.2, 1)</color>
+    <allowedRaceDefs>
+      <li>Orsimer</li>
+    </allowedRaceDefs>
+    <techLevel>Medieval</techLevel>
+    <hidden>false</hidden>
+    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>Chief of Narzulbur</leaderTitle>
+    <factionIconPath>UI/Factions/Narzulbur</factionIconPath>
+    <settlementGenerationWeight>0.5</settlementGenerationWeight>
+    <caravanTraderKinds>
+      <li>OrsimerSpecialResourceTrader</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>OrsimerSpecialResourceTrader</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>OrsimerSpecialResourceTrader</li>
+    </baseTraderKinds>
     <requiredMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
