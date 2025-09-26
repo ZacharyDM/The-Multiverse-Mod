@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Orichalcum - Legendary Orsimer Metal -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>Orichalcum</defName>
+    <label>orichalcum</label>
+    <description>An extraordinarily rare and mystical metal known only to the greatest Orsimer smiths. This legendary golden-green alloy possesses properties that surpass even ebony, said to be blessed by Malacath himself. Orichalcum can only be found in the deepest mountain veins and its secrets are jealously guarded by the Orsimer strongholds. The metal radiates with an otherworldly energy and is considered sacred among Orcish culture.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Orichalcum</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>15</stackLimit>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>1.0</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>20</Beauty>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+      <li>LegendaryResource</li>
+      <li>OrsimerTech</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>4</glowRadius>
+        <glowColor>(255,215,0,50)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Orichalcum Ingot - Processed Sacred Metal -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>OrichalcumIngot</defName>
+    <label>orichalcum ingot</label>
+    <description>A refined ingot of orichalcum, forged using sacred Orsimer techniques passed down through generations of master smiths. The ingot pulses with golden light and emanates an aura of divine craftsmanship. This legendary material can only be worked by those who have learned the ancient Orsimer metallurgical secrets, making it the most coveted crafting material in all of Tamriel.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/OrichalcumIngot</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>10</stackLimit>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+      <Mass>1.5</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>25</Beauty>
+    </statBases>
+    <thingCategories>
+      <li>Metallic</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+      <li>LegendaryResource</li>
+      <li>OrsimerTech</li>
+    </tradeTags>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <statOffsets>
+        <WorkToMake>2000</WorkToMake>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>4.5</MaxHitPoints>
+        <Beauty>6.0</Beauty>
+        <WorkToMake>0.3</WorkToMake>
+        <WorkToBuild>0.3</WorkToBuild>
+        <Mass>0.2</Mass>
+        <SharpDamageMultiplier>2.8</SharpDamageMultiplier>
+        <BluntDamageMultiplier>2.5</BluntDamageMultiplier>
+      </statFactors>
+      <color>(255,215,100)</color>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>5</glowRadius>
+        <glowColor>(255,215,100,75)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>
