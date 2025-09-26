@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Malacath Worship Deity Names -->
+  <RulePackDef>
+    <defName>OrsimerMalachDeityNames</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>Malacath->Malacath</li>
+        <li>Malacath->Malacath the Spurned</li>
+        <li>Malacath->Malacath the Outcast Prince</li>
+        <li>Malacath->The Daedric Prince of Curses</li>
+        <li>Malacath->Father of Orcs</li>
+        <li>Malacath->Lord of the Ostracized</li>
+        <li>Malacath->The Patron of Pariahs</li>
+        <li>Malacath->Keeper of the Strongholds</li>
+        <li>Malacath->The Vengeful</li>
+        <li>Malacath->Malak the Spurned God</li>
+        <li>Malacath->Mauloch</li>
+        <li>Malacath->The Ashpit's Master</li>
+        
+        <!-- Stronghold Spirits and Heroes -->
+        <li>strongholdSpirit->the spirit of [strongholdFounder]</li>
+        <li>strongholdSpirit->the guardian of [strongholdName]</li>
+        <li>strongholdSpirit->[heroicAncestor] the [heroicTitle]</li>
+        
+        <li>strongholdFounder->Yashnag</li>
+        <li>strongholdFounder->Gorzoth</li>
+        <li>strongholdFounder->Umurn</li>
+        <li>strongholdFounder->Bagrak</li>
+        <li>strongholdFounder->Shargol</li>
+        <li>strongholdFounder->Murgul</li>
+        <li>strongholdFounder->Ghorbash</li>
+        <li>strongholdFounder->Ugor</li>
+        
+        <li>strongholdName->the Iron Keep</li>
+        <li>strongholdName->the Stone Halls</li>
+        <li>strongholdName->the Mountain Forge</li>
+        <li>strongholdName->the Ancient Stronghold</li>
+        
+        <li>heroicAncestor->Durgoth</li>
+        <li>heroicAncestor->Ghamorz</li>
+        <li>heroicAncestor->Malog</li>
+        <li>heroicAncestor->Yamarz</li>
+        <li>heroicAncestor->Burguk</li>
+        <li>heroicAncestor->Gularzob</li>
+        
+        <li>heroicTitle->the Forge Master</li>
+        <li>heroicTitle->the War Chief</li>
+        <li>heroicTitle->the Mountain Breaker</li>
+        <li>heroicTitle->the Beast Slayer</li>
+        <li>heroicTitle->the Iron-Fisted</li>
+        <li>heroicTitle->the Stronghold Builder</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <!-- Trinimac Worship Deity Names -->
+  <RulePackDef>
+    <defName>OrsimerTrinimacDeityNames</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>Trinimac->Trinimac</li>
+        <li>Trinimac->Trinimac the Strong</li>
+        <li>Trinimac->The Strongest of the et'Ada</li>
+        <li>Trinimac->Champion of Order</li>
+        <li>Trinimac->The Golden Champion</li>
+        <li>Trinimac->Sword of the Aedra</li>
+        <li>Trinimac->The Uncorrupted</li>
+        <li>Trinimac->Lord of Honor</li>
+        <li>Trinimac->The First Knight</li>
+        <li>Trinimac->Guardian of Truth</li>
+        <li>Trinimac->The Unyielding</li>
+        <li>Trinimac->Defender of the Faithful</li>
+        
+        <!-- Aspects and Manifestations -->
+        <li>trinimacAspect->[aspect] of Trinimac</li>
+        <li>trinimacAspect->The [virtue] Trinimac</li>
+        
+        <li>aspect->the Strength</li>
+        <li>aspect->the Honor</li>
+        <li>aspect->the Valor</li>
+        <li>aspect->the Justice</li>
+        <li>aspect->the Truth</li>
+        <li>aspect->the Glory</li>
+        
+        <li>virtue->Righteous</li>
+        <li>virtue->Valorous</li>
+        <li>virtue->Honorable</li>
+        <li>virtue->Just</li>
+        <li>virtue->Pure</li>
+        <li>virtue->Radiant</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <!-- Orsimer Ancestor Worship Deity Names -->
+  <RulePackDef>
+    <defName>OrsimerAncestorDeityNames</defName>
+    <rulePack>
+      <rulesStrings>
+        <!-- Legendary Ancestors -->
+        <li>ancestorSpirit->[ancestorName] the [ancestorTitle]</li>
+        <li>ancestorSpirit->the spirit of [ancestorName]</li>
+        <li>ancestorSpirit->[clanFounder] [foundingTitle]</li>
+        
+        <li>ancestorName->Malacath</li>
+        <li>ancestorName->Gortwog</li>
+        <li>ancestorName->Kurdan</li>
+        <li>ancestorName->Torug</li>
+        <li>ancestorName->Baloth</li>
+        <li>ancestorName->Morkul</li>
+        <li>ancestorName->Dushnikh</li>
+        <li>ancestorName->Largash</li>
+        <li>ancestorName->Khazgur</li>
+        <li>ancestorName->Narzul</li>
+        <li>ancestorName->Ghorza</li>
+        <li>ancestorName->Ulag</li>
+        <li>ancestorName->Shagrol</li>
+        
+        <li>ancestorTitle->First Chief</li>
+        <li>ancestorTitle->Forge Father</li>
+        <li>ancestorTitle->War Mother</li>
+        <li>ancestorTitle->Stone Breaker</li>
+        <li>ancestorTitle->Beast Master</li>
+        <li>ancestorTitle->Iron Shaper</li>
+        <li>ancestorTitle->Mountain Walker</li>
+        <li>ancestorTitle->Clan Founder</li>
+        <li>ancestorTitle->Shield Maiden</li>
+        <li>ancestorTitle->Hammer Bearer</li>
+        
+        <li>clanFounder->Dushnikh</li>
+        <li>clanFounder->Largash</li>
+        <li>clanFounder->Mor</li>
+        <li>clanFounder->Narzul</li>
+        <li>clanFounder->Burguk</li>
+        <li>clanFounder->Yamarz</li>
+        <li>clanFounder->Gularzob</li>
+        
+        <li>foundingTitle->the Stronghold Builder</li>
+        <li>foundingTitle->the First of the Clan</li>
+        <li>foundingTitle->the Mountain Claimer</li>
+        <li>foundingTitle->the Stone Setter</li>
+        <li>foundingTitle->the Tribe Leader</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

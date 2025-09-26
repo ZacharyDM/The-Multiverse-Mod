@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Wood Orc Building Style -->
+  <StyleItemLikeCategoryDef>
+    <defName>WoodOrc_Buildings</defName>
+    <label>Wood Orc buildings</label>
+    <description>Forest-adapted structures built by Wood Orcs, combining traditional Orcish stonework with wooden elements that honor the Green Pact and blend into forest environments.</description>
+    <styleTags>
+      <li>WoodOrc</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Building/WoodOrc/WoodOrc</Wall>
+      <Door>Building/WoodOrc/WoodOrc</Door>
+      <Bed>Building/WoodOrc/WoodOrc</Bed>
+      <Table2x2c>Building/WoodOrc/WoodOrc</Table2x2c>
+      <Table2x4c>Building/WoodOrc/WoodOrc</Table2x4c>
+      <DiningChair>Building/WoodOrc/WoodOrc</DiningChair>
+      <Dresser>Building/WoodOrc/WoodOrc</Dresser>
+      <EndTable>Building/WoodOrc/WoodOrc</EndTable>
+    </thingDefStyles>
+  </StyleItemLikeCategoryDef>
+
+  <!-- Iron Orc Building Style -->
+  <StyleItemLikeCategoryDef>
+    <defName>IronOrc_Buildings</defName>
+    <label>Iron Orc buildings</label>
+    <description>Mountain fortress structures built by Iron Orcs, featuring heavy stone and metal construction with angular designs that reflect their mastery of rare mountain ores.</description>
+    <styleTags>
+      <li>IronOrc</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Building/IronOrc/IronOrc</Wall>
+      <Door>Building/IronOrc/IronOrc</Door>
+      <Bed>Building/IronOrc/IronOrc</Bed>
+      <Table2x2c>Building/IronOrc/IronOrc</Table2x2c>
+      <Table2x4c>Building/IronOrc/IronOrc</Table2x4c>
+      <DiningChair>Building/IronOrc/IronOrc</DiningChair>
+      <Dresser>Building/IronOrc/IronOrc</Dresser>
+      <EndTable>Building/IronOrc/IronOrc</EndTable>
+    </thingDefStyles>
+  </StyleItemLikeCategoryDef>
+
+  <!-- City Orc Building Style -->
+  <StyleItemLikeCategoryDef>
+    <defName>CityOrc_Buildings</defName>
+    <label>City Orc buildings</label>
+    <description>Sophisticated urban structures from Orsinium, combining traditional Orcish architectural elements with refined city planning and elegant decorative features.</description>
+    <styleTags>
+      <li>CityOrc</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Building/CityOrc/CityOrc</Wall>
+      <Door>Building/CityOrc/CityOrc</Door>
+      <Bed>Building/CityOrc/CityOrc</Bed>
+      <Table2x2c>Building/CityOrc/CityOrc</Table2x2c>
+      <Table2x4c>Building/CityOrc/CityOrc</Table2x4c>
+      <DiningChair>Building/CityOrc/CityOrc</DiningChair>
+      <Dresser>Building/CityOrc/CityOrc</Dresser>
+      <EndTable>Building/CityOrc/CityOrc</EndTable>
+    </thingDefStyles>
+  </StyleItemLikeCategoryDef>
+
+  <!-- Stronghold Orc Building Style -->
+  <StyleItemLikeCategoryDef>
+    <defName>StrongholdOrc_Buildings</defName>
+    <label>Stronghold Orc buildings</label>
+    <description>Traditional stronghold structures built according to ancient Orcish methods, featuring rough-hewn stone and metal with tribal decorations that honor Malacath.</description>
+    <styleTags>
+      <li>StrongholdOrc</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Building/StrongholdOrc/StrongholdOrc</Wall>
+      <Door>Building/StrongholdOrc/StrongholdOrc</Door>
+      <Bed>Building/StrongholdOrc/StrongholdOrc</Bed>
+      <Table2x2c>Building/StrongholdOrc/StrongholdOrc</Table2x2c>
+      <Table2x4c>Building/StrongholdOrc/StrongholdOrc</Table2x4c>
+      <DiningChair>Building/StrongholdOrc/StrongholdOrc</DiningChair>
+      <Dresser>Building/StrongholdOrc/StrongholdOrc</Dresser>
+      <EndTable>Building/StrongholdOrc/StrongholdOrc</EndTable>
+    </thingDefStyles>
+  </StyleItemLikeCategoryDef>
+
+  <!-- Dushnikh Yal Building Style -->
+  <StyleItemLikeCategoryDef>
+    <defName>DushnikhYal_Buildings</defName>
+    <label>Dushnikh Yal buildings</label>
+    <description>Fortress-like structures from Dushnikh Yal, featuring reinforced construction and layered defensive elements that reflect their focus on armor and protection.</description>
+    <styleTags>
+      <li>DushnikhYal</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Building/DushnikhYal/DushnikhYal</Wall>
+      <Door>Building/DushnikhYal/DushnikhYal</Door>
+      <Bed>Building/DushnikhYal/DushnikhYal</Bed>
+      <Table2x2c>Building/DushnikhYal/DushnikhYal</Table2x2c>
+      <Table2x4c>Building/DushnikhYal/DushnikhYal</Table2x4c>
+      <DiningChair>Building/DushnikhYal/DushnikhYal</DiningChair>
+      <Dresser>Building/DushnikhYal/DushnikhYal</Dresser>
+      <EndTable>Building/DushnikhYal/DushnikhYal</EndTable>
+    </thingDefStyles>
+  </StyleItemLikeCategoryDef>
+
+  <!-- Largashbur Building Style -->
+  <StyleItemLikeCategoryDef>
+    <defName>Largashbur_Buildings</defName>
+    <label>Largashbur buildings</label>
+    <description>Shamanic structures from Largashbur, incorporating spiritual totems and natural elements with traditional stonework to create buildings that honor their connection to the spirit world.</description>
+    <styleTags>
+      <li>Largashbur</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Building/Largashbur/Largashbur</Wall>
+      <Door>Building/Largashbur/Largashbur</Door>
+      <Bed>Building/Largashbur/Largashbur</Bed>
+      <Table2x2c>Building/Largashbur/Largashbur</Table2x2c>
+      <Table2x4c>Building/Largashbur/Largashbur</Table2x4c>
+      <DiningChair>Building/Largashbur/Largashbur</DiningChair>
+      <Dresser>Building/Largashbur/Largashbur</Dresser>
+      <EndTable>Building/Largashbur/Largashbur</EndTable>
+    </thingDefStyles>
+  </StyleItemLikeCategoryDef>
+
+  <!-- Mor Khazgur Building Style -->
+  <StyleItemLikeCategoryDef>
+    <defName>MorKhazgur_Buildings</defName>
+    <label>Mor Khazgur buildings</label>
+    <description>Weapon-master structures from Mor Khazgur, featuring sharp angles and blade-like architectural elements that reflect their legendary expertise in weapon crafting.</description>
+    <styleTags>
+      <li>MorKhazgur</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Building/MorKhazgur/MorKhazgur</Wall>
+      <Door>Building/MorKhazgur/MorKhazgur</Door>
+      <Bed>Building/MorKhazgur/MorKhazgur</Bed>
+      <Table2x2c>Building/MorKhazgur/MorKhazgur</Table2x2c>
+      <Table2x4c>Building/MorKhazgur/MorKhazgur</Table2x4c>
+      <DiningChair>Building/MorKhazgur/MorKhazgur</DiningChair>
+      <Dresser>Building/MorKhazgur/MorKhazgur</Dresser>
+      <EndTable>Building/MorKhazgur/MorKhazgur</EndTable>
+    </thingDefStyles>
+  </StyleItemLikeCategoryDef>
+
+  <!-- Narzulbur Building Style -->
+  <StyleItemLikeCategoryDef>
+    <defName>Narzulbur_Buildings</defName>
+    <label>Narzulbur buildings</label>
+    <description>Mining-inspired structures from Narzulbur, featuring geometric patterns based on crystal formations and ore veins, built with the finest materials their mining expertise provides.</description>
+    <styleTags>
+      <li>Narzulbur</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Building/Narzulbur/Narzulbur</Wall>
+      <Door>Building/Narzulbur/Narzulbur</Door>
+      <Bed>Building/Narzulbur/Narzulbur</Bed>
+      <Table2x2c>Building/Narzulbur/Narzulbur</Table2x2c>
+      <Table2x4c>Building/Narzulbur/Narzulbur</Table2x4c>
+      <DiningChair>Building/Narzulbur/Narzulbur</DiningChair>
+      <Dresser>Building/Narzulbur/Narzulbur</Dresser>
+      <EndTable>Building/Narzulbur/Narzulbur</EndTable>
+    </thingDefStyles>
+  </StyleItemLikeCategoryDef>
+
+</Defs>

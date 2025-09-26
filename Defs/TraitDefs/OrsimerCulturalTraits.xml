@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Orsimer Cultural Traits -->
+
+  <!-- Wood Orc Heritage - Valenwood orcs -->
+  <TraitDef>
+    <defName>WoodOrcHeritage</defName>
+    <label>Wood Orc Heritage</label>
+    <description>This Orsimer comes from the Valenwood tribes, blending traditional Orcish strength with Bosmeri forest wisdom. Wood Orcs are skilled hunters and have adapted to living in harmony with the Green Pact.</description>
+    <degreeDatas>
+      <li>
+        <label>Forest Stronghold</label>
+        <description>Raised in the forests of Valenwood, this Orc combines traditional smithing with archery and forest survival skills.</description>
+        <skillGains>
+          <Melee>3</Melee>
+          <Shooting>3</Shooting>
+          <Crafting>2</Crafting>
+          <Animals>2</Animals>
+          <Plants>1</Plants>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.03</MeleeHitChance>
+          <ShootingAccuracyPawn>0.04</ShootingAccuracyPawn>
+          <MoveSpeed>0.15</MoveSpeed>
+          <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.2</biostatCpxFactor>
+    <exclusionTags>
+      <li>OrsimerCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Iron Orc Heritage - Dragontail Mountain orcs -->
+  <TraitDef>
+    <defName>IronOrcHeritage</defName>
+    <label>Iron Orc Heritage</label>
+    <description>This Orsimer comes from the Dragontail Mountains, known for their exceptional metalworking and mining skills. Iron Orcs are master smiths who work with the rarest metals and are fiercely independent.</description>
+    <degreeDatas>
+      <li>
+        <label>Mountain Forge Master</label>
+        <description>Born in the harsh mountain strongholds, this Orc has unmatched skills in metalworking and an intimate knowledge of rare ores.</description>
+        <skillGains>
+          <Crafting>5</Crafting>
+          <Mining>4</Mining>
+          <Melee>3</Melee>
+          <Construction>2</Construction>
+        </skillGains>
+        <statOffsets>
+          <WorkSpeedGlobal>0.12</WorkSpeedGlobal>
+          <MeleeDamageAmount>0.08</MeleeDamageAmount>
+          <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.3</biostatCpxFactor>
+    <exclusionTags>
+      <li>OrsimerCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- City Orc Heritage - Wrothgarian Mountain Orc -->
+  <TraitDef>
+    <defName>CityOrcHeritage</defName>
+    <label>City Orc Heritage</label>
+    <description>This Orsimer comes from the civilized city of Orsinium in the Wrothgarian Mountains. City Orcs balance traditional Orcish values with urban sophistication and diplomatic skills.</description>
+    <degreeDatas>
+      <li>
+        <label>Orsinium Citizen</label>
+        <description>Raised in the grand city of Orsinium, this Orc combines traditional strength with education, diplomacy, and urban sophistication.</description>
+        <skillGains>
+          <Melee>3</Melee>
+          <Crafting>3</Crafting>
+          <Social>3</Social>
+          <Intellectual>2</Intellectual>
+          <Construction>2</Construction>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.04</MeleeHitChance>
+          <SocialImpact>0.08</SocialImpact>
+          <TradePriceImprovement>0.06</TradePriceImprovement>
+          <WorkSpeedGlobal>0.06</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.25</biostatCpxFactor>
+    <exclusionTags>
+      <li>OrsimerCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Stronghold Orc Base Heritage -->
+  <TraitDef>
+    <defName>StrongholdOrcHeritage</defName>
+    <label>Stronghold Orc Heritage</label>
+    <description>This Orsimer comes from one of the traditional strongholds, following the ancient ways of Malacath. Stronghold Orcs live by the Code of Malacath and maintain the oldest Orcish traditions.</description>
+    <degreeDatas>
+      <li>
+        <label>Code of Malacath</label>
+        <description>Raised in the traditional ways of the strongholds, this Orc follows the ancient code and excels in combat, smithing, and clan loyalty.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Crafting>3</Crafting>
+          <Mining>2</Mining>
+          <Construction>2</Construction>
+          <Social>1</Social>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageAmount>0.12</MeleeDamageAmount>
+          <MeleeHitChance>0.05</MeleeHitChance>
+          <WorkSpeedGlobal>0.08</WorkSpeedGlobal>
+          <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.2</biostatCpxFactor>
+    <exclusionTags>
+      <li>OrsimerCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Specific Stronghold Traits -->
+
+  <!-- Dushnikh Yal Heritage -->
+  <TraitDef>
+    <defName>DushnikhYalHeritage</defName>
+    <label>Dushnikh Yal Heritage</label>
+    <description>This Orsimer belongs to Dushnikh Yal stronghold, known for their exceptional armor smithing and disciplined warrior culture. They are among the most traditional and honor-bound of all Orcs.</description>
+    <degreeDatas>
+      <li>
+        <label>Armor Master</label>
+        <description>Born in Dushnikh Yal, this Orc specializes in creating the finest armor and maintaining the highest combat standards.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Crafting>4</Crafting>
+          <Construction>2</Construction>
+          <Mining>2</Mining>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageAmount>0.1</MeleeDamageAmount>
+          <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+          <WorkSpeedGlobal>0.06</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.25</biostatCpxFactor>
+    <exclusionTags>
+      <li>OrsimerCulture</li>
+      <li>StrongholdSpecific</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Largashbur Heritage -->
+  <TraitDef>
+    <defName>LargashburHeritage</defName>
+    <label>Largashbur Heritage</label>
+    <description>This Orsimer belongs to Largashbur stronghold, known for their shamanic traditions and beast mastery. They maintain strong connections to the spiritual aspects of Orcish culture.</description>
+    <degreeDatas>
+      <li>
+        <label>Shaman-Warrior</label>
+        <description>Born in Largashbur, this Orc combines martial prowess with shamanic wisdom and animal handling skills.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Animals>3</Animals>
+          <Medicine>2</Medicine>
+          <Crafting>2</Crafting>
+          <Intellectual>1</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageAmount>0.08</MeleeDamageAmount>
+          <PsychicSensitivity>0.15</PsychicSensitivity>
+          <MentalBreakThreshold>-0.06</MentalBreakThreshold>
+          <WorkSpeedGlobal>0.04</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.3</biostatCpxFactor>
+    <exclusionTags>
+      <li>OrsimerCulture</li>
+      <li>StrongholdSpecific</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Mor Khazgur Heritage -->
+  <TraitDef>
+    <defName>MorKhazgurHeritage</defName>
+    <label>Mor Khazgur Heritage</label>
+    <description>This Orsimer belongs to Mor Khazgur stronghold, known for their weapon smithing mastery and elite warriors. They forge some of the finest weapons in all of Tamriel.</description>
+    <degreeDatas>
+      <li>
+        <label>Weapon Master</label>
+        <description>Born in Mor Khazgur, this Orc specializes in creating exceptional weapons and mastering their use in combat.</description>
+        <skillGains>
+          <Melee>5</Melee>
+          <Crafting>4</Crafting>
+          <Mining>2</Mining>
+          <Shooting>1</Shooting>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageAmount>0.15</MeleeDamageAmount>
+          <MeleeHitChance>0.06</MeleeHitChance>
+          <WorkSpeedGlobal>0.08</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.3</biostatCpxFactor>
+    <exclusionTags>
+      <li>OrsimerCulture</li>
+      <li>StrongholdSpecific</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Narzulbur Heritage -->
+  <TraitDef>
+    <defName>NarzulburHeritage</defName>
+    <label>Narzulbur Heritage</label>
+    <description>This Orsimer belongs to Narzulbur stronghold, known for their mining expertise and work with rare ores. They are the premier miners and ore processors among the Orcs.</description>
+    <degreeDatas>
+      <li>
+        <label>Master Miner</label>
+        <description>Born in Narzulbur, this Orc has unparalleled skills in mining, ore processing, and working with rare materials.</description>
+        <skillGains>
+          <Mining>5</Mining>
+          <Crafting>4</Crafting>
+          <Melee>3</Melee>
+          <Construction>2</Construction>
+        </skillGains>
+        <statOffsets>
+          <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+          <MeleeDamageAmount>0.06</MeleeDamageAmount>
+          <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.25</biostatCpxFactor>
+    <exclusionTags>
+      <li>OrsimerCulture</li>
+      <li>StrongholdSpecific</li>
+    </exclusionTags>
+  </TraitDef>
+
+</Defs>

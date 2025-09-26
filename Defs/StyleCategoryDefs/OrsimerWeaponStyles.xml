@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Wood Orc Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>WoodOrc_Weapons</defName>
+    <label>Wood Orc weapons</label>
+    <description>Forest-adapted weapons crafted by Wood Orcs, combining traditional Orcish metalwork with Bosmeri influences, featuring organic curves and forest-themed designs.</description>
+    <styleTags>
+      <li>WoodOrc</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_Knife>Item/Equipment/WeaponMelee/OrsimerRaces/WoodOrc/WoodOrc</MeleeWeapon_Knife>
+      <MeleeWeapon_Gladius>Item/Equipment/WeaponMelee/OrsimerRaces/WoodOrc/WoodOrc</MeleeWeapon_Gladius>
+      <MeleeWeapon_Longsword>Item/Equipment/WeaponMelee/OrsimerRaces/WoodOrc/WoodOrc</MeleeWeapon_Longsword>
+      <MeleeWeapon_Mace>Item/Equipment/WeaponMelee/OrsimerRaces/WoodOrc/WoodOrc</MeleeWeapon_Mace>
+      <MeleeWeapon_Spear>Item/Equipment/WeaponMelee/OrsimerRaces/WoodOrc/WoodOrc</MeleeWeapon_Spear>
+      <Bow_Short>Item/Equipment/WeaponRanged/OrsimerRaces/WoodOrc/WoodOrc</Bow_Short>
+      <Bow_Great>Item/Equipment/WeaponRanged/OrsimerRaces/WoodOrc/WoodOrc</Bow_Great>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Iron Orc Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>IronOrc_Weapons</defName>
+    <label>Iron Orc weapons</label>
+    <description>Superior weapons forged by Iron Orcs from rare mountain ores, featuring heavy construction with dark iron and steel that showcases their unmatched metalworking skills.</description>
+    <styleTags>
+      <li>IronOrc</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_Knife>Item/Equipment/WeaponMelee/OrsimerRaces/IronOrc/IronOrc</MeleeWeapon_Knife>
+      <MeleeWeapon_Gladius>Item/Equipment/WeaponMelee/OrsimerRaces/IronOrc/IronOrc</MeleeWeapon_Gladius>
+      <MeleeWeapon_Longsword>Item/Equipment/WeaponMelee/OrsimerRaces/IronOrc/IronOrc</MeleeWeapon_Longsword>
+      <MeleeWeapon_Mace>Item/Equipment/WeaponMelee/OrsimerRaces/IronOrc/IronOrc</MeleeWeapon_Mace>
+      <MeleeWeapon_Spear>Item/Equipment/WeaponMelee/OrsimerRaces/IronOrc/IronOrc</MeleeWeapon_Spear>
+      <MeleeWeapon_LongSword>Item/Equipment/WeaponMelee/OrsimerRaces/IronOrc/IronOrc</MeleeWeapon_LongSword>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- City Orc Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>CityOrc_Weapons</defName>
+    <label>City Orc weapons</label>
+    <description>Sophisticated weapons of Orsinium, combining traditional Orcish strength with urban refinement, featuring elegant designs in deep greens and golds.</description>
+    <styleTags>
+      <li>CityOrc</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_Knife>Item/Equipment/WeaponMelee/OrsimerRaces/CityOrc/CityOrc</MeleeWeapon_Knife>
+      <MeleeWeapon_Gladius>Item/Equipment/WeaponMelee/OrsimerRaces/CityOrc/CityOrc</MeleeWeapon_Gladius>
+      <MeleeWeapon_Longsword>Item/Equipment/WeaponMelee/OrsimerRaces/CityOrc/CityOrc</MeleeWeapon_Longsword>
+      <MeleeWeapon_Mace>Item/Equipment/WeaponMelee/OrsimerRaces/CityOrc/CityOrc</MeleeWeapon_Mace>
+      <MeleeWeapon_Spear>Item/Equipment/WeaponMelee/OrsimerRaces/CityOrc/CityOrc</MeleeWeapon_Spear>
+      <Bow_Short>Item/Equipment/WeaponRanged/OrsimerRaces/CityOrc/CityOrc</Bow_Short>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Stronghold Orc Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>StrongholdOrc_Weapons</defName>
+    <label>Stronghold Orc weapons</label>
+    <description>Traditional weapons of the stronghold Orcs, featuring rough-hewn designs with tribal markings that embody the ancient ways of Malacath.</description>
+    <styleTags>
+      <li>StrongholdOrc</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_Knife>Item/Equipment/WeaponMelee/OrsimerRaces/StrongholdOrc/StrongholdOrc</MeleeWeapon_Knife>
+      <MeleeWeapon_Gladius>Item/Equipment/WeaponMelee/OrsimerRaces/StrongholdOrc/StrongholdOrc</MeleeWeapon_Gladius>
+      <MeleeWeapon_Longsword>Item/Equipment/WeaponMelee/OrsimerRaces/StrongholdOrc/StrongholdOrc</MeleeWeapon_Longsword>
+      <MeleeWeapon_Mace>Item/Equipment/WeaponMelee/OrsimerRaces/StrongholdOrc/StrongholdOrc</MeleeWeapon_Mace>
+      <MeleeWeapon_Spear>Item/Equipment/WeaponMelee/OrsimerRaces/StrongholdOrc/StrongholdOrc</MeleeWeapon_Spear>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Dushnikh Yal Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>DushnikhYal_Weapons</defName>
+    <label>Dushnikh Yal weapons</label>
+    <description>Masterfully crafted weapons from Dushnikh Yal, featuring reinforced designs and layered construction that reflects their expertise in armor-focused combat.</description>
+    <styleTags>
+      <li>DushnikhYal</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_Knife>Item/Equipment/WeaponMelee/OrsimerRaces/DushnikhYal/DushnikhYal</MeleeWeapon_Knife>
+      <MeleeWeapon_Gladius>Item/Equipment/WeaponMelee/OrsimerRaces/DushnikhYal/DushnikhYal</MeleeWeapon_Gladius>
+      <MeleeWeapon_Longsword>Item/Equipment/WeaponMelee/OrsimerRaces/DushnikhYal/DushnikhYal</MeleeWeapon_Longsword>
+      <MeleeWeapon_Mace>Item/Equipment/WeaponMelee/OrsimerRaces/DushnikhYal/DushnikhYal</MeleeWeapon_Mace>
+      <MeleeWeapon_Spear>Item/Equipment/WeaponMelee/OrsimerRaces/DushnikhYal/DushnikhYal</MeleeWeapon_Spear>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Largashbur Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>Largashbur_Weapons</defName>
+    <label>Largashbur weapons</label>
+    <description>Shamanic weapons from Largashbur, incorporating bone and spiritual elements with traditional metalwork in designs that honor their spiritual traditions.</description>
+    <styleTags>
+      <li>Largashbur</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_Knife>Item/Equipment/WeaponMelee/OrsimerRaces/Largashbur/Largashbur</MeleeWeapon_Knife>
+      <MeleeWeapon_Gladius>Item/Equipment/WeaponMelee/OrsimerRaces/Largashbur/Largashbur</MeleeWeapon_Gladius>
+      <MeleeWeapon_Longsword>Item/Equipment/WeaponMelee/OrsimerRaces/Largashbur/Largashbur</MeleeWeapon_Longsword>
+      <MeleeWeapon_Mace>Item/Equipment/WeaponMelee/OrsimerRaces/Largashbur/Largashbur</MeleeWeapon_Mace>
+      <MeleeWeapon_Spear>Item/Equipment/WeaponMelee/OrsimerRaces/Largashbur/Largashbur</MeleeWeapon_Spear>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Mor Khazgur Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>MorKhazgur_Weapons</defName>
+    <label>Mor Khazgur weapons</label>
+    <description>Legendary weapons from Mor Khazgur, featuring blade-like motifs and sharp angles that showcase the finest weapon-crafting expertise in all of Tamriel.</description>
+    <styleTags>
+      <li>MorKhazgur</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_Knife>Item/Equipment/WeaponMelee/OrsimerRaces/MorKhazgur/MorKhazgur</MeleeWeapon_Knife>
+      <MeleeWeapon_Gladius>Item/Equipment/WeaponMelee/OrsimerRaces/MorKhazgur/MorKhazgur</MeleeWeapon_Gladius>
+      <MeleeWeapon_Longsword>Item/Equipment/WeaponMelee/OrsimerRaces/MorKhazgur/MorKhazgur</MeleeWeapon_Longsword>
+      <MeleeWeapon_Mace>Item/Equipment/WeaponMelee/OrsimerRaces/MorKhazgur/MorKhazgur</MeleeWeapon_Mace>
+      <MeleeWeapon_Spear>Item/Equipment/WeaponMelee/OrsimerRaces/MorKhazgur/MorKhazgur</MeleeWeapon_Spear>
+      <MeleeWeapon_LongSword>Item/Equipment/WeaponMelee/OrsimerRaces/MorKhazgur/MorKhazgur</MeleeWeapon_LongSword>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Narzulbur Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>Narzulbur_Weapons</defName>
+    <label>Narzulbur weapons</label>
+    <description>Mining-tool-inspired weapons from Narzulbur, featuring geometric patterns and reinforced construction that reflects their expertise with rare materials and ore processing.</description>
+    <styleTags>
+      <li>Narzulbur</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_Knife>Item/Equipment/WeaponMelee/OrsimerRaces/Narzulbur/Narzulbur</MeleeWeapon_Knife>
+      <MeleeWeapon_Gladius>Item/Equipment/WeaponMelee/OrsimerRaces/Narzulbur/Narzulbur</MeleeWeapon_Gladius>
+      <MeleeWeapon_Longsword>Item/Equipment/WeaponMelee/OrsimerRaces/Narzulbur/Narzulbur</MeleeWeapon_Longsword>
+      <MeleeWeapon_Mace>Item/Equipment/WeaponMelee/OrsimerRaces/Narzulbur/Narzulbur</MeleeWeapon_Mace>
+      <MeleeWeapon_Spear>Item/Equipment/WeaponMelee/OrsimerRaces/Narzulbur/Narzulbur</MeleeWeapon_Spear>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+</Defs>

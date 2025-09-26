@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Wood Orc Style - Valenwood Orcs -->
+  <StyleCategoryDef>
+    <defName>WoodOrc</defName>
+    <label>Wood Orc</label>
+    <description>The Wood Orc style blends traditional Orcish metalworking with Bosmeri forest aesthetics, featuring green and brown earth tones with organic curves that honor the Green Pact while maintaining warrior traditions.</description>
+  </StyleCategoryDef>
+
+  <!-- Iron Orc Style - Dragontail Mountain Orcs -->
+  <StyleCategoryDef>
+    <defName>IronOrc</defName>
+    <label>Iron Orc</label>
+    <description>The Iron Orc style emphasizes superior metalworking with dark iron and steel motifs, featuring angular, fortress-like designs that reflect their mastery of rare mountain ores and uncompromising independence.</description>
+  </StyleCategoryDef>
+
+  <!-- City Orc Style - Orsinium -->
+  <StyleCategoryDef>
+    <defName>CityOrc</defName>
+    <label>City Orc</label>
+    <description>The City Orc style represents the pinnacle of Orcish civilization, combining traditional Orc motifs with sophisticated urban elegance in deep greens and golds that reflect Orsinium's diplomatic grandeur.</description>
+  </StyleCategoryDef>
+
+  <!-- Stronghold Orc Style - Traditional strongholds -->
+  <StyleCategoryDef>
+    <defName>StrongholdOrc</defName>
+    <label>Stronghold Orc</label>
+    <description>The Stronghold Orc style embodies the ancient ways of Malacath, featuring rough-hewn stone and metal with tribal markings in earth tones that represent the oldest and most traditional Orcish culture.</description>
+  </StyleCategoryDef>
+
+  <!-- Dushnikh Yal Style - Armor masters -->
+  <StyleCategoryDef>
+    <defName>DushnikhYal</defName>
+    <label>Dushnikh Yal</label>
+    <description>The Dushnikh Yal style showcases the finest Orcish armor craftsmanship, featuring layered metal plates and reinforced designs in dark greens and bronze that emphasize protection and martial discipline.</description>
+  </StyleCategoryDef>
+
+  <!-- Largashbur Style - Shamanic traditions -->
+  <StyleCategoryDef>
+    <defName>Largashbur</defName>
+    <label>Largashbur</label>
+    <description>The Largashbur style incorporates shamanic elements with traditional Orc design, featuring bone and hide accents with spiritual totems in natural colors that reflect their connection to Malacath and the spirit world.</description>
+  </StyleCategoryDef>
+
+  <!-- Mor Khazgur Style - Weapon masters -->
+  <StyleCategoryDef>
+    <defName>MorKhazgur</defName>
+    <label>Mor Khazgur</label>
+    <description>The Mor Khazgur style emphasizes weapon artistry and martial excellence, featuring blade-like motifs and sharp angles in steel and dark green that reflect their legendary weapon-crafting expertise.</description>
+  </StyleCategoryDef>
+
+  <!-- Narzulbur Style - Master miners -->
+  <StyleCategoryDef>
+    <defName>Narzulbur</defName>
+    <label>Narzulbur</label>
+    <description>The Narzulbur style reflects their mining mastery, featuring geometric patterns inspired by crystal formations and ore veins in metallic tones that showcase their expertise with rare materials.</description>
+  </StyleCategoryDef>
+
+</Defs>
