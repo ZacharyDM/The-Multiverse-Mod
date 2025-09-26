@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Malacath Worship - Traditional Orsimer Faith -->
+  <MemeDef>
+    <defName>MalachWorship</defName>
+    <label>Malacath worship</label>
+    <description>Devotion to Malacath, the Daedric Prince of the ostracized and patron of the cursed Orsimer. Once the Aedra Trinimac before his transformation, Malacath teaches strength through adversity, honor in defeat, and the Code of Malacath that governs stronghold life. This faith emphasizes tribal unity, personal strength, and the harsh truths of a world that has rejected the Orcs.</description>
+    <iconPath>UI/Memes/MalachWorship</iconPath>
+    <impact>2</impact>
+    <category>Deity</category>
+    <exclusionTags>
+      <li>Deity</li>
+    </exclusionTags>
+    <generalRules>
+      <rulesStrings>
+        <li>rule->follow the Code of Malacath</li>
+        <li>rule->honor strength above all</li>
+        <li>rule->endure hardship with dignity</li>
+        <li>rule->protect the stronghold</li>
+        <li>rule->respect the chief's authority</li>
+      </rulesStrings>
+    </generalRules>
+    <worshipRoomLabel>shrine of malacath</worshipRoomLabel>
+    <symbolPacks>
+      <li>
+        <ideoName>Stronghold</ideoName>
+        <theme>Stronghold</theme>
+        <adjective>devoted</adjective>
+        <member>stronghold orc</member>
+        <deity>Malacath</deity>
+        <deityPlural>Malacath</deityPlural>
+        <place>stronghold</place>
+      </li>
+    </symbolPacks>
+    <ritualPatterns>
+      <li>
+        <keyword>stronghold</keyword>
+        <duties>
+          <li>Chief</li>
+          <li>Shaman</li>
+          <li>War leader</li>
+        </duties>
+      </li>
+    </ritualPatterns>
+    <deityCountRange>1~3</deityCountRange>
+    <deityNameMaker>OrsimerMalachDeityNames</deityNameMaker>
+    <allowSymbolsFromDeity>true</allowSymbolsFromDeity>
+    <fixedDeityNameTypes>
+      <li>Malacath</li>
+    </fixedDeityNameTypes>
+  </MemeDef>
+
+  <!-- Trinimac Worship - Ancient Orsimer Faith -->
+  <MemeDef>
+    <defName>TrinimacWorship</defName>
+    <label>Trinimac worship</label>
+    <description>Devotion to Trinimac, the ancient Aedric hero-god who was patron of the Aldmer before his transformation into Malacath. This faith represents the old ways, honoring Trinimac as the strongest of the et'Ada and champion of order. Followers seek to restore Trinimac's glory and reject their cursed transformation, believing in redemption through strength and honor.</description>
+    <iconPath>UI/Memes/TrinimacWorship</iconPath>
+    <impact>2</impact>
+    <category>Deity</category>
+    <exclusionTags>
+      <li>Deity</li>
+    </exclusionTags>
+    <generalRules>
+      <rulesStrings>
+        <li>rule->honor Trinimac's strength</li>
+        <li>rule->seek redemption through valor</li>
+        <li>rule->uphold divine order</li>
+        <li>rule->reject the curse of transformation</li>
+        <li>rule->defend the faithful</li>
+      </rulesStrings>
+    </generalRules>
+    <worshipRoomLabel>temple of trinimac</worshipRoomLabel>
+    <symbolPacks>
+      <li>
+        <ideoName>Temple of Trinimac</ideoName>
+        <theme>TrinimacTemple</theme>
+        <adjective>faithful</adjective>
+        <member>temple knight</member>
+        <deity>Trinimac</deity>
+        <deityPlural>Trinimac</deityPlural>
+        <place>temple</place>
+      </li>
+    </symbolPacks>
+    <ritualPatterns>
+      <li>
+        <keyword>temple</keyword>
+        <duties>
+          <li>High priest</li>
+          <li>Temple knight</li>
+          <li>Lorekeeper</li>
+        </duties>
+      </li>
+    </ritualPatterns>
+    <deityCountRange>1~2</deityCountRange>
+    <deityNameMaker>OrsimerTrinimacDeityNames</deityNameMaker>
+    <allowSymbolsFromDeity>true</allowSymbolsFromDeity>
+    <fixedDeityNameTypes>
+      <li>Trinimac</li>
+    </fixedDeityNameTypes>
+  </MemeDef>
+
+  <!-- Ancestor Worship - Stronghold Tradition -->
+  <MemeDef>
+    <defName>OrsimerAncestorWorship</defName>
+    <label>Orsimer ancestor worship</label>
+    <description>Reverence for the spirits of deceased clan members and stronghold founders, combined with honor for Malacath as the father of all Orcs. This ancient tradition emphasizes clan loyalty, honoring those who built the strongholds, and maintaining the oral histories that preserve Orcish culture through generations of hardship.</description>
+    <iconPath>UI/Memes/OrsimerAncestorWorship</iconPath>
+    <impact>1</impact>
+    <category>Deity</category>
+    <exclusionTags>
+      <li>Deity</li>
+    </exclusionTags>
+    <generalRules>
+      <rulesStrings>
+        <li>rule->honor clan ancestors</li>
+        <li>rule->preserve stronghold traditions</li>
+        <li>rule->tell the old stories</li>
+        <li>rule->maintain clan burial grounds</li>
+        <li>rule->seek guidance from the departed</li>
+      </rulesStrings>
+    </generalRules>
+    <worshipRoomLabel>ancestor shrine</worshipRoomLabel>
+    <symbolPacks>
+      <li>
+        <ideoName>Clan</ideoName>
+        <theme>Ancestors</theme>
+        <adjective>honored</adjective>
+        <member>clan member</member>
+        <deity>ancestors</deity>
+        <deityPlural>ancestors</deityPlural>
+        <place>clan hall</place>
+      </li>
+    </symbolPacks>
+    <ritualPatterns>
+      <li>
+        <keyword>clan</keyword>
+        <duties>
+          <li>Elder</li>
+          <li>Storyteller</li>
+          <li>Keeper of graves</li>
+        </duties>
+      </li>
+    </ritualPatterns>
+    <deityCountRange>3~8</deityCountRange>
+    <deityNameMaker>OrsimerAncestorDeityNames</deityNameMaker>
+    <allowSymbolsFromDeity>true</allowSymbolsFromDeity>
+  </MemeDef>
+
+</Defs>

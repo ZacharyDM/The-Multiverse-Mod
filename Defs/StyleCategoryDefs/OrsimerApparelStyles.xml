@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Wood Orc Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>WoodOrc_Apparel</defName>
+    <label>Wood Orc apparel</label>
+    <description>Forest-adapted clothing and armor worn by Wood Orcs, blending traditional Orcish metalwork with Bosmeri forest aesthetics in green and brown tones that honor the Green Pact.</description>
+    <styleTags>
+      <li>WoodOrc</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/OrsimerRaces/WoodOrc/WoodOrc</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/OrsimerRaces/WoodOrc/WoodOrc</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/OrsimerRaces/WoodOrc/WoodOrc</Apparel_Tunic>
+      <Apparel_CollarShirt>Things/Pawn/Humanlike/Apparel/OrsimerRaces/WoodOrc/WoodOrc</Apparel_CollarShirt>
+      <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/OrsimerRaces/WoodOrc/WoodOrc</Apparel_FlakVest>
+      <Apparel_PlateArmor>Things/Pawn/Humanlike/Apparel/OrsimerRaces/WoodOrc/WoodOrc</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Iron Orc Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>IronOrc_Apparel</defName>
+    <label>Iron Orc apparel</label>
+    <description>Heavy, well-crafted clothing and armor of the Iron Orcs, featuring superior metalwork with dark iron and steel motifs that reflect their mastery of mountain ores.</description>
+    <styleTags>
+      <li>IronOrc</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/OrsimerRaces/IronOrc/IronOrc</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/OrsimerRaces/IronOrc/IronOrc</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/OrsimerRaces/IronOrc/IronOrc</Apparel_Tunic>
+      <Apparel_CollarShirt>Things/Pawn/Humanlike/Apparel/OrsimerRaces/IronOrc/IronOrc</Apparel_CollarShirt>
+      <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/OrsimerRaces/IronOrc/IronOrc</Apparel_FlakVest>
+      <Apparel_PlateArmor>Things/Pawn/Humanlike/Apparel/OrsimerRaces/IronOrc/IronOrc</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- City Orc Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>CityOrc_Apparel</defName>
+    <label>City Orc apparel</label>
+    <description>Sophisticated clothing and armor worn by the City Orcs of Orsinium, combining traditional Orc motifs with urban elegance in deep greens and golds.</description>
+    <styleTags>
+      <li>CityOrc</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/OrsimerRaces/CityOrc/CityOrc</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/OrsimerRaces/CityOrc/CityOrc</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/OrsimerRaces/CityOrc/CityOrc</Apparel_Tunic>
+      <Apparel_CollarShirt>Things/Pawn/Humanlike/Apparel/OrsimerRaces/CityOrc/CityOrc</Apparel_CollarShirt>
+      <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/OrsimerRaces/CityOrc/CityOrc</Apparel_FlakVest>
+      <Apparel_PlateArmor>Things/Pawn/Humanlike/Apparel/OrsimerRaces/CityOrc/CityOrc</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Stronghold Orc Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>StrongholdOrc_Apparel</defName>
+    <label>Stronghold Orc apparel</label>
+    <description>Traditional clothing and armor of the stronghold Orcs, featuring rough-hewn designs with tribal markings in earth tones that represent the ancient ways of Malacath.</description>
+    <styleTags>
+      <li>StrongholdOrc</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/OrsimerRaces/StrongholdOrc/StrongholdOrc</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/OrsimerRaces/StrongholdOrc/StrongholdOrc</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/OrsimerRaces/StrongholdOrc/StrongholdOrc</Apparel_Tunic>
+      <Apparel_CollarShirt>Things/Pawn/Humanlike/Apparel/OrsimerRaces/StrongholdOrc/StrongholdOrc</Apparel_CollarShirt>
+      <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/OrsimerRaces/StrongholdOrc/StrongholdOrc</Apparel_FlakVest>
+      <Apparel_PlateArmor>Things/Pawn/Humanlike/Apparel/OrsimerRaces/StrongholdOrc/StrongholdOrc</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Dushnikh Yal Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>DushnikhYal_Apparel</defName>
+    <label>Dushnikh Yal apparel</label>
+    <description>Masterfully crafted armor and clothing from Dushnikh Yal, featuring layered metal plates and reinforced designs in dark greens and bronze that showcase their armor mastery.</description>
+    <styleTags>
+      <li>DushnikhYal</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/OrsimerRaces/DushnikhYal/DushnikhYal</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/OrsimerRaces/DushnikhYal/DushnikhYal</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/OrsimerRaces/DushnikhYal/DushnikhYal</Apparel_Tunic>
+      <Apparel_CollarShirt>Things/Pawn/Humanlike/Apparel/OrsimerRaces/DushnikhYal/DushnikhYal</Apparel_CollarShirt>
+      <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/OrsimerRaces/DushnikhYal/DushnikhYal</Apparel_FlakVest>
+      <Apparel_PlateArmor>Things/Pawn/Humanlike/Apparel/OrsimerRaces/DushnikhYal/DushnikhYal</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Largashbur Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>Largashbur_Apparel</defName>
+    <label>Largashbur apparel</label>
+    <description>Shamanic clothing and armor from Largashbur, incorporating bone and hide accents with spiritual totems in natural colors that reflect their connection to the spirit world.</description>
+    <styleTags>
+      <li>Largashbur</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/OrsimerRaces/Largashbur/Largashbur</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/OrsimerRaces/Largashbur/Largashbur</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/OrsimerRaces/Largashbur/Largashbur</Apparel_Tunic>
+      <Apparel_CollarShirt>Things/Pawn/Humanlike/Apparel/OrsimerRaces/Largashbur/Largashbur</Apparel_CollarShirt>
+      <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/OrsimerRaces/Largashbur/Largashbur</Apparel_FlakVest>
+      <Apparel_PlateArmor>Things/Pawn/Humanlike/Apparel/OrsimerRaces/Largashbur/Largashbur</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Mor Khazgur Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>MorKhazgur_Apparel</defName>
+    <label>Mor Khazgur apparel</label>
+    <description>Weapon-master clothing and armor from Mor Khazgur, featuring blade-like motifs and sharp angles in steel and dark green that reflect their legendary weapon-crafting expertise.</description>
+    <styleTags>
+      <li>MorKhazgur</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/OrsimerRaces/MorKhazgur/MorKhazgur</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/OrsimerRaces/MorKhazgur/MorKhazgur</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/OrsimerRaces/MorKhazgur/MorKhazgur</Apparel_Tunic>
+      <Apparel_CollarShirt>Things/Pawn/Humanlike/Apparel/OrsimerRaces/MorKhazgur/MorKhazgur</Apparel_CollarShirt>
+      <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/OrsimerRaces/MorKhazgur/MorKhazgur</Apparel_FlakVest>
+      <Apparel_PlateArmor>Things/Pawn/Humanlike/Apparel/OrsimerRaces/MorKhazgur/MorKhazgur</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Narzulbur Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>Narzulbur_Apparel</defName>
+    <label>Narzulbur apparel</label>
+    <description>Mining-inspired clothing and protective gear from Narzulbur, featuring geometric patterns inspired by crystal formations and ore veins in metallic tones.</description>
+    <styleTags>
+      <li>Narzulbur</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/OrsimerRaces/Narzulbur/Narzulbur</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/OrsimerRaces/Narzulbur/Narzulbur</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/OrsimerRaces/Narzulbur/Narzulbur</Apparel_Tunic>
+      <Apparel_CollarShirt>Things/Pawn/Humanlike/Apparel/OrsimerRaces/Narzulbur/Narzulbur</Apparel_CollarShirt>
+      <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/OrsimerRaces/Narzulbur/Narzulbur</Apparel_FlakVest>
+      <Apparel_PlateArmor>Things/Pawn/Humanlike/Apparel/OrsimerRaces/Narzulbur/Narzulbur</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+</Defs>
