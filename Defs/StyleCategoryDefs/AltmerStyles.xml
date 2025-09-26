@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Crystal Tower Style - Scholars and Mages -->
+  <StyleCategoryDef>
+    <defName>CrystalTower</defName>
+    <label>Crystal Tower</label>
+    <description>The Crystal Tower style represents the pinnacle of Altmeri magical and scholarly achievement, featuring crystalline patterns, golden filigree, and ethereal designs that embody the pursuit of arcane perfection and ancient wisdom.</description>
+  </StyleCategoryDef>
+
+  <!-- Sapiarch Style - Ancient Rulers -->
+  <StyleCategoryDef>
+    <defName>Sapiarch</defName>
+    <label>Sapiarch</label>
+    <description>The Sapiarch style reflects the ancient wisdom and authority of the Altmeri ruling class, combining regal golden elements with scholarly symbols and mystical patterns that represent millennia of accumulated knowledge and power.</description>
+  </StyleCategoryDef>
+
+  <!-- Aldmeri Noble Style - High Society -->
+  <StyleCategoryDef>
+    <defName>AldmeriNoble</defName>
+    <label>Aldmeri Noble</label>
+    <description>The Aldmeri Noble style showcases the refined elegance of High Elf aristocracy, featuring intricate golden patterns, precious gems, and flowing designs that emphasize the natural superiority and ancient heritage of the Altmer bloodlines.</description>
+  </StyleCategoryDef>
+
+  <!-- Sunspire Style - Religious Orders -->
+  <StyleCategoryDef>
+    <defName>Sunspire</defName>
+    <label>Sunspire</label>
+    <description>The Sunspire style embodies the religious and spiritual traditions of Summerset, incorporating solar motifs, sacred geometry, and luminous designs that reflect the divine connection between the Altmer and their Aedric patrons.</description>
+  </StyleCategoryDef>
+
+  <!-- Auridonia Style - Mainland Nobility -->
+  <StyleCategoryDef>
+    <defName>Auridonia</defName>
+    <label>Auridonia</label>
+    <description>The Auridonia style represents the sophisticated culture of the Summerset mainland, featuring balanced proportions, classical elements, and refined golden accents that embody the harmony between tradition and progress.</description>
+  </StyleCategoryDef>
+
+  <!-- Artaeum Style - Mystic Isle -->
+  <StyleCategoryDef>
+    <defName>Artaeum</defName>
+    <label>Artaeum</label>
+    <description>The Artaeum style reflects the mysterious and transcendent nature of the Psijic Order's island home, featuring ethereal patterns, shifting designs, and otherworldly elements that exist between the mortal and divine realms.</description>
+  </StyleCategoryDef>
+
+</Defs>

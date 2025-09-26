@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Auri-El Worship - The Dragon God of Time -->
+  <MemeDef>
+    <defName>AuriElWorship</defName>
+    <label>Auri-El worship</label>
+    <description>Veneration of Auri-El, the ancient Aldmeri god of time and the chief deity of the Altmeri pantheon. Known as the Dragon God of Time, Auri-El represents the cyclical nature of time, the ascension of spirits, and the eternal struggle against the forces of change and mortality. This faith emphasizes the pursuit of perfection, the preservation of ancient wisdom, and the ultimate goal of transcending mortal limitations.</description>
+    <iconPath>UI/Memes/AuriElWorship</iconPath>
+    <impact>2</impact>
+    <category>Deity</category>
+    <exclusionTags>
+      <li>Deity</li>
+    </exclusionTags>
+    <generalRules>
+      <rulesStrings>
+        <li>rule->honor the Dragon God of Time</li>
+        <li>rule->preserve ancient wisdom and tradition</li>
+        <li>rule->strive for perfection in all endeavors</li>
+        <li>rule->maintain the sacred cycles of time</li>
+        <li>rule->resist the forces of change and chaos</li>
+      </rulesStrings>
+    </generalRules>
+    <worshipRoomLabel>auriel shrine</worshipRoomLabel>
+    <symbolPacks>
+      <li>
+        <ideoName>Auri-El Cult</ideoName>
+        <theme>AuriEl</theme>
+        <adjective>golden</adjective>
+        <member>time keeper</member>
+        <deity>Auri-El</deity>
+        <deityPlural>Aedra</deityPlural>
+        <place>shrine</place>
+      </li>
+    </symbolPacks>
+    <ritualPatterns>
+      <li>
+        <keyword>time</keyword>
+        <duties>
+          <li>Priest</li>
+          <li>Timekeeper</li>
+          <li>Scholar</li>
+        </duties>
+      </li>
+    </ritualPatterns>
+    <deityCountRange>3~5</deityCountRange>
+    <deityNameMaker>AltmerDeityNames</deityNameMaker>
+    <allowSymbolsFromDeity>true</allowSymbolsFromDeity>
+    <fixedDeityNameTypes>
+      <li>AuriEl</li>
+      <li>Magnus</li>
+      <li>Xarxes</li>
+    </fixedDeityNameTypes>
+  </MemeDef>
+
+  <!-- Ancestor Spirit Veneration -->
+  <MemeDef>
+    <defName>AltmerAncestorVeneration</defName>
+    <label>ancestor spirit veneration</label>
+    <description>Deep reverence for the spirits of ancient Altmeri ancestors, particularly the noble bloodlines that trace their heritage back to the Aldmer. This faith teaches that the wisdom and achievements of ancestors live on through their descendants, and that proper veneration ensures their continued guidance and protection. The most revered ancestors are those who achieved great magical knowledge or contributed to the preservation of Altmeri culture.</description>
+    <iconPath>UI/Memes/AncestorVeneration</iconPath>
+    <impact>1</impact>
+    <category>Structure</category>
+    <exclusionTags>
+      <li>Structure</li>
+    </exclusionTags>
+    <generalRules>
+      <rulesStrings>
+        <li>rule->honor the wisdom of ancestors</li>
+        <li>rule->preserve family bloodlines and traditions</li>
+        <li>rule->maintain genealogical records</li>
+        <li>rule->seek guidance from ancestral spirits</li>
+        <li>rule->uphold the achievements of forebears</li>
+      </rulesStrings>
+    </generalRules>
+    <worshipRoomLabel>ancestor hall</worshipRoomLabel>
+    <symbolPacks>
+      <li>
+        <ideoName>Ancestral Order</ideoName>
+        <theme>Ancestors</theme>
+        <adjective>ancestral</adjective>
+        <member>lineage keeper</member>
+        <deity>Ancestor Spirits</deity>
+        <deityPlural>Ancestor Spirits</deityPlural>
+        <place>ancestor hall</place>
+      </li>
+    </symbolPacks>
+    <ritualPatterns>
+      <li>
+        <keyword>ancestor</keyword>
+        <duties>
+          <li>Genealogist</li>
+          <li>Keeper of traditions</li>
+          <li>Spirit medium</li>
+        </duties>
+      </li>
+    </ritualPatterns>
+  </MemeDef>
+
+  <!-- Crystal Tower Mysticism -->
+  <MemeDef>
+    <defName>CrystalTowerMysticism</defName>
+    <label>crystal tower mysticism</label>
+    <description>A mystical tradition centered on the legendary Crystal Tower of Summerset, focusing on the pursuit of ultimate magical knowledge and the transcendence of mortal limitations. This faith teaches that through rigorous study, meditation, and magical practice, one can achieve a state of enlightenment that bridges the gap between mortal and divine. The Crystal Tower serves as both a physical monument and a spiritual symbol of this ascension.</description>
+    <iconPath>UI/Memes/CrystalTowerMysticism</iconPath>
+    <impact>1</impact>
+    <category>Structure</category>
+    <exclusionTags>
+      <li>Structure</li>
+    </exclusionTags>
+    <generalRules>
+      <rulesStrings>
+        <li>rule->pursue ultimate magical knowledge</li>
+        <li>rule->practice rigorous study and meditation</li>
+        <li>rule->transcend mortal limitations</li>
+        <li>rule->maintain the sacred tower</li>
+        <li>rule->guide others toward enlightenment</li>
+      </rulesStrings>
+      </generalRules>
+    <worshipRoomLabel>crystal chamber</worshipRoomLabel>
+    <symbolPacks>
+      <li>
+        <ideoName>Tower Mystics</ideoName>
+        <theme>CrystalTower</theme>
+        <adjective>crystalline</adjective>
+        <member>tower mystic</member>
+        <deity>Crystal Consciousness</deity>
+        <deityPlural>Arcane Powers</deityPlural>
+        <place>crystal tower</place>
+      </li>
+    </symbolPacks>
+    <ritualPatterns>
+      <li>
+        <keyword>crystal</keyword>
+        <duties>
+          <li>Mystic</li>
+          <li>Tower keeper</li>
+          <li>Magical researcher</li>
+        </duties>
+      </li>
+    </ritualPatterns>
+  </MemeDef>
+</Defs>

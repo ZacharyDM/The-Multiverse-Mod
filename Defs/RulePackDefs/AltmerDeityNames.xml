@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RulePackDef>
+    <defName>AltmerDeityNames</defName>
+    <rules>
+      <li>AuriEl->Auri-El</li>
+      <li>Magnus->Magnus</li>
+      <li>Xarxes->Xarxes</li>
+      <li>Trinimac->Trinimac</li>
+      <li>Syrabane->Syrabane</li>
+      <li>Phynaster->Phynaster</li>
+      <li>YYffre->Y'ffre</li>
+      <li>Lorkhan->Lorkhan</li>
+      <li>Mara->Mara</li>
+      <li>Stendarr->Stendarr</li>
+      <li>Kynareth->Kynareth</li>
+      <li>Dibella->Dibella</li>
+      <li>Julianos->Julianos</li>
+      <li>Arkay->Arkay</li>
+      <li>Zenithar->Zenithar</li>
+    </rules>
+  </RulePackDef>
+</Defs>

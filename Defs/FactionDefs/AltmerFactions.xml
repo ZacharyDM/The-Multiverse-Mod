@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FactionDefs>
+  <!-- Crystal Tower Mages -->
+  <FactionDef>
+    <defName>CrystalTowerMages</defName>
+    <label>Crystal Tower Mages</label>
+    <description>The scholarly mages and researchers of the legendary Crystal Tower, the greatest magical university in Tamriel. These learned Altmer dedicate their lives to the pursuit of arcane knowledge and the preservation of ancient wisdom. They control access to the most advanced magical research and moonstone mining techniques.</description>
+    <color>(0.9, 0.8, 0.2, 1)</color>
+    <allowedRaceDefs>
+      <li>Altmer</li>
+    </allowedRaceDefs>
+    <techLevel>Medieval</techLevel>
+    <hidden>false</hidden>
+    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <canMakeRandomly>false</canMakeRandomly>
+    <canSiege>false</canSiege>
+    <canStageAttacks>false</canStageAttacks>
+    <leaderTitle>Arch-Mage</leaderTitle>
+    <factionIconPath>UI/Factions/CrystalTower</factionIconPath>
+    <settlementGenerationWeight>0.3</settlementGenerationWeight>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Intellectualist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+    </requiredMemes>
+  </FactionDef>
+
+  <!-- Sapiarchs of Summerset -->
+  <FactionDef>
+    <defName>SapiarchsOfSummerset</defName>
+    <label>Sapiarchs of Summerset</label>
+    <description>The ancient ruling council of scholar-kings who govern Summerset Isle through wisdom and knowledge. Each Sapiarch is master of a specific field of study, from astronomy to literature. They represent the oldest and most traditional form of Altmeri governance, where knowledge equals authority.</description>
+    <color>(0.8, 0.6, 0.9, 1)</color>
+    <allowedRaceDefs>
+      <li>Altmer</li>
+    </allowedRaceDefs>
+    <techLevel>Medieval</techLevel>
+    <hidden>false</hidden>
+    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>First Sapiarch</leaderTitle>
+    <factionIconPath>UI/Factions/Sapiarchs</factionIconPath>
+    <settlementGenerationWeight>0.8</settlementGenerationWeight>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Intellectualist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Elitist</li>
+    </requiredMemes>
+  </FactionDef>
+
+  <!-- Psijic Order -->
+  <FactionDef>
+    <defName>PsijicOrder</defName>
+    <label>Psijic Order</label>
+    <description>The ancient mystical order of Artaeum, masters of the Old Ways and keepers of balance. These enigmatic mages have withdrawn from worldly affairs to study the deeper mysteries of existence. They rarely interact with outsiders but possess knowledge that spans millennia.</description>
+    <color>(0.5, 0.8, 0.9, 1)</color>
+    <allowedRaceDefs>
+      <li>Altmer</li>
+      <li>Breton</li>
+    </allowedRaceDefs>
+    <techLevel>Medieval</techLevel>
+    <hidden>false</hidden>
+    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <canMakeRandomly>false</canMakeRandomly>
+    <canSiege>false</canSiege>
+    <canStageAttacks>false</canStageAttacks>
+    <leaderTitle>Ritemaster</leaderTitle>
+    <factionIconPath>UI/Factions/PsijicOrder</factionIconPath>
+    <settlementGenerationWeight>0.1</settlementGenerationWeight>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Intellectualist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Mysticism</li>
+    </requiredMemes>
+  </FactionDef>
+
+  <!-- Thalmor Justiciars -->
+  <FactionDef>
+    <defName>ThalmorJusticiars</defName>
+    <label>Thalmor Justiciars</label>
+    <description>Elite agents and inquisitors of the Thalmor, dedicated to enforcing Altmeri law and rooting out heresy. These zealous officials believe in the inherent superiority of the Altmer and work tirelessly to maintain proper order and orthodoxy throughout their territories.</description>
+    <color>(0.9, 0.1, 0.1, 1)</color>
+    <allowedRaceDefs>
+      <li>Altmer</li>
+    </allowedRaceDefs>
+    <techLevel>Medieval</techLevel>
+    <hidden>false</hidden>
+    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>First Emissary</leaderTitle>
+    <factionIconPath>UI/Factions/ThalmorJusticiars</factionIconPath>
+    <settlementGenerationWeight>0.6</settlementGenerationWeight>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+    </requiredMemes>
+  </FactionDef>
+
+  <!-- Alinor Nobility -->
+  <FactionDef>
+    <defName>AlinorNobility</defName>
+    <label>Alinor Nobility</label>
+    <description>The ancient noble families of Alinor, capital of Summerset Isle. These aristocratic houses trace their lineages back to the earliest Aldmer settlers and maintain the refined culture and traditions of high Altmeri society. They are patrons of arts, magic, and scholarship.</description>
+    <color>(1.0, 0.9, 0.5, 1)</color>
+    <allowedRaceDefs>
+      <li>Altmer</li>
+    </allowedRaceDefs>
+    <techLevel>Medieval</techLevel>
+    <hidden>false</hidden>
+    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <maxCountAtGameStart>2</maxCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>High Noble</leaderTitle>
+    <factionIconPath>UI/Factions/AlinorNobility</factionIconPath>
+    <settlementGenerationWeight>1.0</settlementGenerationWeight>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Elitist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+    </requiredMemes>
+  </FactionDef>
+
+  <!-- Shimmerene Artisans -->
+  <FactionDef>
+    <defName>ShimmereneArtisans</defName>
+    <label>Shimmerene Artisans</label>
+    <description>Master craftsmen and artists from the beautiful city of Shimmerene, renowned throughout Tamriel for their exquisite works. These Altmer have elevated craftsmanship to an art form, creating items of unparalleled beauty and magical sophistication.</description>
+    <color>(0.9, 0.7, 0.9, 1)</color>
+    <allowedRaceDefs>
+      <li>Altmer</li>
+    </allowedRaceDefs>
+    <techLevel>Medieval</techLevel>
+    <hidden>false</hidden>
+    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>false</canSiege>
+    <canStageAttacks>false</canStageAttacks>
+    <leaderTitle>Master Artisan</leaderTitle>
+    <factionIconPath>UI/Factions/ShimmereneArtisans</factionIconPath>
+    <settlementGenerationWeight>0.7</settlementGenerationWeight>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Aestheticism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Perfectionism</li>
+    </requiredMemes>
+  </FactionDef>
+
+  <!-- Sunhold Priests -->
+  <FactionDef>
+    <defName>SunholdPriests</defName>
+    <label>Sunhold Priests</label>
+    <description>The religious order of Sunhold, dedicated to the worship of Auri-El and the traditional Altmeri pantheon. These priests maintain the ancient temples and preserve the sacred rituals that connect the Altmer to their divine heritage.</description>
+    <color>(1.0, 0.8, 0.0, 1)</color>
+    <allowedRaceDefs>
+      <li>Altmer</li>
+    </allowedRaceDefs>
+    <techLevel>Medieval</techLevel>
+    <hidden>false</hidden>
+    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>false</canSiege>
+    <canStageAttacks>false</canStageAttacks>
+    <leaderTitle>High Priest</leaderTitle>
+    <factionIconPath>UI/Factions/SunholdPriests</factionIconPath>
+    <settlementGenerationWeight>0.5</settlementGenerationWeight>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Theist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+    </requiredMemes>
+  </FactionDef>
+</FactionDefs>

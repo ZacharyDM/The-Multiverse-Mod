@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Crystal Tower Building Styles -->
+  <StyleCategoryDef ParentName="CrystalTower">
+    <defName>CrystalTowerBuildings</defName>
+    <label>Crystal Tower Buildings</label>
+    <description>Scholarly architecture with crystalline spires and magical research facilities.</description>
+    <thingDefStyles>
+      <li>
+        <ThingDef>Wall</ThingDef>
+        <styleDef>CrystalTower</styleDef>
+      </li>
+      <li>
+        <ThingDef>Door</ThingDef>
+        <styleDef>CrystalTower</styleDef>
+      </li>
+      <li>
+        <ThingDef>Bed</ThingDef>
+        <styleDef>CrystalTower</styleDef>
+      </li>
+      <li>
+        <ThingDef>Table2x2c</ThingDef>
+        <styleDef>CrystalTower</styleDef>
+      </li>
+      <li>
+        <ThingDef>Chair</ThingDef>
+        <styleDef>CrystalTower</styleDef>
+      </li>
+    </thingDefStyles>
+  </StyleCategoryDef>
+
+  <!-- Sapiarch Building Styles -->
+  <StyleCategoryDef ParentName="Sapiarch">
+    <defName>SapiarchBuildings</defName>
+    <label>Sapiarch Buildings</label>
+    <description>Ancient palace architecture with symbols of wisdom and authority.</description>
+    <thingDefStyles>
+      <li>
+        <ThingDef>Wall</ThingDef>
+        <styleDef>Sapiarch</styleDef>
+      </li>
+      <li>
+        <ThingDef>Door</ThingDef>
+        <styleDef>Sapiarch</styleDef>
+      </li>
+      <li>
+        <ThingDef>Bed</ThingDef>
+        <styleDef>Sapiarch</styleDef>
+      </li>
+      <li>
+        <ThingDef>Table2x2c</ThingDef>
+        <styleDef>Sapiarch</styleDef>
+      </li>
+      <li>
+        <ThingDef>Chair</ThingDef>
+        <styleDef>Sapiarch</styleDef>
+      </li>
+    </thingDefStyles>
+  </StyleCategoryDef>
+
+  <!-- Aldmeri Noble Building Styles -->
+  <StyleCategoryDef ParentName="AldmeriNoble">
+    <defName>AldmeriNobleBuildings</defName>
+    <label>Aldmeri Noble Buildings</label>
+    <description>Elegant estate architecture with golden accents and precious stone inlays.</description>
+    <thingDefStyles>
+      <li>
+        <ThingDef>Wall</ThingDef>
+        <styleDef>AldmeriNoble</styleDef>
+      </li>
+      <li>
+        <ThingDef>Door</ThingDef>
+        <styleDef>AldmeriNoble</styleDef>
+      </li>
+      <li>
+        <ThingDef>Bed</ThingDef>
+        <styleDef>AldmeriNoble</styleDef>
+      </li>
+      <li>
+        <ThingDef>Table2x2c</ThingDef>
+        <styleDef>AldmeriNoble</styleDef>
+      </li>
+      <li>
+        <ThingDef>Chair</ThingDef>
+        <styleDef>AldmeriNoble</styleDef>
+      </li>
+    </thingDefStyles>
+  </StyleCategoryDef>
+
+  <!-- Sunspire Building Styles -->
+  <StyleCategoryDef ParentName="Sunspire">
+    <defName>SunspireBuildings</defName>
+    <label>Sunspire Buildings</label>
+    <description>Sacred temple architecture with solar motifs and divine symbolism.</description>
+    <thingDefStyles>
+      <li>
+        <ThingDef>Wall</ThingDef>
+        <styleDef>Sunspire</styleDef>
+      </li>
+      <li>
+        <ThingDef>Door</ThingDef>
+        <styleDef>Sunspire</styleDef>
+      </li>
+      <li>
+        <ThingDef>Bed</ThingDef>
+        <styleDef>Sunspire</styleDef>
+      </li>
+      <li>
+        <ThingDef>Table2x2c</ThingDef>
+        <styleDef>Sunspire</styleDef>
+      </li>
+      <li>
+        <ThingDef>Chair</ThingDef>
+        <styleDef>Sunspire</styleDef>
+      </li>
+    </thingDefStyles>
+  </StyleCategoryDef>
+
+  <!-- Auridonia Building Styles -->
+  <StyleCategoryDef ParentName="Auridonia">
+    <defName>AuridoniaBuildings</defName>
+    <label>Auridonia Buildings</label>
+    <description>Refined mainland architecture with classical proportions and golden details.</description>
+    <thingDefStyles>
+      <li>
+        <ThingDef>Wall</ThingDef>
+        <styleDef>Auridonia</styleDef>
+      </li>
+      <li>
+        <ThingDef>Door</ThingDef>
+        <styleDef>Auridonia</styleDef>
+      </li>
+      <li>
+        <ThingDef>Bed</ThingDef>
+        <styleDef>Auridonia</styleDef>
+      </li>
+      <li>
+        <ThingDef>Table2x2c</ThingDef>
+        <styleDef>Auridonia</styleDef>
+      </li>
+      <li>
+        <ThingDef>Chair</ThingDef>
+        <styleDef>Auridonia</styleDef>
+      </li>
+    </thingDefStyles>
+  </StyleCategoryDef>
+
+  <!-- Artaeum Building Styles -->
+  <StyleCategoryDef ParentName="Artaeum">
+    <defName>ArtaeumBuildings</defName>
+    <label>Artaeum Buildings</label>
+    <description>Mystical architecture that exists between realms, home to the Psijic Order.</description>
+    <thingDefStyles>
+      <li>
+        <ThingDef>Wall</ThingDef>
+        <styleDef>Artaeum</styleDef>
+      </li>
+      <li>
+        <ThingDef>Door</ThingDef>
+        <styleDef>Artaeum</styleDef>
+      </li>
+      <li>
+        <ThingDef>Bed</ThingDef>
+        <styleDef>Artaeum</styleDef>
+      </li>
+      <li>
+        <ThingDef>Table2x2c</ThingDef>
+        <styleDef>Artaeum</styleDef>
+      </li>
+      <li>
+        <ThingDef>Chair</ThingDef>
+        <styleDef>Artaeum</styleDef>
+      </li>
+    </thingDefStyles>
+  </StyleCategoryDef>
+
+</Defs>

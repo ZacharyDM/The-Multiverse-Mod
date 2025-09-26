@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Crystal Tower Weapon Styles -->
+  <StyleCategoryDef ParentName="CrystalTower">
+    <defName>CrystalTowerWeapons</defName>
+    <label>Crystal Tower Weapons</label>
+    <description>Scholarly implements and magical staves with crystalline patterns and arcane enchantments.</description>
+    <thingDefStyles>
+      <li>
+        <ThingDef>MeleeWeapon_Longsword</ThingDef>
+        <styleDef>CrystalTower</styleDef>
+      </li>
+      <li>
+        <ThingDef>MeleeWeapon_Knife</ThingDef>
+        <styleDef>CrystalTower</styleDef>
+      </li>
+      <li>
+        <ThingDef>Bow_Short</ThingDef>
+        <styleDef>CrystalTower</styleDef>
+      </li>
+      <li>
+        <ThingDef>Bow_Recurve</ThingDef>
+        <styleDef>CrystalTower</styleDef>
+      </li>
+    </thingDefStyles>
+  </StyleCategoryDef>
+
+  <!-- Sapiarch Weapon Styles -->
+  <StyleCategoryDef ParentName="Sapiarch">
+    <defName>SapiarchWeapons</defName>
+    <label>Sapiarch Weapons</label>
+    <description>Ancient ceremonial weapons with symbols of authority and wisdom.</description>
+    <thingDefStyles>
+      <li>
+        <ThingDef>MeleeWeapon_Longsword</ThingDef>
+        <styleDef>Sapiarch</styleDef>
+      </li>
+      <li>
+        <ThingDef>MeleeWeapon_Knife</ThingDef>
+        <styleDef>Sapiarch</styleDef>
+      </li>
+      <li>
+        <ThingDef>Bow_Short</ThingDef>
+        <styleDef>Sapiarch</styleDef>
+      </li>
+      <li>
+        <ThingDef>Bow_Recurve</ThingDef>
+        <styleDef>Sapiarch</styleDef>
+      </li>
+    </thingDefStyles>
+  </StyleCategoryDef>
+
+  <!-- Aldmeri Noble Weapon Styles -->
+  <StyleCategoryDef ParentName="AldmeriNoble">
+    <defName>AldmeriNobleWeapons</defName>
+    <label>Aldmeri Noble Weapons</label>
+    <description>Elegant dueling weapons with golden inlays and precious gemstone decorations.</description>
+    <thingDefStyles>
+      <li>
+        <ThingDef>MeleeWeapon_Longsword</ThingDef>
+        <styleDef>AldmeriNoble</styleDef>
+      </li>
+      <li>
+        <ThingDef>MeleeWeapon_Knife</ThingDef>
+        <styleDef>AldmeriNoble</styleDef>
+      </li>
+      <li>
+        <ThingDef>Bow_Short</ThingDef>
+        <styleDef>AldmeriNoble</styleDef>
+      </li>
+      <li>
+        <ThingDef>Bow_Recurve</ThingDef>
+        <styleDef>AldmeriNoble</styleDef>
+      </li>
+    </thingDefStyles>
+  </StyleCategoryDef>
+
+  <!-- Sunspire Weapon Styles -->
+  <StyleCategoryDef ParentName="Sunspire">
+    <defName>SunspireWeapons</defName>
+    <label>Sunspire Weapons</label>
+    <description>Sacred weapons blessed by the Aedra with solar motifs and divine enchantments.</description>
+    <thingDefStyles>
+      <li>
+        <ThingDef>MeleeWeapon_Longsword</ThingDef>
+        <styleDef>Sunspire</styleDef>
+      </li>
+      <li>
+        <ThingDef>MeleeWeapon_Knife</ThingDef>
+        <styleDef>Sunspire</styleDef>
+      </li>
+      <li>
+        <ThingDef>Bow_Short</ThingDef>
+        <styleDef>Sunspire</styleDef>
+      </li>
+      <li>
+        <ThingDef>Bow_Recurve</ThingDef>
+        <styleDef>Sunspire</styleDef>
+      </li>
+    </thingDefStyles>
+  </StyleCategoryDef>
+
+  <!-- Auridonia Weapon Styles -->
+  <StyleCategoryDef ParentName="Auridonia">
+    <defName>AuridoniaWeapons</defName>
+    <label>Auridonia Weapons</label>
+    <description>Refined mainland weapons with classical proportions and subtle golden accents.</description>
+    <thingDefStyles>
+      <li>
+        <ThingDef>MeleeWeapon_Longsword</ThingDef>
+        <styleDef>Auridonia</styleDef>
+      </li>
+      <li>
+        <ThingDef>MeleeWeapon_Knife</ThingDef>
+        <styleDef>Auridonia</styleDef>
+      </li>
+      <li>
+        <ThingDef>Bow_Short</ThingDef>
+        <styleDef>Auridonia</styleDef>
+      </li>
+      <li>
+        <ThingDef>Bow_Recurve</ThingDef>
+        <styleDef>Auridonia</styleDef>
+      </li>
+    </thingDefStyles>
+  </StyleCategoryDef>
+
+  <!-- Artaeum Weapon Styles -->
+  <StyleCategoryDef ParentName="Artaeum">
+    <defName>ArtaeumWeapons</defName>
+    <label>Artaeum Weapons</label>
+    <description>Mystical weapons that exist between realms, used by the Psijic Order.</description>
+    <thingDefStyles>
+      <li>
+        <ThingDef>MeleeWeapon_Longsword</ThingDef>
+        <styleDef>Artaeum</styleDef>
+      </li>
+      <li>
+        <ThingDef>MeleeWeapon_Knife</ThingDef>
+        <styleDef>Artaeum</styleDef>
+      </li>
+      <li>
+        <ThingDef>Bow_Short</ThingDef>
+        <styleDef>Artaeum</styleDef>
+      </li>
+      <li>
+        <ThingDef>Bow_Recurve</ThingDef>
+        <styleDef>Artaeum</styleDef>
+      </li>
+    </thingDefStyles>
+  </StyleCategoryDef>
+
+</Defs>

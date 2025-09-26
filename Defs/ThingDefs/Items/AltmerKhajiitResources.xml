@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Moonstone - Rare Magical Mineral -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>Moonstone</defName>
+    <label>moonstone</label>
+    <description>A translucent, opalescent gemstone that shimmers with captured moonlight. Moonstone is prized by both Altmer and Khajiit for its powerful magical properties and connection to lunar forces. This rare mineral can only be mined using specialized techniques known exclusively to these two races, requiring both magical knowledge and understanding of lunar cycles.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Moonstone</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MarketValue>320</MarketValue>
+      <Mass>0.2</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>15</Beauty>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+      <li>MagicalResource</li>
+      <li>AltmerTech</li>
+      <li>KhajiitTech</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(200,200,255,0)</glowColor>
+      </li>
+    </comps>
+    <stuffProps>
+      <categories>
+        <li>Stony</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <statOffsets>
+        <WorkToMake>800</WorkToMake>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>2.2</MaxHitPoints>
+        <Beauty>3.5</Beauty>
+        <WorkToMake>0.7</WorkToMake>
+        <WorkToBuild>0.7</WorkToBuild>
+        <Mass>0.4</Mass>
+      </statFactors>
+      <color>(220,220,255)</color>
+      <soundImpactBullet>BulletImpact_Ground</soundImpactBullet>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+    </stuffProps>
+  </ThingDef>
+
+  <!-- Quicksilver - Rare Liquid Metal -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>Quicksilver</defName>
+    <label>quicksilver</label>
+    <description>A mysterious liquid metallic substance that flows like mercury but retains the strength of steel when properly worked. Quicksilver is extremely rare and valuable, found in only the most unusual geological formations. Its unique properties make it invaluable for advanced magical and alchemical applications, though its rarity ensures only the most affluent can afford it.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Quicksilver</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MarketValue>550</MarketValue>
+      <Mass>0.8</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>10</Beauty>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+      <li>MagicalResource</li>
+      <li>AlchemyResource</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>2</glowRadius>
+        <glowColor>(180,180,200,0)</glowColor>
+      </li>
+    </comps>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <statOffsets>
+        <WorkToMake>1000</WorkToMake>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>2.5</MaxHitPoints>
+        <Beauty>2.8</Beauty>
+        <WorkToMake>0.6</WorkToMake>
+        <WorkToBuild>0.6</WorkToBuild>
+        <Mass>0.3</Mass>
+        <SharpDamageMultiplier>1.7</SharpDamageMultiplier>
+        <BluntDamageMultiplier>1.5</BluntDamageMultiplier>
+      </statFactors>
+      <color>(160,160,180)</color>
+      <soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
+      <soundMeleeHitSharp>MeleeHit_Metal</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal</soundMeleeHitBlunt>
+    </stuffProps>
+  </ThingDef>
+
+</Defs>

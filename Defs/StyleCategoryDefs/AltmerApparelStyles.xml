@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Crystal Tower Apparel Styles -->
+  <StyleCategoryDef ParentName="CrystalTower">
+    <defName>CrystalTowerApparel</defName>
+    <label>Crystal Tower Apparel</label>
+    <description>Scholarly robes and magical regalia with crystalline patterns and arcane symbols.</description>
+    <thingDefStyles>
+      <li>
+        <ThingDef>Apparel_Robe</ThingDef>
+        <styleDef>CrystalTower</styleDef>
+      </li>
+      <li>
+        <ThingDef>Apparel_CollarShirt</ThingDef>
+        <styleDef>CrystalTower</styleDef>
+      </li>
+      <li>
+        <ThingDef>Apparel_Pants</ThingDef>
+        <styleDef>CrystalTower</styleDef>
+      </li>
+      <li>
+        <ThingDef>Apparel_Hat</ThingDef>
+        <styleDef>CrystalTower</styleDef>
+      </li>
+    </thingDefStyles>
+  </StyleCategoryDef>
+
+  <!-- Sapiarch Apparel Styles -->
+  <StyleCategoryDef ParentName="Sapiarch">
+    <defName>SapiarchApparel</defName>
+    <label>Sapiarch Apparel</label>
+    <description>Regal robes and ceremonial garments with ancient symbols of authority.</description>
+    <thingDefStyles>
+      <li>
+        <ThingDef>Apparel_Robe</ThingDef>
+        <styleDef>Sapiarch</styleDef>
+      </li>
+      <li>
+        <ThingDef>Apparel_CollarShirt</ThingDef>
+        <styleDef>Sapiarch</styleDef>
+      </li>
+      <li>
+        <ThingDef>Apparel_Pants</ThingDef>
+        <styleDef>Sapiarch</styleDef>
+      </li>
+      <li>
+        <ThingDef>Apparel_Hat</ThingDef>
+        <styleDef>Sapiarch</styleDef>
+      </li>
+    </thingDefStyles>
+  </StyleCategoryDef>
+
+  <!-- Aldmeri Noble Apparel Styles -->
+  <StyleCategoryDef ParentName="AldmeriNoble">
+    <defName>AldmeriNobleApparel</defName>
+    <label>Aldmeri Noble Apparel</label>
+    <description>Elegant court attire with golden embroidery and precious gemstone accents.</description>
+    <thingDefStyles>
+      <li>
+        <ThingDef>Apparel_Robe</ThingDef>
+        <styleDef>AldmeriNoble</styleDef>
+      </li>
+      <li>
+        <ThingDef>Apparel_CollarShirt</ThingDef>
+        <styleDef>AldmeriNoble</styleDef>
+      </li>
+      <li>
+        <ThingDef>Apparel_Pants</ThingDef>
+        <styleDef>AldmeriNoble</styleDef>
+      </li>
+      <li>
+        <ThingDef>Apparel_Hat</ThingDef>
+        <styleDef>AldmeriNoble</styleDef>
+      </li>
+    </thingDefStyles>
+  </StyleCategoryDef>
+
+  <!-- Sunspire Apparel Styles -->
+  <StyleCategoryDef ParentName="Sunspire">
+    <defName>SunspireApparel</defName>
+    <label>Sunspire Apparel</label>
+    <description>Sacred vestments with solar motifs and divine symbols of the Aedra.</description>
+    <thingDefStyles>
+      <li>
+        <ThingDef>Apparel_Robe</ThingDef>
+        <styleDef>Sunspire</styleDef>
+      </li>
+      <li>
+        <ThingDef>Apparel_CollarShirt</ThingDef>
+        <styleDef>Sunspire</styleDef>
+      </li>
+      <li>
+        <ThingDef>Apparel_Pants</ThingDef>
+        <styleDef>Sunspire</styleDef>
+      </li>
+      <li>
+        <ThingDef>Apparel_Hat</ThingDef>
+        <styleDef>Sunspire</styleDef>
+      </li>
+    </thingDefStyles>
+  </StyleCategoryDef>
+
+  <!-- Auridonia Apparel Styles -->
+  <StyleCategoryDef ParentName="Auridonia">
+    <defName>AuridoniaApparel</defName>
+    <label>Auridonia Apparel</label>
+    <description>Refined mainland fashion with classical elements and subtle golden accents.</description>
+    <thingDefStyles>
+      <li>
+        <ThingDef>Apparel_Robe</ThingDef>
+        <styleDef>Auridonia</styleDef>
+      </li>
+      <li>
+        <ThingDef>Apparel_CollarShirt</ThingDef>
+        <styleDef>Auridonia</styleDef>
+      </li>
+      <li>
+        <ThingDef>Apparel_Pants</ThingDef>
+        <styleDef>Auridonia</styleDef>
+      </li>
+      <li>
+        <ThingDef>Apparel_Hat</ThingDef>
+        <styleDef>Auridonia</styleDef>
+      </li>
+    </thingDefStyles>
+  </StyleCategoryDef>
+
+  <!-- Artaeum Apparel Styles -->
+  <StyleCategoryDef ParentName="Artaeum">
+    <defName>ArtaeumApparel</defName>
+    <label>Artaeum Apparel</label>
+    <description>Mystical robes that seem to shift between realms, worn by the Psijic Order.</description>
+    <thingDefStyles>
+      <li>
+        <ThingDef>Apparel_Robe</ThingDef>
+        <styleDef>Artaeum</styleDef>
+      </li>
+      <li>
+        <ThingDef>Apparel_CollarShirt</ThingDef>
+        <styleDef>Artaeum</styleDef>
+      </li>
+      <li>
+        <ThingDef>Apparel_Pants</ThingDef>
+        <styleDef>Artaeum</styleDef>
+      </li>
+      <li>
+        <ThingDef>Apparel_Hat</ThingDef>
+        <styleDef>Artaeum</styleDef>
+      </li>
+    </thingDefStyles>
+  </StyleCategoryDef>
+
+</Defs>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Process Moonstone Crystals -->
+  <RecipeDef>
+    <defName>ProcessMoonstone</defName>
+    <label>cut moonstone crystals</label>
+    <description>Carefully cut and polish raw moonstone using traditional techniques to create refined moonstone gems suitable for advanced magical applications.</description>
+    <jobString>Cutting moonstone crystals.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>CutStone</effectWorking>
+    <soundWorking>Recipe_CutStone</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1800</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+      <Artistic>6</Artistic>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Moonstone</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <products>
+      <Moonstone>3</Moonstone>
+    </products>
+    <workSkill>Artistic</workSkill>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+      <li>TableSculpting</li>
+    </recipeUsers>
+    <researchPrerequisite>MoonstoneMining</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Refine Quicksilver -->
+  <RecipeDef>
+    <defName>RefineQuicksilver</defName>
+    <label>refine quicksilver</label>
+    <description>Use advanced alchemical techniques to purify and stabilize raw quicksilver, making it suitable for use in high-quality equipment and magical applications.</description>
+    <jobString>Refining quicksilver.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>2200</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <skillRequirements>
+      <Crafting>10</Crafting>
+      <Intellectual>8</Intellectual>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Quicksilver</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>Metallic</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Quicksilver>2</Quicksilver>
+    </products>
+    <workSkill>Crafting</workSkill>
+    <recipeUsers>
+      <li>ElectricSmelter</li>
+      <li>FueledSmithy</li>
+    </recipeUsers>
+    <researchPrerequisite>Smithing</researchPrerequisite>
+  </RecipeDef>
+
+</Defs>

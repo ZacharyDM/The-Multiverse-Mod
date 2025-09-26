@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Moonstone Mining Technology -->
+  <ResearchProjectDef>
+    <defName>MoonstoneMining</defName>
+    <label>Lunar Crystal Extraction</label>
+    <description>Learn the ancient techniques of moonstone mining practiced by both Altmer and Khajiit cultures. This specialized knowledge combines magical theory with precise mining techniques to extract delicate moonstone crystals without shattering them. The techniques require understanding of lunar cycles, crystal resonance, and careful application of magical energy during extraction.</description>
+    <baseCost>2800</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>Mining</li>
+    </prerequisites>
+    <tab>Main</tab>
+    <researchViewX>2.50</researchViewX>
+    <researchViewY>3.80</researchViewY>
+    <requiredResearchBuilding>ResearchBench</requiredResearchBuilding>
+    <discoveredLetterTitle>Moonstone mining discovered</discoveredLetterTitle>
+    <discoveredLetterText>Your researchers have unlocked the secrets of moonstone extraction! This ancient technique, shared only between Altmer and Khajiit cultures, allows for the careful mining of precious moonstone crystals.\n\nMoonstone deposits can now be mined successfully, yielding valuable crystals for magical and crafting applications.</discoveredLetterText>
+  </ResearchProjectDef>
+
+</Defs>

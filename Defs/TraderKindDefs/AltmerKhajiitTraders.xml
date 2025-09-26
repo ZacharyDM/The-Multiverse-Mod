@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Altmer Moonstone Trader -->
+  <TraderKindDef>
+    <defName>AltmerMoonstoneTrader</defName>
+    <label>Altmer moonstone trader</label>
+    <stockGenerators>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Moonstone</thingDef>
+        <totalPriceRange>400~1000</totalPriceRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Quicksilver</thingDef>
+        <totalPriceRange>600~1500</totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>ResourcesRaw</categoryDef>
+        <thingDefCountRange>2~5</thingDefCountRange>
+        <totalPriceRange>300~600</totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>Metallic</categoryDef>
+        <thingDefCountRange>1~3</thingDefCountRange>
+        <totalPriceRange>200~500</totalPriceRange>
+      </li>
+    </stockGenerators>
+  </TraderKindDef>
+
+  <!-- Khajiit Moonstone Trader -->
+  <TraderKindDef>
+    <defName>KhajiitMoonstoneTrader</defName>
+    <label>Khajiit moonstone trader</label>
+    <stockGenerators>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Moonstone</thingDef>
+        <totalPriceRange>350~900</totalPriceRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Quicksilver</thingDef>
+        <totalPriceRange>500~1200</totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>ResourcesRaw</categoryDef>
+        <thingDefCountRange>3~7</thingDefCountRange>
+        <totalPriceRange>250~550</totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>Exotic</categoryDef>
+        <thingDefCountRange>1~4</thingDefCountRange>
+        <totalPriceRange>400~800</totalPriceRange>
+      </li>
+    </stockGenerators>
+  </TraderKindDef>
+
+  <!-- Crystal Tower Scholar Trader -->
+  <TraderKindDef>
+    <defName>CrystalTowerScholarTrader</defName>
+    <label>Crystal Tower scholar</label>
+    <stockGenerators>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Moonstone</thingDef>
+        <totalPriceRange>500~1200</totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>Intellectual</categoryDef>
+        <thingDefCountRange>2~6</thingDefCountRange>
+        <totalPriceRange>300~700</totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>Artistic</categoryDef>
+        <thingDefCountRange>1~3</thingDefCountRange>
+        <totalPriceRange>200~500</totalPriceRange>
+      </li>
+    </stockGenerators>
+  </TraderKindDef>
+
+</Defs>

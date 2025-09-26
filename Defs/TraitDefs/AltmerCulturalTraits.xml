@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Altmer Scholarly Heritage -->
+  <TraitDef>
+    <defName>AltmerScholarlyHeritage</defName>
+    <label>Altmer Scholarly Heritage</label>
+    <description>This Altmer comes from a long line of scholars and researchers, possessing enhanced intellectual capabilities and a natural drive for knowledge.</description>
+    <degreeDatas>
+      <li>
+        <label>Academic Excellence</label>
+        <description>Born into the scholarly tradition of Summerset, this pawn excels in research and intellectual pursuits.</description>
+        <skillGains>
+          <Intellectual>5</Intellectual>
+          <Artistic>3</Artistic>
+          <Medicine>2</Medicine>
+          <Crafting>2</Crafting>
+        </skillGains>
+        <statOffsets>
+          <ResearchSpeed>0.25</ResearchSpeed>
+          <PsychicSensitivity>0.15</PsychicSensitivity>
+          <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <exclusionTags>
+      <li>AltmerCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Altmer Magical Purist -->
+  <TraitDef>
+    <defName>AltmerMagicalPurist</defName>
+    <label>Altmer Magical Purist</label>
+    <description>This Altmer adheres to the ancient traditions of magical purity and superiority, believing in the inherent magical supremacy of their race.</description>
+    <degreeDatas>
+      <li>
+        <label>Arcane Supremacy</label>
+        <description>Born with the belief in magical superiority, this pawn has enhanced magical abilities but disdains lesser forms of magic.</description>
+        <skillGains>
+          <Intellectual>4</Intellectual>
+          <Artistic>4</Artistic>
+          <Social>1</Social>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.3</PsychicSensitivity>
+          <ResearchSpeed>0.2</ResearchSpeed>
+          <NegotiationAbility>-0.1</NegotiationAbility>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <exclusionTags>
+      <li>AltmerCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Altmer Crystal Tower Adept -->
+  <TraitDef>
+    <defName>AltmerCrystalTowerAdept</defName>
+    <label>Crystal Tower Adept</label>
+    <description>This Altmer has studied at the legendary Crystal Tower, gaining unparalleled knowledge in the arcane arts and ancient wisdom.</description>
+    <degreeDatas>
+      <li>
+        <label>Tower Wisdom</label>
+        <description>Educated at the Crystal Tower, this pawn possesses deep knowledge of magic, history, and advanced research techniques.</description>
+        <skillGains>
+          <Intellectual>6</Intellectual>
+          <Artistic>2</Artistic>
+          <Medicine>3</Medicine>
+          <Social>2</Social>
+        </skillGains>
+        <statOffsets>
+          <ResearchSpeed>0.35</ResearchSpeed>
+          <PsychicSensitivity>0.25</PsychicSensitivity>
+          <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <exclusionTags>
+      <li>AltmerCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Altmer Noble Heritage -->
+  <TraitDef>
+    <defName>AltmerNobleHeritage</defName>
+    <label>Altmer Noble Heritage</label>
+    <description>This Altmer comes from one of the ancient noble bloodlines of Summerset, possessing refined social skills and natural leadership abilities.</description>
+    <degreeDatas>
+      <li>
+        <label>Aristocratic Bearing</label>
+        <description>Born into nobility, this pawn has natural social graces and leadership qualities, but may struggle with manual labor.</description>
+        <skillGains>
+          <Social>5</Social>
+          <Intellectual>3</Intellectual>
+          <Artistic>3</Artistic>
+        </skillGains>
+        <statOffsets>
+          <TradePriceImprovement>0.15</TradePriceImprovement>
+          <NegotiationAbility>0.2</NegotiationAbility>
+          <WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <exclusionTags>
+      <li>AltmerCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Altmer Sapiarch Heritage -->
+  <TraitDef>
+    <defName>AltmerSapiarchHeritage</defName>
+    <label>Sapiarch Heritage</label>
+    <description>This Altmer descends from the Sapiarchs, the ancient wise-rulers of Summerset, combining scholarly excellence with natural authority.</description>
+    <degreeDatas>
+      <li>
+        <label>Ancient Wisdom</label>
+        <description>Descended from the Sapiarchs, this pawn combines supreme intellect with natural leadership and deep understanding of magic.</description>
+        <skillGains>
+          <Intellectual>5</Intellectual>
+          <Social>3</Social>
+          <Artistic>2</Artistic>
+          <Medicine>2</Medicine>
+        </skillGains>
+        <statOffsets>
+          <ResearchSpeed>0.3</ResearchSpeed>
+          <PsychicSensitivity>0.2</PsychicSensitivity>
+          <NegotiationAbility>0.15</NegotiationAbility>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <exclusionTags>
+      <li>AltmerCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Altmer Artisan Heritage -->
+  <TraitDef>
+    <defName>AltmerArtisanHeritage</defName>
+    <label>Altmer Artisan Heritage</label>
+    <description>This Altmer comes from a family of master craftsmen, specializing in creating works of unparalleled beauty and magical precision.</description>
+    <degreeDatas>
+      <li>
+        <label>Perfectionist Craft</label>
+        <description>Born into a family of master artisans, this pawn creates works of exceptional beauty and quality.</description>
+        <skillGains>
+          <Artistic>6</Artistic>
+          <Crafting>4</Crafting>
+          <Intellectual>2</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+          <ResearchSpeed>0.1</ResearchSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <exclusionTags>
+      <li>AltmerCulture</li>
+    </exclusionTags>
+  </TraitDef>
+</Defs>

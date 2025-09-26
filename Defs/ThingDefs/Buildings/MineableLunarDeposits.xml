@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Moonstone Deposit - Requires Special Technology -->
+  <ThingDef ParentName="MineableBase">
+    <defName>MineableMoonstone</defName>
+    <label>moonstone deposit</label>
+    <description>A rare lunar crystal formation that can only be properly extracted using specialized moonstone mining techniques known exclusively to the Altmer and Khajiit. Without proper knowledge, the delicate crystals shatter and become worthless.</description>
+    <graphicData>
+      <texPath>Things/Building/Natural/RockDeposit_Moonstone</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>600</MaxHitPoints>
+    </statBases>
+    <building>
+      <mineableThing>Moonstone</mineableThing>
+      <mineableYield>12</mineableYield>
+      <mineableNonMinedEffecter>MineStrike_NonMineral</mineableNonMinedEffecter>
+      <mineableDropChance>0.7</mineableDropChance>
+      <mineableYieldWasteable>true</mineableYieldWasteable>
+    </building>
+    <filthLeaving>RockRubble</filthLeaving>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>4</glowRadius>
+        <glowColor>(200,200,255,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Quicksilver Deposit - Ultra Rare -->
+  <ThingDef ParentName="MineableBase">
+    <defName>MineableQuicksilver</defName>
+    <label>quicksilver deposit</label>
+    <description>An extremely rare formation of liquid metal trapped within crystalline structures. Quicksilver deposits are incredibly difficult to find and even harder to extract safely, requiring great skill and specialized equipment.</description>
+    <graphicData>
+      <texPath>Things/Building/Natural/RockDeposit_Quicksilver</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>900</MaxHitPoints>
+    </statBases>
+    <building>
+      <mineableThing>Quicksilver</mineableThing>
+      <mineableYield>6</mineableYield>
+      <mineableNonMinedEffecter>MineStrike_NonMineral</mineableNonMinedEffecter>
+      <mineableDropChance>0.5</mineableDropChance>
+      <mineableYieldWasteable>false</mineableYieldWasteable>
+    </building>
+    <filthLeaving>RockRubble</filthLeaving>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(180,180,200,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>
