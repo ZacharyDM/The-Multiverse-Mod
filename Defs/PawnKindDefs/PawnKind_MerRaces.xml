@@ -10,6 +10,7 @@
     <backstoryCategories>
       <li>Civil</li>
       <li>Tribal</li>
+      <li>ElderScrolls</li>
     </backstoryCategories>
     <defaultOutfit>Clothes</defaultOutfit>
     <inventoryOptions>
@@ -50,6 +51,7 @@
     <backstoryCategories>
       <li>Civil</li>
       <li>Tribal</li>
+      <li>ElderScrolls</li>
     </backstoryCategories>
     <defaultOutfit>Clothes</defaultOutfit>
     <inventoryOptions>
@@ -90,6 +92,7 @@
     <backstoryCategories>
       <li>Civil</li>
       <li>Tribal</li>
+      <li>ElderScrolls</li>
     </backstoryCategories>
     <defaultOutfit>Clothes</defaultOutfit>
     <inventoryOptions>
@@ -130,6 +133,7 @@
     <backstoryCategories>
       <li>Civil</li>
       <li>Tribal</li>
+      <li>ElderScrolls</li>
     </backstoryCategories>
     <defaultOutfit>Clothes</defaultOutfit>
     <inventoryOptions>
@@ -174,6 +178,7 @@
     <backstoryCategories>
       <li>Civil</li>
       <li>Tribal</li>
+      <li>ElderScrolls</li>
     </backstoryCategories>
     <defaultOutfit>Clothes</defaultOutfit>
     <inventoryOptions>
@@ -218,6 +223,7 @@
     <backstoryCategories>
       <li>Civil</li>
       <li>Tribal</li>
+      <li>ElderScrolls</li>
     </backstoryCategories>
     <defaultOutfit>Clothes</defaultOutfit>
     <inventoryOptions>
@@ -262,6 +268,7 @@
     <backstoryCategories>
       <li>Civil</li>
       <li>Tribal</li>
+      <li>ElderScrolls</li>
     </backstoryCategories>
     <defaultOutfit>Clothes</defaultOutfit>
     <inventoryOptions>
@@ -306,6 +313,7 @@
     <backstoryCategories>
       <li>Civil</li>
       <li>Tribal</li>
+      <li>ElderScrolls</li>
     </backstoryCategories>
     <defaultOutfit>Clothes</defaultOutfit>
     <inventoryOptions>
@@ -350,6 +358,7 @@
     <backstoryCategories>
       <li>Civil</li>
       <li>Tribal</li>
+      <li>ElderScrolls</li>
     </backstoryCategories>
     <defaultOutfit>Clothes</defaultOutfit>
     <inventoryOptions>
@@ -394,6 +403,7 @@
     <combatPower>65</combatPower>
     <backstoryCategories>
       <li>Civil</li>
+      <li>ElderScrolls</li>
     </backstoryCategories>
     <defaultOutfit>Clothes</defaultOutfit>
     <itemQuality>Excellent</itemQuality>
@@ -432,6 +442,7 @@
     <combatPower>75</combatPower>
     <backstoryCategories>
       <li>Civil</li>
+      <li>ElderScrolls</li>
     </backstoryCategories>
     <defaultOutfit>Clothes</defaultOutfit>
     <itemQuality>Excellent</itemQuality>
@@ -470,6 +481,7 @@
     <combatPower>60</combatPower>
     <backstoryCategories>
       <li>Civil</li>
+      <li>ElderScrolls</li>
     </backstoryCategories>
     <defaultOutfit>Clothes</defaultOutfit>
     <itemQuality>Excellent</itemQuality>

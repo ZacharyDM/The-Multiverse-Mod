@@ -10,6 +10,7 @@
     <chemicalAddictionChance>0.02</chemicalAddictionChance>
     <backstoryCategories>
       <li>Civil</li>
+      <li>ElderScrolls</li>
     </backstoryCategories>
     <baseRecruitDifficulty>0.50</baseRecruitDifficulty>
   </PawnKindDef>
@@ -22,6 +23,7 @@
     <chemicalAddictionChance>0.01</chemicalAddictionChance>
     <backstoryCategories>
       <li>Civil</li>
+      <li>ElderScrolls</li>
     </backstoryCategories>
     <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
     <apparelTags>
@@ -41,6 +43,7 @@
     <chemicalAddictionChance>0.03</chemicalAddictionChance>
     <backstoryCategories>
       <li>Tribal</li>
+      <li>ElderScrolls</li>
     </backstoryCategories>
     <baseRecruitDifficulty>0.65</baseRecruitDifficulty>
     <apparelTags>
@@ -60,6 +63,7 @@
     <chemicalAddictionChance>0.02</chemicalAddictionChance>
     <backstoryCategories>
       <li>Civil</li>
+      <li>ElderScrolls</li>
     </backstoryCategories>
     <baseRecruitDifficulty>0.45</baseRecruitDifficulty>
     <trader>true</trader>
@@ -73,6 +77,7 @@
     <chemicalAddictionChance>0.01</chemicalAddictionChance>
     <backstoryCategories>
       <li>Civil</li>
+      <li>ElderScrolls</li>
     </backstoryCategories>
     <baseRecruitDifficulty>0.70</baseRecruitDifficulty>
     <trader>true</trader>
@@ -87,6 +92,7 @@
     <chemicalAddictionChance>0.02</chemicalAddictionChance>
     <backstoryCategories>
       <li>Tribal</li>
+      <li>ElderScrolls</li>
     </backstoryCategories>
     <baseRecruitDifficulty>0.55</baseRecruitDifficulty>
     <apparelTags>
@@ -105,6 +111,7 @@
     <chemicalAddictionChance>0.01</chemicalAddictionChance>
     <backstoryCategories>
       <li>Tribal</li>
+      <li>ElderScrolls</li>
     </backstoryCategories>
     <baseRecruitDifficulty>0.80</baseRecruitDifficulty>
     <apparelTags>
@@ -124,6 +131,7 @@
     <chemicalAddictionChance>0.01</chemicalAddictionChance>
     <backstoryCategories>
       <li>Civil</li>
+      <li>ElderScrolls</li>
     </backstoryCategories>
     <baseRecruitDifficulty>0.40</baseRecruitDifficulty>
   </PawnKindDef>

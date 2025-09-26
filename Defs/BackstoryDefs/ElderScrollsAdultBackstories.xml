@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Acrobat -->
+  <BackstoryDef>
+    <defName>ESAdultAcrobat</defName>
+    <title>Acrobat</title>
+    <titleShort>acrobat</titleShort>
+    <baseDesc>NAME was a nimble performer who specialized in acrobatic feats and entertainment. HE traveled from town to town, performing spectacular displays of agility and dexterity that amazed crowds throughout the provinces.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Shooting>3</Shooting>
+      <Melee>2</Melee>
+      <Artistic>2</Artistic>
+      <Social>1</Social>
+    </skillGains>
+    <spawnCategories>
+      <li>ElderScrolls</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <!-- Agent -->
+  <BackstoryDef>
+    <defName>ESAdultAgent</defName>
+    <title>Agent</title>
+    <titleShort>agent</titleShort>
+    <baseDesc>NAME worked in the shadows as a covert operative, gathering intelligence and carrying out missions for various organizations. HIS skills in stealth, deception, and combat made HIM invaluable to those who could afford HIS services.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Social>3</Social>
+      <Shooting>2</Shooting>
+      <Melee>2</Melee>
+      <Intellectual>1</Intellectual>
+    </skillGains>
+    <spawnCategories>
+      <li>ElderScrolls</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Social</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <!-- Archer -->
+  <BackstoryDef>
+    <defName>ESAdultArcher</defName>
+    <title>Archer</title>
+    <titleShort>archer</titleShort>
+    <baseDesc>NAME was a skilled marksman who specialized in ranged combat. Whether hunting wild game in the forests or defending settlements from raiders, HIS bow was always true to its mark.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Shooting>4</Shooting>
+      <Animals>2</Animals>
+      <Melee>1</Melee>
+      <Crafting>1</Crafting>
+    </skillGains>
+    <spawnCategories>
+      <li>ElderScrolls</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <!-- Assassin -->
+  <BackstoryDef>
+    <defName>ESAdultAssassin</defName>
+    <title>Assassin</title>
+    <titleShort>assassin</titleShort>
+    <baseDesc>NAME was a deadly killer who eliminated targets with ruthless efficiency. Trained in the arts of stealth and murder, HE struck from the shadows and disappeared without a trace.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>3</Melee>
+      <Shooting>2</Shooting>
+      <Medicine>2</Medicine>
+      <Social>1</Social>
+    </skillGains>
+    <spawnCategories>
+      <li>ElderScrolls</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <disallowedWorkTags>
+      <li>Caring</li>
+    </disallowedWorkTags>
+  </BackstoryDef>
+
+  <!-- Barbarian -->
+  <BackstoryDef>
+    <defName>ESAdultBarbarian</defName>
+    <title>Barbarian</title>
+    <titleShort>barbarian</titleShort>
+    <baseDesc>NAME lived among the wild tribes beyond civilization's reach. HIS strength and ferocity in battle were legendary, and HE knew the ancient ways of survival in harsh lands.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>4</Melee>
+      <Animals>2</Animals>
+      <Construction>1</Construction>
+      <Plants>1</Plants>
+    </skillGains>
+    <spawnCategories>
+      <li>ElderScrolls</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <disallowedWorkTags>
+      <li>Intellectual</li>
+    </disallowedWorkTags>
+  </BackstoryDef>
+
+  <!-- Bard -->
+  <BackstoryDef>
+    <defName>ESAdultBard</defName>
+    <title>Bard</title>
+    <titleShort>bard</titleShort>
+    <baseDesc>NAME was a traveling entertainer who combined music, storytelling, and performance to captivate audiences. HIS charisma and artistic talent made HIM welcome in courts and taverns alike.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Social>4</Social>
+      <Artistic>3</Artistic>
+      <Intellectual>1</Intellectual>
+    </skillGains>
+    <spawnCategories>
+      <li>ElderScrolls</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Social</li>
+      <li>Artistic</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <!-- Battlemage -->
+  <BackstoryDef>
+    <defName>ESAdultBattlemage</defName>
+    <title>Battlemage</title>
+    <titleShort>battlemage</titleShort>
+    <baseDesc>NAME was a warrior-scholar who combined martial prowess with magical knowledge. On the battlefield, HE wielded both sword and spell with equal skill, making HIM a formidable opponent.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>3</Melee>
+      <Intellectual>3</Intellectual>
+      <Medicine>1</Medicine>
+      <Shooting>1</Shooting>
+    </skillGains>
+    <spawnCategories>
+      <li>ElderScrolls</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <!-- Crusader -->
+  <BackstoryDef>
+    <defName>ESAdultCrusader</defName>
+    <title>Crusader</title>
+    <titleShort>crusader</titleShort>
+    <baseDesc>NAME was a holy warrior dedicated to fighting evil and protecting the innocent. Armed with righteous conviction and divine blessing, HE stood as a beacon of hope against the forces of darkness.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>3</Melee>
+      <Medicine>2</Medicine>
+      <Social>2</Social>
+      <Construction>1</Construction>
+    </skillGains>
+    <spawnCategories>
+      <li>ElderScrolls</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Caring</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <!-- Healer -->
+  <BackstoryDef>
+    <defName>ESAdultHealer</defName>
+    <title>Healer</title>
+    <titleShort>healer</titleShort>
+    <baseDesc>NAME dedicated HIS life to the healing arts, tending to the sick and wounded with both natural remedies and divine magic. HIS compassion and medical knowledge saved countless lives.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Medicine>4</Medicine>
+      <Intellectual>2</Intellectual>
+      <Plants>2</Plants>
+    </skillGains>
+    <spawnCategories>
+      <li>ElderScrolls</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Caring</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <disallowedWorkTags>
+      <li>Violent</li>
+    </disallowedWorkTags>
+  </BackstoryDef>
+
+  <!-- Knight -->
+  <BackstoryDef>
+    <defName>ESAdultKnight</defName>
+    <title>Knight</title>
+    <titleShort>knight</titleShort>
+    <baseDesc>NAME was a noble warrior bound by codes of honor and chivalry. HE served lord and realm with unwavering loyalty, defending the innocent and upholding justice with sword and shield.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>4</Melee>
+      <Social>2</Social>
+      <Animals>1</Animals>
+      <Construction>1</Construction>
+    </skillGains>
+    <spawnCategories>
+      <li>ElderScrolls</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Social</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <!-- Mage -->
+  <BackstoryDef>
+    <defName>ESAdultMage</defName>
+    <title>Mage</title>
+    <titleShort>mage</titleShort>
+    <baseDesc>NAME was scholar of the arcane arts, spending years studying the mysteries of magic and the nature of reality. HIS spells could heal wounds, destroy enemies, or alter the very fabric of existence.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Intellectual>4</Intellectual>
+      <Medicine>2</Medicine>
+      <Crafting>1</Crafting>
+      <Artistic>1</Artistic>
+    </skillGains>
+    <spawnCategories>
+      <li>ElderScrolls</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <disallowedWorkTags>
+      <li>ManualDumb</li>
+    </disallowedWorkTags>
+  </BackstoryDef>
+
+  <!-- Monk -->
+  <BackstoryDef>
+    <defName>ESAdultMonk</defName>
+    <title>Monk</title>
+    <titleShort>monk</titleShort>
+    <baseDesc>NAME was a contemplative warrior who combined martial arts with spiritual discipline. Through meditation and training, HE achieved balance between mind, body, and spirit.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>3</Melee>
+      <Medicine>2</Medicine>
+      <Intellectual>2</Intellectual>
+      <Plants>1</Plants>
+    </skillGains>
+    <spawnCategories>
+      <li>ElderScrolls</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Caring</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <!-- Nightblade -->
+  <BackstoryDef>
+    <defName>ESAdultNightblade</defName>
+    <title>Nightblade</title>
+    <titleShort>nightblade</titleShort>
+    <baseDesc>NAME was a shadowy figure who combined stealth with magical abilities. Operating in darkness, HE used illusion magic and blade work to eliminate targets and gather secrets.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>3</Melee>
+      <Intellectual>2</Intellectual>
+      <Shooting>2</Shooting>
+      <Social>1</Social>
+    </skillGains>
+    <spawnCategories>
+      <li>ElderScrolls</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <!-- Pilgrim -->
+  <BackstoryDef>
+    <defName>ESAdultPilgrim</defName>
+    <title>Pilgrim</title>
+    <titleShort>pilgrim</titleShort>
+    <baseDesc>NAME was a devout traveler who journeyed to sacred sites across the land. HIS faith sustained HIM through hardship, and HE brought comfort and healing to those HE met along the way.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Medicine>3</Medicine>
+      <Social>2</Social>
+      <Animals>2</Animals>
+      <Plants>1</Plants>
+    </skillGains>
+    <spawnCategories>
+      <li>ElderScrolls</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Caring</li>
+      <li>Social</li>
+    </requiredWorkTags>
+    <disallowedWorkTags>
+      <li>Violent</li>
+    </disallowedWorkTags>
+  </BackstoryDef>
+
+  <!-- Rogue -->
+  <BackstoryDef>
+    <defName>ESAdultRogue</defName>
+    <title>Rogue</title>
+    <titleShort>rogue</titleShort>
+    <baseDesc>NAME lived outside the law, using wit and cunning to survive in the criminal underworld. Whether picking locks, stealing treasures, or avoiding guards, HE always found a way to come out ahead.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Shooting>2</Shooting>
+      <Melee>2</Melee>
+      <Social>2</Social>
+      <Crafting>2</Crafting>
+    </skillGains>
+    <spawnCategories>
+      <li>ElderScrolls</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <!-- Scout -->
+  <BackstoryDef>
+    <defName>ESAdultScout</defName>
+    <title>Scout</title>
+    <titleShort>scout</titleShort>
+    <baseDesc>NAME was an expert tracker and wilderness guide who could navigate any terrain. HIS keen senses and knowledge of nature made HIM invaluable to armies, caravans, and adventuring parties.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Shooting>3</Shooting>
+      <Animals>3</Animals>
+      <Plants>2</Plants>
+    </skillGains>
+    <spawnCategories>
+      <li>ElderScrolls</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <!-- Sorcerer -->
+  <BackstoryDef>
+    <defName>ESAdultSorcerer</defName>
+    <title>Sorcerer</title>
+    <titleShort>sorcerer</titleShort>
+    <baseDesc>NAME was born with natural magical ability and spent years honing these innate powers. Unlike formal mages, HE relied on instinct and raw talent to weave devastating spells.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Intellectual>3</Intellectual>
+      <Medicine>2</Medicine>
+      <Shooting>1</Shooting>
+      <Artistic>2</Artistic>
+    </skillGains>
+    <spawnCategories>
+      <li>ElderScrolls</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <!-- Spellsword -->
+  <BackstoryDef>
+    <defName>ESAdultSpellsword</defName>
+    <title>Spellsword</title>
+    <titleShort>spellsword</titleShort>
+    <baseDesc>NAME was a warrior who augmented martial skill with magical enhancement. HE could enchant HIS blade with elemental power or protect himself with arcane shields while fighting.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>3</Melee>
+      <Intellectual>2</Intellectual>
+      <Crafting>2</Crafting>
+      <Shooting>1</Shooting>
+    </skillGains>
+    <spawnCategories>
+      <li>ElderScrolls</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <!-- Thief -->
+  <BackstoryDef>
+    <defName>ESAdultThief</defName>
+    <title>Thief</title>
+    <titleShort>thief</titleShort>
+    <baseDesc>NAME was a master of stealth and larceny who could slip past any guard and steal anything of value. HIS light fingers and quick wit kept HIM one step ahead of the law.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Shooting>2</Shooting>
+      <Melee>1</Melee>
+      <Social>2</Social>
+      <Crafting>3</Crafting>
+    </skillGains>
+    <spawnCategories>
+      <li>ElderScrolls</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <!-- Warrior -->
+  <BackstoryDef>
+    <defName>ESAdultWarrior</defName>
+    <title>Warrior</title>
+    <titleShort>warrior</titleShort>
+    <baseDesc>NAME was a professional fighter who lived for battle. Whether serving in armies or working as a mercenary, HIS skill with weapons and tactical knowledge made HIM a deadly opponent.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>4</Melee>
+      <Shooting>2</Shooting>
+      <Construction>1</Construction>
+      <Animals>1</Animals>
+    </skillGains>
+    <spawnCategories>
+      <li>ElderScrolls</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <!-- Witchhunter -->
+  <BackstoryDef>
+    <defName>ESAdultWitchhunter</defName>
+    <title>Witchhunter</title>
+    <titleShort>witchhunter</titleShort>
+    <baseDesc>NAME specialized in hunting down practitioners of dark magic and eliminating supernatural threats. Armed with both weapons and protective spells, HE was feared by evil mages throughout the land.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Shooting>3</Shooting>
+      <Intellectual>2</Intellectual>
+      <Medicine>2</Medicine>
+      <Melee>1</Melee>
+    </skillGains>
+    <spawnCategories>
+      <li>ElderScrolls</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+</Defs>
