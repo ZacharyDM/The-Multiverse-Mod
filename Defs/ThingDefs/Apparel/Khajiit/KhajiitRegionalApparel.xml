@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Anequinan Desert Garb -->
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_AnequinanDesertGarb</defName>
+    <label>Anequinan desert garb</label>
+    <description>Traditional clothing of the northern Elsweyr nomads, designed for survival in harsh desert conditions. These layered garments provide protection from sandstorms while allowing freedom of movement for desert warriors. The earth-toned fabrics help with camouflage in badland terrain.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Khajiit/Anequinan/DesertGarb</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <WorkToMake>4500</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.8</Mass>
+      <Flammability>1.0</Flammability>
+      <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.25</ArmorRating_Heat>
+      <Insulation_Cold>12</Insulation_Cold>
+      <Insulation_Heat>15</Insulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>0.02</MoveSpeed>
+      <HuntingStealth>0.05</HuntingStealth>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Khajiit/Anequinan/DesertGarb</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>AnequinanClothing</li>
+        <li>KhajiitDesert</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Anequinan Warrior Armor -->
+  <ThingDef ParentName="ArmorMakeableBase">
+    <defName>Apparel_AnequinanWarriorArmor</defName>
+    <label>Anequinan warrior armor</label>
+    <description>Traditional armor of the Anequinan desert warriors, crafted from hardened leather and reinforced with metal studs. The design emphasizes mobility and stealth while providing adequate protection for tribal combat. Desert-colored patterns help with camouflage during raids.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Khajiit/Anequinan/WarriorArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+      <li>Metallic</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>7</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>0.52</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.26</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.35</ArmorRating_Heat>
+      <Insulation_Cold>8</Insulation_Cold>
+      <Insulation_Heat>12</Insulation_Heat>
+      <EquipDelay>6</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>0.05</MoveSpeed>
+      <HuntingStealth>0.08</HuntingStealth>
+      <MeleeHitChance>0.02</MeleeHitChance>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Khajiit/Anequinan/WarriorArmor</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>AnequinanArmor</li>
+        <li>KhajiitWarrior</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PlateArmor</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Pellitine Merchant Robes -->
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_PellitineMerchantRobes</defName>
+    <label>Pellitine merchant robes</label>
+    <description>Elegant robes worn by the wealthy merchants of southern Elsweyr's river cities. Made from fine fabrics and adorned with intricate patterns, these garments display prosperity and sophistication. The flowing design provides comfort in humid river valleys while impressing trade partners.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Khajiit/Pellitine/MerchantRobes</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>60</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <WorkToMake>6000</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>1.2</Mass>
+      <Flammability>1.0</Flammability>
+      <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.15</ArmorRating_Heat>
+      <Insulation_Cold>10</Insulation_Cold>
+      <Insulation_Heat>8</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.15</SocialImpact>
+      <TradePriceImprovement>0.08</TradePriceImprovement>
+      <NegotiationAbility>0.05</NegotiationAbility>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Khajiit/Pellitine/MerchantRobes</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>PellitineClothing</li>
+        <li>KhajiitMerchant</li>
+        <li>Royal</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Nudist</li>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Pellitine Diplomatic Vest -->
+  <ThingDef ParentName="ArmorMakeableBase">
+    <defName>Apparel_PellitineDiplomaticVest</defName>
+    <label>Pellitine diplomatic vest</label>
+    <description>Refined protective vest worn by Pellitine diplomats and wealthy merchants when conducting business. While providing modest protection, its primary function is to display status and facilitate negotiations. The elegant design incorporates traditional river valley motifs in precious metals.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Khajiit/Pellitine/DiplomaticVest</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>65</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Metallic</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>3.5</Mass>
+      <Flammability>0.8</Flammability>
+      <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.20</ArmorRating_Heat>
+      <Insulation_Cold>6</Insulation_Cold>
+      <Insulation_Heat>4</Insulation_Heat>
+      <EquipDelay>4</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.20</SocialImpact>
+      <TradePriceImprovement>0.12</TradePriceImprovement>
+      <NegotiationAbility>0.08</NegotiationAbility>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Khajiit/Pellitine/DiplomaticVest</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>PellitineArmor</li>
+        <li>KhajiitDiplomat</li>
+        <li>Royal</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PlateArmor</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
+</Defs>

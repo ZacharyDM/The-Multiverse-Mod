@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Anequinan (Northern Elsweyr) Style -->
+  <StyleCategoryDef>
+    <defName>Anequinan</defName>
+    <label>Anequinan</label>
+    <description>The desert warrior style of northern Elsweyr, emphasizing survival in harsh badlands and nomadic warrior traditions. Features practical designs with tribal motifs and earth tones suited for desert camouflage.</description>
+  </StyleCategoryDef>
+
+  <!-- Pellitine (Southern Elsweyr) Style -->
+  <StyleCategoryDef>
+    <defName>Pellitine</defName>
+    <label>Pellitine</label>
+    <description>The refined merchant style of southern Elsweyr, reflecting the prosperous river valleys and trade cities. Features elegant designs with rich colors and sophisticated patterns that display wealth and diplomatic status.</description>
+  </StyleCategoryDef>
+
+</Defs>

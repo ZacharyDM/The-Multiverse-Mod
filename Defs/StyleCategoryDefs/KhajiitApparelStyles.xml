@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Anequinan Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>Anequinan_Apparel</defName>
+    <label>Anequinan apparel</label>
+    <description>Traditional desert apparel of northern Elsweyr, designed for survival in harsh badlands while maintaining the warrior aesthetic of nomadic tribes.</description>
+    <styleTags>
+      <li>Anequinan</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/Khajiit/Anequinan/Anequinan</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/Khajiit/Anequinan/Anequinan</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/Khajiit/Anequinan/Anequinan</Apparel_Tunic>
+      <Apparel_Pants>Things/Pawn/Humanlike/Apparel/Khajiit/Anequinan/Anequinan</Apparel_Pants>
+      <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/Khajiit/Anequinan/AnequinanArmor</Apparel_FlakVest>
+      <Apparel_PlateArmor>Things/Pawn/Humanlike/Apparel/Khajiit/Anequinan/AnequinanHeavyArmor</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Pellitine Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>Pellitine_Apparel</defName>
+    <label>Pellitine apparel</label>
+    <description>Refined apparel of southern Elsweyr, featuring elegant designs and rich materials that reflect the prosperity of river valley merchants.</description>
+    <styleTags>
+      <li>Pellitine</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/Khajiit/Pellitine/Pellitine</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/Khajiit/Pellitine/Pellitine</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/Khajiit/Pellitine/Pellitine</Apparel_Tunic>
+      <Apparel_Pants>Things/Pawn/Humanlike/Apparel/Khajiit/Pellitine/Pellitine</Apparel_Pants>
+      <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/Khajiit/Pellitine/PellitineArmor</Apparel_FlakVest>
+      <Apparel_PlateArmor>Things/Pawn/Humanlike/Apparel/Khajiit/Pellitine/PellitineHeavyArmor</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+</Defs>
