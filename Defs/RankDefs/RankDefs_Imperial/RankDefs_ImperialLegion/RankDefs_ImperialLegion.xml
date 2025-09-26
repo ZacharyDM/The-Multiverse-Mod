@@ -1,100 +1,292 @@
-<RankDefs>
-  <!-- Imperial Legion Ranks - Canonical Elder Scrolls ranks from Morrowind and Skyrim -->
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Imperial Legion Ranks - Canonical Elder Scrolls ranks from Morrowind -->
   
-  <!-- Branch 1: Standard Legionary Forces -->
-  <!-- Entry Level Ranks -->
+  <!-- Rank 0: Recruit -->
   <RankDef>
     <defName>ImperialLegion_Recruit</defName>
-    <labelMale>Recruit</labelMale>
+    <label>Recruit</label>
     <labelFemale>Recruit</labelFemale>
-    <description>A new enlistee in the Imperial Legion, undergoing basic training and learning military discipline.</description>
+    <commonality>1</commonality>
+    <seniority>100</seniority>
+    <favorCost>8</favorCost>
+    <awardThought>GainedTitle</awardThought>
+    <lostThought>LostTitle</lostThought>
+    <requiredMinTitles>
+      <li>
+        <faction>ImperialLegion</faction>
+        <anyOfTitles>
+          <li>ImperialLegion_Recruit</li>
+        </anyOfTitles>
+      </li>
+    </requiredMinTitles>
+    <minFactionReputation>0</minFactionReputation>
+    <description>A new enlistee in the Imperial Legion undergoing basic training. Recruits learn fundamental military discipline, basic combat techniques, and the core values of Imperial service. Required: Endurance 30, Personality 30. Reward: Imperial Chain Cuirass.</description>
   </RankDef>
-  
+
+  <!-- Rank 1: Spearman -->
   <RankDef>
     <defName>ImperialLegion_Spearman</defName>
-    <labelMale>Spearman</labelMale>
+    <label>Spearman</label>
     <labelFemale>Spearwoman</labelFemale>
-    <description>A basic infantry soldier of the Imperial Legion, trained in spear and shield combat formation.</description>
+    <commonality>0.8</commonality>
+    <seniority>110</seniority>
+    <favorCost>12</favorCost>
+    <awardThought>GainedTitle</awardThought>
+    <lostThought>LostTitle</lostThought>
+    <requiredMinTitles>
+      <li>
+        <faction>ImperialLegion</faction>
+        <anyOfTitles>
+          <li>ImperialLegion_Recruit</li>
+        </anyOfTitles>
+      </li>
+    </requiredMinTitles>
+    <minFactionReputation>5</minFactionReputation>
+    <description>Basic infantry trained in formation combat and polearm techniques. Spearmen form the backbone of legionary formations, skilled in disciplined group tactics and battlefield coordination. Required: Endurance 30, Personality 30, One skill at 10. Reward: Imperial Shield.</description>
   </RankDef>
-  
+
+  <!-- Rank 2: Trooper -->
   <RankDef>
     <defName>ImperialLegion_Trooper</defName>
-    <labelMale>Trooper</labelMale>
+    <label>Trooper</label>
     <labelFemale>Trooper</labelFemale>
-    <description>A standard legionnaire, competent in all basic military skills and ready for campaign duty.</description>
+    <commonality>0.6</commonality>
+    <seniority>120</seniority>
+    <favorCost>16</favorCost>
+    <awardThought>GainedTitle</awardThought>
+    <lostThought>LostTitle</lostThought>
+    <requiredMinTitles>
+      <li>
+        <faction>ImperialLegion</faction>
+        <anyOfTitles>
+          <li>ImperialLegion_Spearman</li>
+        </anyOfTitles>
+      </li>
+    </requiredMinTitles>
+    <minFactionReputation>10</minFactionReputation>
+    <description>Standard legionnaires competent in all basic military skills. Troopers are versatile soldiers capable of handling various combat roles and military duties with proven competence. Required: Endurance 30, Personality 30, One skill at 20. Reward: Imperial Steel Cuirass.</description>
   </RankDef>
-  
-  <!-- Specialist Ranks -->
+
+  <!-- Rank 3: Agent -->
   <RankDef>
     <defName>ImperialLegion_Agent</defName>
-    <labelMale>Agent</labelMale>
+    <label>Agent</label>
     <labelFemale>Agent</labelFemale>
-    <description>A legion member tasked with intelligence gathering, investigations, and special operations.</description>
+    <commonality>0.4</commonality>
+    <seniority>130</seniority>
+    <favorCost>20</favorCost>
+    <awardThought>GainedTitle</awardThought>
+    <lostThought>LostTitle</lostThought>
+    <requiredMinTitles>
+      <li>
+        <faction>ImperialLegion</faction>
+        <anyOfTitles>
+          <li>ImperialLegion_Trooper</li>
+        </anyOfTitles>
+      </li>
+    </requiredMinTitles>
+    <minFactionReputation>20</minFactionReputation>
+    <description>Intelligence and investigation specialists of the Legion. Agents handle sensitive missions, gather information, and conduct special operations requiring discretion and specialized skills. Required: Endurance 30, Personality 30, One skill at 30 and two at 5. Reward: Imperial Steel Helmet and Gauntlets.</description>
   </RankDef>
-  
+
+  <!-- Rank 4: Champion -->
   <RankDef>
     <defName>ImperialLegion_Champion</defName>
-    <labelMale>Champion</labelMale>
+    <label>Champion</label>
     <labelFemale>Champion</labelFemale>
-    <description>An elite warrior who has proven themselves in combat, the pinnacle of the standard legionary forces.</description>
+    <commonality>0.2</commonality>
+    <seniority>140</seniority>
+    <favorCost>25</favorCost>
+    <awardThought>GainedTitle</awardThought>
+    <lostThought>LostTitle</lostThought>
+    <requiredMinTitles>
+      <li>
+        <faction>ImperialLegion</faction>
+        <anyOfTitles>
+          <li>ImperialLegion_Agent</li>
+        </anyOfTitles>
+      </li>
+    </requiredMinTitles>
+    <minFactionReputation>30</minFactionReputation>
+    <description>Elite warriors representing the pinnacle of standard legionary forces. Champions are exceptional soldiers who demonstrate mastery in combat and unwavering loyalty to the Empire. Required: Endurance 30, Personality 30, One skill at 40 and two at 10. Reward: Imperial Steel Pauldrons and Boots.</description>
   </RankDef>
-  
-  <!-- Branch 2: Order of Knights (Higher ranking than standard legionary forces) -->
+
+  <!-- Rank 5: Knight Errant -->
   <RankDef>
     <defName>ImperialLegion_KnightErrant</defName>
-    <labelMale>Knight Errant</labelMale>
-    <labelFemale>Dame Errant</labelFemale>
-    <description>A newly commissioned knight of the Imperial Legion, beginning their journey in the knightly order.</description>
+    <label>Knight Errant</label>
+    <labelFemale>Knight Errant</labelFemale>
+    <commonality>0.15</commonality>
+    <seniority>150</seniority>
+    <favorCost>30</favorCost>
+    <awardThought>GainedTitle</awardThought>
+    <lostThought>LostTitle</lostThought>
+    <requiredMinTitles>
+      <li>
+        <faction>ImperialLegion</faction>
+        <anyOfTitles>
+          <li>ImperialLegion_Champion</li>
+        </anyOfTitles>
+      </li>
+    </requiredMinTitles>
+    <minFactionReputation>45</minFactionReputation>
+    <description>Newly commissioned knights beginning their noble journey in service to the Empire. Knight Errants embark on quests to prove their worthiness and uphold Imperial honor. Required: Endurance 31, Personality 31, One skill at 50 and two at 15. Reward: Imperial Templar Knight Cuirass and Greaves.</description>
   </RankDef>
-  
+
+  <!-- Rank 6: Knight Bachelor -->
   <RankDef>
     <defName>ImperialLegion_KnightBachelor</defName>
-    <labelMale>Knight Bachelor</labelMale>
-    <labelFemale>Dame Bachelor</labelFemale>
-    <description>An established knight who has proven their worth and earned a place among the Imperial knighthood.</description>
+    <label>Knight Bachelor</label>
+    <labelFemale>Knight Bachelor</labelFemale>
+    <commonality>0.1</commonality>
+    <seniority>160</seniority>
+    <favorCost>35</favorCost>
+    <awardThought>GainedTitle</awardThought>
+    <lostThought>LostTitle</lostThought>
+    <requiredMinTitles>
+      <li>
+        <faction>ImperialLegion</faction>
+        <anyOfTitles>
+          <li>ImperialLegion_KnightErrant</li>
+        </anyOfTitles>
+      </li>
+    </requiredMinTitles>
+    <minFactionReputation>60</minFactionReputation>
+    <description>Established knights who have proven their worth through deeds and service. Knight Bachelors have demonstrated competence and are recognized as full members of the knightly order. Required: Endurance 32, Personality 32, One skill at 60 and two at 20. Reward: Templar Helmet and Bracers.</description>
   </RankDef>
-  
+
+  <!-- Rank 7: Knight Protector -->
   <RankDef>
     <defName>ImperialLegion_KnightProtector</defName>
-    <labelMale>Knight Protector</labelMale>
-    <labelFemale>Dame Protector</labelFemale>
-    <description>A senior knight entrusted with protecting important Imperial interests and personnel.</description>
+    <label>Knight Protector</label>
+    <labelFemale>Knight Protector</labelFemale>
+    <commonality>0.08</commonality>
+    <seniority>170</seniority>
+    <favorCost>40</favorCost>
+    <awardThought>GainedTitle</awardThought>
+    <lostThought>LostTitle</lostThought>
+    <requiredMinTitles>
+      <li>
+        <faction>ImperialLegion</faction>
+        <anyOfTitles>
+          <li>ImperialLegion_KnightBachelor</li>
+        </anyOfTitles>
+      </li>
+    </requiredMinTitles>
+    <minFactionReputation>70</minFactionReputation>
+    <description>Senior knights entrusted with protecting Imperial interests and citizens. Knight Protectors are veteran warriors who safeguard the realm against threats both foreign and domestic. Required: Endurance 33, Personality 33, One skill at 70 and two at 25. Reward: Templar Pauldrons and Boots.</description>
   </RankDef>
-  
-  <RankDef>
-    <defName>ImperialLegion_KnightOfTheImperialDragon</defName>
-    <labelMale>Knight of the Imperial Dragon</labelMale>
-    <labelFemale>Dame of the Imperial Dragon</labelFemale>
-    <description>A high-ranking knight who serves directly under the Dragon banner of the Empire, wielding considerable authority.</description>
-  </RankDef>
-  
+
+  <!-- Rank 8: Knight of the Garland -->
   <RankDef>
     <defName>ImperialLegion_KnightOfTheGarland</defName>
-    <labelMale>Knight of the Garland</labelMale>
-    <labelFemale>Dame of the Garland</labelFemale>
-    <description>The highest rank of knighthood in the Imperial Legion, honored with the ancient Garland of victory.</description>
+    <label>Knight of the Garland</label>
+    <labelFemale>Knight of the Garland</labelFemale>
+    <commonality>0.05</commonality>
+    <seniority>180</seniority>
+    <favorCost>45</favorCost>
+    <awardThought>GainedTitle</awardThought>
+    <lostThought>LostTitle</lostThought>
+    <requiredMinTitles>
+      <li>
+        <faction>ImperialLegion</faction>
+        <anyOfTitles>
+          <li>ImperialLegion_KnightProtector</li>
+        </anyOfTitles>
+      </li>
+    </requiredMinTitles>
+    <minFactionReputation>80</minFactionReputation>
+    <description>Elite knights honored with the Garland, representing the highest standard of knightly virtue and combat prowess. These exceptional warriors are among the most distinguished in Imperial service. Required: Endurance 34, Personality 34, One skill at 80 and two at 30. Reward: Duke's Guard Silver Cuirass.</description>
   </RankDef>
+
+  <!-- Rank 9: Knight of the Imperial Dragon -->
+  <RankDef>
+    <defName>ImperialLegion_KnightOfTheImperialDragon</defName>
+    <label>Knight of the Imperial Dragon</label>
+    <labelFemale>Knight of the Imperial Dragon</labelFemale>
+    <commonality>0.03</commonality>
+    <seniority>190</seniority>
+    <favorCost>50</favorCost>
+    <awardThought>GainedTitle</awardThought>
+    <lostThought>LostTitle</lostThought>
+    <requiredMinTitles>
+      <li>
+        <faction>ImperialLegion</faction>
+        <anyOfTitles>
+          <li>ImperialLegion_KnightOfTheGarland</li>
+        </anyOfTitles>
+      </li>
+    </requiredMinTitles>
+    <minFactionReputation>100</minFactionReputation>
+    <description>The highest knighthood rank, serving under the Dragon banner of ultimate Imperial authority. These legendary knights represent the pinnacle of Imperial military tradition and are among the most elite warriors in the known world. Required: Endurance 35, Personality 35, One skill at 90 and two at 35. Reward: Chrysamere and Lord's Mail.</description>
+  </RankDef>
+
+  <!-- Additional Leadership Ranks (Beyond canonical 0-9) -->
   
-  <!-- Supreme Leadership -->
+  <!-- Legate -->
   <RankDef>
     <defName>ImperialLegion_Legate</defName>
-    <labelMale>Legate</labelMale>
+    <label>Legate</label>
     <labelFemale>Legate</labelFemale>
-    <description>A regional commander of Imperial Legion forces, responsible for major military operations and provincial defense.</description>
+    <commonality>0.02</commonality>
+    <seniority>200</seniority>
+    <favorCost>60</favorCost>
+    <awardThought>GainedTitle</awardThought>
+    <lostThought>LostTitle</lostThought>
+    <requiredMinTitles>
+      <li>
+        <faction>ImperialLegion</faction>
+        <anyOfTitles>
+          <li>ImperialLegion_KnightOfTheImperialDragon</li>
+        </anyOfTitles>
+      </li>
+    </requiredMinTitles>
+    <minFactionReputation>120</minFactionReputation>
+    <description>A regional commander of Imperial Legion forces, responsible for major military operations and provincial defense. Legates oversee entire military campaigns and regional security.</description>
   </RankDef>
-  
+
+  <!-- Commander -->
   <RankDef>
     <defName>ImperialLegion_Commander</defName>
-    <labelMale>Commander of the Imperial Legion</labelMale>
+    <label>Commander of the Imperial Legion</label>
     <labelFemale>Commander of the Imperial Legion</labelFemale>
-    <description>The supreme leader of the entire Imperial Legion, answering only to the Emperor himself.</description>
+    <commonality>0.01</commonality>
+    <seniority>210</seniority>
+    <favorCost>80</favorCost>
+    <awardThought>GainedTitle</awardThought>
+    <lostThought>LostTitle</lostThought>
+    <requiredMinTitles>
+      <li>
+        <faction>ImperialLegion</faction>
+        <anyOfTitles>
+          <li>ImperialLegion_Legate</li>
+        </anyOfTitles>
+      </li>
+    </requiredMinTitles>
+    <minFactionReputation>150</minFactionReputation>
+    <description>The supreme leader of the entire Imperial Legion, answering only to the Emperor himself. The Commander directs all Legion activities across the Empire.</description>
   </RankDef>
-  
-  <!-- Skyrim Legion Support Rank -->
+
+  <!-- Auxiliary (Support Personnel) -->
   <RankDef>
     <defName>ImperialLegion_Auxiliary</defName>
-    <labelMale>Auxiliary</labelMale>
+    <label>Auxiliary</label>
     <labelFemale>Auxiliary</labelFemale>
-    <description>A militia member or support personnel working alongside the Imperial Legion, not a full legionnaire.</description>
+    <commonality>1.5</commonality>
+    <seniority>90</seniority>
+    <favorCost>5</favorCost>
+    <awardThought>GainedTitle</awardThought>
+    <lostThought>LostTitle</lostThought>
+    <requiredMinTitles>
+      <li>
+        <faction>ImperialLegion</faction>
+        <anyOfTitles>
+          <li>ImperialLegion_Auxiliary</li>
+        </anyOfTitles>
+      </li>
+    </requiredMinTitles>
+    <minFactionReputation>-10</minFactionReputation>
+    <description>A militia member or support personnel working alongside the Imperial Legion, not a full legionnaire but essential for operations. Auxiliaries provide logistical support and local knowledge.</description>
   </RankDef>
-</RankDefs>
+</Defs>
