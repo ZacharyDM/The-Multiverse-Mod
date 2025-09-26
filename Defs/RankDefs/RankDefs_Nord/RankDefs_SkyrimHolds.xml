@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RankDefs>
+  <!-- Skyrim Hold Hierarchy - Based on canonical Elder Scrolls Nord society structure -->
+  
+  <!-- Commoners and Citizens -->
+  <RankDef>
+    <defName>Nord_Citizen</defName>
+    <labelMale>Citizen</labelMale>
+    <labelFemale>Citizen</labelFemale>
+    <description>A common citizen of one of Skyrim's holds, possessing basic rights and freedoms under Nordic law.</description>
+  </RankDef>
+  
+  <RankDef>
+    <defName>Nord_Freeman</defName>
+    <labelMale>Freeman</labelMale>
+    <labelFemale>Freewoman</labelFemale>
+    <description>A free Nord who owns property and has earned respect in their community through skill or service.</description>
+  </RankDef>
+
+  <!-- Household and Service Ranks -->
+  <RankDef>
+    <defName>Nord_Huscarl</defName>
+    <labelMale>Huscarl</labelMale>
+    <labelFemale>Huscarl</labelFemale>
+    <description>A household warrior sworn to serve a Thane or Jarl, providing personal protection and military service.</description>
+  </RankDef>
+
+  <RankDef>
+    <defName>Nord_Housecarl</defName>
+    <labelMale>Housecarl</labelMale>
+    <labelFemale>Housecarl</labelFemale>
+    <description>A personal bodyguard and sworn sword to a Thane, bound by oath to protect their liege with their life.</description>
+  </RankDef>
+
+  <!-- Noble Ranks -->
+  <RankDef>
+    <defName>Nord_Thane</defName>
+    <labelMale>Thane</labelMale>
+    <labelFemale>Thane</labelFemale>
+    <description>A lesser noble who has earned the trust of a Jarl through heroic deeds, granted lands and the right to bear arms.</description>
+  </RankDef>
+
+  <RankDef>
+    <defName>Nord_Jarl</defName>
+    <labelMale>Jarl</labelMale>
+    <labelFemale>Jarl</labelFemale>
+    <description>The ruler of one of Skyrim's nine holds, wielding absolute authority over their domain and sworn to the High King.</description>
+  </RankDef>
+
+  <!-- Royal Ranks -->
+  <RankDef>
+    <defName>Nord_HighKing</defName>
+    <labelMale>High King</labelMale>
+    <labelFemale>High Queen</labelFemale>
+    <description>The supreme ruler of all Skyrim, chosen from among the Jarls through the ancient Nordic tradition of the Moot.</description>
+  </RankDef>
+
+  <!-- Military and Guard Ranks -->
+  <RankDef>
+    <defName>Nord_Guard</defName>
+    <labelMale>Guard</labelMale>
+    <labelFemale>Guard</labelFemale>
+    <description>A city or hold guard responsible for maintaining order and enforcing the Jarl's law.</description>
+  </RankDef>
+
+  <RankDef>
+    <defName>Nord_CaptainOfTheGuard</defName>
+    <labelMale>Captain of the Guard</labelMale>
+    <labelFemale>Captain of the Guard</labelFemale>
+    <description>The leader of a hold's guards, answering directly to the Jarl and responsible for maintaining security.</description>
+  </RankDef>
+
+  <!-- Stormcloak Rebellion Ranks -->
+  <RankDef>
+    <defName>Nord_StormcloakSoldier</defName>
+    <labelMale>Stormcloak Soldier</labelMale>
+    <labelFemale>Stormcloak Soldier</labelFemale>
+    <description>A soldier in Ulfric Stormcloak's rebellion, fighting for Skyrim's independence from the Empire.</description>
+  </RankDef>
+
+  <RankDef>
+    <defName>Nord_StormcloakOfficer</defName>
+    <labelMale>Stormcloak Officer</labelMale>
+    <labelFemale>Stormcloak Officer</labelFemale>
+    <description>A seasoned leader in the Stormcloak rebellion, commanding troops in the fight for Nordic independence.</description>
+  </RankDef>
+
+  <RankDef>
+    <defName>Nord_Unbent</defName>
+    <labelMale>Unbent</labelMale>
+    <labelFemale>Unbent</labelFemale>
+    <description>The highest rank in Ulfric's Stormcloak army, reserved for the most trusted and capable warriors of the rebellion.</description>
+  </RankDef>
+
+  <!-- Religious and Cultural Ranks -->
+  <RankDef>
+    <defName>Nord_Priest</defName>
+    <labelMale>Priest</labelMale>
+    <labelFemale>Priestess</labelFemale>
+    <description>A religious leader who tends to one of Skyrim's temples, whether dedicated to the Nine Divines or traditional Nordic gods.</description>
+  </RankDef>
+
+  <RankDef>
+    <defName>Nord_Skald</defName>
+    <labelMale>Skald</labelMale>
+    <labelFemale>Skald</labelFemale>
+    <description>A wandering bard and storyteller who preserves Nordic culture and history through song, poem, and tale.</description>
+  </RankDef>
+
+  <!-- Specialized Roles -->
+  <RankDef>
+    <defName>Nord_Graybeard</defName>
+    <labelMale>Greybeard</labelMale>
+    <labelFemale>Greybeard</labelFemale>
+    <description>A master of the Thu'um who has withdrawn from worldly concerns to meditate on the Voice atop the Throat of the World.</description>
+  </RankDef>
+
+  <RankDef>
+    <defName>Nord_Dragonborn</defName>
+    <labelMale>Dragonborn</labelMale>
+    <labelFemale>Dragonborn</labelFemale>
+    <description>One blessed with the soul of a dragon and the natural ability to learn and use the Thu'um, a figure of legend.</description>
+  </RankDef>
+
+</RankDefs>

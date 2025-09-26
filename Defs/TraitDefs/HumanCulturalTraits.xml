@@ -272,6 +272,9 @@
       </li>
     </degreeDatas>
     <biostatCpxFactor>1.2</biostatCpxFactor>
+    <exclusionTags>
+      <li>NordCulture</li>
+    </exclusionTags>
   </TraitDef>
 
   <!-- Thu'um Heritage -->
@@ -296,6 +299,9 @@
       </li>
     </degreeDatas>
     <biostatCpxFactor>1.25</biostatCpxFactor>
+    <exclusionTags>
+      <li>NordCulture</li>
+    </exclusionTags>
   </TraitDef>
 
   <!-- Atmoran Legacy -->
@@ -322,6 +328,9 @@
       </li>
     </degreeDatas>
     <biostatCpxFactor>1.2</biostatCpxFactor>
+    <exclusionTags>
+      <li>NordCulture</li>
+    </exclusionTags>
   </TraitDef>
 
   <!-- Nordic Skald Tradition -->
@@ -347,6 +356,126 @@
       </li>
     </degreeDatas>
     <biostatCpxFactor>1.15</biostatCpxFactor>
+    <exclusionTags>
+      <li>NordCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Eastmarcher Heritage - Eastern Skyrim culture -->
+  <TraitDef>
+    <defName>EastmarcherHeritage</defName>
+    <label>Eastmarcher Heritage</label>
+    <description>This Nord comes from the eastern regions of Skyrim, particularly the Eastmarches around Windhelm. Eastmarchers are known for their traditional values, strong clan loyalty, and resistance to foreign influence.</description>
+    <degreeDatas>
+      <li>
+        <label>Eastmarcher Traditionalist</label>
+        <description>Raised in the traditional strongholds of eastern Skyrim, this pawn values ancient Nord customs and clan honor above all else.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Construction>3</Construction>
+          <Social>2</Social>
+          <Crafting>2</Crafting>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageFactor>0.06</MeleeDamageFactor>
+          <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+          <ComfyTemperatureMin>-8</ComfyTemperatureMin>
+          <WorkSpeedGlobal>0.03</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.15</biostatCpxFactor>
+    <exclusionTags>
+      <li>NordCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Westmarcher Heritage - Western Skyrim culture -->
+  <TraitDef>
+    <defName>WestmarcherHeritage</defName>
+    <label>Westmarcher Heritage</label>
+    <description>This Nord hails from western Skyrim, including the Reach and Haafingar. Westmarchers tend to be more cosmopolitan and adaptable, having dealt with diverse populations and cultures.</description>
+    <degreeDatas>
+      <li>
+        <label>Westmarcher Adaptable</label>
+        <description>From the diverse western holds of Skyrim, this pawn combines Nordic strength with cultural flexibility and diplomatic skills.</description>
+        <skillGains>
+          <Social>3</Social>
+          <Melee>3</Melee>
+          <Intellectual>2</Intellectual>
+          <Shooting>2</Shooting>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.08</SocialImpact>
+          <TradePriceImprovement>0.06</TradePriceImprovement>
+          <MeleeHitChance>0.04</MeleeHitChance>
+          <NegotiationAbility>0.05</NegotiationAbility>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.15</biostatCpxFactor>
+    <exclusionTags>
+      <li>NordCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Skaal Heritage - Solstheim island culture -->
+  <TraitDef>
+    <defName>SkaalHeritage</defName>
+    <label>Skaal Heritage</label>
+    <description>This Nord belongs to the Skaal tribe of Solstheim, preserving the most ancient Nordic traditions and maintaining harmony with nature. The Skaal follow the old ways and revere the All-Maker.</description>
+    <degreeDatas>
+      <li>
+        <label>Skaal Shaman</label>
+        <description>Raised in the ancient traditions of the Skaal, this pawn possesses deep knowledge of nature spirits and traditional survival methods.</description>
+        <skillGains>
+          <Animals>4</Animals>
+          <Plants>3</Plants>
+          <Medicine>3</Medicine>
+          <Melee>2</Melee>
+        </skillGains>
+        <statOffsets>
+          <ComfyTemperatureMin>-12</ComfyTemperatureMin>
+          <AnimalGatherYield>0.15</AnimalGatherYield>
+          <PlantHarvestYield>0.15</PlantHarvestYield>
+          <PsychicSensitivity>0.1</PsychicSensitivity>
+          <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.25</biostatCpxFactor>
+    <exclusionTags>
+      <li>NordCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Cyro-Nord Heritage - Nords living in Cyrodiil -->
+  <TraitDef>
+    <defName>CyroNordHeritage</defName>
+    <label>Cyro-Nord Heritage</label>
+    <description>This Nord comes from a family that has lived in Cyrodiil for generations, blending Nordic traditions with Imperial sophistication. They serve as bridges between cultures while maintaining their Nordic identity.</description>
+    <degreeDatas>
+      <li>
+        <label>Imperial-Nord Diplomat</label>
+        <description>Born and raised in Cyrodiil while maintaining Nordic heritage, this pawn excels in diplomacy and cross-cultural understanding.</description>
+        <skillGains>
+          <Social>4</Social>
+          <Intellectual>3</Intellectual>
+          <Melee>2</Melee>
+          <Shooting>1</Shooting>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.12</SocialImpact>
+          <TradePriceImprovement>0.10</TradePriceImprovement>
+          <NegotiationAbility>0.08</NegotiationAbility>
+          <ComfyTemperatureMin>-3</ComfyTemperatureMin>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.2</biostatCpxFactor>
+    <exclusionTags>
+      <li>NordCulture</li>
+    </exclusionTags>
   </TraitDef>
 
 </Defs>

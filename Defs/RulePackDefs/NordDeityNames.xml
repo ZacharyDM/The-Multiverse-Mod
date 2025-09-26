@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RulePackDefs>
+
+  <!-- Nordic Deity Names - Traditional Nordic Pantheon -->
+  <RulePackDef>
+    <defName>NordicDeityNames</defName>
+    <rulePack>
+      <rulesStrings>
+        <!-- Primary Nordic Gods -->
+        <li>deity_name->Shor [word_shor]</li>
+        <li>deity_name->Kyne [word_kyne]</li>
+        <li>deity_name->Tsun [word_tsun]</li>
+        <li>deity_name->Stuhn [word_stuhn]</li>
+        <li>deity_name->Jhunal [word_jhunal]</li>
+        <li>deity_name->Dibella [word_dibella]</li>
+        <li>deity_name->Mara [word_mara]</li>
+        <li>deity_name->Zenithar [word_zenithar]</li>
+        <li>deity_name->Orkey [word_orkey]</li>
+
+        <!-- Nordic Epithets -->
+        <li>word_shor->the Fox</li>
+        <li>word_shor->Snake-in-the-Stars</li>
+        <li>word_shor->the Woodland Man</li>
+        <li>word_kyne->Storm-Crown</li>
+        <li>word_kyne->Kiss-at-End</li>
+        <li>word_kyne->the Wind Mother</li>
+        <li>word_tsun->Shield-Thane</li>
+        <li>word_tsun->Guardian of Honor</li>
+        <li>word_stuhn->the Whale</li>
+        <li>word_stuhn->Ransom-God</li>
+        <li>word_jhunal->Hermit-Sage</li>
+        <li>word_jhunal->the Rune-God</li>
+        <li>word_dibella->Passion-Dancer</li>
+        <li>word_dibella->the Beauty</li>
+        <li>word_mara->Goddess-Wolf</li>
+        <li>word_mara->the Handmaiden</li>
+        <li>word_zenithar->the Provider</li>
+        <li>word_zenithar->Work-Finder</li>
+        <li>word_orkey->the Old Knocker</li>
+        <li>word_orkey->Death-God</li>
+
+        <!-- Ancient Nordic Heroes -->
+        <li>deity_name->Ysgramor [word_hero]</li>
+        <li>deity_name->Wuuthrad [word_artifact]</li>
+        <li>deity_name->Valdred [word_hero]</li>
+        <li>deity_name->Jorg Helmbolson [word_hero]</li>
+        
+        <li>word_hero->the Harbinger</li>
+        <li>word_hero->First-King</li>
+        <li>word_hero->Elf-Slayer</li>
+        <li>word_hero->the Returned</li>
+        <li>word_artifact->Elf-Grinder</li>
+        <li>word_artifact->the Axe-King</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <!-- Dragon/Thu'um Deity Names -->
+  <RulePackDef>
+    <defName>DragonDeityNames</defName>
+    <rulePack>
+      <rulesStrings>
+        <!-- Dragon Names -->
+        <li>deity_name->Akatosh [word_dragon]</li>
+        <li>deity_name->Paarthurnax [word_dragon]</li>
+        <li>deity_name->Alduin [word_dragon]</li>
+        <li>deity_name->Odahviing [word_dragon]</li>
+        <li>deity_name->Durnehviir [word_dragon]</li>
+
+        <!-- Dragon Epithets -->
+        <li>word_dragon->World-Eater</li>
+        <li>word_dragon->Time-Wound</li>
+        <li>word_dragon->Ambition-Overlord-Cruelty</li>
+        <li>word_dragon->Winged-Snow-Hunter</li>
+        <li>word_dragon->Cursed-Death-Word</li>
+        <li>word_dragon->the First-Born</li>
+        <li>word_dragon->Voice-Master</li>
+        <li>word_dragon->Thu'um-Speaker</li>
+        <li>word_dragon->Storm-Crown</li>
+        <li>word_dragon->the Ancient</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <!-- Atmoran Hero Names -->
+  <RulePackDef>
+    <defName>AtmoranHeroNames</defName>
+    <rulePack>
+      <rulesStrings>
+        <!-- Historical Atmoran Heroes -->
+        <li>deity_name->Ysgramor [word_founder]</li>
+        <li>deity_name->Valdred [word_companion]</li>
+        <li>deity_name->Jorg Helmbolson [word_companion]</li>
+        <li>deity_name->Ingjaldr White-Eye [word_companion]</li>
+        <li>deity_name->Bero [word_companion]</li>
+        <li>deity_name->Heimdall [word_companion]</li>
+        <li>deity_name->Rolf Long-Tooth [word_companion]</li>
+
+        <!-- Epithets for Founders -->
+        <li>word_founder->the Harbinger</li>
+        <li>word_founder->First-King of Skyrim</li>
+        <li>word_founder->Elf-Slayer</li>
+        <li>word_founder->the Returned</li>
+        <li>word_founder->Leader of Five Hundred</li>
+
+        <!-- Epithets for Companions -->
+        <li>word_companion->the Faithful</li>
+        <li>word_companion->Shield-Bearer</li>
+        <li>word_companion->War-Chief</li>
+        <li>word_companion->the Valiant</li>
+        <li>word_companion->Snow-Walker</li>
+        <li>word_companion->Beast-Slayer</li>
+        <li>word_companion->the Honored Dead</li>
+        <li>word_companion->Sovngarde-Bound</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <!-- Imperial Deity Names (for Talos worship) -->
+  <RulePackDef>
+    <defName>ImperialDeityNames</defName>
+    <rulePack>
+      <rulesStrings>
+        <!-- Nine Divines -->
+        <li>deity_name->Talos [word_talos]</li>
+        <li>deity_name->Akatosh [word_akatosh]</li>
+        <li>deity_name->Kynareth [word_kynareth]</li>
+        <li>deity_name->Stendarr [word_stendarr]</li>
+        <li>deity_name->Julianos [word_julianos]</li>
+        <li>deity_name->Dibella [word_dibella_imp]</li>
+        <li>deity_name->Mara [word_mara_imp]</li>
+        <li>deity_name->Zenithar [word_zenithar_imp]</li>
+        <li>deity_name->Arkay [word_arkay]</li>
+
+        <!-- Talos Epithets -->
+        <li>word_talos->Tiber Septim</li>
+        <li>word_talos->the Dragonborn</li>
+        <li>word_talos->the Conqueror</li>
+        <li>word_talos->Heir to the Seat of Sundered Kings</li>
+        <li>word_talos->the Ninth Divine</li>
+
+        <!-- Other Divine Epithets -->
+        <li>word_akatosh->the Dragon God of Time</li>
+        <li>word_kynareth->Goddess of the Heavens</li>
+        <li>word_stendarr->God of Mercy</li>
+        <li>word_julianos->God of Wisdom</li>
+        <li>word_dibella_imp->Goddess of Beauty</li>
+        <li>word_mara_imp->Divine of Love</li>
+        <li>word_zenithar_imp->God of Work</li>
+        <li>word_arkay->God of the Cycle</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</RulePackDefs>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Nordic Religious Memes - Traditional Nord beliefs and worship systems -->
+
+  <!-- Traditional Nordic Pantheon - Pre-Imperial Nordic gods -->
+  <MemeDef>
+    <defName>NordicPantheonWorship</defName>
+    <label>nordic pantheon</label>
+    <description>Worship of the traditional Nordic pantheon, including Shor (Lorkhan), Kyne (Kynareth), Tsun, and other ancient Nordic gods. This faith emphasizes honor in battle, harmony with nature, and the warrior's path to Sovngarde. It rejects Imperial religious influences and maintains the old ways of Atmora and early Skyrim.</description>
+    <iconPath>UI/Memes/NordicPantheon</iconPath>
+    <impact>2</impact>
+    <category>Deity</category>
+    <exclusionTags>
+      <li>Deity</li>
+    </exclusionTags>
+    <generalRules>
+      <rulesStrings>
+        <li>rule->honor the ancient Nordic gods</li>
+        <li>rule->seek glory in battle for Sovngarde</li>
+        <li>rule->live in harmony with nature's fury</li>
+        <li>rule->preserve the old traditions of Atmora</li>
+        <li>rule->reject foreign religious influence</li>
+      </rulesStrings>
+    </generalRules>
+    <worshipRoomLabel>nordic shrine</worshipRoomLabel>
+    <symbolPacks>
+      <li>
+        <ideoName>The Old Ways</ideoName>
+        <theme>NordicTradition</theme>
+        <adjective>traditional</adjective>
+        <member>old believer</member>
+        <deity>Ancient Gods</deity>
+        <deityPlural>Nordic Pantheon</deityPlural>
+        <place>sacred grove</place>
+      </li>
+    </symbolPacks>
+    <ritualPatterns>
+      <li>
+        <keyword>nordic</keyword>
+        <duties>
+          <li>Skald</li>
+          <li>Clan elder</li>
+          <li>Warrior-priest</li>
+        </duties>
+      </li>
+    </ritualPatterns>
+    <deityCountRange>6~9</deityCountRange>
+    <deityNameMaker>NordicDeityNames</deityNameMaker>
+    <allowSymbolsFromDeity>true</allowSymbolsFromDeity>
+    <fixedDeityNameTypes>
+      <li>Shor</li>
+      <li>Kyne</li>
+      <li>Tsun</li>
+      <li>Stuhn</li>
+      <li>Jhunal</li>
+      <li>Dibella</li>
+    </fixedDeityNameTypes>
+  </MemeDef>
+
+  <!-- Thu'um Worship - Veneration of the Voice -->
+  <MemeDef>
+    <defName>ThuumWorship</defName>
+    <label>way of the voice</label>
+    <description>Reverence for the Thu'um, the dragon-speech that flows from Akatosh through mortal throats. Followers believe the Voice is a sacred gift meant for meditation and wisdom, not warfare. They revere the Greybeards and seek to understand the deeper meanings of the dragon language through peaceful contemplation.</description>
+    <iconPath>UI/Memes/ThuumWorship</iconPath>
+    <impact>3</impact>
+    <category>Deity</category>
+    <exclusionTags>
+      <li>Deity</li>
+    </exclusionTags>
+    <generalRules>
+      <rulesStrings>
+        <li>rule->revere the sacred Thu'um</li>
+        <li>rule->seek wisdom through meditation</li>
+        <li>rule->honor the Greybeards' teaching</li>
+        <li>rule->speak only when words have power</li>
+        <li>rule->understand the dragon's ancient wisdom</li>
+      </rulesStrings>
+    </generalRules>
+    <worshipRoomLabel>meditation hall</worshipRoomLabel>
+    <symbolPacks>
+      <li>
+        <ideoName>The Way of the Voice</ideoName>
+        <theme>DragonSpeech</theme>
+        <adjective>voice-blessed</adjective>
+        <member>voice-seeker</member>
+        <deity>Akatosh</deity>
+        <deityPlural>Dragon Spirits</deityPlural>
+        <place>high sanctuary</place>
+      </li>
+    </symbolPacks>
+    <ritualPatterns>
+      <li>
+        <keyword>voice</keyword>
+        <duties>
+          <li>Greybeard</li>
+          <li>Voice student</li>
+          <li>Dragon priest</li>
+        </duties>
+      </li>
+    </ritualPatterns>
+    <deityCountRange>1~3</deityCountRange>
+    <deityNameMaker>DragonDeityNames</deityNameMaker>
+    <allowSymbolsFromDeity>true</allowSymbolsFromDeity>
+    <fixedDeityNameTypes>
+      <li>Akatosh</li>
+      <li>Paarthurnax</li>
+    </fixedDeityNameTypes>
+  </MemeDef>
+
+  <!-- Atmoran Ancestor Worship - Veneration of the first settlers -->
+  <MemeDef>
+    <defName>AtmoranAncestorWorship</defName>
+    <label>atmoran ancestors</label>
+    <description>Veneration of the great heroes and leaders who followed Ysgramor from Atmora to Skyrim. This faith honors the Five Hundred Companions, the warrior-kings of old, and the founding fathers of Nordic civilization. Followers believe their ancestors watch over them from the halls of Sovngarde and guide their descendants through dreams and omens.</description>
+    <iconPath>UI/Memes/AtmoranAncestors</iconPath>
+    <impact>2</impact>
+    <category>Structure</category>
+    <exclusionTags>
+      <li>Structure</li>
+    </exclusionTags>
+    <generalRules>
+      <rulesStrings>
+        <li>rule->honor the Five Hundred Companions</li>
+        <li>rule->preserve the wisdom of ancient kings</li>
+        <li>rule->seek guidance from ancestral dreams</li>
+        <li>rule->uphold the honor of your bloodline</li>
+        <li>rule->remember the journey from Atmora</li>
+      </rulesStrings>
+    </generalRules>
+    <worshipRoomLabel>ancestor hall</worshipRoomLabel>
+    <symbolPacks>
+      <li>
+        <ideoName>Atmoran Heritage</ideoName>
+        <theme>AncestralHonor</theme>
+        <adjective>ancestor-blessed</adjective>
+        <member>bloodline keeper</member>
+        <deity>Ysgramor</deity>
+        <deityPlural>Ancient Heroes</deityPlural>
+        <place>burial mound</place>
+      </li>
+    </symbolPacks>
+    <ritualPatterns>
+      <li>
+        <keyword>ancestral</keyword>
+        <duties>
+          <li>Lore keeper</li>
+          <li>Clan elder</li>
+          <li>Blood-speaker</li>
+        </duties>
+      </li>
+    </ritualPatterns>
+    <deityCountRange>5~12</deityCountRange>
+    <deityNameMaker>AtmoranHeroNames</deityNameMaker>
+    <allowSymbolsFromDeity>true</allowSymbolsFromDeity>
+    <fixedDeityNameTypes>
+      <li>Ysgramor</li>
+      <li>JorgHelmBolson</li>
+      <li>Valdred</li>
+    </fixedDeityNameTypes>
+  </MemeDef>
+
+  <!-- Talos Worship - Veneration of Tiber Septim -->
+  <MemeDef>
+    <defName>TalosWorship</defName>
+    <label>talos worship</label>
+    <description>Fervent devotion to Talos, the god-hero Tiber Septim who conquered Tamriel and achieved divinity. Followers believe Talos is the greatest of the Nine Divines and the patron god of mankind. This faith emphasizes martial prowess, imperial ambition, and the divine right of strong leadership. Despite Imperial bans, true Nords continue to worship Talos in secret.</description>
+    <iconPath>UI/Memes/TalosWorship</iconPath>
+    <impact>3</impact>
+    <category>Deity</category>
+    <exclusionTags>
+      <li>Deity</li>
+    </exclusionTags>
+    <generalRules>
+      <rulesStrings>
+        <li>rule->venerate Talos the god-hero</li>
+        <li>rule->defy the White-Gold Concordat</li>
+        <li>rule->seek strength through adversity</li>
+        <li>rule->honor human achievement and ambition</li>
+        <li>rule->resist elven religious oppression</li>
+      </rulesStrings>
+    </generalRules>
+    <worshipRoomLabel>talos shrine</worshipRoomLabel>
+    <symbolPacks>
+      <li>
+        <ideoName>Talos Faithful</ideoName>
+        <theme>ImperialDivinity</theme>
+        <adjective>talos-blessed</adjective>
+        <member>true believer</member>
+        <deity>Talos</deity>
+        <deityPlural>Nine Divines</deityPlural>
+        <place>hidden shrine</place>
+      </li>
+    </symbolPacks>
+    <ritualPatterns>
+      <li>
+        <keyword>talos</keyword>
+        <duties>
+          <li>Hidden priest</li>
+          <li>Divine champion</li>
+          <li>Secret worshipper</li>
+        </duties>
+      </li>
+    </ritualPatterns>
+    <deityCountRange>1~9</deityCountRange>
+    <deityNameMaker>ImperialDeityNames</deityNameMaker>
+    <allowSymbolsFromDeity>true</allowSymbolsFromDeity>
+    <fixedDeityNameTypes>
+      <li>Talos</li>
+      <li>Akatosh</li>
+      <li>Kynareth</li>
+      <li>Stendarr</li>
+    </fixedDeityNameTypes>
+  </MemeDef>
+
+</Defs>

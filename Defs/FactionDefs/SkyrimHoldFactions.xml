@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FactionDefs>
+  <!-- The Nine Holds of Skyrim - Each hold is an independent political entity under the High King -->
+
+  <!-- Eastmarch Hold - Traditional Nordic stronghold -->
+  <FactionDef>
+    <defName>EastmarchHold</defName>
+    <label>Eastmarch Hold</label>
+    <description>The traditional stronghold of Nordic culture, centered around the ancient city of Windhelm. Eastmarch is ruled by Jarls who value tradition, honor, and the old ways of Skyrim. The hold is known for its fierce warriors, master craftsmen, and unwavering loyalty to Nordic customs.</description>
+    <color>(0.4, 0.6, 0.8, 1)</color>
+    <allowedRaceDefs>
+      <li>Nord</li>
+      <li>Imperial</li>
+      <li>Redguard</li>
+      <li>Breton</li>
+      <li>Altmer</li>
+      <li>Bosmer</li>
+      <li>Dunmer</li>
+      <li>Orsimer</li>
+      <li>Khajiit</li>
+      <li>Argonian</li>
+    </allowedRaceDefs>
+    <factionIconPath>UI/Factions/EastmarchHold</factionIconPath>
+    <settlementNamePrefix>Eastmarch</settlementNamePrefix>
+    <backstoryCategories>
+      <li>Tribal</li>
+      <li>Outlander</li>
+      <li>Medieval</li>
+    </backstoryCategories>
+  </FactionDef>
+
+  <!-- Haafingar Hold - Cosmopolitan capital -->
+  <FactionDef>
+    <defName>HaafingarHold</defName>
+    <label>Haafingar Hold</label>
+    <description>The seat of Skyrim's High King, centered around the great city of Solitude. Haafingar represents the political heart of Skyrim, where Nordic tradition meets Imperial diplomacy. The hold is known for its wealthy merchants, skilled politicians, and strategic importance.</description>
+    <color>(0.7, 0.5, 0.2, 1)</color>
+    <allowedRaceDefs>
+      <li>Nord</li>
+      <li>Imperial</li>
+      <li>Redguard</li>
+      <li>Breton</li>
+      <li>Altmer</li>
+      <li>Bosmer</li>
+      <li>Dunmer</li>
+      <li>Orsimer</li>
+      <li>Khajiit</li>
+      <li>Argonian</li>
+    </allowedRaceDefs>
+    <factionIconPath>UI/Factions/HaafingarHold</factionIconPath>
+    <settlementNamePrefix>Haafingar</settlementNamePrefix>
+    <backstoryCategories>
+      <li>Medieval</li>
+      <li>Civil</li>
+      <li>Outlander</li>
+    </backstoryCategories>
+  </FactionDef>
+
+  <!-- Hjaalmarch Hold - Mystical marshlands -->
+  <FactionDef>
+    <defName>HjaalmarchHold</defName>
+    <label>Hjaalmarch Hold</label>
+    <description>A mysterious hold of marshlands and mists, ruled from the small city of Morthal. Hjaalmarch is known for its herbalists, mystics, and those who deal with supernatural threats. The hold's people are hardy survivors of dangerous wetlands.</description>
+    <color>(0.3, 0.5, 0.3, 1)</color>
+    <allowedRaceDefs>
+      <li>Nord</li>
+      <li>Imperial</li>
+      <li>Redguard</li>
+      <li>Breton</li>
+      <li>Altmer</li>
+      <li>Bosmer</li>
+      <li>Dunmer</li>
+      <li>Orsimer</li>
+      <li>Khajiit</li>
+      <li>Argonian</li>
+    </allowedRaceDefs>
+    <factionIconPath>UI/Factions/HjaalmarchHold</factionIconPath>
+    <settlementNamePrefix>Hjaalmarch</settlementNamePrefix>
+    <backstoryCategories>
+      <li>Tribal</li>
+      <li>Outlander</li>
+      <li>Medieval</li>
+    </backstoryCategories>
+  </FactionDef>
+
+  <!-- The Pale Hold - Harsh northern tundra -->
+  <FactionDef>
+    <defName>PaleHold</defName>
+    <label>The Pale</label>
+    <description>The harsh northern hold centered around Dawnstar, known for its mining operations and resilient people. The Pale breeds hardy survivors who excel in extracting resources from the frozen earth and defending against constant threats.</description>
+    <color>(0.8, 0.8, 0.9, 1)</color>
+    <allowedRaceDefs>
+      <li>Nord</li>
+      <li>Imperial</li>
+      <li>Redguard</li>
+      <li>Breton</li>
+      <li>Altmer</li>
+      <li>Bosmer</li>
+      <li>Dunmer</li>
+      <li>Orsimer</li>
+      <li>Khajiit</li>
+      <li>Argonian</li>
+    </allowedRaceDefs>
+    <factionIconPath>UI/Factions/PaleHold</factionIconPath>
+    <settlementNamePrefix>Pale</settlementNamePrefix>
+    <backstoryCategories>
+      <li>Tribal</li>
+      <li>Outlander</li>
+      <li>Medieval</li>
+    </backstoryCategories>
+  </FactionDef>
+
+  <!-- The Reach Hold - Mountain miners -->
+  <FactionDef>
+    <defName>ReachHold</defName>
+    <label>The Reach</label>
+    <description>A mountainous hold dominated by the great city of Markarth, built within ancient Dwemer ruins. The Reach is known for its mining wealth, dangerous politics, and the constant threat of Forsworn raiders. Its people blend Nordic strength with Dwemer-influenced craftsmanship.</description>
+    <color>(0.6, 0.4, 0.2, 1)</color>
+    <allowedRaceDefs>
+      <li>Nord</li>
+      <li>Imperial</li>
+      <li>Redguard</li>
+      <li>Breton</li>
+      <li>Altmer</li>
+      <li>Bosmer</li>
+      <li>Dunmer</li>
+      <li>Orsimer</li>
+      <li>Khajiit</li>
+      <li>Argonian</li>
+    </allowedRaceDefs>
+    <factionIconPath>UI/Factions/ReachHold</factionIconPath>
+    <settlementNamePrefix>Reach</settlementNamePrefix>
+    <backstoryCategories>
+      <li>Medieval</li>
+      <li>Outlander</li>
+      <li>Tribal</li>
+    </backstoryCategories>
+  </FactionDef>
+
+  <!-- The Rift Hold - Forest hunters -->
+  <FactionDef>
+    <defName>RiftHold</defName>
+    <label>The Rift</label>
+    <description>The southeastern hold ruled from Riften, known for its autumn forests, skilled hunters, and unfortunately, its criminal underworld. The Rift's people are excellent woodsmen and traders, though corruption runs deep in their major city.</description>
+    <color>(0.8, 0.4, 0.2, 1)</color>
+    <allowedRaceDefs>
+      <li>Nord</li>
+      <li>Imperial</li>
+      <li>Redguard</li>
+      <li>Breton</li>
+      <li>Altmer</li>
+      <li>Bosmer</li>
+      <li>Dunmer</li>
+      <li>Orsimer</li>
+      <li>Khajiit</li>
+      <li>Argonian</li>
+    </allowedRaceDefs>
+    <factionIconPath>UI/Factions/RiftHold</factionIconPath>
+    <settlementNamePrefix>Rift</settlementNamePrefix>
+    <backstoryCategories>
+      <li>Outlander</li>
+      <li>Medieval</li>
+      <li>Tribal</li>
+    </backstoryCategories>
+  </FactionDef>
+
+  <!-- Whiterun Hold - Agricultural heartland -->
+  <FactionDef>
+    <defName>WhiterunHold</defName>
+    <label>Whiterun Hold</label>
+    <description>The central hold of Skyrim, ruled from the great city of Whiterun. Known as Skyrim's breadbasket, Whiterun Hold combines agricultural prosperity with strategic importance. Its people are pragmatic traders and farmers who form the economic backbone of Skyrim.</description>
+    <color>(0.9, 0.7, 0.4, 1)</color>
+    <allowedRaceDefs>
+      <li>Nord</li>
+      <li>Imperial</li>
+      <li>Redguard</li>
+      <li>Breton</li>
+      <li>Altmer</li>
+      <li>Bosmer</li>
+      <li>Dunmer</li>
+      <li>Orsimer</li>
+      <li>Khajiit</li>
+      <li>Argonian</li>
+    </allowedRaceDefs>
+    <factionIconPath>UI/Factions/WhiterunHold</factionIconPath>
+    <settlementNamePrefix>Whiterun</settlementNamePrefix>
+    <backstoryCategories>
+      <li>Medieval</li>
+      <li>Civil</li>
+      <li>Outlander</li>
+    </backstoryCategories>
+  </FactionDef>
+
+  <!-- Winterhold Hold - Magical learning -->
+  <FactionDef>
+    <defName>WinterholdHold</defName>
+    <label>Winterhold Hold</label>
+    <description>Once great but now diminished, Winterhold Hold is known primarily for the College of Winterhold, the premier magical institution in Skyrim. The hold's few remaining people are often touched by magic and possess knowledge uncommon among typical Nords.</description>
+    <color>(0.6, 0.7, 0.9, 1)</color>
+    <allowedRaceDefs>
+      <li>Nord</li>
+      <li>Imperial</li>
+      <li>Redguard</li>
+      <li>Breton</li>
+      <li>Altmer</li>
+      <li>Bosmer</li>
+      <li>Dunmer</li>
+      <li>Orsimer</li>
+      <li>Khajiit</li>
+      <li>Argonian</li>
+    </allowedRaceDefs>
+    <factionIconPath>UI/Factions/WinterholdHold</factionIconPath>
+    <settlementNamePrefix>Winterhold</settlementNamePrefix>
+    <backstoryCategories>
+      <li>Medieval</li>
+      <li>Outlander</li>
+      <li>Civil</li>
+    </backstoryCategories>
+  </FactionDef>
+
+  <!-- Falkreath Hold - Border foresters -->
+  <FactionDef>
+    <defName>FalkreathHold</defName>
+    <label>Falkreath Hold</label>
+    <description>The southern border hold known for its vast forests and proximity to Cyrodiil. Falkreath's people are skilled foresters and woodworkers who blend Nordic traditions with some Imperial influences due to their border location.</description>
+    <color>(0.2, 0.6, 0.3, 1)</color>
+    <allowedRaceDefs>
+      <li>Nord</li>
+      <li>Imperial</li>
+      <li>Redguard</li>
+      <li>Breton</li>
+      <li>Altmer</li>
+      <li>Bosmer</li>
+      <li>Dunmer</li>
+      <li>Orsimer</li>
+      <li>Khajiit</li>
+      <li>Argonian</li>
+    </allowedRaceDefs>
+    <factionIconPath>UI/Factions/FalkreathHold</factionIconPath>
+    <settlementNamePrefix>Falkreath</settlementNamePrefix>
+    <backstoryCategories>
+      <li>Medieval</li>
+      <li>Outlander</li>
+      <li>Tribal</li>
+    </backstoryCategories>
+  </FactionDef>
+
+  <!-- The Stormcloak Rebellion - Independence movement -->
+  <FactionDef>
+    <defName>StormcloakRebellion</defName>
+    <label>Stormcloak Rebellion</label>
+    <description>Ulfric Stormcloak's rebellion fighting for Skyrim's independence from the Empire. The Stormcloaks believe in Nordic supremacy, traditional values, and the right to worship Talos freely. They seek to restore Skyrim to its ancient glory under Nordic rule.</description>
+    <color>(0.2, 0.4, 0.8, 1)</color>
+    <allowedRaceDefs>
+      <li>Nord</li>
+      <li>Redguard</li>
+      <li>Orsimer</li>
+    </allowedRaceDefs>
+    <factionIconPath>UI/Factions/StormcloakRebellion</factionIconPath>
+    <settlementNamePrefix>Stormcloak</settlementNamePrefix>
+    <backstoryCategories>
+      <li>Tribal</li>
+      <li>Outlander</li>
+      <li>Medieval</li>
+    </backstoryCategories>
+  </FactionDef>
+
+</FactionDefs>

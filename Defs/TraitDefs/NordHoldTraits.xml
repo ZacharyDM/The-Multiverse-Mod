@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Nord Hold Heritage Traits -->
+  <!-- Each Hold in Skyrim has distinct cultural characteristics and specializations -->
+
+  <!-- Eastmarch Hold - Windhelm -->
+  <TraitDef>
+    <defName>EastmarchHoldHeritage</defName>
+    <label>Eastmarch Heritage</label>
+    <description>This Nord comes from Eastmarch Hold, the traditional stronghold of Nordic culture centered around Windhelm. Known for their martial prowess, traditional values, and fierce loyalty to ancient Nordic customs.</description>
+    <degreeDatas>
+      <li>
+        <label>Windhelm Born</label>
+        <description>Born in the ancient capital of Eastmarch, this pawn upholds traditional Nordic values and excels in warfare and craftsmanship.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Crafting>3</Crafting>
+          <Construction>2</Construction>
+          <Social>2</Social>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageFactor>0.08</MeleeDamageFactor>
+          <MentalBreakThreshold>-0.06</MentalBreakThreshold>
+          <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+          <WorkSpeedGlobal>0.04</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.2</biostatCpxFactor>
+    <exclusionTags>
+      <li>NordHold</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Haafingar Hold - Solitude -->
+  <TraitDef>
+    <defName>HaafingarHoldHeritage</defName>
+    <label>Haafingar Heritage</label>
+    <description>This Nord hails from Haafingar Hold, home to Solitude, the cosmopolitan capital of Skyrim. They possess a blend of Nordic tradition and Imperial sophistication from their exposure to politics and trade.</description>
+    <degreeDatas>
+      <li>
+        <label>Solitude Cosmopolitan</label>
+        <description>Raised in Skyrim's political capital, this pawn combines Nordic heritage with diplomatic skills and cultural refinement.</description>
+        <skillGains>
+          <Social>4</Social>
+          <Intellectual>3</Intellectual>
+          <Melee>2</Melee>
+          <Artistic>1</Artistic>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.12</SocialImpact>
+          <TradePriceImprovement>0.08</TradePriceImprovement>
+          <NegotiationAbility>0.10</NegotiationAbility>
+          <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.15</biostatCpxFactor>
+    <exclusionTags>
+      <li>NordHold</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Hjaalmarch Hold - Morthal -->
+  <TraitDef>
+    <defName>HjaalmarchHoldHeritage</defName>
+    <label>Hjaalmarch Heritage</label>
+    <description>This Nord comes from the misty marshlands of Hjaalmarch, where Morthal sits amid dangerous swamps. They are known for their mysticism, herbalism, and ability to survive in treacherous wetlands.</description>
+    <degreeDatas>
+      <li>
+        <label>Marsh Walker</label>
+        <description>Raised in Hjaalmarch's mystical marshlands, this pawn possesses knowledge of herbs, spirits, and swamp survival.</description>
+        <skillGains>
+          <Medicine>4</Medicine>
+          <Plants>3</Plants>
+          <Animals>3</Animals>
+          <Intellectual>2</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <MedicalTendQuality>0.08</MedicalTendQuality>
+          <PlantHarvestYield>0.12</PlantHarvestYield>
+          <PsychicSensitivity>0.08</PsychicSensitivity>
+          <ToxicResistance>0.15</ToxicResistance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.15</biostatCpxFactor>
+    <exclusionTags>
+      <li>NordHold</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- The Pale Hold - Dawnstar -->
+  <TraitDef>
+    <defName>PaleHoldHeritage</defName>
+    <label>Pale Heritage</label>
+    <description>This Nord originates from The Pale, the harsh northern hold centered on Dawnstar. Known for their mining expertise, resilience to extreme cold, and practical survival skills in the tundra.</description>
+    <degreeDatas>
+      <li>
+        <label>Tundra Survivor</label>
+        <description>Born in the frozen expanses of The Pale, this pawn has mastered survival in the harshest conditions and excels in mining and construction.</description>
+        <skillGains>
+          <Mining>4</Mining>
+          <Construction>3</Construction>
+          <Crafting>3</Crafting>
+          <Melee>2</Melee>
+        </skillGains>
+        <statOffsets>
+          <ComfyTemperatureMin>-15</ComfyTemperatureMin>
+          <MiningYield>0.15</MiningYield>
+          <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+          <MentalBreakThreshold>-0.07</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.2</biostatCpxFactor>
+    <exclusionTags>
+      <li>NordHold</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- The Reach Hold - Markarth -->
+  <TraitDef>
+    <defName>ReachHoldHeritage</defName>
+    <label>Reach Heritage</label>
+    <description>This Nord comes from The Reach, the mountainous hold surrounding Markarth. They possess knowledge of both Nordic and ancient Dwemer traditions, skilled in mining and metalworking in the dangerous mountain passes.</description>
+    <degreeDatas>
+      <li>
+        <label>Mountain Dweller</label>
+        <description>Born among the peaks of The Reach, this pawn combines Nordic strength with knowledge of ancient Dwemer ruins and mountain survival.</description>
+        <skillGains>
+          <Mining>4</Mining>
+          <Crafting>4</Crafting>
+          <Melee>3</Melee>
+          <Intellectual>1</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <MiningYield>0.18</MiningYield>
+          <SmeltingSpeed>0.10</SmeltingSpeed>
+          <MeleeHitChance>0.05</MeleeHitChance>
+          <WorkSpeedGlobal>0.04</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.2</biostatCpxFactor>
+    <exclusionTags>
+      <li>NordHold</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- The Rift Hold - Riften -->
+  <TraitDef>
+    <defName>RiftHoldHeritage</defName>
+    <label>Rift Heritage</label>
+    <description>This Nord originates from The Rift, the forested southern hold around Riften. Known for their forestry skills, hunting prowess, and unfortunately, their association with the Thieves Guild and criminal activities.</description>
+    <degreeDatas>
+      <li>
+        <label>Forest Hunter</label>
+        <description>Raised in The Rift's autumn forests, this pawn excels in hunting, woodcraft, and moving unseen through the wilderness.</description>
+        <skillGains>
+          <Shooting>4</Shooting>
+          <Animals>3</Animals>
+          <Plants>3</Plants>
+          <Melee>2</Melee>
+        </skillGains>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.08</ShootingAccuracyPawn>
+          <MoveSpeed>0.1</MoveSpeed>
+          <AnimalGatherYield>0.12</AnimalGatherYield>
+          <PlantHarvestYield>0.10</PlantHarvestYield>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.15</biostatCpxFactor>
+    <exclusionTags>
+      <li>NordHold</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Whiterun Hold - Whiterun -->
+  <TraitDef>
+    <defName>WhiterunHoldHeritage</defName>
+    <label>Whiterun Heritage</label>
+    <description>This Nord comes from Whiterun Hold, the central plains of Skyrim known for agriculture and trade. They are pragmatic, well-balanced, and skilled in both farming and commerce.</description>
+    <degreeDatas>
+      <li>
+        <label>Plains Trader</label>
+        <description>Born in Skyrim's agricultural heartland, this pawn combines farming expertise with commercial acumen and practical wisdom.</description>
+        <skillGains>
+          <Plants>4</Plants>
+          <Social>3</Social>
+          <Animals>3</Animals>
+          <Construction>2</Construction>
+        </skillGains>
+        <statOffsets>
+          <PlantHarvestYield>0.15</PlantHarvestYield>
+          <TradePriceImprovement>0.08</TradePriceImprovement>
+          <AnimalGatherYield>0.10</AnimalGatherYield>
+          <WorkSpeedGlobal>0.03</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.1</biostatCpxFactor>
+    <exclusionTags>
+      <li>NordHold</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Winterhold Hold - Winterhold -->
+  <TraitDef>
+    <defName>WinterholdHoldHeritage</defName>
+    <label>Winterhold Heritage</label>
+    <description>This Nord hails from Winterhold Hold, once great but now reduced by the Great Collapse. They possess a connection to magic unusual among Nords, influenced by the College of Winterhold's presence.</description>
+    <degreeDatas>
+      <li>
+        <label>Mage-Touched</label>
+        <description>Born near the College of Winterhold, this pawn has unusual magical aptitude for a Nord, combined with traditional hardiness.</description>
+        <skillGains>
+          <Intellectual>4</Intellectual>
+          <Medicine>3</Medicine>
+          <Melee>2</Melee>
+          <Crafting>2</Crafting>
+        </skillGains>
+        <statOffsets>
+          <ResearchSpeed>0.08</ResearchSpeed>
+          <PsychicSensitivity>0.05</PsychicSensitivity>
+          <ComfyTemperatureMin>-12</ComfyTemperatureMin>
+          <MedicalTendQuality>0.06</MedicalTendQuality>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.25</biostatCpxFactor>
+    <exclusionTags>
+      <li>NordHold</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Falkreath Hold - Falkreath -->
+  <TraitDef>
+    <defName>FalkreathHoldHeritage</defName>
+    <label>Falkreath Heritage</label>
+    <description>This Nord originates from Falkreath Hold, the southern border region known for its dense forests and proximity to Cyrodiil. They are skilled foresters with some Imperial cultural influence.</description>
+    <degreeDatas>
+      <li>
+        <label>Border Forester</label>
+        <description>Raised in Falkreath's deep woods near the Cyrodiil border, this pawn excels in forestry and shows some Imperial cultural influence.</description>
+        <skillGains>
+          <Plants>4</Plants>
+          <Construction>3</Construction>
+          <Social>2</Social>
+          <Crafting>2</Crafting>
+        </skillGains>
+        <statOffsets>
+          <PlantHarvestYield>0.18</PlantHarvestYield>
+          <ConstructionSpeed>0.08</ConstructionSpeed>
+          <TradePriceImprovement>0.05</TradePriceImprovement>
+          <WorkSpeedGlobal>0.04</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.15</biostatCpxFactor>
+    <exclusionTags>
+      <li>NordHold</li>
+    </exclusionTags>
+  </TraitDef>
+
+</Defs>
