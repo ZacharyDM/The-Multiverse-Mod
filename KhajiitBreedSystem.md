@@ -127,6 +127,17 @@ Defs/
 │   └── KhajiitReligiousThoughts.xml # Mood effects for religious compliance
 └── HediffDefs/
     └── KhajiitMoonCycle.xml     # Moon phase effects and blessings
+
+# Regional Styles Integration
+Defs/StyleCategoryDefs/
+├── KhajiitStyles.xml            # Anequinan and Pellitine regional styles
+├── KhajiitApparelStyles.xml     # Regional apparel style definitions
+├── KhajiitWeaponStyles.xml      # Regional weapon style definitions
+└── KhajiitBuildingStyles.xml    # Regional building style definitions
+
+Defs/ThingDefs/Apparel/Khajiit/
+├── KhajiitRegionalApparel.xml   # Regional clothing and armor
+└── KhajiitQuadrupedalApparel.xml # Specialized non-bipedal apparel
 ```
 
 ## Integration with Existing Systems
@@ -136,6 +147,7 @@ The Khajiit breed system integrates seamlessly with existing mod components:
 - Works alongside faction and ideologion systems
 - Maintains balance with other beast races
 - Preserves backward compatibility with original Khajiit race
+- **Integrates with Khajiit Regional Styles system** for cultural apparel and equipment
 
 ## Lore Accuracy
 
