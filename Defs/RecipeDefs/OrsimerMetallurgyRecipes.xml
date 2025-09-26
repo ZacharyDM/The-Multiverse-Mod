@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Process Orichalcum into Sacred Ingots -->
+  <RecipeDef>
+    <defName>ProcessOrichalcum</defName>
+    <label>forge orichalcum ingot</label>
+    <description>Using sacred Orsimer techniques blessed by Malacath, carefully forge raw orichalcum into refined ingots. This ancient process requires exceptional skill and knowledge of the sacred metallurgical arts known only to the Orsimer strongholds.</description>
+    <jobString>Forging sacred orichalcum.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>4800</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <skillRequirements>
+      <Crafting>16</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Orichalcum</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <products>
+      <OrichalcumIngot>2</OrichalcumIngot>
+    </products>
+    <workSkill>Crafting</workSkill>
+    <recipeUsers>
+      <li>ElectricSmelter</li>
+      <li>FueledSmithy</li>
+    </recipeUsers>
+    <researchPrerequisite>OrsimerSacredMetallurgy</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Advanced Orichalcum Refinement -->
+  <RecipeDef>
+    <defName>RefineOrichalcumMaster</defName>
+    <label>master forge orichalcum (sacred)</label>
+    <description>Use the most advanced Orsimer master crafting techniques to create the finest orichalcum ingots possible. This sacred process yields superior results but requires mastery of the deepest metallurgical secrets of the strongholds.</description>
+    <jobString>Master forging sacred orichalcum.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>6000</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <skillRequirements>
+      <Crafting>18</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Orichalcum</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Jade</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <OrichalcumIngot>3</OrichalcumIngot>
+    </products>
+    <workSkill>Crafting</workSkill>
+    <recipeUsers>
+      <li>FabricationBench</li>
+    </recipeUsers>
+    <researchPrerequisite>OrsimerMasterCrafting</researchPrerequisite>
+  </RecipeDef>
+
+</Defs>
