@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Consolidated Elder Scrolls Animals - Common creatures across all provinces -->
+
+  <!-- === EXISTING MORROWIND CREATURES === -->
+  
+  <!-- Guar: Pack animal commonly used by Dunmer -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Guar</defName>
+    <label>guar</label>
+    <description>A large, bipedal herbivore native to Morrowind. These hardy creatures are commonly domesticated by the Dunmer as pack animals and mounts. Their thick hide and docile nature make them ideal for harsh environments.</description>
+    <statBases>
+      <MoveSpeed>4.0</MoveSpeed>
+      <MarketValue>400</MarketValue>
+      <ComfyTemperatureMin>-15</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+      <FilthRate>8</FilthRate>
+    </statBases>
+    <tools>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <predator>false</predator>
+      <petness>0.7</petness>
+      <baseBodySize>1.2</baseBodySize>
+      <baseHungerRate>0.35</baseHungerRate>
+      <baseHealthScale>1.1</baseHealthScale>
+      <foodType>VegetarianRoughAnimal</foodType>
+      <leatherDef>Leather_Plain</leatherDef>
+      <wildness>0.25</wildness>
+      <manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.0</manhunterOnDamageChance>
+      <nuzzleMtbHours>120</nuzzleMtbHours>
+      <lifeExpectancy>22</lifeExpectancy>
+      <mateMtbHours>8760</mateMtbHours>
+      <maturityAge>1.5</maturityAge>
+      <trainability>Advanced</trainability>
+      <packAnimal>true</packAnimal>
+      <gestationPeriodDays>60</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(2, 1)</li>
+          <li>(3, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.25</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>1.5</minAge>
+          <soundWounded>Pawn_Muffalo_Wounded</soundWounded>
+          <soundDeath>Pawn_Muffalo_Death</soundDeath>
+          <soundCall>Pawn_Muffalo_Call</soundCall>
+          <soundAngry>Pawn_Muffalo_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+  <!-- === MISSING CRITICAL SKYRIM CREATURES === -->
+
+  <!-- Bear: Common across Tamriel -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Bear</defName>
+    <label>bear</label>
+    <description>A large, powerful omnivore found throughout the forests and mountains of Tamriel. Bears are territorial and will aggressively defend their cubs and territory. Their thick fur and powerful claws make them formidable opponents.</description>
+    <statBases>
+      <MoveSpeed>4.5</MoveSpeed>
+      <MarketValue>500</MarketValue>
+      <ComfyTemperatureMin>-30</ComfyTemperatureMin>
+      <ComfyTemperatureMax>40</ComfyTemperatureMax>
+      <FilthRate>8</FilthRate>
+    </statBases>
+    <tools>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2.5</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <predator>true</predator>
+      <petness>0.1</petness>
+      <baseBodySize>1.5</baseBodySize>
+      <baseHungerRate>0.40</baseHungerRate>
+      <baseHealthScale>1.4</baseHealthScale>
+      <foodType>OmnivoreAnimal</foodType>
+      <leatherDef>Leather_Bear</leatherDef>
+      <wildness>0.90</wildness>
+      <manhunterOnTameFailChance>0.20</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.60</manhunterOnDamageChance>
+      <lifeExpectancy>20</lifeExpectancy>
+      <mateMtbHours>8760</mateMtbHours>
+      <maturityAge>2.5</maturityAge>
+      <trainability>Advanced</trainability>
+      <gestationPeriodDays>210</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(2, 1)</li>
+          <li>(3, 0.5)</li>
+          <li>(4, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.3</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>2.5</minAge>
+          <soundWounded>Pawn_Bear_Wounded</soundWounded>
+          <soundDeath>Pawn_Bear_Death</soundDeath>
+          <soundCall>Pawn_Bear_Call</soundCall>
+          <soundAngry>Pawn_Bear_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+  <!-- Wolf: Pack hunters across Tamriel -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Wolf</defName>
+    <label>wolf</label>
+    <description>Intelligent pack hunters found throughout Tamriel's wilderness. Wolves are cunning predators that coordinate their attacks and are fiercely loyal to their pack. They can be dangerous when encountered in groups.</description>
+    <statBases>
+      <MoveSpeed>5.5</MoveSpeed>
+      <MarketValue>300</MarketValue>
+      <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+      <ComfyTemperatureMax>35</ComfyTemperatureMax>
+      <FilthRate>4</FilthRate>
+    </statBases>
+    <tools>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.8</chanceFactor>
+      </li>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <predator>true</predator>
+      <petness>0.3</petness>
+      <baseBodySize>0.8</baseBodySize>
+      <baseHungerRate>0.25</baseHungerRate>
+      <baseHealthScale>0.9</baseHealthScale>
+      <foodType>CarnivoreAnimal</foodType>
+      <leatherDef>Leather_Wolf</leatherDef>
+      <wildness>0.75</wildness>
+      <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.30</manhunterOnDamageChance>
+      <lifeExpectancy>12</lifeExpectancy>
+      <mateMtbHours>8760</mateMtbHours>
+      <maturityAge>1.5</maturityAge>
+      <trainability>Advanced</trainability>
+      <gestationPeriodDays>65</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(2, 1)</li>
+          <li>(4, 1)</li>
+          <li>(6, 0.5)</li>
+          <li>(8, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.2</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>1.5</minAge>
+          <soundWounded>Pawn_Wolf_Wounded</soundWounded>
+          <soundDeath>Pawn_Wolf_Death</soundDeath>
+          <soundCall>Pawn_Wolf_Call</soundCall>
+          <soundAngry>Pawn_Wolf_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+  <!-- Sabre Cat: Skyrim's apex predator -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>SabreCat</defName>
+    <label>sabre cat</label>
+    <description>A massive feline predator with distinctive saber-like fangs. These apex hunters are native to Skyrim's tundra and are feared throughout the north for their incredible strength and stealth. Their thick fur provides excellent protection against the cold.</description>
+    <statBases>
+      <MoveSpeed>6.0</MoveSpeed>
+      <MarketValue>800</MarketValue>
+      <ComfyTemperatureMin>-50</ComfyTemperatureMin>
+      <ComfyTemperatureMax>25</ComfyTemperatureMax>
+      <FilthRate>6</FilthRate>
+    </statBases>
+    <tools>
+      <li>
+        <label>saber teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>24</power>
+        <cooldownTime>2.5</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.9</chanceFactor>
+      </li>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <predator>true</predator>
+      <petness>0.05</petness>
+      <baseBodySize>1.8</baseBodySize>
+      <baseHungerRate>0.45</baseHungerRate>
+      <baseHealthScale>1.6</baseHealthScale>
+      <foodType>CarnivoreAnimal</foodType>
+      <leatherDef>Leather_Heavy</leatherDef>
+      <wildness>0.98</wildness>
+      <manhunterOnTameFailChance>0.30</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.80</manhunterOnDamageChance>
+      <lifeExpectancy>18</lifeExpectancy>
+      <mateMtbHours>8760</mateMtbHours>
+      <maturityAge>3.0</maturityAge>
+      <trainability>Advanced</trainability>
+      <gestationPeriodDays>95</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(2, 0.8)</li>
+          <li>(3, 0.2)</li>
+          <li>(4, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.4</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>3.0</minAge>
+          <soundWounded>Pawn_BigCat_Wounded</soundWounded>
+          <soundDeath>Pawn_BigCat_Death</soundDeath>
+          <soundCall>Pawn_BigCat_Call</soundCall>
+          <soundAngry>Pawn_BigCat_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+  <!-- Mammoth: Giant herbivore of the northern regions -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Mammoth</defName>
+    <label>mammoth</label>
+    <description>Massive, woolly elephantine creatures that roam Skyrim's frozen tundra in herds. These gentle giants are revered by the giants who often herd them. Their thick fur and enormous size help them survive the harsh northern climate.</description>
+    <statBases>
+      <MoveSpeed>3.5</MoveSpeed>
+      <MarketValue>1500</MarketValue>
+      <ComfyTemperatureMin>-60</ComfyTemperatureMin>
+      <ComfyTemperatureMax>15</ComfyTemperatureMax>
+      <FilthRate>16</FilthRate>
+    </statBases>
+    <tools>
+      <li>
+        <label>tusks</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>35</power>
+        <cooldownTime>4.0</cooldownTime>
+        <linkedBodyPartsGroup>TuskAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.8</chanceFactor>
+      </li>
+      <li>
+        <label>trunk</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>3.0</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <chanceFactor>0.6</chanceFactor>
+      </li>
+      <li>
+        <label>feet</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>30</power>
+        <cooldownTime>3.5</cooldownTime>
+        <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <predator>false</predator>
+      <petness>0.2</petness>
+      <baseBodySize>3.5</baseBodySize>
+      <baseHungerRate>0.80</baseHungerRate>
+      <baseHealthScale>3.0</baseHealthScale>
+      <foodType>VegetarianRoughAnimal</foodType>
+      <leatherDef>Leather_Thick</leatherDef>
+      <wildness>0.60</wildness>
+      <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.40</manhunterOnDamageChance>
+      <lifeExpectancy>60</lifeExpectancy>
+      <mateMtbHours>8760</mateMtbHours>
+      <maturityAge>8.0</maturityAge>
+      <trainability>Advanced</trainability>
+      <packAnimal>true</packAnimal>
+      <gestationPeriodDays>660</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(2, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>2.0</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>8.0</minAge>
+          <soundWounded>Pawn_Elephant_Wounded</soundWounded>
+          <soundDeath>Pawn_Elephant_Death</soundDeath>
+          <soundCall>Pawn_Elephant_Call</soundCall>
+          <soundAngry>Pawn_Elephant_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+  <!-- Kagouti: Aggressive tusked creature -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Kagouti</defName>
+    <label>kagouti</label>
+    <description>A fierce predator of Morrowind's wilderness, the kagouti is a large, bipedal creature with prominent tusks and aggressive disposition. These territorial animals are known to attack travelers on sight.</description>
+    <statBases>
+      <MoveSpeed>5.2</MoveSpeed>
+      <MarketValue>350</MarketValue>
+      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+      <ComfyTemperatureMax>55</ComfyTemperatureMax>
+      <FilthRate>6</FilthRate>
+    </statBases>
+    <tools>
+      <li>
+        <label>left tusk</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2.5</cooldownTime>
+        <linkedBodyPartsGroup>TuskAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.7</chanceFactor>
+      </li>
+      <li>
+        <label>right tusk</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2.5</cooldownTime>
+        <linkedBodyPartsGroup>TuskAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.7</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <predator>true</predator>
+      <petness>0.1</petness>
+      <baseBodySize>1.0</baseBodySize>
+      <baseHungerRate>0.30</baseHungerRate>
+      <baseHealthScale>1.0</baseHealthScale>
+      <foodType>CarnivoreAnimal</foodType>
+      <leatherDef>KagoutiHide</leatherDef>
+      <wildness>0.85</wildness>
+      <manhunterOnTameFailChance>0.15</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.4</manhunterOnDamageChance>
+      <lifeExpectancy>15</lifeExpectancy>
+      <mateMtbHours>8760</mateMtbHours>
+      <maturityAge>2.0</maturityAge>
+      <trainability>Advanced</trainability>
+      <gestationPeriodDays>45</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(2, 0.5)</li>
+          <li>(3, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.4</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>2.0</minAge>
+          <soundWounded>Pawn_Warg_Wounded</soundWounded>
+          <soundDeath>Pawn_Warg_Death</soundDeath>
+          <soundCall>Pawn_Warg_Call</soundCall>
+          <soundAngry>Pawn_Warg_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+  <!-- Alit: Large bipedal creature with distinctive tail -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Alit</defName>
+    <label>alit</label>
+    <description>A large, bipedal predator native to Morrowind's ashlands. The alit has powerful legs for jumping great distances and a distinctive tail that it uses for balance. These creatures are territorial and extremely dangerous.</description>
+    <statBases>
+      <MoveSpeed>6.0</MoveSpeed>
+      <MarketValue>600</MarketValue>
+      <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+      <ComfyTemperatureMax>65</ComfyTemperatureMax>
+      <FilthRate>8</FilthRate>
+    </statBases>
+    <tools>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.5</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>tail</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2.5</cooldownTime>
+        <linkedBodyPartsGroup>TailAttackTool</linkedBodyPartsGroup>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <predator>true</predator>
+      <petness>0.05</petness>
+      <baseBodySize>1.8</baseBodySize>
+      <baseHungerRate>0.45</baseHungerRate>
+      <baseHealthScale>1.5</baseHealthScale>
+      <foodType>CarnivoreAnimal</foodType>
+      <leatherDef>AlitHide</leatherDef>
+      <wildness>0.95</wildness>
+      <manhunterOnTameFailChance>0.25</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.6</manhunterOnDamageChance>
+      <lifeExpectancy>18</lifeExpectancy>
+      <mateMtbHours>8760</mateMtbHours>
+      <maturityAge>3.0</maturityAge>
+      <trainability>Advanced</trainability>
+      <gestationPeriodDays>90</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(2, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.6</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>3.0</minAge>
+          <soundWounded>Pawn_Warg_Wounded</soundWounded>
+          <soundDeath>Pawn_Warg_Death</soundDeath>
+          <soundCall>Pawn_Warg_Call</soundCall>
+          <soundAngry>Pawn_Warg_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+  <!-- Wamasu: Large draconic beast of Argonia -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Wamasu</defName>
+    <label>wamasu</label>
+    <description>A massive, draconic beast native to the swamps of Black Marsh. These powerful creatures have dragon-like features and are capable of devastating electrical attacks. They are extremely territorial and highly dangerous, though legends speak of ancient bonds between Wamasu and certain Argonian tribes.</description>
+    <statBases>
+      <MoveSpeed>4.5</MoveSpeed>
+      <MarketValue>1200</MarketValue>
+      <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+      <ComfyTemperatureMax>65</ComfyTemperatureMax>
+      <FilthRate>12</FilthRate>
+    </statBases>
+    <tools>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>28</power>
+        <cooldownTime>3.0</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.8</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>2.5</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>tail</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>3.0</cooldownTime>
+        <linkedBodyPartsGroup>TailAttackTool</linkedBodyPartsGroup>
+        <chanceFactor>0.6</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <predator>true</predator>
+      <petness>0.05</petness>
+      <baseBodySize>2.2</baseBodySize>
+      <baseHungerRate>0.60</baseHungerRate>
+      <baseHealthScale>2.0</baseHealthScale>
+      <foodType>CarnivoreAnimal</foodType>
+      <leatherDef>WamasuHide</leatherDef>
+      <wildness>0.99</wildness>
+      <manhunterOnTameFailChance>0.35</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.8</manhunterOnDamageChance>
+      <lifeExpectancy>45</lifeExpectancy>
+      <mateMtbHours>8760</mateMtbHours>
+      <maturityAge>5.0</maturityAge>
+      <trainability>Advanced</trainability>
+      <gestationPeriodDays>120</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(2, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>1.0</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>5.0</minAge>
+          <soundWounded>Pawn_Warg_Wounded</soundWounded>
+          <soundDeath>Pawn_Warg_Death</soundDeath>
+          <soundCall>Pawn_Warg_Call</soundCall>
+          <soundAngry>Pawn_Warg_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+</Defs>
