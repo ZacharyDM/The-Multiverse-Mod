@@ -109,6 +109,5 @@
       <li>HalfDunmer</li>
     </allowedRaceDefs>
     <techLevel>Medieval</techLevel>
-    <isSubfactionOf>EmpireOfCyrodiil</isSubfactionOf>
   </FactionDef>
 </FactionDefs>
