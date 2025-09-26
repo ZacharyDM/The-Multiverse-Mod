@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Malachite Wall -->
+  <ThingDef ParentName="WallBase">
+    <defName>WallMalachite</defName>
+    <label>malachite wall</label>
+    <description>A wall built from malachite blocks.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/Wall_Malachite_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <linkType>CornerFiller</linkType>
+      <linkFlags>
+        <li>Wall</li>
+        <li>Rock</li>
+      </linkFlags>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>510</MaxHitPoints>
+      <Beauty>2</Beauty>
+    </statBases>
+    <costList>
+      <BlocksMalachite>3</BlocksMalachite>
+    </costList>
+  </ThingDef>
+
+  <!-- Ebony Wall -->
+  <ThingDef ParentName="WallBase">
+    <defName>WallEbony</defName>
+    <label>ebony wall</label>
+    <description>A wall built from ebony blocks.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/Wall_Ebony_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <linkType>CornerFiller</linkType>
+      <linkFlags>
+        <li>Wall</li>
+        <li>Rock</li>
+      </linkFlags>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>680</MaxHitPoints>
+      <Beauty>4</Beauty>
+    </statBases>
+    <costList>
+      <BlocksEbony>3</BlocksEbony>
+    </costList>
+  </ThingDef>
+
+  <!-- Malachite Blocks -->
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksMalachite</defName>
+    <label>malachite blocks</label>
+    <description>Blocks cut from malachite. A beautiful and durable building material.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/StoneBlocks</texPath>
+      <color>(60,179,113)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.1</MarketValue>
+    </statBases>
+    <stuffProps>
+      <categories>
+        <li>Stony</li>
+      </categories>
+      <appearance>Smooth</appearance>
+      <statOffsets>
+        <Beauty>1</Beauty>
+      </statOffsets>
+      <statFactors>
+        <Beauty>1.4</Beauty>
+        <MarketValue>1.5</MarketValue>
+      </statFactors>
+      <color>(60,179,113)</color>
+    </stuffProps>
+  </ThingDef>
+
+  <!-- Ebony Blocks -->
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksEbony</defName>
+    <label>ebony blocks</label>
+    <description>Blocks cut from ebony. An exceptionally rare and beautiful building material.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/StoneBlocks</texPath>
+      <color>(30,30,30)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>4.2</MarketValue>
+    </statBases>
+    <stuffProps>
+      <categories>
+        <li>Stony</li>
+      </categories>
+      <appearance>Smooth</appearance>
+      <statOffsets>
+        <Beauty>3</Beauty>
+      </statOffsets>
+      <statFactors>
+        <Beauty>2.0</Beauty>
+        <MarketValue>2.5</MarketValue>
+      </statFactors>
+      <color>(30,30,30)</color>
+    </stuffProps>
+  </ThingDef>
+
+  <!-- Smoothed Malachite -->
+  <ThingDef ParentName="SmoothedWallBase">
+    <defName>SmoothedMalachite</defName>
+    <label>smoothed malachite</label>
+    <description>Natural malachite wall that has been smoothed to a flat, even surface.</description>
+    <graphicData>
+      <texPath>Things/Building/Natural/SmoothWall_Malachite</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>6</Beauty>
+    </statBases>
+  </ThingDef>
+
+  <!-- Smoothed Ebony -->
+  <ThingDef ParentName="SmoothedWallBase">
+    <defName>SmoothedEbony</defName>
+    <label>smoothed ebony</label>
+    <description>Natural ebony wall that has been smoothed to a flat, even surface.</description>
+    <graphicData>
+      <texPath>Things/Building/Natural/SmoothWall_Ebony</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>12</Beauty>
+    </statBases>
+  </ThingDef>
+
+</Defs>

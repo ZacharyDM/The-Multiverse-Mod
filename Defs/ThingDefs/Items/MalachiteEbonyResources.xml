@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Malachite - Glass Replacement Resource -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>Malachite</defName>
+    <label>malachite</label>
+    <description>A vibrant green copper carbonate mineral highly prized for its beauty and magical properties. Malachite serves as an excellent substitute for traditional glass in magical applications, providing superior clarity and arcane conductivity. This valuable mineral can occasionally be found in volcanic regions or acquired through trade with certain factions.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Malachite</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>75</stackLimit>
+    <statBases>
+      <MarketValue>180</MarketValue>
+      <Mass>0.3</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>6</Beauty>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+      <li>MagicalResource</li>
+      <li>DunmerTech</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>2</glowRadius>
+        <glowColor>(50,200,50,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Ebony - Ultra-Rare Volcanic Metal -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>Ebony</defName>
+    <label>ebony</label>
+    <description>An extremely rare volcanic glass-metal of supernatural origin, formed deep within the most active volcanic regions. Ebony is prized above all other materials for its incredible durability, magical resonance, and distinctive dark luster. This legendary material can only be found in the most dangerous volcanic environments or acquired at great expense from the few factions that possess it.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Ebony</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MarketValue>600</MarketValue>
+      <Mass>0.8</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>12</Beauty>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+      <li>LegendaryResource</li>
+      <li>DunmerTech</li>
+      <li>DwarvenTech</li>
+    </tradeTags>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <statOffsets>
+        <WorkToMake>1200</WorkToMake>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>3.2</MaxHitPoints>
+        <Beauty>4.0</Beauty>
+        <WorkToMake>0.5</WorkToMake>
+        <WorkToBuild>0.5</WorkToBuild>
+        <Mass>0.3</Mass>
+        <SharpDamageMultiplier>2.1</SharpDamageMultiplier>
+        <BluntDamageMultiplier>1.9</BluntDamageMultiplier>
+      </statFactors>
+      <color>(30,30,30)</color>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(50,50,50,100)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

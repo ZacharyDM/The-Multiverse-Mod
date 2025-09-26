@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Malachite Deposit - Mineable -->
+  <ThingDef ParentName="MineableBase">
+    <defName>MineableMalachite</defName>
+    <label>malachite deposit</label>
+    <description>A rare deposit of malachite formed in volcanic regions. This vibrant green mineral can be carefully extracted through mining operations.</description>
+    <graphicData>
+      <texPath>Things/Building/Natural/RockDeposit_Malachite</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+    </statBases>
+    <building>
+      <mineableThing>Malachite</mineableThing>
+      <mineableYield>15</mineableYield>
+      <mineableNonMinedEffecter>MineStrike_NonMineral</mineableNonMinedEffecter>
+      <mineableDropChance>0.8</mineableDropChance>
+    </building>
+    <filthLeaving>RockRubble</filthLeaving>
+  </ThingDef>
+
+  <!-- Ebony Deposit - Ultra Rare Mineable -->
+  <ThingDef ParentName="MineableBase">
+    <defName>MineableEbony</defName>
+    <label>ebony deposit</label>
+    <description>An extremely rare deposit of volcanic ebony. This legendary material forms only in the most extreme volcanic conditions and is incredibly difficult to extract.</description>
+    <graphicData>
+      <texPath>Things/Building/Natural/RockDeposit_Ebony</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>800</MaxHitPoints>
+    </statBases>
+    <building>
+      <mineableThing>Ebony</mineableThing>
+      <mineableYield>8</mineableYield>
+      <mineableNonMinedEffecter>MineStrike_NonMineral</mineableNonMinedEffecter>
+      <mineableDropChance>0.6</mineableDropChance>
+      <mineableYieldWasteable>false</mineableYieldWasteable>
+    </building>
+    <filthLeaving>RockRubble</filthLeaving>
+  </ThingDef>
+
+</Defs>

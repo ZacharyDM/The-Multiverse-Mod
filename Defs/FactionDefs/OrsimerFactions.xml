@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FactionDefs>
+  <!-- Orsimer Strongholds Faction -->
+  <FactionDef>
+    <defName>OrsimerStrongholds</defName>
+    <label>Orsimer Strongholds</label>
+    <description>Independent Orsimer strongholds scattered across the harsh mountainous regions. These proud warrior-smiths maintain their ancient traditions of metalworking and honor-based society. They are renowned for their exceptional craftsmanship with rare materials like malachite and ebony, which they trade at premium prices to worthy allies.</description>
+    <color>(0.2, 0.6, 0.2, 1)</color>
+    <allowedRaceDefs>
+      <li>Orsimer</li>
+    </allowedRaceDefs>
+    <techLevel>Medieval</techLevel>
+    <hidden>false</hidden>
+    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <maxCountAtGameStart>2</maxCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>Stronghold Chief</leaderTitle>
+    <factionIconPath>UI/Factions/OrsimerStronghold</factionIconPath>
+    <settlementGenerationWeight>0.8</settlementGenerationWeight>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+    </requiredMemes>
+  </FactionDef>
+</FactionDefs>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Malachite Rock Type -->
+  <RockTypeDef>
+    <defName>MalachiteRock</defName>
+    <label>malachite</label>
+    <description>Rare malachite deposits that form in volcanic regions.</description>
+    <soundMelee>MeleeHit_Stone</soundMelee>
+    <soundShatter>BuildingDestroyed_Stone_Small</soundShatter>
+    <color>(60, 179, 113)</color>
+    <naturalRock>MineableMalachite</naturalRock>
+    <buildingMadeOfThis>WallMalachite</buildingMadeOfThis>
+    <blocksMadeOfThis>BlocksMalachite</blocksMadeOfThis>
+    <SmoothedThing>SmoothedMalachite</SmoothedThing>
+    <isTransparent>false</isTransparent>
+    <isSmoothed>false</isSmoothed>
+    <allowBiomedFormation>true</allowBiomedFormation>
+    <biomeWeights>
+      <Ashlands>0.02</Ashlands>
+      <MolagAmur>0.015</MolagAmur>
+    </biomeWeights>
+  </RockTypeDef>
+
+  <!-- Ebony Rock Type -->
+  <RockTypeDef>
+    <defName>EbonyRock</defName>
+    <label>ebony</label>
+    <description>Extremely rare ebony deposits that form only in the most active volcanic environments.</description>
+    <soundMelee>MeleeHit_Stone</soundMelee>
+    <soundShatter>BuildingDestroyed_Stone_Small</soundShatter>
+    <color>(30, 30, 30)</color>
+    <naturalRock>MineableEbony</naturalRock>
+    <buildingMadeOfThis>WallEbony</buildingMadeOfThis>
+    <blocksMadeOfThis>BlocksEbony</blocksMadeOfThis>
+    <SmoothedThing>SmoothedEbony</SmoothedThing>
+    <isTransparent>false</isTransparent>
+    <isSmoothed>false</isSmoothed>
+    <allowBiomedFormation>true</allowBiomedFormation>
+    <biomeWeights>
+      <Ashlands>0.005</Ashlands>
+      <MolagAmur>0.003</MolagAmur>
+    </biomeWeights>
+  </RockTypeDef>
+
+</Defs>
