@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Bosmer Building Style Mappings -->
+
+  <!-- Tree Dancer Building Style -->
+  <StyleItemCategoryDef>
+    <defName>TreeDancerBuildingStyle</defName>
+    <label>Tree Dancer architecture</label>
+    <description>Canopy-integrated structures built around and within living trees, featuring organic curves, suspended walkways, and designs that work with natural tree growth patterns rather than against them.</description>
+    <category>TreeDancerStyle</category>
+    <thingDefStyles>
+      <Wall>TreeDancerWall</Wall>
+      <Door>TreeDancerDoor</Door>
+      <Bed>TreeDancerBed</Bed>
+      <Table2x2c>TreeDancerTable</Table2x2c>
+      <DiningChair>TreeDancerChair</DiningChair>
+      <Shelf>TreeDancerShelf</Shelf>
+      <Dresser>TreeDancerDresser</Dresser>
+      <EndTable>TreeDancerEndTable</EndTable>
+      <PlantPot>TreeDancerPlanter</PlantPot>
+      <Campfire>TreeDancerHearth</Campfire>
+      <TorchLamp>TreeDancerTorch</TorchLamp>
+      <StandingLamp_Red>TreeDancerLamp</StandingLamp_Red>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Wild Hunt Building Style -->
+  <StyleItemCategoryDef>
+    <defName>WildHuntBuildingStyle</defName>
+    <label>Wild Hunt architecture</label>
+    <description>Primal structures crafted from bone, antler, and wild game hide, featuring savage decorations, trophy displays, and designs that reflect the untamed nature of the Hunt.</description>
+    <category>WildHuntStyle</category>
+    <thingDefStyles>
+      <Wall>WildHuntWall</Wall>
+      <Door>WildHuntDoor</Door>
+      <Bed>WildHuntBed</Bed>
+      <Table2x2c>WildHuntTable</Table2x2c>
+      <DiningChair>WildHuntChair</DiningChair>
+      <Shelf>WildHuntShelf</Shelf>
+      <Dresser>WildHuntDresser</Dresser>
+      <EndTable>WildHuntEndTable</EndTable>
+      <PlantPot>WildHuntPlanter</PlantPot>
+      <Campfire>WildHuntHearth</Campfire>
+      <TorchLamp>WildHuntTorch</TorchLamp>
+      <StandingLamp_Red>WildHuntLamp</StandingLamp_Red>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Green Pact Building Style -->
+  <StyleItemCategoryDef>
+    <defName>GreenPactBuildingStyle</defName>
+    <label>Green Pact architecture</label>
+    <description>Structures built exclusively from stone, animal products, and imported materials in strict adherence to the Green Pact, featuring earth tones and natural forms that honor Y'ffre's covenant.</description>
+    <category>GreenPactStyle</category>
+    <thingDefStyles>
+      <Wall>GreenPactWall</Wall>
+      <Door>GreenPactDoor</Door>
+      <Bed>GreenPactBed</Bed>
+      <Table2x2c>GreenPactTable</Table2x2c>
+      <DiningChair>GreenPactChair</DiningChair>
+      <Shelf>GreenPactShelf</Shelf>
+      <Dresser>GreenPactDresser</Dresser>
+      <EndTable>GreenPactEndTable</EndTable>
+      <PlantPot>GreenPactPlanter</PlantPot>
+      <Campfire>GreenPactHearth</Campfire>
+      <TorchLamp>GreenPactTorch</TorchLamp>
+      <StandingLamp_Red>GreenPactLamp</StandingLamp_Red>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Silvenar Building Style -->
+  <StyleItemCategoryDef>
+    <defName>SilvenarBuildingStyle</defName>
+    <label>Silvenar architecture</label>
+    <description>Elegant diplomatic buildings featuring sophisticated stonework, refined decorations, and designs that reflect the mystical nature of tree-speakers and their role as mediators.</description>
+    <category>SilvenarStyle</category>
+    <thingDefStyles>
+      <Wall>SilvenarWall</Wall>
+      <Door>SilvenarDoor</Door>
+      <Bed>SilvenarBed</Bed>
+      <Table2x2c>SilvenarTable</Table2x2c>
+      <DiningChair>SilvenarChair</DiningChair>
+      <Shelf>SilvenarShelf</Shelf>
+      <Dresser>SilvenarDresser</Dresser>
+      <EndTable>SilvenarEndTable</EndTable>
+      <PlantPot>SilvenarPlanter</PlantPot>
+      <Campfire>SilvenarHearth</Campfire>
+      <TorchLamp>SilvenarTorch</TorchLamp>
+      <StandingLamp_Red>SilvenarLamp</StandingLamp_Red>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Mane's Guard Building Style -->
+  <StyleItemCategoryDef>
+    <defName>ManesGuardBuildingStyle</defName>
+    <label>Mane's Guard architecture</label>
+    <description>Cross-cultural buildings that blend Bosmer forest construction with Khajiit architectural influences, featuring curved lines, warm colors, and designs that honor both traditions.</description>
+    <category>ManesGuardStyle</category>
+    <thingDefStyles>
+      <Wall>ManesGuardWall</Wall>
+      <Door>ManesGuardDoor</Door>
+      <Bed>ManesGuardBed</Bed>
+      <Table2x2c>ManesGuardTable</Table2x2c>
+      <DiningChair>ManesGuardChair</DiningChair>
+      <Shelf>ManesGuardShelf</Shelf>
+      <Dresser>ManesGuardDresser</Dresser>
+      <EndTable>ManesGuardEndTable</EndTable>
+      <PlantPot>ManesGuardPlanter</PlantPot>
+      <Campfire>ManesGuardHearth</Campfire>
+      <TorchLamp>ManesGuardTorch</TorchLamp>
+      <StandingLamp_Red>ManesGuardLamp</StandingLamp_Red>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Woodhearth Building Style -->
+  <StyleItemCategoryDef>
+    <defName>WoodhearthBuildingStyle</defName>
+    <label>Woodhearth architecture</label>
+    <description>Cosmopolitan trading buildings that blend traditional Bosmer construction with foreign architectural influences, creating practical structures suitable for diverse mercantile activities.</description>
+    <category>WoodhearthStyle</category>
+    <thingDefStyles>
+      <Wall>WoodhearthWall</Wall>
+      <Door>WoodhearthDoor</Door>
+      <Bed>WoodhearthBed</Bed>
+      <Table2x2c>WoodhearthTable</Table2x2c>
+      <DiningChair>WoodhearthChair</DiningChair>
+      <Shelf>WoodhearthShelf</Shelf>
+      <Dresser>WoodhearthDresser</Dresser>
+      <EndTable>WoodhearthEndTable</EndTable>
+      <PlantPot>WoodhearthPlanter</PlantPot>
+      <Campfire>WoodhearthHearth</Campfire>
+      <TorchLamp>WoodhearthTorch</TorchLamp>
+      <StandingLamp_Red>WoodhearthLamp</StandingLamp_Red>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Haven Building Style -->
+  <StyleItemCategoryDef>
+    <defName>HavenBuildingStyle</defName>
+    <label>Haven architecture</label>
+    <description>Coastal Bosmer buildings that combine forest construction techniques with maritime influences, featuring wave patterns, weather-resistant materials, and designs suitable for seaside environments.</description>
+    <category>HavenStyle</category>
+    <thingDefStyles>
+      <Wall>HavenWall</Wall>
+      <Door>HavenDoor</Door>
+      <Bed>HavenBed</Bed>
+      <Table2x2c>HavenTable</Table2x2c>
+      <DiningChair>HavenChair</DiningChair>
+      <Shelf>HavenShelf</Shelf>
+      <Dresser>HavenDresser</Dresser>
+      <EndTable>HavenEndTable</EndTable>
+      <PlantPot>HavenPlanter</PlantPot>
+      <Campfire>HavenHearth</Campfire>
+      <TorchLamp>HavenTorch</TorchLamp>
+      <StandingLamp_Red>HavenLamp</StandingLamp_Red>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+</Defs>

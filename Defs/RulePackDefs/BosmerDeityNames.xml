@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Y'ffre Worship Deity Names -->
+  <RulePackDef>
+    <defName>BosmerYffreDeityNames</defName>
+    <include>
+      <li>NamerPersonImperial</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <!-- Main Y'ffre variations -->
+        <li>deity_name->[yffrename] [yffreepithet]</li>
+        <li>deity_name->[yffrename]</li>
+        <li>deity_name->The [forestspirit] [forestepithet]</li>
+        <li>deity_name->[treespirit] [treeepithet]</li>
+
+        <!-- Y'ffre name variations -->
+        <li>yffrename->Y'ffre</li>
+        <li>yffrename->Jephre</li>
+        <li>yffrename->Yffre</li>
+        <li>yffrename->Y'ffer</li>
+
+        <!-- Y'ffre epithets -->
+        <li>yffreepithet->the Forest God</li>
+        <li>yffreepithet->the Storyteller</li>
+        <li>yffreepithet->the Spinner</li>
+        <li>yffreepithet->the Green God</li>
+        <li>yffreepithet->the First Tree</li>
+        <li>yffreepithet->the Song-Keeper</li>
+
+        <!-- Forest spirits -->
+        <li>forestspirit->Green Father</li>
+        <li>forestspirit->Tree Singer</li>
+        <li>forestspirit->Forest Lord</li>
+        <li>forestspirit->Sap Mother</li>
+        <li>forestspirit->Branch Walker</li>
+        <li>forestspirit->Root Speaker</li>
+
+        <!-- Forest epithets -->
+        <li>forestepithet->of the Deep Woods</li>
+        <li>forestepithet->of the Sacred Grove</li>
+        <li>forestepithet->of the Verdant Realm</li>
+        <li>forestepithet->of the Green Pact</li>
+        <li>forestepithet->of the Living Forest</li>
+
+        <!-- Tree spirits -->
+        <li>treespirit->Graht-Oak</li>
+        <li>treespirit->Elder Pine</li>
+        <li>treespirit->Sacred Elm</li>
+        <li>treespirit->Ancient Yew</li>
+        <li>treespirit->Great Birch</li>
+        <li>treespirit->Mother Willow</li>
+
+        <!-- Tree epithets -->
+        <li>treeepithet->the Eternal</li>
+        <li>treeepithet->the Wise</li>
+        <li>treeepithet->the Sheltering</li>
+        <li>treeepithet->the Ancient</li>
+        <li>treeepithet->the Listening</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <!-- Wild Hunt Deity Names -->
+  <RulePackDef>
+    <defName>BosmerWildHuntDeityNames</defName>
+    <include>
+      <li>NamerPersonImperial</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <!-- Main Wild Hunt names -->
+        <li>deity_name->The [wildhunt] [huntepithet]</li>
+        <li>deity_name->[primalspirit] [primalepithet]</li>
+        <li>deity_name->[beastname] [beastepithet]</li>
+        <li>deity_name->The [transformation]</li>
+
+        <!-- Wild Hunt terms -->
+        <li>wildhunt->Wild Hunt</li>
+        <li>wildhunt->Great Hunt</li>
+        <li>wildhunt->Primal Hunt</li>
+        <li>wildhunt->Sacred Hunt</li>
+        <li>wildhunt->Ancient Hunt</li>
+
+        <!-- Hunt epithets -->
+        <li>huntepithet->of Old</li>
+        <li>huntepithet->of the Deep Forest</li>
+        <li>huntepithet->of Transformation</li>
+        <li>huntepithet->of Feral Rage</li>
+        <li>huntepithet->of the Changed</li>
+
+        <!-- Primal spirits -->
+        <li>primalspirit->Howling One</li>
+        <li>primalspirit->Shape-Shifter</li>
+        <li>primalspirit->Feral Lord</li>
+        <li>primalspirit->Wild Mother</li>
+        <li>primalspirit->Beast Caller</li>
+        <li>primalspirit->Pack Leader</li>
+
+        <!-- Primal epithets -->
+        <li>primalepithet->the Untamed</li>
+        <li>primalepithet->the Savage</li>
+        <li>primalepithet->the Changing</li>
+        <li>primalepithet->the Fierce</li>
+        <li>primalepithet->the Wild</li>
+
+        <!-- Beast names -->
+        <li>beastname->Dire Wolf</li>
+        <li>beastname->Great Bear</li>
+        <li>beastname->Shadow Cat</li>
+        <li>beastname->Wild Boar</li>
+        <li>beastname->Giant Stag</li>
+        <li>beastname->Forest Tiger</li>
+        <li>beastname->Primal Lynx</li>
+
+        <!-- Beast epithets -->
+        <li>beastepithet->of the Hunt</li>
+        <li>beastepithet->of the Deep Woods</li>
+        <li>beastepithet->the Eternal</li>
+        <li>beastepithet->the Ancient</li>
+        <li>beastepithet->the Wise</li>
+
+        <!-- Transformations -->
+        <li>transformation->Great Transformation</li>
+        <li>transformation->Sacred Change</li>
+        <li>transformation->Primal Shift</li>
+        <li>transformation->Wild Becoming</li>
+        <li>transformation->Forest Rage</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <!-- Hircine Devotion Deity Names -->
+  <RulePackDef>
+    <defName>BosmerHircineDeityNames</defName>
+    <include>
+      <li>NamerPersonImperial</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <!-- Main Hircine variations -->
+        <li>deity_name->[hircinename] [hircineepithet]</li>
+        <li>deity_name->[hircinename]</li>
+        <li>deity_name->The [huntlord] [huntepithet]</li>
+        <li>deity_name->[huntspirit] [spiritepithet]</li>
+
+        <!-- Hircine name variations -->
+        <li>hircinename->Hircine</li>
+        <li>hircinename->The Huntsman</li>
+        <li>hircinename->The Hunter</li>
+        <li>hircinename->Hunt Father</li>
+
+        <!-- Hircine epithets -->
+        <li>hircineepithet->the Huntsman</li>
+        <li>hircineepithet->the Daedric Prince</li>
+        <li>hircineepithet->Lord of the Hunt</li>
+        <li>hircineepithet->the Stalker</li>
+        <li>hircineepithet->the Great Hunter</li>
+        <li>hircineepithet->the Tracker</li>
+
+        <!-- Hunt lords -->
+        <li>huntlord->Hunt Lord</li>
+        <li>huntlord->Pack Master</li>
+        <li>huntlord->Prey Stalker</li>
+        <li>huntlord->Beast King</li>
+        <li>huntlord->Wild Lord</li>
+
+        <!-- Hunt epithets -->
+        <li>huntepithet->of All Prey</li>
+        <li>huntepithet->of the Eternal Chase</li>
+        <li>huntepithet->of the Perfect Hunt</li>
+        <li>huntepithet->of Blood and Horn</li>
+        <li>huntepithet->of the Wild</li>
+
+        <!-- Hunt spirits -->
+        <li>huntspirit->Great Stag</li>
+        <li>huntspirit->Shadow Wolf</li>
+        <li>huntspirit->Dire Bear</li>
+        <li>huntspirit->Hunting Cat</li>
+        <li>huntspirit->Wild Boar</li>
+        <li>huntspirit->Forest Elk</li>
+
+        <!-- Spirit epithets -->
+        <li>spiritepithet->the Eternal</li>
+        <li>spiritepithet->the Wise</li>
+        <li>spiritepithet->the Swift</li>
+        <li>spiritepithet->the Cunning</li>
+        <li>spiritepithet->the Fierce</li>
+        <li>spiritepithet->the Noble</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

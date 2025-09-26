@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Valenwood Resources - Canon materials from the forests of Valenwood -->
+
+  <!-- Yew Wood - Sacred Bosmer crafting material -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>YewWood</defName>
+    <label>yew wood</label>
+    <description>Sacred wood from the ancient yew trees of Valenwood. This wood is prized by the Bosmer for its strength and flexibility, making it ideal for crafting bows and other precision instruments. It has a distinctive reddish grain and is said to hold natural enchantments.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/WoodLog</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(0.7, 0.4, 0.3)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>3.5</MarketValue>
+      <Mass>0.4</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <stuffProps>
+      <categories>
+        <li>Woody</li>
+      </categories>
+      <appearance>Yew</appearance>
+      <color>(0.7, 0.4, 0.3)</color>
+      <statFactors>
+        <MaxHitPoints>1.2</MaxHitPoints>
+        <SharpDamageMultiplier>1.1</SharpDamageMultiplier>
+        <AccuracyTouch>1.05</AccuracyTouch>
+        <AccuracyShort>1.05</AccuracyShort>
+        <AccuracyMedium>1.05</AccuracyMedium>
+        <AccuracyLong>1.05</AccuracyLong>
+      </statFactors>
+      <statOffsets>
+        <Beauty>1</Beauty>
+      </statOffsets>
+      <commonality>0.1</commonality>
+    </stuffProps>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <burnableByRecipe>true</burnableByRecipe>
+    <smeltable>false</smeltable>
+  </ThingDef>
+
+  <!-- Wild Game Meat - Hunting products -->
+  <ThingDef ParentName="MeatRaw">
+    <defName>WildGameMeat</defName>
+    <label>wild game meat</label>
+    <description>Fresh meat from wild forest animals hunted by Bosmer. This lean, flavorful meat is a staple of Valenwood cuisine and is said to connect the consumer with the natural cycle of the forest.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/MeatRaw</texPath>
+      <color>(0.6, 0.2, 0.2)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.8</MarketValue>
+      <Mass>0.03</Mass>
+      <Nutrition>0.08</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>RawBad</preferability>
+      <tasteThought></tasteThought>
+      <nutrition>0.08</nutrition>
+      <foodType>Meat</foodType>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>RawMeat_Eat</ingestSound>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>2</daysToRotStart>
+        <daysToDessicated>5</daysToDessicated>
+        <dessicatedDamagePerDay>0.7</dessicatedDamagePerDay>
+        <rotDamagePerDay>2.0</rotDamagePerDay>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>MeatRaw</li>
+    </thingCategories>
+  </ThingDef>
+
+  <!-- Forest Herbs - Alchemical ingredients -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>ForestHerbs</defName>
+    <label>forest herbs</label>
+    <description>A collection of medicinal and alchemical herbs gathered from the deep forests of Valenwood. These plants have been used by Bosmer healers for centuries and possess natural restorative properties.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantMatter</texPath>
+      <color>(0.3, 0.6, 0.3)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>4.2</MarketValue>
+      <Mass>0.02</Mass>
+      <Flammability>1.3</Flammability>
+      <DeteriorationRate>6.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+      <nutrition>0.02</nutrition>
+      <foodType>Plant</foodType>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>10</daysToRotStart>
+        <daysToDessicated>25</daysToDessicated>
+        <dessicatedDamagePerDay>0.3</dessicatedDamagePerDay>
+        <rotDamagePerDay>1.0</rotDamagePerDay>
+      </li>
+      <li Class="CompProperties_Drug">
+        <chemical>GoJuice</chemical>
+        <addictiveness>0.0</addictiveness>
+        <minToleranceToAddict>99.0</minToleranceToAddict>
+        <onGeneratedAddictedToleranceChance>0.0</onGeneratedAddictedToleranceChance>
+        <existingAddictionSeverityOffset>0.0</existingAddictionSeverityOffset>
+      </li>
+    </comps>
+    <tradeTags>
+      <li>Medicine</li>
+    </tradeTags>
+  </ThingDef>
+
+  <!-- Tree Sap - Crafting/alchemical resource -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>TreeSap</defName>
+    <label>tree sap</label>
+    <description>Sticky, amber-colored sap tapped from the great trees of Valenwood. This natural resin has adhesive properties and is used by Bosmer crafters for waterproofing, preservation, and as a binding agent in various crafts.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Chemfuel</texPath>
+      <color>(0.8, 0.6, 0.2)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>2.8</MarketValue>
+      <Mass>0.8</Mass>
+      <Flammability>1.2</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>25</stackLimit>
+    <deepCommonality>0</deepCommonality>
+    <burnableByRecipe>true</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <commonality>0.05</commonality>
+      <color>(0.8, 0.6, 0.2)</color>
+      <statFactors>
+        <MaxHitPoints>0.8</MaxHitPoints>
+        <Beauty>1.2</Beauty>
+        <Flammability>1.5</Flammability>
+      </statFactors>
+      <appearance>Smooth</appearance>
+    </stuffProps>
+  </ThingDef>
+
+  <!-- Woven Fibers - Plant-based textiles -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>WovenFibers</defName>
+    <label>woven fibers</label>
+    <description>Textile fibers woven from forest plants and tree bark by skilled Bosmer crafters. These natural fibers are both durable and comfortable, representing the Wood Elves' mastery of plant-based materials in accordance with the Green Pact.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Cloth</texPath>
+      <color>(0.6, 0.5, 0.3)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>2.2</MarketValue>
+      <Mass>0.03</Mass>
+      <Flammability>1.3</Flammability>
+      <DeteriorationRate>4.0</DeteriorationRate>
+    </statBases>
+    <stuffProps>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <commonality>0.1</commonality>
+      <color>(0.6, 0.5, 0.3)</color>
+      <statFactors>
+        <MaxHitPoints>0.9</MaxHitPoints>
+        <Beauty>1.1</Beauty>
+        <Flammability>1.2</Flammability>
+        <ArmorRating_Heat>1.15</ArmorRating_Heat>
+      </statFactors>
+      <statOffsets>
+        <Insulation_Cold>2</Insulation_Cold>
+        <Insulation_Heat>2</Insulation_Heat>
+      </statOffsets>
+      <appearance>Fabric</appearance>
+    </stuffProps>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+    <burnableByRecipe>true</burnableByRecipe>
+    <smeltable>false</smeltable>
+  </ThingDef>
+
+  <!-- Spider Silk - From Forest Spiders -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>SpiderSilk</defName>
+    <label>spider silk</label>
+    <description>Strong, flexible silk harvested from the large forest spiders of Valenwood. This natural fiber is incredibly durable yet lightweight, making it highly prized for crafting fine clothing and specialized equipment.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Cloth</texPath>
+      <color>(0.9, 0.9, 0.8)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <MarketValue>8.5</MarketValue>
+      <Mass>0.025</Mass>
+      <Flammability>0.8</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <stuffProps>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <commonality>0.02</commonality>
+      <color>(0.9, 0.9, 0.8)</color>
+      <statFactors>
+        <MaxHitPoints>1.3</MaxHitPoints>
+        <Beauty>1.4</Beauty>
+        <Flammability>0.7</Flammability>
+        <ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+        <ArmorRating_Blunt>0.9</ArmorRating_Blunt>
+      </statFactors>
+      <statOffsets>
+        <Insulation_Cold>3</Insulation_Cold>
+        <Insulation_Heat>1</Insulation_Heat>
+      </statOffsets>
+      <appearance>Fabric</appearance>
+    </stuffProps>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+    <burnableByRecipe>true</burnableByRecipe>
+    <smeltable>false</smeltable>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Bosmer Apparel Style Mappings -->
+
+  <!-- Tree Dancer Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>TreeDancerApparelStyle</defName>
+    <label>Tree Dancer apparel</label>
+    <description>Flowing, lightweight garments designed for canopy dwelling, crafted from spider silk and woven fibers with leaf patterns and forest camouflage that allows graceful movement through the trees.</description>
+    <category>TreeDancerStyle</category>
+    <thingDefStyles>
+      <Apparel_Pants>TreeDancerLeggings</Apparel_Pants>
+      <Apparel_BasicShirt>TreeDancerTunic</Apparel_BasicShirt>
+      <Apparel_CollarShirt>TreeDancerVest</Apparel_CollarShirt>
+      <Apparel_Duster>TreeDancerCloak</Apparel_Duster>
+      <Apparel_Jacket>TreeDancerJacket</Apparel_Jacket>
+      <Apparel_Parka>TreeDancerRobe</Apparel_Parka>
+      <Apparel_SimpleHelmet>TreeDancerCap</Apparel_SimpleHelmet>
+      <Apparel_AdvancedHelmet>TreeDancerHelm</Apparel_AdvancedHelmet>
+      <Apparel_FlakVest>TreeDancerArmor</Apparel_FlakVest>
+      <Apparel_PlateArmor>TreeDancerPlateArmor</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Wild Hunt Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>WildHuntApparelStyle</defName>
+    <label>Wild Hunt apparel</label>
+    <description>Primal garments made from wild game hide and bone, featuring savage designs with claw marks, fang decorations, and earth tones that reflect the wearer's connection to their feral nature.</description>
+    <category>WildHuntStyle</category>
+    <thingDefStyles>
+      <Apparel_Pants>WildHuntLeggings</Apparel_Pants>
+      <Apparel_BasicShirt>WildHuntTunic</Apparel_BasicShirt>
+      <Apparel_CollarShirt>WildHuntVest</Apparel_CollarShirt>
+      <Apparel_Duster>WildHuntCloak</Apparel_Duster>
+      <Apparel_Jacket>WildHuntJacket</Apparel_Jacket>
+      <Apparel_Parka>WildHuntRobe</Apparel_Parka>
+      <Apparel_SimpleHelmet>WildHuntCap</Apparel_SimpleHelmet>
+      <Apparel_AdvancedHelmet>WildHuntHelm</Apparel_AdvancedHelmet>
+      <Apparel_FlakVest>WildHuntArmor</Apparel_FlakVest>
+      <Apparel_PlateArmor>WildHuntPlateArmor</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Green Pact Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>GreenPactApparelStyle</defName>
+    <label>Green Pact apparel</label>
+    <description>Garments crafted exclusively from animal products and stone in accordance with the Green Pact, featuring leather work, bone ornaments, and natural dyes that honor Y'ffre's covenant.</description>
+    <category>GreenPactStyle</category>
+    <thingDefStyles>
+      <Apparel_Pants>GreenPactLeggings</Apparel_Pants>
+      <Apparel_BasicShirt>GreenPactTunic</Apparel_BasicShirt>
+      <Apparel_CollarShirt>GreenPactVest</Apparel_CollarShirt>
+      <Apparel_Duster>GreenPactCloak</Apparel_Duster>
+      <Apparel_Jacket>GreenPactJacket</Apparel_Jacket>
+      <Apparel_Parka>GreenPactRobe</Apparel_Parka>
+      <Apparel_SimpleHelmet>GreenPactCap</Apparel_SimpleHelmet>
+      <Apparel_AdvancedHelmet>GreenPactHelm</Apparel_AdvancedHelmet>
+      <Apparel_FlakVest>GreenPactArmor</Apparel_FlakVest>
+      <Apparel_PlateArmor>GreenPactPlateArmor</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Silvenar Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>SilvenarApparelStyle</defName>
+    <label>Silvenar apparel</label>
+    <description>Elegant diplomatic clothing featuring sophisticated cuts, subtle enchantments, and refined materials that reflect the wearer's role as a bridge between nature and civilization.</description>
+    <category>SilvenarStyle</category>
+    <thingDefStyles>
+      <Apparel_Pants>SilvenarLeggings</Apparel_Pants>
+      <Apparel_BasicShirt>SilvenarTunic</Apparel_BasicShirt>
+      <Apparel_CollarShirt>SilvenarVest</Apparel_CollarShirt>
+      <Apparel_Duster>SilvenarCloak</Apparel_Duster>
+      <Apparel_Jacket>SilvenarJacket</Apparel_Jacket>
+      <Apparel_Parka>SilvenarRobe</Apparel_Parka>
+      <Apparel_SimpleHelmet>SilvenarCap</Apparel_SimpleHelmet>
+      <Apparel_AdvancedHelmet>SilvenarHelm</Apparel_AdvancedHelmet>
+      <Apparel_FlakVest>SilvenarArmor</Apparel_FlakVest>
+      <Apparel_PlateArmor>SilvenarPlateArmor</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Mane's Guard Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>ManesGuardApparelStyle</defName>
+    <label>Mane's Guard apparel</label>
+    <description>Cross-cultural garments blending Bosmer forest aesthetics with Khajiit influences, featuring curved lines, warm colors, and designs that honor both Wood Elf and cat-folk traditions.</description>
+    <category>ManesGuardStyle</category>
+    <thingDefStyles>
+      <Apparel_Pants>ManesGuardLeggings</Apparel_Pants>
+      <Apparel_BasicShirt>ManesGuardTunic</Apparel_BasicShirt>
+      <Apparel_CollarShirt>ManesGuardVest</Apparel_CollarShirt>
+      <Apparel_Duster>ManesGuardCloak</Apparel_Duster>
+      <Apparel_Jacket>ManesGuardJacket</Apparel_Jacket>
+      <Apparel_Parka>ManesGuardRobe</Apparel_Parka>
+      <Apparel_SimpleHelmet>ManesGuardCap</Apparel_SimpleHelmet>
+      <Apparel_AdvancedHelmet>ManesGuardHelm</Apparel_AdvancedHelmet>
+      <Apparel_FlakVest>ManesGuardArmor</Apparel_FlakVest>
+      <Apparel_PlateArmor>ManesGuardPlateArmor</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Woodhearth Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>WoodhearthApparelStyle</defName>
+    <label>Woodhearth apparel</label>
+    <description>Cosmopolitan merchant clothing that blends traditional Bosmer elements with foreign influences, featuring practical designs suitable for trade and interaction with diverse cultures.</description>
+    <category>WoodhearthStyle</category>
+    <thingDefStyles>
+      <Apparel_Pants>WoodhearthLeggings</Apparel_Pants>
+      <Apparel_BasicShirt>WoodhearthTunic</Apparel_BasicShirt>
+      <Apparel_CollarShirt>WoodhearthVest</Apparel_CollarShirt>
+      <Apparel_Duster>WoodhearthCloak</Apparel_Duster>
+      <Apparel_Jacket>WoodhearthJacket</Apparel_Jacket>
+      <Apparel_Parka>WoodhearthRobe</Apparel_Parka>
+      <Apparel_SimpleHelmet>WoodhearthCap</Apparel_SimpleHelmet>
+      <Apparel_AdvancedHelmet>WoodhearthHelm</Apparel_AdvancedHelmet>
+      <Apparel_FlakVest>WoodhearthArmor</Apparel_FlakVest>
+      <Apparel_PlateArmor>WoodhearthPlateArmor</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Haven Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>HavenApparelStyle</defName>
+    <label>Haven apparel</label>
+    <description>Coastal Bosmer clothing that combines forest traditions with maritime influences, featuring wave patterns, blue-green colors, and designs suitable for both woodland and waterside environments.</description>
+    <category>HavenStyle</category>
+    <thingDefStyles>
+      <Apparel_Pants>HavenLeggings</Apparel_Pants>
+      <Apparel_BasicShirt>HavenTunic</Apparel_BasicShirt>
+      <Apparel_CollarShirt>HavenVest</Apparel_CollarShirt>
+      <Apparel_Duster>HavenCloak</Apparel_Duster>
+      <Apparel_Jacket>HavenJacket</Apparel_Jacket>
+      <Apparel_Parka>HavenRobe</Apparel_Parka>
+      <Apparel_SimpleHelmet>HavenCap</Apparel_SimpleHelmet>
+      <Apparel_AdvancedHelmet>HavenHelm</Apparel_AdvancedHelmet>
+      <Apparel_FlakVest>HavenArmor</Apparel_FlakVest>
+      <Apparel_PlateArmor>HavenPlateArmor</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+</Defs>

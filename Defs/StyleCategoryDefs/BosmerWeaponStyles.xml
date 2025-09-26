@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Bosmer Weapon Style Mappings -->
+
+  <!-- Tree Dancer Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>TreeDancerWeaponStyle</defName>
+    <label>Tree Dancer weapons</label>
+    <description>Lightweight, gracefully curved weapons designed for canopy combat, crafted from yew wood and featuring organic lines, leaf patterns, and perfect balance for aerial maneuvers.</description>
+    <category>TreeDancerStyle</category>
+    <thingDefStyles>
+      <Bow_Short>TreeDancerShortBow</Bow_Short>
+      <Bow_Recurve>TreeDancerRecurveBow</Bow_Recurve>
+      <Bow_Great>TreeDancerGreatBow</Bow_Great>
+      <MeleeWeapon_Knife>TreeDancerDagger</MeleeWeapon_Knife>
+      <MeleeWeapon_Gladius>TreeDancerSword</MeleeWeapon_Gladius>
+      <MeleeWeapon_LongSword>TreeDancerLongSword</MeleeWeapon_LongSword>
+      <MeleeWeapon_Spear>TreeDancerSpear</MeleeWeapon_Spear>
+      <MeleeWeapon_Mace>TreeDancerClub</MeleeWeapon_Mace>
+      <MeleeWeapon_Club>TreeDancerWarClub</MeleeWeapon_Club>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Wild Hunt Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>WildHuntWeaponStyle</defName>
+    <label>Wild Hunt weapons</label>
+    <description>Savage weapons crafted from bone, antler, and wild game materials, featuring jagged edges, claw-like designs, and primal decorations that channel the fury of the Hunt.</description>
+    <category>WildHuntStyle</category>
+    <thingDefStyles>
+      <Bow_Short>WildHuntShortBow</Bow_Short>
+      <Bow_Recurve>WildHuntRecurveBow</Bow_Recurve>
+      <Bow_Great>WildHuntGreatBow</Bow_Great>
+      <MeleeWeapon_Knife>WildHuntDagger</MeleeWeapon_Knife>
+      <MeleeWeapon_Gladius>WildHuntSword</MeleeWeapon_Gladius>
+      <MeleeWeapon_LongSword>WildHuntLongSword</MeleeWeapon_LongSword>
+      <MeleeWeapon_Spear>WildHuntSpear</MeleeWeapon_Spear>
+      <MeleeWeapon_Mace>WildHuntClub</MeleeWeapon_Mace>
+      <MeleeWeapon_Club>WildHuntWarClub</MeleeWeapon_Club>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Green Pact Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>GreenPactWeaponStyle</defName>
+    <label>Green Pact weapons</label>
+    <description>Weapons crafted exclusively from animal products, bone, antler, and stone in strict adherence to the Green Pact, featuring natural forms and earth-tone decorations that honor Y'ffre's covenant.</description>
+    <category>GreenPactStyle</category>
+    <thingDefStyles>
+      <Bow_Short>GreenPactShortBow</Bow_Short>
+      <Bow_Recurve>GreenPactRecurveBow</Bow_Recurve>
+      <Bow_Great>GreenPactGreatBow</Bow_Great>
+      <MeleeWeapon_Knife>GreenPactDagger</MeleeWeapon_Knife>
+      <MeleeWeapon_Gladius>GreenPactSword</MeleeWeapon_Gladius>
+      <MeleeWeapon_LongSword>GreenPactLongSword</MeleeWeapon_LongSword>
+      <MeleeWeapon_Spear>GreenPactSpear</MeleeWeapon_Spear>
+      <MeleeWeapon_Mace>GreenPactClub</MeleeWeapon_Mace>
+      <MeleeWeapon_Club>GreenPactWarClub</MeleeWeapon_Club>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Silvenar Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>SilvenarWeaponStyle</defName>
+    <label>Silvenar weapons</label>
+    <description>Elegant ceremonial weapons befitting diplomatic tree-speakers, featuring sophisticated craftsmanship, subtle enchantments, and refined decorations suitable for both combat and ceremony.</description>
+    <category>SilvenarStyle</category>
+    <thingDefStyles>
+      <Bow_Short>SilvenarShortBow</Bow_Short>
+      <Bow_Recurve>SilvenarRecurveBow</Bow_Recurve>
+      <Bow_Great>SilvenarGreatBow</Bow_Great>
+      <MeleeWeapon_Knife>SilvenarDagger</MeleeWeapon_Knife>
+      <MeleeWeapon_Gladius>SilvenarSword</MeleeWeapon_Gladius>
+      <MeleeWeapon_LongSword>SilvenarLongSword</MeleeWeapon_LongSword>
+      <MeleeWeapon_Spear>SilvenarSpear</MeleeWeapon_Spear>
+      <MeleeWeapon_Mace>SilvenarClub</MeleeWeapon_Mace>
+      <MeleeWeapon_Club>SilvenarWarClub</MeleeWeapon_Club>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Mane's Guard Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>ManesGuardWeaponStyle</defName>
+    <label>Mane's Guard weapons</label>
+    <description>Cross-cultural weapons blending Bosmer archery traditions with Khajiit curved blade techniques, featuring unique hybrid designs that reflect the bond between Wood Elves and cat-folk.</description>
+    <category>ManesGuardStyle</category>
+    <thingDefStyles>
+      <Bow_Short>ManesGuardShortBow</Bow_Short>
+      <Bow_Recurve>ManesGuardRecurveBow</Bow_Recurve>
+      <Bow_Great>ManesGuardGreatBow</Bow_Great>
+      <MeleeWeapon_Knife>ManesGuardDagger</MeleeWeapon_Knife>
+      <MeleeWeapon_Gladius>ManesGuardSword</MeleeWeapon_Gladius>
+      <MeleeWeapon_LongSword>ManesGuardLongSword</MeleeWeapon_LongSword>
+      <MeleeWeapon_Spear>ManesGuardSpear</MeleeWeapon_Spear>
+      <MeleeWeapon_Mace>ManesGuardClub</MeleeWeapon_Mace>
+      <MeleeWeapon_Club>ManesGuardWarClub</MeleeWeapon_Club>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Woodhearth Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>WoodhearthWeaponStyle</defName>
+    <label>Woodhearth weapons</label>
+    <description>Practical trading weapons that blend traditional Bosmer craftsmanship with foreign influences, designed for both protection and commerce in a cosmopolitan environment.</description>
+    <category>WoodhearthStyle</category>
+    <thingDefStyles>
+      <Bow_Short>WoodhearthShortBow</Bow_Short>
+      <Bow_Recurve>WoodhearthRecurveBow</Bow_Recurve>
+      <Bow_Great>WoodhearthGreatBow</Bow_Great>
+      <MeleeWeapon_Knife>WoodhearthDagger</MeleeWeapon_Knife>
+      <MeleeWeapon_Gladius>WoodhearthSword</MeleeWeapon_Gladius>
+      <MeleeWeapon_LongSword>WoodhearthLongSword</MeleeWeapon_LongSword>
+      <MeleeWeapon_Spear>WoodhearthSpear</MeleeWeapon_Spear>
+      <MeleeWeapon_Mace>WoodhearthClub</MeleeWeapon_Mace>
+      <MeleeWeapon_Club>WoodhearthWarClub</MeleeWeapon_Club>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Haven Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>HavenWeaponStyle</defName>
+    <label>Haven weapons</label>
+    <description>Coastal Bosmer weapons that adapt forest hunting traditions to maritime environments, featuring wave patterns, corrosion-resistant materials, and designs suitable for both land and sea.</description>
+    <category>HavenStyle</category>
+    <thingDefStyles>
+      <Bow_Short>HavenShortBow</Bow_Short>
+      <Bow_Recurve>HavenRecurveBow</Bow_Recurve>
+      <Bow_Great>HavenGreatBow</Bow_Great>
+      <MeleeWeapon_Knife>HavenDagger</MeleeWeapon_Knife>
+      <MeleeWeapon_Gladius>HavenSword</MeleeWeapon_Gladius>
+      <MeleeWeapon_LongSword>HavenLongSword</MeleeWeapon_LongSword>
+      <MeleeWeapon_Spear>HavenSpear</MeleeWeapon_Spear>
+      <MeleeWeapon_Mace>HavenClub</MeleeWeapon_Mace>
+      <MeleeWeapon_Club>HavenWarClub</MeleeWeapon_Club>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+</Defs>
