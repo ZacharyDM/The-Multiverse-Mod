@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Anequinan Building Style -->
+  <StyleItemCategoryDef>
+    <defName>Anequinan_Buildings</defName>
+    <label>Anequinan architecture</label>
+    <description>Traditional architecture of northern Elsweyr's desert settlements, featuring practical designs adapted for harsh climates and nomadic lifestyles.</description>
+    <styleTags>
+      <li>Anequinan</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Things/Building/Linked/Khajiit/Anequinan/AnequinanWall</Wall>
+      <Door>Things/Building/Door/Khajiit/Anequinan/AnequinanDoor</Door>
+      <Bed>Things/Building/Furniture/Khajiit/Anequinan/AnequinanBed</Bed>
+      <Table2x2c>Things/Building/Furniture/Khajiit/Anequinan/AnequinanTable</Table2x2c>
+      <DiningChair>Things/Building/Furniture/Khajiit/Anequinan/AnequinanChair</DiningChair>
+      <Sarcophagus>Things/Building/Furniture/Khajiit/Anequinan/AnequinanSarcophagus</Sarcophagus>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Pellitine Building Style -->
+  <StyleItemCategoryDef>
+    <defName>Pellitine_Buildings</defName>
+    <label>Pellitine architecture</label>
+    <description>Elegant architecture of southern Elsweyr's prosperous cities, featuring refined designs that showcase the wealth and sophistication of river valley merchants.</description>
+    <styleTags>
+      <li>Pellitine</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Things/Building/Linked/Khajiit/Pellitine/PellitineWall</Wall>
+      <Door>Things/Building/Door/Khajiit/Pellitine/PellitieDoor</Door>
+      <Bed>Things/Building/Furniture/Khajiit/Pellitine/PellitieBed</Bed>
+      <Table2x2c>Things/Building/Furniture/Khajiit/Pellitine/PellitineTable</Table2x2c>
+      <DiningChair>Things/Building/Furniture/Khajiit/Pellitine/PellitineChair</DiningChair>
+      <Sarcophagus>Things/Building/Furniture/Khajiit/Pellitine/PellitieSarcophagus</Sarcophagus>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+</Defs>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Anequinan Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>Anequinan_Weapons</defName>
+    <label>Anequinan weapons</label>
+    <description>Traditional weapons of northern Elsweyr's warrior tribes, crafted for survival in the harsh badlands and reflecting the martial culture of desert nomads.</description>
+    <styleTags>
+      <li>Anequinan</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_Knife>Things/Item/Equipment/WeaponMelee/Khajiit/Anequinan/AnequinanKnife</MeleeWeapon_Knife>
+      <MeleeWeapon_Gladius>Things/Item/Equipment/WeaponMelee/Khajiit/Anequinan/AnequinanSword</MeleeWeapon_Gladius>
+      <MeleeWeapon_LongSword>Things/Item/Equipment/WeaponMelee/Khajiit/Anequinan/AnequinanLongSword</MeleeWeapon_LongSword>
+      <MeleeWeapon_Spear>Things/Item/Equipment/WeaponMelee/Khajiit/Anequinan/AnequinanSpear</MeleeWeapon_Spear>
+      <Bow_Short>Things/Item/Equipment/WeaponRanged/Khajiit/Anequinan/AnequinanBow</Bow_Short>
+      <Pila>Things/Item/Equipment/WeaponRanged/Khajiit/Anequinan/AnequinanJavelin</Pila>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Pellitine Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>Pellitine_Weapons</defName>
+    <label>Pellitine weapons</label>
+    <description>Refined weapons of southern Elsweyr's merchant cities, featuring elegant craftsmanship and decorative elements that display both wealth and martial skill.</description>
+    <styleTags>
+      <li>Pellitine</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_Knife>Things/Item/Equipment/WeaponMelee/Khajiit/Pellitine/PellitineKnife</MeleeWeapon_Knife>
+      <MeleeWeapon_Gladius>Things/Item/Equipment/WeaponMelee/Khajiit/Pellitine/PellitieSword</MeleeWeapon_Gladius>
+      <MeleeWeapon_LongSword>Things/Item/Equipment/WeaponMelee/Khajiit/Pellitine/PellitineLongSword</MeleeWeapon_LongSword>
+      <MeleeWeapon_Spear>Things/Item/Equipment/WeaponMelee/Khajiit/Pellitine/PellitineSpear</MeleeWeapon_Spear>
+      <Bow_Short>Things/Item/Equipment/WeaponRanged/Khajiit/Pellitine/PellitieBow</Bow_Short>
+      <Pila>Things/Item/Equipment/WeaponRanged/Khajiit/Pellitine/PellitineJavelin</Pila>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+</Defs>
