@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Bosmer Religious Precepts -->
+
+  <!-- Y'ffre Worship Precepts -->
+  <PreceptDef>
+    <defName>GreenPactObservance</defName>
+    <label>Green Pact observance</label>
+    <description>Followers of Y'ffre must honor the Green Pact by never harming plant life within Valenwood and living in harmony with nature.</description>
+    <issue>GreenPactObservance</issue>
+    <impact>Medium</impact>
+    <displayOrderInIssue>100</displayOrderInIssue>
+    <displayOrderInImpact>1000</displayOrderInImpact>
+    <defaultSelectionWeight>1.0</defaultSelectionWeight>
+    <conflictingMemes>
+      <li>Transhumanist</li>
+      <li>HumanPrimacy</li>
+    </conflictingMemes>
+    <associatedMemes>
+      <li>YffreWorship</li>
+    </associatedMemes>
+    <comps>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <eventDef>HarmedPlant</eventDef>
+        <thought>HarmedPlant_Guilt</thought>
+        <description>I violated the Green Pact by harming plant life.</description>
+      </li>
+      <li Class="PreceptComp_KnowsMemoryThought">
+        <eventDef>HelpedAnimal</eventDef>
+        <thought>HelpedAnimal_Satisfaction</thought>
+        <description>I helped an animal, honoring the natural balance.</description>
+      </li>
+    </comps>
+  </PreceptDef>
+
+  <!-- Wild Hunt Precepts -->
+  <PreceptDef>
+    <defName>WildTransformation</defName>
+    <label>wild transformation</label>
+    <description>The Wild Hunt represents the ultimate expression of Bosmer nature - the ability to shed civilization and become one with the primal forest.</description>
+    <issue>WildTransformation</issue>
+    <impact>High</impact>
+    <displayOrderInIssue>100</displayOrderInIssue>
+    <displayOrderInImpact>1000</displayOrderInImpact>
+    <defaultSelectionWeight>1.0</defaultSelectionWeight>
+    <conflictingMemes>
+      <li>Transhumanist</li>
+      <li>Collectivist</li>
+    </conflictingMemes>
+    <associatedMemes>
+      <li>WildHuntCult</li>
+    </associatedMemes>
+    <comps>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <eventDef>KilledPredator</eventDef>
+        <thought>KilledPredator_Satisfaction</thought>
+        <description>I proved my dominance over a fierce predator.</description>
+      </li>
+      <li Class="PreceptComp_KnowsMemoryThought">
+        <eventDef>FledFromPredator</eventDef>
+        <thought>FledFromPredator_Shame</thought>
+        <description>I fled like prey instead of embracing the hunt.</description>
+      </li>
+    </comps>
+  </PreceptDef>
+
+  <!-- Hircine Devotion Precepts -->
+  <PreceptDef>
+    <defName>HuntMastery</defName>
+    <label>hunt mastery</label>
+    <description>Hircine demands that his followers perfect their hunting skills and show respect for worthy prey through honorable combat.</description>
+    <issue>HuntMastery</issue>
+    <impact>Medium</impact>
+    <displayOrderInIssue>100</displayOrderInIssue>
+    <displayOrderInImpact>1000</displayOrderInImpact>
+    <defaultSelectionWeight>1.0</defaultSelectionWeight>
+    <conflictingMemes>
+      <li>Pacifist</li>
+      <li>AnimalPersonhood</li>
+    </conflictingMemes>
+    <associatedMemes>
+      <li>HircineDevotionBosmer</li>
+    </associatedMemes>
+    <comps>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <eventDef>HuntedSuccessfully</eventDef>
+        <thought>HuntedSuccessfully_Satisfaction</thought>
+        <description>I proved my worth as a hunter in Hircine's eyes.</description>
+      </li>
+      <li Class="PreceptComp_KnowsMemoryThought">
+        <eventDef>FailedHunt</eventDef>
+        <thought>FailedHunt_Disappointment</thought>
+        <description>I failed to prove myself worthy of the hunt.</description>
+      </li>
+    </comps>
+  </PreceptDef>
+
+  <!-- Forest Protection Precept -->
+  <PreceptDef>
+    <defName>ForestProtection</defName>
+    <label>forest protection</label>
+    <description>The forest is sacred and must be protected from those who would harm or exploit it. All Bosmer have a duty to defend their woodland home.</description>
+    <issue>ForestProtection</issue>
+    <impact>Medium</impact>
+    <displayOrderInIssue>100</displayOrderInIssue>
+    <displayOrderInImpact>1000</displayOrderInImpact>
+    <defaultSelectionWeight>1.0</defaultSelectionWeight>
+    <conflictingMemes>
+      <li>HumanPrimacy</li>
+      <li>Supremacist</li>
+    </conflictingMemes>
+    <associatedMemes>
+      <li>YffreWorship</li>
+      <li>WildHuntCult</li>
+    </associatedMemes>
+    <comps>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <eventDef>DefendedForest</eventDef>
+        <thought>DefendedForest_Pride</thought>
+        <description>I protected the sacred forest from harm.</description>
+      </li>
+      <li Class="PreceptComp_KnowsMemoryThought">
+        <eventDef>ForestDestroyed</eventDef>
+        <thought>ForestDestroyed_Grief</thought>
+        <description>Sacred forest lands were destroyed on my watch.</description>
+      </li>
+    </comps>
+  </PreceptDef>
+
+</Defs>
