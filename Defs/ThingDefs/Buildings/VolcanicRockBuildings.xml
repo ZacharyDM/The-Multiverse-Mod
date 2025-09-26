@@ -129,4 +129,74 @@
     </statBases>
   </ThingDef>
 
+  <!-- Orichalcum Wall -->
+  <ThingDef ParentName="WallBase">
+    <defName>WallOrichalcum</defName>
+    <label>orichalcum wall</label>
+    <description>A wall carved from solid orichalcum. The sacred golden metal radiates divine beauty and provides exceptional protection. These walls are reserved for the most sacred structures in Orsimer culture.</description>
+    <graphicData>
+      <texPath>Things/Building/Wall_Orichalcum</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>750</MaxHitPoints>
+      <Beauty>25</Beauty>
+      <WorkToBuild>850</WorkToBuild>
+    </statBases>
+    <costList>
+      <BlocksOrichalcum>3</BlocksOrichalcum>
+    </costList>
+    <damageMultipliers>
+      <li>
+        <damageDef>Bomb</damageDef>
+        <multiplier>0.3</multiplier>
+      </li>
+      <li>
+        <damageDef>Mining</damageDef>
+        <multiplier>0.3</multiplier>
+      </li>
+    </damageMultipliers>
+  </ThingDef>
+
+  <!-- Orichalcum Blocks -->
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksOrichalcum</defName>
+    <label>orichalcum blocks</label>
+    <description>Carefully cut blocks of sacred orichalcum. These legendary golden blocks are the finest building material known to the Orsimer, reserved for their most important structures.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/BlocksOrichalcum/BlocksOrichalcum</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>20</Beauty>
+      <MarketValue>80</MarketValue>
+    </statBases>
+    <stuffProps>
+      <categories>
+        <li>Stony</li>
+      </categories>
+      <appearance>Smooth</appearance>
+      <statOffsets>
+        <Beauty>8</Beauty>
+      </statOffsets>
+      <statFactors>
+        <Beauty>4.0</Beauty>
+        <MarketValue>8.0</MarketValue>
+        <MaxHitPoints>2.5</MaxHitPoints>
+      </statFactors>
+      <color>(255,215,100)</color>
+    </stuffProps>
+  </ThingDef>
+
+  <!-- Smoothed Orichalcum -->
+  <ThingDef ParentName="SmoothedWallBase">
+    <defName>SmoothedOrichalcum</defName>
+    <label>smoothed orichalcum</label>
+    <description>Natural orichalcum wall that has been smoothed to a flat, even surface. The sacred metal gleams with divine radiance.</description>
+    <graphicData>
+      <texPath>Things/Building/Natural/SmoothWall_Orichalcum</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>25</Beauty>
+    </statBases>
+  </ThingDef>
+
 </Defs>

@@ -46,4 +46,27 @@
     <filthLeaving>RockRubble</filthLeaving>
   </ThingDef>
 
+  <!-- Orichalcum Deposit - Legendary Rare Mineable -->
+  <ThingDef ParentName="MineableBase">
+    <defName>MineableOrichalcum</defName>
+    <label>orichalcum vein</label>
+    <description>An impossibly rare vein of orichalcum, the legendary metal sacred to Malacath. These veins are said to appear only in the deepest mountain reaches, where the divine forge of the Daedric Prince once touched the world. The metal glows with golden light and requires exceptional skill and sacred knowledge to extract properly.</description>
+    <graphicData>
+      <texPath>Things/Building/Natural/RockDeposit_Orichalcum</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1200</MaxHitPoints>
+    </statBases>
+    <building>
+      <mineableThing>Orichalcum</mineableThing>
+      <mineableYield>3</mineableYield>
+      <mineableNonMinedEffecter>MineStrike_NonMineral</mineableNonMinedEffecter>
+      <mineableDropChance>0.4</mineableDropChance>
+      <mineableYieldWasteable>false</mineableYieldWasteable>
+    </building>
+    <filthLeaving>RockRubble</filthLeaving>
+  </ThingDef>
+
 </Defs>

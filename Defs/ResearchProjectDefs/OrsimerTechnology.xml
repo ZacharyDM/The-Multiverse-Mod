@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Basic Orsimer Sacred Metallurgy -->
+  <ResearchProjectDef>
+    <defName>OrsimerSacredMetallurgy</defName>
+    <label>Orsimer Sacred Metallurgy</label>
+    <description>Learn the ancient sacred metallurgical techniques of the Orsimer strongholds. These closely guarded secrets, blessed by Malacath himself, are necessary to work with orichalcum, the legendary metal of the Orcs. This knowledge can only be obtained through establishing deep trust with Orsimer factions and completing sacred trials. Unlocks the ability to process orichalcum into workable ingots.</description>
+    <baseCost>5000</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites>
+    <tab>Main</tab>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>3.50</researchViewY>
+    <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
+    <hideWhenCompleted>false</hideWhenCompleted>
+  </ResearchProjectDef>
+
+  <!-- Advanced Orsimer Crafting -->
+  <ResearchProjectDef>
+    <defName>OrsimerMasterCrafting</defName>
+    <label>Orsimer Master Crafting</label>
+    <description>Master the advanced crafting techniques used by the greatest Orsimer smiths to create legendary equipment from orichalcum. These techniques represent centuries of accumulated knowledge passed down through the stronghold bloodlines. Unlocks advanced orichalcum working and the creation of items that rival the weapons of the gods.</description>
+    <baseCost>7500</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>OrsimerSacredMetallurgy</li>
+      <li>ComplexClothing</li>
+    </prerequisites>
+    <tab>Main</tab>
+    <researchViewX>5.50</researchViewX>
+    <researchViewY>3.50</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <hideWhenCompleted>false</hideWhenCompleted>
+  </ResearchProjectDef>
+
+</Defs>

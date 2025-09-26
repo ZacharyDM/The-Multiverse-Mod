@@ -43,4 +43,26 @@
     </biomeWeights>
   </RockTypeDef>
 
+  <!-- Orichalcum Rock Type -->
+  <RockTypeDef>
+    <defName>OrichalcumRock</defName>
+    <label>orichalcum</label>
+    <description>Legendary orichalcum veins that form only in the most sacred mountain depths.</description>
+    <soundMelee>MeleeHit_Stone</soundMelee>
+    <soundShatter>BuildingDestroyed_Stone_Small</soundShatter>
+    <color>(255, 215, 100)</color>
+    <naturalRock>MineableOrichalcum</naturalRock>
+    <buildingMadeOfThis>WallOrichalcum</buildingMadeOfThis>
+    <blocksMadeOfThis>BlocksOrichalcum</blocksMadeOfThis>
+    <SmoothedThing>SmoothedOrichalcum</SmoothedThing>
+    <isTransparent>false</isTransparent>
+    <isSmoothed>false</isSmoothed>
+    <allowBiomedFormation>true</allowBiomedFormation>
+    <biomeWeights>
+      <ExtremeDesert>0.001</ExtremeDesert>
+      <Ashlands>0.001</Ashlands>
+      <MolagAmur>0.0005</MolagAmur>
+    </biomeWeights>
+  </RockTypeDef>
+
 </Defs>

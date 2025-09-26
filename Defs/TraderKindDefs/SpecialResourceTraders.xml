@@ -60,6 +60,10 @@
         <thingDef>Ebony</thingDef>
         <totalPriceRange>700~1800</totalPriceRange>
       </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Orichalcum</thingDef>
+        <totalPriceRange>1200~3000</totalPriceRange>
+      </li>
       <li Class="StockGenerator_Category">
         <categoryDef>Metallic</categoryDef>
         <thingDefCountRange>4~10</thingDefCountRange>
