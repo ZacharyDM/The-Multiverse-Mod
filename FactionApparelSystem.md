@@ -4,7 +4,7 @@ This documentation covers the comprehensive faction-specific apparel system adde
 
 ## Overview
 
-The apparel system adds **18+ unique apparel items** and **8 comprehensive style systems** across multiple faction categories:
+The apparel system adds **18+ unique apparel items** and **12 comprehensive style systems** across multiple faction categories:
 
 ### Tribunal Temple Orders (7 items)
 - **Order of the Watch Armor** - Blue and gold armor for temple guardians
@@ -24,6 +24,12 @@ The apparel system adds **18+ unique apparel items** and **8 comprehensive style
 - **Ulath Style** - Stealth-focused styling with dark, concealed designs
 - **Vereansu Style** - Ancestral spirit-connected aesthetics with otherworldly energy
 - **Mabrigash Style** - Matriarchal mystical warrior styling with enchanted patterns
+
+### Human Races (4 style categories)
+- **Imperial Style** - Diplomatic Legion aesthetics with red and gold organized military designs
+- **Breton Style** - Scholarly magic-resistant designs with blue and silver academic/knightly elements
+- **Nord Style** - Hardy warrior aesthetics with grey and blue practical Nordic patterns
+- **Redguard Style** - Desert warrior designs with brown and bronze curved weapon influences
 
 ### Great Houses (8 items)
 - **Bonemould Armor** - Base traditional Dunmer armor crafted from creature shells and bones
@@ -58,10 +64,10 @@ Each apparel item provides appropriate stat bonuses reflecting the faction's cha
 - **Specialized Gear**: Various fabric/leather combinations
 
 ### Style System Features
-The Ashlander clans now use RimWorld's style system, providing:
-- **Comprehensive Visual Identity**: Each clan has consistent styling across apparel, weapons, and buildings
+The Ashlander clans and human races now use RimWorld's style system, providing:
+- **Comprehensive Visual Identity**: Each faction has consistent styling across apparel, weapons, and buildings
 - **Flexible Application**: Styles apply to multiple item types rather than unique single items
-- **Enhanced Immersion**: Complete aesthetic coherence for each clan's settlements and equipment
+- **Enhanced Immersion**: Complete aesthetic coherence for each faction's settlements and equipment
 - **Expanded Coverage**: Styles extend beyond apparel to include weapons and architecture
 
 ### Tech Level Integration
@@ -86,19 +92,30 @@ Defs/StyleCategoryDefs/
 ├── AshlanderStyles.xml         # 8 Ashlander clan style categories
 ├── AshlanderApparelStyles.xml  # Apparel styles for all 8 clans
 ├── AshlanderWeaponStyles.xml   # Weapon styles for all 8 clans
-└── AshlanderBuildingStyles.xml # Building styles for all 8 clans
+├── AshlanderBuildingStyles.xml # Building styles for all 8 clans
+├── HumanRacialStyles.xml       # 4 human race style categories
+├── HumanRacialApparelStyles.xml # Apparel styles for all 4 human races
+├── HumanRacialWeaponStyles.xml # Weapon styles for all 4 human races
+└── HumanRacialBuildingStyles.xml # Building styles for all 4 human races
 
 Textures/Things/Pawn/Humanlike/Apparel/
 ├── TribunalTemple/            # Temple order textures
 ├── Ashlanders/               # Ashlander clan style textures
 ├── GreatHouses/              # Great House textures
-└── HouseDagoth/              # House Dagoth corpus textures
+├── HouseDagoth/              # House Dagoth corpus textures
+└── HumanRaces/               # Human race style textures
+    ├── Imperial/             # Imperial Legion aesthetics
+    ├── Breton/               # Breton scholarly-knightly style
+    ├── Nord/                 # Nord hardy warrior style
+    └── Redguard/             # Redguard desert warrior style
 
-Textures/Item/Equipment/WeaponMelee/Ashlander/
-└── [ClanName]/               # Weapon textures for each clan
+Textures/Item/Equipment/WeaponMelee/
+├── Ashlander/[ClanName]/     # Weapon textures for each clan
+└── HumanRaces/[RaceName]/    # Weapon textures for each human race
 
-Textures/Building/
-└── Ashlander/[ClanName]/     # Building textures for each clan
+Textures/Building/[Type]/
+├── Ashlander/[ClanName]/     # Building textures for each clan
+└── HumanRaces/[RaceName]/    # Building textures for each human race
 ```
 
 ## Integration Notes
