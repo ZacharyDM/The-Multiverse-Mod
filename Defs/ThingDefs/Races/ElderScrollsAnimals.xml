@@ -1407,4 +1407,170 @@
     </race>
   </ThingDef>
 
+  <!-- Silt Strider: Giant transport arthropod -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>SiltStrider</defName>
+    <label>silt strider</label>
+    <description>A massive arthropod native to Morrowind, used by the Dunmer as a living transport system. These gentle giants can carry heavy loads and multiple passengers across great distances with their powerful legs. Their docile nature and incredible endurance make them invaluable for long-distance travel and trade.</description>
+    <statBases>
+      <MoveSpeed>4.8</MoveSpeed>
+      <MarketValue>1200</MarketValue>
+      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+      <FilthRate>10</FilthRate>
+    </statBases>
+    <tools>
+      <li>
+        <label>mandibles</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>3.0</cooldownTime>
+        <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+      <li>
+        <label>legs</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2.5</cooldownTime>
+        <linkedBodyPartsGroup>Legs</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>BeetleLike</body>
+      <predator>false</predator>
+      <petness>0.8</petness>
+      <baseBodySize>3.0</baseBodySize>
+      <baseHungerRate>0.50</baseHungerRate>
+      <baseHealthScale>2.5</baseHealthScale>
+      <foodType>VegetarianRoughAnimal</foodType>
+      <leatherDef>Leather_Thick</leatherDef>
+      <wildness>0.10</wildness>
+      <manhunterOnTameFailChance>0.01</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.05</manhunterOnDamageChance>
+      <lifeExpectancy>50</lifeExpectancy>
+      <mateMtbHours>8760</mateMtbHours>
+      <maturityAge>8.0</maturityAge>
+      <trainability>Advanced</trainability>
+      <packAnimal>true</packAnimal>
+      <gestationPeriodDays>365</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(2, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>2.0</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>8.0</minAge>
+          <soundWounded>Pawn_Megaspider_Wounded</soundWounded>
+          <soundDeath>Pawn_Megaspider_Death</soundDeath>
+          <soundCall>Pawn_Megaspider_Call</soundCall>
+          <soundAngry>Pawn_Megaspider_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+  <!-- Bull Netch: Large floating gas-filled creature -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>BullNetch</defName>
+    <label>bull netch</label>
+    <description>A massive, floating creature that drifts through Morrowind's skies using internal gas bladders. Bull netch are the larger, more aggressive males of the species, capable of powerful electrical attacks and territorial behavior.</description>
+    <statBases>
+      <MoveSpeed>4.5</MoveSpeed>
+      <MarketValue>800</MarketValue>
+      <ComfyTemperatureMin>0</ComfyTemperatureMin>
+      <ComfyTemperatureMax>55</ComfyTemperatureMax>
+      <FilthRate>12</FilthRate>
+    </statBases>
+    <tools>
+      <li>
+        <label>shock tentacles</label>
+        <capacities>
+          <li>Electric</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>3.0</cooldownTime>
+        <linkedBodyPartsGroup>TentacleAttackTool</linkedBodyPartsGroup>
+        <chanceFactor>0.6</chanceFactor>
+      </li>
+      <li>
+        <label>ram</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>3.5</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+    </tools>
+    <race>
+      <body>BirdLike</body>
+      <predator>false</predator>
+      <petness>0.05</petness>
+      <baseBodySize>2.5</baseBodySize>
+      <baseHungerRate>0.6</baseHungerRate>
+      <baseHealthScale>2.0</baseHealthScale>
+      <foodType>VegetarianRoughAnimal</foodType>
+      <leatherDef>NetchLeather</leatherDef>
+      <wildness>0.95</wildness>
+      <manhunterOnTameFailChance>0.3</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.7</manhunterOnDamageChance>
+      <canFly>true</canFly>
+      <lifeExpectancy>25</lifeExpectancy>
+      <mateMtbHours>8760</mateMtbHours>
+      <maturityAge>4.0</maturityAge>
+      <trainability>None</trainability>
+      <gestationPeriodDays>120</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(2, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>1.0</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>4.0</minAge>
+          <soundWounded>Pawn_Thrumbo_Wounded</soundWounded>
+          <soundDeath>Pawn_Thrumbo_Death</soundDeath>
+          <soundCall>Pawn_Thrumbo_Call</soundCall>
+          <soundAngry>Pawn_Thrumbo_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
 </Defs>
