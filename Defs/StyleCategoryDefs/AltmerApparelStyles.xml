@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Altmer Apparel Styles -->
+
+  <!-- Crystal Tower Scholar Apparel -->
+  <ThingStyleDef>
+    <defName>CrystalTowerScholarRobe</defName>
+    <label>crystal tower robe</label>
+    <category>CrystalTowerStyle</category>
+    <thingDefStyles>
+      <Apparel_Robe>
+        <texPath>Things/Pawn/Humanlike/Apparel/Altmer/CrystalTower/ScholarRobe</texPath>
+      </Apparel_Robe>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>CrystalTowerScholarHat</defName>
+    <label>crystal tower hat</label>
+    <category>CrystalTowerStyle</category>
+    <thingDefStyles>
+      <Apparel_CowboyHat>
+        <texPath>Things/Pawn/Humanlike/Apparel/Altmer/CrystalTower/ScholarHat</texPath>
+      </Apparel_CowboyHat>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+  <!-- Alinor Royal Apparel -->
+  <ThingStyleDef>
+    <defName>AlinorRoyalCrown</defName>
+    <label>alinor royal crown</label>
+    <category>AlinorRoyalStyle</category>
+    <thingDefStyles>
+      <Apparel_Coronet>
+        <texPath>Things/Pawn/Humanlike/Apparel/Altmer/AlinorRoyal/RoyalCrown</texPath>
+      </Apparel_Coronet>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>AlinorRoyalRobe</defName>
+    <label>alinor royal robe</label>
+    <category>AlinorRoyalStyle</category>
+    <thingDefStyles>
+      <Apparel_Robe>
+        <texPath>Things/Pawn/Humanlike/Apparel/Altmer/AlinorRoyal/RoyalRobe</texPath>
+      </Apparel_Robe>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+  <!-- Summerset Noble Apparel -->
+  <ThingStyleDef>
+    <defName>SummersetNobleCloak</defName>
+    <label>summerset noble cloak</label>
+    <category>SummersetNobleStyle</category>
+    <thingDefStyles>
+      <Apparel_Cape>
+        <texPath>Things/Pawn/Humanlike/Apparel/Altmer/SummersetNoble/NobleCloak</texPath>
+      </Apparel_Cape>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>SummersetNobleVest</defName>
+    <label>summerset noble vest</label>
+    <category>SummersetNobleStyle</category>
+    <thingDefStyles>
+      <Apparel_Vest>
+        <texPath>Things/Pawn/Humanlike/Apparel/Altmer/SummersetNoble/NobleVest</texPath>
+      </Apparel_Vest>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+  <!-- Sapiarch Academic Apparel -->
+  <ThingStyleDef>
+    <defName>SapiarchAcademicRobe</defName>
+    <label>sapiarch academic robe</label>
+    <category>SapiarchAcademicStyle</category>
+    <thingDefStyles>
+      <Apparel_Robe>
+        <texPath>Things/Pawn/Humanlike/Apparel/Altmer/SapiarchAcademic/AcademicRobe</texPath>
+      </Apparel_Robe>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>SapiarchWisdomCirclet</defName>
+    <label>sapiarch wisdom circlet</label>
+    <category>SapiarchAcademicStyle</category>
+    <thingDefStyles>
+      <Apparel_Coronet>
+        <texPath>Things/Pawn/Humanlike/Apparel/Altmer/SapiarchAcademic/WisdomCirclet</texPath>
+      </Apparel_Coronet>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+  <!-- Thalmor Agent Apparel -->
+  <ThingStyleDef>
+    <defName>ThalmorAgentUniform</defName>
+    <label>thalmor agent uniform</label>
+    <category>ThalmorAgentStyle</category>
+    <thingDefStyles>
+      <Apparel_FlakJacket>
+        <texPath>Things/Pawn/Humanlike/Apparel/Altmer/ThalmorAgent/AgentUniform</texPath>
+      </Apparel_FlakJacket>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>ThalmorAgentHelmet</defName>
+    <label>thalmor agent helmet</label>
+    <category>ThalmorAgentStyle</category>
+    <thingDefStyles>
+      <Apparel_AdvancedHelmet>
+        <texPath>Things/Pawn/Humanlike/Apparel/Altmer/ThalmorAgent/AgentHelmet</texPath>
+      </Apparel_AdvancedHelmet>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+  <!-- Psijic Mystic Apparel -->
+  <ThingStyleDef>
+    <defName>PsijicMysticRobe</defName>
+    <label>psijic mystic robe</label>
+    <category>PsijicMysticStyle</category>
+    <thingDefStyles>
+      <Apparel_Robe>
+        <texPath>Things/Pawn/Humanlike/Apparel/Altmer/PsijicMystic/MysticRobe</texPath>
+      </Apparel_Robe>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>PsijicMysticHood</defName>
+    <label>psijic mystic hood</label>
+    <category>PsijicMysticStyle</category>
+    <thingDefStyles>
+      <Apparel_Tuque>
+        <texPath>Things/Pawn/Humanlike/Apparel/Altmer/PsijicMystic/MysticHood</texPath>
+      </Apparel_Tuque>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+</Defs>

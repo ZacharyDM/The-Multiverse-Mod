@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Moonstone - Rare Magical Resource -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>Moonstone</defName>
+    <label>moonstone</label>
+    <description>A luminescent, silvery-white mineral that glows with the soft light of the moons. Moonstone is sacred to both the Altmer and the Khajiit, who believe it holds the blessing of the lunar deities. This rare resource can only be properly extracted by those who understand its mystical properties.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Moonstone</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MarketValue>320</MarketValue>
+      <Mass>0.4</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>8</Beauty>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+      <li>MagicalResource</li>
+      <li>AltmerTech</li>
+      <li>KhajiitTech</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(200,220,255,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Moonstone Ingot - Processed Form -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>MoonstoneIngot</defName>
+    <label>moonstone ingot</label>
+    <description>A refined ingot of moonstone, purified and shaped through ancient techniques known only to the Altmer and Khajiit. The ingot pulses with lunar energy and is prized for creating items of exceptional beauty and magical resonance.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/MoonstoneIngot</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>75</stackLimit>
+    <statBases>
+      <MarketValue>580</MarketValue>
+      <Mass>0.2</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Beauty>10</Beauty>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+      <li>MagicalResource</li>
+      <li>AltmerTech</li>
+      <li>KhajiitTech</li>
+    </tradeTags>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <commonality>0.01</commonality>
+      <appearance>Metal</appearance>
+      <statFactors>
+        <Beauty>2.5</Beauty>
+        <WorkToMake>3.2</WorkToMake>
+        <WorkToBuild>3.2</WorkToBuild>
+        <MaxHitPoints>1.4</MaxHitPoints>
+        <Flammability>0</Flammability>
+        <MeleeWeapon_CooldownMultiplier>0.95</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+      <statOffsets>
+        <Beauty>4</Beauty>
+      </statOffsets>
+      <color>(200,220,255)</color>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+    </stuffProps>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>4</glowRadius>
+        <glowColor>(200,220,255,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Quicksilver - Rare Liquid Metal -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>Quicksilver</defName>
+    <label>quicksilver</label>
+    <description>A rare liquid metal that flows like water but shimmers with an inner light. Quicksilver is found in deep underground deposits and is highly prized for its alchemical properties and use in advanced magical constructions. It is difficult and dangerous to extract.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Quicksilver</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MarketValue>480</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0.1</DeteriorationRate>
+      <Beauty>6</Beauty>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+      <li>MagicalResource</li>
+      <li>AlchemicalComponent</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>2</glowRadius>
+        <glowColor>(180,180,220,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Mineable Moonstone Deposit -->
+  <ThingDef ParentName="UglyRock">
+    <defName>MineableMoonstone</defName>
+    <label>moonstone deposit</label>
+    <description>A rare deposit of moonstone embedded in rock. The silvery-white mineral glows faintly with lunar energy. Only those trained in the ancient lunar mining techniques of the Altmer and Khajiit can properly extract this sacred resource.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(200,220,255)</color>
+      <colorTwo>(170,190,230)</colorTwo>
+    </graphicData>
+    <uiIconPath>Things/Item/Resource/Moonstone</uiIconPath>
+    <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <Flammability>0</Flammability>
+    </statBases>
+    <building>
+      <isInert>true</isInert>
+      <mineableYield>6</mineableYield>
+      <mineableNonMinedEfficiency>0.3</mineableNonMinedEfficiency>
+      <mineableDropChance>0.35</mineableDropChance>
+      <mineableThing>Moonstone</mineableThing>
+      <mineableYieldWasteable>false</mineableYieldWasteable>
+      <mineableScatterCommonality>0.005</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>2~8</mineableScatterLumpSizeRange>
+    </building>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(200,220,255,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Mineable Quicksilver Deposit -->
+  <ThingDef ParentName="UglyRock">
+    <defName>MineableQuicksilver</defName>
+    <label>quicksilver deposit</label>
+    <description>A rare underground deposit of quicksilver, the liquid metal that pools in deep caverns. The deposit shimmers with an otherworldly light and requires careful extraction to avoid losing the valuable liquid metal.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(180,180,220)</color>
+      <colorTwo>(150,150,200)</colorTwo>
+    </graphicData>
+    <uiIconPath>Things/Item/Resource/Quicksilver</uiIconPath>
+    <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MaxHitPoints>1800</MaxHitPoints>
+      <Flammability>0</Flammability>
+    </statBases>
+    <building>
+      <isInert>true</isInert>
+      <mineableYield>4</mineableYield>
+      <mineableNonMinedEfficiency>0.25</mineableNonMinedEfficiency>
+      <mineableDropChance>0.4</mineableDropChance>
+      <mineableThing>Quicksilver</mineableThing>
+      <mineableYieldWasteable>false</mineableYieldWasteable>
+      <mineableScatterCommonality>0.003</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~4</mineableScatterLumpSizeRange>
+    </building>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>4</glowRadius>
+        <glowColor>(180,180,220,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

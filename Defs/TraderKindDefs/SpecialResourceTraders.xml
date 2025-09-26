@@ -100,4 +100,50 @@
     </stockGenerators>
   </TraderKindDef>
 
+  <!-- Altmer Moonstone Trader -->
+  <TraderKindDef>
+    <defName>AltmerMoonstoneTrader</defName>
+    <label>Altmer moonstone trader</label>
+    <stockGenerators>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Moonstone</thingDef>
+        <totalPriceRange>800~2000</totalPriceRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MoonstoneIngot</thingDef>
+        <totalPriceRange>1200~3000</totalPriceRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Quicksilver</thingDef>
+        <totalPriceRange>600~1500</totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>ResourcesRaw</categoryDef>
+        <thingDefCountRange>2~5</thingDefCountRange>
+        <totalPriceRange>300~600</totalPriceRange>
+      </li>
+    </stockGenerators>
+  </TraderKindDef>
+
+  <!-- Khajiit Moonstone Trader -->
+  <TraderKindDef>
+    <defName>KhajiitMoonstoneTrader</defName>
+    <label>Khajiit moonstone trader</label>
+    <stockGenerators>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Moonstone</thingDef>
+        <totalPriceRange>900~2200</totalPriceRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MoonstoneIngot</thingDef>
+        <totalPriceRange>1400~3500</totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>Exotic</categoryDef>
+        <thingDefCountRange>3~7</thingDefCountRange>
+        <totalPriceRange>400~800</totalPriceRange>
+      </li>
+    </stockGenerators>
+  </TraderKindDef>
+
 </Defs>

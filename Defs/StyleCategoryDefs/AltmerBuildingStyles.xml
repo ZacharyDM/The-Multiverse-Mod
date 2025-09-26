@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Altmer Building Styles -->
+
+  <!-- Crystal Tower Buildings -->
+  <ThingStyleDef>
+    <defName>CrystalTowerLibrary</defName>
+    <label>crystal tower library</label>
+    <category>CrystalTowerStyle</category>
+    <thingDefStyles>
+      <Bookshelf>
+        <texPath>Things/Building/Furniture/Altmer/CrystalTower/CrystalLibrary</texPath>
+      </Bookshelf>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>CrystalTowerObservatory</defName>
+    <label>crystal tower observatory</label>
+    <category>CrystalTowerStyle</category>
+    <thingDefStyles>
+      <ResearchBench>
+        <texPath>Things/Building/Production/Altmer/CrystalTower/CrystalObservatory</texPath>
+      </ResearchBench>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+  <!-- Alinor Royal Buildings -->
+  <ThingStyleDef>
+    <defName>AlinorRoyalThrone</defName>
+    <label>alinor royal throne</label>
+    <category>AlinorRoyalStyle</category>
+    <thingDefStyles>
+      <Throne>
+        <texPath>Things/Building/Furniture/Altmer/AlinorRoyal/RoyalThrone</texPath>
+      </Throne>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>AlinorRoyalBed</defName>
+    <label>alinor royal bed</label>
+    <category>AlinorRoyalStyle</category>
+    <thingDefStyles>
+      <Bed>
+        <texPath>Things/Building/Furniture/Altmer/AlinorRoyal/RoyalBed</texPath>
+      </Bed>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+  <!-- Summerset Noble Buildings -->
+  <ThingStyleDef>
+    <defName>SummersetNobleTable</defName>
+    <label>summerset noble table</label>
+    <category>SummersetNobleStyle</category>
+    <thingDefStyles>
+      <Table2x2c>
+        <texPath>Things/Building/Furniture/Altmer/SummersetNoble/NobleTable</texPath>
+      </Table2x2c>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>SummersetNobleChair</defName>
+    <label>summerset noble chair</label>
+    <category>SummersetNobleStyle</category>
+    <thingDefStyles>
+      <DiningChair>
+        <texPath>Things/Building/Furniture/Altmer/SummersetNoble/NobleChair</texPath>
+      </DiningChair>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+  <!-- Sapiarch Academic Buildings -->
+  <ThingStyleDef>
+    <defName>SapiarchAcademicDesk</defName>
+    <label>sapiarch academic desk</label>
+    <category>SapiarchAcademicStyle</category>
+    <thingDefStyles>
+      <Table1x2c>
+        <texPath>Things/Building/Furniture/Altmer/SapiarchAcademic/AcademicDesk</texPath>
+      </Table1x2c>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>SapiarchScholarShelf</defName>
+    <label>sapiarch scholar shelf</label>
+    <category>SapiarchAcademicStyle</category>
+    <thingDefStyles>
+      <Shelf>
+        <texPath>Things/Building/Furniture/Altmer/SapiarchAcademic/ScholarShelf</texPath>
+      </Shelf>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+  <!-- Thalmor Agent Buildings -->
+  <ThingStyleDef>
+    <defName>ThalmorAgentBarricade</defName>
+    <label>thalmor agent barricade</label>
+    <category>ThalmorAgentStyle</category>
+    <thingDefStyles>
+      <Sandbags>
+        <texPath>Things/Building/Security/Altmer/ThalmorAgent/AgentBarricade</texPath>
+      </Sandbags>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>ThalmorAgentWatchpost</defName>
+    <label>thalmor agent watchpost</label>
+    <category>ThalmorAgentStyle</category>
+    <thingDefStyles>
+      <TurretGun>
+        <texPath>Things/Building/Security/Altmer/ThalmorAgent/AgentWatchpost</texPath>
+      </TurretGun>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+  <!-- Psijic Mystic Buildings -->
+  <ThingStyleDef>
+    <defName>PsijicMysticAltar</defName>
+    <label>psijic mystic altar</label>
+    <category>PsijicMysticStyle</category>
+    <thingDefStyles>
+      <Altar>
+        <texPath>Things/Building/Furniture/Altmer/PsijicMystic/MysticAltar</texPath>
+      </Altar>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>PsijicMysticScryingPool</defName>
+    <label>psijic mystic scrying pool</label>
+    <category>PsijicMysticStyle</category>
+    <thingDefStyles>
+      <Brazier>
+        <texPath>Things/Building/Furniture/Altmer/PsijicMystic/MysticScryingPool</texPath>
+      </Brazier>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+</Defs>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Moonstone Refinement Recipe -->
+  <RecipeDef>
+    <defName>RefineMoonstone</defName>
+    <label>refine moonstone</label>
+    <description>Refine raw moonstone into pure moonstone ingots using ancient lunar forging techniques. This delicate process requires understanding of lunar cycles and the blessing of the moon gods.</description>
+    <jobString>Refining moonstone.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1600</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Moonstone</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Moonstone</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MoonstoneIngot>2</MoonstoneIngot>
+    </products>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <recipeUsers>
+      <li>ElectricSmelter</li>
+      <li>FueledSmelter</li>
+    </recipeUsers>
+    <researchPrerequisite>MoonstoneRefinement</researchPrerequisite>
+  </RecipeDef>
+
+</Defs>

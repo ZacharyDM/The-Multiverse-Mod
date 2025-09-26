@@ -43,6 +43,19 @@
     </biomeWeights>
   </RockTypeDef>
 
+  <!-- Moonstone Rock Type -->
+  <RockTypeDef>
+    <defName>MoonstoneRock</defName>
+    <label>moonstone</label>
+    <description>Rare moonstone deposits that form in cold, mountainous regions blessed by the lunar deities.</description>
+    <soundMelee>MeleeHit_Stone</soundMelee>
+    <soundShatter>BuildingDestroyed_Stone_Small</soundShatter>
+    <color>(200, 220, 255)</color>
+    <naturalRock>MineableMoonstone</naturalRock>
+    <buildingMadeOfThis>WallMoonstone</buildingMadeOfThis>
+    <blocksMadeOfThis>BlocksMoonstone</blocksMadeOfThis>
+    <SmoothedThing>SmoothedMoonstone</SmoothedThing>
+
   <!-- Orichalcum Rock Type -->
   <RockTypeDef>
     <defName>OrichalcumRock</defName>
@@ -59,6 +72,33 @@
     <isSmoothed>false</isSmoothed>
     <allowBiomedFormation>true</allowBiomedFormation>
     <biomeWeights>
+      <Tundra>0.008</Tundra>
+      <BorealForest>0.006</BorealForest>
+      <ColdBog>0.004</ColdBog>
+      <IceSheet>0.002</IceSheet>
+    </biomeWeights>
+  </RockTypeDef>
+
+  <!-- Quicksilver Rock Type -->
+  <RockTypeDef>
+    <defName>QuicksilverRock</defName>
+    <label>quicksilver</label>
+    <description>Extremely rare quicksilver deposits that form deep underground in caverns and mineral-rich areas.</description>
+    <soundMelee>MeleeHit_Stone</soundMelee>
+    <soundShatter>BuildingDestroyed_Stone_Small</soundShatter>
+    <color>(180, 180, 220)</color>
+    <naturalRock>MineableQuicksilver</naturalRock>
+    <buildingMadeOfThis>WallQuicksilver</buildingMadeOfThis>
+    <blocksMadeOfThis>BlocksQuicksilver</blocksMadeOfThis>
+    <SmoothedThing>SmoothedQuicksilver</SmoothedThing>
+    <isTransparent>false</isTransparent>
+    <isSmoothed>false</isSmoothed>
+    <allowBiomedFormation>true</allowBiomedFormation>
+    <biomeWeights>
+      <Desert>0.003</Desert>
+      <ExtremeDesert>0.005</ExtremeDesert>
+      <Ashlands>0.004</Ashlands>
+      <MolagAmur>0.002</MolagAmur>
       <ExtremeDesert>0.001</ExtremeDesert>
       <Ashlands>0.001</Ashlands>
       <MolagAmur>0.0005</MolagAmur>
