@@ -25,8 +25,11 @@ The apparel system adds **18+ unique apparel items** and **12 comprehensive styl
 - **Vereansu Style** - Ancestral spirit-connected aesthetics with otherworldly energy
 - **Mabrigash Style** - Matriarchal mystical warrior styling with enchanted patterns
 
-### Human Races (4 style categories)
-- **Imperial Style** - Diplomatic Legion aesthetics with red and gold organized military designs
+### Human Races (7 style categories)
+- **Imperial Style** - General Cyrodiil sophistication with elegant designs and quality craftsmanship
+- **Colovian Style** - Western Cyrodiil martial culture with earth tones and practical highland designs
+- **Nibenese Style** - Eastern Cyrodiil sophistication with rich colors and magical elements
+- **Imperial Legion Style** - Military organization with red and gold Legion aesthetics and disciplined designs
 - **Breton Style** - Scholarly magic-resistant designs with blue and silver academic/knightly elements
 - **Nord Style** - Hardy warrior aesthetics with grey and blue practical Nordic patterns
 - **Redguard Style** - Desert warrior designs with brown and bronze curved weapon influences
@@ -93,29 +96,32 @@ Defs/StyleCategoryDefs/
 ├── AshlanderApparelStyles.xml  # Apparel styles for all 8 clans
 ├── AshlanderWeaponStyles.xml   # Weapon styles for all 8 clans
 ├── AshlanderBuildingStyles.xml # Building styles for all 8 clans
-├── HumanRacialStyles.xml       # 4 human race style categories
-├── HumanRacialApparelStyles.xml # Apparel styles for all 4 human races
-├── HumanRacialWeaponStyles.xml # Weapon styles for all 4 human races
-└── HumanRacialBuildingStyles.xml # Building styles for all 4 human races
+├── HumanRacialStyles.xml       # 7 human cultural style categories
+├── HumanRacialApparelStyles.xml # Apparel styles for all 7 human cultures
+├── HumanRacialWeaponStyles.xml # Weapon styles for all 7 human cultures
+└── HumanRacialBuildingStyles.xml # Building styles for all 7 human cultures
 
 Textures/Things/Pawn/Humanlike/Apparel/
 ├── TribunalTemple/            # Temple order textures
 ├── Ashlanders/               # Ashlander clan style textures
 ├── GreatHouses/              # Great House textures
 ├── HouseDagoth/              # House Dagoth corpus textures
-└── HumanRaces/               # Human race style textures
-    ├── Imperial/             # Imperial Legion aesthetics
+└── HumanRaces/               # Human cultural style textures
+    ├── Imperial/             # General Imperial sophistication
+    ├── Colovian/             # Western Cyrodiil martial culture
+    ├── Nibenese/             # Eastern Cyrodiil sophistication  
+    ├── ImperialLegion/       # Imperial Legion military aesthetics
     ├── Breton/               # Breton scholarly-knightly style
     ├── Nord/                 # Nord hardy warrior style
     └── Redguard/             # Redguard desert warrior style
 
 Textures/Item/Equipment/WeaponMelee/
 ├── Ashlander/[ClanName]/     # Weapon textures for each clan
-└── HumanRaces/[RaceName]/    # Weapon textures for each human race
+└── HumanRaces/[CultureName]/    # Weapon textures for each human culture
 
 Textures/Building/[Type]/
 ├── Ashlander/[ClanName]/     # Building textures for each clan
-└── HumanRaces/[RaceName]/    # Building textures for each human race
+└── HumanRaces/[CultureName]/    # Building textures for each human culture
 ```
 
 ## Integration Notes

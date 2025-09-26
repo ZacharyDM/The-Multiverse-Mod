@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <!-- Imperial Weapon Style -->
+  <!-- Imperial Weapon Style - General Cyrodiil -->
   <StyleItemCategoryDef>
     <defName>Imperial_Weapons</defName>
     <label>Imperial weapons</label>
-    <description>Standardized weapons of the Imperial Legion, featuring disciplined military designs with red and gold Legion aesthetics and organized manufacturing quality.</description>
+    <description>Refined weapons of Imperial craftsmanship, featuring elegant designs that blend practical functionality with imperial sophistication and quality materials.</description>
     <styleTags>
       <li>Imperial</li>
     </styleTags>
@@ -16,6 +16,61 @@
       <MeleeWeapon_Knife>Things/Item/Equipment/WeaponMelee/HumanRaces/Imperial/Knife</MeleeWeapon_Knife>
       <Bow_Short>Things/Item/Equipment/WeaponRanged/HumanRaces/Imperial/Bow</Bow_Short>
       <Gun_Revolver>Things/Item/Equipment/WeaponRanged/HumanRaces/Imperial/Revolver</Gun_Revolver>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Colovian Weapon Style - Western Cyrodiil -->
+  <StyleItemCategoryDef>
+    <defName>Colovian_Weapons</defName>
+    <label>Colovian weapons</label>
+    <description>Practical weapons of the Colovian highlands, built for durability and effectiveness with straightforward designs reflecting their martial culture and military traditions.</description>
+    <styleTags>
+      <li>Colovian</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_LongSword>Things/Item/Equipment/WeaponMelee/HumanRaces/Colovian/Sword</MeleeWeapon_LongSword>
+      <MeleeWeapon_Spear>Things/Item/Equipment/WeaponMelee/HumanRaces/Colovian/Spear</MeleeWeapon_Spear>
+      <MeleeWeapon_Club>Things/Item/Equipment/WeaponMelee/HumanRaces/Colovian/Club</MeleeWeapon_Club>
+      <MeleeWeapon_Knife>Things/Item/Equipment/WeaponMelee/HumanRaces/Colovian/Knife</MeleeWeapon_Knife>
+      <MeleeWeapon_Mace>Things/Item/Equipment/WeaponMelee/HumanRaces/Colovian/Mace</MeleeWeapon_Mace>
+      <Bow_Short>Things/Item/Equipment/WeaponRanged/HumanRaces/Colovian/Bow</Bow_Short>
+      <Gun_Revolver>Things/Item/Equipment/WeaponRanged/HumanRaces/Colovian/Revolver</Gun_Revolver>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Nibenese Weapon Style - Eastern Cyrodiil -->
+  <StyleItemCategoryDef>
+    <defName>Nibenese_Weapons</defName>
+    <label>Nibenese weapons</label>
+    <description>Sophisticated weapons of the Nibenese, featuring elegant craftsmanship and magical enhancements that reflect their cosmopolitan culture and arcane traditions.</description>
+    <styleTags>
+      <li>Nibenese</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_LongSword>Things/Item/Equipment/WeaponMelee/HumanRaces/Nibenese/Sword</MeleeWeapon_LongSword>
+      <MeleeWeapon_Spear>Things/Item/Equipment/WeaponMelee/HumanRaces/Nibenese/Spear</MeleeWeapon_Spear>
+      <MeleeWeapon_Club>Things/Item/Equipment/WeaponMelee/HumanRaces/Nibenese/Club</MeleeWeapon_Club>
+      <MeleeWeapon_Knife>Things/Item/Equipment/WeaponMelee/HumanRaces/Nibenese/Knife</MeleeWeapon_Knife>
+      <Bow_Short>Things/Item/Equipment/WeaponRanged/HumanRaces/Nibenese/Bow</Bow_Short>
+      <Gun_Revolver>Things/Item/Equipment/WeaponRanged/HumanRaces/Nibenese/Revolver</Gun_Revolver>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Imperial Legion Weapon Style - Military organization -->
+  <StyleItemCategoryDef>
+    <defName>ImperialLegion_Weapons</defName>
+    <label>Imperial Legion weapons</label>
+    <description>Standardized weapons of the Imperial Legion, featuring disciplined military designs with red and gold details, organized manufacturing, and symbols of Imperial authority.</description>
+    <styleTags>
+      <li>ImperialLegion</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_LongSword>Things/Item/Equipment/WeaponMelee/HumanRaces/ImperialLegion/Sword</MeleeWeapon_LongSword>
+      <MeleeWeapon_Spear>Things/Item/Equipment/WeaponMelee/HumanRaces/ImperialLegion/Spear</MeleeWeapon_Spear>
+      <MeleeWeapon_Club>Things/Item/Equipment/WeaponMelee/HumanRaces/ImperialLegion/Club</MeleeWeapon_Club>
+      <MeleeWeapon_Knife>Things/Item/Equipment/WeaponMelee/HumanRaces/ImperialLegion/Knife</MeleeWeapon_Knife>
+      <Bow_Short>Things/Item/Equipment/WeaponRanged/HumanRaces/ImperialLegion/Bow</Bow_Short>
+      <Gun_Revolver>Things/Item/Equipment/WeaponRanged/HumanRaces/ImperialLegion/Revolver</Gun_Revolver>
     </thingDefStyles>
   </StyleItemCategoryDef>
 

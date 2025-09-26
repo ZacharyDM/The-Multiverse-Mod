@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <!-- Imperial Apparel Style -->
+  <!-- Imperial Apparel Style - General Cyrodiil -->
   <StyleItemCategoryDef>
     <defName>Imperial_Apparel</defName>
     <label>Imperial apparel</label>
-    <description>Refined clothing and armor worn by the diplomatic Imperials, featuring red and gold Legion aesthetics with organized military designs.</description>
+    <description>Refined clothing and armor worn by Imperials, featuring elegant designs that blend practical functionality with imperial sophistication.</description>
     <styleTags>
       <li>Imperial</li>
     </styleTags>
@@ -16,6 +16,60 @@
       <Apparel_CollarShirt>Things/Pawn/Humanlike/Apparel/HumanRaces/Imperial/Imperial</Apparel_CollarShirt>
       <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/HumanRaces/Imperial/Imperial</Apparel_FlakVest>
       <Apparel_PlateArmor>Things/Pawn/Humanlike/Apparel/HumanRaces/Imperial/Imperial</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Colovian Apparel Style - Western Cyrodiil -->
+  <StyleItemCategoryDef>
+    <defName>Colovian_Apparel</defName>
+    <label>Colovian apparel</label>
+    <description>Practical clothing and armor of the Colovian highlands, featuring earth tones and sturdy designs suited for martial traditions and straightforward living.</description>
+    <styleTags>
+      <li>Colovian</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/HumanRaces/Colovian/Colovian</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/HumanRaces/Colovian/Colovian</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/HumanRaces/Colovian/Colovian</Apparel_Tunic>
+      <Apparel_CollarShirt>Things/Pawn/Humanlike/Apparel/HumanRaces/Colovian/Colovian</Apparel_CollarShirt>
+      <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/HumanRaces/Colovian/Colovian</Apparel_FlakVest>
+      <Apparel_PlateArmor>Things/Pawn/Humanlike/Apparel/HumanRaces/Colovian/Colovian</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Nibenese Apparel Style - Eastern Cyrodiil -->
+  <StyleItemCategoryDef>
+    <defName>Nibenese_Apparel</defName>
+    <label>Nibenese apparel</label>
+    <description>Sophisticated clothing and protective gear of the Nibenese, featuring rich colors and elegant designs that reflect their cosmopolitan culture and magical aptitude.</description>
+    <styleTags>
+      <li>Nibenese</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/HumanRaces/Nibenese/Nibenese</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/HumanRaces/Nibenese/Nibenese</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/HumanRaces/Nibenese/Nibenese</Apparel_Tunic>
+      <Apparel_CollarShirt>Things/Pawn/Humanlike/Apparel/HumanRaces/Nibenese/Nibenese</Apparel_CollarShirt>
+      <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/HumanRaces/Nibenese/Nibenese</Apparel_FlakVest>
+      <Apparel_PlateArmor>Things/Pawn/Humanlike/Apparel/HumanRaces/Nibenese/Nibenese</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Imperial Legion Apparel Style - Military organization -->
+  <StyleItemCategoryDef>
+    <defName>ImperialLegion_Apparel</defName>
+    <label>Imperial Legion apparel</label>
+    <description>Standardized uniforms and armor of the Imperial Legion, featuring red and gold colors with organized military designs and symbols of Imperial authority.</description>
+    <styleTags>
+      <li>ImperialLegion</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/HumanRaces/ImperialLegion/ImperialLegion</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/HumanRaces/ImperialLegion/ImperialLegion</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/HumanRaces/ImperialLegion/ImperialLegion</Apparel_Tunic>
+      <Apparel_CollarShirt>Things/Pawn/Humanlike/Apparel/HumanRaces/ImperialLegion/ImperialLegion</Apparel_CollarShirt>
+      <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/HumanRaces/ImperialLegion/ImperialLegion</Apparel_FlakVest>
+      <Apparel_PlateArmor>Things/Pawn/Humanlike/Apparel/HumanRaces/ImperialLegion/ImperialLegion</Apparel_PlateArmor>
     </thingDefStyles>
   </StyleItemCategoryDef>
 

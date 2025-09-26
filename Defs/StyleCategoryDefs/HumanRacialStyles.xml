@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <!-- Imperial Style -->
+  <!-- Imperial Style - General Cyrodiil culture -->
   <StyleCategoryDef>
     <defName>Imperial</defName>
     <label>Imperial</label>
-    <description>The refined Imperial style reflects the diplomatic empire-builders of Cyrodiil, featuring red and gold Legion aesthetics with organized military designs and symbols of Imperial authority.</description>
+    <description>The refined Imperial style reflects the cosmopolitan culture of Cyrodiil's heartland, featuring elegant designs that blend practical functionality with imperial sophistication.</description>
+  </StyleCategoryDef>
+
+  <!-- Colovian Style - Western Cyrodiil -->
+  <StyleCategoryDef>
+    <defName>Colovian</defName>
+    <label>Colovian</label>
+    <description>The practical Colovian style embodies the martial traditions of western Cyrodiil's highlands, featuring earth tones and sturdy designs that reflect their straightforward, military-focused culture.</description>
+  </StyleCategoryDef>
+
+  <!-- Nibenese Style - Eastern Cyrodiil -->
+  <StyleCategoryDef>
+    <defName>Nibenese</defName>
+    <label>Nibenese</label>
+    <description>The sophisticated Nibenese style represents the cosmopolitan culture of eastern Cyrodiil, featuring rich colors and elegant designs that reflect their magical aptitude and mercantile traditions.</description>
+  </StyleCategoryDef>
+
+  <!-- Imperial Legion Style - Military organization -->
+  <StyleCategoryDef>
+    <defName>ImperialLegion</defName>
+    <label>Imperial Legion</label>
+    <description>The disciplined Imperial Legion style features standardized military designs with red and gold colors, organized patterns, and symbols of Imperial authority reflecting the Empire's military might.</description>
   </StyleCategoryDef>
 
   <!-- Breton Style -->
