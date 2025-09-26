@@ -19,6 +19,15 @@
     <leaderTitle>Forest Chief</leaderTitle>
     <factionIconPath>UI/Factions/WoodOrcs</factionIconPath>
     <settlementGenerationWeight>0.6</settlementGenerationWeight>
+    <caravanTraderKinds>
+      <li>OrsimerAnimalTrader</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>OrsimerAnimalTrader</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>OrsimerAnimalTrader</li>
+    </baseTraderKinds>
     <requiredMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
@@ -44,6 +53,18 @@
     <leaderTitle>Forge Master</leaderTitle>
     <factionIconPath>UI/Factions/IronOrcs</factionIconPath>
     <settlementGenerationWeight>0.7</settlementGenerationWeight>
+    <caravanTraderKinds>
+      <li>OrsimerSpecialResourceTrader</li>
+      <li>OrsimerAnimalTrader</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>OrsimerSpecialResourceTrader</li>
+      <li>OrsimerAnimalTrader</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>OrsimerSpecialResourceTrader</li>
+      <li>OrsimerAnimalTrader</li>
+    </baseTraderKinds>
     <requiredMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
@@ -119,6 +140,15 @@
     <leaderTitle>Chief of Largashbur</leaderTitle>
     <factionIconPath>UI/Factions/Largashbur</factionIconPath>
     <settlementGenerationWeight>0.5</settlementGenerationWeight>
+    <caravanTraderKinds>
+      <li>OrsimerAnimalTrader</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>OrsimerAnimalTrader</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>OrsimerAnimalTrader</li>
+    </baseTraderKinds>
     <requiredMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">AnimistSimple</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
@@ -144,6 +174,15 @@
     <leaderTitle>Chief of Mor Khazgur</leaderTitle>
     <factionIconPath>UI/Factions/MorKhazgur</factionIconPath>
     <settlementGenerationWeight>0.6</settlementGenerationWeight>
+    <caravanTraderKinds>
+      <li>OrsimerSpecialResourceTrader</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>OrsimerSpecialResourceTrader</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>OrsimerSpecialResourceTrader</li>
+    </baseTraderKinds>
     <requiredMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
@@ -169,6 +208,15 @@
     <leaderTitle>Chief of Narzulbur</leaderTitle>
     <factionIconPath>UI/Factions/Narzulbur</factionIconPath>
     <settlementGenerationWeight>0.5</settlementGenerationWeight>
+    <caravanTraderKinds>
+      <li>OrsimerSpecialResourceTrader</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>OrsimerSpecialResourceTrader</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>OrsimerSpecialResourceTrader</li>
+    </baseTraderKinds>
     <requiredMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>

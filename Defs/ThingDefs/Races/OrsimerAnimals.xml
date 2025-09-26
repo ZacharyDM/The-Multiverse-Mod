@@ -34,6 +34,9 @@
         <linkedBodyPartsGroup>Legs</linkedBodyPartsGroup>
       </li>
     </tools>
+    <tradeTags>
+      <li>AnimalOrsimerPack</li>
+    </tradeTags>
     <race>
       <body>BeetleLike</body>
       <predator>false</predator>
@@ -128,6 +131,9 @@
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
       </li>
     </tools>
+    <tradeTags>
+      <li>AnimalOrsimerWar</li>
+    </tradeTags>
     <race>
       <body>QuadrupedAnimalWithPawsAndTail</body>
       <predator>true</predator>
@@ -219,6 +225,9 @@
         <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
       </li>
     </tools>
+    <tradeTags>
+      <li>AnimalOrsimerLivestock</li>
+    </tradeTags>
     <race>
       <body>QuadrupedAnimalWithHooves</body>
       <predator>false</predator>
@@ -308,6 +317,9 @@
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
       </li>
     </tools>
+    <tradeTags>
+      <li>AnimalOrsimerWar</li>
+    </tradeTags>
     <race>
       <body>QuadrupedAnimalWithHooves</body>
       <predator>false</predator>
