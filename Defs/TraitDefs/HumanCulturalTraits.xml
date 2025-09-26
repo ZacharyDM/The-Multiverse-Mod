@@ -81,6 +81,9 @@
       </li>
     </degreeDatas>
     <biostatCpxFactor>1.2</biostatCpxFactor>
+    <exclusionTags>
+      <li>ImperialCulture</li>
+    </exclusionTags>
   </TraitDef>
 
   <!-- Redguard Cultural Traits -->
