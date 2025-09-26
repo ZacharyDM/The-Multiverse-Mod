@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Saxhleel Trait -->
+  <TraitDef>
+    <defName>SaxhleelAdaptation</defName>
+    <label>Saxhleel Adaptation</label>
+    <description>This Saxhleel possesses the quintessential Argonian adaptations - superior disease resistance, natural healing, and deep connection to the Hist.</description>
+    <degreeDatas>
+      <li>
+        <label>Hist-Blessed</label>
+        <description>Born with the traditional blessings of the Hist trees, this pawn has enhanced resistance to disease, natural healing abilities, and superior swamp adaptation.</description>
+        <skillGains>
+          <Medicine>4</Medicine>
+          <Animals>3</Animals>
+          <Plants>2</Plants>
+          <Social>1</Social>
+        </skillGains>
+        <statOffsets>
+          <ImmunityGainSpeed>0.20</ImmunityGainSpeed>
+          <ComfyTemperatureMin>-8</ComfyTemperatureMin>
+          <ToxicResistance>0.15</ToxicResistance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Naga Trait -->
+  <TraitDef>
+    <defName>NagaSerpentine</defName>
+    <label>Naga Serpentine</label>
+    <description>This Naga possesses the serpentine strength and swimming abilities of the larger Argonian subspecies.</description>
+    <degreeDatas>
+      <li>
+        <label>Serpent Strength</label>
+        <description>Born with powerful serpentine features, this pawn has enhanced physical strength and swimming abilities but reduced agility on land.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Medicine>3</Medicine>
+          <Mining>2</Mining>
+          <Construction>2</Construction>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageAmount>0.15</MeleeDamageAmount>
+          <CarryingCapacity>50</CarryingCapacity>
+          <ImmunityGainSpeed>0.15</ImmunityGainSpeed>
+          <MoveSpeed>-0.3</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Sarpa Trait -->
+  <TraitDef>
+    <defName>SarpaIntellect</defName>
+    <label>Sarpa Intellect</label>
+    <description>This Sarpa possesses the enhanced intellectual capabilities and social grace of the more humanoid Argonian subspecies.</description>
+    <degreeDatas>
+      <li>
+        <label>Diplomatic Mind</label>
+        <description>Born with humanoid proportions and enhanced intellect, this pawn excels in social situations, research, and diplomatic relations.</description>
+        <skillGains>
+          <Intellectual>4</Intellectual>
+          <Social>3</Social>
+          <Medicine>2</Medicine>
+          <Artistic>2</Artistic>
+        </skillGains>
+        <statOffsets>
+          <ResearchSpeed>0.15</ResearchSpeed>
+          <NegotiationAbility>0.12</NegotiationAbility>
+          <TradePriceImprovement>0.08</TradePriceImprovement>
+          <ImmunityGainSpeed>0.10</ImmunityGainSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Agaceph Trait -->
+  <TraitDef>
+    <defName>AgacephCamouflage</defName>
+    <label>Agaceph Camouflage</label>
+    <description>This Agaceph possesses the natural camouflage abilities and stealth mastery of the chameleon-like Argonian subspecies.</description>
+    <degreeDatas>
+      <li>
+        <label>Chameleon Skin</label>
+        <description>Born with color-changing abilities and natural stealth, this pawn excels in ambush tactics and stealth operations.</description>
+        <skillGains>
+          <Shooting>4</Shooting>
+          <Medicine>2</Medicine>
+          <Animals>2</Animals>
+          <Melee>2</Melee>
+        </skillGains>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.08</ShootingAccuracyPawn>
+          <MeleeHitChance>0.06</MeleeHitChance>
+          <ImmunityGainSpeed>0.12</ImmunityGainSpeed>
+          <PsychicSensitivity>0.1</PsychicSensitivity>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Paatru Trait -->
+  <TraitDef>
+    <defName>PaatruEndurance</defName>
+    <label>Paatru Endurance</label>
+    <description>This Paatru possesses the incredible endurance and toxin resistance of the toad-like Argonian subspecies.</description>
+    <degreeDatas>
+      <li>
+        <label>Marsh Toughness</label>
+        <description>Born with exceptional constitution and endurance, this pawn excels in physical labor and has incredible resistance to toxins and environmental hazards.</description>
+        <skillGains>
+          <Mining>5</Mining>
+          <Construction>4</Construction>
+          <Medicine>3</Medicine>
+          <Plants>2</Plants>
+        </skillGains>
+        <statOffsets>
+          <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+          <ImmunityGainSpeed>0.25</ImmunityGainSpeed>
+          <ToxicResistance>0.25</ToxicResistance>
+          <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Wamasu Trait -->
+  <TraitDef>
+    <defName>WamasuDraconic</defName>
+    <label>Wamasu Draconic</label>
+    <description>This Wamasu possesses the rare draconic heritage and mystical abilities of the most blessed Argonian subspecies.</description>
+    <degreeDatas>
+      <li>
+        <label>Dragon-Touched</label>
+        <description>Born with draconic features and ancient magical heritage, this pawn has enhanced magical abilities and natural leadership qualities.</description>
+        <skillGains>
+          <Intellectual>4</Intellectual>
+          <Social>3</Social>
+          <Medicine>3</Medicine>
+          <Melee>2</Melee>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.25</PsychicSensitivity>
+          <ResearchSpeed>0.20</ResearchSpeed>
+          <ImmunityGainSpeed>0.18</ImmunityGainSpeed>
+          <NegotiationAbility>0.10</NegotiationAbility>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+</Defs>

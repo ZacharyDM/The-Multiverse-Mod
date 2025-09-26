@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Saxhleel Traditional Style -->
+  <StyleCategoryDef>
+    <defName>SaxhleelTraditional</defName>
+    <label>Saxhleel Traditional</label>
+    <description>The traditional building style of the Saxhleel, featuring organic curves, Hist-wood construction, and integration with the natural swamp environment. Buildings often incorporate living plants and water features.</description>
+  </StyleCategoryDef>
+
+  <!-- An-Xileel Militant Style -->
+  <StyleCategoryDef>
+    <defName>AnXileelMilitant</defName>
+    <label>An-Xileel Militant</label>
+    <description>The fortified architectural style of the An-Xileel, emphasizing defensive structures, camouflaged buildings, and integration with marsh defenses. Features sharp angles and earth-toned colors.</description>
+  </StyleCategoryDef>
+
+  <!-- Shadowscale Hidden Style -->
+  <StyleCategoryDef>
+    <defName>ShadowscaleHidden</defName>
+    <label>Shadowscale Hidden</label>
+    <description>The secretive architectural style of the Shadowscales, featuring concealed entrances, false walls, and buildings that blend seamlessly with their surroundings. Dark colors and minimal ornamentation.</description>
+  </StyleCategoryDef>
+
+  <!-- Hist Keeper Sacred Style -->
+  <StyleCategoryDef>
+    <defName>HistKeeperSacred</defName>
+    <label>Hist Keeper Sacred</label>
+    <description>The sacred architectural style of the Hist Keepers, centered around communion with the Hist trees. Features living architecture, root integration, and sacred geometry reflecting the connection to nature.</description>
+  </StyleCategoryDef>
+
+  <!-- Thornscale Warrior Style -->
+  <StyleCategoryDef>
+    <defName>ThornscaleWarrior</defName>
+    <label>Thornscale Warrior</label>
+    <description>The martial architectural style of the Thornscale clan, featuring defensive spikes, war totems, and intimidating decorations. Buildings are designed to project strength and fearsome reputation.</description>
+  </StyleCategoryDef>
+
+  <!-- Glade Runner Scout Style -->
+  <StyleCategoryDef>
+    <defName>GladeRunnerScout</defName>
+    <label>Glade Runner Scout</label>
+    <description>The practical architectural style of the Glade Runners, emphasizing mobility, camouflage, and quick construction. Features temporary structures and elevated platforms for observation.</description>
+  </StyleCategoryDef>
+
+  <!-- Root-Whisper Ancient Style -->
+  <StyleCategoryDef>
+    <defName>RootWhisperAncient</defName>
+    <label>Root-Whisper Ancient</label>
+    <description>The ancient architectural style of the Root-Whisper tribe, preserving the oldest Argonian building traditions. Features primitive but sophisticated techniques using only natural materials.</description>
+  </StyleCategoryDef>
+
+</Defs>

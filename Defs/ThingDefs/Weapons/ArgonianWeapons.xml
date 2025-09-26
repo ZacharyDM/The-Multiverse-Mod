@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+
+  <!-- Hist-Wood Spear - Traditional Argonian Weapon -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>MeleeWeapon_HistWoodSpear</defName>
+    <label>hist-wood spear</label>
+    <description>A traditional Argonian spear carved from sacred Hist wood and tipped with sharpened bone or metal. The wood is naturally resistant to rot and enhances the wielder's connection to nature.</description>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>LongBlades</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/HistWoodSpear</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconPath>Things/Item/Equipment/WeaponMelee/HistWoodSpear</uiIconPath>
+    <costStuffCount>100</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>3.5</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <ToxicResistance>0.05</ToxicResistance>
+    </equippedStatOffsets>
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>2.6</cooldownTime>
+        <armorPenetration>0.25</armorPenetration>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>ArgonianWeapon</li>
+      <li>HistKeepersWeapon</li>
+    </weaponTags>
+  </ThingDef>
+
+  <!-- Shadowscale Dagger - Assassin Weapon -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>MeleeWeapon_ShadowscaleDagger</defName>
+    <label>shadowscale dagger</label>
+    <description>A curved dagger used by Shadowscale assassins, forged from Black Marsh metals and coated with a naturally occurring toxin from marsh creatures. Designed for quick, silent kills.</description>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>LongBlades</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/ShadowscaleDagger</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconPath>Things/Item/Equipment/WeaponMelee/ShadowscaleDagger</uiIconPath>
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>0.8</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <MeleeHitChance>0.05</MeleeHitChance>
+      <MoveSpeed>0.05</MoveSpeed>
+    </equippedStatOffsets>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Stab</li>
+          <li>Cut</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.5</cooldownTime>
+        <armorPenetration>0.20</armorPenetration>
+        <extraMeleeDamages>
+          <li>
+            <def>ToxicBuildup</def>
+            <amount>3</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>ArgonianWeapon</li>
+      <li>ShadowscalesWeapon</li>
+    </weaponTags>
+  </ThingDef>
+
+  <!-- Naga War Club - Heavy Weapon -->
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>MeleeWeapon_NagaWarClub</defName>
+    <label>naga war club</label>
+    <description>A massive war club favored by Naga warriors, carved from dense swamp wood and reinforced with bone spikes. Its weight and reach make it devastating in combat.</description>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>LongBlades</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/NagaWarClub</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconPath>Things/Item/Equipment/WeaponMelee/NagaWarClub</uiIconPath>
+    <costStuffCount>120</costStuffCount>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>6.0</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <MeleeDamageAmount>0.08</MeleeDamageAmount>
+      <MoveSpeed>-0.05</MoveSpeed>
+    </equippedStatOffsets>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2.2</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>28</power>
+        <cooldownTime>3.2</cooldownTime>
+        <armorPenetration>0.30</armorPenetration>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>ArgonianWeapon</li>
+      <li>ThornscaleClanWeapon</li>
+    </weaponTags>
+  </ThingDef>
+
+  <!-- Marsh Bow - Ranged Weapon -->
+  <ThingDef ParentName="BaseWeaponRanged">
+    <defName>Bow_MarshBow</defName>
+    <label>marsh bow</label>
+    <description>A recurved bow crafted from flexible marsh wood and strung with sinew from Black Marsh creatures. Designed for hunting and warfare in swampy terrain.</description>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>RecurveBow</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+        <li>TableCrafting</li>
+      </recipeUsers>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/MarshBow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconPath>Things/Item/Equipment/WeaponRanged/MarshBow</uiIconPath>
+    <costStuffCount>60</costStuffCount>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>1.2</Mass>
+      <AccuracyTouch>0.70</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.60</AccuracyLong>
+      <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>0.03</ShootingAccuracyPawn>
+    </equippedStatOffsets>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Arrow_Steel</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>32</range>
+        <soundCast>Bow_Large</soundCast>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>ArgonianWeapon</li>
+      <li>GladeRunnersWeapon</li>
+    </weaponTags>
+  </ThingDef>
+
+  <!-- Hist Communion Staff - Magical Focus -->
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>MeleeWeapon_HistCommunionStaff</defName>
+    <label>hist communion staff</label>
+    <description>A sacred staff carved from living Hist wood and topped with a crystallized Hist sap focus. Used by Hist Keepers to channel their spiritual connection and enhance their healing abilities.</description>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>LongBlades</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+        <Artistic>6</Artistic>
+      </skillRequirements>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+        <li>TableCrafting</li>
+      </recipeUsers>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/HistCommunionStaff</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconPath>Things/Item/Equipment/WeaponMelee/HistCommunionStaff</uiIconPath>
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+      <Mass>2.5</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <PsychicSensitivity>0.10</PsychicSensitivity>
+      <ImmunityGainSpeed>0.10</ImmunityGainSpeed>
+      <ToxicResistance>0.08</ToxicResistance>
+    </equippedStatOffsets>
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2.8</cooldownTime>
+        <armorPenetration>0.15</armorPenetration>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>ArgonianWeapon</li>
+      <li>HistKeepersWeapon</li>
+    </weaponTags>
+  </ThingDef>
+
+</ThingDefs>

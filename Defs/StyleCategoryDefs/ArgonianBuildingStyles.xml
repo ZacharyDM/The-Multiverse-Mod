@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Saxhleel Traditional Building Style -->
+  <StyleCategoryDef>
+    <defName>SaxhleelTraditionalBuildings</defName>
+    <label>Saxhleel Traditional Buildings</label>
+    <description>Traditional Saxhleel architecture featuring organic curves that mirror the natural flow of rivers and root systems. Buildings incorporate living Hist wood, raised foundations for marsh conditions, and water integration.</description>
+    <buildingTags>
+      <li>ArgonianBuilding</li>
+      <li>SaxhleelBuilding</li>
+    </buildingTags>
+  </StyleCategoryDef>
+
+  <!-- An-Xileel Militant Building Style -->
+  <StyleCategoryDef>
+    <defName>AnXileelMilitantBuildings</defName>
+    <label>An-Xileel Militant Buildings</label>
+    <description>Fortified An-Xileel architecture emphasizing defensive capabilities with camouflaged exteriors, hidden entrances, reinforced structures, and integration with natural marsh defenses for guerrilla warfare.</description>
+    <buildingTags>
+      <li>ArgonianBuilding</li>
+      <li>AnXileelBuilding</li>
+    </buildingTags>
+  </StyleCategoryDef>
+
+  <!-- Shadowscale Hidden Building Style -->
+  <StyleCategoryDef>
+    <defName>ShadowscaleHiddenBuildings</defName>
+    <label>Shadowscale Hidden Buildings</label>
+    <description>Secretive Shadowscale architecture designed to blend seamlessly with surroundings, featuring concealed entrances, false walls, underground passages, and minimal exterior decoration to avoid detection.</description>
+    <buildingTags>
+      <li>ArgonianBuilding</li>
+      <li>ShadowscaleBuilding</li>
+    </buildingTags>
+  </StyleCategoryDef>
+
+  <!-- Hist Keeper Sacred Building Style -->
+  <StyleCategoryDef>
+    <defName>HistKeeperSacredBuildings</defName>
+    <label>Hist Keeper Sacred Buildings</label>
+    <description>Sacred Hist Keeper architecture centered around living tree integration, featuring root-woven walls, Hist sap lighting, organic geometry reflecting natural growth patterns, and spiritual sanctuaries.</description>
+    <buildingTags>
+      <li>ArgonianBuilding</li>
+      <li>HistKeeperBuilding</li>
+    </buildingTags>
+  </StyleCategoryDef>
+
+  <!-- Thornscale Warrior Building Style -->
+  <StyleCategoryDef>
+    <defName>ThornscaleWarriorBuildings</defName>
+    <label>Thornscale Warrior Buildings</label>
+    <description>Martial Thornscale architecture featuring intimidating designs with defensive spikes, war totems, trophy displays, and robust construction meant to project strength and fierce reputation.</description>
+    <buildingTags>
+      <li>ArgonianBuilding</li>
+      <li>ThornscaleBuilding</li>
+    </buildingTags>
+  </StyleCategoryDef>
+
+  <!-- Glade Runner Scout Building Style -->
+  <StyleCategoryDef>
+    <defName>GladeRunnerScoutBuildings</defName>
+    <label>Glade Runner Scout Buildings</label>
+    <description>Practical Glade Runner architecture emphasizing mobility and observation, featuring elevated platforms, lightweight construction, camouflaged exteriors, and quick-assembly temporary structures.</description>
+    <buildingTags>
+      <li>ArgonianBuilding</li>
+      <li>GladeRunnerBuilding</li>
+    </buildingTags>
+  </StyleCategoryDef>
+
+  <!-- Root-Whisper Ancient Building Style -->
+  <StyleCategoryDef>
+    <defName>RootWhisperAncientBuildings</defName>
+    <label>Root-Whisper Ancient Buildings</label>
+    <description>Ancient Root-Whisper architecture preserving the oldest Argonian building traditions, featuring primitive but sophisticated techniques, natural materials only, and designs unchanged for millennia.</description>
+    <buildingTags>
+      <li>ArgonianBuilding</li>
+      <li>RootWhisperBuilding</li>
+    </buildingTags>
+  </StyleCategoryDef>
+
+</Defs>

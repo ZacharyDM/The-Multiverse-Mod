@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FactionDefs>
+
+  <!-- An-Xileel - Argonian Nationalist Organization -->
+  <FactionDef>
+    <defName>AnXileel</defName>
+    <label>An-Xileel</label>
+    <description>A radical Argonian nationalist organization that seeks to drive all non-Argonians from Black Marsh and restore pure Saxhleel rule. They are masters of guerrilla warfare and deeply connected to the Hist.</description>
+    <color>(0.2, 0.5, 0.2, 1)</color>
+    <allowedRaceDefs>
+      <li>Argonian</li>
+      <li>ArgonianSaxhleel</li>
+      <li>ArgonianNaga</li>
+      <li>ArgonianSarpa</li>
+      <li>ArgonianAgaceph</li>
+      <li>ArgonianPaatru</li>
+      <li>ArgonianWamasu</li>
+    </allowedRaceDefs>
+    <techLevel>Medieval</techLevel>
+    <hostileTowardsOutsiders>true</hostileTowardsOutsiders>
+  </FactionDef>
+
+  <!-- Shadowscales - Argonian Assassins -->
+  <FactionDef>
+    <defName>Shadowscales</defName>
+    <label>Shadowscales</label>
+    <description>Elite Argonian assassins born under the sign of the Shadow. Trained from birth in the arts of stealth and death, they serve as the hidden blade of Argonian interests throughout Tamriel.</description>
+    <color>(0.1, 0.1, 0.2, 1)</color>
+    <allowedRaceDefs>
+      <li>Argonian</li>
+      <li>ArgonianSaxhleel</li>
+      <li>ArgonianNaga</li>
+      <li>ArgonianSarpa</li>
+      <li>ArgonianAgaceph</li>
+      <li>ArgonianPaatru</li>
+      <li>ArgonianWamasu</li>
+    </allowedRaceDefs>
+    <techLevel>Medieval</techLevel>
+    <hidden>true</hidden>
+  </FactionDef>
+
+  <!-- Hist Keepers - Religious Guardians -->
+  <FactionDef>
+    <defName>HistKeepers</defName>
+    <label>Hist Keepers</label>
+    <description>Ancient religious order dedicated to protecting and communing with the Hist trees. They are the spiritual guides of Argonian society and keepers of ancient wisdom.</description>
+    <color>(0.3, 0.6, 0.4, 1)</color>
+    <allowedRaceDefs>
+      <li>Argonian</li>
+      <li>ArgonianSaxhleel</li>
+      <li>ArgonianNaga</li>
+      <li>ArgonianSarpa</li>
+      <li>ArgonianAgaceph</li>
+      <li>ArgonianPaatru</li>
+      <li>ArgonianWamasu</li>
+    </allowedRaceDefs>
+    <techLevel>Medieval</techLevel>
+  </FactionDef>
+
+  <!-- Black Marsh Trading Company - Argonian Merchants -->
+  <FactionDef>
+    <defName>BlackMarshTradingCompany</defName>
+    <label>Black Marsh Trading Company</label>
+    <description>A consortium of Argonian merchants who trade in the unique resources of Black Marsh. They maintain trading posts throughout Tamriel and are known for their exotic goods and fair dealing.</description>
+    <color>(0.5, 0.4, 0.2, 1)</color>
+    <allowedRaceDefs>
+      <li>Argonian</li>
+      <li>ArgonianSaxhleel</li>
+      <li>ArgonianNaga</li>
+      <li>ArgonianSarpa</li>
+      <li>ArgonianAgaceph</li>
+      <li>ArgonianPaatru</li>
+      <li>ArgonianWamasu</li>
+    </allowedRaceDefs>
+    <techLevel>Medieval</techLevel>
+  </FactionDef>
+
+  <!-- Root-Whisper Tribe - Deep Swamp Traditionalists -->
+  <FactionDef>
+    <defName>RootWhisperTribe</defName>
+    <label>Root-Whisper Tribe</label>
+    <description>Ancient traditionalist tribe from the deepest parts of Black Marsh. They maintain the old ways and communicate directly with the Hist through root-song rituals. They are suspicious of outsiders but not openly hostile.</description>
+    <color>(0.4, 0.5, 0.3, 1)</color>
+    <allowedRaceDefs>
+      <li>Argonian</li>
+      <li>ArgonianSaxhleel</li>
+      <li>ArgonianNaga</li>
+      <li>ArgonianSarpa</li>
+      <li>ArgonianAgaceph</li>
+      <li>ArgonianPaatru</li>
+      <li>ArgonianWamasu</li>
+    </allowedRaceDefs>
+    <techLevel>Neolithic</techLevel>
+  </FactionDef>
+
+  <!-- Thornscale Clan - Warrior Tribe -->
+  <FactionDef>
+    <defName>ThornscaleClan</defName>
+    <label>Thornscale Clan</label>
+    <description>A warrior clan of Argonians known for their fierce combat prowess and ritualistic scarification. They serve as mercenaries and protectors of Argonian settlements.</description>
+    <color>(0.3, 0.2, 0.1, 1)</color>
+    <allowedRaceDefs>
+      <li>Argonian</li>
+      <li>ArgonianSaxhleel</li>
+      <li>ArgonianNaga</li>
+      <li>ArgonianSarpa</li>
+      <li>ArgonianAgaceph</li>
+      <li>ArgonianPaatru</li>
+      <li>ArgonianWamasu</li>
+    </allowedRaceDefs>
+    <techLevel>Medieval</techLevel>
+  </FactionDef>
+
+  <!-- Glade Runners - Scouts and Rangers -->
+  <FactionDef>
+    <defName>GladeRunners</defName>
+    <label>Glade Runners</label>
+    <description>Elite Argonian scouts and rangers who patrol the borders of Black Marsh. They are master trackers and survivalists, keeping watch for threats to their homeland.</description>
+    <color>(0.2, 0.4, 0.2, 1)</color>
+    <allowedRaceDefs>
+      <li>Argonian</li>
+      <li>ArgonianSaxhleel</li>
+      <li>ArgonianNaga</li>
+      <li>ArgonianSarpa</li>
+      <li>ArgonianAgaceph</li>
+      <li>ArgonianPaatru</li>
+      <li>ArgonianWamasu</li>
+    </allowedRaceDefs>
+    <techLevel>Medieval</techLevel>
+  </FactionDef>
+
+</FactionDefs>

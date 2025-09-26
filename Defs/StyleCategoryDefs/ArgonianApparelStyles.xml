@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Saxhleel Traditional Apparel Style -->
+  <StyleCategoryDef>
+    <defName>SaxhleelTraditionalApparel</defName>
+    <label>Saxhleel Traditional Apparel</label>
+    <description>Traditional Saxhleel clothing featuring natural materials, earth tones, and patterns that mirror the scales and textures of Black Marsh. Incorporates Hist-bark fibers and swamp-dyed fabrics.</description>
+    <apparelTags>
+      <li>ArgonianApparel</li>
+      <li>SaxhleelApparel</li>
+    </apparelTags>
+    <requiredApparel>
+      <li>Apparel_HistBarkArmor</li>
+      <li>Apparel_HistBarkHelmet</li>
+    </requiredApparel>
+  </StyleCategoryDef>
+
+  <!-- An-Xileel Militant Apparel Style -->
+  <StyleCategoryDef>
+    <defName>AnXileelMilitantApparel</defName>
+    <label>An-Xileel Militant Apparel</label>
+    <description>Military-style clothing of the An-Xileel, featuring tactical designs, earth-tone camouflage patterns, and reinforced protection suitable for guerrilla warfare in marsh environments.</description>
+    <apparelTags>
+      <li>ArgonianApparel</li>
+      <li>AnXileelApparel</li>
+    </apparelTags>
+    <requiredApparel>
+      <li>Apparel_HistBarkArmor</li>
+      <li>Apparel_MarshWalkerBoots</li>
+    </requiredApparel>
+  </StyleCategoryDef>
+
+  <!-- Shadowscale Hidden Apparel Style -->
+  <StyleCategoryDef>
+    <defName>ShadowscaleHiddenApparel</defName>
+    <label>Shadowscale Hidden Apparel</label>
+    <description>The stealthy clothing of Shadowscale assassins, featuring dark colors, form-fitting designs, and materials that enhance stealth and mobility while maintaining deadly efficiency.</description>
+    <apparelTags>
+      <li>ArgonianApparel</li>
+      <li>ShadowscalesApparel</li>
+    </apparelTags>
+    <requiredApparel>
+      <li>Apparel_ShadowscaleArmor</li>
+    </requiredApparel>
+  </StyleCategoryDef>
+
+  <!-- Hist Keeper Sacred Apparel Style -->
+  <StyleCategoryDef>
+    <defName>HistKeeperSacredApparel</defName>
+    <label>Hist Keeper Sacred Apparel</label>
+    <description>Sacred vestments of the Hist Keepers, featuring natural materials blessed by Hist sap, flowing designs that mirror root patterns, and colors that reflect the sacred connection to nature.</description>
+    <apparelTags>
+      <li>ArgonianApparel</li>
+      <li>HistKeepersApparel</li>
+    </apparelTags>
+    <requiredApparel>
+      <li>Apparel_HistCommunionRobes</li>
+      <li>Apparel_HistBarkHelmet</li>
+    </requiredApparel>
+  </StyleCategoryDef>
+
+  <!-- Thornscale Warrior Apparel Style -->
+  <StyleCategoryDef>
+    <defName>ThornscaleWarriorApparel</defName>
+    <label>Thornscale Warrior Apparel</label>
+    <description>Intimidating warrior gear of the Thornscale clan, featuring ritualistic war paint, spiked armor elements, and designs that project strength and fearsome reputation in battle.</description>
+    <apparelTags>
+      <li>ArgonianApparel</li>
+      <li>ThornscaleClanApparel</li>
+    </apparelTags>
+    <requiredApparel>
+      <li>Apparel_ThornscaleWarPaint</li>
+      <li>Apparel_HistBarkArmor</li>
+    </requiredApparel>
+  </StyleCategoryDef>
+
+  <!-- Glade Runner Scout Apparel Style -->
+  <StyleCategoryDef>
+    <defName>GladeRunnerScoutApparel</defName>
+    <label>Glade Runner Scout Apparel</label>
+    <description>Practical scouting gear of the Glade Runners, featuring lightweight materials, camouflage patterns suitable for marsh terrain, and designs optimized for mobility and stealth reconnaissance.</description>
+    <apparelTags>
+      <li>ArgonianApparel</li>
+      <li>GladeRunnersApparel</li>
+    </apparelTags>
+    <requiredApparel>
+      <li>Apparel_MarshWalkerBoots</li>
+    </requiredApparel>
+  </StyleCategoryDef>
+
+  <!-- Root-Whisper Ancient Apparel Style -->
+  <StyleCategoryDef>
+    <defName>RootWhisperAncientApparel</defName>
+    <label>Root-Whisper Ancient Apparel</label>
+    <description>Ancient traditional clothing of the Root-Whisper tribe, featuring primitive but sophisticated designs using only natural materials and traditional dyeing methods passed down through generations.</description>
+    <apparelTags>
+      <li>ArgonianApparel</li>
+      <li>RootWhisperTribeApparel</li>
+    </apparelTags>
+    <requiredApparel>
+      <li>Apparel_HistCommunionRobes</li>
+    </requiredApparel>
+  </StyleCategoryDef>
+
+</Defs>

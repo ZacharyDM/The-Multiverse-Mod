@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Saxhleel Traditional Weapon Style -->
+  <StyleCategoryDef>
+    <defName>SaxhleelTraditionalWeapons</defName>
+    <label>Saxhleel Traditional Weapons</label>
+    <description>Traditional Saxhleel weapons crafted from sacred Hist wood and blessed materials, featuring organic curves and natural motifs that reflect the deep connection to Black Marsh's environment.</description>
+    <weaponTags>
+      <li>ArgonianWeapon</li>
+      <li>SaxhleelWeapon</li>
+    </weaponTags>
+    <requiredWeapons>
+      <li>MeleeWeapon_HistWoodSpear</li>
+      <li>Bow_MarshBow</li>
+    </requiredWeapons>
+  </StyleCategoryDef>
+
+  <!-- An-Xileel Militant Weapon Style -->
+  <StyleCategoryDef>
+    <defName>AnXileelMilitantWeapons</defName>
+    <label>An-Xileel Militant Weapons</label>
+    <description>Military weapons of the An-Xileel, designed for guerrilla warfare and featuring practical, efficient designs with tactical modifications suitable for marsh combat operations.</description>
+    <weaponTags>
+      <li>ArgonianWeapon</li>
+      <li>AnXileelWeapon</li>
+    </weaponTags>
+    <requiredWeapons>
+      <li>MeleeWeapon_HistWoodSpear</li>
+      <li>Bow_MarshBow</li>
+    </requiredWeapons>
+  </StyleCategoryDef>
+
+  <!-- Shadowscale Hidden Weapon Style -->
+  <StyleCategoryDef>
+    <defName>ShadowscaleHiddenWeapons</defName>
+    <label>Shadowscale Hidden Weapons</label>
+    <description>Concealed weapons of the Shadowscales, featuring curved blades, toxin applications, and designs optimized for stealth kills and silent elimination of targets.</description>
+    <weaponTags>
+      <li>ArgonianWeapon</li>
+      <li>ShadowscalesWeapon</li>
+    </weaponTags>
+    <requiredWeapons>
+      <li>MeleeWeapon_ShadowscaleDagger</li>
+    </requiredWeapons>
+  </StyleCategoryDef>
+
+  <!-- Hist Keeper Sacred Weapon Style -->
+  <StyleCategoryDef>
+    <defName>HistKeeperSacredWeapons</defName>
+    <label>Hist Keeper Sacred Weapons</label>
+    <description>Sacred implements of the Hist Keepers, featuring living wood construction, crystallized Hist sap focuses, and designs that channel spiritual energy and natural healing power.</description>
+    <weaponTags>
+      <li>ArgonianWeapon</li>
+      <li>HistKeepersWeapon</li>
+    </weaponTags>
+    <requiredWeapons>
+      <li>MeleeWeapon_HistCommunionStaff</li>
+      <li>MeleeWeapon_HistWoodSpear</li>
+    </requiredWeapons>
+  </StyleCategoryDef>
+
+  <!-- Thornscale Warrior Weapon Style -->
+  <StyleCategoryDef>
+    <defName>ThornscaleWarriorWeapons</defName>
+    <label>Thornscale Warrior Weapons</label>
+    <description>Brutal weapons of the Thornscale clan, featuring intimidating spikes, heavy construction, and designs meant to project strength and inspire fear in enemies during combat.</description>
+    <weaponTags>
+      <li>ArgonianWeapon</li>
+      <li>ThornscaleClanWeapon</li>
+    </weaponTags>
+    <requiredWeapons>
+      <li>MeleeWeapon_NagaWarClub</li>
+    </requiredWeapons>
+  </StyleCategoryDef>
+
+  <!-- Glade Runner Scout Weapon Style -->
+  <StyleCategoryDef>
+    <defName>GladeRunnerScoutWeapons</defName>
+    <label>Glade Runner Scout Weapons</label>
+    <description>Practical weapons of the Glade Runners, featuring lightweight construction, enhanced accuracy, and designs optimized for long-range reconnaissance and mobile combat operations.</description>
+    <weaponTags>
+      <li>ArgonianWeapon</li>
+      <li>GladeRunnersWeapon</li>
+    </weaponTags>
+    <requiredWeapons>
+      <li>Bow_MarshBow</li>
+      <li>MeleeWeapon_HistWoodSpear</li>
+    </requiredWeapons>
+  </StyleCategoryDef>
+
+  <!-- Root-Whisper Ancient Weapon Style -->
+  <StyleCategoryDef>
+    <defName>RootWhisperAncientWeapons</defName>
+    <label>Root-Whisper Ancient Weapons</label>
+    <description>Ancient weapons of the Root-Whisper tribe, featuring primitive but sophisticated craftsmanship using only traditional materials and techniques passed down through countless generations.</description>
+    <weaponTags>
+      <li>ArgonianWeapon</li>
+      <li>RootWhisperTribeWeapon</li>
+    </weaponTags>
+    <requiredWeapons>
+      <li>MeleeWeapon_HistWoodSpear</li>
+    </requiredWeapons>
+  </StyleCategoryDef>
+
+</Defs>

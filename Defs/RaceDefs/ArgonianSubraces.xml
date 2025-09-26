@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+
+  <!-- Saxhleel - Standard Argonians -->
+  <ThingDef ParentName="BeastRaceBase">
+    <defName>ArgonianSaxhleel</defName>
+    <label>saxhleel</label>
+    <description>The most common subrace of Argonians, the Saxhleel are the standard marsh-dwelling lizard-folk connected to the Hist trees. They possess excellent disease resistance and natural healing abilities.</description>
+    <race>
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <weight>35</weight>
+            <only>(0.4, 0.6, 0.3, 1)</only> <!-- Green -->
+          </li>
+          <li>
+            <weight>25</weight>
+            <only>(0.5, 0.4, 0.2, 1)</only> <!-- Brown -->
+          </li>
+          <li>
+            <weight>20</weight>
+            <only>(0.3, 0.5, 0.5, 1)</only> <!-- Teal -->
+          </li>
+          <li>
+            <weight>15</weight>
+            <only>(0.6, 0.5, 0.2, 1)</only> <!-- Yellow-brown -->
+          </li>
+          <li>
+            <weight>5</weight>
+            <only>(0.2, 0.2, 0.4, 1)</only> <!-- Blue-grey -->
+          </li>
+        </options>
+      </colorGenerator>
+      <baseBodySize>1.0</baseBodySize>
+      <forcedTraits>
+        <li>SaxhleelAdaptation</li>
+        <li>RestorationMastery</li>
+        <li>MysticismMastery</li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MoveSpeed>4.7</MoveSpeed>
+      <MarketValue>3300</MarketValue>
+      <ShootingAccuracyPawn>0.03</ShootingAccuracyPawn>
+      <MeleeHitChance>0.04</MeleeHitChance>
+      <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+      <ComfyTemperatureMax>50</ComfyTemperatureMax>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/ArgonianSaxhleel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <!-- Naga - Serpentine Argonians -->
+  <ThingDef ParentName="BeastRaceBase">
+    <defName>ArgonianNaga</defName>
+    <label>naga</label>
+    <description>Large, serpentine Argonians with powerful tails and more snake-like features. They are natural swimmers and possess enhanced physical strength at the cost of some agility.</description>
+    <race>
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <weight>40</weight>
+            <only>(0.3, 0.5, 0.2, 1)</only> <!-- Dark green -->
+          </li>
+          <li>
+            <weight>25</weight>
+            <only>(0.4, 0.3, 0.2, 1)</only> <!-- Brown -->
+          </li>
+          <li>
+            <weight>20</weight>
+            <only>(0.2, 0.4, 0.4, 1)</only> <!-- Dark teal -->
+          </li>
+          <li>
+            <weight>10</weight>
+            <only>(0.5, 0.4, 0.1, 1)</only> <!-- Olive -->
+          </li>
+          <li>
+            <weight>5</weight>
+            <only>(0.1, 0.1, 0.3, 1)</only> <!-- Dark blue -->
+          </li>
+        </options>
+      </colorGenerator>
+      <baseBodySize>1.3</baseBodySize>
+      <healthScale>1.2</healthScale>
+      <forcedTraits>
+        <li>NagaSerpentine</li>
+        <li>RestorationMastery</li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MoveSpeed>4.2</MoveSpeed>
+      <MarketValue>3600</MarketValue>
+      <ShootingAccuracyPawn>0.02</ShootingAccuracyPawn>
+      <MeleeHitChance>0.06</MeleeHitChance>
+      <ComfyTemperatureMin>-3</ComfyTemperatureMin>
+      <ComfyTemperatureMax>55</ComfyTemperatureMax>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/ArgonianNaga</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <!-- Sarpa - Humanoid Argonians -->
+  <ThingDef ParentName="BeastRaceBase">
+    <defName>ArgonianSarpa</defName>
+    <label>sarpa</label>
+    <description>More humanoid Argonians with proportions closer to humans but retaining reptilian features. They excel in social situations and intellectual pursuits while maintaining their racial disease resistance.</description>
+    <race>
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <weight>30</weight>
+            <only>(0.5, 0.6, 0.4, 1)</only> <!-- Light green -->
+          </li>
+          <li>
+            <weight>25</weight>
+            <only>(0.6, 0.5, 0.3, 1)</only> <!-- Light brown -->
+          </li>
+          <li>
+            <weight>20</weight>
+            <only>(0.4, 0.5, 0.5, 1)</only> <!-- Teal -->
+          </li>
+          <li>
+            <weight>15</weight>
+            <only>(0.7, 0.6, 0.3, 1)</only> <!-- Golden -->
+          </li>
+          <li>
+            <weight>10</weight>
+            <only>(0.3, 0.3, 0.5, 1)</only> <!-- Blue-grey -->
+          </li>
+        </options>
+      </colorGenerator>
+      <baseBodySize>0.95</baseBodySize>
+      <forcedTraits>
+        <li>SarpaIntellect</li>
+        <li>RestorationMastery</li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MoveSpeed>4.8</MoveSpeed>
+      <MarketValue>3400</MarketValue>
+      <ShootingAccuracyPawn>0.04</ShootingAccuracyPawn>
+      <MeleeHitChance>0.03</MeleeHitChance>
+      <ComfyTemperatureMin>-8</ComfyTemperatureMin>
+      <ComfyTemperatureMax>48</ComfyTemperatureMax>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/ArgonianSarpa</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <!-- Agaceph - Chameleon Argonians -->
+  <ThingDef ParentName="BeastRaceBase">
+    <defName>ArgonianAgaceph</defName>
+    <label>agaceph</label>
+    <description>Chameleon-like Argonians with color-changing abilities and exceptional stealth capabilities. They are masters of camouflage and ambush tactics.</description>
+    <race>
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <weight>25</weight>
+            <only>(0.5, 0.5, 0.3, 1)</only> <!-- Muted green -->
+          </li>
+          <li>
+            <weight>25</weight>
+            <only>(0.4, 0.4, 0.2, 1)</only> <!-- Muted brown -->
+          </li>
+          <li>
+            <weight>20</weight>
+            <only>(0.3, 0.4, 0.4, 1)</only> <!-- Muted teal -->
+          </li>
+          <li>
+            <weight>15</weight>
+            <only>(0.5, 0.4, 0.4, 1)</only> <!-- Muted red-brown -->
+          </li>
+          <li>
+            <weight>15</weight>
+            <only>(0.4, 0.4, 0.4, 1)</only> <!-- Grey -->
+          </li>
+        </options>
+      </colorGenerator>
+      <baseBodySize>0.9</baseBodySize>
+      <forcedTraits>
+        <li>AgacephCamouflage</li>
+        <li>MysticismMastery</li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MoveSpeed>4.9</MoveSpeed>
+      <MarketValue>3800</MarketValue>
+      <ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+      <MeleeHitChance>0.05</MeleeHitChance>
+      <ComfyTemperatureMin>-6</ComfyTemperatureMin>
+      <ComfyTemperatureMax>52</ComfyTemperatureMax>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/ArgonianAgaceph</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <!-- Paatru - Toad-like Argonians -->
+  <ThingDef ParentName="BeastRaceBase">
+    <defName>ArgonianPaatru</defName>
+    <label>paatru</label>
+    <description>Toad-like Argonians with robust builds and exceptional constitution. They are natural laborers with incredible endurance and resistance to toxins.</description>
+    <race>
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <weight>30</weight>
+            <only>(0.4, 0.5, 0.2, 1)</only> <!-- Muddy green -->
+          </li>
+          <li>
+            <weight>30</weight>
+            <only>(0.5, 0.4, 0.3, 1)</only> <!-- Muddy brown -->
+          </li>
+          <li>
+            <weight>20</weight>
+            <only>(0.3, 0.3, 0.2, 1)</only> <!-- Dark muddy -->
+          </li>
+          <li>
+            <weight>15</weight>
+            <only>(0.5, 0.5, 0.4, 1)</only> <!-- Light muddy -->
+          </li>
+          <li>
+            <weight>5</weight>
+            <only>(0.2, 0.3, 0.3, 1)</only> <!-- Dark teal -->
+          </li>
+        </options>
+      </colorGenerator>
+      <baseBodySize>1.2</baseBodySize>
+      <healthScale>1.3</healthScale>
+      <forcedTraits>
+        <li>PaatruEndurance</li>
+        <li>RestorationMastery</li>
+      </forcedTraits>
+    </race>
+    <statBases>
+      <MoveSpeed>4.0</MoveSpeed>
+      <MarketValue>3500</MarketValue>
+      <ShootingAccuracyPawn>0.01</ShootingAccuracyPawn>
+      <MeleeHitChance>0.03</MeleeHitChance>
+      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/ArgonianPaatru</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <!-- Wamasu - Draconic Argonians -->
+  <ThingDef ParentName="BeastRaceBase">
+    <defName>ArgonianWamasu</defName>
+    <label>wamasu</label>
+    <description>Rare, draconic Argonians with vestigial wings and dragon-like features. They possess natural magical abilities and are revered among their kind as blessed by ancient draconic powers.</description>
+    <race>
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <weight>25</weight>
+            <only>(0.2, 0.4, 0.2, 1)</only> <!-- Deep green -->
+          </li>
+          <li>
+            <weight>20</weight>
+            <only>(0.4, 0.2, 0.1, 1)</only> <!-- Deep brown -->
+          </li>
+          <li>
+            <weight>20</weight>
+            <only>(0.1, 0.3, 0.4, 1)</only> <!-- Deep blue -->
+          </li>
+          <li>
+            <weight>15</weight>
+            <only>(0.5, 0.3, 0.1, 1)</only> <!-- Bronze -->
+          </li>
+          <li>
+            <weight>10</weight>
+            <only>(0.3, 0.1, 0.1, 1)</only> <!-- Deep red -->
+          </li>
+          <li>
+            <weight>10</weight>
+            <only>(0.1, 0.1, 0.1, 1)</only> <!-- Black -->
+          </li>
+        </options>
+      </colorGenerator>
+      <baseBodySize>1.1</baseBodySize>
+      <healthScale>1.1</healthScale>
+      <forcedTraits>
+        <li>WamasuDraconic</li>
+        <li>MysticismMastery</li>
+      </forcedTraits>
+      <lifeExpectancy>150</lifeExpectancy>
+    </race>
+    <statBases>
+      <MoveSpeed>4.5</MoveSpeed>
+      <MarketValue>4500</MarketValue>
+      <ShootingAccuracyPawn>0.03</ShootingAccuracyPawn>
+      <MeleeHitChance>0.04</MeleeHitChance>
+      <ComfyTemperatureMin>-12</ComfyTemperatureMin>
+      <ComfyTemperatureMax>55</ComfyTemperatureMax>
+    </statBases>
+    <graphicData>
+      <texPath>UI/Icons/ThingCategories/ArgonianWamasu</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+</ThingDefs>
