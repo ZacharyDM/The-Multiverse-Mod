@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Eight Divines Worship Precepts -->
+  <PreceptDef>
+    <defName>DivineObedience</defName>
+    <label>divine obedience</label>
+    <description>Follow the righteous path of the Eight Divines through moral conduct and lawful behavior.</description>
+    <issue>
+      <defName>DivineObedienceIssue</defName>
+      <label>divine obedience</label>
+    </issue>
+    <impact>Low</impact>
+    <displayOrderInIssue>10</displayOrderInIssue>
+    <requiredMemes>
+      <li>EightDivinesWorship</li>
+    </requiredMemes>
+    <associatedMemes>
+      <li>EightDivinesWorship</li>
+    </associatedMemes>
+    <comps>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <eventDef>KilledInnocentAnimal</eventDef>
+        <thought>DivineObedience_KilledInnocentAnimal</thought>
+      </li>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <eventDef>ExecutedPrisoner</eventDef>
+        <thought>DivineObedience_ExecutedPrisoner</thought>
+      </li>
+    </comps>
+  </PreceptDef>
+
+  <PreceptDef>
+    <defName>ScholarlyCuriosity</defName>
+    <label>scholarly curiosity</label>
+    <description>Embrace the pursuit of all knowledge, both forbidden and divine, as taught by the Prince of Knowledge.</description>
+    <issue>
+      <defName>ScholarlyCuriosityIssue</defName>
+      <label>scholarly curiosity</label>
+    </issue>
+    <impact>Medium</impact>
+    <displayOrderInIssue>10</displayOrderInIssue>
+    <requiredMemes>
+      <li>DaedricScholarship</li>
+    </requiredMemes>
+    <associatedMemes>
+      <li>DaedricScholarship</li>
+    </associatedMemes>
+    <comps>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <eventDef>Researched</eventDef>
+        <thought>ScholarlyCuriosity_Researched</thought>
+      </li>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <eventDef>DestroyedArt</eventDef>
+        <thought>ScholarlyCuriosity_DestroyedKnowledge</thought>
+      </li>
+    </comps>
+  </PreceptDef>
+
+  <PreceptDef>
+    <defName>AncestralReverence</defName>
+    <label>ancestral reverence</label>
+    <description>Honor the wisdom and traditions of our forebears, preserving their legacy through proper rites and remembrance.</description>
+    <issue>
+      <defName>AncestralReverenceIssue</defName>
+      <label>ancestral reverence</label>
+    </issue>
+    <impact>Low</impact>
+    <displayOrderInIssue>10</displayOrderInIssue>
+    <requiredMemes>
+      <li>AncestralSpirits</li>
+    </requiredMemes>
+    <associatedMemes>
+      <li>AncestralSpirits</li>
+    </associatedMemes>
+    <comps>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <eventDef>BuriedCorpse</eventDef>
+        <thought>AncestralReverence_BuriedCorpse</thought>
+      </li>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <eventDef>ObservedLayingCorpse</eventDef>
+        <thought>AncestralReverence_ObservedLayingCorpse</thought>
+      </li>
+    </comps>
+  </PreceptDef>
+
+  <!-- Worship Requirements -->
+  <PreceptDef>
+    <defName>DivineWorship_Required</defName>
+    <label>required divine worship</label>
+    <description>Regular worship of the Eight Divines is required for spiritual health and divine favor.</description>
+    <issue>
+      <defName>DivineWorshipIssue</defName>
+      <label>divine worship</label>
+    </issue>
+    <impact>Medium</impact>
+    <displayOrderInIssue>5</displayOrderInIssue>
+    <requiredMemes>
+      <li>EightDivinesWorship</li>
+    </requiredMemes>
+    <associatedMemes>
+      <li>EightDivinesWorship</li>
+    </associatedMemes>
+    <selectionWeight>1.0</selectionWeight>
+    <canUseAlternateName>false</canUseAlternateName>
+    <countsTowardsPreceptLimit>false</countsTowardsPreceptLimit>
+    <visible>false</visible>
+  </PreceptDef>
+
+  <PreceptDef>
+    <defName>KnowledgeSeeker_Required</defName>
+    <label>required knowledge seeking</label>
+    <description>Continuous pursuit of knowledge and research is required for enlightenment and service to the Daedric Prince of Knowledge.</description>
+    <issue>
+      <defName>KnowledgeSeekingIssue</defName>
+      <label>knowledge seeking</label>
+    </issue>
+    <impact>Medium</impact>
+    <displayOrderInIssue>5</displayOrderInIssue>
+    <requiredMemes>
+      <li>DaedricScholarship</li>
+    </requiredMemes>
+    <associatedMemes>
+      <li>DaedricScholarship</li>
+    </associatedMemes>
+    <selectionWeight>1.0</selectionWeight>
+    <canUseAlternateName>false</canUseAlternateName>
+    <countsTowardsPreceptLimit>false</countsTowardsPreceptLimit>
+    <visible>false</visible>
+  </PreceptDef>
+
+  <PreceptDef>
+    <defName>AncestralHonor_Required</defName>
+    <label>required ancestral honor</label>
+    <description>Proper burial rites and ancestral shrines are required to maintain connection with the spirit world.</description>
+    <issue>
+      <defName>AncestralHonorIssue</defName>
+      <label>ancestral honor</label>
+    </issue>
+    <impact>Low</impact>
+    <displayOrderInIssue>5</displayOrderInIssue>
+    <requiredMemes>
+      <li>AncestralSpirits</li>
+    </requiredMemes>
+    <associatedMemes>
+      <li>AncestralSpirits</li>
+    </associatedMemes>
+    <selectionWeight>1.0</selectionWeight>
+    <canUseAlternateName>false</canUseAlternateName>
+    <countsTowardsPreceptLimit>false</countsTowardsPreceptLimit>
+    <visible>false</visible>
+  </PreceptDef>
+
+</Defs>

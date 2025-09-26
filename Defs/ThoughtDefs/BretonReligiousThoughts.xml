@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Eight Divines Worship Thoughts -->
+  <ThoughtDef>
+    <defName>DivineObedience_KilledInnocentAnimal</defName>
+    <label>killed innocent creature</label>
+    <description>I have taken the life of an innocent creature. The Divines teach mercy and protection of the defenseless.</description>
+    <baseMoodEffect>-8</baseMoodEffect>
+    <durationDays>5</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <nullifiedOnlyByMoodCurve>true</nullifiedOnlyByMoodCurve>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>DivineObedience_ExecutedPrisoner</defName>
+    <label>executed without mercy</label>
+    <description>I executed a prisoner without showing the mercy that Stendarr teaches. Divine justice requires compassion.</description>
+    <baseMoodEffect>-12</baseMoodEffect>
+    <durationDays>8</durationDays>
+    <stackLimit>3</stackLimit>
+    <stackedEffectMultiplier>0.8</stackedEffectMultiplier>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <nullifiedOnlyByMoodCurve>true</nullifiedOnlyByMoodCurve>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>DivineWorship_Completed</defName>
+    <label>divine worship</label>
+    <description>I have communed with the Eight Divines. Their blessing fills my soul with peace and righteousness.</description>
+    <baseMoodEffect>8</baseMoodEffect>
+    <durationDays>4</durationDays>
+    <stackLimit>1</stackLimit>
+    <thoughtClass>Thought_Memory</thoughtClass>
+  </ThoughtDef>
+
+  <!-- Daedric Scholarship Thoughts -->
+  <ThoughtDef>
+    <defName>ScholarlyCuriosity_Researched</defName>
+    <label>expanded knowledge</label>
+    <description>I have expanded the boundaries of understanding. Hermaeus Mora smiles upon those who seek forbidden truths.</description>
+    <baseMoodEffect>10</baseMoodEffect>
+    <durationDays>5</durationDays>
+    <stackLimit>3</stackLimit>
+    <stackedEffectMultiplier>0.5</stackedEffectMultiplier>
+    <thoughtClass>Thought_Memory</thoughtClass>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>ScholarlyCuriosity_DestroyedKnowledge</defName>
+    <label>knowledge destroyed</label>
+    <description>Knowledge has been lost forever. The Prince of Knowledge abhors such waste of wisdom and learning.</description>
+    <baseMoodEffect>-15</baseMoodEffect>
+    <durationDays>8</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <nullifiedOnlyByMoodCurve>true</nullifiedOnlyByMoodCurve>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>ForbiddenKnowledge_Gained</defName>
+    <label>forbidden knowledge gained</label>
+    <description>I have learned secrets that were meant to remain hidden. The dark wisdom fills me with both excitement and dread.</description>
+    <baseMoodEffect>6</baseMoodEffect>
+    <durationDays>6</durationDays>
+    <stackLimit>3</stackLimit>
+    <stackedEffectMultiplier>0.6</stackedEffectMultiplier>
+    <thoughtClass>Thought_Memory</thoughtClass>
+  </ThoughtDef>
+
+  <!-- Ancestral Spirits Thoughts -->
+  <ThoughtDef>
+    <defName>AncestralReverence_BuriedCorpse</defName>
+    <label>honored the dead</label>
+    <description>I have given proper burial to the departed. The ancestors smile upon such reverence for the ancient ways.</description>
+    <baseMoodEffect>6</baseMoodEffect>
+    <durationDays>4</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.5</stackedEffectMultiplier>
+    <thoughtClass>Thought_Memory</thoughtClass>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>AncestralReverence_ObservedLayingCorpse</defName>
+    <label>witnessed dishonor to dead</label>
+    <description>The dead lie unburied and dishonored. The ancestors weep for such disregard of proper funeral rites.</description>
+    <baseMoodEffect>-10</baseMoodEffect>
+    <durationDays>6</durationDays>
+    <stackLimit>3</stackLimit>
+    <stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <nullifiedOnlyByMoodCurve>true</nullifiedOnlyByMoodCurve>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>AncestralWisdom_Received</defName>
+    <label>ancestral guidance</label>
+    <description>I have received wisdom from the spirits of my forebears. Their ancient knowledge guides my path.</description>
+    <baseMoodEffect>8</baseMoodEffect>
+    <durationDays>5</durationDays>
+    <stackLimit>1</stackLimit>
+    <thoughtClass>Thought_Memory</thoughtClass>
+  </ThoughtDef>
+
+  <!-- Social Thoughts for Religious Interactions -->
+  <ThoughtDef>
+    <defName>DivineHeretic_SocialThought</defName>
+    <label>divine heretic</label>
+    <description>This person follows false gods and rejects the righteous path of the Eight Divines.</description>
+    <baseMoodEffect>-15</baseMoodEffect>
+    <stackLimit>1</stackLimit>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <maxCumulatedOpinionOffset>-40</maxCumulatedOpinionOffset>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>KnowledgeSeeker_SocialThought</defName>
+    <label>fellow seeker</label>
+    <description>This person also pursues the path of knowledge and understanding. We share the same thirst for wisdom.</description>
+    <baseMoodEffect>8</baseMoodEffect>
+    <stackLimit>1</stackLimit>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <maxCumulatedOpinionOffset>25</maxCumulatedOpinionOffset>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>AncestralKin_SocialThought</defName>
+    <label>ancestral kin</label>
+    <description>This person honors the ancient ways and shows proper reverence to the spirits of the dead.</description>
+    <baseMoodEffect>6</baseMoodEffect>
+    <stackLimit>1</stackLimit>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <maxCumulatedOpinionOffset>20</maxCumulatedOpinionOffset>
+  </ThoughtDef>
+
+</Defs>

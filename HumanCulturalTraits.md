@@ -72,6 +72,60 @@ The Human Cultural Traits system adds 13 distinct cultural frameworks representi
 - **Bonuses**: Social impact, trade improvement, negotiation ability
 - **Lore**: Represents High Rock's complex feudal nobility system
 
+### Daggerfall Kingdom Heritage
+- **Focus**: Political power and commercial influence of High Rock's greatest city-state
+- **Skills**: Social +4, Intellectual +3, Artistic +2, Shooting +1
+- **Bonuses**: Superior social impact, trade prices, negotiation, mental resilience
+- **Lore**: Represents citizens of the powerful Kingdom of Daggerfall
+
+### Wayrest Kingdom Heritage
+- **Focus**: Merchant princes and extensive trade networks
+- **Skills**: Social +4, Intellectual +2, Crafting +2, Artistic +2
+- **Bonuses**: Superior trade prices, social impact, work speed, negotiation
+- **Lore**: Represents citizens of the wealthy Kingdom of Wayrest
+
+### Camlorn Kingdom Heritage
+- **Focus**: Agricultural prosperity and traditional customs
+- **Skills**: Plants +4, Construction +3, Animals +3, Social +2
+- **Bonuses**: Plant harvest yield, work speed, mental resilience, animal gathering
+- **Lore**: Represents citizens of the traditional Kingdom of Camlorn
+
+### Northpoint Kingdom Heritage
+- **Focus**: Maritime mastery and naval warfare
+- **Skills**: Shooting +4, Animals +3, Social +2, Melee +2
+- **Bonuses**: Shooting accuracy, movement speed, animal gathering, social impact
+- **Lore**: Represents citizens of the maritime Kingdom of Northpoint
+
+### Evermore Kingdom Heritage
+- **Focus**: Frontier survival and military discipline
+- **Skills**: Melee +4, Shooting +3, Animals +2, Construction +2
+- **Bonuses**: Melee accuracy, shooting accuracy, mental resilience, work speed
+- **Lore**: Represents citizens of the frontier Kingdom of Evermore
+
+### River Horse Bretons
+- **Focus**: Mysterious aquatic bloodline with water magic affinity
+- **Skills**: Medicine +4, Intellectual +3, Animals +3, Social +2
+- **Bonuses**: Medical quality, psychic sensitivity, animal gathering, research speed
+- **Lore**: Represents the rare River Horse people bloodline
+
+### Hillmen Bretons
+- **Focus**: Highland clans maintaining ancient independence
+- **Skills**: Melee +4, Mining +3, Construction +3, Plants +2
+- **Bonuses**: Melee damage, mining yield, cold resistance, mental resilience
+- **Lore**: Represents the mountain clans of High Rock's highlands
+
+### Reachmen Bretons
+- **Focus**: Mixed ancestry with savage survival instincts
+- **Skills**: Melee +3, Medicine +3, Plants +3, Intellectual +2
+- **Bonuses**: Melee accuracy, plant harvest, psychic sensitivity, mental resilience
+- **Lore**: Represents Bretons with mixed Reachmen tribal ancestry
+
+### Bjoulsae River Folk
+- **Focus**: River commerce and interconnected trade networks
+- **Skills**: Social +3, Animals +3, Crafting +3, Intellectual +2
+- **Bonuses**: Trade prices, animal gathering, work speed, social impact
+- **Lore**: Represents communities along the great Bjoulsae River
+
 ## Nord Cultural Traits
 
 ### Nordic Clan Heritage

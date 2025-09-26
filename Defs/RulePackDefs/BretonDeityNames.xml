@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Breton Deity Name Generator -->
+  <RulePackDef>
+    <defName>BretonDeityNames</defName>
+    <rulePack>
+      <rulesStrings>
+        <!-- Eight Divines Traditional Names -->
+        <li>Akatosh->[ak_title]</li>
+        <li>Arkay->[arkay_title]</li>
+        <li>Dibella->[dibella_title]</li>
+        <li>Julianos->[julianos_title]</li>
+        <li>Kynareth->[kynareth_title]</li>
+        <li>Mara->[mara_title]</li>
+        <li>Stendarr->[stendarr_title]</li>
+        <li>Zenithar->[zenithar_title]</li>
+
+        <!-- Daedric Prince Names -->
+        <li>HermaeusMore->[herma_title]</li>
+        <li>Azura->[azura_title]</li>
+        <li>Nocturnal->[nocturnal_title]</li>
+
+        <!-- Ancestral Spirit Names -->
+        <li>bretonancestor->[ancestor_first] [ancestor_title]</li>
+        <li>bretonancestor->[noble_name] the [noble_epithet]</li>
+        <li>bretonancestor->[ancestor_first] [surname]</li>
+
+        <!-- Divine Titles -->
+        <li>ak_title->the Dragon God</li>
+        <li>ak_title->Father Time</li>
+        <li>ak_title->the First</li>
+        <li>ak_title->the Time Dragon</li>
+
+        <li>arkay_title->the God of Death</li>
+        <li>arkay_title->Lord of the Cycle</li>
+        <li>arkay_title->the Life-Death God</li>
+        <li>arkay_title->Guardian of Souls</li>
+
+        <li>dibella_title->the Goddess of Beauty</li>
+        <li>dibella_title->Lady of Love</li>
+        <li>dibella_title->the Passionate</li>
+        <li>dibella_title->Mother of Arts</li>
+
+        <li>julianos_title->God of Wisdom</li>
+        <li>julianos_title->the Scholar</li>
+        <li>julianos_title->Lord of Logic</li>
+        <li>julianos_title->the Sage</li>
+
+        <li>kynareth_title->Goddess of Air</li>
+        <li>kynareth_title->Lady of Heavens</li>
+        <li>kynareth_title->the Wind Mother</li>
+        <li>kynareth_title->Guardian of Nature</li>
+
+        <li>mara_title->Goddess of Love</li>
+        <li>mara_title->Divine Mother</li>
+        <li>mara_title->the Compassionate</li>
+        <li>mara_title->Lady of Hearts</li>
+
+        <li>stendarr_title->God of Mercy</li>
+        <li>stendarr_title->the Just</li>
+        <li>stendarr_title->Divine Protector</li>
+        <li>stendarr_title->Lord of Justice</li>
+
+        <li>zenithar_title->God of Work</li>
+        <li>zenithar_title->the Provider</li>
+        <li>zenithar_title->Lord of Commerce</li>
+        <li>zenithar_title->Divine Merchant</li>
+
+        <!-- Daedric Titles -->
+        <li>herma_title->the Woodland Man</li>
+        <li>herma_title->Keeper of Knowledge</li>
+        <li>herma_title->the Gardener of Men</li>
+        <li>herma_title->Lord of Forbidden Secrets</li>
+
+        <li>azura_title->the Twilight Queen</li>
+        <li>azura_title->Mother of the Rose</li>
+        <li>azura_title->Lady of Dawn and Dusk</li>
+        <li>azura_title->Queen of the Night Sky</li>
+
+        <li>nocturnal_title->Lady of Shadows</li>
+        <li>nocturnal_title->the Night Mistress</li>
+        <li>nocturnal_title->Ur-dra of Darkness</li>
+        <li>nocturnal_title->the Unfathomable</li>
+
+        <!-- Ancestral Names -->
+        <li>ancestor_first->Aelred</li>
+        <li>ancestor_first->Brandr</li>
+        <li>ancestor_first->Corentin</li>
+        <li>ancestor_first->Dermot</li>
+        <li>ancestor_first->Edric</li>
+        <li>ancestor_first->Finn</li>
+        <li>ancestor_first->Gareth</li>
+        <li>ancestor_first->Hadric</li>
+        <li>ancestor_first->Iorwerth</li>
+        <li>ancestor_first->Jowan</li>
+        <li>ancestor_first->Kennard</li>
+        <li>ancestor_first->Llywelyn</li>
+        <li>ancestor_first->Morcant</li>
+        <li>ancestor_first->Niall</li>
+        <li>ancestor_first->Owen</li>
+        <li>ancestor_first->Padrig</li>
+        <li>ancestor_first->Rhys</li>
+        <li>ancestor_first->Seward</li>
+        <li>ancestor_first->Tristan</li>
+        <li>ancestor_first->Ulric</li>
+
+        <li>noble_name->Lord Aldric</li>
+        <li>noble_name->Baron Godwin</li>
+        <li>noble_name->Duke Casimir</li>
+        <li>noble_name->Earl Lysander</li>
+        <li>noble_name->Sir Godfrey</li>
+        <li>noble_name->Count Roderick</li>
+        <li>noble_name->Lord Commander Aldwin</li>
+        <li>noble_name->High King Emeric</li>
+
+        <li>ancestor_title->the Founder</li>
+        <li>ancestor_title->the Wise</li>
+        <li>ancestor_title->the First-Born</li>
+        <li>ancestor_title->the Ancient</li>
+        <li>ancestor_title->the Blessed</li>
+        <li>ancestor_title->the Guide</li>
+        <li>ancestor_title->the Protector</li>
+        <li>ancestor_title->the Noble</li>
+
+        <li>noble_epithet->Wise</li>
+        <li>noble_epithet->Bold</li>
+        <li>noble_epithet->Just</li>
+        <li>noble_epithet->Noble</li>
+        <li>noble_epithet->True</li>
+        <li>noble_epithet->Great</li>
+        <li>noble_epithet->Righteous</li>
+        <li>noble_epithet->Ancient</li>
+
+        <li>surname->de Montfort</li>
+        <li>surname->de Wayrest</li>
+        <li>surname->of Daggerfall</li>
+        <li>surname->of Camlorn</li>
+        <li>surname->Longsword</li>
+        <li>surname->Goldenplow</li>
+        <li>surname->Silverquill</li>
+        <li>surname->Ironhammer</li>
+        <li>surname->Brightblade</li>
+        <li>surname->Starweaver</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>
