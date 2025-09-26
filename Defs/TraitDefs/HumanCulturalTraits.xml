@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Imperial Cultural Traits -->
+  
+  <!-- Colovian Heritage - Western Cyrodiil culture -->
+  <TraitDef>
+    <defName>ColovianHeritage</defName>
+    <label>Colovian Heritage</label>
+    <description>This Imperial comes from the western highlands of Cyrodiil, possessing the martial traditions and simple values of the Colovian Estates. Colovians are known for their military prowess and straightforward nature.</description>
+    <degreeDatas>
+      <li>
+        <label>Colovian Highlander</label>
+        <description>Raised in the military traditions of western Cyrodiil, this pawn values honor, duty, and martial excellence.</description>
+        <skillGains>
+          <Melee>3</Melee>
+          <Shooting>2</Shooting>
+          <Construction>2</Construction>
+          <Social>1</Social>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.04</MeleeHitChance>
+          <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+          <WorkSpeedGlobal>0.03</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.1</biostatCpxFactor>
+    <exclusionTags>
+      <li>ImperialCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Nibenese Heritage - Eastern Cyrodiil culture -->
+  <TraitDef>
+    <defName>NibeneseHeritage</defName>
+    <label>Nibenese Heritage</label>
+    <description>This Imperial comes from the eastern heartlands of Cyrodiil, possessing the sophisticated culture and mercantile traditions of the Nibenay Valley. Nibenese are known for their cosmopolitan outlook and magical aptitude.</description>
+    <degreeDatas>
+      <li>
+        <label>Nibenese Cosmopolitan</label>
+        <description>Raised in the sophisticated culture of eastern Cyrodiil, this pawn excels in commerce, diplomacy, and scholarly pursuits.</description>
+        <skillGains>
+          <Social>4</Social>
+          <Intellectual>3</Intellectual>
+          <Artistic>2</Artistic>
+          <Medicine>1</Medicine>
+        </skillGains>
+        <statOffsets>
+          <TradePriceImprovement>0.12</TradePriceImprovement>
+          <SocialImpact>0.08</SocialImpact>
+          <ResearchSpeed>0.05</ResearchSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.15</biostatCpxFactor>
+    <exclusionTags>
+      <li>ImperialCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Imperial Legion Tradition -->
+  <TraitDef>
+    <defName>ImperialLegionTradition</defName>
+    <label>Imperial Legion Heritage</label>
+    <description>This Imperial comes from a family with a long tradition of service in the Imperial Legion, possessing the discipline, loyalty, and tactical knowledge of the Empire's military elite.</description>
+    <degreeDatas>
+      <li>
+        <label>Legion Veteran</label>
+        <description>Born into a military family, this pawn has been raised with the discipline and tactical knowledge of the Imperial Legion.</description>
+        <skillGains>
+          <Melee>3</Melee>
+          <Shooting>3</Shooting>
+          <Social>2</Social>
+          <Construction>2</Construction>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.05</MeleeHitChance>
+          <ShootingAccuracyPawn>0.03</ShootingAccuracyPawn>
+          <MentalBreakThreshold>-0.06</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.2</biostatCpxFactor>
+  </TraitDef>
+
+  <!-- Redguard Cultural Traits -->
+  
+  <!-- Forebear Tradition - Ra Gada descendants -->
+  <TraitDef>
+    <defName>ForebearTradition</defName>
+    <label>Forebear Heritage</label>
+    <description>This Redguard follows the Forebear traditions of the Ra Gada settlers, emphasizing adaptability, trade, and integration with other cultures while maintaining their warrior heritage.</description>
+    <degreeDatas>
+      <li>
+        <label>Ra Gada Descendant</label>
+        <description>Descended from the original Ra Gada warriors, this pawn balances martial prowess with adaptability and commerce.</description>
+        <skillGains>
+          <Melee>3</Melee>
+          <Social>3</Social>
+          <Shooting>2</Shooting>
+          <Intellectual>1</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.03</MeleeHitChance>
+          <TradePriceImprovement>0.08</TradePriceImprovement>
+          <SocialImpact>0.06</SocialImpact>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.15</biostatCpxFactor>
+    <exclusionTags>
+      <li>RedguardCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Crown Tradition - Noble traditionalists -->
+  <TraitDef>
+    <defName>CrownTradition</defName>
+    <label>Crown Heritage</label>
+    <description>This Redguard follows the Crown traditions of ancient nobility, emphasizing honor, traditional values, and the preservation of ancient Yokudan culture and martial arts.</description>
+    <degreeDatas>
+      <li>
+        <label>Noble Traditionalist</label>
+        <description>Born into the ancient Crown nobility, this pawn upholds the traditional ways of Yokuda and the old sword-singing arts.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Social>2</Social>
+          <Artistic>2</Artistic>
+          <Intellectual>2</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageFactor>0.08</MeleeDamageFactor>
+          <MeleeHitChance>0.05</MeleeHitChance>
+          <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.2</biostatCpxFactor>
+    <exclusionTags>
+      <li>RedguardCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Sword-singing Heritage -->
+  <TraitDef>
+    <defName>SwordSingingHeritage</defName>
+    <label>Sword-singing Tradition</label>
+    <description>This Redguard comes from a lineage that preserves the ancient art of sword-singing, the mystical warrior tradition that once split atoms with blade-work.</description>
+    <degreeDatas>
+      <li>
+        <label>Sword-singer Initiate</label>
+        <description>Trained in the remnants of the ancient sword-singing arts, this pawn possesses exceptional blade mastery and spiritual discipline.</description>
+        <skillGains>
+          <Melee>5</Melee>
+          <Intellectual>2</Intellectual>
+          <Social>1</Social>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageFactor>0.12</MeleeDamageFactor>
+          <MeleeHitChance>0.08</MeleeHitChance>
+          <MeleeDodgeChance>0.05</MeleeDodgeChance>
+          <PsychicSensitivity>0.1</PsychicSensitivity>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.3</biostatCpxFactor>
+  </TraitDef>
+
+  <!-- Breton Cultural Traits -->
+  
+  <!-- Breton Knightly Orders -->
+  <TraitDef>
+    <defName>BretonKnightlyOrder</defName>
+    <label>Knightly Order Heritage</label>
+    <description>This Breton belongs to one of High Rock's many knightly orders, possessing the chivalric code, martial training, and noble ideals of Breton feudal society.</description>
+    <degreeDatas>
+      <li>
+        <label>Knight-Errant</label>
+        <description>Trained in the chivalric traditions of High Rock's knightly orders, this pawn follows a code of honor and martial excellence.</description>
+        <skillGains>
+          <Melee>3</Melee>
+          <Social>3</Social>
+          <Intellectual>2</Intellectual>
+          <Construction>1</Construction>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.04</MeleeHitChance>
+          <SocialImpact>0.06</SocialImpact>
+          <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.15</biostatCpxFactor>
+  </TraitDef>
+
+  <!-- Breton Mages Guild Heritage -->
+  <TraitDef>
+    <defName>BretonMagesTradition</defName>
+    <label>Mages Guild Heritage</label>
+    <description>This Breton comes from a family with strong ties to the magical institutions of High Rock, possessing deep knowledge of the arcane arts and scholarly traditions.</description>
+    <degreeDatas>
+      <li>
+        <label>Guild Magister</label>
+        <description>Raised in the magical traditions of High Rock, this pawn possesses exceptional knowledge of the arcane arts and scholarly methods.</description>
+        <skillGains>
+          <Intellectual>4</Intellectual>
+          <Medicine>3</Medicine>
+          <Artistic>2</Artistic>
+          <Social>1</Social>
+        </skillGains>
+        <statOffsets>
+          <ResearchSpeed>0.10</ResearchSpeed>
+          <PsychicSensitivity>-0.15</PsychicSensitivity>
+          <MedicalTendQuality>0.05</MedicalTendQuality>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.2</biostatCpxFactor>
+  </TraitDef>
+
+  <!-- Breton Feudal Noble Heritage -->
+  <TraitDef>
+    <defName>BretonFeudalNoble</defName>
+    <label>Feudal Noble Heritage</label>
+    <description>This Breton comes from the fractured nobility of High Rock, possessing the political acumen, cultural refinement, and leadership skills of the feudal aristocracy.</description>
+    <degreeDatas>
+      <li>
+        <label>Feudal Lord</label>
+        <description>Born into High Rock's complex feudal system, this pawn excels in politics, culture, and the art of leadership.</description>
+        <skillGains>
+          <Social>4</Social>
+          <Artistic>3</Artistic>
+          <Intellectual>2</Intellectual>
+          <Melee>1</Melee>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.10</SocialImpact>
+          <TradePriceImprovement>0.06</TradePriceImprovement>
+          <NegotiationAbility>0.08</NegotiationAbility>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.15</biostatCpxFactor>
+  </TraitDef>
+
+  <!-- Nord Cultural Traits -->
+  
+  <!-- Nordic Clan Heritage -->
+  <TraitDef>
+    <defName>NordicClanHeritage</defName>
+    <label>Nordic Clan Heritage</label>
+    <description>This Nord belongs to one of Skyrim's ancient clans, possessing the warrior traditions, honor code, and survival skills passed down through generations of harsh northern living.</description>
+    <degreeDatas>
+      <li>
+        <label>Clan Warrior</label>
+        <description>Born into one of Skyrim's ancient clans, this pawn carries the warrior traditions and survival wisdom of their ancestors.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Construction>3</Construction>
+          <Animals>2</Animals>
+          <Mining>2</Mining>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.05</MeleeHitChance>
+          <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+          <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+          <WorkSpeedGlobal>0.04</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.2</biostatCpxFactor>
+  </TraitDef>
+
+  <!-- Thu'um Heritage -->
+  <TraitDef>
+    <defName>ThuumHeritage</defName>
+    <label>Thu'um Heritage</label>
+    <description>This Nord comes from a bloodline with ancient ties to the Thu'um, the dragon-speech of old Skyrim. While few can truly master the Voice, this heritage grants spiritual strength and leadership qualities.</description>
+    <degreeDatas>
+      <li>
+        <label>Voice-Blessed</label>
+        <description>Born with traces of the ancient Thu'um in their blood, this pawn possesses natural leadership and spiritual strength.</description>
+        <skillGains>
+          <Social>3</Social>
+          <Intellectual>2</Intellectual>
+          <Melee>2</Melee>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.08</SocialImpact>
+          <PsychicSensitivity>0.05</PsychicSensitivity>
+          <MentalBreakThreshold>-0.06</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.25</biostatCpxFactor>
+  </TraitDef>
+
+  <!-- Atmoran Legacy -->
+  <TraitDef>
+    <defName>AtmoranLegacy</defName>
+    <label>Atmoran Legacy</label>
+    <description>This Nord can trace their lineage back to the original Atmoran settlers who followed Ysgramor to Skyrim, possessing the ancient traditions and fierce independence of the first Nords.</description>
+    <degreeDatas>
+      <li>
+        <label>Atmoran Descendant</label>
+        <description>Descended from Ysgramor's companions, this pawn carries the ancient traditions and indomitable spirit of the first Nords.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Construction>3</Construction>
+          <Social>2</Social>
+          <Shooting>2</Shooting>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageFactor>0.06</MeleeDamageFactor>
+          <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+          <ComfyTemperatureMin>-8</ComfyTemperatureMin>
+          <MentalBreakThreshold>-0.07</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.2</biostatCpxFactor>
+  </TraitDef>
+
+  <!-- Nordic Skald Tradition -->
+  <TraitDef>
+    <defName>NordicSkaldTradition</defName>
+    <label>Nordic Skald Heritage</label>
+    <description>This Nord comes from the bardic tradition of the skalds, the storytellers and musicians who preserve Nordic culture and history through song and tale.</description>
+    <degreeDatas>
+      <li>
+        <label>Wandering Skald</label>
+        <description>Trained in the ancient bardic traditions of Skyrim, this pawn excels in storytelling, music, and preserving cultural knowledge.</description>
+        <skillGains>
+          <Artistic>4</Artistic>
+          <Social>3</Social>
+          <Intellectual>3</Intellectual>
+          <Medicine>1</Medicine>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.10</SocialImpact>
+          <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+          <NegotiationAbility>0.06</NegotiationAbility>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.15</biostatCpxFactor>
+  </TraitDef>
+
+</Defs>
