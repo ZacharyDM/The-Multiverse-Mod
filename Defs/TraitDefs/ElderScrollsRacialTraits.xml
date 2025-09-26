@@ -111,6 +111,30 @@
     </degreeDatas>
   </TraitDef>
 
+  <!-- Yokudan Ancestry - Additional Redguard racial trait -->
+  <TraitDef>
+    <defName>YokudanAncestry</defName>
+    <label>Yokudan Ancestry</label>
+    <description>This Redguard carries the ancient bloodline of Yokuda, the sunken continent. This heritage grants spiritual resilience and traces of the old sword-singing traditions.</description>
+    <degreeDatas>
+      <li>
+        <label>Ancient Bloodline</label>
+        <description>Born with the ancient Yokudan bloodline, this pawn possesses enhanced spiritual strength and traces of mystical warrior traditions.</description>
+        <skillGains>
+          <Melee>2</Melee>
+          <Intellectual>1</Intellectual>
+          <Social>1</Social>
+        </skillGains>
+        <statOffsets>
+          <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+          <PsychicSensitivity>0.05</PsychicSensitivity>
+          <MeleeDodgeChance>0.02</MeleeDodgeChance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.1</biostatCpxFactor>
+  </TraitDef>
+
   <!-- Imperial Racial Trait -->
   <TraitDef>
     <defName>ImperialDiplomacy</defName>

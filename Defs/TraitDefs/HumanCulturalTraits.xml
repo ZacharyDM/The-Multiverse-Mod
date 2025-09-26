@@ -144,6 +144,35 @@
     </exclusionTags>
   </TraitDef>
 
+  <!-- Na-Totambu Tradition - Ancient noble houses -->
+  <TraitDef>
+    <defName>NaTotambuTradition</defName>
+    <label>Na-Totambu Heritage</label>
+    <description>This Redguard descends from the ancient Na-Totambu nobility of Yokuda, the royal class that ruled before the Ra Gada migration. They maintain the most ancient traditions and pure bloodlines.</description>
+    <degreeDatas>
+      <li>
+        <label>Ancient Noble</label>
+        <description>Born into the ancient Na-Totambu aristocracy, this pawn possesses the refined culture and pure bloodline of pre-Ra Gada nobility.</description>
+        <skillGains>
+          <Social>4</Social>
+          <Intellectual>3</Intellectual>
+          <Artistic>3</Artistic>
+          <Melee>2</Melee>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.12</SocialImpact>
+          <NegotiationAbility>0.08</NegotiationAbility>
+          <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+          <PsychicSensitivity>0.05</PsychicSensitivity>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.25</biostatCpxFactor>
+    <exclusionTags>
+      <li>RedguardCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
   <!-- Sword-singing Heritage -->
   <TraitDef>
     <defName>SwordSingingHeritage</defName>
@@ -167,6 +196,9 @@
       </li>
     </degreeDatas>
     <biostatCpxFactor>1.3</biostatCpxFactor>
+    <exclusionTags>
+      <li>RedguardCulture</li>
+    </exclusionTags>
   </TraitDef>
 
   <!-- Breton Cultural Traits -->

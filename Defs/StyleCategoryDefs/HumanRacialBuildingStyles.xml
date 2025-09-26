@@ -139,4 +139,84 @@
     </thingDefStyles>
   </StyleItemCategoryDef>
 
+  <!-- Crown Building Style - Traditional noble architecture -->
+  <StyleItemCategoryDef>
+    <defName>Crown_Buildings</defName>
+    <label>Crown buildings</label>
+    <description>Noble architecture of the Crown party, featuring traditional Yokudan designs with elaborate ceremonial elements and symbols of ancient royal heritage.</description>
+    <styleTags>
+      <li>Crown</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Things/Building/Linked/HumanRaces/Crown/Wall</Wall>
+      <Door>Things/Building/Door/HumanRaces/Crown/Door</Door>
+      <Bed>Things/Building/Furniture/HumanRaces/Crown/Bed</Bed>
+      <Table2x2c>Things/Building/Furniture/HumanRaces/Crown/Table</Table2x2c>
+      <DiningChair>Things/Building/Furniture/HumanRaces/Crown/Chair</DiningChair>
+      <Campfire>Things/Building/Misc/HumanRaces/Crown/Campfire</Campfire>
+      <Torch>Things/Building/Misc/HumanRaces/Crown/Torch</Torch>
+      <SimpleResearchBench>Things/Building/Production/HumanRaces/Crown/SimpleResearchBench</SimpleResearchBench>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Forebear Building Style - Practical Ra Gada architecture -->
+  <StyleItemCategoryDef>
+    <defName>Forebear_Buildings</defName>
+    <label>Forebear buildings</label>
+    <description>Practical architecture of the Forebear party, combining traditional Redguard elements with foreign influences and trade-focused functionality.</description>
+    <styleTags>
+      <li>Forebear</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Things/Building/Linked/HumanRaces/Forebear/Wall</Wall>
+      <Door>Things/Building/Door/HumanRaces/Forebear/Door</Door>
+      <Bed>Things/Building/Furniture/HumanRaces/Forebear/Bed</Bed>
+      <Table2x2c>Things/Building/Furniture/HumanRaces/Forebear/Table</Table2x2c>
+      <DiningChair>Things/Building/Furniture/HumanRaces/Forebear/Chair</DiningChair>
+      <Campfire>Things/Building/Misc/HumanRaces/Forebear/Campfire</Campfire>
+      <Torch>Things/Building/Misc/HumanRaces/Forebear/Torch</Torch>
+      <SimpleResearchBench>Things/Building/Production/HumanRaces/Forebear/SimpleResearchBench</SimpleResearchBench>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Na-Totambu Building Style - Ancient royal architecture -->
+  <StyleItemCategoryDef>
+    <defName>NaTotambu_Buildings</defName>
+    <label>Na-Totambu buildings</label>
+    <description>Refined architecture of the ancient Na-Totambu nobility, featuring the purest traditional Yokudan designs with elaborate royal symbolism and ceremonial elements.</description>
+    <styleTags>
+      <li>NaTotambu</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Things/Building/Linked/HumanRaces/NaTotambu/Wall</Wall>
+      <Door>Things/Building/Door/HumanRaces/NaTotambu/Door</Door>
+      <Bed>Things/Building/Furniture/HumanRaces/NaTotambu/Bed</Bed>
+      <Table2x2c>Things/Building/Furniture/HumanRaces/NaTotambu/Table</Table2x2c>
+      <DiningChair>Things/Building/Furniture/HumanRaces/NaTotambu/Chair</DiningChair>
+      <Campfire>Things/Building/Misc/HumanRaces/NaTotambu/Campfire</Campfire>
+      <Torch>Things/Building/Misc/HumanRaces/NaTotambu/Torch</Torch>
+      <SimpleResearchBench>Things/Building/Production/HumanRaces/NaTotambu/SimpleResearchBench</SimpleResearchBench>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Ansei Building Style - Sword-singer training facilities -->
+  <StyleItemCategoryDef>
+    <defName>Ansei_Buildings</defName>
+    <label>Ansei buildings</label>
+    <description>Minimalist architecture of the Ansei sword-singers, designed to maximize spiritual focus and provide ideal environments for blade mastery training and meditation.</description>
+    <styleTags>
+      <li>Ansei</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Things/Building/Linked/HumanRaces/Ansei/Wall</Wall>
+      <Door>Things/Building/Door/HumanRaces/Ansei/Door</Door>
+      <Bed>Things/Building/Furniture/HumanRaces/Ansei/Bed</Bed>
+      <Table2x2c>Things/Building/Furniture/HumanRaces/Ansei/Table</Table2x2c>
+      <DiningChair>Things/Building/Furniture/HumanRaces/Ansei/Chair</DiningChair>
+      <Campfire>Things/Building/Misc/HumanRaces/Ansei/Campfire</Campfire>
+      <Torch>Things/Building/Misc/HumanRaces/Ansei/Torch</Torch>
+      <SimpleResearchBench>Things/Building/Production/HumanRaces/Ansei/SimpleResearchBench</SimpleResearchBench>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
 </Defs>

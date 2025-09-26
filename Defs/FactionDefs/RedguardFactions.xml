@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Hammerfell Crown Party -->
+  <FactionDef>
+    <defName>HammerfellCrowns</defName>
+    <label>Crown Party of Hammerfell</label>
+    <description>The Crown party represents the traditional Redguard nobility who uphold ancient Yokudan customs and resist foreign influence. They favor preservation of traditional culture, honor, and the old ways of sword-singing.</description>
+    <colorSpectrum>
+      <li>(0.6, 0.15, 0.15)</li>
+      <li>(0.7, 0.2, 0.1)</li>
+      <li>(0.8, 0.3, 0.2)</li>
+    </colorSpectrum>
+    <allowedRaceDefs>
+      <li>Redguard</li>
+    </allowedRaceDefs>
+    <techLevel>Medieval</techLevel>
+    <factionIconPath>UI/Icons/Factions/CrownParty</factionIconPath>
+    <settlementGenerationWeight>0.8</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>High King</leaderTitle>
+    <startingGoodwill>
+      <min>-30</min>
+      <max>30</max>
+    </startingGoodwill>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>50</configurationListOrderPriority>
+  </FactionDef>
+
+  <!-- Hammerfell Forebear Party -->
+  <FactionDef>
+    <defName>HammerfellForebears</defName>
+    <label>Forebear Party of Hammerfell</label>
+    <description>The Forebear party represents the Ra Gada descendants who embrace adaptation and integration with other cultures while maintaining their warrior heritage. They favor trade, diplomacy, and progressive policies.</description>
+    <colorSpectrum>
+      <li>(0.15, 0.4, 0.6)</li>
+      <li>(0.2, 0.5, 0.7)</li>
+      <li>(0.3, 0.6, 0.8)</li>
+    </colorSpectrum>
+    <allowedRaceDefs>
+      <li>Redguard</li>
+      <li>Imperial</li>
+      <li>Breton</li>
+      <li>Nord</li>
+    </allowedRaceDefs>
+    <techLevel>Medieval</techLevel>
+    <factionIconPath>UI/Icons/Factions/ForebearParty</factionIconPath>
+    <settlementGenerationWeight>0.8</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>High King</leaderTitle>
+    <startingGoodwill>
+      <min>-10</min>
+      <max>50</max>
+    </startingGoodwill>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>51</configurationListOrderPriority>
+  </FactionDef>
+
+  <!-- Na-Totambu Houses -->
+  <FactionDef>
+    <defName>NaTotambuHouses</defName>
+    <label>Na-Totambu Noble Houses</label>
+    <description>The ancient noble houses of the Na-Totambu, representing the highest tier of Redguard aristocracy. These houses trace their lineage to the royal families of old Yokuda and maintain the purest traditions and bloodlines.</description>
+    <colorSpectrum>
+      <li>(0.5, 0.4, 0.1)</li>
+      <li>(0.7, 0.6, 0.2)</li>
+      <li>(0.8, 0.7, 0.4)</li>
+    </colorSpectrum>
+    <allowedRaceDefs>
+      <li>Redguard</li>
+    </allowedRaceDefs>
+    <techLevel>Medieval</techLevel>
+    <factionIconPath>UI/Icons/Factions/NaTotambu</factionIconPath>
+    <settlementGenerationWeight>0.6</settlementGenerationWeight>
+    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>false</canSiege>
+    <canStageAttacks>false</canStageAttacks>
+    <leaderTitle>Prince</leaderTitle>
+    <startingGoodwill>
+      <min>0</min>
+      <max>40</max>
+    </startingGoodwill>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>52</configurationListOrderPriority>
+  </FactionDef>
+
+  <!-- Alik'r Desert Nomads -->
+  <FactionDef>
+    <defName>AlikrNomads</defName>
+    <label>Alik'r Desert Nomads</label>
+    <description>Independent Redguard tribes who roam the vast Alik'r Desert, maintaining the old ways of survival and warrior culture. They are skilled desert fighters who value freedom and tradition above political allegiance.</description>
+    <colorSpectrum>
+      <li>(0.6, 0.5, 0.3)</li>
+      <li>(0.7, 0.6, 0.4)</li>
+      <li>(0.8, 0.7, 0.5)</li>
+    </colorSpectrum>
+    <allowedRaceDefs>
+      <li>Redguard</li>
+    </allowedRaceDefs>
+    <techLevel>Neolithic</techLevel>
+    <factionIconPath>UI/Icons/Factions/AlikrNomads</factionIconPath>
+    <settlementGenerationWeight>0.7</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>Desert Prince</leaderTitle>
+    <startingGoodwill>
+      <min>-20</min>
+      <max>20</max>
+    </startingGoodwill>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>53</configurationListOrderPriority>
+  </FactionDef>
+
+  <!-- Ansei Order -->
+  <FactionDef>
+    <defName>AnseiOrder</defName>
+    <label>Order of the Ansei</label>
+    <description>A secretive order dedicated to preserving and practicing the ancient art of sword-singing. They maintain the mystical warrior traditions of old Yokuda and train the next generation of Ansei.</description>
+    <colorSpectrum>
+      <li>(0.3, 0.3, 0.6)</li>
+      <li>(0.4, 0.4, 0.7)</li>
+      <li>(0.5, 0.5, 0.8)</li>
+    </colorSpectrum>
+    <allowedRaceDefs>
+      <li>Redguard</li>
+    </allowedRaceDefs>
+    <techLevel>Medieval</techLevel>
+    <factionIconPath>UI/Icons/Factions/AnseiOrder</factionIconPath>
+    <settlementGenerationWeight>0.4</settlementGenerationWeight>
+    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>false</canSiege>
+    <canStageAttacks>false</canStageAttacks>
+    <leaderTitle>Sword-Saint</leaderTitle>
+    <startingGoodwill>
+      <min>10</min>
+      <max>60</max>
+    </startingGoodwill>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>54</configurationListOrderPriority>
+  </FactionDef>
+
+  <!-- Hammerfell Merchant Guild -->
+  <FactionDef>
+    <defName>HammerfellMerchants</defName>
+    <label>Hammerfell Merchant Guild</label>
+    <description>A powerful trade organization representing Redguard merchant interests across Hammerfell and beyond. They facilitate trade between the desert cities and foreign lands, often aligning with Forebear political interests.</description>
+    <colorSpectrum>
+      <li>(0.2, 0.6, 0.2)</li>
+      <li>(0.3, 0.7, 0.3)</li>
+      <li>(0.4, 0.8, 0.4)</li>
+    </colorSpectrum>
+    <allowedRaceDefs>
+      <li>Redguard</li>
+      <li>Imperial</li>
+      <li>Khajiit</li>
+      <li>Breton</li>
+    </allowedRaceDefs>
+    <techLevel>Medieval</techLevel>
+    <factionIconPath>UI/Icons/Factions/MerchantGuild</factionIconPath>
+    <settlementGenerationWeight>0.9</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>false</canSiege>
+    <canStageAttacks>false</canStageAttacks>
+    <leaderTitle>Trade Master</leaderTitle>
+    <startingGoodwill>
+      <min>20</min>
+      <max>70</max>
+    </startingGoodwill>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>55</configurationListOrderPriority>
+  </FactionDef>
+</Defs>

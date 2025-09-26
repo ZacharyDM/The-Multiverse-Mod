@@ -127,4 +127,76 @@
     </thingDefStyles>
   </StyleItemCategoryDef>
 
+  <!-- Crown Apparel Style - Traditional Redguard nobility -->
+  <StyleItemCategoryDef>
+    <defName>Crown_Apparel</defName>
+    <label>Crown apparel</label>
+    <description>Noble ceremonial clothing and armor of the Crown party, featuring rich traditional designs with ancient Yokudan motifs and symbols of aristocratic heritage.</description>
+    <styleTags>
+      <li>Crown</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/HumanRaces/Crown/Crown</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/HumanRaces/Crown/Crown</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/HumanRaces/Crown/Crown</Apparel_Tunic>
+      <Apparel_CollarShirt>Things/Pawn/Humanlike/Apparel/HumanRaces/Crown/Crown</Apparel_CollarShirt>
+      <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/HumanRaces/Crown/Crown</Apparel_FlakVest>
+      <Apparel_PlateArmor>Things/Pawn/Humanlike/Apparel/HumanRaces/Crown/Crown</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Forebear Apparel Style - Ra Gada descendants -->
+  <StyleItemCategoryDef>
+    <defName>Forebear_Apparel</defName>
+    <label>Forebear apparel</label>
+    <description>Practical clothing and armor of the Forebear party, combining traditional Redguard elements with foreign influences and trade-focused aesthetics.</description>
+    <styleTags>
+      <li>Forebear</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/HumanRaces/Forebear/Forebear</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/HumanRaces/Forebear/Forebear</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/HumanRaces/Forebear/Forebear</Apparel_Tunic>
+      <Apparel_CollarShirt>Things/Pawn/Humanlike/Apparel/HumanRaces/Forebear/Forebear</Apparel_CollarShirt>
+      <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/HumanRaces/Forebear/Forebear</Apparel_FlakVest>
+      <Apparel_PlateArmor>Things/Pawn/Humanlike/Apparel/HumanRaces/Forebear/Forebear</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Na-Totambu Apparel Style - Ancient royal bloodlines -->
+  <StyleItemCategoryDef>
+    <defName>NaTotambu_Apparel</defName>
+    <label>Na-Totambu apparel</label>
+    <description>Refined ceremonial clothing and armor of the ancient Na-Totambu nobility, featuring the purest traditional designs with elaborate royal symbolism.</description>
+    <styleTags>
+      <li>NaTotambu</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/HumanRaces/NaTotambu/NaTotambu</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/HumanRaces/NaTotambu/NaTotambu</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/HumanRaces/NaTotambu/NaTotambu</Apparel_Tunic>
+      <Apparel_CollarShirt>Things/Pawn/Humanlike/Apparel/HumanRaces/NaTotambu/NaTotambu</Apparel_CollarShirt>
+      <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/HumanRaces/NaTotambu/NaTotambu</Apparel_FlakVest>
+      <Apparel_PlateArmor>Things/Pawn/Humanlike/Apparel/HumanRaces/NaTotambu/NaTotambu</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Ansei Apparel Style - Sword-singer mysticism -->
+  <StyleItemCategoryDef>
+    <defName>Ansei_Apparel</defName>
+    <label>Ansei apparel</label>
+    <description>Minimalist clothing and specialized armor of the Ansei sword-singers, designed to maximize mobility and spiritual focus during blade mastery training.</description>
+    <styleTags>
+      <li>Ansei</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/HumanRaces/Ansei/Ansei</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/HumanRaces/Ansei/Ansei</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/HumanRaces/Ansei/Ansei</Apparel_Tunic>
+      <Apparel_CollarShirt>Things/Pawn/Humanlike/Apparel/HumanRaces/Ansei/Ansei</Apparel_CollarShirt>
+      <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/HumanRaces/Ansei/Ansei</Apparel_FlakVest>
+      <Apparel_PlateArmor>Things/Pawn/Humanlike/Apparel/HumanRaces/Ansei/Ansei</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
 </Defs>
