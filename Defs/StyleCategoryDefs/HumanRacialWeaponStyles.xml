@@ -129,6 +129,58 @@
     </thingDefStyles>
   </StyleItemCategoryDef>
 
+  <!-- Crown Weapon Style - Traditional ceremonial weapons -->
+  <StyleItemCategoryDef>
+    <defName>Crown_Weapons</defName>
+    <label>Crown weapons</label>
+    <description>Ornate ceremonial weapons of the Crown nobility, featuring traditional Yokudan designs with elaborate decorations symbolizing ancient royal heritage.</description>
+    <styleTags>
+      <li>Crown</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_LongSword>Things/Item/Equipment/WeaponMelee/HumanRaces/Crown/Sword</MeleeWeapon_LongSword>
+      <MeleeWeapon_Spear>Things/Item/Equipment/WeaponMelee/HumanRaces/Crown/Spear</MeleeWeapon_Spear>
+      <MeleeWeapon_Club>Things/Item/Equipment/WeaponMelee/HumanRaces/Crown/Club</MeleeWeapon_Club>
+      <MeleeWeapon_Knife>Things/Item/Equipment/WeaponMelee/HumanRaces/Crown/Knife</MeleeWeapon_Knife>
+      <Bow_Short>Things/Item/Equipment/WeaponRanged/HumanRaces/Crown/Bow</Bow_Short>
+      <Gun_Revolver>Things/Item/Equipment/WeaponRanged/HumanRaces/Crown/Revolver</Gun_Revolver>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Forebear Weapon Style - Practical Ra Gada weapons -->
+  <StyleItemCategoryDef>
+    <defName>Forebear_Weapons</defName>
+    <label>Forebear weapons</label>
+    <description>Practical weapons of the Forebear party, combining traditional Redguard craftsmanship with foreign influences and trade-focused utility.</description>
+    <styleTags>
+      <li>Forebear</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_LongSword>Things/Item/Equipment/WeaponMelee/HumanRaces/Forebear/Sword</MeleeWeapon_LongSword>
+      <MeleeWeapon_Spear>Things/Item/Equipment/WeaponMelee/HumanRaces/Forebear/Spear</MeleeWeapon_Spear>
+      <MeleeWeapon_Club>Things/Item/Equipment/WeaponMelee/HumanRaces/Forebear/Club</MeleeWeapon_Club>
+      <MeleeWeapon_Knife>Things/Item/Equipment/WeaponMelee/HumanRaces/Forebear/Knife</MeleeWeapon_Knife>
+      <Bow_Short>Things/Item/Equipment/WeaponRanged/HumanRaces/Forebear/Bow</Bow_Short>
+      <Gun_Revolver>Things/Item/Equipment/WeaponRanged/HumanRaces/Forebear/Revolver</Gun_Revolver>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Ansei Weapon Style - Sword-singer blades -->
+  <StyleItemCategoryDef>
+    <defName>Ansei_Weapons</defName>
+    <label>Ansei weapons</label>
+    <description>Mystical weapons of the Ansei sword-singers, featuring minimalist designs that emphasize spiritual focus and the perfect balance required for blade mastery.</description>
+    <styleTags>
+      <li>Ansei</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_LongSword>Things/Item/Equipment/WeaponMelee/HumanRaces/Ansei/Sword</MeleeWeapon_LongSword>
+      <MeleeWeapon_Spear>Things/Item/Equipment/WeaponMelee/HumanRaces/Ansei/Spear</MeleeWeapon_Spear>
+      <MeleeWeapon_Club>Things/Item/Equipment/WeaponMelee/HumanRaces/Ansei/Club</MeleeWeapon_Club>
+      <MeleeWeapon_Knife>Things/Item/Equipment/WeaponMelee/HumanRaces/Ansei/Knife</MeleeWeapon_Knife>
+      <Bow_Short>Things/Item/Equipment/WeaponRanged/HumanRaces/Ansei/Bow</Bow_Short>
+      <Gun_Revolver>Things/Item/Equipment/WeaponRanged/HumanRaces/Ansei/Revolver</Gun_Revolver
+        
   <!-- Eastmarcher Weapon Style -->
   <StyleItemCategoryDef>
     <defName>Eastmarcher_Weapons</defName>

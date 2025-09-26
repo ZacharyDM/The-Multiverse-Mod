@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Tu'whacca Cult - Traditional Redguard Religion -->
+  <MemeDef>
+    <defName>TuwhaccaCult</defName>
+    <label>Tu'whacca Cult</label>
+    <description>The traditional Redguard religion focused on Tu'whacca, the Tricky God who guides souls to the Far Shores. This faith emphasizes honor in combat, proper burial rites, and the journey to the afterlife.</description>
+    <impact>1</impact>
+    <iconPath>UI/Icons/Memes/Tuwhacca</iconPath>
+    <symbolPacks>
+      <li>RedguardReligious</li>
+    </symbolPacks>
+    <deities>
+      <li>
+        <type>Ideo_Deity</type>
+        <name>Tu'whacca</name>
+        <nameMaker>Tuwhacca_Names</nameMaker>
+        <description>The Tricky God who guides Redguard souls to the Far Shores after death.</description>
+        <gender>Male</gender>
+      </li>
+      <li>
+        <type>Ideo_Deity</type>
+        <name>Tall Papa</name>
+        <nameMaker>TallPapa_Names</nameMaker>
+        <description>The first spirit and creator deity of the Redguards, father of all spirits.</description>
+        <gender>Male</gender>
+      </li>
+      <li>
+        <type>Ideo_Deity</type>
+        <name>HoonDing</name>
+        <nameMaker>HoonDing_Names</nameMaker>
+        <description>The Make Way God, who helps the Redguards in times of great need.</description>
+        <gender>Male</gender>
+      </li>
+    </deities>
+    <worshipRoomLabel>shrine to Tu'whacca</worshipRoomLabel>
+    <buildingNamesRules>
+      <rulesStrings>
+        <li>r_name->[tuwhaccasite]</li>
+        <li>tuwhaccasite->Far Shore [temple]</li>
+        <li>tuwhaccasite->Sacred [temple]</li>
+        <li>tuwhaccasite->Tu'whacca's [temple]</li>
+        <li>temple->Shrine</li>
+        <li>temple->Temple</li>
+        <li>temple->Sanctuary</li>
+      </rulesStrings>
+    </buildingNamesRules>
+  </MemeDef>
+
+  <!-- Imperial Pantheon (Redguard Syncretist) -->
+  <MemeDef>
+    <defName>RedguardSyncretism</defName>
+    <label>Hammerfell Syncretism</label>
+    <description>A blended faith combining traditional Redguard beliefs with Imperial religious practices. This syncretic approach allows Redguards to maintain cultural identity while participating in the broader Imperial religious framework.</description>
+    <impact>1</impact>
+    <iconPath>UI/Icons/Memes/Syncretism</iconPath>
+    <symbolPacks>
+      <li>RedguardSyncretist</li>
+    </symbolPacks>
+    <deities>
+      <li>
+        <type>Ideo_Deity</type>
+        <name>Arkay</name>
+        <nameMaker>Imperial_Names</nameMaker>
+        <description>The god of the cycle of life and death, known to Redguards as Tu'whacca.</description>
+        <gender>Male</gender>
+      </li>
+      <li>
+        <type>Ideo_Deity</type>
+        <name>Akatosh</name>
+        <nameMaker>Imperial_Names</nameMaker>
+        <description>The Dragon God of Time, respected as the chief deity of the Imperial cult.</description>
+        <gender>Male</gender>
+      </li>
+      <li>
+        <type>Ideo_Deity</type>
+        <name>Talos</name>
+        <nameMaker>Imperial_Names</nameMaker>
+        <description>The divine hero-god Tiber Septim, founder of the Third Empire.</description>
+        <gender>Male</gender>
+      </li>
+      <li>
+        <type>Ideo_Deity</type>
+        <name>HoonDing</name>
+        <nameMaker>HoonDing_Names</nameMaker>
+        <description>The traditional Redguard Make Way God, integrated into the broader pantheon.</description>
+        <gender>Male</gender>
+      </li>
+    </deities>
+    <worshipRoomLabel>shrine to the gods</worshipRoomLabel>
+    <buildingNamesRules>
+      <rulesStrings>
+        <li>r_name->[syncretistsite]</li>
+        <li>syncretistsite->United [temple]</li>
+        <li>syncretistsite->Sacred [temple]</li>
+        <li>syncretistsite->Divine [temple]</li>
+        <li>temple->Chapel</li>
+        <li>temple->Temple</li>
+        <li>temple->Sanctuary</li>
+      </rulesStrings>
+    </buildingNamesRules>
+  </MemeDef>
+
+  <!-- Sword-Singer Mysticism -->
+  <MemeDef>
+    <defName>SwordSingerMysticism</defName>
+    <label>Sword-Singer Mysticism</label>
+    <description>A mystical warrior philosophy centered on the ancient art of sword-singing. This path combines martial excellence with spiritual discipline, seeking to achieve the legendary blade mastery of the Ansei.</description>
+    <impact>2</impact>
+    <iconPath>UI/Icons/Memes/SwordSinger</iconPath>
+    <symbolPacks>
+      <li>SwordSinger</li>
+    </symbolPacks>
+    <deities>
+      <li>
+        <type>Ideo_Deity</type>
+        <name>Frandar Hunding</name>
+        <nameMaker>AnseiLegend_Names</nameMaker>
+        <description>The legendary sword-saint who founded the principles of sword-singing.</description>
+        <gender>Male</gender>
+      </li>
+      <li>
+        <type>Ideo_Deity</type>
+        <name>Divad Hunding</name>
+        <nameMaker>AnseiLegend_Names</nameMaker>
+        <description>Son of Frandar Hunding and great warrior who led the Ra Gada to Hammerfell.</description>
+        <gender>Male</gender>
+      </li>
+      <li>
+        <type>Ideo_Deity</type>
+        <name>The Sword-Saint</name>
+        <nameMaker>AnseiLegend_Names</nameMaker>
+        <description>The idealized perfect Ansei, representing the ultimate achievement of sword-singing.</description>
+        <gender>Either</gender>
+      </li>
+    </deities>
+    <worshipRoomLabel>meditation hall</worshipRoomLabel>
+    <buildingNamesRules>
+      <rulesStrings>
+        <li>r_name->[swordsingersite]</li>
+        <li>swordsingersite->Blade [temple]</li>
+        <li>swordsingersite->Steel [temple]</li>
+        <li>swordsingersite->Ansei [temple]</li>
+        <li>temple->Dojo</li>
+        <li>temple->Hall</li>
+        <li>temple->Academy</li>
+      </rulesStrings>
+    </buildingNamesRules>
+  </MemeDef>
+
+  <!-- Ancestor Veneration (Traditional Yokudan) -->
+  <MemeDef>
+    <defName>YokudanAncestors</defName>
+    <label>Yokudan Ancestor Worship</label>
+    <description>The ancient spiritual traditions of Yokuda, focusing on honoring the ancestors and maintaining connection with the spirits of the departed. This faith emphasizes bloodline honor and ancestral wisdom.</description>
+    <impact>1</impact>
+    <iconPath>UI/Icons/Memes/Ancestors</iconPath>
+    <symbolPacks>
+      <li>YokudanSpirits</li>
+    </symbolPacks>
+    <deities>
+      <li>
+        <type>Ideo_Deity</type>
+        <name>The First Ancestor</name>
+        <nameMaker>YokudanAncestor_Names</nameMaker>
+        <description>The progenitor spirit from whom all Redguard bloodlines descend.</description>
+        <gender>Either</gender>
+      </li>
+      <li>
+        <type>Ideo_Deity</type>
+        <name>Blade-Bearer</name>
+        <nameMaker>YokudanAncestor_Names</nameMaker>
+        <description>The ancestral spirit who first taught the ways of the sword to mortals.</description>
+        <gender>Either</gender>
+      </li>
+      <li>
+        <type>Ideo_Deity</type>
+        <name>Desert-Walker</name>
+        <nameMaker>YokudanAncestor_Names</nameMaker>
+        <description>The ancestral spirit who guided the people through the harsh deserts.</description>
+        <gender>Either</gender>
+      </li>
+    </deities>
+    <worshipRoomLabel>ancestor shrine</worshipRoomLabel>
+    <buildingNamesRules>
+      <rulesStrings>
+        <li>r_name->[ancestorsite]</li>
+        <li>ancestorsite->Honored [temple]</li>
+        <li>ancestorsite->Ancient [temple]</li>
+        <li>ancestorsite->Sacred [temple]</li>
+        <li>temple->Shrine</li>
+        <li>temple->Memorial</li>
+        <li>temple->Sanctuary</li>
+      </rulesStrings>
+    </buildingNamesRules>
+  </MemeDef>
+</Defs>

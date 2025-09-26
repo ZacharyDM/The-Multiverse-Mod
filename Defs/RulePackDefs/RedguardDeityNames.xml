@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Tu'whacca Deity Names -->
+  <RulePackDef>
+    <defName>Tuwhacca_Names</defName>
+    <include>
+      <li>NamerPerson</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>name->Tu'whacca the [tuwhaccatitle]</li>
+        <li>name->Tu'whacca [tuwhaccaepithet]</li>
+        <li>tuwhaccatitle->Tricky</li>
+        <li>tuwhaccatitle->Guide</li>
+        <li>tuwhaccatitle->Psychopomp</li>
+        <li>tuwhaccatitle->Death-Friend</li>
+        <li>tuwhaccaepithet->Far-Shore-Walker</li>
+        <li>tuwhaccaepithet->Soul-Guide</li>
+        <li>tuwhaccaepithet->Trickster</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <!-- Tall Papa Deity Names -->
+  <RulePackDef>
+    <defName>TallPapa_Names</defName>
+    <include>
+      <li>NamerPerson</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>name->Tall Papa the [tallpapatitle]</li>
+        <li>name->Tall Papa [tallpapaepithet]</li>
+        <li>tallpapatitle->First</li>
+        <li>tallpapatitle->Creator</li>
+        <li>tallpapatitle->Father</li>
+        <li>tallpapatitle->Ancient</li>
+        <li>tallpapaepithet->Spirit-Father</li>
+        <li>tallpapaepithet->First-Born</li>
+        <li>tallpapaepithet->World-Maker</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <!-- HoonDing Deity Names -->
+  <RulePackDef>
+    <defName>HoonDing_Names</defName>
+    <include>
+      <li>NamerPerson</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>name->HoonDing the [hoondingtitle]</li>
+        <li>name->HoonDing [hoondingepithet]</li>
+        <li>hoondingtitle->Persistent</li>
+        <li>hoondingtitle->Unstoppable</li>
+        <li>hoondingtitle->Inevitable</li>
+        <li>hoondingtitle->Necessary</li>
+        <li>hoondingepithet->Make-Way-God</li>
+        <li>hoondingepithet->Path-Clearer</li>
+        <li>hoondingepithet->Barrier-Breaker</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <!-- Ansei Legend Names -->
+  <RulePackDef>
+    <defName>AnseiLegend_Names</defName>
+    <include>
+      <li>NamerPerson</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[anseiname] the [anseititle]</li>
+        <li>name->[anseiname] [anseiepithet]</li>
+        <li>anseiname->Frandar Hunding</li>
+        <li>anseiname->Divad Hunding</li>
+        <li>anseiname->The Sword-Saint</li>
+        <li>anseiname->Blade-Master</li>
+        <li>anseititle->Legendary</li>
+        <li>anseititle->Immortal</li>
+        <li>anseititle->Eternal</li>
+        <li>anseititle->Perfect</li>
+        <li>anseiepithet->Atom-Splitter</li>
+        <li>anseiepithet->Reality-Cutter</li>
+        <li>anseiepithet->Sword-Saint</li>
+        <li>anseiepithet->Blade-Master</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <!-- Yokudan Ancestor Names -->
+  <RulePackDef>
+    <defName>YokudanAncestor_Names</defName>
+    <include>
+      <li>NamerPerson</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[ancestorname] the [ancestortitle]</li>
+        <li>name->[ancestorname] [ancestorepithet]</li>
+        <li>ancestorname->First Ancestor</li>
+        <li>ancestorname->Ancient One</li>
+        <li>ancestorname->Blade-Bearer</li>
+        <li>ancestorname->Desert-Walker</li>
+        <li>ancestorname->Blood-Father</li>
+        <li>ancestorname->Blood-Mother</li>
+        <li>ancestortitle->Ancient</li>
+        <li>ancestortitle->Honored</li>
+        <li>ancestortitle->Revered</li>
+        <li>ancestortitle->Blessed</li>
+        <li>ancestorepithet->Origin-Spirit</li>
+        <li>ancestorepithet->Blood-Founder</li>
+        <li>ancestorepithet->Desert-Guide</li>
+        <li>ancestorepithet->Wisdom-Bearer</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <!-- Imperial Names (for syncretist deities) -->
+  <RulePackDef>
+    <defName>Imperial_Names</defName>
+    <include>
+      <li>NamerPerson</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>name->Akatosh the [imperialtitle]</li>
+        <li>name->Arkay the [imperialtitle]</li>
+        <li>name->Talos the [imperialtitle]</li>
+        <li>name->[imperialdeity] [imperialepithet]</li>
+        <li>imperialdeity->Akatosh</li>
+        <li>imperialdeity->Arkay</li>
+        <li>imperialdeity->Talos</li>
+        <li>imperialtitle->Divine</li>
+        <li>imperialtitle->Blessed</li>
+        <li>imperialtitle->Sacred</li>
+        <li>imperialtitle->Holy</li>
+        <li>imperialepithet->Dragon-God</li>
+        <li>imperialepithet->Life-Death-God</li>
+        <li>imperialepithet->Hero-God</li>
+        <li>imperialepithet->Emperor-God</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

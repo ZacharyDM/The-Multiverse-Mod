@@ -78,4 +78,32 @@
     <description>The warrior Redguard style reflects the desert-dwelling fighters of Hammerfell, showcasing brown and bronze colors with curved weapon influences and designs adapted for harsh desert conditions.</description>
   </StyleCategoryDef>
 
+  <!-- Crown Style - Traditional Redguard nobility -->
+  <StyleCategoryDef>
+    <defName>Crown</defName>
+    <label>Crown</label>
+    <description>The noble Crown style embodies the traditional aristocracy of Hammerfell, featuring rich ceremonial designs with ancient Yokudan motifs and symbols of noble heritage.</description>
+  </StyleCategoryDef>
+
+  <!-- Forebear Style - Ra Gada descendants -->
+  <StyleCategoryDef>
+    <defName>Forebear</defName>
+    <label>Forebear</label>
+    <description>The adaptable Forebear style represents the practical Ra Gada descendants, combining traditional Redguard elements with foreign influences and trade-focused aesthetics.</description>
+  </StyleCategoryDef>
+
+  <!-- Na-Totambu Style - Ancient royal bloodlines -->
+  <StyleCategoryDef>
+    <defName>NaTotambu</defName>
+    <label>Na-Totambu</label>
+    <description>The refined Na-Totambu style reflects the most ancient noble bloodlines of Yokuda, featuring the purest traditional designs with elaborate ceremonial elements and royal symbolism.</description>
+  </StyleCategoryDef>
+
+  <!-- Ansei Style - Sword-singer mysticism -->
+  <StyleCategoryDef>
+    <defName>Ansei</defName>
+    <label>Ansei</label>
+    <description>The mystical Ansei style represents the warrior-monks who practice sword-singing, featuring minimalist designs that emphasize the spiritual aspects of blade mastery and martial discipline.</description>
+  </StyleCategoryDef>
+
 </Defs>

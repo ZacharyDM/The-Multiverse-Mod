@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Ansei Sword-Singer Progression System -->
+  <!-- Progressive trait path for the legendary sword-singers of Yokuda -->
+  
+  <!-- Tier 1: Ansei Initiate -->
+  <TraitDef>
+    <defName>AnseiInitiate</defName>
+    <label>Ansei Initiate</label>
+    <description>This Redguard has begun training in the ancient ways of the Ansei sword-singers, learning the first forms of the mystical blade arts that once split atoms.</description>
+    <degreeDatas>
+      <li>
+        <degree>0</degree>
+        <label>Blade Student</label>
+        <description>Starting their journey into the ancient sword-singing arts, this pawn shows promise in mystical combat techniques.</description>
+        <skillGains>
+          <Melee>3</Melee>
+          <Intellectual>1</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.03</MeleeHitChance>
+          <PsychicSensitivity>0.05</PsychicSensitivity>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.2</biostatCpxFactor>
+    <exclusionTags>
+      <li>AnseiRank</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Tier 2: Ansei Apprentice -->
+  <TraitDef>
+    <defName>AnseiApprentice</defName>
+    <label>Ansei Apprentice</label>
+    <description>This Redguard has progressed in the sword-singing arts, mastering basic forms and beginning to understand the spiritual aspects of blade mastery.</description>
+    <degreeDatas>
+      <li>
+        <degree>0</degree>
+        <label>Blade Adept</label>
+        <description>Growing in skill and understanding, this pawn can perform basic sword-singing techniques with increasing proficiency.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Intellectual>2</Intellectual>
+          <Social>1</Social>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.05</MeleeHitChance>
+          <MeleeDamageFactor>0.06</MeleeDamageFactor>
+          <MeleeDodgeChance>0.03</MeleeDodgeChance>
+          <PsychicSensitivity>0.08</PsychicSensitivity>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.4</biostatCpxFactor>
+    <exclusionTags>
+      <li>AnseiRank</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Tier 3: Ansei Warrior -->
+  <TraitDef>
+    <defName>AnseiWarrior</defName>
+    <label>Ansei Warrior</label>
+    <description>This Redguard has achieved competence in the sword-singing arts, capable of feats that seem impossible to ordinary warriors through mystical blade techniques.</description>
+    <degreeDatas>
+      <li>
+        <degree>0</degree>
+        <label>Mystical Blade</label>
+        <description>Mastering intermediate sword-singing forms, this pawn can achieve supernatural feats of blade mastery.</description>
+        <skillGains>
+          <Melee>5</Melee>
+          <Intellectual>3</Intellectual>
+          <Social>2</Social>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.08</MeleeHitChance>
+          <MeleeDamageFactor>0.10</MeleeDamageFactor>
+          <MeleeDodgeChance>0.05</MeleeDodgeChance>
+          <PsychicSensitivity>0.12</PsychicSensitivity>
+          <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.6</biostatCpxFactor>
+    <exclusionTags>
+      <li>AnseiRank</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Tier 4: Ansei Master -->
+  <TraitDef>
+    <defName>AnseiMaster</defName>
+    <label>Ansei Master</label>
+    <description>This Redguard has mastered most sword-singing techniques, achieving legendary status among warriors. Their blade can cut through reality itself in the hands of a true master.</description>
+    <degreeDatas>
+      <li>
+        <degree>0</degree>
+        <label>Legendary Sword-Singer</label>
+        <description>Approaching the legendary heights of the ancient Ansei, this pawn's blade-work defies conventional understanding.</description>
+        <skillGains>
+          <Melee>6</Melee>
+          <Intellectual>4</Intellectual>
+          <Social>3</Social>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.12</MeleeHitChance>
+          <MeleeDamageFactor>0.15</MeleeDamageFactor>
+          <MeleeDodgeChance>0.08</MeleeDodgeChance>
+          <PsychicSensitivity>0.15</PsychicSensitivity>
+          <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+          <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.8</biostatCpxFactor>
+    <exclusionTags>
+      <li>AnseiRank</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Tier 5: Ansei Paragon -->
+  <TraitDef>
+    <defName>AnseiParagon</defName>
+    <label>Ansei Paragon</label>
+    <description>This Redguard has achieved the ultimate mastery of sword-singing, rivaling the legendary Ansei of old who could "cut atoms with their blades" and split reality itself.</description>
+    <degreeDatas>
+      <li>
+        <degree>0</degree>
+        <label>Atom-Splitter</label>
+        <description>Achieving the legendary mastery of the ancient Ansei, this pawn can perform feats of sword-singing that defy reality itself.</description>
+        <skillGains>
+          <Melee>8</Melee>
+          <Intellectual>5</Intellectual>
+          <Social>4</Social>
+          <Medicine>2</Medicine>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.18</MeleeHitChance>
+          <MeleeDamageFactor>0.25</MeleeDamageFactor>
+          <MeleeDodgeChance>0.12</MeleeDodgeChance>
+          <PsychicSensitivity>0.20</PsychicSensitivity>
+          <MentalBreakThreshold>-0.08</MentalBreakThreshold>
+          <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+          <MoveSpeed>0.3</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>2.5</biostatCpxFactor>
+    <exclusionTags>
+      <li>AnseiRank</li>
+    </exclusionTags>
+  </TraitDef>
+</Defs>
