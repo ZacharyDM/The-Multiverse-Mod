@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <!-- Imperial Legion Entry Ranks -->
+  <!-- Imperial Legion Branch 1: Standard Legionary Forces -->
   
   <TraitDef>
-    <defName>ImperialLegionRecruit</defName>
-    <label>Legion Recruit</label>
-    <description>A new member of the Imperial Legion undergoing basic military training. Still learning the fundamentals of soldiering.</description>
+    <defName>ImperialLegionLegionary</defName>
+    <label>Legion Legionary</label>
+    <description>A member of the standard Imperial Legion forces, progressing through the traditional ranks of the legionary branch.</description>
     <degreeDatas>
       <li>
         <label>Recruit</label>
-        <description>Fresh recruit learning military basics and discipline.</description>
+        <description>A new enlistee undergoing basic military training and learning discipline.</description>
         <skillGains>
           <Melee>1</Melee>
           <Shooting>1</Shooting>
@@ -19,21 +19,9 @@
           <MentalBreakThreshold>-0.02</MentalBreakThreshold>
         </statOffsets>
       </li>
-    </degreeDatas>
-    <biostatCpxFactor>1.05</biostatCpxFactor>
-    <exclusionTags>
-      <li>ImperialLegionRank</li>
-    </exclusionTags>
-  </TraitDef>
-
-  <TraitDef>
-    <defName>ImperialLegionEnlisted</defName>
-    <label>Legion Enlisted</label>
-    <description>A trained legionnaire who has completed basic training and serves as infantry. Includes Spearmen and Troopers.</description>
-    <degreeDatas>
       <li>
         <label>Spearman</label>
-        <description>Basic infantry soldier trained in spear and shield combat.</description>
+        <description>Basic infantry soldier trained in spear and shield combat formation.</description>
         <skillGains>
           <Melee>2</Melee>
           <Shooting>2</Shooting>
@@ -60,21 +48,9 @@
           <MentalBreakThreshold>-0.04</MentalBreakThreshold>
         </statOffsets>
       </li>
-    </degreeDatas>
-    <biostatCpxFactor>1.1</biostatCpxFactor>
-    <exclusionTags>
-      <li>ImperialLegionRank</li>
-    </exclusionTags>
-  </TraitDef>
-
-  <TraitDef>
-    <defName>ImperialLegionSpecialist</defName>
-    <label>Legion Specialist</label>
-    <description>A legion member with specialized training in intelligence, combat excellence, or leadership.</description>
-    <degreeDatas>
       <li>
         <label>Agent</label>
-        <description>Intelligence specialist trained in investigation and stealth operations.</description>
+        <description>Intelligence specialist trained in investigation and special operations.</description>
         <skillGains>
           <Social>3</Social>
           <Intellectual>3</Intellectual>
@@ -89,7 +65,7 @@
       </li>
       <li>
         <label>Champion</label>
-        <description>Elite warrior who serves as an example to other legionnaires.</description>
+        <description>Elite warrior representing the pinnacle of the standard legionary forces.</description>
         <skillGains>
           <Melee>4</Melee>
           <Shooting>3</Shooting>
@@ -111,64 +87,16 @@
     </exclusionTags>
   </TraitDef>
 
+  <!-- Imperial Legion Branch 2: Order of Knights (Higher ranking than standard legionary forces) -->
+  
   <TraitDef>
-    <defName>ImperialLegionNonCommissioned</defName>
-    <label>Legion NCO</label>
-    <description>Non-commissioned officers who lead small units and train recruits. The backbone of legion leadership.</description>
+    <defName>ImperialLegionKnight</defName>
+    <label>Legion Knight</label>
+    <description>A member of the prestigious knightly order within the Imperial Legion, holding higher rank and status than standard legionaries.</description>
     <degreeDatas>
       <li>
-        <label>Sergeant</label>
-        <description>Squad leader responsible for training and leading other legionnaires.</description>
-        <skillGains>
-          <Social>4</Social>
-          <Melee>3</Melee>
-          <Shooting>3</Shooting>
-          <Construction>3</Construction>
-          <Intellectual>2</Intellectual>
-        </skillGains>
-        <statOffsets>
-          <SocialImpact>0.08</SocialImpact>
-          <MeleeHitChance>0.04</MeleeHitChance>
-          <ShootingAccuracyPawn>0.03</ShootingAccuracyPawn>
-          <MentalBreakThreshold>-0.07</MentalBreakThreshold>
-          <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
-        </statOffsets>
-      </li>
-      <li>
-        <label>Centurion</label>
-        <description>Veteran officer commanding a century, the backbone of legion leadership.</description>
-        <skillGains>
-          <Social>5</Social>
-          <Melee>4</Melee>
-          <Shooting>4</Shooting>
-          <Construction>3</Construction>
-          <Intellectual>3</Intellectual>
-        </skillGains>
-        <statOffsets>
-          <SocialImpact>0.12</SocialImpact>
-          <MeleeHitChance>0.06</MeleeHitChance>
-          <ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
-          <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
-          <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-          <MentalBreakThreshold>-0.08</MentalBreakThreshold>
-          <WorkSpeedGlobal>0.08</WorkSpeedGlobal>
-        </statOffsets>
-      </li>
-    </degreeDatas>
-    <biostatCpxFactor>1.2</biostatCpxFactor>
-    <exclusionTags>
-      <li>ImperialLegionRank</li>
-    </exclusionTags>
-  </TraitDef>
-
-  <TraitDef>
-    <defName>ImperialLegionCommissioned</defName>
-    <label>Legion Officer</label>
-    <description>Commissioned officers of the Imperial Legion who command companies and coordinate military operations.</description>
-    <degreeDatas>
-      <li>
-        <label>Knight</label>
-        <description>Commissioned officer granted knighthood for service to the Empire.</description>
+        <label>Knight Errant</label>
+        <description>A newly commissioned knight beginning their journey in the Imperial knighthood.</description>
         <skillGains>
           <Social>4</Social>
           <Melee>4</Melee>
@@ -186,14 +114,15 @@
         </statOffsets>
       </li>
       <li>
-        <label>Captain</label>
-        <description>Company commander responsible for 100-200 legionnaires.</description>
+        <label>Knight Bachelor</label>
+        <description>An established knight who has proven their worth among the Imperial knighthood.</description>
         <skillGains>
           <Social>5</Social>
           <Melee>4</Melee>
           <Shooting>4</Shooting>
           <Intellectual>4</Intellectual>
           <Construction>3</Construction>
+          <Artistic>2</Artistic>
         </skillGains>
         <statOffsets>
           <SocialImpact>0.15</SocialImpact>
@@ -206,27 +135,16 @@
           <WorkSpeedGlobal>0.08</WorkSpeedGlobal>
         </statOffsets>
       </li>
-    </degreeDatas>
-    <biostatCpxFactor>1.3</biostatCpxFactor>
-    <exclusionTags>
-      <li>ImperialLegionRank</li>
-    </exclusionTags>
-  </TraitDef>
-
-  <TraitDef>
-    <defName>ImperialLegionSenior</defName>
-    <label>Legion Senior Officer</label>
-    <description>High-ranking legion officers responsible for regional command and strategic planning.</description>
-    <degreeDatas>
       <li>
-        <label>Tribune</label>
-        <description>High-ranking officer commanding multiple centuries and handling strategic planning.</description>
+        <label>Knight Protector</label>
+        <description>A senior knight entrusted with protecting important Imperial interests.</description>
         <skillGains>
           <Social>6</Social>
           <Intellectual>5</Intellectual>
-          <Melee>4</Melee>
+          <Melee>5</Melee>
           <Shooting>4</Shooting>
           <Construction>4</Construction>
+          <Artistic>3</Artistic>
         </skillGains>
         <statOffsets>
           <SocialImpact>0.18</SocialImpact>
@@ -241,15 +159,16 @@
         </statOffsets>
       </li>
       <li>
-        <label>Legate</label>
-        <description>Legion commander responsible for thousands of soldiers and major operations.</description>
+        <label>Knight of the Imperial Dragon</label>
+        <description>A high-ranking knight serving directly under the Dragon banner of the Empire.</description>
         <skillGains>
           <Social>7</Social>
           <Intellectual>6</Intellectual>
-          <Melee>5</Melee>
+          <Melee>6</Melee>
           <Shooting>5</Shooting>
           <Construction>4</Construction>
-          <Artistic>3</Artistic>
+          <Artistic>4</Artistic>
+          <Medicine>3</Medicine>
         </skillGains>
         <statOffsets>
           <SocialImpact>0.25</SocialImpact>
@@ -264,6 +183,31 @@
           <MoveSpeed>0.2</MoveSpeed>
         </statOffsets>
       </li>
+      <li>
+        <label>Knight of the Garland</label>
+        <description>The highest rank of knighthood, honored with the ancient Garland of victory.</description>
+        <skillGains>
+          <Social>8</Social>
+          <Intellectual>7</Intellectual>
+          <Melee>7</Melee>
+          <Shooting>6</Shooting>
+          <Construction>5</Construction>
+          <Artistic>5</Artistic>
+          <Medicine>4</Medicine>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.30</SocialImpact>
+          <TradePriceImprovement>0.25</TradePriceImprovement>
+          <ResearchSpeedFactor>0.20</ResearchSpeedFactor>
+          <MeleeHitChance>0.12</MeleeHitChance>
+          <ShootingAccuracyPawn>0.10</ShootingAccuracyPawn>
+          <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+          <MentalBreakThreshold>-0.18</MentalBreakThreshold>
+          <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
+          <MoveSpeed>0.3</MoveSpeed>
+        </statOffsets>
+      </li>
     </degreeDatas>
     <biostatCpxFactor>1.4</biostatCpxFactor>
     <exclusionTags>
@@ -271,14 +215,16 @@
     </exclusionTags>
   </TraitDef>
 
+  <!-- Supreme Leadership -->
+  
   <TraitDef>
-    <defName>ImperialLegionSupreme</defName>
-    <label>Legion Supreme Command</label>
-    <description>The highest echelons of Imperial military command, overseeing multiple legions and grand strategic operations.</description>
+    <defName>ImperialLegionLeadership</defName>
+    <label>Legion Leadership</label>
+    <description>The highest echelons of Imperial Legion command, overseeing regional and supreme military operations.</description>
     <degreeDatas>
       <li>
-        <label>General</label>
-        <description>Supreme military commander overseeing multiple legions and coordinating large-scale campaigns.</description>
+        <label>Legate</label>
+        <description>Regional commander of Legion forces, responsible for major military operations.</description>
         <skillGains>
           <Social>8</Social>
           <Intellectual>7</Intellectual>
@@ -286,6 +232,7 @@
           <Shooting>6</Shooting>
           <Construction>5</Construction>
           <Artistic>4</Artistic>
+          <Medicine>4</Medicine>
         </skillGains>
         <statOffsets>
           <SocialImpact>0.30</SocialImpact>
@@ -301,8 +248,8 @@
         </statOffsets>
       </li>
       <li>
-        <label>Field Marshal</label>
-        <description>The highest military rank below the Emperor, commanding all forces in a theater of operations.</description>
+        <label>Commander of the Imperial Legion</label>
+        <description>The supreme leader of the entire Imperial Legion, answering only to the Emperor.</description>
         <skillGains>
           <Social>10</Social>
           <Intellectual>8</Intellectual>
@@ -310,7 +257,7 @@
           <Shooting>7</Shooting>
           <Construction>6</Construction>
           <Artistic>5</Artistic>
-          <Medicine>4</Medicine>
+          <Medicine>5</Medicine>
         </skillGains>
         <statOffsets>
           <SocialImpact>0.40</SocialImpact>
@@ -333,69 +280,29 @@
     </exclusionTags>
   </TraitDef>
 
-  <!-- Special Legion Positions -->
+  <!-- Support Personnel -->
   
   <TraitDef>
-    <defName>ImperialLegionSpecialPosition</defName>
-    <label>Legion Special Position</label>
-    <description>Specialized roles within the Imperial Legion that require particular skills and responsibilities.</description>
+    <defName>ImperialLegionAuxiliary</defName>
+    <label>Legion Auxiliary</label>
+    <description>Militia members and support personnel working alongside the Imperial Legion, not full legionnaires but essential to operations.</description>
     <degreeDatas>
       <li>
-        <label>Signifer</label>
-        <description>Standard-bearer responsible for maintaining unit cohesion and morale.</description>
+        <label>Auxiliary</label>
+        <description>Militia member or support personnel assisting the Imperial Legion.</description>
         <skillGains>
-          <Social>4</Social>
-          <Melee>3</Melee>
-          <Artistic>3</Artistic>
-          <Intellectual>2</Intellectual>
+          <Melee>1</Melee>
+          <Shooting>1</Shooting>
+          <Construction>2</Construction>
+          <Social>1</Social>
         </skillGains>
         <statOffsets>
-          <SocialImpact>0.12</SocialImpact>
-          <MeleeHitChance>0.04</MeleeHitChance>
-          <MentalBreakThreshold>-0.08</MentalBreakThreshold>
-          <MoveSpeed>0.15</MoveSpeed>
-        </statOffsets>
-      </li>
-      <li>
-        <label>Aquilifer</label>
-        <description>Most honored standard-bearer, carrying the legion's golden eagle.</description>
-        <skillGains>
-          <Social>5</Social>
-          <Melee>4</Melee>
-          <Artistic>4</Artistic>
-          <Intellectual>3</Intellectual>
-        </skillGains>
-        <statOffsets>
-          <SocialImpact>0.18</SocialImpact>
-          <MeleeHitChance>0.06</MeleeHitChance>
-          <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
-          <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-          <MentalBreakThreshold>-0.12</MentalBreakThreshold>
-          <MoveSpeed>0.2</MoveSpeed>
-        </statOffsets>
-      </li>
-      <li>
-        <label>Primus Pilus</label>
-        <description>Senior centurion of the first cohort, the most experienced officer below tribune rank.</description>
-        <skillGains>
-          <Social>6</Social>
-          <Melee>5</Melee>
-          <Shooting>5</Shooting>
-          <Construction>4</Construction>
-          <Intellectual>4</Intellectual>
-        </skillGains>
-        <statOffsets>
-          <SocialImpact>0.20</SocialImpact>
-          <MeleeHitChance>0.08</MeleeHitChance>
-          <ShootingAccuracyPawn>0.06</ShootingAccuracyPawn>
-          <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
-          <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
-          <MentalBreakThreshold>-0.10</MentalBreakThreshold>
-          <WorkSpeedGlobal>0.12</WorkSpeedGlobal>
+          <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+          <MentalBreakThreshold>-0.02</MentalBreakThreshold>
         </statOffsets>
       </li>
     </degreeDatas>
-    <biostatCpxFactor>1.25</biostatCpxFactor>
+    <biostatCpxFactor>1.05</biostatCpxFactor>
     <exclusionTags>
       <li>ImperialLegionRank</li>
     </exclusionTags>
