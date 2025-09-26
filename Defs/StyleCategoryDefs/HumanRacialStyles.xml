@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Imperial Style -->
+  <StyleCategoryDef>
+    <defName>Imperial</defName>
+    <label>Imperial</label>
+    <description>The refined Imperial style reflects the diplomatic empire-builders of Cyrodiil, featuring red and gold Legion aesthetics with organized military designs and symbols of Imperial authority.</description>
+  </StyleCategoryDef>
+
+  <!-- Breton Style -->
+  <StyleCategoryDef>
+    <defName>Breton</defName>
+    <label>Breton</label>
+    <description>The scholarly Breton style embodies the magic-resistant people of High Rock, combining blue and silver academic colors with knightly designs that reflect their mixed elven-human heritage.</description>
+  </StyleCategoryDef>
+
+  <!-- Nord Style -->
+  <StyleCategoryDef>
+    <defName>Nord</defName>
+    <label>Nord</label>
+    <description>The hardy Nord style represents the fierce warriors of Skyrim, featuring grey and blue practical designs with Nordic patterns suited for harsh climates and independent living.</description>
+  </StyleCategoryDef>
+
+  <!-- Redguard Style -->
+  <StyleCategoryDef>
+    <defName>Redguard</defName>
+    <label>Redguard</label>
+    <description>The warrior Redguard style reflects the desert-dwelling fighters of Hammerfell, showcasing brown and bronze colors with curved weapon influences and designs adapted for harsh desert conditions.</description>
+  </StyleCategoryDef>
+
+</Defs>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Imperial Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>Imperial_Weapons</defName>
+    <label>Imperial weapons</label>
+    <description>Standardized weapons of the Imperial Legion, featuring disciplined military designs with red and gold Legion aesthetics and organized manufacturing quality.</description>
+    <styleTags>
+      <li>Imperial</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_LongSword>Things/Item/Equipment/WeaponMelee/HumanRaces/Imperial/Sword</MeleeWeapon_LongSword>
+      <MeleeWeapon_Spear>Things/Item/Equipment/WeaponMelee/HumanRaces/Imperial/Spear</MeleeWeapon_Spear>
+      <MeleeWeapon_Club>Things/Item/Equipment/WeaponMelee/HumanRaces/Imperial/Club</MeleeWeapon_Club>
+      <MeleeWeapon_Knife>Things/Item/Equipment/WeaponMelee/HumanRaces/Imperial/Knife</MeleeWeapon_Knife>
+      <Bow_Short>Things/Item/Equipment/WeaponRanged/HumanRaces/Imperial/Bow</Bow_Short>
+      <Gun_Revolver>Things/Item/Equipment/WeaponRanged/HumanRaces/Imperial/Revolver</Gun_Revolver>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Breton Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>Breton_Weapons</defName>
+    <label>Breton weapons</label>
+    <description>Knightly weapons of the scholarly Bretons, combining practical combat effectiveness with academic precision and blue and silver decorative elements.</description>
+    <styleTags>
+      <li>Breton</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_LongSword>Things/Item/Equipment/WeaponMelee/HumanRaces/Breton/Sword</MeleeWeapon_LongSword>
+      <MeleeWeapon_Spear>Things/Item/Equipment/WeaponMelee/HumanRaces/Breton/Spear</MeleeWeapon_Spear>
+      <MeleeWeapon_Club>Things/Item/Equipment/WeaponMelee/HumanRaces/Breton/Club</MeleeWeapon_Club>
+      <MeleeWeapon_Knife>Things/Item/Equipment/WeaponMelee/HumanRaces/Breton/Knife</MeleeWeapon_Knife>
+      <Bow_Short>Things/Item/Equipment/WeaponRanged/HumanRaces/Breton/Bow</Bow_Short>
+      <Gun_Revolver>Things/Item/Equipment/WeaponRanged/HumanRaces/Breton/Revolver</Gun_Revolver>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Nord Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>Nord_Weapons</defName>
+    <label>Nord weapons</label>
+    <description>Robust weapons of the fierce Nords, built for harsh conditions and powerful strikes with grey and blue Nordic patterns and practical craftsmanship.</description>
+    <styleTags>
+      <li>Nord</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_LongSword>Things/Item/Equipment/WeaponMelee/HumanRaces/Nord/Sword</MeleeWeapon_LongSword>
+      <MeleeWeapon_Spear>Things/Item/Equipment/WeaponMelee/HumanRaces/Nord/Spear</MeleeWeapon_Spear>
+      <MeleeWeapon_Club>Things/Item/Equipment/WeaponMelee/HumanRaces/Nord/Club</MeleeWeapon_Club>
+      <MeleeWeapon_Knife>Things/Item/Equipment/WeaponMelee/HumanRaces/Nord/Knife</MeleeWeapon_Knife>
+      <MeleeWeapon_Mace>Things/Item/Equipment/WeaponMelee/HumanRaces/Nord/Mace</MeleeWeapon_Mace>
+      <Bow_Short>Things/Item/Equipment/WeaponRanged/HumanRaces/Nord/Bow</Bow_Short>
+      <Gun_Revolver>Things/Item/Equipment/WeaponRanged/HumanRaces/Nord/Revolver</Gun_Revolver>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Redguard Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>Redguard_Weapons</defName>
+    <label>Redguard weapons</label>
+    <description>Curved weapons of the desert-dwelling Redguards, featuring distinctive scimitar designs with brown and bronze colors adapted for quick, precise combat.</description>
+    <styleTags>
+      <li>Redguard</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_LongSword>Things/Item/Equipment/WeaponMelee/HumanRaces/Redguard/Sword</MeleeWeapon_LongSword>
+      <MeleeWeapon_Spear>Things/Item/Equipment/WeaponMelee/HumanRaces/Redguard/Spear</MeleeWeapon_Spear>
+      <MeleeWeapon_Club>Things/Item/Equipment/WeaponMelee/HumanRaces/Redguard/Club</MeleeWeapon_Club>
+      <MeleeWeapon_Knife>Things/Item/Equipment/WeaponMelee/HumanRaces/Redguard/Knife</MeleeWeapon_Knife>
+      <Bow_Short>Things/Item/Equipment/WeaponRanged/HumanRaces/Redguard/Bow</Bow_Short>
+      <Gun_Revolver>Things/Item/Equipment/WeaponRanged/HumanRaces/Redguard/Revolver</Gun_Revolver>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+</Defs>

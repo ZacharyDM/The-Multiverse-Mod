@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Imperial Building Style -->
+  <StyleItemCategoryDef>
+    <defName>Imperial_Buildings</defName>
+    <label>Imperial buildings</label>
+    <description>Organized architectural style of the diplomatic Imperials, featuring red and gold Legion aesthetics with structured military designs and symbols of Imperial authority.</description>
+    <styleTags>
+      <li>Imperial</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Things/Building/Linked/HumanRaces/Imperial/Wall</Wall>
+      <Door>Things/Building/Door/HumanRaces/Imperial/Door</Door>
+      <Bed>Things/Building/Furniture/HumanRaces/Imperial/Bed</Bed>
+      <Table2x2c>Things/Building/Furniture/HumanRaces/Imperial/Table</Table2x2c>
+      <DiningChair>Things/Building/Furniture/HumanRaces/Imperial/Chair</DiningChair>
+      <Campfire>Things/Building/Misc/HumanRaces/Imperial/Campfire</Campfire>
+      <Torch>Things/Building/Misc/HumanRaces/Imperial/Torch</Torch>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Breton Building Style -->
+  <StyleItemCategoryDef>
+    <defName>Breton_Buildings</defName>
+    <label>Breton buildings</label>
+    <description>Scholarly architecture of the magic-resistant Bretons, combining academic functionality with knightly aesthetics in blue and silver tones.</description>
+    <styleTags>
+      <li>Breton</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Things/Building/Linked/HumanRaces/Breton/Wall</Wall>
+      <Door>Things/Building/Door/HumanRaces/Breton/Door</Door>
+      <Bed>Things/Building/Furniture/HumanRaces/Breton/Bed</Bed>
+      <Table2x2c>Things/Building/Furniture/HumanRaces/Breton/Table</Table2x2c>
+      <DiningChair>Things/Building/Furniture/HumanRaces/Breton/Chair</DiningChair>
+      <Campfire>Things/Building/Misc/HumanRaces/Breton/Campfire</Campfire>
+      <Torch>Things/Building/Misc/HumanRaces/Breton/Torch</Torch>
+      <ResearchBench>Things/Building/Production/HumanRaces/Breton/ResearchBench</ResearchBench>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Nord Building Style -->
+  <StyleItemCategoryDef>
+    <defName>Nord_Buildings</defName>
+    <label>Nord buildings</label>
+    <description>Hardy architecture of the fierce Nords, featuring grey and blue practical designs with Nordic patterns built to withstand Skyrim's harsh climate.</description>
+    <styleTags>
+      <li>Nord</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Things/Building/Linked/HumanRaces/Nord/Wall</Wall>
+      <Door>Things/Building/Door/HumanRaces/Nord/Door</Door>
+      <Bed>Things/Building/Furniture/HumanRaces/Nord/Bed</Bed>
+      <Table2x2c>Things/Building/Furniture/HumanRaces/Nord/Table</Table2x2c>
+      <DiningChair>Things/Building/Furniture/HumanRaces/Nord/Chair</DiningChair>
+      <Campfire>Things/Building/Misc/HumanRaces/Nord/Campfire</Campfire>
+      <Torch>Things/Building/Misc/HumanRaces/Nord/Torch</Torch>
+      <Stonecutting>Things/Building/Production/HumanRaces/Nord/Stonecutting</Stonecutting>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Redguard Building Style -->
+  <StyleItemCategoryDef>
+    <defName>Redguard_Buildings</defName>
+    <label>Redguard buildings</label>
+    <description>Desert-adapted architecture of the warrior Redguards, featuring brown and bronze colors with designs suited for Hammerfell's harsh desert conditions.</description>
+    <styleTags>
+      <li>Redguard</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Things/Building/Linked/HumanRaces/Redguard/Wall</Wall>
+      <Door>Things/Building/Door/HumanRaces/Redguard/Door</Door>
+      <Bed>Things/Building/Furniture/HumanRaces/Redguard/Bed</Bed>
+      <Table2x2c>Things/Building/Furniture/HumanRaces/Redguard/Table</Table2x2c>
+      <DiningChair>Things/Building/Furniture/HumanRaces/Redguard/Chair</DiningChair>
+      <Campfire>Things/Building/Misc/HumanRaces/Redguard/Campfire</Campfire>
+      <Torch>Things/Building/Misc/HumanRaces/Redguard/Torch</Torch>
+      <SimpleResearchBench>Things/Building/Production/HumanRaces/Redguard/SimpleResearchBench</SimpleResearchBench>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+</Defs>
