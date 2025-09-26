@@ -46,6 +46,12 @@ The Human Cultural Traits system adds 13 distinct cultural frameworks representi
 - **Bonuses**: Exceptional melee combat abilities, dodge chance, psychic sensitivity
 - **Lore**: Represents the legendary sword-singers who could "cut atoms with blades"
 
+### Na-Totambu Tradition
+- **Focus**: Ancient noble houses with the purest Yokudan bloodlines
+- **Skills**: Social +4, Intellectual +3, Artistic +3, Melee +2
+- **Bonuses**: Superior social influence, negotiation ability, mental stability, psychic sensitivity
+- **Lore**: Represents the royal class that ruled Yokuda before the Ra Gada migration
+
 ## Breton Cultural Traits
 
 ### Breton Knightly Order
