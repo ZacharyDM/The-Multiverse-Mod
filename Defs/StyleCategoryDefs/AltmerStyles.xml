@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Altmer Style Categories -->
+
+  <!-- Crystal Tower Style -->
+  <StyleCategoryDef>
+    <defName>CrystalTowerStyle</defName>
+    <label>Crystal Tower</label>
+    <iconPath>UI/Styles/CrystalTower</iconPath>
+    <priority>5</priority>
+  </StyleCategoryDef>
+
+  <!-- Alinor Royal Style -->
+  <StyleCategoryDef>
+    <defName>AlinorRoyalStyle</defName>
+    <label>Alinor Royal</label>
+    <iconPath>UI/Styles/AlinorRoyal</iconPath>
+    <priority>5</priority>
+  </StyleCategoryDef>
+
+  <!-- Summerset Noble Style -->
+  <StyleCategoryDef>
+    <defName>SummersetNobleStyle</defName>
+    <label>Summerset Noble</label>
+    <iconPath>UI/Styles/SummersetNoble</iconPath>
+    <priority>4</priority>
+  </StyleCategoryDef>
+
+  <!-- Sapiarch Academic Style -->
+  <StyleCategoryDef>
+    <defName>SapiarchAcademicStyle</defName>
+    <label>Sapiarch Academic</label>
+    <iconPath>UI/Styles/SapiarchAcademic</iconPath>
+    <priority>4</priority>
+  </StyleCategoryDef>
+
+  <!-- Thalmor Agent Style -->
+  <StyleCategoryDef>
+    <defName>ThalmorAgentStyle</defName>
+    <label>Thalmor Agent</label>
+    <iconPath>UI/Styles/ThalmorAgent</iconPath>
+    <priority>3</priority>
+  </StyleCategoryDef>
+
+  <!-- Psijic Mystic Style -->
+  <StyleCategoryDef>
+    <defName>PsijicMysticStyle</defName>
+    <label>Psijic Mystic</label>
+    <iconPath>UI/Styles/PsijicMystic</iconPath>
+    <priority>5</priority>
+  </StyleCategoryDef>
+
+</Defs>

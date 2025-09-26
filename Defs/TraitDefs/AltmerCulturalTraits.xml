@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Altmer Cultural Traits -->
+
+  <!-- Crystal Tower Scholar Heritage - Academic tradition -->
+  <TraitDef>
+    <defName>CrystalTowerScholar</defName>
+    <label>Crystal Tower Scholar</label>
+    <description>This Altmer comes from the ancient scholarly traditions of the Crystal Tower, the greatest seat of learning in Tamriel. Crystal Tower scholars are master researchers, mathematicians, and theorists who pursue knowledge for its own sake.</description>
+    <degreeDatas>
+      <li>
+        <label>Tower Scholar</label>
+        <description>Trained in the Crystal Tower's rigorous academic tradition, this Altmer excels at research, complex crafting, and intellectual pursuits.</description>
+        <skillGains>
+          <Intellectual>6</Intellectual>
+          <Crafting>4</Crafting>
+          <Medicine>3</Medicine>
+          <Artistic>2</Artistic>
+        </skillGains>
+        <statOffsets>
+          <ResearchSpeed>0.15</ResearchSpeed>
+          <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+          <GlobalLearningFactor>0.12</GlobalLearningFactor>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.3</biostatCpxFactor>
+    <exclusionTags>
+      <li>AltmerCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Sapiarch Heritage - Wise rulers and judges -->
+  <TraitDef>
+    <defName>SapiarchHeritage</defName>
+    <label>Sapiarch Heritage</label>
+    <description>This Altmer descends from the Sapiarchs, the wise rulers and judges of Summerset Isle. They are natural leaders with deep understanding of law, governance, and diplomacy.</description>
+    <degreeDatas>
+      <li>
+        <label>Sapiarch Wisdom</label>
+        <description>Born to rule and judge, this Altmer possesses exceptional diplomatic skills and natural authority that others instinctively respect.</description>
+        <skillGains>
+          <Social>5</Social>
+          <Intellectual>4</Intellectual>
+          <Medicine>2</Medicine>
+          <Artistic>3</Artistic>
+        </skillGains>
+        <statOffsets>
+          <NegotiationAbility>0.18</NegotiationAbility>
+          <SocialImpact>0.15</SocialImpact>
+          <TradePriceImprovement>0.1</TradePriceImprovement>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.4</biostatCpxFactor>
+    <exclusionTags>
+      <li>AltmerCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Summerset Nobility Heritage - High born aristocrats -->
+  <TraitDef>
+    <defName>SummersetNobility</defName>
+    <label>Summerset Nobility</label>
+    <description>This Altmer belongs to the ancient noble houses of Summerset Isle, with bloodlines tracing back to the first Aldmer. They carry themselves with natural grace and possess refinement that comes from centuries of breeding.</description>
+    <degreeDatas>
+      <li>
+        <label>High Born</label>
+        <description>Raised in the heights of Altmer society, this noble has exceptional social grace, artistic sensibilities, and the confidence that comes with ancient bloodlines.</description>
+        <skillGains>
+          <Social>4</Social>
+          <Artistic>4</Artistic>
+          <Intellectual>3</Intellectual>
+          <Medicine>2</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <Beauty>1.0</Beauty>
+          <SocialImpact>0.12</SocialImpact>
+          <TradePriceImprovement>0.08</TradePriceImprovement>
+          <WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.2</biostatCpxFactor>
+    <exclusionTags>
+      <li>AltmerCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Alinor Artisan Heritage - Master crafters -->
+  <TraitDef>
+    <defName>AlinorArtisan</defName>
+    <label>Alinor Artisan</label>
+    <description>This Altmer comes from the master craftsmen and artists of Alinor, creators of the most beautiful and technically perfect works in all of Tamriel. Alinor artisans are perfectionists who create items of legendary quality.</description>
+    <degreeDatas>
+      <li>
+        <label>Master Artisan</label>
+        <description>Trained in the perfectionist traditions of Alinor, this Altmer creates works of extraordinary beauty and technical precision.</description>
+        <skillGains>
+          <Crafting>6</Crafting>
+          <Artistic>5</Artistic>
+          <Construction>3</Construction>
+          <Intellectual>2</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <WorkSpeedGlobal>0.12</WorkSpeedGlobal>
+          <Beauty>0.5</Beauty>
+          <ConstructionSpeed>0.15</ConstructionSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.3</biostatCpxFactor>
+    <exclusionTags>
+      <li>AltmerCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Psijic Heritage - Mystic isle dwellers -->
+  <TraitDef>
+    <defName>PsijicHeritage</defName>
+    <label>Psijic Heritage</label>
+    <description>This Altmer has connections to the mysterious Psijic Order of Artaeum, the mystic isle that phases in and out of reality. They possess unusual magical insights and a deep understanding of time and reality.</description>
+    <degreeDatas>
+      <li>
+        <label>Mystic Insight</label>
+        <description>Touched by the mysterious wisdom of the Psijic Order, this Altmer sees beyond the veil of reality and possesses extraordinary magical understanding.</description>
+        <skillGains>
+          <Intellectual>5</Intellectual>
+          <Medicine>4</Medicine>
+          <Plants>3</Plants>
+          <Artistic>2</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <ResearchSpeed>0.18</ResearchSpeed>
+          <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+          <PsychicSensitivity>0.2</PsychicSensitivity>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.4</biostatCpxFactor>
+    <exclusionTags>
+      <li>AltmerCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Aldmeri Ancestor Heritage - Ancient bloodlines -->
+  <TraitDef>
+    <defName>AldmeriAncestor</defName>
+    <label>Aldmeri Ancestor</label>
+    <description>This Altmer claims direct descent from the original Aldmer, the first elves who walked Tamriel. Their bloodline is considered among the purest, carrying the ancient wisdom and magical potential of their forebears.</description>
+    <degreeDatas>
+      <li>
+        <label>Pure Blood</label>
+        <description>Carrying the ancient blood of the first elves, this Altmer possesses enhanced magical abilities and an instinctive understanding of arcane forces.</description>
+        <skillGains>
+          <Intellectual>4</Intellectual>
+          <Medicine>3</Medicine>
+          <Social>3</Social>
+          <Artistic>3</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.15</PsychicSensitivity>
+          <GlobalLearningFactor>0.1</GlobalLearningFactor>
+          <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.5</biostatCpxFactor>
+    <exclusionTags>
+      <li>AltmerCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Thalmor Agent Heritage - Supremacist ideology -->
+  <TraitDef>
+    <defName>ThalmorAgent</defName>
+    <label>Thalmor Agent</label>
+    <description>This Altmer has been trained in the ideology and methods of the Thalmor, the supremacist organization that believes in Altmer superiority over all other races. They are skilled in investigation, interrogation, and enforcement.</description>
+    <degreeDatas>
+      <li>
+        <label>Supremacist</label>
+        <description>Indoctrinated in Thalmor ideology, this Altmer believes firmly in elven superiority and has been trained in investigation and enforcement techniques.</description>
+        <skillGains>
+          <Social>3</Social>
+          <Intellectual>4</Intellectual>
+          <Shooting>3</Shooting>
+          <Melee>2</Melee>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.08</SocialImpact>
+          <PainShockThreshold>0.1</PainShockThreshold>
+          <NegotiationAbility>-0.1</NegotiationAbility>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.2</biostatCpxFactor>
+    <exclusionTags>
+      <li>AltmerCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+</Defs>

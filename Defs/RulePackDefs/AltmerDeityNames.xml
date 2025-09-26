@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Auri-El Deity Names -->
+  <RulePackDef>
+    <defName>AltmerAuriElDeityNames</defName>
+    <include>
+      <li>WordsUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>deity_name->Auri-El</li>
+        <li>deity_name->The Golden Eagle</li>
+        <li>deity_name->The Time Dragon</li>
+        <li>deity_name->The First</li>
+        <li>deity_name->The Beginning Place</li>
+        <li>deity_name->The Sunbird</li>
+        <li>deity_name->The Eternal Champion</li>
+        <li>deity_name->King of the Aldmer</li>
+        <li>deity_name->The Adamantine Tower</li>
+        <li>deity_name->The Crystal Tower</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <!-- Altmer Ancestor Deity Names -->
+  <RulePackDef>
+    <defName>AltmerAncestorDeityNames</defName>
+    <include>
+      <li>WordsUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>deity_name->The First Aldmer</li>
+        <li>deity_name->The Ancient Ones</li>
+        <li>deity_name->The Golden Ancestors</li>
+        <li>deity_name->The Wise Elders</li>
+        <li>deity_name->The Noble Fathers</li>
+        <li>deity_name->The Eternal Mothers</li>
+        <li>deity_name->The Guiding Spirits</li>
+        <li>deity_name->The Blessed Bloodline</li>
+        <li>deity_name->The Sacred Heritage</li>
+        <li>deity_name->The Ancient Wisdom</li>
+        <li>deity_name->The Timeless Ones</li>
+        <li>deity_name->The Firstborn</li>
+        <li>deity_name->The Pure Blood</li>
+        <li>deity_name->The Eternal House</li>
+        <li>deity_name->The Living Memory</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <!-- Magnus Deity Names -->
+  <RulePackDef>
+    <defName>AltmerMagnusDeityNames</defName>
+    <include>
+      <li>WordsUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>deity_name->Magnus</li>
+        <li>deity_name->The Sun</li>
+        <li>deity_name->The Architect</li>
+        <li>deity_name->The God of Magic</li>
+        <li>deity_name->The Great Eye</li>
+        <li>deity_name->The Sunbird</li>
+        <li>deity_name->The Hole in Oblivion</li>
+        <li>deity_name->The Source of Power</li>
+        <li>deity_name->The Cosmic Force</li>
+        <li>deity_name->The Divine Light</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <!-- Syrabane Deity Names -->
+  <RulePackDef>
+    <defName>AltmerSyrabaneDeityNames</defName>
+    <include>
+      <li>WordsUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>deity_name->Syrabane</li>
+        <li>deity_name->The Warlock's God</li>
+        <li>deity_name->The Spell Maker</li>
+        <li>deity_name->The First Mage</li>
+        <li>deity_name->The Teacher of Magic</li>
+        <li>deity_name->The Aldmeri Sorcerer</li>
+        <li>deity_name->The Master of Mysteries</li>
+        <li>deity_name->The Weaver of Spells</li>
+        <li>deity_name->The Arcane Father</li>
+        <li>deity_name->The Magic God</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

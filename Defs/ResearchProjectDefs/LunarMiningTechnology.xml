@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Lunar Mining Techniques Research -->
+  <ResearchProjectDef>
+    <defName>LunarMiningTechniques</defName>
+    <label>lunar mining techniques</label>
+    <description>The ancient art of extracting moonstone from its rocky matrix, known only to the Altmer and Khajiit. This sacred knowledge involves understanding lunar cycles, proper ritual preparation, and specialized tools blessed by the moon gods. Masters the techniques required to safely mine moonstone deposits.</description>
+    <tab>Main</tab>
+    <baseCost>2500</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>ComplexFurniture</li>
+      <li>Smithing</li>
+    </prerequisites>
+    <researchViewX>6.00</researchViewX>
+    <researchViewY>3.40</researchViewY>
+    <discoveredLetterTitle>Lunar mining techniques unlocked</discoveredLetterTitle>
+    <discoveredLetterText>You have unlocked the ancient secrets of lunar mining! Your colonists can now safely extract moonstone from deposits, but only those of Altmer or Khajiit heritage possess the innate understanding needed to perform this sacred work.\n\nMoonstone mining requires:\n- Altmer or Khajiit racial heritage\n- Specialized lunar mining tools\n- Proper understanding of lunar cycles</discoveredLetterText>
+    <requiredResearchBuilding>ResearchBench</requiredResearchBuilding>
+    <requiredResearcherCount>1</requiredResearcherCount>
+    <canBeResearchedAtBills>
+      <li>ResearchBench</li>
+    </canBeResearchedAtBills>
+  </ResearchProjectDef>
+
+  <!-- Moonstone Refinement Research -->
+  <ResearchProjectDef>
+    <defName>MoonstoneRefinement</defName>
+    <label>moonstone refinement</label>
+    <description>Advanced techniques for purifying raw moonstone into usable ingots. This process requires understanding the lunar resonance properties of the mineral and specific forging techniques passed down through generations of Altmer and Khajiit craftsmen.</description>
+    <tab>Main</tab>
+    <baseCost>1800</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>LunarMiningTechniques</li>
+    </prerequisites>
+    <researchViewX>7.00</researchViewX>
+    <researchViewY>3.40</researchViewY>
+    <discoveredLetterTitle>Moonstone refinement mastered</discoveredLetterTitle>
+    <discoveredLetterText>Your craftsmen have mastered the art of moonstone refinement! You can now process raw moonstone into beautiful, magically-resonant ingots suitable for crafting the finest items.</discoveredLetterText>
+    <requiredResearchBuilding>ResearchBench</requiredResearchBuilding>
+    <requiredResearcherCount>1</requiredResearcherCount>
+    <canBeResearchedAtBills>
+      <li>ResearchBench</li>
+    </canBeResearchedAtBills>
+  </ResearchProjectDef>
+
+</Defs>

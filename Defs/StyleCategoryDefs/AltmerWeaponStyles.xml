@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Altmer Weapon Styles -->
+
+  <!-- Crystal Tower Weapons -->
+  <ThingStyleDef>
+    <defName>CrystalTowerStaff</defName>
+    <label>crystal tower staff</label>
+    <category>CrystalTowerStyle</category>
+    <thingDefStyles>
+      <MeleeWeapon_Spear>
+        <texPath>Things/Item/Equipment/WeaponMelee/Altmer/CrystalTower/CrystalStaff</texPath>
+      </MeleeWeapon_Spear>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+  <!-- Alinor Royal Weapons -->
+  <ThingStyleDef>
+    <defName>AlinorRoyalSword</defName>
+    <label>alinor royal sword</label>
+    <category>AlinorRoyalStyle</category>
+    <thingDefStyles>
+      <MeleeWeapon_LongSword>
+        <texPath>Things/Item/Equipment/WeaponMelee/Altmer/AlinorRoyal/RoyalSword</texPath>
+      </MeleeWeapon_LongSword>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>AlinorRoyalBow</defName>
+    <label>alinor royal bow</label>
+    <category>AlinorRoyalStyle</category>
+    <thingDefStyles>
+      <Bow_Recurve>
+        <texPath>Things/Item/Equipment/WeaponRanged/Altmer/AlinorRoyal/RoyalBow</texPath>
+      </Bow_Recurve>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+  <!-- Summerset Noble Weapons -->
+  <ThingStyleDef>
+    <defName>SummersetNobleRapier</defName>
+    <label>summerset noble rapier</label>
+    <category>SummersetNobleStyle</category>
+    <thingDefStyles>
+      <MeleeWeapon_Gladius>
+        <texPath>Things/Item/Equipment/WeaponMelee/Altmer/SummersetNoble/NobleRapier</texPath>
+      </MeleeWeapon_Gladius>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+  <!-- Sapiarch Academic Weapons -->
+  <ThingStyleDef>
+    <defName>SapiarchAcademicStaff</defName>
+    <label>sapiarch academic staff</label>
+    <category>SapiarchAcademicStyle</category>
+    <thingDefStyles>
+      <MeleeWeapon_Spear>
+        <texPath>Things/Item/Equipment/WeaponMelee/Altmer/SapiarchAcademic/AcademicStaff</texPath>
+      </MeleeWeapon_Spear>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+  <!-- Thalmor Agent Weapons -->
+  <ThingStyleDef>
+    <defName>ThalmorAgentBlade</defName>
+    <label>thalmor agent blade</label>
+    <category>ThalmorAgentStyle</category>
+    <thingDefStyles>
+      <MeleeWeapon_LongSword>
+        <texPath>Things/Item/Equipment/WeaponMelee/Altmer/ThalmorAgent/AgentBlade</texPath>
+      </MeleeWeapon_LongSword>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>ThalmorAgentCrossbow</defName>
+    <label>thalmor agent crossbow</label>
+    <category>ThalmorAgentStyle</category>
+    <thingDefStyles>
+      <Bow_Short>
+        <texPath>Things/Item/Equipment/WeaponRanged/Altmer/ThalmorAgent/AgentCrossbow</texPath>
+      </Bow_Short>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+  <!-- Psijic Mystic Weapons -->
+  <ThingStyleDef>
+    <defName>PsijicMysticStaff</defName>
+    <label>psijic mystic staff</label>
+    <category>PsijicMysticStyle</category>
+    <thingDefStyles>
+      <MeleeWeapon_Spear>
+        <texPath>Things/Item/Equipment/WeaponMelee/Altmer/PsijicMystic/MysticStaff</texPath>
+      </MeleeWeapon_Spear>
+    </thingDefStyles>
+  </ThingStyleDef>
+
+</Defs>

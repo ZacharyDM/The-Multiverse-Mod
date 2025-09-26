@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Auri-El Worship - Primary Altmer deity -->
+  <MemeDef>
+    <defName>AuriElWorship</defName>
+    <label>Auri-El worship</label>
+    <description>Devotion to Auri-El, the chief deity of the Altmer pantheon and the elven aspect of Akatosh. Auri-El is the god of time, the Aldmer ancestor spirit, and the one who led the elves to Tamriel. This faith emphasizes purity, perfection, nobility, and the divine nature of the elven race.</description>
+    <iconPath>UI/Memes/AuriElWorship</iconPath>
+    <impact>2</impact>
+    <category>Deity</category>
+    <exclusionTags>
+      <li>Deity</li>
+    </exclusionTags>
+    <generalRules>
+      <rulesStrings>
+        <li>rule->maintain purity of body and spirit</li>
+        <li>rule->strive for perfection in all endeavors</li>
+        <li>rule->honor the ancient ways</li>
+        <li>rule->respect the divine order</li>
+        <li>rule->preserve elven heritage</li>
+      </rulesStrings>
+    </generalRules>
+    <worshipRoomLabel>shrine of auri-el</worshipRoomLabel>
+    <symbolPacks>
+      <li>
+        <ideoName>Divine Order</ideoName>
+        <theme>Celestial</theme>
+        <adjective>divine</adjective>
+        <member>faithful</member>
+        <deity>Auri-El</deity>
+        <deityPlural>Auri-El</deityPlural>
+        <place>sacred temple</place>
+      </li>
+    </symbolPacks>
+    <ritualPatterns>
+      <li>
+        <keyword>divine</keyword>
+        <duties>
+          <li>High Priest</li>
+          <li>Temple Guardian</li>
+          <li>Divine Scholar</li>
+        </duties>
+      </li>
+    </ritualPatterns>
+    <deityCountRange>1~3</deityCountRange>
+    <deityNameMaker>AltmerAuriElDeityNames</deityNameMaker>
+    <allowSymbolsFromDeity>true</allowSymbolsFromDeity>
+    <fixedDeityNameTypes>
+      <li>Auri-El</li>
+    </fixedDeityNameTypes>
+  </MemeDef>
+
+  <!-- Ancestor Worship - Veneration of elven ancestors -->
+  <MemeDef>
+    <defName>AltmerAncestorWorship</defName>
+    <label>ancestor worship</label>
+    <description>The ancient Altmer tradition of venerating the spirits of their ancestors, particularly the first Aldmer who came to Tamriel. This faith emphasizes the continuity of bloodlines, the wisdom of the ancestors, and the duty to preserve and honor elven heritage across generations.</description>
+    <iconPath>UI/Memes/AncestorWorship</iconPath>
+    <impact>1</impact>
+    <category>Deity</category>
+    <exclusionTags>
+      <li>Deity</li>
+    </exclusionTags>
+    <generalRules>
+      <rulesStrings>
+        <li>rule->honor the ancestors</li>
+        <li>rule->preserve family lineages</li>
+        <li>rule->maintain ancient traditions</li>
+        <li>rule->seek wisdom from the past</li>
+        <li>rule->respect elders and their knowledge</li>
+      </rulesStrings>
+    </generalRules>
+    <worshipRoomLabel>ancestral shrine</worshipRoomLabel>
+    <symbolPacks>
+      <li>
+        <ideoName>Ancient Ways</ideoName>
+        <theme>Ancestral</theme>
+        <adjective>ancestral</adjective>
+        <member>heir</member>
+        <deity>The Ancestors</deity>
+        <deityPlural>The Ancestors</deityPlural>
+        <place>hall of memory</place>
+      </li>
+    </symbolPacks>
+    <ritualPatterns>
+      <li>
+        <keyword>ancestral</keyword>
+        <duties>
+          <li>Lorekeeper</li>
+          <li>Memory Keeper</li>
+          <li>Genealogist</li>
+        </duties>
+      </li>
+    </ritualPatterns>
+    <deityCountRange>3~8</deityCountRange>
+    <deityNameMaker>AltmerAncestorDeityNames</deityNameMaker>
+    <allowSymbolsFromDeity>true</allowSymbolsFromDeity>
+  </MemeDef>
+
+  <!-- Magnus Worship - God of magic -->
+  <MemeDef>
+    <defName>MagnusWorship</defName>
+    <label>Magnus worship</label>
+    <description>Devotion to Magnus, the god of magic and sorcery, architect of creation who fled to Aetherius. Magnus represents the pursuit of magical knowledge, the mysteries of the cosmos, and the power that flows from the sun itself. This faith emphasizes scholarly pursuit, magical mastery, and cosmic understanding.</description>
+    <iconPath>UI/Memes/MagnusWorship</iconPath>
+    <impact>2</impact>
+    <category>Deity</category>
+    <exclusionTags>
+      <li>Deity</li>
+    </exclusionTags>
+    <generalRules>
+      <rulesStrings>
+        <li>rule->pursue magical knowledge</li>
+        <li>rule->study the mysteries of creation</li>
+        <li>rule->harness cosmic forces</li>
+        <li>rule->seek enlightenment through magic</li>
+        <li>rule->respect the power of the sun</li>
+      </rulesStrings>
+    </generalRules>
+    <worshipRoomLabel>observatory of magnus</worshipRoomLabel>
+    <symbolPacks>
+      <li>
+        <ideoName>Cosmic Order</ideoName>
+        <theme>Magical</theme>
+        <adjective>enlightened</adjective>
+        <member>scholar-mage</member>
+        <deity>Magnus</deity>
+        <deityPlural>Magnus</deityPlural>
+        <place>magical observatory</place>
+      </li>
+    </symbolPacks>
+    <ritualPatterns>
+      <li>
+        <keyword>magical</keyword>
+        <duties>
+          <li>Arch-Mage</li>
+          <li>Cosmic Scholar</li>
+          <li>Sun Priest</li>
+        </duties>
+      </li>
+    </ritualPatterns>
+    <deityCountRange>1~2</deityCountRange>
+    <deityNameMaker>AltmerMagnusDeityNames</deityNameMaker>
+    <allowSymbolsFromDeity>true</allowSymbolsFromDeity>
+    <fixedDeityNameTypes>
+      <li>Magnus</li>
+    </fixedDeityNameTypes>
+  </MemeDef>
+
+  <!-- Syrabane Worship - God of magic and knowledge -->
+  <MemeDef>
+    <defName>SyrabaneWorship</defName>
+    <label>Syrabane worship</label>
+    <description>Devotion to Syrabane, the Aldmeri god-ancestor of magic and sorcery, known as the Warlock's God. Syrabane taught the first Aldmer the ways of magic and is revered as the patron of all who practice the arcane arts. This faith emphasizes magical learning, scholarly pursuit, and the responsible use of supernatural power.</description>
+    <iconPath>UI/Memes/SyrabaneWorship</iconPath>
+    <impact>1</impact>
+    <category>Deity</category>
+    <exclusionTags>
+      <li>Deity</li>
+    </exclusionTags>
+    <generalRules>
+      <rulesStrings>
+        <li>rule->master the arcane arts</li>
+        <li>rule->teach magical knowledge</li>
+        <li>rule->use power responsibly</li>
+        <li>rule->preserve magical traditions</li>
+        <li>rule->guide fellow practitioners</li>
+      </rulesStrings>
+    </generalRules>
+    <worshipRoomLabel>syrabane's sanctum</worshipRoomLabel>
+    <symbolPacks>
+      <li>
+        <ideoName>Arcane Mastery</ideoName>
+        <theme>Scholarly</theme>
+        <adjective>learned</adjective>
+        <member>practitioner</member>
+        <deity>Syrabane</deity>
+        <deityPlural>Syrabane</deityPlural>
+        <place>arcane library</place>
+      </li>
+    </symbolPacks>
+    <ritualPatterns>
+      <li>
+        <keyword>arcane</keyword>
+        <duties>
+          <li>Master Wizard</li>
+          <li>Arcane Teacher</li>
+          <li>Spell Keeper</li>
+        </duties>
+      </li>
+    </ritualPatterns>
+    <deityCountRange>1~2</deityCountRange>
+    <deityNameMaker>AltmerSyrabaneDeityNames</deityNameMaker>
+    <allowSymbolsFromDeity>true</allowSymbolsFromDeity>
+    <fixedDeityNameTypes>
+      <li>Syrabane</li>
+    </fixedDeityNameTypes>
+  </MemeDef>
+
+</Defs>
