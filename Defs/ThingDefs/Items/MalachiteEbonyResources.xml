@@ -24,6 +24,7 @@
     <tradeTags>
       <li>ExoticMisc</li>
       <li>MagicalResource</li>
+      <li>DunmerTech</li>
     </tradeTags>
     <comps>
       <li Class="CompProperties_Glower">
@@ -56,6 +57,8 @@
     <tradeTags>
       <li>ExoticMisc</li>
       <li>LegendaryResource</li>
+      <li>DunmerTech</li>
+      <li>DwarvenTech</li>
     </tradeTags>
     <stuffProps>
       <categories>
