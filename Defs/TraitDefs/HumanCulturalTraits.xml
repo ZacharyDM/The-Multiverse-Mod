@@ -196,9 +196,6 @@
       </li>
     </degreeDatas>
     <biostatCpxFactor>1.3</biostatCpxFactor>
-    <exclusionTags>
-      <li>RedguardCulture</li>
-    </exclusionTags>
   </TraitDef>
 
   <!-- Breton Cultural Traits -->
