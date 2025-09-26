@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FactionDefs>
+  <!-- Empire of Cyrodiil - Main Imperial Faction -->
+  <FactionDef>
+    <defName>EmpireOfCyrodiil</defName>
+    <label>Empire of Cyrodiil</label>
+    <description>The mighty Empire of Cyrodiil, centered in the heartland of Tamriel. Founded by Tiber Septim, the Empire seeks to unite all races under one banner, bringing order, civilization, and prosperity to the known world. All races may find citizenship and purpose within the Empire's diverse society.</description>
+    <color>(0.8, 0.6, 0.2, 1)</color>
+    <allowedRaceDefs>
+      <!-- Human Races -->
+      <li>Imperial</li>
+      <li>Breton</li>
+      <li>Nord</li>
+      <li>Redguard</li>
+      <!-- Mer Races -->
+      <li>Altmer</li>
+      <li>Bosmer</li>
+      <li>Dunmer</li>
+      <li>Orsimer</li>
+      <li>Dwemer</li>
+      <li>Falmer</li>
+      <li>Ayleid</li>
+      <li>Chimer</li>
+      <li>Maormer</li>
+      <li>Aldmer</li>
+      <!-- Beast Races -->
+      <li>Khajiit</li>
+      <li>KhajiitAlfiq</li>
+      <li>KhajiitAlfiqRaht</li>
+      <li>KhajiitCathay</li>
+      <li>KhajiitCathayRaht</li>
+      <li>KhajiitDagi</li>
+      <li>KhajiitDagiRaht</li>
+      <li>KhajiitMane</li>
+      <li>KhajiitOhmes</li>
+      <li>KhajiitOhmesRaht</li>
+      <li>KhajiitPahmar</li>
+      <li>KhajiitSenche</li>
+      <li>KhajiitSuthay</li>
+      <li>KhajiitSuthayRaht</li>
+      <li>Argonian</li>
+      <li>ArgonianAgaceph</li>
+      <li>ArgonianNaga</li>
+      <li>ArgonianPaatru</li>
+      <li>ArgonianSarpa</li>
+      <li>ArgonianSaxhleel</li>
+      <li>ArgonianWamasu</li>
+      <li>Lilmothiit</li>
+      <li>KaPoTun</li>
+      <li>TangMo</li>
+      <li>Tsaesci</li>
+      <li>Lamia</li>
+      <li>Imga</li>
+      <!-- Monstrous Races -->
+      <li>Sload</li>
+      <li>Ogre</li>
+      <li>Goblin</li>
+      <li>Dreugh</li>
+      <li>Centaur</li>
+      <li>Giant</li>
+      <!-- Half-Races -->
+      <li>HalfDunmer</li>
+    </allowedRaceDefs>
+    <techLevel>Medieval</techLevel>
+  </FactionDef>
+
+  <!-- Imperial Legion - Subfaction of the Empire -->
+  <FactionDef>
+    <defName>ImperialLegion</defName>
+    <label>Imperial Legion</label>
+    <description>The professional military force of the Empire of Cyrodiil. The Legion maintains order throughout the provinces and serves as the backbone of Imperial authority. Most sentient races can serve in the Legion, though certain restrictions apply to non-humanoid races.</description>
+    <color>(0.7, 0.1, 0.1, 1)</color>
+    <allowedRaceDefs>
+      <!-- Human Races -->
+      <li>Imperial</li>
+      <li>Breton</li>
+      <li>Nord</li>
+      <li>Redguard</li>
+      <!-- Mer Races -->
+      <li>Altmer</li>
+      <li>Bosmer</li>
+      <li>Dunmer</li>
+      <li>Orsimer</li>
+      <li>Dwemer</li>
+      <li>Falmer</li>
+      <li>Ayleid</li>
+      <li>Chimer</li>
+      <li>Maormer</li>
+      <li>Aldmer</li>
+      <!-- Beast Races - Humanoid forms -->
+      <li>Khajiit</li>
+      <li>KhajiitCathay</li>
+      <li>KhajiitCathayRaht</li>
+      <li>KhajiitOhmes</li>
+      <li>KhajiitOhmesRaht</li>
+      <li>KhajiitSuthay</li>
+      <li>KhajiitSuthayRaht</li>
+      <li>Argonian</li>
+      <li>ArgonianSaxhleel</li>
+      <li>Lilmothiit</li>
+      <li>KaPoTun</li>
+      <li>TangMo</li>
+      <li>Tsaesci</li>
+      <li>Imga</li>
+      <!-- Monstrous Races - Intelligent forms -->
+      <li>Sload</li>
+      <li>Centaur</li>
+      <!-- Half-Races -->
+      <li>HalfDunmer</li>
+    </allowedRaceDefs>
+    <techLevel>Medieval</techLevel>
+    <isSubfactionOf>EmpireOfCyrodiil</isSubfactionOf>
+  </FactionDef>
+</FactionDefs>
