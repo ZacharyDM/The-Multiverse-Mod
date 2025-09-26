@@ -223,6 +223,9 @@
       </li>
     </degreeDatas>
     <biostatCpxFactor>1.15</biostatCpxFactor>
+    <exclusionTags>
+      <li>BretonCulture</li>
+    </exclusionTags>
   </TraitDef>
 
   <!-- Breton Mages Guild Heritage -->
@@ -248,6 +251,9 @@
       </li>
     </degreeDatas>
     <biostatCpxFactor>1.2</biostatCpxFactor>
+    <exclusionTags>
+      <li>BretonCulture</li>
+    </exclusionTags>
   </TraitDef>
 
   <!-- Breton Feudal Noble Heritage -->
@@ -273,6 +279,274 @@
       </li>
     </degreeDatas>
     <biostatCpxFactor>1.15</biostatCpxFactor>
+    <exclusionTags>
+      <li>BretonCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Additional Breton Cultural Traits - Kingdoms of High Rock -->
+  
+  <!-- Daggerfall Kingdom Heritage -->
+  <TraitDef>
+    <defName>DaggerfallKingdom</defName>
+    <label>Daggerfall Heritage</label>
+    <description>This Breton hails from the powerful Kingdom of Daggerfall, the largest and most influential of High Rock's city-states. Daggerfall citizens excel in politics, commerce, and diplomacy, wielding significant influence across High Rock.</description>
+    <degreeDatas>
+      <li>
+        <label>Daggerfall Politician</label>
+        <description>Born in the political heart of High Rock, this pawn excels in statecraft, commerce, and wielding influence across the fractured kingdoms.</description>
+        <skillGains>
+          <Social>4</Social>
+          <Intellectual>3</Intellectual>
+          <Artistic>2</Artistic>
+          <Shooting>1</Shooting>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.12</SocialImpact>
+          <TradePriceImprovement>0.10</TradePriceImprovement>
+          <NegotiationAbility>0.10</NegotiationAbility>
+          <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.2</biostatCpxFactor>
+    <exclusionTags>
+      <li>BretonCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Wayrest Kingdom Heritage -->
+  <TraitDef>
+    <defName>WayrestKingdom</defName>
+    <label>Wayrest Heritage</label>
+    <description>This Breton comes from the wealthy Kingdom of Wayrest, known for its merchant princes and extensive trade networks. Wayrest citizens are master traders and diplomats with connections across Tamriel.</description>
+    <degreeDatas>
+      <li>
+        <label>Wayrest Merchant</label>
+        <description>Raised in the commercial capital of eastern High Rock, this pawn possesses exceptional trading skills and diplomatic connections.</description>
+        <skillGains>
+          <Social>4</Social>
+          <Intellectual>2</Intellectual>
+          <Crafting>2</Crafting>
+          <Artistic>2</Artistic>
+        </skillGains>
+        <statOffsets>
+          <TradePriceImprovement>0.15</TradePriceImprovement>
+          <SocialImpact>0.08</SocialImpact>
+          <WorkSpeedGlobal>0.04</WorkSpeedGlobal>
+          <NegotiationAbility>0.12</NegotiationAbility>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.15</biostatCpxFactor>
+    <exclusionTags>
+      <li>BretonCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Camlorn Kingdom Heritage -->
+  <TraitDef>
+    <defName>CamlornKingdom</defName>
+    <label>Camlorn Heritage</label>
+    <description>This Breton comes from the traditional Kingdom of Camlorn, known for its agricultural prosperity and adherence to ancient customs. Camlorn citizens value tradition, hard work, and the old ways of High Rock.</description>
+    <degreeDatas>
+      <li>
+        <label>Camlorn Traditionalist</label>
+        <description>Born in the agricultural heartland of High Rock, this pawn values tradition, hard work, and the preservation of ancient customs.</description>
+        <skillGains>
+          <Plants>4</Plants>
+          <Construction>3</Construction>
+          <Animals>3</Animals>
+          <Social>2</Social>
+        </skillGains>
+        <statOffsets>
+          <PlantHarvestYield>0.15</PlantHarvestYield>
+          <WorkSpeedGlobal>0.06</WorkSpeedGlobal>
+          <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+          <AnimalGatherYield>0.10</AnimalGatherYield>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.1</biostatCpxFactor>
+    <exclusionTags>
+      <li>BretonCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Northpoint Kingdom Heritage -->
+  <TraitDef>
+    <defName>NorthpointKingdom</defName>
+    <label>Northpoint Heritage</label>
+    <description>This Breton hails from the maritime Kingdom of Northpoint, masters of naval warfare and sea trade. Northpoint citizens are skilled sailors, fishermen, and coastal defenders.</description>
+    <degreeDatas>
+      <li>
+        <label>Northpoint Mariner</label>
+        <description>Raised on the northern shores of High Rock, this pawn excels in seafaring, navigation, and coastal warfare tactics.</description>
+        <skillGains>
+          <Shooting>4</Shooting>
+          <Animals>3</Animals>
+          <Social>2</Social>
+          <Melee>2</Melee>
+        </skillGains>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.08</ShootingAccuracyPawn>
+          <MoveSpeed>0.15</MoveSpeed>
+          <AnimalGatherYield>0.12</AnimalGatherYield>
+          <SocialImpact>0.06</SocialImpact>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.15</biostatCpxFactor>
+    <exclusionTags>
+      <li>BretonCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Evermore Kingdom Heritage -->
+  <TraitDef>
+    <defName>EvermoreKingdom</defName>
+    <label>Evermore Heritage</label>
+    <description>This Breton comes from the frontier Kingdom of Evermore, the westernmost bastion of High Rock civilization. Evermore citizens are hardy frontiersmen, skilled in both warfare and survival.</description>
+    <degreeDatas>
+      <li>
+        <label>Evermore Frontiersman</label>
+        <description>Forged on the western frontier of High Rock, this pawn combines military discipline with wilderness survival skills.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Shooting>3</Shooting>
+          <Animals>2</Animals>
+          <Construction>2</Construction>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.06</MeleeHitChance>
+          <ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+          <MentalBreakThreshold>-0.06</MentalBreakThreshold>
+          <WorkSpeedGlobal>0.04</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.15</biostatCpxFactor>
+    <exclusionTags>
+      <li>BretonCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Unique Breton Groups -->
+  
+  <!-- River Horse Bretons -->
+  <TraitDef>
+    <defName>RiverHorseBretons</defName>
+    <label>River Horse Heritage</label>
+    <description>This Breton belongs to an ancient bloodline said to be descended from the mysterious River Horse people, possessing an affinity for water magic and aquatic environments rarely seen among their kind.</description>
+    <degreeDatas>
+      <li>
+        <label>River Horse Descendant</label>
+        <description>Born with the rare bloodline of the River Horse people, this pawn possesses unusual aquatic abilities and water-based magical sensitivity.</description>
+        <skillGains>
+          <Medicine>4</Medicine>
+          <Intellectual>3</Intellectual>
+          <Animals>3</Animals>
+          <Social>2</Social>
+        </skillGains>
+        <statOffsets>
+          <MedicalTendQuality>0.08</MedicalTendQuality>
+          <PsychicSensitivity>0.15</PsychicSensitivity>
+          <AnimalGatherYield>0.12</AnimalGatherYield>
+          <ResearchSpeed>0.06</ResearchSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.3</biostatCpxFactor>
+    <exclusionTags>
+      <li>BretonCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Hillmen Bretons -->
+  <TraitDef>
+    <defName>HillmenBretons</defName>
+    <label>Hillmen Heritage</label>
+    <description>This Breton comes from the highland clans that dwell in High Rock's mountainous regions, maintaining ancient traditions and fierce independence from the lowland kingdoms.</description>
+    <degreeDatas>
+      <li>
+        <label>Highland Clansman</label>
+        <description>Raised in the mountain clans of High Rock, this pawn values independence, ancient traditions, and the harsh wisdom of highland survival.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Mining>3</Mining>
+          <Construction>3</Construction>
+          <Plants>2</Plants>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageFactor>0.06</MeleeDamageFactor>
+          <MiningYield>0.12</MiningYield>
+          <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+          <MentalBreakThreshold>-0.06</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.2</biostatCpxFactor>
+    <exclusionTags>
+      <li>BretonCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Reachmen Bretons -->
+  <TraitDef>
+    <defName>ReachmenBretons</defName>
+    <label>Reachmen Heritage</label>
+    <description>This Breton has mixed ancestry with the Reachmen, the fierce tribal peoples of the Reach. They possess both Breton magical aptitude and the savage survival instincts of their Reach-dwelling kin.</description>
+    <degreeDatas>
+      <li>
+        <label>Reach-Touched</label>
+        <description>Born with mixed Reachmen ancestry, this pawn combines Breton intelligence with the fierce survival instincts of the tribal Reach-folk.</description>
+        <skillGains>
+          <Melee>3</Melee>
+          <Medicine>3</Medicine>
+          <Plants>3</Plants>
+          <Intellectual>2</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <MeleeHitChance>0.05</MeleeHitChance>
+          <PlantHarvestYield>0.10</PlantHarvestYield>
+          <PsychicSensitivity>0.10</PsychicSensitivity>
+          <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.25</biostatCpxFactor>
+    <exclusionTags>
+      <li>BretonCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Bjoulsae River Folk -->
+  <TraitDef>
+    <defName>BjoulsaeRiverFolk</defName>
+    <label>Bjoulsae River Heritage</label>
+    <description>This Breton comes from the communities along the Bjoulsae River, the great waterway connecting High Rock's kingdoms. River folk are skilled traders, fishermen, and river pilots.</description>
+    <degreeDatas>
+      <li>
+        <label>River Trader</label>
+        <description>Born along the great Bjoulsae River, this pawn excels in trade, navigation, and the interconnected river commerce of High Rock.</description>
+        <skillGains>
+          <Social>3</Social>
+          <Animals>3</Animals>
+          <Crafting>3</Crafting>
+          <Intellectual>2</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <TradePriceImprovement>0.12</TradePriceImprovement>
+          <AnimalGatherYield>0.10</AnimalGatherYield>
+          <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+          <SocialImpact>0.06</SocialImpact>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.15</biostatCpxFactor>
+    <exclusionTags>
+      <li>BretonCulture</li>
+    </exclusionTags>
   </TraitDef>
 
   <!-- Nord Cultural Traits -->

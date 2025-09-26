@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Eight Divines Worship - Imperial Divine Faith -->
+  <MemeDef>
+    <defName>EightDivinesWorship</defName>
+    <label>eight divines worship</label>
+    <description>Devotion to the Eight Divines: Akatosh the Dragon God of Time, Arkay of Life and Death, Dibella of Beauty and Love, Julianos of Logic and Wisdom, Kynareth of Nature, Mara of Love and Compassion, Stendarr of Mercy and Justice, and Zenithar of Work and Commerce. This Imperial faith emphasizes law, order, and divine blessing through righteous deeds.</description>
+    <iconPath>UI/Memes/EightDivines</iconPath>
+    <impact>2</impact>
+    <category>Deity</category>
+    <exclusionTags>
+      <li>Deity</li>
+    </exclusionTags>
+    <generalRules>
+      <rulesStrings>
+        <li>rule->honor the Eight Divines</li>
+        <li>rule->uphold divine law and order</li>
+        <li>rule->show mercy to the repentant</li>
+        <li>rule->work honestly for divine blessing</li>
+        <li>rule->protect the innocent from evil</li>
+      </rulesStrings>
+    </generalRules>
+    <worshipRoomLabel>divine chapel</worshipRoomLabel>
+    <symbolPacks>
+      <li>
+        <ideoName>Chapel of the Divines</ideoName>
+        <theme>DivineWorship</theme>
+        <adjective>blessed</adjective>
+        <member>divine faithful</member>
+        <deity>Eight Divines</deity>
+        <deityPlural>Eight Divines</deityPlural>
+        <place>chapel</place>
+      </li>
+    </symbolPacks>
+    <ritualPatterns>
+      <li>
+        <keyword>divine</keyword>
+        <duties>
+          <li>Priest</li>
+          <li>Moral guide</li>
+          <li>Divine scholar</li>
+        </duties>
+      </li>
+    </ritualPatterns>
+    <deityCountRange>8~10</deityCountRange>
+    <deityNameMaker>BretonDeityNames</deityNameMaker>
+    <allowSymbolsFromDeity>true</allowSymbolsFromDeity>
+    <fixedDeityNameTypes>
+      <li>Akatosh</li>
+      <li>Arkay</li>
+      <li>Dibella</li>
+      <li>Julianos</li>
+      <li>Kynareth</li>
+      <li>Mara</li>
+      <li>Stendarr</li>
+      <li>Zenithar</li>
+    </fixedDeityNameTypes>
+  </MemeDef>
+
+  <!-- Daedric Scholarship - Hermaeus Mora Focus -->
+  <MemeDef>
+    <defName>DaedricScholarship</defName>
+    <label>daedric scholarship</label>
+    <description>Worship of Hermaeus Mora, the Daedric Prince of Knowledge, Memory, and Fate, along with other knowledge-seeking Daedra. This intellectual pursuit values forbidden wisdom, magical research, and the preservation of all knowledge, regardless of moral implications.</description>
+    <iconPath>UI/Memes/DaedricScholarship</iconPath>
+    <impact>3</impact>
+    <category>Deity</category>
+    <exclusionTags>
+      <li>Deity</li>
+    </exclusionTags>
+    <generalRules>
+      <rulesStrings>
+        <li>rule->seek forbidden knowledge</li>
+        <li>rule->preserve all written works</li>
+        <li>rule->conduct magical research</li>
+        <li>rule->serve the pursuit of truth</li>
+        <li>rule->guard ancient secrets</li>
+      </rulesStrings>
+    </generalRules>
+    <worshipRoomLabel>forbidden library</worshipRoomLabel>
+    <symbolPacks>
+      <li>
+        <ideoName>Cult of the Black Books</ideoName>
+        <theme>DaedricCult</theme>
+        <adjective>enlightened</adjective>
+        <member>seeker</member>
+        <deity>Hermaeus Mora</deity>
+        <deityPlural>Daedric Princes</deityPlural>
+        <place>library</place>
+      </li>
+    </symbolPacks>
+    <ritualPatterns>
+      <li>
+        <keyword>knowledge</keyword>
+        <duties>
+          <li>Scholar</li>
+          <li>Lore keeper</li>
+          <li>Forbidden researcher</li>
+        </duties>
+      </li>
+    </ritualPatterns>
+    <deityCountRange>3~5</deityCountRange>
+    <deityNameMaker>BretonDeityNames</deityNameMaker>
+    <allowSymbolsFromDeity>true</allowSymbolsFromDeity>
+    <fixedDeityNameTypes>
+      <li>HermaeusMore</li>
+      <li>Azura</li>
+      <li>Nocturnal</li>
+    </fixedDeityNameTypes>
+  </MemeDef>
+
+  <!-- Ancestral Spirits - Ancient Breton Tradition -->
+  <MemeDef>
+    <defName>AncestralSpirits</defName>
+    <label>ancestral spirits</label>
+    <description>Worship of ancestral spirits and the ancient traditions of pre-Imperial High Rock. This faith venerates the wisdom of the dead, family lineages, and the old ways of the Bretons before their integration into the Empire's divine pantheon.</description>
+    <iconPath>UI/Memes/AncestralSpirits</iconPath>
+    <impact>1</impact>
+    <category>Deity</category>
+    <exclusionTags>
+      <li>Deity</li>
+    </exclusionTags>
+    <generalRules>
+      <rulesStrings>
+        <li>rule->honor ancestral wisdom</li>
+        <li>rule->preserve family traditions</li>
+        <li>rule->maintain ancient burial rites</li>
+        <li>rule->seek guidance from the dead</li>
+        <li>rule->protect sacred bloodlines</li>
+      </rulesStrings>
+    </generalRules>
+    <worshipRoomLabel>ancestral shrine</worshipRoomLabel>
+    <symbolPacks>
+      <li>
+        <ideoName>Circle of Ancestors</ideoName>
+        <theme>AncestralWorship</theme>
+        <adjective>traditional</adjective>
+        <member>descendant</member>
+        <deity>Ancestral Spirit</deity>
+        <deityPlural>Ancestral Spirits</deityPlural>
+        <place>shrine</place>
+      </li>
+    </symbolPacks>
+    <ritualPatterns>
+      <li>
+        <keyword>ancestor</keyword>
+        <duties>
+          <li>Spirit guide</li>
+          <li>Genealogist</li>
+          <li>Tradition keeper</li>
+        </duties>
+      </li>
+    </ritualPatterns>
+    <deityCountRange>5~8</deityCountRange>
+    <deityNameMaker>BretonDeityNames</deityNameMaker>
+    <allowSymbolsFromDeity>true</allowSymbolsFromDeity>
+  </MemeDef>
+
+</Defs>
