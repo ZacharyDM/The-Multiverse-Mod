@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Nord Rank and Title Traits - Based on Skyrim's canonical social hierarchy -->
+
+  <!-- Noble and Leadership Traits -->
+  <TraitDef>
+    <defName>NordThaneRank</defName>
+    <label>Thane of Skyrim</label>
+    <description>This Nord has earned the title of Thane through heroic deeds and service, granted lands and authority by a Jarl. They possess natural leadership abilities and noble bearing.</description>
+    <degreeDatas>
+      <li>
+        <label>Thane</label>
+        <description>A recognized noble of Skyrim, this pawn has proven their worth through great deeds and earned the respect of their peers.</description>
+        <skillGains>
+          <Social>4</Social>
+          <Melee>3</Melee>
+          <Intellectual>2</Intellectual>
+          <Shooting>2</Shooting>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.15</SocialImpact>
+          <MeleeHitChance>0.06</MeleeHitChance>
+          <MentalBreakThreshold>-0.08</MentalBreakThreshold>
+          <NegotiationAbility>0.10</NegotiationAbility>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.3</biostatCpxFactor>
+    <exclusionTags>
+      <li>NordRank</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>NordJarlRank</defName>
+    <label>Jarl of Skyrim</label>
+    <description>This Nord rules one of Skyrim's nine holds, wielding absolute authority over their domain. They possess exceptional leadership skills and political acumen.</description>
+    <degreeDatas>
+      <li>
+        <label>Jarl</label>
+        <description>A ruler of one of Skyrim's great holds, this pawn commands respect and loyalty from all who serve under them.</description>
+        <skillGains>
+          <Social>5</Social>
+          <Intellectual>4</Intellectual>
+          <Melee>3</Melee>
+          <Construction>2</Construction>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.25</SocialImpact>
+          <TradePriceImprovement>0.15</TradePriceImprovement>
+          <NegotiationAbility>0.20</NegotiationAbility>
+          <MentalBreakThreshold>-0.12</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.5</biostatCpxFactor>
+    <exclusionTags>
+      <li>NordRank</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>NordHighKingRank</defName>
+    <label>High King of Skyrim</label>
+    <description>This Nord has been chosen by the Moot to rule all of Skyrim. They embody the highest ideals of Nordic leadership and possess legendary authority.</description>
+    <degreeDatas>
+      <li>
+        <label>High King</label>
+        <description>The supreme ruler of Skyrim, chosen by ancient tradition to lead all the holds and their Jarls.</description>
+        <skillGains>
+          <Social>6</Social>
+          <Intellectual>5</Intellectual>
+          <Melee>4</Melee>
+          <Shooting>3</Shooting>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.40</SocialImpact>
+          <TradePriceImprovement>0.25</TradePriceImprovement>
+          <NegotiationAbility>0.30</NegotiationAbility>
+          <MentalBreakThreshold>-0.20</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>2.0</biostatCpxFactor>
+    <exclusionTags>
+      <li>NordRank</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Military and Service Traits -->
+  <TraitDef>
+    <defName>NordHousecarlRank</defName>
+    <label>Housecarl</label>
+    <description>This Nord serves as a sworn bodyguard to a Thane, bound by sacred oath to protect their liege with their life. They are elite warriors chosen for absolute loyalty.</description>
+    <degreeDatas>
+      <li>
+        <label>Sworn Sword</label>
+        <description>Bound by sacred oath to protect their master, this pawn is an elite warrior of unquestioned loyalty and skill.</description>
+        <skillGains>
+          <Melee>5</Melee>
+          <Shooting>3</Melee>
+          <Construction>2</Construction>
+          <Social>2</Social>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageFactor>0.12</MeleeDamageFactor>
+          <MeleeHitChance>0.10</MeleeHitChance>
+          <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+          <MentalBreakThreshold>-0.10</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.25</biostatCpxFactor>
+    <exclusionTags>
+      <li>NordRank</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>NordStormcloakRank</defName>
+    <label>Stormcloak Rebel</label>
+    <description>This Nord fights in Ulfric Stormcloak's rebellion for Skyrim's independence from the Empire. They are passionate patriots who value freedom above all else.</description>
+    <degreeDatas>
+      <li>
+        <label>True Son of Skyrim</label>
+        <description>A rebel fighting for Skyrim's freedom, this pawn embodies the independent spirit of the Nordic people.</description>
+        <skillGains>
+          <Melee>4</Melee>
+          <Shooting>3</Shooting>
+          <Social>3</Social>
+          <Construction>1</Construction>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageFactor>0.08</MeleeDamageFactor>
+          <MentalBreakThreshold>-0.08</MentalBreakThreshold>
+          <SocialImpact>0.06</SocialImpact>
+          <MoveSpeed>0.05</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.2</biostatCpxFactor>
+    <exclusionTags>
+      <li>NordRank</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Cultural and Religious Traits -->
+  <TraitDef>
+    <defName>NordSkaldRank</defName>
+    <label>Nordic Skald</label>
+    <description>This Nord has mastered the ancient tradition of the skalds, serving as a wandering bard, storyteller, and keeper of Nordic cultural memory.</description>
+    <degreeDatas>
+      <li>
+        <label>Master Storyteller</label>
+        <description>A keeper of Nordic tradition and lore, this pawn preserves the cultural heritage of Skyrim through song and story.</description>
+        <skillGains>
+          <Artistic>5</Artistic>
+          <Social>4</Social>
+          <Intellectual>4</Intellectual>
+          <Medicine>2</Medicine>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.15</SocialImpact>
+          <NegotiationAbility>0.12</NegotiationAbility>
+          <MentalBreakThreshold>-0.06</MentalBreakThreshold>
+          <ResearchSpeed>0.05</ResearchSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.3</biostatCpxFactor>
+    <exclusionTags>
+      <li>NordRank</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>NordGreybeardRank</defName>
+    <label>Greybeard</label>
+    <description>This Nord has mastered the Way of the Voice and withdrawn from worldly concerns to meditate on the Thu'um atop High Hrothgar. They possess incredible spiritual power.</description>
+    <degreeDatas>
+      <li>
+        <label>Master of the Voice</label>
+        <description>Having achieved mastery over the Thu'um, this pawn has transcended worldly concerns and gained profound spiritual wisdom.</description>
+        <skillGains>
+          <Intellectual>5</Intellectual>
+          <Social>4</Social>
+          <Medicine>3</Medicine>
+          <Melee>2</Melee>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.25</PsychicSensitivity>
+          <MentalBreakThreshold>-0.15</MentalBreakThreshold>
+          <SocialImpact>0.20</SocialImpact>
+          <MedicalTendQuality>0.08</MedicalTendQuality>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.8</biostatCpxFactor>
+    <exclusionTags>
+      <li>NordRank</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>NordDragonbornRank</defName>
+    <label>Dragonborn</label>
+    <description>This Nord possesses the soul of a dragon and the natural ability to absorb dragon souls and use the Thu'um. A figure of legend walking among mortals.</description>
+    <degreeDatas>
+      <li>
+        <label>Dovahkiin</label>
+        <description>Born with the soul of a dragon, this legendary figure can learn and use the Thu'um naturally, a power not seen for generations.</description>
+        <skillGains>
+          <Melee>6</Melee>
+          <Social>5</Social>
+          <Intellectual>4</Intellectual>
+          <Shooting>4</Shooting>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageFactor>0.20</MeleeDamageFactor>
+          <SocialImpact>0.30</SocialImpact>
+          <PsychicSensitivity>0.30</PsychicSensitivity>
+          <MentalBreakThreshold>-0.25</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>2.5</biostatCpxFactor>
+    <exclusionTags>
+      <li>NordRank</li>
+    </exclusionTags>
+  </TraitDef>
+
+</Defs>

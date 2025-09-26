@@ -129,4 +129,79 @@
     </thingDefStyles>
   </StyleItemCategoryDef>
 
+  <!-- Eastmarcher Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>Eastmarcher_Weapons</defName>
+    <label>Eastmarcher weapons</label>
+    <description>Traditional Nordic weapons from eastern Skyrim, featuring heavy designs with runic engravings and blue-silver color schemes that preserve ancient Nordic martial traditions.</description>
+    <styleTags>
+      <li>Eastmarcher</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_LongSword>Things/Item/Equipment/WeaponMelee/HumanRaces/Eastmarcher/Sword</MeleeWeapon_LongSword>
+      <MeleeWeapon_Spear>Things/Item/Equipment/WeaponMelee/HumanRaces/Eastmarcher/Spear</MeleeWeapon_Spear>
+      <MeleeWeapon_Club>Things/Item/Equipment/WeaponMelee/HumanRaces/Eastmarcher/Club</MeleeWeapon_Club>
+      <MeleeWeapon_Knife>Things/Item/Equipment/WeaponMelee/HumanRaces/Eastmarcher/Knife</MeleeWeapon_Knife>
+      <MeleeWeapon_Mace>Things/Item/Equipment/WeaponMelee/HumanRaces/Eastmarcher/Mace</MeleeWeapon_Mace>
+      <Bow_Short>Things/Item/Equipment/WeaponRanged/HumanRaces/Eastmarcher/Bow</Bow_Short>
+      <Gun_Revolver>Things/Item/Equipment/WeaponRanged/HumanRaces/Eastmarcher/Revolver</Gun_Revolver>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Westmarcher Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>Westmarcher_Weapons</defName>
+    <label>Westmarcher weapons</label>
+    <description>Adaptive Nordic weapons from western Skyrim, featuring balanced designs with grey-gold color schemes that blend traditional Nordic craftsmanship with cosmopolitan influences.</description>
+    <styleTags>
+      <li>Westmarcher</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_LongSword>Things/Item/Equipment/WeaponMelee/HumanRaces/Westmarcher/Sword</MeleeWeapon_LongSword>
+      <MeleeWeapon_Spear>Things/Item/Equipment/WeaponMelee/HumanRaces/Westmarcher/Spear</MeleeWeapon_Spear>
+      <MeleeWeapon_Club>Things/Item/Equipment/WeaponMelee/HumanRaces/Westmarcher/Club</MeleeWeapon_Club>
+      <MeleeWeapon_Knife>Things/Item/Equipment/WeaponMelee/HumanRaces/Westmarcher/Knife</MeleeWeapon_Knife>
+      <MeleeWeapon_Mace>Things/Item/Equipment/WeaponMelee/HumanRaces/Westmarcher/Mace</MeleeWeapon_Mace>
+      <Bow_Short>Things/Item/Equipment/WeaponRanged/HumanRaces/Westmarcher/Bow</Bow_Short>
+      <Gun_Revolver>Things/Item/Equipment/WeaponRanged/HumanRaces/Westmarcher/Revolver</Gun_Revolver>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Skaal Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>Skaal_Weapons</defName>
+    <label>Skaal weapons</label>
+    <description>Ancient tribal weapons of the Skaal, featuring organic designs with natural materials and earth-tone colors that reflect their spiritual connection to nature and the All-Maker.</description>
+    <styleTags>
+      <li>Skaal</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_LongSword>Things/Item/Equipment/WeaponMelee/HumanRaces/Skaal/Sword</MeleeWeapon_LongSword>
+      <MeleeWeapon_Spear>Things/Item/Equipment/WeaponMelee/HumanRaces/Skaal/Spear</MeleeWeapon_Spear>
+      <MeleeWeapon_Club>Things/Item/Equipment/WeaponMelee/HumanRaces/Skaal/Club</MeleeWeapon_Club>
+      <MeleeWeapon_Knife>Things/Item/Equipment/WeaponMelee/HumanRaces/Skaal/Knife</MeleeWeapon_Knife>
+      <Bow_Short>Things/Item/Equipment/WeaponRanged/HumanRaces/Skaal/Bow</Bow_Short>
+      <Gun_Revolver>Things/Item/Equipment/WeaponRanged/HumanRaces/Skaal/Revolver</Gun_Revolver>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Cyro-Nord Weapon Style -->
+  <StyleItemCategoryDef>
+    <defName>CyroNord_Weapons</defName>
+    <label>Cyro-Nord weapons</label>
+    <description>Sophisticated Nordic weapons influenced by Imperial military design, featuring refined craftsmanship with red-blue color schemes that bridge Nordic tradition with Imperial precision.</description>
+    <styleTags>
+      <li>CyroNord</li>
+    </styleTags>
+    <thingDefStyles>
+      <MeleeWeapon_LongSword>Things/Item/Equipment/WeaponMelee/HumanRaces/CyroNord/Sword</MeleeWeapon_LongSword>
+      <MeleeWeapon_Spear>Things/Item/Equipment/WeaponMelee/HumanRaces/CyroNord/Spear</MeleeWeapon_Spear>
+      <MeleeWeapon_Club>Things/Item/Equipment/WeaponMelee/HumanRaces/CyroNord/Club</MeleeWeapon_Club>
+      <MeleeWeapon_Knife>Things/Item/Equipment/WeaponMelee/HumanRaces/CyroNord/Knife</MeleeWeapon_Knife>
+      <MeleeWeapon_Mace>Things/Item/Equipment/WeaponMelee/HumanRaces/CyroNord/Mace</MeleeWeapon_Mace>
+      <Bow_Short>Things/Item/Equipment/WeaponRanged/HumanRaces/CyroNord/Bow</Bow_Short>
+      <Gun_Revolver>Things/Item/Equipment/WeaponRanged/HumanRaces/CyroNord/Revolver</Gun_Revolver>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
 </Defs>

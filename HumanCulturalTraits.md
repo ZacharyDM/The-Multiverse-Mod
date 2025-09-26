@@ -92,6 +92,30 @@ The Human Cultural Traits system adds 13 distinct cultural frameworks representi
 - **Bonuses**: Social impact, mental stability, negotiation ability
 - **Lore**: Represents the wandering bards who preserve Nord culture
 
+### Eastmarcher Heritage
+- **Focus**: Traditional eastern Skyrim culture centered around Windhelm
+- **Skills**: Melee +4, Construction +3, Social +2, Crafting +2
+- **Bonuses**: Melee damage, mental resilience, cold resistance, work speed
+- **Lore**: Represents the most conservative Nordic traditions
+
+### Westmarcher Heritage
+- **Focus**: Cosmopolitan western Skyrim culture with diverse influences
+- **Skills**: Social +3, Melee +3, Intellectual +2, Shooting +2
+- **Bonuses**: Social impact, trade prices, melee accuracy, negotiation
+- **Lore**: Represents adaptive Nordic culture from western holds
+
+### Skaal Heritage
+- **Focus**: Ancient tribal traditions of Solstheim in harmony with nature
+- **Skills**: Animals +4, Plants +3, Medicine +3, Melee +2
+- **Bonuses**: Cold resistance, gathering yields, psychic sensitivity, mental stability
+- **Lore**: Represents the most ancient Nordic spiritual traditions
+
+### Cyro-Nord Heritage
+- **Focus**: Nordic heritage blended with Imperial sophistication
+- **Skills**: Social +4, Intellectual +3, Melee +2, Shooting +1
+- **Bonuses**: Social impact, trade prices, negotiation, reduced cold resistance
+- **Lore**: Represents Nords who have lived in Cyrodiil for generations
+
 ## Technical Details
 
 ### Integration
