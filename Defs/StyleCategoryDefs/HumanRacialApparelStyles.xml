@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Imperial Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>Imperial_Apparel</defName>
+    <label>Imperial apparel</label>
+    <description>Refined clothing and armor worn by the diplomatic Imperials, featuring red and gold Legion aesthetics with organized military designs.</description>
+    <styleTags>
+      <li>Imperial</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/HumanRaces/Imperial/Imperial</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/HumanRaces/Imperial/Imperial</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/HumanRaces/Imperial/Imperial</Apparel_Tunic>
+      <Apparel_CollarShirt>Things/Pawn/Humanlike/Apparel/HumanRaces/Imperial/Imperial</Apparel_CollarShirt>
+      <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/HumanRaces/Imperial/Imperial</Apparel_FlakVest>
+      <Apparel_PlateArmor>Things/Pawn/Humanlike/Apparel/HumanRaces/Imperial/Imperial</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Breton Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>Breton_Apparel</defName>
+    <label>Breton apparel</label>
+    <description>Scholarly clothing and protective gear of the magic-resistant Bretons, featuring blue and silver academic colors with knightly designs.</description>
+    <styleTags>
+      <li>Breton</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/HumanRaces/Breton/Breton</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/HumanRaces/Breton/Breton</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/HumanRaces/Breton/Breton</Apparel_Tunic>
+      <Apparel_CollarShirt>Things/Pawn/Humanlike/Apparel/HumanRaces/Breton/Breton</Apparel_CollarShirt>
+      <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/HumanRaces/Breton/Breton</Apparel_FlakVest>
+      <Apparel_PlateArmor>Things/Pawn/Humanlike/Apparel/HumanRaces/Breton/Breton</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Nord Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>Nord_Apparel</defName>
+    <label>Nord apparel</label>
+    <description>Hardy clothing and armor worn by the fierce Nords of Skyrim, featuring grey and blue practical designs suited for harsh climates.</description>
+    <styleTags>
+      <li>Nord</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/HumanRaces/Nord/Nord</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/HumanRaces/Nord/Nord</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/HumanRaces/Nord/Nord</Apparel_Tunic>
+      <Apparel_CollarShirt>Things/Pawn/Humanlike/Apparel/HumanRaces/Nord/Nord</Apparel_CollarShirt>
+      <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/HumanRaces/Nord/Nord</Apparel_FlakVest>
+      <Apparel_PlateArmor>Things/Pawn/Humanlike/Apparel/HumanRaces/Nord/Nord</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Redguard Apparel Style -->
+  <StyleItemCategoryDef>
+    <defName>Redguard_Apparel</defName>
+    <label>Redguard apparel</label>
+    <description>Desert-adapted clothing and armor of the warrior Redguards, featuring brown and bronze colors with designs suited for Hammerfell's harsh conditions.</description>
+    <styleTags>
+      <li>Redguard</li>
+    </styleTags>
+    <thingDefStyles>
+      <Apparel_Parka>Things/Pawn/Humanlike/Apparel/HumanRaces/Redguard/Redguard</Apparel_Parka>
+      <Apparel_Robe>Things/Pawn/Humanlike/Apparel/HumanRaces/Redguard/Redguard</Apparel_Robe>
+      <Apparel_Tunic>Things/Pawn/Humanlike/Apparel/HumanRaces/Redguard/Redguard</Apparel_Tunic>
+      <Apparel_CollarShirt>Things/Pawn/Humanlike/Apparel/HumanRaces/Redguard/Redguard</Apparel_CollarShirt>
+      <Apparel_FlakVest>Things/Pawn/Humanlike/Apparel/HumanRaces/Redguard/Redguard</Apparel_FlakVest>
+      <Apparel_PlateArmor>Things/Pawn/Humanlike/Apparel/HumanRaces/Redguard/Redguard</Apparel_PlateArmor>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+</Defs>
