@@ -5,7 +5,7 @@
     <defName>BirthSignTheWarrior</defName>
     <label>The Warrior</label>
     <description>Born under the sign of The Warrior, this person excels in combat and physical prowess. The Warrior grants natural talent in blade, blunt, and heavy armor skills.</description>
-    <commonality>0.5</commonality>
+    <commonality>0.08</commonality>
     <degreeDatas>
       <li>
         <label>The Warrior</label>
@@ -43,6 +43,7 @@
     <defName>BirthSignTheMage</defName>
     <label>The Mage</label>
     <description>Born under the sign of The Mage, this person has natural magical abilities and enhanced mental faculties. The Mage grants increased magical power and spell effectiveness.</description>
+    <commonality>0.08</commonality>
     <degreeDatas>
       <li>
         <label>The Mage</label>
@@ -59,6 +60,20 @@
         </statOffsets>
       </li>
     </degreeDatas>
+    <conflictingTraits>
+      <li>BirthSignTheWarrior</li>
+      <li>BirthSignTheThief</li>
+      <li>BirthSignTheSerpent</li>
+      <li>BirthSignTheLady</li>
+      <li>BirthSignTheSteed</li>
+      <li>BirthSignTheLord</li>
+      <li>BirthSignTheApprentice</li>
+      <li>BirthSignTheAtronach</li>
+      <li>BirthSignTheRitual</li>
+      <li>BirthSignTheLover</li>
+      <li>BirthSignTheShadow</li>
+      <li>BirthSignTheTower</li>
+    </conflictingTraits>
   </TraitDef>
 
   <!-- The Thief Birth Sign -->
@@ -66,6 +81,7 @@
     <defName>BirthSignTheThief</defName>
     <label>The Thief</label>
     <description>Born under the sign of The Thief, this person excels in stealth, agility, and dexterous tasks. The Thief grants natural talent in security, sneak, and marksman skills.</description>
+    <commonality>0.08</commonality>
     <degreeDatas>
       <li>
         <label>The Thief</label>
@@ -82,6 +98,20 @@
         </statOffsets>
       </li>
     </degreeDatas>
+    <conflictingTraits>
+      <li>BirthSignTheWarrior</li>
+      <li>BirthSignTheMage</li>
+      <li>BirthSignTheSerpent</li>
+      <li>BirthSignTheLady</li>
+      <li>BirthSignTheSteed</li>
+      <li>BirthSignTheLord</li>
+      <li>BirthSignTheApprentice</li>
+      <li>BirthSignTheAtronach</li>
+      <li>BirthSignTheRitual</li>
+      <li>BirthSignTheLover</li>
+      <li>BirthSignTheShadow</li>
+      <li>BirthSignTheTower</li>
+    </conflictingTraits>
   </TraitDef>
 
   <!-- The Serpent Birth Sign -->
@@ -89,6 +119,7 @@
     <defName>BirthSignTheSerpent</defName>
     <label>The Serpent</label>
     <description>Born under the sign of The Serpent, this person has natural resistance to poison and disease, along with the ability to inflict poison damage on enemies.</description>
+    <commonality>0.08</commonality>
     <degreeDatas>
       <li>
         <label>The Serpent</label>
@@ -105,6 +136,20 @@
         </statOffsets>
       </li>
     </degreeDatas>
+    <conflictingTraits>
+      <li>BirthSignTheWarrior</li>
+      <li>BirthSignTheMage</li>
+      <li>BirthSignTheThief</li>
+      <li>BirthSignTheLady</li>
+      <li>BirthSignTheSteed</li>
+      <li>BirthSignTheLord</li>
+      <li>BirthSignTheApprentice</li>
+      <li>BirthSignTheAtronach</li>
+      <li>BirthSignTheRitual</li>
+      <li>BirthSignTheLover</li>
+      <li>BirthSignTheShadow</li>
+      <li>BirthSignTheTower</li>
+    </conflictingTraits>
   </TraitDef>
 
   <!-- The Lady Birth Sign -->
@@ -112,6 +157,7 @@
     <defName>BirthSignTheLady</defName>
     <label>The Lady</label>
     <description>Born under the sign of The Lady, this person has enhanced social abilities and natural grace. The Lady grants bonuses to personality and willpower.</description>
+    <commonality>0.08</commonality>
     <degreeDatas>
       <li>
         <label>The Lady</label>
@@ -128,6 +174,20 @@
         </statOffsets>
       </li>
     </degreeDatas>
+    <conflictingTraits>
+      <li>BirthSignTheWarrior</li>
+      <li>BirthSignTheMage</li>
+      <li>BirthSignTheThief</li>
+      <li>BirthSignTheSerpent</li>
+      <li>BirthSignTheSteed</li>
+      <li>BirthSignTheLord</li>
+      <li>BirthSignTheApprentice</li>
+      <li>BirthSignTheAtronach</li>
+      <li>BirthSignTheRitual</li>
+      <li>BirthSignTheLover</li>
+      <li>BirthSignTheShadow</li>
+      <li>BirthSignTheTower</li>
+    </conflictingTraits>
   </TraitDef>
 
   <!-- The Steed Birth Sign -->
@@ -135,6 +195,7 @@
     <defName>BirthSignTheSteed</defName>
     <label>The Steed</label>
     <description>Born under the sign of The Steed, this person has enhanced speed and endurance. The Steed grants increased movement speed and stamina.</description>
+    <commonality>0.08</commonality>
     <degreeDatas>
       <li>
         <label>The Steed</label>
@@ -151,6 +212,20 @@
         </statOffsets>
       </li>
     </degreeDatas>
+    <conflictingTraits>
+      <li>BirthSignTheWarrior</li>
+      <li>BirthSignTheMage</li>
+      <li>BirthSignTheThief</li>
+      <li>BirthSignTheSerpent</li>
+      <li>BirthSignTheLady</li>
+      <li>BirthSignTheLord</li>
+      <li>BirthSignTheApprentice</li>
+      <li>BirthSignTheAtronach</li>
+      <li>BirthSignTheRitual</li>
+      <li>BirthSignTheLover</li>
+      <li>BirthSignTheShadow</li>
+      <li>BirthSignTheTower</li>
+    </conflictingTraits>
   </TraitDef>
 
   <!-- The Lord Birth Sign -->
@@ -158,6 +233,7 @@
     <defName>BirthSignTheLord</defName>
     <label>The Lord</label>
     <description>Born under the sign of The Lord, this person has enhanced durability and natural leadership. The Lord provides resistance to fire and increased health.</description>
+    <commonality>0.08</commonality>
     <degreeDatas>
       <li>
         <label>The Lord</label>
@@ -174,6 +250,20 @@
         </statOffsets>
       </li>
     </degreeDatas>
+    <conflictingTraits>
+      <li>BirthSignTheWarrior</li>
+      <li>BirthSignTheMage</li>
+      <li>BirthSignTheThief</li>
+      <li>BirthSignTheSerpent</li>
+      <li>BirthSignTheLady</li>
+      <li>BirthSignTheSteed</li>
+      <li>BirthSignTheApprentice</li>
+      <li>BirthSignTheAtronach</li>
+      <li>BirthSignTheRitual</li>
+      <li>BirthSignTheLover</li>
+      <li>BirthSignTheShadow</li>
+      <li>BirthSignTheTower</li>
+    </conflictingTraits>
   </TraitDef>
 
   <!-- The Apprentice Birth Sign -->
@@ -181,6 +271,7 @@
     <defName>BirthSignTheApprentice</defName>
     <label>The Apprentice</label>
     <description>Born under the sign of The Apprentice, this person has a natural affinity for magic but is vulnerable to magical attacks. Increased magicka but weakness to magic.</description>
+    <commonality>0.08</commonality>
     <degreeDatas>
       <li>
         <label>The Apprentice</label>
@@ -197,6 +288,20 @@
         </statOffsets>
       </li>
     </degreeDatas>
+    <conflictingTraits>
+      <li>BirthSignTheWarrior</li>
+      <li>BirthSignTheMage</li>
+      <li>BirthSignTheThief</li>
+      <li>BirthSignTheSerpent</li>
+      <li>BirthSignTheLady</li>
+      <li>BirthSignTheSteed</li>
+      <li>BirthSignTheLord</li>
+      <li>BirthSignTheAtronach</li>
+      <li>BirthSignTheRitual</li>
+      <li>BirthSignTheLover</li>
+      <li>BirthSignTheShadow</li>
+      <li>BirthSignTheTower</li>
+    </conflictingTraits>
   </TraitDef>
 
   <!-- The Atronach Birth Sign -->
@@ -204,6 +309,7 @@
     <defName>BirthSignTheAtronach</defName>
     <label>The Atronach</label>
     <description>Born under the sign of The Atronach, this person has massive magical potential but cannot regenerate it naturally. Spell absorption but inability to regenerate magicka.</description>
+    <commonality>0.08</commonality>
     <degreeDatas>
       <li>
         <label>The Atronach</label>
@@ -220,6 +326,20 @@
         </statOffsets>
       </li>
     </degreeDatas>
+    <conflictingTraits>
+      <li>BirthSignTheWarrior</li>
+      <li>BirthSignTheMage</li>
+      <li>BirthSignTheThief</li>
+      <li>BirthSignTheSerpent</li>
+      <li>BirthSignTheLady</li>
+      <li>BirthSignTheSteed</li>
+      <li>BirthSignTheLord</li>
+      <li>BirthSignTheApprentice</li>
+      <li>BirthSignTheRitual</li>
+      <li>BirthSignTheLover</li>
+      <li>BirthSignTheShadow</li>
+      <li>BirthSignTheTower</li>
+    </conflictingTraits>
   </TraitDef>
 
   <!-- The Ritual Birth Sign -->
@@ -227,6 +347,7 @@
     <defName>BirthSignTheRitual</defName>
     <label>The Ritual</label>
     <description>Born under the sign of The Ritual, this person has a natural connection to the undead and spiritual realm. Provides resistance to disease and enhanced restoration magic.</description>
+    <commonality>0.08</commonality>
     <degreeDatas>
       <li>
         <label>The Ritual</label>
@@ -243,6 +364,20 @@
         </statOffsets>
       </li>
     </degreeDatas>
+    <conflictingTraits>
+      <li>BirthSignTheWarrior</li>
+      <li>BirthSignTheMage</li>
+      <li>BirthSignTheThief</li>
+      <li>BirthSignTheSerpent</li>
+      <li>BirthSignTheLady</li>
+      <li>BirthSignTheSteed</li>
+      <li>BirthSignTheLord</li>
+      <li>BirthSignTheApprentice</li>
+      <li>BirthSignTheAtronach</li>
+      <li>BirthSignTheLover</li>
+      <li>BirthSignTheShadow</li>
+      <li>BirthSignTheTower</li>
+    </conflictingTraits>
   </TraitDef>
 
   <!-- The Lover Birth Sign -->
@@ -250,6 +385,7 @@
     <defName>BirthSignTheLover</defName>
     <label>The Lover</label>
     <description>Born under the sign of The Lover, this person has enhanced charm and social abilities. The Lover grants bonuses to personality and agility skills.</description>
+    <commonality>0.08</commonality>
     <degreeDatas>
       <li>
         <label>The Lover</label>
@@ -266,6 +402,20 @@
         </statOffsets>
       </li>
     </degreeDatas>
+    <conflictingTraits>
+      <li>BirthSignTheWarrior</li>
+      <li>BirthSignTheMage</li>
+      <li>BirthSignTheThief</li>
+      <li>BirthSignTheSerpent</li>
+      <li>BirthSignTheLady</li>
+      <li>BirthSignTheSteed</li>
+      <li>BirthSignTheLord</li>
+      <li>BirthSignTheApprentice</li>
+      <li>BirthSignTheAtronach</li>
+      <li>BirthSignTheRitual</li>
+      <li>BirthSignTheShadow</li>
+      <li>BirthSignTheTower</li>
+    </conflictingTraits>
   </TraitDef>
 
   <!-- The Shadow Birth Sign -->
@@ -273,6 +423,7 @@
     <defName>BirthSignTheShadow</defName>
     <label>The Shadow</label>
     <description>Born under the sign of The Shadow, this person excels in stealth and has natural invisibility abilities. Enhanced stealth skills and movement in darkness.</description>
+    <commonality>0.08</commonality>
     <degreeDatas>
       <li>
         <label>The Shadow</label>
@@ -289,6 +440,20 @@
         </statOffsets>
       </li>
     </degreeDatas>
+    <conflictingTraits>
+      <li>BirthSignTheWarrior</li>
+      <li>BirthSignTheMage</li>
+      <li>BirthSignTheThief</li>
+      <li>BirthSignTheSerpent</li>
+      <li>BirthSignTheLady</li>
+      <li>BirthSignTheSteed</li>
+      <li>BirthSignTheLord</li>
+      <li>BirthSignTheApprentice</li>
+      <li>BirthSignTheAtronach</li>
+      <li>BirthSignTheRitual</li>
+      <li>BirthSignTheLover</li>
+      <li>BirthSignTheTower</li>
+    </conflictingTraits>
   </TraitDef>
 
   <!-- The Tower Birth Sign -->
@@ -296,6 +461,7 @@
     <defName>BirthSignTheTower</defName>
     <label>The Tower</label>
     <description>Born under the sign of The Tower, this person has natural lock-picking abilities and enhanced security skills. The Tower grants the ability to open locks and enhanced dexterity.</description>
+    <commonality>0.08</commonality>
     <degreeDatas>
       <li>
         <label>The Tower</label>
@@ -312,5 +478,19 @@
         </statOffsets>
       </li>
     </degreeDatas>
+    <conflictingTraits>
+      <li>BirthSignTheWarrior</li>
+      <li>BirthSignTheMage</li>
+      <li>BirthSignTheThief</li>
+      <li>BirthSignTheSerpent</li>
+      <li>BirthSignTheLady</li>
+      <li>BirthSignTheSteed</li>
+      <li>BirthSignTheLord</li>
+      <li>BirthSignTheApprentice</li>
+      <li>BirthSignTheAtronach</li>
+      <li>BirthSignTheRitual</li>
+      <li>BirthSignTheLover</li>
+      <li>BirthSignTheShadow</li>
+    </conflictingTraits>
   </TraitDef>
 </Defs>
