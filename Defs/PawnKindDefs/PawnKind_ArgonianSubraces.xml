@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PawnKindDefs>
+
+  <!-- Saxhleel -->
+  <PawnKindDef>
+    <defName>ArgonianSaxhleelVillager</defName>
+    <label>saxhleel villager</label>
+    <race>ArgonianSaxhleel</race>
+    <defaultFactionType>SaxhleelVillagers</defaultFactionType>
+    <chemicalAddictionChance>0.02</chemicalAddictionChance>
+    <backstoryCategories>
+      <li>Civil</li>
+    </backstoryCategories>
+    <baseRecruitDifficulty>0.50</baseRecruitDifficulty>
+  </PawnKindDef>
+
+  <PawnKindDef>
+    <defName>ArgonianSaxhleelHistKeeper</defName>
+    <label>saxhleel hist keeper</label>
+    <race>ArgonianSaxhleel</race>
+    <defaultFactionType>HistKeepers</defaultFactionType>
+    <chemicalAddictionChance>0.01</chemicalAddictionChance>
+    <backstoryCategories>
+      <li>Civil</li>
+    </backstoryCategories>
+    <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
+    <apparelTags>
+      <li>HistKeepersApparel</li>
+    </apparelTags>
+    <weaponTags>
+      <li>HistKeepersWeapon</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <!-- Naga -->
+  <PawnKindDef>
+    <defName>ArgonianNagaWarrior</defName>
+    <label>naga warrior</label>
+    <race>ArgonianNaga</race>
+    <defaultFactionType>ThornscaleClan</defaultFactionType>
+    <chemicalAddictionChance>0.03</chemicalAddictionChance>
+    <backstoryCategories>
+      <li>Tribal</li>
+    </backstoryCategories>
+    <baseRecruitDifficulty>0.65</baseRecruitDifficulty>
+    <apparelTags>
+      <li>ThornscaleClanApparel</li>
+    </apparelTags>
+    <weaponTags>
+      <li>ThornscaleClanWeapon</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <!-- Sarpa -->
+  <PawnKindDef>
+    <defName>ArgonianSarpaTrader</defName>
+    <label>sarpa trader</label>
+    <race>ArgonianSarpa</race>
+    <defaultFactionType>BlackMarshTradingCompany</defaultFactionType>
+    <chemicalAddictionChance>0.02</chemicalAddictionChance>
+    <backstoryCategories>
+      <li>Civil</li>
+    </backstoryCategories>
+    <baseRecruitDifficulty>0.45</baseRecruitDifficulty>
+    <trader>true</trader>
+  </PawnKindDef>
+
+  <PawnKindDef>
+    <defName>ArgonianSarpaDiplomat</defName>
+    <label>sarpa diplomat</label>
+    <race>ArgonianSarpa</race>
+    <defaultFactionType>BlackMarshTradingCompany</defaultFactionType>
+    <chemicalAddictionChance>0.01</chemicalAddictionChance>
+    <backstoryCategories>
+      <li>Civil</li>
+    </backstoryCategories>
+    <baseRecruitDifficulty>0.70</baseRecruitDifficulty>
+    <trader>true</trader>
+  </PawnKindDef>
+
+  <!-- Agaceph -->
+  <PawnKindDef>
+    <defName>ArgonianAgacephScout</defName>
+    <label>agaceph scout</label>
+    <race>ArgonianAgaceph</race>
+    <defaultFactionType>GladeRunners</defaultFactionType>
+    <chemicalAddictionChance>0.02</chemicalAddictionChance>
+    <backstoryCategories>
+      <li>Tribal</li>
+    </backstoryCategories>
+    <baseRecruitDifficulty>0.55</baseRecruitDifficulty>
+    <apparelTags>
+      <li>GladeRunnersApparel</li>
+    </apparelTags>
+    <weaponTags>
+      <li>GladeRunnersWeapon</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <PawnKindDef>
+    <defName>ArgonianAgacephShadowscale</defName>
+    <label>agaceph shadowscale</label>
+    <race>ArgonianAgaceph</race>
+    <defaultFactionType>Shadowscales</defaultFactionType>
+    <chemicalAddictionChance>0.01</chemicalAddictionChance>
+    <backstoryCategories>
+      <li>Tribal</li>
+    </backstoryCategories>
+    <baseRecruitDifficulty>0.80</baseRecruitDifficulty>
+    <apparelTags>
+      <li>ShadowscalesApparel</li>
+    </apparelTags>
+    <weaponTags>
+      <li>ShadowscalesWeapon</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <!-- Paatru -->
+  <PawnKindDef>
+    <defName>ArgonianPaatruLaborer</defName>
+    <label>paatru laborer</label>
+    <race>ArgonianPaatru</race>
+    <defaultFactionType>SaxhleelVillagers</defaultFactionType>
+    <chemicalAddictionChance>0.01</chemicalAddictionChance>
+    <backstoryCategories>
+      <li>Civil</li>
+    </backstoryCategories>
+    <baseRecruitDifficulty>0.40</baseRecruitDifficulty>
+  </PawnKindDef>
+
+  <!-- Wamasu -->
+  <PawnKindDef>
+    <defName>ArgonianWamasuShaman</defName>
+    <label>wamasu shaman</label>
+    <race>ArgonianWamasu</race>
+    <defaultFactionType>RootWhisperTribe</defaultFactionType>
+    <chemicalAddictionChance>0.005</chemicalAddictionChance>
+    <backstoryCategories>
+      <li>Tribal</li>
+    </backstoryCategories>
+    <baseRecruitDifficulty>0.85</baseRecruitDifficulty>
+    <apparelTags>
+      <li>RootWhisperTribeApparel</li>
+    </apparelTags>
+    <weaponTags>
+      <li>RootWhisperTribeWeapon</li>
+    </weaponTags>
+  </PawnKindDef>
+
+</PawnKindDefs>
