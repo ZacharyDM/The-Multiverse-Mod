@@ -1,10 +1,22 @@
 # Human Race Ranged Weapon Textures
 
-This directory contains ranged weapon texture files for the human racial style system.
+This directory contains ranged weapon texture files for the human cultural style system.
 
 ## Directory Structure
 
 ### Imperial/
+- **Theme**: Refined Imperial craftsmanship with elegant details
+- **Files**: Bow.png, Revolver.png
+
+### Colovian/
+- **Theme**: Practical highland weapons with earth tones and martial design
+- **Files**: Bow.png, Revolver.png
+
+### Nibenese/
+- **Theme**: Sophisticated designs with magical elements and rich colors
+- **Files**: Bow.png, Revolver.png
+
+### ImperialLegion/
 - **Theme**: Standardized Legion ranged weapons with red and gold details
 - **Files**: Bow.png, Revolver.png
 
@@ -27,7 +39,10 @@ This directory contains ranged weapon texture files for the human racial style s
 
 ## Design Guidelines
 
-- Imperial: Military-standard construction with Legion markings
+- Imperial: Refined craftsmanship with balanced, elegant details
+- Colovian: Sturdy construction with practical, martial influences
+- Nibenese: Sophisticated designs with magical enhancements and rich colors
+- ImperialLegion: Military-standard construction with Legion markings
 - Breton: Refined craftsmanship with scholarly attention to detail
 - Nord: Robust hunting bows and firearms for harsh weather
 - Redguard: Elegant curved designs adapted for desert conditions

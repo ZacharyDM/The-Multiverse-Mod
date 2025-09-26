@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <!-- Imperial Building Style -->
+  <!-- Imperial Building Style - General Cyrodiil -->
   <StyleItemCategoryDef>
     <defName>Imperial_Buildings</defName>
     <label>Imperial buildings</label>
-    <description>Organized architectural style of the diplomatic Imperials, featuring red and gold Legion aesthetics with structured military designs and symbols of Imperial authority.</description>
+    <description>Refined architectural style of the Imperials, featuring elegant designs that blend practical functionality with imperial sophistication and quality craftsmanship.</description>
     <styleTags>
       <li>Imperial</li>
     </styleTags>
@@ -17,6 +17,65 @@
       <DiningChair>Things/Building/Furniture/HumanRaces/Imperial/Chair</DiningChair>
       <Campfire>Things/Building/Misc/HumanRaces/Imperial/Campfire</Campfire>
       <Torch>Things/Building/Misc/HumanRaces/Imperial/Torch</Torch>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Colovian Building Style - Western Cyrodiil -->
+  <StyleItemCategoryDef>
+    <defName>Colovian_Buildings</defName>
+    <label>Colovian buildings</label>
+    <description>Practical architecture of the Colovian highlands, featuring sturdy construction with earth tones and straightforward designs built for durability and function.</description>
+    <styleTags>
+      <li>Colovian</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Things/Building/Linked/HumanRaces/Colovian/Wall</Wall>
+      <Door>Things/Building/Door/HumanRaces/Colovian/Door</Door>
+      <Bed>Things/Building/Furniture/HumanRaces/Colovian/Bed</Bed>
+      <Table2x2c>Things/Building/Furniture/HumanRaces/Colovian/Table</Table2x2c>
+      <DiningChair>Things/Building/Furniture/HumanRaces/Colovian/Chair</DiningChair>
+      <Campfire>Things/Building/Misc/HumanRaces/Colovian/Campfire</Campfire>
+      <Torch>Things/Building/Misc/HumanRaces/Colovian/Torch</Torch>
+      <Stonecutting>Things/Building/Production/HumanRaces/Colovian/Stonecutting</Stonecutting>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Nibenese Building Style - Eastern Cyrodiil -->
+  <StyleItemCategoryDef>
+    <defName>Nibenese_Buildings</defName>
+    <label>Nibenese buildings</label>
+    <description>Sophisticated architecture of the Nibenese, featuring rich colors and elegant designs that reflect their cosmopolitan culture and magical traditions.</description>
+    <styleTags>
+      <li>Nibenese</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Things/Building/Linked/HumanRaces/Nibenese/Wall</Wall>
+      <Door>Things/Building/Door/HumanRaces/Nibenese/Door</Door>
+      <Bed>Things/Building/Furniture/HumanRaces/Nibenese/Bed</Bed>
+      <Table2x2c>Things/Building/Furniture/HumanRaces/Nibenese/Table</Table2x2c>
+      <DiningChair>Things/Building/Furniture/HumanRaces/Nibenese/Chair</DiningChair>
+      <Campfire>Things/Building/Misc/HumanRaces/Nibenese/Campfire</Campfire>
+      <Torch>Things/Building/Misc/HumanRaces/Nibenese/Torch</Torch>
+      <ResearchBench>Things/Building/Production/HumanRaces/Nibenese/ResearchBench</ResearchBench>
+    </thingDefStyles>
+  </StyleItemCategoryDef>
+
+  <!-- Imperial Legion Building Style - Military organization -->
+  <StyleItemCategoryDef>
+    <defName>ImperialLegion_Buildings</defName>
+    <label>Imperial Legion buildings</label>
+    <description>Organized architectural style of the Imperial Legion, featuring red and gold colors with structured military designs and symbols of Imperial authority.</description>
+    <styleTags>
+      <li>ImperialLegion</li>
+    </styleTags>
+    <thingDefStyles>
+      <Wall>Things/Building/Linked/HumanRaces/ImperialLegion/Wall</Wall>
+      <Door>Things/Building/Door/HumanRaces/ImperialLegion/Door</Door>
+      <Bed>Things/Building/Furniture/HumanRaces/ImperialLegion/Bed</Bed>
+      <Table2x2c>Things/Building/Furniture/HumanRaces/ImperialLegion/Table</Table2x2c>
+      <DiningChair>Things/Building/Furniture/HumanRaces/ImperialLegion/Chair</DiningChair>
+      <Campfire>Things/Building/Misc/HumanRaces/ImperialLegion/Campfire</Campfire>
+      <Torch>Things/Building/Misc/HumanRaces/ImperialLegion/Torch</Torch>
     </thingDefStyles>
   </StyleItemCategoryDef>
 
