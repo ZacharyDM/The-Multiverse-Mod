@@ -41,107 +41,77 @@ The military subfaction with restrictions based on practical military considerat
 
 ## Imperial Legion Rank System
 
-Based on the Morrowind Imperial Legion ranks with additional authentic ranks from other Elder Scrolls games and Roman military tradition.
+Based strictly on canonical Elder Scrolls ranks from Morrowind and Skyrim, organized into two distinct branches with proper hierarchy.
 
-### Entry Level Ranks
+### Branch 1: Standard Legionary Forces
 1. **Recruit** - New enlistees undergoing basic training
 2. **Spearman** - Basic infantry trained in formation combat
 3. **Trooper** - Standard legionnaires competent in all basic skills
-
-### Specialist Ranks
 4. **Agent** - Intelligence and investigation specialists
-5. **Champion** - Elite warriors serving as examples to others
+5. **Champion** - Elite warriors, pinnacle of standard legionary forces
 
-### Non-Commissioned Officers
-6. **Sergeant** - Squad leaders and trainers
-7. **Centurion** - Century commanders (80-100 soldiers)
-8. **Optio** - Centurion's second-in-command
-9. **Primus Pilus** - Senior centurion, most experienced NCO
+### Branch 2: Order of Knights (Higher ranking than legionary forces)
+6. **Knight Errant** - Newly commissioned knights beginning their journey
+7. **Knight Bachelor** - Established knights who have proven their worth
+8. **Knight Protector** - Senior knights protecting Imperial interests
+9. **Knight of the Imperial Dragon** - High-ranking knights under the Dragon banner
+10. **Knight of the Garland** - Highest knighthood rank, honored with the Garland
 
-### Commissioned Officers  
-10. **Knight** - Commissioned officers granted knighthood
-11. **Captain** - Company commanders (100-200 soldiers)
-12. **Tribune** - Strategic commanders of multiple centuries
+### Supreme Leadership
+11. **Legate** - Regional commanders of Legion forces (from Skyrim)
+12. **Commander of the Imperial Legion** - Supreme faction leader
 
-### Senior Command
-13. **Quaestor** - Administrative officers handling logistics
-14. **Praefect** - Regional military commanders
-15. **Praetor** - Military magistrates with civilian authority
-16. **Legate** - Legion commanders (thousands of soldiers)
-
-### Supreme Command
-17. **General** - Multi-legion commanders
-18. **Field Marshal** - Theater commanders, highest rank below Emperor
-
-### Special Positions
-19. **Signifer** - Standard-bearers maintaining unit cohesion
-20. **Aquilifer** - Elite standard-bearers carrying the golden eagle
+### Support Personnel
+13. **Auxiliary** - Militia and support personnel (from Skyrim)
 
 ## Trait System
 
-The Imperial Legion features an upgradable trait system that provides progressive benefits as characters advance through the ranks.
+The Imperial Legion features a restructured trait system organized into distinct branches that reflect the canonical Elder Scrolls hierarchy.
 
-### Imperial Legion Recruit
-- **Focus**: Basic military training and discipline
-- **Skills**: Melee +1, Shooting +1, Construction +1
-- **Bonuses**: Slight mental resilience improvement
-- **Progression**: Entry-level trait for new legionnaires
+### Imperial Legion Legionary (Branch 1: Standard Forces)
+- **Focus**: Traditional military progression through legionary ranks
+- **Skills**: Melee, Shooting, Construction, Social (progressive increases)
+- **Bonuses**: Combat effectiveness, mental resilience, work efficiency
+- **Progression**: Recruit → Spearman → Trooper → Agent → Champion (5 degrees)
 
-### Imperial Legion Enlisted
-- **Focus**: Trained infantry skills and basic military competence
-- **Skills**: Melee +2-3, Shooting +2-3, Construction +2, Social +1
-- **Bonuses**: Combat accuracy, mental resilience
-- **Progression**: Spearman → Trooper (2 degrees)
+### Imperial Legion Knight (Branch 2: Order of Knights - Higher Status)
+- **Focus**: Elite knighthood with noble bearing and advanced combat skills
+- **Skills**: High Social and Intellectual skills, superior combat abilities
+- **Bonuses**: Superior social impact, trade benefits, research bonuses, enhanced combat
+- **Progression**: Knight Errant → Knight Bachelor → Knight Protector → Knight of the Imperial Dragon → Knight of the Garland (5 degrees)
 
-### Imperial Legion Specialist
-- **Focus**: Specialized roles requiring advanced training
-- **Skills**: Variable based on specialization (Agent vs Champion)
-- **Bonuses**: Role-specific bonuses (investigation vs combat)
-- **Progression**: Agent → Champion (2 degrees)
-
-### Imperial Legion Non-Commissioned
-- **Focus**: Leadership and tactical command
-- **Skills**: Social +4-5, balanced combat and technical skills
-- **Bonuses**: Leadership abilities, combat effectiveness, work efficiency
-- **Progression**: Sergeant → Centurion (2 degrees)
-
-### Imperial Legion Commissioned
-- **Focus**: Officer leadership and strategic thinking
-- **Skills**: High social and intellectual skills, strong combat abilities
-- **Bonuses**: Superior social impact, trade benefits, combat effectiveness
-- **Progression**: Knight → Captain (2 degrees)
-
-### Imperial Legion Senior
-- **Focus**: Strategic command and regional authority
-- **Skills**: Exceptional across all areas, emphasis on leadership and intellect
-- **Bonuses**: Research speed, superior combat and social abilities
-- **Progression**: Tribune → Legate (2 degrees)
-
-### Imperial Legion Supreme
-- **Focus**: Grand strategic command and theater operations
-- **Skills**: Mastery across all skill areas
+### Imperial Legion Leadership (Supreme Command)
+- **Focus**: Regional and supreme military command
+- **Skills**: Mastery across all skill areas with emphasis on leadership
 - **Bonuses**: Legendary combat stats, supreme leadership, enhanced mobility
-- **Progression**: General → Field Marshal (2 degrees)
+- **Progression**: Legate → Commander of the Imperial Legion (2 degrees)
 
-### Imperial Legion Special Position
-- **Focus**: Specialized roles with unique responsibilities
-- **Skills**: Role-specific skill distributions
-- **Bonuses**: Position-specific benefits (morale, honor, experience)
-- **Progression**: Signifer → Aquilifer → Primus Pilus (3 degrees)
+### Imperial Legion Auxiliary (Support Personnel)
+- **Focus**: Support roles and militia assistance
+- **Skills**: Basic combat and construction skills
+- **Bonuses**: Work efficiency, basic mental resilience
+- **Progression**: Single tier - Auxiliary
 
 ## Lore Accuracy
 
-The Imperial Legion system faithfully represents Elder Scrolls lore:
+The Imperial Legion system now strictly adheres to canonical Elder Scrolls lore:
 
-### Morrowind Foundation
-- **Rank Names**: Based directly on Morrowind Imperial Legion ranks
-- **Progression**: Follows the established advancement system
-- **Cultural Integration**: Reflects the Legion's role in Morrowind
+### Canonical Rank Structure
+- **Morrowind Ranks**: All 10 canonical Imperial Legion ranks from Morrowind are included exactly as they appear in the game
+- **Skyrim Integration**: Includes Legate (regional commander) and Auxiliary (militia support) from Skyrim
+- **Two-Branch System**: Separates standard legionary forces from the prestigious knightly order, reflecting the hierarchical nature shown in lore
+- **Supreme Leadership**: Commander of the Imperial Legion represents the highest canonical authority
 
-### Cross-Game Integration
-- **Additional Ranks**: Incorporates ranks from Oblivion, Skyrim, and ESO
-- **Roman Influence**: Maintains the historical Roman military inspiration
-- **Authentic Terminology**: Uses proper Latin military terms where appropriate
+### Removed Non-Canonical Elements
+- **Roman-Specific Ranks**: Removed Centurion, Optio, Primus Pilus, Tribune, Quaestor, Praefect, Praetor (Roman military ranks not present in Elder Scrolls)
+- **Modern Military Ranks**: Removed General, Field Marshal (anachronistic for Elder Scrolls setting)
+- **Roman Standards**: Removed Signifer, Aquilifer (Roman standard-bearer positions not in Elder Scrolls lore)
+
+### Authentic Hierarchy
+- **Standard Forces**: Recruit through Champion represent the traditional legionary path
+- **Knightly Order**: Five degrees of knighthood (Errant, Bachelor, Protector, Imperial Dragon, Garland) reflect medieval-fantasy nobility
+- **Clear Separation**: Knights outrank standard legionaries, maintaining proper social hierarchy
+- **Faction Leadership**: Commander of the Imperial Legion as the ultimate authority below the Emperor
 
 ### Racial Inclusivity
 - **Empire Philosophy**: Reflects the Empire's inclusive approach to citizenship
@@ -157,9 +127,9 @@ Defs/
 │   └── ImperialFactions.xml           # Empire of Cyrodiil and Imperial Legion
 ├── RankDefs/RankDefs_Imperial/
 │   └── RankDefs_ImperialLegion/
-│       └── RankDefs_ImperialLegion.xml # 20 distinct legion ranks
+│       └── RankDefs_ImperialLegion.xml # 13 canonical legion ranks in two branches
 └── TraitDefs/
-    └── ImperialLegionRanks.xml        # 6 progressive trait categories
+    └── ImperialLegionRanks.xml        # 4 trait categories representing branches
 ```
 
 ### Integration Notes
