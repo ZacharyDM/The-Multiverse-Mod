@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Bosmer Style Categories -->
+
+  <!-- Tree Dancer Style - Grahtwood canopy dwellers -->
+  <StyleCategoryDef>
+    <defName>TreeDancerStyle</defName>
+    <label>Tree Dancer</label>
+    <description>The Tree Dancer style reflects the graceful, acrobatic culture of Grahtwood's canopy cities, featuring flowing lines, leaf motifs, and earth-tone colors that blend seamlessly with the forest canopy.</description>
+    <priority>20</priority>
+    <color>(0.4, 0.6, 0.3)</color>
+  </StyleCategoryDef>
+
+  <!-- Wild Hunt Style - Falinesti followers -->
+  <StyleCategoryDef>
+    <defName>WildHuntStyle</defName>
+    <label>Wild Hunt</label>
+    <description>The Wild Hunt style embodies the primal, savage energy of the legendary transformation, with angular designs, claw-like elements, and darker forest tones that evoke the wild nature within.</description>
+    <priority>19</priority>
+    <color>(0.3, 0.4, 0.2)</color>
+  </StyleCategoryDef>
+
+  <!-- Green Pact Style - Nature purists -->
+  <StyleCategoryDef>
+    <defName>GreenPactStyle</defName>
+    <label>Green Pact</label>
+    <description>The Green Pact style represents strict adherence to Y'ffre's covenant, using only animal products and stone, with designs that honor the natural world without harming plant life.</description>
+    <priority>18</priority>
+    <color>(0.5, 0.3, 0.2)</color>
+  </StyleCategoryDef>
+
+  <!-- Silvenar Style - Diplomatic tree-speakers -->
+  <StyleCategoryDef>
+    <defName>SilvenarStyle</defName>
+    <label>Silvenar</label>
+    <description>The Silvenar style reflects the diplomatic and mystical nature of the tree-speakers, featuring elegant flowing designs, subtle enchantments, and sophisticated color schemes.</description>
+    <priority>17</priority>
+    <color>(0.6, 0.7, 0.5)</color>
+  </StyleCategoryDef>
+
+  <!-- Mane's Guard Style - Khajiit-allied Bosmer -->
+  <StyleCategoryDef>
+    <defName>ManesGuardStyle</defName>
+    <label>Mane's Guard</label>
+    <description>The Mane's Guard style blends Bosmer forest aesthetics with Khajiit influences, creating a unique cross-cultural design featuring curved lines and warm colors.</description>
+    <priority>16</priority>
+    <color>(0.7, 0.5, 0.3)</color>
+  </StyleCategoryDef>
+
+  <!-- Woodhearth Style - Trading settlement culture -->
+  <StyleCategoryDef>
+    <defName>WoodhearthStyle</defName>
+    <label>Woodhearth</label>
+    <description>The Woodhearth style represents the cosmopolitan trading culture, blending traditional Bosmer elements with foreign influences from merchants and travelers.</description>
+    <priority>15</priority>
+    <color>(0.5, 0.5, 0.4)</color>
+  </StyleCategoryDef>
+
+  <!-- Haven Style - Coastal settlement culture -->
+  <StyleCategoryDef>
+    <defName>HavenStyle</defName>
+    <label>Haven</label>
+    <description>The Haven style combines forest traditions with coastal influences, featuring wave-like patterns, blue-green colors, and designs that reflect both sea and forest.</description>
+    <priority>14</priority>
+    <color>(0.4, 0.5, 0.6)</color>
+  </StyleCategoryDef>
+
+</Defs>

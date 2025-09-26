@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Bosmer Religious Thoughts -->
+
+  <!-- Green Pact Observance Thoughts -->
+  <ThoughtDef>
+    <defName>HarmedPlant_Guilt</defName>
+    <durationDays>8</durationDays>
+    <stages>
+      <li>
+        <label>violated the Green Pact</label>
+        <description>I broke Y'ffre's sacred covenant by harming plant life. The forest spirits must be angry with me.</description>
+        <baseMoodEffect>-12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>HelpedAnimal_Satisfaction</defName>
+    <durationDays>5</durationDays>
+    <stages>
+      <li>
+        <label>helped forest creature</label>
+        <description>I aided one of the forest's children, strengthening the natural bond between all living things.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Wild Hunt Thoughts -->
+  <ThoughtDef>
+    <defName>KilledPredator_Satisfaction</defName>
+    <durationDays>6</durationDays>
+    <stages>
+      <li>
+        <label>proved dominance over predator</label>
+        <description>I showed my place at the top of the food chain by defeating a dangerous predator. The wild spirit within me is satisfied.</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>FledFromPredator_Shame</defName>
+    <durationDays>7</durationDays>
+    <stages>
+      <li>
+        <label>fled like prey</label>
+        <description>I ran from a fight like a coward. The Hunt within me is ashamed of my weakness.</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Hircine Devotion Thoughts -->
+  <ThoughtDef>
+    <defName>HuntedSuccessfully_Satisfaction</defName>
+    <durationDays>4</durationDays>
+    <stages>
+      <li>
+        <label>successful hunt</label>
+        <description>I proved my skill as a hunter worthy of Hircine's attention. The thrill of the chase fills me with pride.</description>
+        <baseMoodEffect>9</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>FailedHunt_Disappointment</defName>
+    <durationDays>5</durationDays>
+    <stages>
+      <li>
+        <label>failed the hunt</label>
+        <description>My prey escaped and I have disappointed the Lord of the Hunt. I must do better next time.</description>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Forest Protection Thoughts -->
+  <ThoughtDef>
+    <defName>DefendedForest_Pride</defName>
+    <durationDays>6</durationDays>
+    <stages>
+      <li>
+        <label>defended sacred forest</label>
+        <description>I stood up to protect the forest from those who would harm it. Y'ffre would be proud of my devotion.</description>
+        <baseMoodEffect>11</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>ForestDestroyed_Grief</defName>
+    <durationDays>10</durationDays>
+    <stages>
+      <li>
+        <label>forest lands destroyed</label>
+        <description>Sacred woodland was destroyed and I could not prevent it. The spirits of the trees cry out in anguish.</description>
+        <baseMoodEffect>-15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- General Bosmer Nature Connection Thoughts -->
+  <ThoughtDef>
+    <defName>SleptUnderStars_Bosmer</defName>
+    <durationDays>3</durationDays>
+    <stages>
+      <li>
+        <label>slept under stars</label>
+        <description>I slept beneath the open sky, connected to the natural world as my ancestors did. This is how Bosmer should live.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>AteWildMeat_Bosmer</defName>
+    <durationDays>2</durationDays>
+    <stages>
+      <li>
+        <label>ate wild game</label>
+        <description>I consumed meat from a creature that lived free in the wild. This connects me to the ancient ways of the hunt.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>UsedYewBow_Bosmer</defName>
+    <durationDays>2</durationDays>
+    <stages>
+      <li>
+        <label>used yew bow</label>
+        <description>I wielded a bow made from sacred yew wood. The weapon felt perfect in my hands, as if blessed by Y'ffre himself.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

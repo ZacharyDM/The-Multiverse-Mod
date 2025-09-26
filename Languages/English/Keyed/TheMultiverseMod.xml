@@ -154,4 +154,110 @@
   <Shein_Description>An elegant wine-like beverage favored by Dunmer nobility and the upper classes. Shein has a complex, refined flavor and is often served during formal occasions.</Shein_Description>
 
   <!-- Add more keys for things like item names, race names, faction names, etc. -->
+
+  <!-- Bosmer Cultural Traits -->
+  <TreeDancerHeritage_Label>Tree Dancer Heritage</TreeDancerHeritage_Label>
+  <TreeDancerHeritage_Description>This Bosmer comes from the Grahtwood canopy cities, where the Tree Dancers live in perfect harmony with the great trees.</TreeDancerHeritage_Description>
+  
+  <WildHuntHeritage_Label>Wild Hunt Heritage</WildHuntHeritage_Label>
+  <WildHuntHeritage_Description>This Bosmer descends from the followers of Falinesti, the walking city-tree, carrying the wild energy of the Hunt.</WildHuntHeritage_Description>
+  
+  <GreenPactPurist_Label>Green Pact Purist</GreenPactPurist_Label>
+  <GreenPactPurist_Description>This Bosmer is a strict adherent to the Green Pact made with Y'ffre, never harming plant life within Valenwood.</GreenPactPurist_Description>
+  
+  <SilvenarHeritage_Label>Silvenar Heritage</SilvenarHeritage_Label>
+  <SilvenarHeritage_Description>This Bosmer comes from the city of Silvenar, home to the mystical Silvenar who speaks for the trees.</SilvenarHeritage_Description>
+  
+  <ManesGuardHeritage_Label>Mane's Guard Heritage</ManesGuardHeritage_Label>
+  <ManesGuardHeritage_Description>This Bosmer serves as part of the elite guard protecting the Khajiit Mane, blending two cultures.</ManesGuardHeritage_Description>
+  
+  <WoodhearthHeritage_Label>Woodhearth Heritage</WoodhearthHeritage_Label>
+  <WoodhearthHeritage_Description>This Bosmer comes from Woodhearth, a major trading settlement serving as a hub for commerce.</WoodhearthHeritage_Description>
+  
+  <HavenHeritage_Label>Haven Heritage</HavenHeritage_Label>
+  <HavenHeritage_Description>This Bosmer comes from Haven, a coastal settlement where forest meets sea.</HavenHeritage_Description>
+
+  <!-- Bosmer Religious Memes -->
+  <YffreWorship_Label>Y'ffre Worship</YffreWorship_Label>
+  <YffreWorship_Description>Devotion to Y'ffre, the Forest God and creator of the Green Pact that binds all Bosmer.</YffreWorship_Description>
+  
+  <WildHuntCult_Label>Wild Hunt Cult</WildHuntCult_Label>
+  <WildHuntCult_Description>Worship of the primal Wild Hunt, the legendary transformation that allows Bosmer to become savage beasts.</WildHuntCult_Description>
+  
+  <HircineDevotionBosmer_Label>Hircine Devotion</HircineDevotionBosmer_Label>
+  <HircineDevotionBosmer_Description>Worship of Hircine, the Daedric Prince of the Hunt, particularly revered by some Bosmer.</HircineDevotionBosmer_Description>
+
+  <!-- Bosmer Religious Precepts -->
+  <GreenPactObservance_Label>Green Pact Observance</GreenPactObservance_Label>
+  <GreenPactObservance_Description>Followers of Y'ffre must honor the Green Pact by never harming plant life within Valenwood.</GreenPactObservance_Description>
+  
+  <WildTransformation_Label>Wild Transformation</WildTransformation_Label>
+  <WildTransformation_Description>The Wild Hunt represents the ultimate expression of Bosmer nature.</WildTransformation_Description>
+  
+  <HuntMastery_Label>Hunt Mastery</HuntMastery_Label>
+  <HuntMastery_Description>Hircine demands that his followers perfect their hunting skills and show respect for worthy prey.</HuntMastery_Description>
+  
+  <ForestProtection_Label>Forest Protection</ForestProtection_Label>
+  <ForestProtection_Description>The forest is sacred and must be protected from those who would harm it.</ForestProtection_Description>
+
+  <!-- Bosmer Religious Thoughts -->
+  <HarmedPlant_Guilt_Label>violated the Green Pact</HarmedPlant_Guilt_Label>
+  <HarmedPlant_Guilt_Description>I broke Y'ffre's sacred covenant by harming plant life.</HarmedPlant_Guilt_Description>
+  
+  <HelpedAnimal_Satisfaction_Label>helped forest creature</HelpedAnimal_Satisfaction_Label>
+  <HelpedAnimal_Satisfaction_Description>I aided one of the forest's children, strengthening the natural bond.</HelpedAnimal_Satisfaction_Description>
+  
+  <KilledPredator_Satisfaction_Label>proved dominance over predator</KilledPredator_Satisfaction_Label>
+  <KilledPredator_Satisfaction_Description>I showed my place at the top of the food chain.</KilledPredator_Satisfaction_Description>
+  
+  <FledFromPredator_Shame_Label>fled like prey</FledFromPredator_Shame_Label>
+  <FledFromPredator_Shame_Description>I ran from a fight like a coward.</FledFromPredator_Shame_Description>
+  
+  <HuntedSuccessfully_Satisfaction_Label>successful hunt</HuntedSuccessfully_Satisfaction_Label>
+  <HuntedSuccessfully_Satisfaction_Description>I proved my skill as a hunter worthy of Hircine's attention.</HuntedSuccessfully_Satisfaction_Description>
+  
+  <FailedHunt_Disappointment_Label>failed the hunt</FailedHunt_Disappointment_Label>
+  <FailedHunt_Disappointment_Description>My prey escaped and I have disappointed the Lord of the Hunt.</FailedHunt_Disappointment_Description>
+  
+  <DefendedForest_Pride_Label>defended sacred forest</DefendedForest_Pride_Label>
+  <DefendedForest_Pride_Description>I stood up to protect the forest from those who would harm it.</DefendedForest_Pride_Description>
+  
+  <ForestDestroyed_Grief_Label>forest lands destroyed</ForestDestroyed_Grief_Label>
+  <ForestDestroyed_Grief_Description>Sacred woodland was destroyed and I could not prevent it.</ForestDestroyed_Grief_Description>
+
+  <!-- Valenwood Animals -->
+  <Spriggan_Label>spriggan</Spriggan_Label>
+  <Spriggan_Description>A mystical nature spirit that appears as a wooden humanoid covered in bark, moss, and leaves.</Spriggan_Description>
+  
+  <Minotaur_Label>minotaur</Minotaur_Label>
+  <Minotaur_Description>A powerful beast-man with the torso of a muscular humanoid and the head of a bull.</Minotaur_Description>
+  
+  <ValenwoodWildBoar_Label>wild boar</ValenwoodWildBoar_Label>
+  <ValenwoodWildBoar_Description>A fierce wild pig native to the forests of Valenwood.</ValenwoodWildBoar_Description>
+  
+  <ForestSpider_Label>forest spider</ForestSpider_Label>
+  <ForestSpider_Description>A large arachnid native to the deep forests of Valenwood.</ForestSpider_Description>
+  
+  <TimberWolf_Label>timber wolf</TimberWolf_Label>
+  <TimberWolf_Description>A large, intelligent wolf native to the forests of Valenwood.</TimberWolf_Description>
+
+  <!-- Valenwood Resources -->
+  <YewWood_Label>yew wood</YewWood_Label>
+  <YewWood_Description>Sacred wood from the ancient yew trees of Valenwood.</YewWood_Description>
+  
+  <WildGameMeat_Label>wild game meat</WildGameMeat_Label>
+  <WildGameMeat_Description>Fresh meat from wild forest animals hunted by Bosmer.</WildGameMeat_Description>
+  
+  <ForestHerbs_Label>forest herbs</ForestHerbs_Label>
+  <ForestHerbs_Description>A collection of medicinal and alchemical herbs gathered from the deep forests.</ForestHerbs_Description>
+  
+  <TreeSap_Label>tree sap</TreeSap_Label>
+  <TreeSap_Description>Sticky, amber-colored sap tapped from the great trees of Valenwood.</TreeSap_Description>
+  
+  <WovenFibers_Label>woven fibers</WovenFibers_Label>
+  <WovenFibers_Description>Textile fibers woven from forest plants and tree bark by skilled Bosmer crafters.</WovenFibers_Description>
+  
+  <SpiderSilk_Label>spider silk</SpiderSilk_Label>
+  <SpiderSilk_Description>Strong, flexible silk harvested from the large forest spiders of Valenwood.</SpiderSilk_Description>
+
 </LanguageData>

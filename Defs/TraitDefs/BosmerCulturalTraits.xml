@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Bosmer Cultural Traits -->
+
+  <!-- Tree Dancer Heritage - Grahtwood canopy dwellers -->
+  <TraitDef>
+    <defName>TreeDancerHeritage</defName>
+    <label>Tree Dancer Heritage</label>
+    <description>This Bosmer comes from the Grahtwood canopy cities, where the Tree Dancers live in perfect harmony with the great trees. Tree Dancers are master archers and acrobats who can move through the canopy with supernatural grace.</description>
+    <degreeDatas>
+      <li>
+        <label>Canopy Walker</label>
+        <description>Raised in the treetops of Grahtwood, this Bosmer has exceptional archery skills and unmatched agility in forest environments.</description>
+        <skillGains>
+          <Shooting>5</Shooting>
+          <Animals>3</Animals>
+          <Plants>3</Plants>
+          <Medicine>2</Medicine>
+        </skillGains>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.08</ShootingAccuracyPawn>
+          <MoveSpeed>0.25</MoveSpeed>
+          <MeleeHitChance>0.06</MeleeHitChance>
+          <WorkSpeedGlobal>0.08</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.3</biostatCpxFactor>
+    <exclusionTags>
+      <li>BosmerCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Wild Hunt Heritage - Falinesti followers -->
+  <TraitDef>
+    <defName>WildHuntHeritage</defName>
+    <label>Wild Hunt Heritage</label>
+    <description>This Bosmer descends from the followers of Falinesti, the walking city-tree. They carry the wild, primal energy of the Hunt and can tap into the savage transformation that defines Bosmer legend.</description>
+    <degreeDatas>
+      <li>
+        <label>Hunt Caller</label>
+        <description>Blessed with the wild energy of the Hunt, this Bosmer can channel primal fury in combat and has an innate understanding of predator and prey.</description>
+        <skillGains>
+          <Shooting>4</Shooting>
+          <Melee>4</Melee>
+          <Animals>4</Animals>
+          <Crafting>2</Crafting>
+        </skillGains>
+        <statOffsets>
+          <MeleeDamageAmount>0.12</MeleeDamageAmount>
+          <ShootingAccuracyPawn>0.06</ShootingAccuracyPawn>
+          <MentalBreakThreshold>-0.08</MentalBreakThreshold>
+          <MoveSpeed>0.2</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.35</biostatCpxFactor>
+    <exclusionTags>
+      <li>BosmerCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Green Pact Purist - Strict adherents to nature laws -->
+  <TraitDef>
+    <defName>GreenPactPurist</defName>
+    <label>Green Pact Purist</label>
+    <description>This Bosmer is a strict adherent to the Green Pact made with Y'ffre. They will never harm plant life within Valenwood and have developed exceptional skills with animals and alternative materials.</description>
+    <degreeDatas>
+      <li>
+        <label>Y'ffre's Sworn</label>
+        <description>Bound by the sacred Green Pact, this Bosmer has mastered animal husbandry and meat-based crafting while refusing to harm plants.</description>
+        <skillGains>
+          <Animals>6</Animals>
+          <Shooting>3</Shooting>
+          <Medicine>3</Medicine>
+          <Cooking>3</Cooking>
+        </skillGains>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+          <AnimalGatherYield>0.2</AnimalGatherYield>
+          <TradePriceImprovement>0.08</TradePriceImprovement>
+          <MoveSpeed>0.15</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.25</biostatCpxFactor>
+    <exclusionTags>
+      <li>BosmerCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Silvenar Heritage - Diplomatic tree-speakers -->
+  <TraitDef>
+    <defName>SilvenarHeritage</defName>
+    <label>Silvenar Heritage</label>
+    <description>This Bosmer comes from the city of Silvenar, home to the mystical Silvenar who speaks for the trees. They are natural diplomats and mediators, understanding both the forest and civilized society.</description>
+    <degreeDatas>
+      <li>
+        <label>Tree Speaker</label>
+        <description>Trained in the diplomatic arts of Silvenar, this Bosmer can speak with both nature and civilization, serving as a bridge between worlds.</description>
+        <skillGains>
+          <Social>5</Social>
+          <Intellectual>4</Intellectual>
+          <Plants>3</Plants>
+          <Artistic>2</Artistic>
+        </skillGains>
+        <statOffsets>
+          <SocialImpact>0.12</SocialImpact>
+          <TradePriceImprovement>0.1</TradePriceImprovement>
+          <ShootingAccuracyPawn>0.04</ShootingAccuracyPawn>
+          <NegotiationAbility>0.15</NegotiationAbility>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.3</biostatCpxFactor>
+    <exclusionTags>
+      <li>BosmerCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Mane's Guard Heritage - Khajiit-allied Bosmer -->
+  <TraitDef>
+    <defName>ManesGuardHeritage</defName>
+    <label>Mane's Guard Heritage</label>
+    <description>This Bosmer serves as part of the elite guard protecting the Khajiit Mane. They have learned Khajiit fighting techniques and diplomatic customs, creating a unique blend of cultures.</description>
+    <degreeDatas>
+      <li>
+        <label>Cross-Cultural Warrior</label>
+        <description>Trained in both Bosmer archery and Khajiit stealth techniques, this warrior serves as a bridge between the forest folk and the cat people.</description>
+        <skillGains>
+          <Shooting>4</Shooting>
+          <Melee>3</Melee>
+          <Social>3</Social>
+          <Animals>3</Animals>
+        </skillGains>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.06</ShootingAccuracyPawn>
+          <MeleeHitChance>0.05</MeleeHitChance>
+          <SocialImpact>0.08</SocialImpact>
+          <MoveSpeed>0.18</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.25</biostatCpxFactor>
+    <exclusionTags>
+      <li>BosmerCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Woodhearth Heritage - Trading settlement culture -->
+  <TraitDef>
+    <defName>WoodhearthHeritage</defName>
+    <label>Woodhearth Heritage</label>
+    <description>This Bosmer comes from Woodhearth, a major trading settlement that serves as a hub for commerce between Valenwood and the outside world. They are skilled merchants and crafters.</description>
+    <degreeDatas>
+      <li>
+        <label>Forest Trader</label>
+        <description>Raised in the bustling markets of Woodhearth, this Bosmer knows the value of both forest goods and foreign wares.</description>
+        <skillGains>
+          <Social>4</Social>
+          <Shooting>3</Shooting>
+          <Crafting>3</Crafting>
+          <Intellectual>3</Intellectual>
+        </skillGains>
+        <statOffsets>
+          <TradePriceImprovement>0.12</TradePriceImprovement>
+          <SocialImpact>0.1</SocialImpact>
+          <WorkSpeedGlobal>0.08</WorkSpeedGlobal>
+          <ShootingAccuracyPawn>0.04</ShootingAccuracyPawn>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.2</biostatCpxFactor>
+    <exclusionTags>
+      <li>BosmerCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <!-- Haven Heritage - Coastal settlement culture -->
+  <TraitDef>
+    <defName>HavenHeritage</defName>
+    <label>Haven Heritage</label>
+    <description>This Bosmer comes from Haven, a coastal settlement where forest meets sea. They have adapted traditional Bosmer skills to maritime environments and coastal trade.</description>
+    <degreeDatas>
+      <li>
+        <label>Coastal Hunter</label>
+        <description>Combining forest wisdom with coastal knowledge, this Bosmer is equally at home hunting in trees or fishing in waters.</description>
+        <skillGains>
+          <Shooting>4</Shooting>
+          <Animals>3</Animals>
+          <Social>3</Social>
+          <Cooking>2</Cooking>
+        </skillGains>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.06</ShootingAccuracyPawn>
+          <AnimalGatherYield>0.15</AnimalGatherYield>
+          <TradePriceImprovement>0.08</TradePriceImprovement>
+          <MoveSpeed>0.15</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <biostatCpxFactor>1.2</biostatCpxFactor>
+    <exclusionTags>
+      <li>BosmerCulture</li>
+    </exclusionTags>
+  </TraitDef>
+
+</Defs>
